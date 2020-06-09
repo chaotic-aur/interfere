@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+sed -i'' 's/depends=.wf-config/depends=\(wf-config-git/g' PKGBUILD
