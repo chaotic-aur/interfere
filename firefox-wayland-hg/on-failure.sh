@@ -2,5 +2,5 @@
 [ -f ../firefox-wayland-hg.log ] && \
 telegram-send \
 	--config ~/.config/telegram-send-group.conf \
-	--sile "[BOT ALERT] @thotypous your package \"firefox-wayland-hg\" build failed, here's the log: " \
+	--sile "Ohayo @thotypous-senpai \"fiwefox-waywand-hg\" buiwd faiwed, hewe's the wog:" \
 	-f ../firefox-wayland-hg.log

@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-sed -i'' 's/granite-git/granite/g;s/switchboard-git/switchboard/g' PKGBUILD
+sed -i'' 's/makedepends=\(/makedepends=(granite-git switchboard-git /' PKGBUILD
