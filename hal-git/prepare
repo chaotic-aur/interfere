@@ -1,3 +1,0 @@
-#!/usr/bin/env sh
-cp ${_INTERFERE}/0001-Fix-incomplete-build-type-error.patch .
-sed -rzi 's,prepare\(\) \{[^}]+,\0\tpatch -Np1 -i ../../0001-Fix-incomplete-build-type-error.patch\n,' PKGBUILD
