@@ -1,0 +1,2 @@
+#!/usr/bin/sh
+sed -i 's/unity=false/unity=disabled/g' PKGBUILD

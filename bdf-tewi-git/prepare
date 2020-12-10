@@ -1,0 +1,3 @@
+# /bin/sh
+
+sed -i 's/\xorg-font-utils/xorg-font-util/g' PKGBUILD

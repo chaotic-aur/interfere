@@ -1,0 +1,1 @@
+depends+=('kidletime' 'kscreenlocker' 'xorg-server-xwayland' 'qt5-quickcontrols')

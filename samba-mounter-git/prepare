@@ -1,0 +1,1 @@
+sed -i 's/git:/git+https:/g' PKGBUILD

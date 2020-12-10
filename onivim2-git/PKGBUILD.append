@@ -1,0 +1,7 @@
+makedepends+=(node-gyp python clang fuse3 fuse2)
+
+prepare() {
+	cd $pkgname/scripts/linux
+
+	sed -i'' 's/rm _release/rm -f _release/g' package-linux.sh
+}

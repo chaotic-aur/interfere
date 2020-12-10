@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+
+sed -i 's/libxfce4ui/libxfce4ui-git' PKGBUILD
