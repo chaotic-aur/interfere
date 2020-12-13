@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-export TARGET_ARGS="--nocheck $TARGET_ARGS"
+export TARGET_ARGS="--nocheck ${TARGET_ARGS:-}"
