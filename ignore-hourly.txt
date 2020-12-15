@@ -175,6 +175,8 @@ spirv-tools-tkg-git
 timetable-git
 ungoogled-chromium
 ungoogled-chromium-git
+vkd3d-proton-tkg-git
+vkd3d-tkg-git
 vlc-git
 vulkan-headers-git
 vulkan-headers-tkg-git
