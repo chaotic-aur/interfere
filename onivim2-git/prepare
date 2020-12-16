@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-export TARGET_RUN="$TARGET_RUN --bind=/dev/fuse"
+export TARGET_RUN="${TARGET_RUN:-} --bind=/dev/fuse"
