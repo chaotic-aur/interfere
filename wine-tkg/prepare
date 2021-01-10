@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+sed -i'' 's/\$_where\/\.\.\/\.\./\$HOME/g' wine-tkg-scripts/prepare.sh
