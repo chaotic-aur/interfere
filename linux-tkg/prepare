@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+sed -i'' -e '/CONFIG_ION\=.*$/a echo "CONFIG_ION_CMA_HEAP=n" >> ./.config' linux-tkg-config/prepare
