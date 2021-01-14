@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+sed -i'' 's/arch-meson "${pkgname}" build/arch-meson "${pkgname}" build -Dsd-bus-provider=libsystemd/g' PKGBUILD
