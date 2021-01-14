@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+sed -i'' -r 's,./configure ,./configure --disable-dahdi ,' PKGBUILD
