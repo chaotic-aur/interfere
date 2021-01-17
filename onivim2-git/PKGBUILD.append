@@ -2,6 +2,6 @@ makedepends+=(python clang fuse3 perl unzip libxkbfile )
 
 prepare() {
 	cd $pkgname/scripts/linux
-
+  export PATH=/usr/bin/core_perl:$PATH
 	sed -i'' 's/rm _release/rm -f _release/g' package-linux.sh
 }
