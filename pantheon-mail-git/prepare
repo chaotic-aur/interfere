@@ -1,3 +1,0 @@
-#!/usr/bin/sh
-
-sed -i 's/granite-git/granite/g' PKGBUILD

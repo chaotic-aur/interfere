@@ -1,4 +1,4 @@
-makedepends+=(node-gyp python clang fuse3 fuse2)
+makedepends+=(python clang fuse3 perl unzip libxkbfile )
 
 prepare() {
 	cd $pkgname/scripts/linux

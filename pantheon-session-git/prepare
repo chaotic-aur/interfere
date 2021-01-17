@@ -1,5 +1,0 @@
-#!/usr/bin/sh
-
-sed -i 's/wingpanel-git/wingpanel/g' PKGBUILD
-sed -i 's/granite-git/granite/g' PKGBUILD
-sed -i 's/gconf/onboard/g' PKGBUILD
