@@ -1,2 +1,3 @@
 #!/usr/bin/env sh
-export TARGET_ARGS="CFLAGS=\"\" CXXFLAGS=\"\" ${TARGET_ARGS:-}"
+NEW_CFLAGS='-O2 -march=nocona $(call cc-option,$(CC),-mtune=core-avx2,)'
+export TARGET_ARGS="CFLAGS=\"$NEW_CFLAGS\" CXXFLAGS=\"$NEW_CFLAGS\" ${TARGET_ARGS:-}"
