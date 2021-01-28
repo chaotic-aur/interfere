@@ -1,3 +1,0 @@
-makedepends+=(meson graphene)
-depends+=(gsettings-desktop-schemas-git)
-depends-=(gsettings-desktop-schemas)
