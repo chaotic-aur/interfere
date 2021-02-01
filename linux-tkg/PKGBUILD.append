@@ -1,2 +1,0 @@
-makedepends+=('ccache')
-export SOURCE_DATE_EPOCH=0
