@@ -1,0 +1,2 @@
+makedepends+=('extra-cmake-modules-git')
+makedepends-=('extra-cmake-modules')
