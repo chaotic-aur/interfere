@@ -6,5 +6,3 @@ else
 	echo 'This ocean looks dry'
 	exit 17
 fi
-mv /etc/pacman.conf.pacsave /etc/pacman.conf
-mv /etc/makepkg.conf.pacsave /etc/makepkg.conf
