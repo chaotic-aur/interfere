@@ -1,3 +1,0 @@
-#!/usr/bin/env sh
-
-sed -i'' 's/DXDG/DDISABLE_ADVANCE_SIMD=ON -DXDG/g' PKGBUILD

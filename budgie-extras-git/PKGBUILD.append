@@ -1,2 +1,0 @@
-makedepends+=(intltool cmake libgee granite appstream zeitgeist libhandy)
-depends+=(plank)

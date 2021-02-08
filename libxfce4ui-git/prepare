@@ -1,2 +1,0 @@
-#!/usr/bin/env sh
-sed -i'' 's/libxfce4util/libxfce4util-git/g;s/\.\/configure/\.\/configure --enable-maintainer-mode/' PKGBUILD

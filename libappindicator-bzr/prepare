@@ -1,2 +1,0 @@
-#!/usr/bin/env sh
-sed -i'' -r 's/make (.*) install/make \1 -j1 install/g' PKGBUILD

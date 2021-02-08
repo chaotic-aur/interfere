@@ -1,2 +1,0 @@
-depends+=('lib32-dbus')
-makedepends+=('ninja')

@@ -1,1 +1,0 @@
-depends+=(talloc libusb lksctp-tools)
