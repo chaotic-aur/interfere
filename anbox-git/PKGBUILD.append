@@ -1,6 +1,1 @@
 depends+=('libdwarf')
-makedepends+=('gmock')
-prepare() {
-	cd "anbox"
-	git submodule update --init --remote
-}

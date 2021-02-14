@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+cat >disable-cpu_features-install.patch <<'EOF'
+diff --git a/external/CMakeLists.txt b/external/CMakeLists.txt
+index f677aa0..d50f1a6 100644
+--- a/external/CMakeLists.txt
++++ b/external/CMakeLists.txt
+@@ -5,7 +5,7 @@ add_subdirectory(backward-cpp)
+
+ set(BUILD_TESTING OFF)
+ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wno-error")
+-add_subdirectory(cpu_features)
++add_subdirectory(cpu_features EXCLUDE_FROM_ALL)
+ include(ExternalProject)
+ ExternalProject_Add(sdbus-cpp
+   PREFIX sdbus-cpp
+EOF
+sed -i'' 's/git submodule update/git submodule update; patch -p1 -i "$srcdir\/disable-cpu_features-install.patch"/' PKGBUILD
