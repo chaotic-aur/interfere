@@ -1,4 +1,5 @@
 makedepends+=('qt5-tools' 'qt5-doc' 'doxygen')
+source=("git+https://github.com/KDE/${pkgname%-git}.git")
 
 pkgver() {
   cd ${pkgname%-git}
