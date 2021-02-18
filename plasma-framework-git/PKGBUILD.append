@@ -1,0 +1,1 @@
+makedepends+=(kdeclarative-git kwayland-git)
