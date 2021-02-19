@@ -1,1 +1,1 @@
-depends+=(airspyhf airspy)
+depends+=(airspyhf-git airspy-git)
