@@ -1,0 +1,1 @@
+pkgver() {   cd $_pkgname   _ver="$(cat CMakeLists.txt | grep -m1 'set(PROJECT_VERSION' | cut -d '"' -f2 | tr - .)"   echo "${_ver}.r$(git rev-list --count HEAD).g$(git rev-parse --short HEAD)" }
