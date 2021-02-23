@@ -1,1 +1,10 @@
-depends+=(airspyhf-git airspy-git)
+source=('git+https://github.com/AlexandreRouma/SDRPlusPlus')
+md5sums=('SKIP')
+depends+=(airspyhf-git airspy-git rtaudio)
+pkgver() {
+  cd "SDRPlusPlus"
+  printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
+prepare() {
+  true
+}
