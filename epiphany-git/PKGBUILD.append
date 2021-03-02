@@ -1,0 +1,2 @@
+depends=(webkit2gtk-unstable gcr libdazzle libhandy-git)
+makedepends+=(cmake libportal)
