@@ -2,5 +2,5 @@
 [ -f ../firedragon.log ] && \
 telegram-send \
 	--config ~/.config/telegram-send-group.conf \
-	--sile "Automated 🔥🐉 build failed, logs attached: " \
-	-f ../firefox-wayland-hg.log
+	--sile "Hey @dr460nf1r3 \"firedragon\" build failed, logs attached 🐉" \
+	-f ../firedragon.log
