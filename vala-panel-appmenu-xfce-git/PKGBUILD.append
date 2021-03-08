@@ -1,1 +1,6 @@
-makedepends=(gobject-introspection cmake budgie-desktop meson vala vala-panel)
+makedepends=(gobject-introspection cmake meson)
+
+_disable_mate=1
+_disable_xfce=0
+_disable_vala=1
+_disable_budgie=1
