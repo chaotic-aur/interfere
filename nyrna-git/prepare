@@ -3,5 +3,5 @@
 $CAUR_PUSH 'source /etc/profile'
 groupadd flutterusers
 gpasswd -a main-builder flutterusers
-chown -R :flutterusers /opt/flutter
+chown -R main-builder:flutterusers /opt/flutter
 chmod -R g+w /opt/flutter/
