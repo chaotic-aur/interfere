@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+$CAUR_PUSH 'source /etc/profile'
+$CAUR_PUSH groupadd flutterusers
+$CAUR_PUSH gpasswd -a main-builder flutterusers
+$CAUR_PUSH chown -R :flutterusers /opt/flutter
+$CAUR_PUSH chmod -R g+w /opt/flutter/
