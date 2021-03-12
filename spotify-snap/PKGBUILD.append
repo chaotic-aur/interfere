@@ -1,1 +1,2 @@
 depends+=(libcurl-gnutls)
+pkgname=spotify
