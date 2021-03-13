@@ -1,2 +1,2 @@
 depends+=(libcurl-gnutls)
-pkgname=spotify-dev
+replaces=spotify-dev
