@@ -1,0 +1,115 @@
+prepare() {
+  mkdir mozbuild
+  cd firefox-$pkgver
+
+  cat >../mozconfig <<END
+ac_add_options --enable-application=browser
+mk_add_options MOZ_OBJDIR=${PWD@Q}/obj
+
+# This supposedly speeds up compilation (We test through dogfooding anyway)
+ac_add_options --disable-tests
+ac_add_options --disable-debug
+
+ac_add_options --prefix=/usr
+ac_add_options --enable-release
+ac_add_options --enable-hardening
+ac_add_options --enable-rust-simd
+export CC='clang'
+export CXX='clang++'
+
+# Branding
+ac_add_options --enable-update-channel=release
+ac_add_options --with-app-name=${pkgname}
+ac_add_options --with-app-basename=${_pkgname}
+ac_add_options --with-branding=browser/branding/${pkgname}
+ac_add_options --with-distribution-id=io.gitlab.${pkgname}-community
+ac_add_options --with-unsigned-addon-scopes=app,system
+ac_add_options --allow-addon-sideload
+export MOZ_REQUIRE_SIGNING=0
+
+# Features
+ac_add_options --enable-alsa
+ac_add_options --enable-jack
+ac_add_options --disable-crashreporter
+ac_add_options --disable-updater
+ac_add_options --disable-tests
+
+# Disables crash reporting, telemetry and other data gathering tools
+mk_add_options MOZ_CRASHREPORTER=0
+mk_add_options MOZ_DATA_REPORTING=0
+mk_add_options MOZ_SERVICES_HEALTHREPORT=0
+mk_add_options MOZ_TELEMETRY_REPORTING=0
+
+# options for ci / weaker build systems
+# mk_add_options MOZ_MAKE_FLAGS="-j4"
+# ac_add_options --enable-linker=gold
+END
+
+if [[ $CARCH == 'aarch64' ]]; then
+  cat >>../mozconfig <<END
+# taken from manjaro build:
+ac_add_options --enable-optimize="-g0 -O2"
+# from ALARM
+# ac_add_options --disable-webrtc
+
+END
+
+  export MOZ_DEBUG_FLAGS=" "
+  export CFLAGS+=" -g0"
+  export CXXFLAGS+=" -g0"
+  export RUSTFLAGS="-Cdebuginfo=0"
+
+  # we should have more than enough RAM on the CI spot instances.
+  # ...or maybe not?
+  export LDFLAGS+=" -Wl,--no-keep-memory"
+  patch -p1 -i ../arm.patch
+  patch -p1 -i ../build-arm-libopus.patch
+
+else
+
+  cat >>../mozconfig <<END
+# probably not needed, enabled by default?
+ac_add_options --enable-optimize
+END
+fi
+
+  # Remove some pre-installed addons that might be questionable
+  patch -p1 -i ../remove_addons.patch
+
+  # Disable (some) megabar functionality
+  # Adapted from https://github.com/WesleyBranton/userChrome.css-Customizations
+  patch -p1 -i ../megabar.patch
+
+  # Debian patch to enable global menubar
+  # disabled for the default build, as it seems to cause issues in some configurations
+  patch -p1 -i ../unity-menubar.patch
+
+  # Disabling Pocket
+  sed -i "s/'pocket'/#'pocket'/g" browser/components/moz.build
+
+  patch -p1 -i ../context-menu.patch
+
+  # this one only to remove an annoying error message:
+  sed -i 's#SaveToPocket.init();#// SaveToPocket.init();#g' browser/components/BrowserGlue.jsm
+
+  # Remove Internal Plugin Certificates
+  _cert_sed='s#if (aCert.organizationalUnit == "Mozilla [[:alpha:]]\+") {\n'
+  _cert_sed+='[[:blank:]]\+return AddonManager\.SIGNEDSTATE_[[:upper:]]\+;\n'
+  _cert_sed+='[[:blank:]]\+}#'
+  _cert_sed+='// NOTE: removed#g'
+  sed -z "$_cert_sed" -i toolkit/mozapps/extensions/internal/XPIInstall.jsm
+
+  # allow SearchEngines option in non-ESR builds
+  sed -i 's#"enterprise_only": true,#"enterprise_only": false,#g' browser/components/enterprisepolicies/schemas/policies-schema.json
+
+  _settings_services_sed='s#firefox.settings.services.mozilla.com#f.s.s.m.c.qjz9zk#g'
+
+  # stop some undesired requests (https://gitlab.com/librewolf-community/browser/common/-/issues/10)
+  sed "$_settings_services_sed" -i browser/components/newtab/data/content/activity-stream.bundle.js
+  sed "$_settings_services_sed" -i modules/libpref/init/all.js
+  sed "$_settings_services_sed" -i services/settings/Utils.jsm
+  sed "$_settings_services_sed" -i toolkit/components/search/SearchUtils.jsm
+
+  rm -f ${srcdir}/common/source_files/mozconfig
+  cp -r ${srcdir}/common/source_files/* ./
+}
