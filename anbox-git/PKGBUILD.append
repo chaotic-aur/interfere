@@ -1,3 +1,2 @@
 depends+=('libdwarf')
-source+=('disable-cpu_features-install.patch')
-sha256sums+=('SKIP')
+
