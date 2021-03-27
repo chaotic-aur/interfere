@@ -1,0 +1,2 @@
+provides=('pamac-aur')
+conflicts=('pamac-aur')
