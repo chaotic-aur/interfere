@@ -1,0 +1,3 @@
+groups=(kde-applications-git kde-multimedia-git)
+depends=(qt5-networkauth knewstuff-git knotifyconfig-git kfilemetadata-git purpose-git mlt rttr breeze-icons-git frei0r-plugins)
+makedepends=(extra-cmake-modules-git kdoctools-git v4l-utils)
