@@ -1,1 +1,2 @@
 makedepends+=(clang)
+pkgrel=3
