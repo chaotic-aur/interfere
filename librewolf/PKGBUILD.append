@@ -113,5 +113,3 @@ fi
   rm -f ${srcdir}/common/source_files/mozconfig
   cp -r ${srcdir}/common/source_files/* ./
 }
-
-pkgrel=2
