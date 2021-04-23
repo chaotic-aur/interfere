@@ -1,1 +1,1 @@
-makedepends+=(pandoc)
+makedepends+=(pandoc zip)
