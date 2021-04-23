@@ -1,1 +1,0 @@
-depends+=(wmctrl qt5-declarative)

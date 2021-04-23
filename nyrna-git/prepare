@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-mkdir -P /opt/flutter/bin/cache
-chmod -R 777 /opt/flutter
-$CAUR_PUSH 'source /etc/profile'
-$CAUR_PUSH chmod -R 777 /opt/flutter
