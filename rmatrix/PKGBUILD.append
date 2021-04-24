@@ -1,0 +1,5 @@
+makedepends+=(git)
+
+package() {
+  install -Dm755 "$srcdir/$pkgname/target/release/r-matrix" "$pkgdir/usr/bin/rmatrix"
+}
