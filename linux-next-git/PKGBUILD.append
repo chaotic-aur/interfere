@@ -1,0 +1,6 @@
+build() {
+  cd $_srcname
+
+  make -j0 all
+  make -j0 htmldocs
+}
