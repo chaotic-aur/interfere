@@ -1,6 +1,0 @@
-build() {
-  cd linux-${_major}
-  make -j4 all 
-}
-
-
