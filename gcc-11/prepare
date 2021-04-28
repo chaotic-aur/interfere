@@ -1,10 +1,3 @@
 #!/usr/bin/env bash
-
-if [ -n "${CAUR_PUSH:-}" ]; then
-	$CAUR_PUSH 'yes | pacman -S binutils-git'
-else
-	echo 'This ocean looks dry'
-	exit 17
-fi
-
+$CAUR_PUSH 'yes | pacman -S linux-api-headers-git'
 $CAUR_PUSH 'yes | pacman -S glibc-git'
