@@ -1,1 +1,25 @@
 makedepends+=(glslang)
+
+build() {
+    cd "$srcdir/$_pkgname"
+    
+    # Trick the compiler into thinking we're building from a continuous
+    # integration tool so the build number is correctly shown in the title
+    export CI=true
+    export TRAVIS=true
+    export TRAVIS_REPO_SLUG=yuzu-emu/yuzu-mainline
+    export TRAVIS_TAG=$(git describe --tags)
+    
+    if [[ -d build ]]; then
+        rm -rf build
+    fi
+    mkdir -p build && cd build
+    cmake .. \
+      -DCMAKE_INSTALL_PREFIX=/usr \
+      -DCMAKE_BUILD_TYPE=Release \
+      -DENABLE_QT_TRANSLATION=ON \
+      -DYUZU_USE_BUNDLED_BOOST=ON \
+      -DYUZU_USE_QT_WEB_ENGINE=ON \
+      -DUSE_DISCORD_PRESENCE=ON
+    make -j$(nproc)
+}
