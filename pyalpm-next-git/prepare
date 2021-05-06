@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+$CAUR_PUSH 'yes | pacman -S pacman-git'
+
+$CAUR_PUSH 'mv /etc/pacman.conf.pacsave /etc/pacman.conf'
+$CAUR_PUSH 'mv /etc/makepkg.conf.pacsave /etc/makepkg.conf'
