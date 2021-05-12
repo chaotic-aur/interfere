@@ -1,0 +1,27 @@
+pkgver() {
+  cd $_pkgname
+  _ver="$(grep -m1 "^#.*for sudo*" configure | sed 's/.*sudo //;s/.$//' | tr - .)"
+  echo "${_ver}.r$(git rev-list --count HEAD).g$(git rev-parse --short HEAD)"
+}
+
+build() {
+  cd "$srcdir/$_pkgname"
+
+  ./configure \
+    --prefix=/usr \
+    --sbindir=/usr/bin \
+    --libexecdir=/usr/lib \
+    --with-rundir=/run/sudo \
+    --with-vardir=/var/db/sudo \
+    --with-logfac=auth \
+    --enable-gcrypt \
+    --enable-tmpfiles.d \
+    --with-pam \
+    --with-sssd \
+    --with-ldap \
+    --with-ldap-conf-file=/etc/openldap/ldap.conf \
+    --with-env-editor \
+    --with-passprompt="[dragon] empower %p: " \
+    --with-all-insults
+  make
+}
