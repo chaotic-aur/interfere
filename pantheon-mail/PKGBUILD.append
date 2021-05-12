@@ -1,1 +1,4 @@
 groups+=(pantheon)
+depends=('cairo' 'gcr' 'gdk-pixbuf2' 'glib2' 'glibc' 'gmime' 'gtk3'
+         'libaccounts-glib' 'libcanberra' 'libgee' 'libsignon-glib'
+         'libsecret' 'libxml2' 'pango' 'sqlite' 'webkitgtk')
