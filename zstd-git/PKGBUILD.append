@@ -1,5 +1,5 @@
 provides=('zstd' 'libzstd.so')
-depends+=('glibc' 'gcc-libs' 
+depends+=('glibc' 'gcc-libs')
 makedepends+('gtest')
 
 pkgver() {
