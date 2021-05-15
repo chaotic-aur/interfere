@@ -1,0 +1,9 @@
+groups=(plasma-git)
+depends=('ksystemstats' 'kirigami2-git' 'kitemmodels-git')
+makedepends=('extra-cmake-modules-git' 'git' 'qt5-tools')
+
+pkgver() {
+  cd $_pkgname
+  _ver="$(grep -m1 'set(PROJECT_VERSION' CMakeLists.txt | cut -d '"' -f2 | tr - .)"
+  echo "${_ver}_r$(git rev-list --count HEAD).g$(git rev-parse --short HEAD)"
+}
