@@ -18,8 +18,7 @@ package_sweet-kde-git() {
     mkdir -p Kvantum
     mv kvantum Kvantum/Sweet
     mkdir -p Kvantum/Sweet-transparent-toolbar
-    cp Kvantum/Sweet/Sweet.svg Kvantum/Sweet-transparent-toolbar && cp Kvantum/Sweet/Sweet-transparent-toolbar.kvconfig Kvantum/Sweet-transparent-toolbar
-    rm Kvantum/Sweet/Sweet-transparent-toolbar.kvconfig
+    cp Kvantum/Sweet/Sweet.svg Kvantum/Sweet-transparent-toolbar/Sweet-transparent-toolbar.svg && mv Kvantum/Sweet/Sweet-transparent-toolbar.kvconfig Kvantum/Sweet-transparent-toolbar
     mkdir -p plasma/look-and-feel
     mv look-and-feel plasma/look-and-feel/Sweet
     mv sddm sddm-Sweet
