@@ -1,4 +1,0 @@
-depends+=(libcurl-gnutls)
-pkgname=spotify
-conflicts=()
-provides=()

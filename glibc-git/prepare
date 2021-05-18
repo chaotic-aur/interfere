@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-$CAUR_PUSH 'yes | pacman -S linux-api-headers-git'
-$CAUR_PUSH 'yes | pacman -S gcc-11'
-$CAUR_PUSH 'yes | pacman -S gcc-libs-11'

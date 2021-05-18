@@ -1,1 +1,0 @@
-depends=('linux-api-headers-git' 'tzdata' 'filesystem')

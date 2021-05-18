@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-$CAUR_PUSH 'yes | pacman -S linux-api-headers-git'
-$CAUR_PUSH 'yes | pacman -S glibc-git'

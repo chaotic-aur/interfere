@@ -1,1 +1,0 @@
-makedepends=(linux-api-headers-git glibc-git libmpc gcc-ada doxygen lib32-glibc lib32-gcc-libs python git)
