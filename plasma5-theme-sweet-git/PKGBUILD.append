@@ -1,0 +1,7 @@
+package() {
+	cd "$srcdir"
+	install -d $pkgdir/usr/share/plasma/desktoptheme/Sweet
+	install -Dm644 "$_pkgname/LICENSE/CC BY-SA 4.0 EN.md" "$pkgdir/usr/share/licenses/$provides/LICENSE"
+	mv $_pkgname/* "$pkgdir/usr/share/plasma/desktoptheme/Sweet"
+	rm -r $pkgdir/usr/share/plasma/desktoptheme/sweet/{LICENSE,preview,README.md}
+}
