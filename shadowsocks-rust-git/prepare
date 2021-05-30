@@ -1,0 +1,1 @@
+$CAUR_PUSH 'yes | pacman -S rust-nightly'
