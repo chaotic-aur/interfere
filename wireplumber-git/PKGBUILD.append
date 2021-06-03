@@ -1,2 +1,6 @@
-provides=(wireplumber)
-conflicts=(wireplumber)
+provides=(wireplumber 'libwireplumber-0.4.so')
+
+depends=('gcc-libs' 'glibc' 'lua53' 'libgio-2.0.so' 'libglib-2.0.so'
+         'libgmodule-2.0.so' 'libgobject-2.0.so' 'libpipewire-0.3.so')
+makedepends+=('doxygen' 'glib2'  'hotdoc' 'python-breathe' 'python-sphinx_rtd_theme'
+          'python-sphinx' 'systemd' 'git')

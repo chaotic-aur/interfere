@@ -1,0 +1,45 @@
+--- PKGBUILD-orig	2021-06-03 13:03:12.118599142 -0500
++++ PKGBUILD	2021-06-03 13:16:40.303002721 -0500
+@@ -20,29 +24,34 @@
+ sha512sums=('SKIP')
+
+ pkgver() {
+-  git -C "$_pkgname" describe --long | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
++  cd "$_pkgname"
++
++  git describe --long --tags | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
+ }
+
+ build() {
+   cd "$_pkgname"
+-  arch-meson --wrap-mode nodownload \
+-    -D doc=disabled \
+-    -D introspection=enabled \
+-    -D system-lua=true \
++
++  arch-meson \
++    -Dsystem-lua=true \
++    -Dsystemd-system-service=true \
++    -Dsystemd-user-service=true \
+     build
++
+   ninja -C build
+ }
+
+ check() {
+   cd "$_pkgname"
++
+   ninja -C build test || echo "Known to fail: https://gitlab.freedesktop.org/pipewire/wireplumber/-/issues/18"
+ }
+
+ package() {
+-  depends+=('libgio-2.0.so' 'libglib-2.0.so' 'libgmodule-2.0.so'
+-  'libgobject-2.0.so' 'libpipewire-0.3.so')
+   cd "$_pkgname"
++
+   DESTDIR="${pkgdir}" meson install -C build
+   install -vDm 644 LICENSE -t "${pkgdir}/usr/share/licenses/${pkgname}"
+-  install -vDm 644 {NEWS,README}.md -t "${pkgdir}/usr/share/doc/${pkgname}"
++  install -vDm 644 {NEWS,README}.rst -t "${pkgdir}/usr/share/doc/${pkgname}"
+ }
++
