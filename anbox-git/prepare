@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+sed -i'' "s/'lxc'/'lxc<=4.0.6'/g" PKGBUILD
