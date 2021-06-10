@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+sed -i'' 's/git rev-list --count HEAD/git reb-list --count 3.3.2-stable/g' PKGBUILD
+
