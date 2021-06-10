@@ -1,0 +1,7 @@
+prepare() {
+	return 0
+}
+
+source+=('git+https://github.com/godotengine/godot.git')
+sha256sums+=('SKIP')
+
