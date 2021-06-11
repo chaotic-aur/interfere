@@ -1,1 +1,2 @@
+#!/usr/bin/env sh
 sed -i 's/git:/git+https:/g' PKGBUILD
