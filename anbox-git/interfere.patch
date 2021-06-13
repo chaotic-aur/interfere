@@ -1,13 +1,8 @@
 diff --git a/PKGBUILD b/PKGBUILD
-index 2a21902..5e34150 100644
+index 2a21902..307aa2c 100644
 --- a/PKGBUILD
 +++ b/PKGBUILD
-@@ -4,16 +4,18 @@ pkgname=anbox-git
- _pkgname=anbox
- pkgver=r1292.7f1bfaf
- pkgrel=1
--epoch=1
- arch=('x86_64')
+@@ -9,11 +9,14 @@ arch=('x86_64')
  url="http://anbox.io/"
  license=('GPL3')
  pkgdesc="Running Android in a container"
@@ -23,7 +18,7 @@ index 2a21902..5e34150 100644
  	'anbox-container-manager.service'
  	'anbox-session-manager.service'
  	'99-anbox.rules'
-@@ -24,6 +26,8 @@ source=("git+https://github.com/anbox/anbox.git"
+@@ -24,6 +27,8 @@ source=("git+https://github.com/anbox/anbox.git"
  sha256sums=('SKIP'
              'SKIP'
              'SKIP'
@@ -32,7 +27,7 @@ index 2a21902..5e34150 100644
              '5be94b63dc30d141f15ca7d1be6e3e81f26ef33f844614975537562f5d08236c'
              '1f22dbb5a3ca6925bbf62899cd0f0bbaa0b77c879adcdd12ff9d43adfa61b1d8'
              '210eb93342228168f7bb632c8b93d9bfda6f53f62459a6b74987fa1e17530475'
-@@ -46,6 +50,9 @@ prepare() {
+@@ -46,6 +51,9 @@ prepare() {
    # Don't build tests
    truncate -s 0 cmake/FindGMock.cmake
    truncate -s 0 tests/CMakeLists.txt
@@ -42,7 +37,7 @@ index 2a21902..5e34150 100644
  
    git submodule init
    git config submodule.external/cpu_features.url $srcdir/cpu_features
-@@ -72,4 +79,6 @@ package() {
+@@ -72,4 +80,6 @@ package() {
    install -Dm 644 -t $pkgdir/usr/lib/udev/rules.d $srcdir/99-anbox.rules
    install -Dm 644 -t $pkgdir/usr/share/applications $srcdir/anbox.desktop
    install -Dm 644 snap/gui/icon.png $pkgdir/usr/share/pixmaps/anbox.png
