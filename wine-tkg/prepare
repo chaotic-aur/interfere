@@ -2,7 +2,7 @@
 sed -i'' 's/\$_where\/\.\.\/\.\./\$HOME/g' wine-tkg-scripts/prepare.sh
 
 sed -i'' \
-    -E 's/>?> \"\$_where\"\/.+\.log//g' \
+    -E 's/>?> \"\$_where\"\/[^\.]+\.log//g' \
     wine-tkg-patches/hotfixes/hotfixer \
     wine-tkg-scripts/prepare.sh \
     PKGBUILD
