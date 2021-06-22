@@ -1,6 +1,6 @@
 build() {
   cd linux-${_major}
-  make -j4 all 
+  make -j12 all 
 }
 
 

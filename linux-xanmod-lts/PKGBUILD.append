@@ -1,0 +1,4 @@
+build() {
+  cd linux-${_major}
+  make LLVM=$_LLVM LLVM_IAS=$_LLVM all -j12
+}
