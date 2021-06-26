@@ -1,4 +1,4 @@
 build() {
   cd linux-${_major}
-  make -j0 all
+  make -j $(nproc) all
 }

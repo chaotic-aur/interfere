@@ -1,6 +1,5 @@
 build() {
   cd $_srcname
-
-  make -j0 all
-  make -j0 htmldocs
+  make -j $(nproc) all
+  make -j $(nproc) htmldocs
 }
