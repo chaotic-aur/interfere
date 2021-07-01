@@ -1,1 +1,6 @@
 depends+=(qt5-websockets)
+
+pkgver() {
+  cd "$_name"
+  git describe --long | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
+}
