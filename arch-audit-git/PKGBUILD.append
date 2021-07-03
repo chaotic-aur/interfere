@@ -1,1 +1,0 @@
-depends=('glibc' 'gcc-libs' 'curl' 'libcurl.so' 'pacman-git')
