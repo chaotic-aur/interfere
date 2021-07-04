@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+$CAUR_PUSH archlinux-java set zulu-16
+$CAUR_PUSH 'source /etc/profile'
+$CAUR_PUSH PATH=/usr/lib/jvm/default/bin:$PATH
