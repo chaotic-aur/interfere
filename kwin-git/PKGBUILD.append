@@ -1,3 +1,0 @@
-depends+=(lcms2)
-makedepends+=(krunner-git xorg-xwayland)
-optdepends=('maliit-keyboard: virtual keyboard for kwin-wayland')

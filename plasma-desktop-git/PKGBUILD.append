@@ -1,9 +1,0 @@
-optdepends=('plasma-nm-git: Network manager applet'
-            'powerdevil-git: power management, suspend and hibernate support'
-            'kscreen: screen management'
-            'ibus: kimpanel IBUS support'
-            'scim: kimpanel SCIM support'
-            'kaccounts-integration-git: OpenDesktop integration plugin'
-            'packagekit-qt5: to install new krunner plugins')
-makedepends=(git extra-cmake-modules-git kdoctools-git xf86-input-evdev xf86-input-synaptics xf86-input-libinput xorg-server-devel scim kdesignerplugin-git kaccounts-integration-git intltool packagekit-qt5 kinit-git)
-depends=(gawk polkit-kde-agent-git kdelibs4support-git libxkbfile kmenuedit-git systemsettings-git baloo-git accountsservice xdg-user-dirs)
