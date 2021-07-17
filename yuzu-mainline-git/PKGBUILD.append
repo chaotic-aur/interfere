@@ -1,25 +1,32 @@
 makedepends+=(glslang)
+makedepends+=('boost>=1.73.0')
+depends+=('boost-libs>=1.73.0')
 
 build() {
-    cd "$srcdir/$_pkgname"
-    
     # Trick the compiler into thinking we're building from a continuous
     # integration tool so the build number is correctly shown in the title
     export CI=true
     export TRAVIS=true
     export TRAVIS_REPO_SLUG=yuzu-emu/yuzu-mainline
-    export TRAVIS_TAG=$(git describe --tags)
+    export TRAVIS_TAG=$(git -C "$_pkgname" describe --tags)
     
     if [[ -d build ]]; then
         rm -rf build
     fi
-    mkdir -p build && cd build
-    cmake .. \
+    # use system boost
+    cmake -S "$_pkgname" -B build \
       -DCMAKE_INSTALL_PREFIX=/usr \
-      -DCMAKE_BUILD_TYPE=Release \
+      -DCMAKE_BUILD_TYPE=None \ # arch suggests not to use Release
       -DENABLE_QT_TRANSLATION=ON \
-      -DYUZU_USE_BUNDLED_BOOST=ON \
       -DYUZU_USE_QT_WEB_ENGINE=ON \
       -DUSE_DISCORD_PRESENCE=ON
-    make -j$(nproc)
+    make -C build -j$(nproc)
+}
+
+check() {
+    make -C build test
+}
+
+package() {
+    make -C build DESTDIR="$pkgdir/" install
 }
