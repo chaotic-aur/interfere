@@ -9,14 +9,14 @@ build() {
     export TRAVIS=true
     export TRAVIS_REPO_SLUG=yuzu-emu/yuzu-mainline
     export TRAVIS_TAG=$(git -C "$_pkgname" describe --tags)
-    
+
     if [[ -d build ]]; then
         rm -rf build
     fi
-    # use system boost
+
     cmake -S "$_pkgname" -B build \
       -DCMAKE_INSTALL_PREFIX=/usr \
-      -DCMAKE_BUILD_TYPE=None \ # arch suggests not to use Release
+      -DCMAKE_BUILD_TYPE=None \
       -DENABLE_QT_TRANSLATION=ON \
       -DYUZU_USE_QT_WEB_ENGINE=ON \
       -DUSE_DISCORD_PRESENCE=ON
@@ -30,3 +30,5 @@ check() {
 package() {
     make -C build DESTDIR="$pkgdir/" install
 }
+
+# vim: ts=4 ft=sh et
