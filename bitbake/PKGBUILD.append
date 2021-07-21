@@ -1,0 +1,3 @@
+check() {
+    echo "We don't need a check which alters git credentials"
+}
