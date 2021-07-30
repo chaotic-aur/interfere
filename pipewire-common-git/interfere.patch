@@ -1,0 +1,34 @@
+--- a/PKGBUILD	2021-07-29 16:54:05.883772008 -0500
++++ b/PKGBUILD	2021-07-29 16:55:58.636936595 -0500
+@@ -13,7 +13,7 @@
+          gst-plugin-pipewire-common-git
+          )
+ pkgver=0.3.32.r58.g1216371f
+-pkgrel=1
++pkgrel=2
+ pkgdesc="Low-latency audio/video router and processor"
+ url="https://pipewire.org"
+ license=(MIT)
+@@ -21,7 +21,7 @@
+ makedepends=(git meson doxygen xmltoman ncurses
+              libsndfile alsa-lib dbus rtkit libpulse
+              webrtc-audio-processing libusb bluez-libs
+-             sbc libldac libopenaptx libfdk-aac
++             sbc libldac libfreeaptx libfdk-aac
+              avahi
+              gst-plugins-base-libs
+              )
+@@ -86,7 +86,7 @@
+            libudev.so libasound.so libsystemd.so
+            libwebrtc_audio_processing.so libusb-1.0.so
+            libbluetooth.so libsbc.so libldacBT_{enc,abr}.so
+-           libopenaptx.so libfdk-aac.so)
++           libfreeaptx.so libfdk-aac.so)
+   optdepends=('pipewire-common-docs-git: Documentation'
+               'pipewire-common-alsa-git: ALSA configuration'
+               'pipewire-common-jack-git: JACK support'
+@@ -196,3 +196,4 @@
+ 
+   install -Dt "$pkgdir/usr/share/licenses/$pkgname" -m644 $_pkgbase/COPYING
+ }
++
