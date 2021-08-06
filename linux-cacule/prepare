@@ -1,2 +1,3 @@
 #!/usr/bin/env sh
 sed -i 's/cpu_arch//g' PKGBUILD
+sed -i 's/_lrng_enable=y/_lrng_enable=n/g' PKGBUILD
