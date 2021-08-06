@@ -2,4 +2,4 @@
 sed -i 's/cpu_arch//g' PKGBUILD
 sed -i 's/_lrng_enable=y/_lrng_enable=/g' PKGBUILD
 sed -i 's/pkgbase=linux-cacule-rdb/pkgbase=linux-cacule-rdb-generic_v3/g' PKGBUILD
-sed -i 's/CONFIG_GENERIC_CPU=y/CONFIG_GENERIC_CPU3/g' config
+sed -i 's/CONFIG_GENERIC_CPU=y/CONFIG_GENERIC_CPU3=y/g' config
