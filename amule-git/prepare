@@ -1,2 +1,3 @@
 #!/usr/bin/env sh
-$CAUR_PUSH 'yes | pacman -S autoconf2.69'
+$CAUR_PUSH 'yes | pacman -Rdd autoconf'
+$CAUR_PUSH 'yes | pacman -Rdd autoconf2.69'
