@@ -1,4 +1,1 @@
-build() {
-  cd $_srcname
-  make all -j $(nproc)
-}
+MAKEFLAGS="${MAKEFLAGS:-} -j $(nproc)"

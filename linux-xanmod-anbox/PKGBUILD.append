@@ -1,6 +1,1 @@
-build() {
-  cd linux-${_major}
-  make -j $(nproc) all 
-}
-
-
+MAKEFLAGS="${MAKEFLAGS:-} -j $(nproc)"

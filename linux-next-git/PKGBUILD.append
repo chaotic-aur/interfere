@@ -1,5 +1,1 @@
-build() {
-  cd $_srcname
-  make -j $(nproc) all
-  make -j $(nproc) htmldocs
-}
+MAKEFLAGS="${MAKEFLAGS:-} -j $(nproc)"
