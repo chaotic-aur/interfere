@@ -1,0 +1,2 @@
+makedepends+=(xorg-server-xvfb)
+
