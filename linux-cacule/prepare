@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
-sed -i 's&sh "${srcdir}"/auto-cpu-optimization.sh&#sh "${srcdir}"/auto-cpu-optimization.sh&'  PKGBUILD
+sed -i 's&_use_optimization=yh&_use_optimization=n&'  PKGBUILD
 sed -i 's/_lrng_enable=y/_lrng_enable=/g' PKGBUILD
