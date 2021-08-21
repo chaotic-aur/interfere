@@ -1,3 +1,4 @@
 #!/usr/bin/env sh
-sed -i 's&_use_optimization=yh&_use_optimization=n&'  PKGBUILD
+sed -i 's&_use_optimization=y&_use_optimization=n&'  PKGBUILD
+sed -i 's&_use_optimization_select=&_use_optimization_select=n&'  PKGBUILD
 sed -i 's/_lrng_enable=y/_lrng_enable=/g' PKGBUILD
