@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+$CAUR_PUSH export PATH=/usr/bin:$PATH
