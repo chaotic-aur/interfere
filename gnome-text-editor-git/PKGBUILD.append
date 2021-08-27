@@ -1,1 +1,1 @@
-depends=(gtksourceview5 gtk4-git glib2-git libadwaita)
+depends=(gtksourceview5 gtk4-git glib2-git libadwaita-git)
