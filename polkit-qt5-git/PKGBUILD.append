@@ -1,1 +1,1 @@
-source=("$_pkgname::git+https://anongit.kde.org/polkit-qt-1.git")
+makedepends+=(cmake)
