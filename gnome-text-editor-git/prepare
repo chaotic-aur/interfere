@@ -1,2 +1,0 @@
-#!/usr/bin/env sh
-$CAUR_PUSH 'yes | pacman -S glib2-git'
