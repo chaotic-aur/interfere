@@ -1,0 +1,1 @@
+source=("$pkgname-$pkgver-$pkgrel.tar.gz::https://code.garrettmills.dev/garrettmills/archive-posy-cursors.git")
