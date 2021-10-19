@@ -1,0 +1,2 @@
+depends=(meson 'wayfire-git' wlroots-git wf-config-git glm)
+
