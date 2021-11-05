@@ -1,13 +1,3 @@
 provides=('zstd' 'libzstd.so')
 depends+=('glibc' 'gcc-libs')
 makedepends+('gtest')
-
-pkgver() {
-    cd $_pkgname
-    # git describe
-    # git describe --long --tags | sed 's/\([^-]*-g\)/r\1/;s/-/./g;s/^v//g'
-
-    # other
-    _ver="$(cat lib/zstd.h | grep -m3 -e _MAJOR -e _MINOR -e _RELEASE | grep -o "[[:digit:]]*" | paste -sd'.')"
-    echo "${_ver}.r$(git rev-list --count HEAD).g$(git rev-parse --short HEAD)"
-}
