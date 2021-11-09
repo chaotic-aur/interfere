@@ -1,0 +1,3 @@
+# chaotic builder uses single-thread by default,
+# but this package takes too long to build with a single thread
+export MAKEFLAGS="$MAKEFLAGS -j8"
