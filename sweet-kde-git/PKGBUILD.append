@@ -16,9 +16,8 @@ package_sweet-kde-git() {
     rm aurorae/.shade.svg
     mv colorschemes color-schemes
     mkdir -p Kvantum
-    mv kvantum Kvantum/Sweet
-    mkdir -p Kvantum/Sweet-transparent-toolbar
-    cp Kvantum/Sweet/Sweet.svg Kvantum/Sweet-transparent-toolbar/Sweet-transparent-toolbar.svg && mv Kvantum/Sweet/Sweet-transparent-toolbar.kvconfig Kvantum/Sweet-transparent-toolbar
+    mv kvantum/Sweet Kvantum/
+    mv kvantum/Sweet-transparent-toolbar Kvantum/
     mkdir -p plasma/look-and-feel
     mv look-and-feel plasma/look-and-feel/Sweet
     mv sddm sddm-Sweet
