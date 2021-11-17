@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+sed -Ei'' 's/"cef-minimal[^"]*"/"cef-minimal-obs-studio-browser-bin"/g' PKGBUILD
