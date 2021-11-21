@@ -1,9 +1,3 @@
-pkgver() {
-  cd $_pkgname
-  _ver="$(grep -m1 "^#.*for sudo*" configure | sed 's/.*sudo //;s/.$//' | tr - .)"
-  echo "${_ver}.r$(git rev-list --count HEAD).g$(git rev-parse --short HEAD)"
-}
-
 build() {
   cd "$srcdir/$_pkgname"
 
@@ -24,21 +18,4 @@ build() {
     --with-passprompt="[dragon] empower %p: " \
     --with-all-insults
   make
-}
-
-package() {
-  cd "$srcdir/$_pkgname"
-  make DESTDIR="$pkgdir" install
-
-  # sudo_logsrvd service file (taken from sudo-logsrvd-1.9.0-1.el8.x86_64.rpm)
-  install -Dm644 -t "$pkgdir/usr/lib/systemd/system" ../sudo_logsrvd.service
-
-  # Remove sudoers.dist; not needed since pacman manages updates to sudoers
-  rm "$pkgdir/etc/sudoers.dist"
-
-  # Remove /run/sudo directory; we create it using systemd-tmpfiles
-  rmdir "$pkgdir/run/sudo"
-  rmdir "$pkgdir/run"
-
-  install -Dm644 "$srcdir/sudo.pam" "$pkgdir/etc/pam.d/sudo"
 }
