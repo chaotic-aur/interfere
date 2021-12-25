@@ -45,3 +45,63 @@ depends=(
       'lib32-vmaf'
       'lib32-xz'
       'lib32-zlib')
+
+build() {
+  cd ${_pkgbasename}
+
+  export PKG_CONFIG_PATH="/usr/lib32/pkgconfig"
+
+  ./configure \
+    --prefix='/usr' \
+    --libdir=/usr/lib32 \
+    --shlibdir=/usr/lib32 \
+    --cc="gcc -m32" \
+    --disable-debug \
+    --disable-static \
+    --disable-stripping \
+    --enable-amf \
+    --enable-cuda-llvm \
+    --enable-lto \
+    --disable-inline-asm \
+    --enable-fontconfig \
+    --enable-gmp \
+    --enable-gnutls \
+    --enable-gpl \
+    --enable-ladspa \
+    --enable-libaom \
+    --enable-libass \
+    --enable-libbluray \
+    --enable-libdav1d \
+    --enable-libdrm \
+    --enable-libfreetype \
+    --enable-libfribidi \
+    --enable-libgsm \
+    --enable-libiec61883 \
+    --enable-libjack \
+    --enable-libmodplug \
+    --enable-libmp3lame \
+    --enable-libopencore-amrnb \
+    --enable-libopencore-amrwb \
+    --enable-libopenjpeg \
+    --enable-libopus \
+    --enable-libpulse \
+    --enable-librsvg \
+    --enable-libspeex \
+    --enable-libsrt \
+    --enable-libtheora \
+    --enable-libv4l2 \
+    --enable-libvmaf \
+    --enable-libvorbis \
+    --enable-libvpx \
+    --enable-libwebp \
+    --enable-libx264 \
+    --enable-libxcb \
+    --enable-libxvid \
+    --enable-libxml2 \
+    --enable-nvenc \
+    --enable-nvdec \
+    --enable-shared \
+    --enable-version3
+
+  make
+}
