@@ -1,0 +1,5 @@
+package() {
+    cd $srcdir/$_pkgname/build
+    make DESTDIR="$pkgdir" install
+    #install -Dm644 ../COPYING.LIB "$pkgdir/usr/share/licenses/$_pkgname/LICENSE"
+}
