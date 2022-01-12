@@ -1,0 +1,1 @@
+makedepends=(git extra-cmake-modules-git qt5-declarative python-pyqt5 clang doxygen qt5-tools sip)
