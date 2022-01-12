@@ -1,4 +1,4 @@
-makedepends=(git extra-cmake-modules-git qt5-tools clang python-pyqt5 gperf doxygen sip4)
+makedepends=(git extra-cmake-modules-git qt5-tools clang python-pyqt5 gperf doxygen sip)
 
 pkgver() {
   cd ${pkgname%-git}
