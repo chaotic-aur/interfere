@@ -1,7 +1,10 @@
-makedepends=(git extra-cmake-modules-git qt5-tools clang python-pyqt5 gperf doxygen sip4)
-
 pkgver() {
   cd ${pkgname%-git}
   _ver="$(grep -m1 'set(KF5\?_VERSION' CMakeLists.txt | cut -d '"' -f2 | tr - .)"
   echo "${_ver}_r$(git rev-list --count HEAD).g$(git rev-parse --short HEAD)"
+}
+
+build() {
+  cmake -B build -S $_name -DCMAKE_DISABLE_FIND_PACKAGE_PythonModuleGeneration=ON
+  cmake --build build
 }
