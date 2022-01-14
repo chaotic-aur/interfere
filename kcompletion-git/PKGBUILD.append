@@ -1,7 +1,7 @@
 build() {
   cmake -B build -S ${pkgname%-git} \
   -DBUILD_TESTING=OFF \
-  -DBUILD_QCH=ON
+  -DBUILD_QCH=ON \
   -DCMAKE_DISABLE_FIND_PACKAGE_PythonModuleGeneration=ON
   cmake --build build
 }
