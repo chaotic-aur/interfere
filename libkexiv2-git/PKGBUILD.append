@@ -1,3 +1,4 @@
+
 source=("git+https://github.com/KDE/${pkgname%-git}.git")
 
 pkgver() {
