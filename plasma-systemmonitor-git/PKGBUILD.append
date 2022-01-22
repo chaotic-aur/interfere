@@ -1,5 +1,5 @@
 groups=(plasma-git)
-depends=('ksystemstats' 'kirigami2-git' 'kitemmodels-git')
+depends=('ksysguard-git' 'libksysguard-git' 'ksystemstats-git' 'kirigami2-git' 'kitemmodels-git')
 makedepends=('extra-cmake-modules-git' 'git' 'qt5-tools')
 
 pkgver() {
