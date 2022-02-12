@@ -1,0 +1,11 @@
+pkgver() {
+  cd ${pkgname%-git}
+  _ver="$(grep -m1 'set(PROJECT_VERSION' CMakeLists.txt | cut -d '"' -f2 | tr - .)"
+  echo "${_ver}_r$(git rev-list --count HEAD).g$(git rev-parse --short HEAD)"
+}
+
+package() {
+  cd $srcdir/$_pkgname/build
+  make DESTDIR="$pkgdir" install
+  #install -Dm644 ../LICENSE "$pkgdir/usr/share/licenses/$_pkgname/LICENSE"
+}
