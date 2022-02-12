@@ -1,3 +1,5 @@
+makedepends=(extra-cmake-modules-git gperf git qt5-tools)
+
 pkgver() {
   cd ${pkgname%-git}
   _ver="$(grep -m1 'set(KF5\?_VERSION' CMakeLists.txt | cut -d '"' -f2 | tr - .)"
