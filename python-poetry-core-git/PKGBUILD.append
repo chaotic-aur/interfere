@@ -1,1 +1,1 @@
-makedepends+=python-virtualenv
+makedepends=(python-virtualenv python-dephell)
