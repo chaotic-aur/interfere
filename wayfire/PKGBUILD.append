@@ -1,1 +1,1 @@
-depends=(cairo 'wf-config' libjpeg libinput 'wlroots')
+depends=(cairo 'wf-config' libjpeg libinput 'wlroots' 'xorg-xwayland')
