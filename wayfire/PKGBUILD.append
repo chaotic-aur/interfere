@@ -1,4 +1,4 @@
-depends=('cairo' 'wf-config' 'libjpeg' 'libinput' 'xorg-xwayland')
+depends=('cairo' 'wf-config' 'libjpeg' 'libinput' 'wlroots' 'xorg-xwayland')
 
 build() {
 	rm -rf build
