@@ -1,1 +1,7 @@
 depends=(cairo 'wf-config' libjpeg libinput 'wlroots' 'xorg-xwayland')
+
+build() {
+	rm -rf build
+	arch-meson "${pkgname}-${pkgver}" build -Duse_system_wfconfig=enabled -Duse_system_wlroots=disabled
+	ninja -C build
+}
