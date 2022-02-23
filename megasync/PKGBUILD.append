@@ -1,1 +1,2 @@
 replaces=(megasync-bin)
+provides=megasync-bin
