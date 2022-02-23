@@ -1,1 +1,0 @@
-depends=('libx11' 'dbus-glib' 'libusb' 'dbus-python' 'systemd')
