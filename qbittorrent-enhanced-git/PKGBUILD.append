@@ -1,1 +1,0 @@
-depends=('libtorrent-rasterbar-1_2-git' 'qt5-base' 'qt5-svg')
