@@ -1,1 +1,2 @@
-makedepends+=(udisks2)
+depends+=(libadwaita)
+makedepends+=(udisks2cmake)
