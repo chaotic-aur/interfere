@@ -1,3 +1,6 @@
+
+makedepends=(git extra-cmake-modules-git qt5-tools clang python-pyqt5 doxygen sip4 qt5-quickcontrols2)
+
 build() {
   cmake -B build -S ${pkgname%-git} \
     -DCMAKE_INSTALL_LIBEXECDIR=lib \
