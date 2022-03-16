@@ -6,3 +6,5 @@ build() {
     -DCMAKE_DISABLE_FIND_PACKAGE_PythonModuleGeneration=ON
   cmake --build build
 }
+
+depends+=(qt5-quickcontrols2)
