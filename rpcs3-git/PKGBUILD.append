@@ -1,0 +1,17 @@
+build() {
+  cmake -S rpcs3 -B build \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_SKIP_RPATH=ON \
+    -DUSE_NATIVE_INSTRUCTIONS=OFF \
+    -DUSE_SYSTEM_FFMPEG=ON \
+    -DUSE_SYSTEM_LIBPNG=ON \
+    -DUSE_SYSTEM_ZLIB=ON \
+    -DUSE_SYSTEM_CURL=ON \
+    -DUSE_SYSTEM_WOLFSSL=ON \
+    -DUSE_SYSTEM_FLATBUFFERS=OFF \
+    -DUSE_SYSTEM_PUGIXML=ON \
+    -DCMAKE_CXX_FLAGS='-fpermissive'
+  
+  make -C build
+}
