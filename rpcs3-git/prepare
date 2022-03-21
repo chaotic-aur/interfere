@@ -1,0 +1,2 @@
+#!/bin/sh
+sed 's/(-DCMAKE_BUILD_TYPE=Release)/\1 -DCMAKE_CXX_FLAGS=\'-fpermissive\'/' PKGBUILD
