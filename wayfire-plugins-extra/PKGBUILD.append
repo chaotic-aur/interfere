@@ -1,0 +1,2 @@
+depends+=wayland-protocols
+makedepends+=cmake
