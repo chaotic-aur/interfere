@@ -1,2 +1,2 @@
-depends+=wayland-protocols
-makedepends+=cmake
+depends+=(wayland-protocols)
+makedepends+=(cmake)
