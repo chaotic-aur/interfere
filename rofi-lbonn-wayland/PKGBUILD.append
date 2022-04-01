@@ -1,0 +1,2 @@
+makedepends+=(git)
+makedepends+=(ttf-font)
