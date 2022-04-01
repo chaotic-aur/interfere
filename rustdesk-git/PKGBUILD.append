@@ -1,0 +1,3 @@
+check() {
+  echo "Removed tests due to not being adapted for -git"
+}
