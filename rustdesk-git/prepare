@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+sed -i 's/hub.fastgit.org/github.com/g' PKGBUILD
+sed -i 's/raw.fastgit.org/raw.githubusercontent.com/g' PKGBUILD
