@@ -1,4 +1,0 @@
-#!/usr/bin/env sh
-sed -i 's/hub.fastgit.org/github.com/g' PKGBUILD
-sed -i 's/raw.fastgit.org/raw.githubusercontent.com/g' PKGBUILD
-sed -i 's/fcf388fc2f1ea41546f5a01104c8764f2467a3c55a3acbbc9b6e4f9807eedc72/a1682fbf55e004f1862d6ace31b5220121d20906bdbf308d0a9237b451e4db86/g' PKGBUILD
