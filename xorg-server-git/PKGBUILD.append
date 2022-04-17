@@ -1,0 +1,3 @@
+check() {
+  echo "Removed tests, see https://github.com/chaotic-aur/packages/issues/1378"
+}
