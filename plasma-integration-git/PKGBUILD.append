@@ -1,3 +1,1 @@
 depends+=(plasma-wayland-protocols-git)
-
-source=("git+https://github.com/KDE/${pkgname%-git}.git#commit=61345d47804f182d2d4e7b4db8510b081ab87034")
