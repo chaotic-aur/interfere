@@ -13,3 +13,5 @@ build() {
 package() {
   DESTDIR="$pkgdir" cmake --install build
 }
+
+makedepends+=(cmake extra-cmake-modules-git)
