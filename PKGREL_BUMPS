@@ -35,7 +35,6 @@ cozy-audiobooks 1.2.0-1 1
 dashbinsh 0.1-5 1
 delft-icon-theme-git 1.15.r0.gdd693fcf-1 1
 dissenter-browser-bin 1.5.114-2 1
-distrho-ports-lv2-git r601.9f93a196-1 1
 eqonomize-git r506.ebe0882-1 1
 evdev-right-click-emulation 20190313.350939-1 1
 fann 2.2.0-5 1
@@ -52,7 +51,6 @@ graphite-cursor-theme-git 2021.11.26.r9.g8773e95-1 1
 greetd-qtgreet 1.0.0-3 1
 gstreamer0.10 0.10.36-17 1
 gtk3-nocsd-git r82.512c2bd-1 1
-ialauncher-git r127.b93f75d-1 1
 ircd-hybrid 8.2.39-1 1
 isomaster 1.3.16-1 1
 jade-application-kit 3.5.6-2 1
@@ -97,4 +95,4 @@ wattman-gtk-git r203.54d2482-1 1
 wlrobs-hg r57.a11ffa2fc5ed-1 1
 yaup-git 0.1.r4.g7ee3fdb-1 1
 zenpower-dkms-git 46.5e2f56f-1 1
-visual-studio-code-insiders-bin 1650346920-1 1
+sweet-theme-full-git r264.76dd003-1 1
