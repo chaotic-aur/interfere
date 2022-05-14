@@ -9,7 +9,6 @@ linux-mainline 5.18rc6-1 1
 linux-mainline-anbox 5.17-1 1
 linux-cacule 5.17.4-2 1
 linux-bore 5.17.3-5 1
-8192eu-dkms 257.744bbe5-1 1
 airspyhf-git r92.646141f-1 1
 alacritty-ligatures-git 0.8.0.1772.g3ed0430-1 1
 alpm_octopi_utils 1.0.2-3 1
@@ -30,7 +29,7 @@ calamares-branding-garuda r48.6eeee68-1 1
 chaotic-neofetch-git 7.1.0.r166.gccd5d9f5-2 1
 clipit 1.4.5-3 1
 clx-git r396.392421d-1 1
-compiz-git 0.9.14.1.r0.g8b3fdfd7c-1 1
+compiz-git 0.9.14.1.r0.g8b3fdfd7c-1 2
 connman-gtk 1.1.1-2 1
 cozy-audiobooks 1.2.0-1 1
 dashbinsh 0.1-5 1
@@ -75,9 +74,7 @@ nspr-hg 4.34.0r4937.005070e98495-1 1
 obsidian-2-theme-git 2.20.r0.g93ba8ec-1 1
 obsidian-icon-theme-git 4.15.r1.g4cccdd3f-1 1
 ogre-docs-1.9 1.9.1-7 1
-olivia r847.e66086d-1 1
 osdlyrics-git 0.5.10.r0.g987e99d-1 1
-pantheon-camera-git 6.0.3.r34.gd5f9358-1 1
 pantheon-default-settings-git 6.0.2.r2.g04de9ab-1 1
 paper-icon-theme-git 832.aa3e8af7-1 1
 pcloudcc-git r1471.4b42e3c-1 1
@@ -97,7 +94,6 @@ themix-icons-suru-plus-aspromauros-git 3.0.r0.gd43a8ec4-1 1
 themix-theme-materia-git 20210322.r50.gaf63425f-1 1
 vkcube-git r136.fda1d04-1 1
 wattman-gtk-git r203.54d2482-1 1
-wingpanel-indicator-session-git 2.3.0.r63.ge584fed-1 1
 wlrobs-hg r57.a11ffa2fc5ed-1 1
 yaup-git 0.1.r4.g7ee3fdb-1 1
 zenpower-dkms-git 46.5e2f56f-1 1
