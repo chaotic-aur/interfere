@@ -1,2 +1,3 @@
-
 source=("git+https://invent.kde.org/graphics/libkipi")
+
+depends+=(kservice-git)
