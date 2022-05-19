@@ -1,3 +1,0 @@
-source=("git+https://invent.kde.org/graphics/gwenview.git")
-
-depends+=(phonon-qt5-git)
