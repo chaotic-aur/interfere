@@ -1,7 +1,5 @@
-garuda-settings-manager 1.0.0-1 1
 compiz 0.9.14.1-4 1
 ffmpeg-vulkan 2:5.0-1 1
-linux-xanmod-edge 5.17.5-1 2
 linux-xanmod-rt 5.15.36-1 1
 linux-vfio 5.17.1.arch1-1 1
 linux-mainline-anbox 5.17-1 1
@@ -25,7 +23,6 @@ caffeine 2.9.8-1 1
 calamares-branding-garuda r48.6eeee68-1 1
 chaotic-neofetch-git 7.1.0.r166.gccd5d9f5-2 1
 clipit 1.4.5-3 1
-clx-git r396.392421d-1 1
 compiz-git 0.9.14.1.r0.g8b3fdfd7c-1 2
 connman-gtk 1.1.1-2 1
 cozy-audiobooks 1.2.0-1 1
@@ -45,7 +42,6 @@ gallium-nine-git 0.r388.9abd0b4-1 1
 google-meet-desktop 1.2.0-1 1
 graphite-cursor-theme-git 2021.11.26.r9.g8773e95-1 1
 greetd-qtgreet 1.0.0-3 1
-gstreamer0.10 0.10.36-17 1
 gtk3-nocsd-git r82.512c2bd-1 1
 ircd-hybrid 8.2.39-1 1
 isomaster 1.3.16-1 1
@@ -71,7 +67,6 @@ osdlyrics-git 0.5.10.r0.g987e99d-1 1
 pantheon-default-settings-git 6.0.2.r2.g04de9ab-1 1
 paper-icon-theme-git 832.aa3e8af7-1 1
 pcloudcc-git r1471.4b42e3c-1 1
-plasma5-applets-window-appmenu-git 0.7.1.r0.gcdbc943-1 1
 plasma5-applets-window-title-git 0.7.0.r0.gc3fb675-1 1
 primus-vk-git r147.938ec43-1 1
 prjxray-db-git r258.0a0adde-1 1
@@ -89,6 +84,6 @@ vkcube-git r136.fda1d04-1 1
 wattman-gtk-git r203.54d2482-1 1
 yaup-git 0.1.r4.g7ee3fdb-1 1
 zenpower-dkms-git 46.5e2f56f-1 1
-sweet-theme-full-git r265.c7f8a15-1 1
 pygtk 2.24.0-12 1
 subtitlecomposer 0.7.1-3 1
+visual-studio-code-insiders-bin 1652464001-1 1
