@@ -1,0 +1,2 @@
+depends-=(poppler-qt5)
+depends+=(poppler-qt5-git)
