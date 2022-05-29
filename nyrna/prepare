@@ -1,3 +1,0 @@
-##!/usr/bin/env bash
-$CAUR_PUSH usermod -aG flutterusers $USER
-$CAUR_PUSH su --

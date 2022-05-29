@@ -1,2 +1,0 @@
-depends+=(libcurl-gnutls)
-replaces=(spotify-dev)
