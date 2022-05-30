@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
-sed -i 's&test -s jarlog&#test -s jarlog&g' PKGBUILD
-sed -i 's&stat -c "Jar log found (%s bytes)" jarlog&#stat -c "Jar log found (%s bytes)" jarlog&g' PKGBUILD
-sed -i 's&ac_add_options --with-pgo-jarlog=${PWD@Q}/jarlog&&g' 
+sed -i 's&test -s jarlog&&g' PKGBUILD
+sed -i 's&stat -c "Jar log found (%s bytes)" jarlog&&g' PKGBUILD
+sed -i 's&ac_add_options --with-pgo-jarlog=${PWD@Q}/jarlog&&g' PKGBUILD
