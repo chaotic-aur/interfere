@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+sed 's/LICENSE/LICENSE.txt/g' PKGBUILD
