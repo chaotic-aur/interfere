@@ -3,7 +3,6 @@ ffmpeg-vulkan 2:5.0-1 1
 linux-vfio 5.17.1.arch1-1 1
 linux-mainline-anbox 5.17-1 1
 linux-cacule 5.17.4-2 1
-airspyhf-git r92.646141f-1 1
 alacritty-ligatures-git 0.8.0.1772.g3ed0430-1 1
 alpm_octopi_utils 1.0.2-3 1
 ananicy-cpp 1.0.0.rc6-1 1
@@ -87,3 +86,4 @@ subtitlecomposer 0.7.1-3 1
 google-messages 1.3.0-1 1
 librewolf 100.0.2-1 1
 firefox-appmenu 100.0.2-1 1
+opensnitch 1.5.1-1 1
