@@ -1,1 +1,1 @@
-makedepends+=(python-setuptools)
+makedepends+=(python-setuptools git)
