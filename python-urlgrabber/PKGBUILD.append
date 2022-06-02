@@ -1,2 +1,2 @@
 makedepends+=(python-pip python-wheel)
-replaces=urlgrabber
+replaces=(urlgrabber)
