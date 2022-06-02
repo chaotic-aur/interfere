@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+sed -i 's&DESTDIR="$pkgdir/&DESTDIR="$pkgdir/usr/&'  PKGBUILD
+

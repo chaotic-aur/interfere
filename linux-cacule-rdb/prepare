@@ -1,3 +1,0 @@
-#!/usr/bin/env sh
-sed -i 's&_use_auto_optimization=y&_use_auto_optimization=&'  PKGBUILD
-sed -i 's/_lrng_enable=y/_lrng_enable=/g' PKGBUILD
