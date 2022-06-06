@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+$CAUR_PUSH pacman -S --noconfirm flutter
+$CAUR_PUSH usermod -aG flutterusers main-builder
+$CAUR_PUSH chown -R main-builder:main-builder /opt/flutter

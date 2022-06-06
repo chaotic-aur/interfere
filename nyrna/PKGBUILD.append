@@ -1,0 +1,20 @@
+prepare() {
+  # Pull necessary git files
+  pushd /opt/flutter && git stash --include-untracked
+  popd
+
+  # Switch to Beta channel if necessary
+  if [ "$flutter_channel" != "beta" ]; then
+    $flutter channel beta
+    $flutter upgrade
+  fi
+
+  # Enable linux-desktop builds if necessary
+  if [ "$flutter_set_linux" != "y" ];then
+    $flutter config --enable-linux-desktop
+  fi
+
+  cd "$pkgname-$pkgver"
+  $flutter clean
+  $flutter pub get
+}
