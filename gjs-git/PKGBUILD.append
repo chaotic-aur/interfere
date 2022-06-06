@@ -1,1 +1,4 @@
 makedepends+=(cmake)
+check() {
+    echo "Removed"
+}
