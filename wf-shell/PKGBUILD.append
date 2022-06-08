@@ -1,1 +1,1 @@
-makedepends+=(alsa-libs)
+makedepends+=(alsa-lib)
