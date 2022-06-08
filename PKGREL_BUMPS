@@ -1,4 +1,4 @@
-compiz 0.9.14.1-4 1
+compiz 0.9.14.1-4 2
 ffmpeg-vulkan 2:5.0-1 1
 linux-vfio 5.17.1.arch1-1 1
 linux-mainline-anbox 5.17-1 1
@@ -21,7 +21,7 @@ caffeine 2.9.8-1 1
 calamares-branding-garuda r48.6eeee68-1 1
 chaotic-neofetch-git 7.1.0.r166.gccd5d9f5-2 1
 clipit 1.4.5-3 1
-compiz-git 0.9.14.1.r0.g8b3fdfd7c-1 2
+compiz-git 0.9.14.1.r0.g8b3fdfd7c-1 3
 connman-gtk 1.1.1-2 1
 cozy-audiobooks 1.2.0-1 1
 dashbinsh 0.1-5 1
@@ -45,7 +45,6 @@ ircd-hybrid 8.2.39-1 1
 isomaster 1.3.16-1 1
 jade-application-kit 3.5.6-2 1
 jdownloader2 latest-17 1
-leftwm-theme-git 2:r75.556c8d4-1 1
 lib32-gallium-nine-git 0.r388.9abd0b4-1 1
 lib32-primus-vk-git r147.938ec43-1 1
 libgksu 2.0.12-9 1
@@ -87,5 +86,22 @@ google-messages 1.3.0-1 1
 librewolf 100.0.2-1 1
 firefox-appmenu 100.0.2-1 1
 opensnitch 1.5.1-1 1
-visual-studio-code-insiders-bin 1653284406-1 1
 pamac-classic 7.3.0-2 1
+yuzu-mainline-git r21392.b3441b469-1 1
+anbox-git 1:r1358.84f0268-9 1
+chatterino2-7tv-git r3669.652859cc-1 1
+chatterino2-git r3565.9219647b6-1 1
+dogecoin-qt 1.14.5-1 1
+eka2l1-git 5477.9cb5b6042-1 1
+emulationstation 2.10.3-1 1
+fastgame-git 0.2.0.r3.ge957670-1 1
+freecad-git 0.20.0.29071.gc143d91978-1 1
+kicad-git 6.99.0.r2103.gdc6c27b686-1 1
+musikcube 0.97.0-1 1
+natron-compositor 2.4.2-1 1
+odr-dabmod-git 2.6.0.r0.g451a7fa-1 1
+odr-dabmux-git 4.2.1.r0.gbb99691-1 1
+pulseeffects-legacy 4.8.6-1 1
+rstudio-desktop 2022.02.3+492-1 1
+yosys-git 0.17+87.r11596.6db294893-1 1
+yuzu-early-access 2762-1 1
