@@ -1,5 +1,4 @@
 compiz 0.9.14.1-4 2
-ffmpeg-vulkan 2:5.0-1 1
 linux-vfio 5.17.1.arch1-1 1
 linux-mainline-anbox 5.17-1 1
 linux-cacule 5.17.4-2 1
@@ -43,7 +42,6 @@ isomaster 1.3.16-1 1
 jade-application-kit 3.5.6-2 1
 jdownloader2 latest-17 1
 lib32-gallium-nine-git 0.r388.9abd0b4-1 1
-lib32-primus-vk-git r147.938ec43-1 1
 libgksu 2.0.12-9 1
 librewolf-extension-xdm-browser-monitor 2.2-1 1
 material-kwin-decoration-git v7+34+g9739497-1 1
@@ -61,7 +59,6 @@ pantheon-default-settings-git 6.0.2.r2.g04de9ab-1 1
 paper-icon-theme-git 832.aa3e8af7-1 1
 pcloudcc-git r1471.4b42e3c-1 1
 plasma5-applets-window-title-git 0.7.0.r0.gc3fb675-1 1
-primus-vk-git r147.938ec43-1 1
 prjxray-db-git r258.0a0adde-1 1
 qlog-git r72.2c498ba-1 1
 re3-git r3167.3233ffe1-1 1
@@ -83,9 +80,7 @@ google-messages 1.3.0-1 1
 firefox-appmenu 100.0.2-1 1
 opensnitch 1.5.1-1 1
 pamac-classic 7.3.0-2 1
-yuzu-mainline-git r21392.b3441b469-1 1
 anbox-git 1:r1358.84f0268-9 1
-chatterino2-7tv-git r3669.652859cc-1 1
 dogecoin-qt 1.14.5-1 1
 emulationstation 2.10.3-1 1
 fastgame-git 0.2.0.r3.ge957670-1 1
@@ -99,4 +94,4 @@ strawberry-qt5 1.0.5-1 1
 radeon-profile-git 20200824.r26.g0d632ba-1 1
 visual-studio-code-insiders-bin 1654303991-1 1
 picom-git 1699_9.rc1.21.gcd50596_2022.04.13-1 1
-ffmpeg-obs 5.0.1-1 1
+redshift-minimal 1.12-4 1
