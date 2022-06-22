@@ -1,4 +1,0 @@
-prepare() {
-	cd "${srcdir}/${_pkgname}"
-	sed 's/sudo ninja -C/ninja -C/' Makefile
-}
