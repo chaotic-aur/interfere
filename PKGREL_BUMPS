@@ -5,7 +5,6 @@ linux-cacule 5.17.4-2 1
 alacritty-ligatures-git 0.8.0.1772.g3ed0430-1 1
 alpm_octopi_utils 1.0.2-3 1
 ananicy-cpp 1.0.0.rc6-1 1
-anydesk-bin 6.1.1-5 1
 appimagelauncher 2.2.0-5 1
 archinstall-git 2.4.0.dev0-1 1
 athenaeum-git v2.3.2.r0.b0cd237-1 1
@@ -15,7 +14,6 @@ bass-fish 1.0-1 1
 bcache-tools 1.1-1 1
 birdtray 1.9.0-1 1
 bluetooth-autoconnect 1.3-1 1
-calamares-branding-garuda r48.6eeee68-1 1
 chaotic-neofetch-git 7.1.0.r166.gccd5d9f5-2 1
 clipit 1.4.5-3 1
 compiz-git 0.9.14.1.r0.g8b3fdfd7c-1 3
@@ -26,7 +24,6 @@ delft-icon-theme-git 1.15.r0.gdd693fcf-1 1
 dissenter-browser-bin 1.5.114-2 1
 evdev-right-click-emulation 20190313.350939-1 1
 fann 2.2.0-5 1
-firedragon-extension-plasma-integration 1.8.1-2 1
 firefox-extension-bitwarden 1.53.0-1 1
 firefox-extension-plasma-integration 1.8.1-1 1
 fish-autopair 1.0.3-2 1
@@ -97,6 +94,5 @@ picom-git 1699_9.rc1.21.gcd50596_2022.04.13-1 1
 redshift-minimal 1.12-4 2
 icoextract 0.1.3-2 1
 acidrip 0.14-10 1
-libshumate-git 1.0.0.alpha.1.r57.g8839ab8-1 1
-shortwave-git 3.0.0.r29.g1dfc4ba-1 1
 shortwave 1:3.0.0-1 1
+themix-icons-papirus-git 20220606.r61.g971ddc90a3-1 1
