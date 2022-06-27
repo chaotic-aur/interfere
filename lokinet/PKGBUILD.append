@@ -1,1 +1,2 @@
-makedepends+=(python3)
+depends+=(libsystemd zeromq)
+makedepends+=(python3 pkgconf)
