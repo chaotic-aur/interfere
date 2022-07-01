@@ -1,1 +1,1 @@
-depends+=(xcb-util-wm libxcb)
+depends+=(xcb-util-wm libxcb xorgproto)
