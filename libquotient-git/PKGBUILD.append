@@ -1,1 +1,1 @@
-depends+=(qt5keychain)
+depends+=(qtkeychain-qt5)
