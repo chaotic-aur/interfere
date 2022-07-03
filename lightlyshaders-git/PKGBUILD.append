@@ -1,1 +1,1 @@
-depends+=(kglobalaccel kde-dev-utils kwin)
+depends+=(kglobalaccel kde-dev-utils kwin libqt5-qttools-devel)
