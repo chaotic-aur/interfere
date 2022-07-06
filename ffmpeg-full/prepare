@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-#$CAUR_PUSH 'source /etc/profile'
+$CAUR_PUSH 'source /etc/profile'
