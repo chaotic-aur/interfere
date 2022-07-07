@@ -49,7 +49,6 @@ newaita-icons-git r929.c2b596b09-1 1
 obsidian-2-theme-git 2.20.r0.g93ba8ec-1 1
 obsidian-icon-theme-git 4.15.r1.g4cccdd3f-1 1
 ogre-docs-1.9 1.9.1-7 1
-osdlyrics-git 0.5.10.r0.g987e99d-1 1
 pantheon-default-settings-git 6.0.2.r2.g04de9ab-1 1
 paper-icon-theme-git 832.aa3e8af7-1 1
 pcloudcc-git r1471.4b42e3c-1 1
@@ -95,3 +94,4 @@ vlc-luajit 3.0.17.4-8 1
 spotify-tray-git 1.3.2.r3.g989e9a1-1 1
 x2goserver 4.1.0.3-10 1
 x2goclient 4.1.2.2-3 1
+php80 8.0.20-2 1
