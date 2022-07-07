@@ -8,7 +8,6 @@ ananicy-cpp 1.0.0.rc6-1 1
 appimagelauncher 2.2.0-5 1
 archinstall-git 2.4.0.dev0-1 1
 athenaeum-git v2.3.2.r0.b0cd237-1 1
-auracle-git r366.8739929-4 1
 autotiling 1.6-2 1
 bass-fish 1.0-1 1
 bcache-tools 1.1-1 1
@@ -26,7 +25,6 @@ evdev-right-click-emulation 20190313.350939-1 1
 fann 2.2.0-5 1
 firefox-extension-bitwarden 1.53.0-1 1
 firefox-extension-plasma-integration 1.8.1-1 1
-fish-autopair 1.0.3-2 1
 foo2zjs-nightly 20201127-1 1
 fotokilof 3.8.3-1 1
 gallium-nine-git 0.r388.9abd0b4-1 1
@@ -86,15 +84,13 @@ natron-compositor 2.4.2-1 1
 odr-dabmod-git 2.6.0.r0.g451a7fa-1 1
 odr-dabmux-git 4.2.1.r0.gbb99691-1 1
 rstudio-desktop 2022.02.3+492-1 1
-obs-studio-tytan652 27.2.4-5 3
 strawberry-qt5 1.0.5-1 1
 radeon-profile-git 20200824.r26.g0d632ba-1 1
-visual-studio-code-insiders-bin 1654303991-1 1
 picom-git 1699_9.rc1.21.gcd50596_2022.04.13-1 1
 redshift-minimal 1.12-4 2
 acidrip 0.14-10 1
 shortwave 1:3.0.0-1 1
 proton-ge-custom 2:GE.Proton7.24-1 1
 vlc-luajit 3.0.17.4-8 1
-mesa-tkg-git 22.2.0_devel.156171.7bb62d9dd859-1 1
 spotify-tray-git 1.3.2.r3.g989e9a1-1 1
+x2goserver 4.1.0.3-10 1
