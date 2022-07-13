@@ -1,1 +1,1 @@
-makedepends+=(git)
+makedepends+=(git python)
