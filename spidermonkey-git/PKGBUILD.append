@@ -1,1 +1,1 @@
-makedepends+=(python)
+makedepends+=(python rust llvm)
