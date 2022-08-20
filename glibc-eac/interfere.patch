@@ -1,0 +1,45 @@
+diff --git a/PKGBUILD b/PKGBUILD
+index 68112c0..6b2d830 100644
+--- a/PKGBUILD
++++ b/PKGBUILD
+@@ -14,8 +14,8 @@ _eos_eac_fix="true"
+ _rogue_company_fix="true"
+ _disable_tests="true" # They are very playful and seem to fail randomly in different ways depending on the machine, so let's disable them by default - https://github.com/Frogging-Family/glibc-eac/issues/2
+ 
+-pkgbase=glibc
+-pkgname=(glibc lib32-glibc)
++pkgbase=glibc-eac
++pkgname=(glibc-eac lib32-glibc-eac)
+ pkgver=2.36
+ _commit=c804cd1c00adde061ca51711f63068c103e94eef
+ pkgrel=2
+@@ -186,12 +186,14 @@ check() {
+   fi
+ }
+ 
+-package_glibc() {
++package_glibc-eac() {
+   pkgdesc='GNU C Library'
+   depends=('linux-api-headers>=4.10' tzdata filesystem)
+   optdepends=('gd: for memusagestat'
+               'perl: for mtrace')
+   install=glibc.install
++  provides=glibc
++  conflicts=glibc
+   backup=(etc/gai.conf
+           etc/locale.gen
+           etc/nscd.conf)
+@@ -230,10 +232,12 @@ package_glibc() {
+   install -Dm644 "$srcdir/sdt-config.h" "$pkgdir/usr/include/sys/sdt-config.h"
+ }
+ 
+-package_lib32-glibc() {
++package_lib32-glibc-eac() {
+   pkgdesc='GNU C Library (32-bit)'
+   depends=("glibc=$pkgver")
+   options+=('!emptydirs')
++  provides=lib32-glibc
++  conflicts=lib32-glibc
+ 
+   cd lib32-glibc-build
+ 
