@@ -24,8 +24,8 @@ index 68112c0..6b2d830 100644
    optdepends=('gd: for memusagestat'
                'perl: for mtrace')
    install=glibc.install
-+  provides=(glibc)
-+  conflicts=(glibc)
++  provides=(glibc=$pkgver-$pkgrel)
++  conflicts=(glibc=$pkgver-$pkgrel)
    backup=(etc/gai.conf
            etc/locale.gen
            etc/nscd.conf)
@@ -38,8 +38,8 @@ index 68112c0..6b2d830 100644
    pkgdesc='GNU C Library (32-bit)'
    depends=("glibc=$pkgver")
    options+=('!emptydirs')
-+  provides=(lib32-glibc)
-+  conflicts=(lib32-glibc)
++  provides=(lib32-glibc=$pkgver-$pkgrel)
++  conflicts=(lib32-glibc=$pkgver-$pkgrel)
  
    cd lib32-glibc-build
  
