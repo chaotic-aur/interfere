@@ -84,6 +84,5 @@ mongodb-compass 1.32.6-1 1
 wayfire-git r2218.da7a929c-1 1
 amd-ucode-git 20220815.8413c63-1 1
 linux-firmware-git 20220815.8413c63-1 1
-linux-xanmod-edge 5.19.2-1 1
 glibc-eac 2.36-2 1
-freetube 0.17.0-1 1
+matrix-mirage 0.7.2-2 1
