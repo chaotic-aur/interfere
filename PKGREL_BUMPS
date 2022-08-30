@@ -82,7 +82,7 @@ kotatogram-dev-git k1.4.9.r0.ge5dcf48d4-2 1
 mpv-full 0.34.1-2 1
 mongodb-compass 1.32.6-1 1
 wayfire-git r2218.da7a929c-1 1
-amd-ucode-git 20220815.8413c63-1 1
-linux-firmware-git 20220815.8413c63-1 1
 glibc-eac 2.36-2 1
 matrix-mirage 0.7.2-2 1
+intel-hybrid-codec-driver 2.0.0.r169.edead0c-4 1
+libva-intel-driver-hybrid 2.4.1-2 1
