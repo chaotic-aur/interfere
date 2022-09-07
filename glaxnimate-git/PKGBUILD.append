@@ -1,1 +1,1 @@
-makedepends+=(qt6-declarative clang)
+makedepends+=(clang)
