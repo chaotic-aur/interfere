@@ -1,0 +1,1 @@
+source=("$_pkgname::git+https://github.com/NatronGitHub/natron-plugins.git")
