@@ -1,4 +1,4 @@
-
+makedepends=(git extra-cmake-modules-git clang python-pyqt5 doxygen qt5-tools sip)
 depends+=(plasma-wayland-protocols-git)
 
 build() {

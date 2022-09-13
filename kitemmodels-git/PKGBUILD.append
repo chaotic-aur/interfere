@@ -1,3 +1,5 @@
+makedepends=(git extra-cmake-modules-git python-pyqt5 clang doxygen qt5-tools sip qt5-declarative)
+
 build() {
   cmake -B build -S ${pkgname%-git} \
     -DBUILD_TESTING=OFF \
