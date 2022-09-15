@@ -1,1 +1,6 @@
 depends+=(qtkeychain-qt5)
+package()
+{
+  cd ${_appname}
+  cmake --install build_dir
+}
