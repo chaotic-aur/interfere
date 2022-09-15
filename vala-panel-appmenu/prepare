@@ -1,0 +1,1 @@
+sed -i 's/_disable_budgie=false/_disable_budgie=true/g' PKGBUILD
