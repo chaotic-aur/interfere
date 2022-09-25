@@ -1,0 +1,4 @@
+check() {
+    # skip tests, we don't have /dev/kvm in our cluster
+    true
+}
