@@ -1,1 +1,2 @@
 pkgname=ananicy-rules
+makedepends+=(git)
