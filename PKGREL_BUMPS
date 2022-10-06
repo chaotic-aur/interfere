@@ -2,7 +2,6 @@ linux-mainline-anbox 5.17-1 1
 linux-cacule 5.17.4-2 1
 alacritty-ligatures-git 0.8.0.1772.g3ed0430-1 1
 alpm_octopi_utils 1.0.2-3 1
-ananicy-cpp 1.0.0.rc6-1 2
 archinstall-git 2.4.0.dev0-1 1
 athenaeum-git v2.3.2.r0.b0cd237-1 1
 bass-fish 1.0-1 1
@@ -45,7 +44,6 @@ ogre-docs-1.9 1.9.1-7 1
 pantheon-default-settings-git 6.0.2.r2.g04de9ab-1 1
 paper-icon-theme-git 832.aa3e8af7-1 1
 pcloudcc-git r1471.4b42e3c-1 1
-plasma5-applets-window-title-git 0.7.0.r0.gc3fb675-1 1
 prjxray-db-git r258.0a0adde-1 1
 qlog-git r72.2c498ba-1 1
 re3-git r3167.3233ffe1-1 1
@@ -87,3 +85,4 @@ themix-icons-gnome-colors-git 5.5.5.r0.gcd8b05a-2 1
 qt5-styleplugins 5.0.0.20170311-30 1
 nixfmt 0.5.0-4 1
 pulseeffects-legacy 4.8.7-1 1
+qemu-arch-extra-git 17:7.1.0.r605.gc8de6ec63d-1 1
