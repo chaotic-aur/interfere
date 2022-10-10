@@ -2,6 +2,3 @@
 sed -i 's&test -s jarlog&&g' PKGBUILD
 sed -i 's&stat -c "Jar log found (%s bytes)" jarlog&&g' PKGBUILD
 sed -i 's&ac_add_options --with-pgo-jarlog=${PWD@Q}/jarlog&&g' PKGBUILD
-
-# Needed PKGBUILD fix
-sed -i 's&stat -c "Jar log found (%s bytes)" jarlog&&g' PKGBUILD
