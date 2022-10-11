@@ -1,2 +1,0 @@
-#!/usr/bin/env sh
-sed -i 's&_use_optimization_select=y&_use_optimization_select=&'  PKGBUILD
