@@ -47,7 +47,6 @@ pamac-classic 7.3.0-2 1
 fastgame-git 0.2.0.r3.ge957670-1 1
 musikcube 0.97.0-1 1
 odr-dabmod-git 2.6.0.r0.g451a7fa-1 1
-odr-dabmux-git 4.2.1.r0.gbb99691-1 1
 radeon-profile-git 20200824.r26.g0d632ba-1 1
 redshift-minimal 1.12-4 2
 acidrip 0.14-10 1
@@ -67,4 +66,5 @@ nixfmt 0.5.0-4 2
 pulseeffects-legacy 4.8.7-1 1
 ananicy-cpp 1.0.0.rc7-1 1
 paru-git 1.11.1.r64.g4a34ae9-1 1
-kde-cli-tools-git 5.26.80_r1973.ga3d066d-1 1
+mutter-dynamic-buffering 42.5-1 1
+mutter-performance 42.5-1 1
