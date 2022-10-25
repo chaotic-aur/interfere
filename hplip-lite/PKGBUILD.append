@@ -1,2 +1,2 @@
 depends+=(libjpeg-turbo libcups)
-makedepends+=(python automake)
+makedepends+=(python)
