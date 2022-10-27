@@ -1,3 +1,0 @@
-depends+=(libjpeg-turbo libcups)
-makedepends+=(python)
-provides+=(hplip)
