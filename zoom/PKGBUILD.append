@@ -1,6 +1,0 @@
-depends=('fontconfig' 'glib2' 'libpulse' 'libsm' 'ttf-font' 'libx11' 'libxtst' 'libxcb'
-	'libxcomposite' 'libxfixes' 'libxi' 'libxcursor' 'libxkbcommon-x11' 'libxrandr'
-	'libxrender' 'libxshmfence' 'libxslt' 'mesa' 'nss' 'xcb-util-image'
-	'xcb-util-keysyms' 'dbus')
-optdepends+=('ibus: input method'
-            'fcitx: another input method')
