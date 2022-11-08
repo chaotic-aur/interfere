@@ -42,7 +42,6 @@ pygtk 2.24.0-12 1
 subtitlecomposer 0.7.1-3 2
 google-messages 1.3.0-1 1
 pamac-classic 7.3.0-2 2
-fastgame-git 0.2.0.r3.ge957670-1 2
 musikcube 0.97.0-1 2
 odr-dabmod-git 2.6.0.r0.g451a7fa-1 2
 radeon-profile-git 20200824.r26.g0d632ba-1 2
@@ -62,7 +61,6 @@ pulseeffects-legacy 4.8.7-1 2
 ananicy-cpp 1.0.0.rc7-1 2
 garuda-settings-manager-git 1.0.1.r3.g27adcf0-1 1
 zoom 5.12.2-1 2
-lightlyshaders-git r137.9955d88-1 2
 paru 1.11.1-1 3
 cargo-make 0.36.1-1 2
 chatterino2-7tv-git r3816.c086185a-1 2
@@ -74,7 +72,6 @@ crow-translate-git 2.10.1.r0.gb0a1f94-1 2
 dwarfs 0.6.2-1 2
 dwarfs-git 0.6.2.r1.g8ed2fce-1 2
 freedownloadmanager 6.18.0.4888-2 2
-freerdp-git 2.0.0.r2180.gb8907711d-1 2
 git-git 2.38.1.r385.g3b08839926-1 2
 guestfs-tools 1.48.2-1 2
 hfsprogs 540.1.linux3-4 2
@@ -100,7 +97,6 @@ nextcloud-client-git 3.6.0.r17.gb7b374c44-1 2
 nghttp2 1.50.0-1 2
 nheko-git 0.10.2.r94.g03fc8828-1 2
 openboard 1.6.4-1 2
-openssh-hpn 9.0p1.hpn17v4-3 2
 paho-mqtt-c 1.3.10-1 2
 pixelserv-tls 2.4-1 2
 powershell 7.2.6-1 2
@@ -109,7 +105,6 @@ pure-ftpd 1.0.51-1 2
 python311 3.11.0-1 2
 python38 3.8.15-2 2
 python39 3.9.15-1 2
-ruffle-nightly-bin 2022.11.04-1 2
 rum 0.7.2-1 2
 seafile 8.0.8-1 2
 signalbackup-tools-git 20221025.r2.g8e11b46-1 2
@@ -118,7 +113,6 @@ spot-client 0.3.2-1 2
 spot-client-git 0.3.3.r0.g8fe75ea-1 2
 spotify 1:1.1.84.716-2 2
 spotify-tui 0.25.0-2 2
-stellarium 1.0-3 2
 stremio 4.4.142-2 2
 sunshine 0.15.0-1 2
 syncthingtray 1.3.0-3 2
@@ -138,7 +132,6 @@ aarch64-linux-musl 1.2.2-1 1
 absolutely-proprietary 20220518-1 1
 acestream-launcher 2.1.0-1 1
 across 0.1.3-1 1
-act 0.2.31-1 1
 adcli 0.9.2-1 1
 adwaita-icon-theme-git 43+r59+g64cac85d7-1 1
 afdko 3.9.1-1 1
@@ -204,7 +197,6 @@ atom-editor-beta-bin 1.61.0beta0-1 1
 audio-recorder 3.3.4-1 1
 audio-sharing 0.2.1-1 1
 aura 3.2.9-1 1
-ausweisapp2 1.24.3-1 1
 authenticator 4.1.6-1 1
 authpass-bin 1.9.7-1 1
 authselect 1.4.0-1 1
@@ -226,7 +218,6 @@ balena-etcher 1.7.9-1 1
 baloo-git 5.100.0_r3090.gebd1df7c-1 1
 basilisk-bin 1:52.9.2022.09.28-1 1
 basket 2.49b-7 1
-basket-git 2.49.90.r1551.9a48d27-1 1
 bcachefs-tools-git 955-1 1
 betterdiscordctl-git 2.0.1.r2.g49a26fe-1 1
 betterlockscreen 4.0.4-1 1
@@ -246,7 +237,6 @@ bluez-utils-compat 5.65-1 1
 boca 1:1.0.6a-1 1
 bombsquad 1.7.10-1 1
 bookletimposer 0.3.1-1 1
-bookworm-git 1.1.2.r227.g36fc5d4-1 1
 bootiso 4.2.0-1 1
 bottles 2022.10.14.1-1 1
 boxtron 0.5.4-1 1
@@ -290,8 +280,6 @@ cecilia 5.4.1-1 1
 cecilia-git 5.4.1.r5.g266d613-1 1
 cef-minimal 99.2.14-1 1
 cef-minimal-obs-bin 103.0.0_5060_shared_textures_143.2591+g4204d54+chromium_103.0.5060.134_1-3 1
-celluloid-git 0.23.r83.ge30ca94-1 1
-cemu 2.0.215-1 1
 certmonger 0.79.15-1 1
 cfs-zen-tweaks 1.2.0-1 1
 chaotic-keyring 20220803-1 1
@@ -305,7 +293,6 @@ chrome-remote-desktop 106.0.5249.37-1 1
 chromium-wayland-vaapi 107.0.5304.87-1 1
 chromium-widevine 1:4.10.2557.0-1 1
 cider 1.5.9-4 1
-cider-git 1.6.0.beta.23-1 1
 ckb-next 0.5.0-2 1
 clamav-unofficial-sigs 7.2.5-1 1
 clang-git 16.0.0_r440377.3edc1210a49d-1 1
@@ -424,15 +411,12 @@ electron15-bin 15.5.7-1 1
 electron16-bin 16.2.8-1 1
 electronmail-bin 5.1.1-1 1
 elementary-planner 3.0.7-1 1
-element-desktop-nightly-bin 2022110401-1 1
 elm-language-server 2.1.0-1 1
 emerald-gtk3 0.8.18-2 1
 emote 3.0.3-4 1
 emulationstation 2.11.0-1 1
 endeavour 42.0-4 1
-endeavour-git 41.0.r253.g394ed77e-1 1
 epiphany-git 43.0+8+g349277e2a-1 1
-epson-inkjet-printer-escpr2 1.1.52-1 1
 epsxe 2.0.5-28 1
 eqonomize-git r514.0c5fc78-1 1
 evdi-git 1.12.0.r6.gbdc258b-1 1
@@ -456,7 +440,6 @@ ff2mpv-native-messaging-host-git r67.1f6cfc4-1 1
 ffmpeg-compat-57 3.4.11-1 1
 ffmpeg-compat-58 4.4.2-2 1
 ffmpeg-full 5.1.2-1 1
-ffmpeg-git 5.2.r108942.g1dc8d82da9-1 1
 ffmpeg-obs 5.1.2-1 1
 ffmpeg-vulkan 2:5.1-1 1
 ffsend-bin 0.2.76-1 1
@@ -470,7 +453,6 @@ firedm 2022.2.5-1 1
 firedragon-extension-plasma-integration 1.8.1-3 1
 firedragon-extension-xdm-browser-monitor 2.2-1 1
 firefly-iii 5.7.14-1 1
-firefox-appmenu 104.0.2-1 1
 firefox-esr 102.4.0-1 1
 firefox-esr-i18n-ach 102.4.0-1 1
 firefox-esr-i18n-af 102.4.0-1 1
@@ -574,7 +556,6 @@ firefox-extension-localcdn 2.6.35-1 1
 firefox-extension-xdm-browser-monitor 2.2-1 1
 firefox-kde-opensuse-rpm 99.0.1.978.1-1 1
 firefox-userchromejs 101.0b3-1 1
-firejail-git 0.9.70.r303.g6cc6e3153-1 1
 firejail-pacman-hook 1-2 1
 firetools-git 0.9.64.r22.g6a38029-1 1
 fityk 1.3.2-1 1
@@ -583,7 +564,6 @@ flare-engine 1.13.04-1 1
 flare-game 1.13.04-1 1
 flashfocus-git v2.3.1.r0.gaa710b9-1 1
 flashplugin 32.0.0.465-1 1
-flat-remix-gnome 20220622-1 1
 flatseal 1.8.1-1 1
 fluent-gtk-theme-git 2022.06.15.r29.g152bc90-1 1
 fluffychat 1.4.0-1 1
@@ -658,7 +638,6 @@ giada 0.23.0-4 1
 giara 1.0-2 1
 gifcurry 6.0.1.0_0-1 1
 gigolo 0.5.2-1 1
-gimp-git 2:2.99.13.r236.e58efc314d-1 1
 gimp-plugin-normalmap 1.2.3-2 1
 gis-weather 0.8.4.1-1 1
 gis-weather-git 0.8.2.76-1 1
@@ -673,7 +652,6 @@ glaxnimate 0.5.0_1_g49002eec-1 1
 glaxnimate-git 0.5.1+flatpak_56_g214afdfb-1 1
 glew-egl-glx 2.2.0-1 1
 gmenu 0.3.0-1 1
-gmsh-bin 4.10.5-1 1
 gmusicbrowser 1.1.16-1 1
 gnome-2048-git 3.38.2.r23.g069c6e1-1 1
 gnome-browser-connector 42.1-3 1
@@ -752,8 +730,6 @@ guilded 1.0.9161723-1 1
 guiscrcpy 1:2022.7.1-1 1
 gwe 0.15.5-3 1
 gwenview-git 22.11.70.r6948-1 1
-gyroflow-git 1.3.0.r13.gc7d1035-1 1
-gzdoom 4.8.2-1 1
 haguichi 1.4.5-1 1
 hakuneko-desktop 6.1.7-2 1
 handbrake-nvenc 1.5.1-1 1
@@ -858,15 +834,12 @@ jre8 8u341-1 1
 jrosetta 1.0.4-5 1
 jupyter-metakernel 0.29.2-2 1
 kaccounts-integration-git 20.12.0_r1300.g030f95c-1 1
-kactivities-git 5.100.0_r1413.g59d751ad-1 1
-kactivities-stats-git 5.100.0_r422.g23165e9-1 1
 kactivitymanagerd-git 5.26.0_r1429.g6f0d43f-1 1
 kaddressbook-git 22.07.40_r6168.gab0ce544-1 1
 kalarmcal-git 5.19.40_r1186.gd40d710-1 1
 kalarm-git 22_r8059.gc52541f2-1 1
 kalendar-git 1.0.0.r199.ga5c74430-1 1
 kapidox-git 5.100.0_r578.g4b5711e-1 1
-karchive-git 5.100.0_r569.gec41ae3-1 1
 kasts 22.09.2-2 1
 kate-git 22.11.70_r19811.g141b08f81-1 1
 kawaii-player 5.0.0-2 1
@@ -881,14 +854,11 @@ kcmutils-git 5.100.0_r680.g6bdc743-1 1
 kcolorpicker-git 0.2.0_r77.g15e1637-1 1
 kcompletion-git 5.100.0_r524.g55e165d-1 1
 kconfigwidgets-git 5.100.0_r802.g76564d74-1 1
-kcrash-git 5.100.0_r460.gebfa91e-1 1
 kdav-git 1:5.100.0_r1368.g95c04e6-1 1
-kdbusaddons-git 5.100.0_r442.gf40f698-1 1
 kde-cdemu-manager 0.8.0-1 1
 kdeclarative-git 5.100.0_r1058.gd74a637-1 1
 kde-cli-tools-git 5.26.80_r1993.ga144f27-1 1
 kdeconnect-git 22.11.70_r3577.gbea39cbe-1 1
-kdecoration-git 5.26.80_r310.gb58691d-1 1
 kded-git 5.100.0_r480.gecdce60-1 1
 kde-git-meta 6-1 1
 kdegraphics-mobipocket-git 22.04.0_r275.g6cdb65d-1 1
@@ -909,14 +879,11 @@ kde-servicemenus-pdf-encrypt-decrypt 1-1 1
 kde-servicemenus-rootactions 2.9.1-2 1
 kde-servicemenus-sendtodesktop 1-1 1
 kde-servicemenus-setaswallpaper 1-1 1
-kdesignerplugin-git 5.100.0_r371.g9b6f785-1 1
 kdesu-git 5.100.0_r529.g0579ca9-1 1
-kdiagram-git 2.7.90_r366.g94bc5f3-1 1
 kdialog-git 22.11.70_r1255.g696546457-1 1
 kdisplay-git 5.26.80_r1519.gb6f9da5-1 1
 kdisplay-kwinft 5.26.0-1 1
 kdocker 5.4-1 1
-kdoctools-git 5.100.0_r691.g5a748db-1 1
 kdsoap-git 2.1.2_r1860.gf943b216-1 1
 kdsoap-ws-discovery-client-git 0_r62.gdcefb65-1 1
 keepassxc-git 2.7.1.r112.g3cbe4df8-1 1
@@ -928,16 +895,12 @@ kfilemetadata-git 5.100.0_r891.gbc6a554-1 1
 kfiredragonhelper 5.0.6-1 1
 kgamma5-git 5.26.80_r494.gef81985-1 1
 kget-git 22.11.70_r3254.g21e99c46-1 1
-kglobalaccel-git 5.100.0_r585.ge50ca13-1 1
-kguiaddons-git 5.100.0_r511.g4f2be34-1 1
 khelpcenter-git 22.11.70_r2778.gbaba4175-1 1
 khotkeys-git 5.26.80_r2176.g1fe0e1d-1 1
 khtml-git 5.100.0_r611.gd2419f1-1 1
 kiconthemes-git 5.100.0_r648.g08ab845-1 1
 kid3-cli 3.9.1-1 1
 kidentitymanagement-git 5.21.42_r3921.g95b61307-1 1
-kimageannotator-git r1139.c9fbf31-1 1
-kimageformats-git 5.99.0_r460.g8586bb4-1 1
 kimap2-git 0.4.0_r826.g366193b-1 1
 kimap-git 5.21.40_r1219.gc21901f-1 1
 kinfocenter-git 5.26.80_r2202.g8e81292c-1 1
@@ -945,8 +908,6 @@ kinit-git 5.100.0_r457.g8737355-1 1
 kio-extras-git 22.11.70_r7373.g3669d375c-1 1
 kio-git 5.100.0_r5812.g3456a3506-1 1
 kirigami2-git 5.100.0_r3420.ge81745cd-1 1
-kitemmodels-git 5.100.0_r627.gb523440-1 1
-kitemviews-git 5.100.0_r397.gfeacafc-1 1
 kitinerary-git 5.21.40_r2492.gc2f1a9f3-1 1
 kjobwidgets-git 5.100.0_r443.gaa252b8-1 1
 kjsembed-git 5.99.0_r336.g790fa36-1 1
@@ -957,12 +918,10 @@ kleopatra-git 22.11._r6906.ge43a8c0f-1 1
 kmail-account-wizard-git 22.11.40_r911.g07f09cc-1 1
 kmail-git 22.11.40_r26597.g95be17ed5-1 1
 kmailtransport-git 5.21.40_r1795.ga831bd4-1 1
-kmbox-git 5.21.40_r614.gb32fc7e-1 1
 kmenuedit-git 5.26.80_r1091.g7dfaaed-1 1
 kmozillahelper 1:5.0.6-1 1
 knewstuff-git 5.100.0_r1418.gb3d2f9a2-1 1
 knotes-git 22.11.40_r3722.g8b33321f-1 1
-knotifications-git 5.100.0_r774.g4db051c-1 1
 knotifyconfig-git 5.100.0_r405.g8f63e1a-1 1
 koka-bin 2.3.8-1 1
 komorebi 2.2.1-1 1
@@ -978,19 +937,13 @@ kparts-git 5.100.0_r625.gd28832c-1 1
 kpeople-git 5.100.0_r1398.gd4961c1-1 1
 kpeoplevcard-git 0.1_r78.ge9d15a9-1 1
 kpimtextedit-git 5.21.40_r1645.g9b4dd0d-1 1
-kpipewire-git 5.26.80_r160.g73b06cd-1 1
-kpkpass-git 5.21.40_r313.g42c1623-1 1
-kpmcore-git 22.11.70.r1316.e4eb853-1 1
-kpty-git 5.100.0_r395.g1b9d5f1-1 1
 kquickchatcomponents-git r15.f184bbc-1 1
 kross-git 5.100.0_r375.gc067967-1 1
 krunner-git 5.100.0_r793.g92d413d-1 1
 kscreen-git 5.26.80_r1577.gfbc5b4a-1 1
 kscreenlocker-git 5.26.80_r1007.g8804681-1 1
-kservice-git 5.100.0_r1044.g769ae2d-1 1
 ksmoothdock 6.3-2 1
 ksmtp-git 5.21.40_r470.g3524248-1 1
-ksnip-git 1.10.1_r2670.gb471a272-1 1
 ksshaskpass-git 5.26.80_r224.g41bd22a-1 1
 ksysguard-git 5.22.80_r3557.gd1096d25-1 1
 ksystemlog-git 22.11.70_r772.ga82879f-1 1
@@ -999,8 +952,6 @@ ktexteditor-git 5.100.0_r3614.g9e904966-1 1
 ktextwidgets-git 5.100.0_r471.g8ef390b-1 1
 ktlint 0.47.1-1 1
 ktnef-git 5.21.40_r746.g0b250ca-1 1
-kunitconversion-git 5.100.0_r447.g65cdc33-1 1
-kvantum-git 1.0.6.r2.gd369913a-1 1
 kvantum-theme-matcha-git r11.a3b247b-1 1
 kvantum-theme-orchis-git r41.bd73f14-1 1
 kvantum-theme-qogir-git r84.29bd033-1 1
@@ -1010,10 +961,7 @@ kwalletmanager-git 22.11.70_r1317.g3b156c5-1 1
 kwallet-pam-git 5.26.80_r277.gb7fcbcf-1 1
 kwallet-secrets 5.96.0-1 1
 kwaterfoxhelper 5.0.7-0 1
-kwayland-git 5.100.0_r1194.gd31d35f-1 1
-kwayland-integration-git 5.26.80_r219.g9359066-1 1
 kwayland-server-git 5.24.80.r1481.gdec04c49-1 1
-kwidgetsaddons-git 5.100.0_r1012.g78cf414a-1 1
 kwin-bismuth 3.1.4-1 1
 kwin-bismuth-git 3.1.4.r2.g8899c31-1 1
 kwin-effects-sliding-notifications 1.4.0-1 1
@@ -1027,16 +975,13 @@ kwin-scripts-window-colors 0.2-3 1
 kwrited-git 5.26.80_r520.g5ddc413-1 1
 kxmlgui-git 5.100.0_r922.g60901102-1 1
 kxmlrpcclient-git 5.100.0_r496.gb6fbce0e3-1 1
-labplot-git 2.9.0_r10412.g0e8d6ff71-1 1
 labwc 0.5.3-1 1
-labwc-git 0.5.0.r410.ge45e2c7-1 1
 lanshare 1.2.1-8 1
 lariza 21.06-1 1
 layer-shell-qt-git 5.26.80_r68.g70dc87f-1 1
 lbry-app-bin 0.53.5-1 1
 lbry-desktop-git 0.53.4.r10906.ge11fb5d22-1 1
 ledger-udev 1-7 1
-leocad-git 21.06.r94.181985dc-1 1
 lib32-bluez-libs 5.65-2 1
 lib32-bluez-plugins 5.65-2 1
 lib32-chromaprint 1.5.1-1 1
@@ -1101,7 +1046,6 @@ libkgapi-git 5.21.40_r1388.g45d5d60-1 1
 libkipi-git 5.2.0_r1282.gabe801d-1 1
 libkleo-git 5.21.49_r1297.g1fccce0-1 1
 libkomparediff2-git 22.08.2_r362.g31d0536-1 1
-libkscreen-git 5.26.80_r1652.gb37b685-1 1
 libksieve-git 5.21.40_r1764.g6e53fa15-1 1
 libksysguard-git 5.26.80_r2465.g25b201c-1 1
 libmarble-git 1.3.0.r4.g6dcc6fe-3 1
@@ -1140,36 +1084,20 @@ libxc 6.0.0-1 1
 libzrtpcpp 4.7.0-2 1
 lightdm-settings 1.5.9-1 1
 lightly-git r2172.121a61e5-2 1
-lightspark-git 0.8.6.1.r10.gd2138ab3-1 1
 linux-bore 6.0.2-1 1
 linux-bore-headers 6.0.2-1 1
-linux-drm-next-headers-git 6.1.r1136770.f80c71f7a868-1 1
-linux-drm-tip-git 6.1.r1137561.36c4da734877-1 1
-linux-drm-tip-headers-git 6.1.r1137511.e98d915c2eb2-1 1
 linux-lts-tkg-bmq 5.15.74-271 1
-linux-lts-tkg-bmq-headers 5.15.74-271 1
 linux-lts-tkg-cfs 5.15.74-271 1
 linux-lts-tkg-cfs-headers 5.15.74-271 1
 linux-lts-tkg-pds 5.15.74-271 1
 linux-lts-tkg-pds-headers 5.15.74-271 1
-linux-mainline 6.1rc3-1 1
 linux-mainline-anbox-headers 5.17-1.1 1
-linux-mainline-headers 6.1rc3-1 1
 linux-next-git-docs 20220524.r0.g09ce5091ff97-1 1
 linux-nitrous 6.0.7-1 1
 linux-steam-integration 0.7.3-4 1
-linux-tkg-bmq-generic_v3 6.0.1-270 1
-linux-tkg-bmq-generic_v3-headers 6.0.1-270 1
 linux-tkg-bmq-headers 6.0.1-270 1
-linux-tkg-cfs 6.0.3-271 1
-linux-tkg-cfs-generic_v3 6.0.3-271 1
-linux-tkg-cfs-generic_v3-headers 6.0.3-271 1
-linux-tkg-cfs-headers 6.0.3-271 1
 linux-tkg-cfs-lto_v3 6.0.3-271 1
-linux-tkg-cfs-lto_v3-headers 6.0.3-271 1
 linux-tkg-pds 6.0.1-270 1
-linux-tkg-pds-generic_v3 6.0.1-270 1
-linux-tkg-pds-generic_v3-headers 6.0.1-270 1
 linux-tkg-pds-headers 6.0.1-270 1
 linux-tt 6.0.2-1 1
 linux-tt-headers 6.0.2-1 1
@@ -1355,7 +1283,6 @@ nss-hg 3.85.0r16365.e512213db1c6-1 1
 nteract-bin 0.28.0-1 1
 ntfs3-dkms 1:5.17-1 1
 ntfsprogs-ntfs3 2022.5.17-6 1
-nuclear-player-bin 1666141225662:20221019_9a813967367c2086e3338f26f3df5f36-2 1
 numix-icon-theme-git 22.08.16.r1.gb5001d962-1 1
 nvidia-390xx-dkms 390.154-1 1
 nvidia-390xx-settings 390.154-1 1
@@ -1399,7 +1326,7 @@ obs-vkcapture-git r218.e35dec2-1 1
 ocenaudio-bin 3.11.15-1 1
 ocrmypdf 14.0.1-1 1
 ocs-url 3.1.0-7 1
-octopi 0.14.0-1 1
+octopi 0.14.0-1 2
 octopi-notifier-frameworks 0.14.0-1 1
 octopi-notifier-qt5 0.14.0-1 1
 odamex 10.1.0-2 1
@@ -1412,7 +1339,6 @@ olive 0.1.2-3 1
 omnisharp-roslyn 1.39.0-1 1
 onedrive-abraunegg 2.4.21-2 1
 onedriver 0.12.0-1 1
-onefetch-git 2.13.2.r9.gdf086e0-1 1
 onlyoffice-bin 7.2.1-1 1
 openal-examples-git 1.22.2.r153.ge9ad8571-1 1
 openbangla-keyboard 2.0.0-7 1
@@ -1449,7 +1375,6 @@ p7zip-gui 16.02-8 1
 pa-applet-git r19.3b4f8b3-5 1
 pace 1.4.2-1 1
 pacman-auto-update 1.5.3-2 1
-pacman-git 6.0.1.r89.gda68447e-1 1
 pacmanlogviewer-git 1.4.3.r0.g542e5e0-1 1
 pacseek 1.7.5-1 1
 pacui 1.14-1 1
@@ -1471,7 +1396,6 @@ papirus-icon-theme-git 1:20221101.r5.gcce26033ea-1 1
 parlatype 3.1-2 1
 parlatype-libreoffice-extension 3.1.1-2 1
 parsec-bin 150_28-5 1
-partitionmanager-git 22.11.70.r1677.1b2706c-1 1
 passbook 0.8-1 1
 passbook-git 0.8.r36.g750825d-1 1
 path-of-building-community-git 2.21.1.r6441.60.517-1 1
@@ -1489,7 +1413,6 @@ pencil 3.1.0-7 1
 persepolis-git 3.2.0.r101.g7ce2d57-1 1
 phoc-embedded-wlroots 0.21.0-1 1
 phoenicis-playonlinux 5.0_snapshot-3 1
-phonon-qt5-git 4.11.1_r3881.gd3174600-1 1
 phoronix-test-suite 10.8.4-1 1
 phosh 0.21.0-1 1
 phosh-git 0.21.1.r17.ga1507895-1 1
@@ -1507,8 +1430,6 @@ pikaur-git 1.13.2.r0.gbb20417-1 1
 pimcommon-git 5.21.44_r1483.g883e43a-1 1
 pim-data-exporter-git 22.11.40_r2813.gd47d4fdd-1 1
 pim-sieve-editor-git 22.11.40_r1680.ge7b37aa-1 1
-pipe-viewer-git 0.4.2.r4.g8550ba9-1 1
-pipewire-common-zeroconf-git 0.3.59.r194.g0e8ea210-1 1
 pipewire-media-session-git 0.4.1.r11.ga8700862-1 1
 pip-tools 6.9.0-2 1
 pix 2.8.7-1 1
@@ -1520,7 +1441,6 @@ plasma5-applets-eventcalendar 76-1 1
 plasma5-applets-latte-separator 0.1.1-1 1
 plasma5-applets-latte-sidebar-button 0.2.1-1 1
 plasma5-applets-latte-spacer 0.3.0-1 1
-plasma5-applets-mycroft-git r156.52b1f72-1 1
 plasma5-applets-netspeed 1.9-1 1
 plasma5-applets-plasma-pstate 2.0.0-1 1
 plasma5-applets-virtual-desktop-bar-git r524.3c42104-1 1
@@ -1579,7 +1499,6 @@ pop-shell-plugin-system76-power-git 1.2.1.r22.g4eef0ca-1 1
 pop-shell-shortcuts-git 1:r30.52cc83f-2 1
 popsicle 1.3.0+47+gb02ebf5-1 1
 popsicle-git 1.3.0.r66.g2b88960-1 1
-postman-bin 10.0.1-2 1
 powerdevil-ddcutil 5.26.2-1 1
 powerdevil-git 5.26.80_r2615.ga43c4305-1 1
 powerpill 2021.11-4 1
@@ -1647,7 +1566,6 @@ python-caldav 0.9.2-1 1
 python-casttube 0.2.1-4 1
 python-catalogue 2.0.7-1 1
 python-chess-git 1.9.3.r18.g7ab1acb8-1 1
-python-cleo-git 1.0.0a5.r22.gfa8d9a7-1 1
 python-clickgen1 1.2.0-1 1
 python-coloredlogs 15.0.1-3 1
 python-colorzero 2.0-2 1
@@ -1680,7 +1598,6 @@ python-flask-limiter 2.4.6-1 1
 python-fontmath 0.9.2-1 1
 python-fontparts 0.10.8-1 1
 python-fontpens 0.2.4-3 1
-python-fonttools-git 4.38.0.r37.g66a3ec9-1 1
 python-freetype-py 2.3.0-1 1
 python-gevent-eventemitter 2.1-3 1
 python-git 3.12.0a0.r115125.d04899abb0d-1 1
@@ -1692,7 +1609,6 @@ python-guizero 1.3.0-1 1
 python-html-sanitizer 1.9.2-2 1
 python-httpx-socks 1:0.7.4-1 1
 python-hupper 1.10.3-4 1
-python-imageio 2.22.2-1 1
 python-imageio-ffmpeg 0.4.7-2 1
 python-injector 0.20.1-2 1
 python-inputs 0.5.0-1 1
@@ -1753,7 +1669,6 @@ python-pyclipper 1.3.0.post3-1 1
 python-pydes 2.0.1-5 1
 python-pydub 0.25.1-3 1
 python-pyglm 2.5.7-1 1
-python-pympv 0.5.1-1 1
 python-pynput 1.7.6-2 1
 python-pyo 1.0.4-1 1
 python-pyparted 3.11.7-1 1
@@ -1794,7 +1709,6 @@ python-simplematch 1.3-1 1
 python-single-version 1.5.1-4 1
 python-sip-pyqt4 4.19.25-1 1
 python-sphinx-automodapi 0.14.1-1 1
-python-spotdl 4.0.1-1 1
 python-spotipy 2.21.0-1 1
 python-srsly 2.4.4-1 1
 python-srt 3.5.2-1 1
@@ -1830,14 +1744,7 @@ qca-qt5-git 2.3.5_r2472.gaa691107-1 1
 qca-qt6-git 2.3.5_r2472.gaa691107-1 1
 qdigidoc4 4.2.12.118-1 1
 qdirstat 1.8.1-1 1
-qemu-arch-extra-git 17:7.1.0.r1658.gece5f8374d-1 1
-qemu-block-gluster-git 17:7.1.0.r1658.gece5f8374d-1 1
-qemu-git 17:7.1.0.r1658.gece5f8374d-1 1
-qemu-guest-agent-git 17:7.1.0.r1658.gece5f8374d-1 1
-qemu-headless-arch-extra-git 17:7.1.0.r1658.gece5f8374d-1 1
-qemu-headless-git 17:7.1.0.r1658.gece5f8374d-1 1
 qimgv-git v1.0.3.alpha.r75.gd24f3fa-1 1
-qmplay2-git 22.10.23.r4.gb5f489e9-1 1
 qnapi-git 0.2.3snapshot.r5.gd4e0378-1 1
 qogir-gtk-theme 2022.10.16-2 1
 qogir-kde-theme-git r84.29bd033-1 1
@@ -1846,7 +1753,6 @@ qomui-git 0.8.2.r22.23650ab-3 1
 qoob-git 0.2.1.r0.g2e3ed22-1 1
 qpdftools 2.0.4-0 1
 qpdfview 0.4.18-2 1
-qps 2.5.0-1 1
 qqc2-desktop-style-git 5.100.0_r681.g0fe8f4a-1 1
 qrab 0.4-3 1
 qt6gtk2 0.2-8 1
@@ -1940,17 +1846,14 @@ rtl88x2bu-cilynx-dkms-git r135.fdb01cc-1 1
 rtl88x2ce-dkms 5.7.3_35403-4 1
 rtl-sdr-git 1:0.6.0.r34.g5e73f90-1 1
 ruby-coderay 1.1.3-3 1
-rubymine 2022.2.2-1 1
 rubymine-eap-jre 223.6646.99-1 1
 rustdesk 1.1.9-7 1
 rustup-git 1.25.1.r39.gb3d53252-1 1
 safeeyes 2.1.3-1 1
 safeeyes-git 2.1.3.r41.g44e4a0a-1 1
 salad-git 1.0.7.r3.g6c1ebfff-1 1
-sameboy 0.15.7-1 1
 saxon-he 11.4-1 1
 sayonara-player 1.7.0_stable3-1 1
-sayonara-player-git 1.8.0.beta1.r48.g636760cc-1 1
 sc-controller 0.4.8.9-1 1
 sdbus-cpp 1.2.0-2 1
 sdbus-cpp-doc 1.2.0-2 1
@@ -1963,9 +1866,7 @@ sdl2_compat12-git r730.77892a1-1 1
 sdrpp-git r1234.c4bac3b-1 1
 seafile-client 8.0.8-1 1
 searx 1.1.0-1 1
-searx-git 1.1.0+r32+g806bd804-1 1
 sejda-console 3.2.85-6 1
-session-desktop-bin 1.10.3-2 1
 setzer-git 0.4.8.r17.g4f9c831-1 1
 shadowsocks-gtk-rs 0.4.1-1 1
 share-preview 0.2.0-1 1
@@ -2002,7 +1903,6 @@ soapysdr-git 3:0.8.1.r44.g637023d-1 1
 soci 4.0.3-1 1
 softmaker-office-2021-bin 2021.1054-1 1
 solanum 3.0.1.r0.g3f84b1d-2 1
-solid-git 5.100.0_r813.gc5d1e16-1 1
 solvespace 3.1-1 1
 sonarr 3.0.9.1549-1 1
 sonobus 1.5.1-2 1
@@ -2017,7 +1917,6 @@ spotify-qt 3.9-1 1
 spread-sheet-widget 0.8-1 1
 sqlcl 22.2.0.172.1718-1 1
 srb2 2.2.10-1 1
-sshs 3.3.0-1 1
 stacer 1.1.0-1 1
 stacer-git 1.1.0.r108.g0f24534-1 1
 startgame 1.2.3-1 1
@@ -2039,7 +1938,6 @@ subsurface 5.0.9-1 1
 subsurface-git 20221030.d3867af1b-1 1
 subsurface-libdc-git 20221102.28c27e2-1 1
 subtitlecomposer-git 0.7.1+git72.8327eaf2-1 1
-sudo-git 1.9.12p1.r11909.g3df1e9a07-1 1
 superproductivity-bin 7.12.0-1 1
 supertuxkart-git 23091+18565-1 1
 surf-git 2.1.r10.g665a709-1 1
@@ -2075,7 +1973,6 @@ systemd-cron-next-git v1.0.2.r16.ga4c2de7-1 1
 systemd-guest-user 33.2-1 1
 systemd-kcm 1.2.1-5 1
 systemd-oomd-defaults 251.5-1 1
-system-monitoring-center 1.32.0-1 1
 systemsettings-git 5.26.80_r2762.g9973f101-1 1
 systemtap 4.7-1 1
 systray-x-git 0.9.2.r12.g2488b58-1 1
@@ -2098,7 +1995,6 @@ themix-full-git 1.15-2 1
 themix-gui-git 1.15.r26.g82a47006-1 1
 themix-icons-gnome-colors-git 5.5.6.r0.gd2cb7eb-2 1
 themix-import-images-git 1.15.r26.g82a47006-1 1
-themix-plugin-base16-git 1.5.1.r7.gc092c23-1 1
 themix-theme-arc-git 20190917.r4.g1fd68cc-1 1
 themix-theme-oomox-git 1.12.3.r1.ge87724dd-1 1
 thingy 1.0.9-1 1
@@ -2116,7 +2012,6 @@ tidal-dl-git 2022.08.29.1.r24.ga771c59-1 1
 tidal-gui 2022.1.18.3-1 1
 tidal-hifi-bin 4.3.1-1 1
 tiddlydesktop 0.0.14-2 1
-timeshift 22.06.5-2 1
 timeshift-autosnap 0.9-1 1
 timeshift-bin 22.06.5-1 1
 timetrack 2.0.6-1 1
@@ -2126,7 +2021,6 @@ tlp-rdw-git 1.5.0.r43.77efc3c-1 1
 tlpui 1.5.0-1 1
 todoist-electron 1.24.0-4 1
 todoist-nativefier 2022.07.30-1 1
-tokodon-git 22.09.r22.gf919a7a-1 1
 tomb-git 2.9.r42.g12684e6-1 1
 tor-browser 11.5.7-1 1
 touche 2.0.6-1 1
@@ -2203,7 +2097,6 @@ vim-coc-pairs-git 1.4.0.r0.gd9b99c7-1 1
 vim-coc-pyright-git r1089.fec9e50-1 1
 vim-coc-sh-git 0.7.0.r0.gd4d0d0f-1 1
 vim-coc-tabnine-git 1.3.7.r1.g450d275-1 1
-vim-coc-tsserver-git 2.0.0.r0.g904b28b-1 1
 vim-coc-vetur-git 1.2.4.r2.ga525569-1 1
 vim-coc-vimlsp-git 0.8.0.r47.g556b7de-1 1
 vim-coc-yaml-git 1.9.0.r0.g40880b1-1 1
@@ -2221,13 +2114,11 @@ visual-studio-code-bin 1.73.0-1 1
 vivaldi-snapshot 5.6.2829.3-1 1
 vkcube-git r145.8261e90-1 1
 vlc-git 4.0.0.r20918.g02c95ad381-1 1
-vlc-luajit 3.0.17.4-11 1
 vmware-keymaps 1.0-3 1
 vmware-workstation 16.2.4-1 1
 vnote 3.15.1-1 1
 vpaint-git v1.7.r22.g5805751-1 1
 vscodium 1.73.0.22306-1 1
-vscodium-git 1.73.0.22306.r1.g8a4d27c-1 1
 vscodium-insiders 1.73.0.22306-1 1
 vscodium-insiders-marketplace 1.72.0-1 1
 vscodium-marketplace 1.65.0-1 1
@@ -2243,11 +2134,9 @@ wavebox-beta 10.107.10_3-1 1
 waydroid 1.3.3-1 1
 waydroid-git 1.3.3.r3.ge074cf4-1 1
 waydroid-image 17.1_20220723-1 1
-waydroid-image-gapps 17.1_20220723-2 1
 wayfire 0.7.4-1 1
 wayfire-desktop-git 0.7.3-1 1
 wayfire-plugins-extra 0.7.0-2 1
-waynergy-git r286.870a510-1 1
 waypipe-git 0.8.4.r1.gddc6bde1-1 1
 wcm 0.7.0-1 1
 wdisplays 1.1-1 1
@@ -2285,7 +2174,6 @@ wl-mirror 0.12.2-5 1
 wlogout 1.1.1-3 1
 wlrobs-hg r62.39cfab32d49a-1 1
 wlroots-eglstreams-git 0.16.0.r5636.6ea54173-1 1
-wlroots-git 0.16.0.r5814.3b75ab97e-1 1
 wluma 4.1.2-1 1
 woeusb 5.2.4-1 1
 woeusb-ng 0.2.10-1 1
@@ -2373,7 +2261,6 @@ yozo-office 8.0.1331.101ZH.S1-6 1
 yp-tools 4.2.3-6 1
 yt-dlg-git 1.2.0.r269.g556d7c0-1 1
 ytfzf 2.5.0-1 1
-ytfzf-git r1741.415cb22-1 1
 yuzu-early-access 3081-1 1
 yuzu-mainline-bin 0.1221-1 1
 yuzu-mainline-git r22411.32d8ebcb5-1 1
