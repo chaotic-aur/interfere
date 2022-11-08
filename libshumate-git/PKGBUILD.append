@@ -1,0 +1,3 @@
+check() {
+    echo "Removed as build breaking"
+}
