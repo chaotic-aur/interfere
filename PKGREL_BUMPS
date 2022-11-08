@@ -193,7 +193,7 @@ astrofox 1.4.0-3 1
 asusctl-git 4.3.4.r44.g1f85e30-1 1
 athenaeum-git v2.3.2.r0.b0cd237-1 1
 atlauncher-bin 3.4.20.4-1 1
-atom-editor-beta-bin 1.61.0beta0-1 1
+atom-editor-beta-bin 1.61.0beta0-1 2
 audio-recorder 3.3.4-1 1
 audio-sharing 0.2.1-1 1
 aura 3.2.9-1 1
@@ -210,7 +210,6 @@ awesome-git 4.3.1551.g5077c8381-1 1
 aws2-wrap 1.3.0-1 1
 ayatana-indicator-application 22.2.0-1 1
 ayatana-indicator-messages 22.9.0-1 1
-azote 1.9.6-1 1
 azure-cli 2.42.0-1 1
 b43-firmware 6.30.163.46-1 1
 badwolf 1.2.2-2 1
@@ -1097,8 +1096,6 @@ linux-nitrous 6.0.7-1 1
 linux-steam-integration 0.7.3-4 1
 linux-tkg-bmq-headers 6.0.1-270 1
 linux-tkg-cfs-lto_v3 6.0.3-271 1
-linux-tkg-pds 6.0.1-270 1
-linux-tkg-pds-headers 6.0.1-270 1
 linux-tt 6.0.2-1 1
 linux-tt-headers 6.0.2-1 1
 linux-wifi-hotspot 4.4.0-1 1
