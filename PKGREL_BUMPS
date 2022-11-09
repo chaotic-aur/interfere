@@ -84,7 +84,6 @@ libtd 1.8.5-1 2
 libtd-dev 1.8.2-2 2
 lutris-wine-git 0.75.4.r1.gd75fc6b-1 2
 mbuffer 20220418-1 2
-megasync-bin 4.7.1-3 2
 metronome-git 4.0.0-1 2
 mysql-clients57 5.7.38-1 2
 nchat-git 2.86.r17.g097fa1f-1 2
@@ -147,7 +146,6 @@ akonadi-mime-git 5.21.40_r1772.gee2231c-1 1
 akonadi-search-git 5.21.40_r1291.g213761b-1 1
 akregator-git 22.11.40_r6494.g07579c85-1 1
 akvcam-dkms 1.2.3-1 1
-albert 0.17.4-1 1
 alpm_octopi_utils-git r20.1e735c3-1 1
 alvr 19.0.0.r0.g1215da95-1 1
 amarok 2.9.71-2 1
@@ -386,7 +384,6 @@ drawpile-server 2.1.20-2 1
 driconf 0.9.1-14 1
 drkonqi-git 5.26.80_r856.g432ba37c-1 1
 droidcam 1:1.8.2-1 1
-dropbox 158.4.4564-1 1
 duc-git 1.4.5.r1.gc24ce26-1 1
 duckstation-git r5849.a6a52b31-1 1
 dupeguru 4.3.1-1 1
@@ -633,7 +630,6 @@ gis-weather 0.8.4.1-1 1
 gis-weather-git 0.8.2.76-1 1
 git-bug 0.7.2-1 1
 git-bug-git 0.7.1.r700.g650c11dc-1 1
-git-cola 4.0.2-3 1
 git-credential-manager-core-bin 2.0.785-1 1
 git-fixup-git v1.5.0.r8.g76c688c-1 1
 github-desktop 3.1.1-1 1
@@ -1104,7 +1100,7 @@ makehuman 1.2.0-6 1
 makehuman-git r2692.d9d4db70-1 1
 makemkv 1.17.2-1 1
 mangoapp 0.6.8-2 1
-mangohud 0.6.8-2 1
+mangohud 0.6.8-2 2
 mangohud-git 0.6.8.r30.ge38413b-1 1
 mangohud-wayland 0.6.7.1-2 1
 mangohud-x11 0.6.7.1-2 1
@@ -1451,8 +1447,6 @@ powerpill 2021.11-4 1
 prelockd 0.9-2 1
 prestopalette 0.1.31-1 1
 primus-vk-git r150.2486f2a-1 1
-prismlauncher-git 5.0.r128.gc8adc4e3-1 1
-prismlauncher-qt5-git 5.0.r128.gc8adc4e3-1 1
 prjapicula 0.4-1 1
 processing 4.0.1-3 1
 proftpd 2:1.3.7d-1 1
@@ -1776,7 +1770,6 @@ rocm-cmake 5.3.0-1 1
 rocm-opencl-runtime 5.3.0-1 1
 rofi-lbonn-wayland 1.7.5+wayland1-1 1
 rootactions-servicemenu 2.7.3-1 1
-rpcs3-git 0.0.24.14285.035d410a89-1 1
 rpi-imager 1.7.3-2 1
 rstudio-desktop 2022.07.2+576-1 1
 rtl8192cu-fixes-git r118.e5c01a3-1 1
@@ -1874,7 +1867,6 @@ subsurface 5.0.9-1 1
 subsurface-libdc-git 20221102.28c27e2-1 1
 subtitlecomposer-git 0.7.1+git72.8327eaf2-1 1
 superproductivity-bin 7.12.0-1 1
-supertuxkart-git 23091+18565-1 1
 surf-git 2.1.r10.g665a709-1 1
 sushi-git 42.0+1+g0d40ec1-1 1
 swayidle-git 1.7.1.r8.ga63281d-1 1
@@ -2062,7 +2054,6 @@ waterfox-classic-kpe 2022.08-0 1
 waterfox-g3-bin 2.6-1 1
 waterfox-g4-bin 1.5-0 1
 wattman-gtk-git r203.54d2482-1 1
-wavebox-beta 10.107.10_3-1 1
 waydroid 1.3.3-1 1
 waydroid-git 1.3.3.r3.ge074cf4-1 1
 waydroid-image 17.1_20220723-1 1
