@@ -71,7 +71,7 @@ crow-translate-git 2.10.1.r0.gb0a1f94-1 2
 dwarfs 0.6.2-1 2
 freedownloadmanager 6.18.0.4888-2 2
 guestfs-tools 1.48.2-1 2
-hfsprogs 540.1.linux3-4 2
+hfsprogs 540.1.linux3-4 3
 hlsdl 0.27-2 2
 kotatogram-desktop-beta-dynamic-bin 1.4.9-4 2
 lagrange 1.13.8-1 2
@@ -88,7 +88,6 @@ metronome-git 4.0.0-1 2
 mysql-clients57 5.7.38-1 2
 nchat-git 2.86.r17.g097fa1f-1 2
 ncspot 0.11.1-1 2
-nextcloud-client-git 3.6.0.r17.gb7b374c44-1 2
 nghttp2 1.50.0-1 2
 openboard 1.6.4-1 2
 paho-mqtt-c 1.3.10-1 2
@@ -107,7 +106,6 @@ spot-client 0.3.2-1 2
 spot-client-git 0.3.3.r0.g8fe75ea-1 2
 spotify 1:1.1.84.716-2 2
 spotify-tui 0.25.0-2 2
-stremio 4.4.142-2 2
 sunshine 0.15.0-1 2
 telegram-tdlib 1.8.0-3 2
 telegram-tdlib-git 1.8.4-1 2
@@ -148,14 +146,12 @@ android-messages-desktop 5.4.0-1 1
 android-ndk r25.b-1 1
 android-platform 33_r02-1 1
 android-sdk 26.1.1-2 1
-android-sdk-cmdline-tools-latest 7.0-1 1
 angrysearch 1.0.4-1 1
 anki 2.1.54-2 1
 antimicrox 3.3.1-1 1
 antlr3 3.5.2-1 1
 anydesk-bin 6.2.1-2 1
 apostrophe 2.6.3-5 1
-app-icon-preview 3.1.0-1 1
 appimagelauncher 2.2.0-6 1
 appmenu-gtk-module-git 0.7.6.r25.g56de7d2-1 1
 aravis 0.8.22-1 1
@@ -259,7 +255,6 @@ chromaprint-fftw 1.5.1-1 1
 chromedriver 107.0.5304.62-1 1
 chrome-gnome-shell 10.1-6 1
 chrome-remote-desktop 106.0.5249.37-1 1
-chromium-wayland-vaapi 107.0.5304.87-1 1
 chromium-widevine 1:4.10.2557.0-1 1
 cider 1.5.9-4 1
 ckb-next 0.5.0-2 1
@@ -362,7 +357,6 @@ eka2l1-git 5637.9051a1d07-1 1
 elasticsearch 8.4.1-1 1
 electron15-bin 15.5.7-1 1
 electron16-bin 16.2.8-1 1
-electronmail-bin 5.1.1-1 1
 elementary-planner 3.0.7-1 1
 elm-language-server 2.1.0-1 1
 emerald-gtk3 0.8.18-2 1
@@ -837,7 +831,6 @@ labwc 0.5.3-1 1
 lanshare 1.2.1-8 1
 lariza 21.06-1 1
 layer-shell-qt-git 5.26.80_r68.g70dc87f-1 1
-lbry-app-bin 0.53.5-1 1
 lbry-desktop-git 0.53.4.r10906.ge11fb5d22-1 1
 ledger-udev 1-7 1
 lib32-bluez-libs 5.65-2 1
@@ -864,7 +857,6 @@ lib32-lilv 0.24.20-1 1
 lib32-lv2 1.18.10-1 1
 lib32-mangoapp 0.6.8-1 1
 lib32-mangohud 0.6.8-1 1
-lib32-mangohud-git 0.6.8.r30.ge38413b-1 1
 lib32-mangohud-wayland 0.6.7.1-2 1
 lib32-mangohud-x11 0.6.7.1-2 1
 lib32-mjpegtools 2.2.1-1 1
@@ -927,8 +919,6 @@ libxc 6.0.0-1 1
 libzrtpcpp 4.7.0-2 1
 lightdm-settings 1.5.9-1 1
 lightly-git r2172.121a61e5-2 1
-linux-bore 6.0.2-1 1
-linux-bore-headers 6.0.2-1 1
 linux-lts-tkg-bmq 5.15.74-271 1
 linux-lts-tkg-cfs 5.15.74-271 1
 linux-lts-tkg-cfs-headers 5.15.74-271 1
@@ -939,13 +929,7 @@ linux-next-git-docs 20220524.r0.g09ce5091ff97-1 1
 linux-nitrous 6.0.7-1 1
 linux-steam-integration 0.7.3-4 1
 linux-tkg-bmq-headers 6.0.1-270 1
-linux-tt 6.0.2-1 1
-linux-tt-headers 6.0.2-1 1
 linux-wifi-hotspot 4.4.0-1 1
-linux-xanmod-anbox 6.0.7-1 1
-linux-xanmod-anbox-headers 6.0.7-1 1
-linux-xanmod-lts 5.15.75-1 1
-linux-xanmod-lts-headers 5.15.75-1 1
 linux-xanmod-tt 5.15.54-1 1
 linux-xanmod-tt-headers 5.15.54-1 1
 lldb-git 16.0.0_r440377.3edc1210a49d-1 1
@@ -975,12 +959,10 @@ lyx 2.3.6.1-6 1
 m4b-tool-bin 0.4.2~20210604-1 1
 m64p 20220819-1 1
 m64py 0.2.5-2 1
-mailspring 1.10.5-1 1
 makehuman 1.2.0-6 1
 makehuman-git r2692.d9d4db70-1 1
 makemkv 1.17.2-1 1
 mangohud 0.6.8-2 2
-mangohud-git 0.6.8.r30.ge38413b-1 1
 mangohud-wayland 0.6.7.1-2 1
 mangohud-x11 0.6.7.1-2 1
 manuskript-git 0.14.0.r1.gaecdc21-1 1
@@ -1011,7 +993,6 @@ mendeleydesktop 1.19.8-1 1
 menulibre 2.2.3-1 1
 mesen-x-git 1.0.1.r148.ga6c9741c-1 1
 meshlab 2022.02-1 1
-meshlab-git 2022.02.r65.g2672c1473-1 1
 metadata-cleaner 2.2.5-1 1
 metals 0.11.9-2 1
 meteo-gtk 0.9.9.1-1 1
@@ -1179,7 +1160,6 @@ pa-applet-git r19.3b4f8b3-5 1
 pace 1.4.2-1 1
 pacman-auto-update 1.5.3-2 1
 pacmanlogviewer-git 1.4.3.r0.g542e5e0-1 1
-pacseek 1.7.5-1 1
 pacui 1.14-1 1
 pacvis-git 0.2.7.r12.g34f7494-1 1
 pakka 0.0.2-1 1
@@ -1287,7 +1267,6 @@ prjapicula 0.4-1 1
 processing 4.0.1-3 1
 proftpd 2:1.3.7d-1 1
 protondb-tags 1.2.2-1 1
-proton-ge-custom 2:GE.Proton7.38-1 1
 protonmail-bridge-bin 2.3.0-1 1
 protontricks-git 1.9.2.r4.gfd93e45-1 1
 protonup-git 0.1.4.r9.gd8289b0-1 1
@@ -1361,7 +1340,6 @@ python-dephell-versioning 0.1.2-5 1
 python-dlib 19.24-1 1
 python-dlx 1.0.4-5 1
 python-docplex 2.23.222-2 1
-python-elgato-streamdeck 0.9.1-1 1
 python-enzyme 0.4.1-5 1
 python-exifread 3.0.0-2 1
 python-face_recognition 1.3.0-1 1
@@ -1622,7 +1600,6 @@ sddm-kcm-git 5.26.80_r702.gf7edaf6-1 1
 sddm-theme-astronaut 1.0-1 1
 sdformat-9 9.8.0-1 1
 sdl2_compat12-git r730.77892a1-1 1
-sdrpp-git r1234.c4bac3b-1 1
 seafile-client 8.0.8-1 1
 searx 1.1.0-1 1
 sejda-console 3.2.85-6 1
@@ -1641,7 +1618,6 @@ silo-trello 0.3-1 1
 simple64 2022.11.1-1 1
 simple-mtpfs 0.4.0-1 1
 simplenote-electron-bin 2.21.0-1 1
-sioyek-git 1:1.5.0.r137.g92ddb11-1 1
 siril 1.0.6-1 1
 sirula-git r67.70b5ce1-1 1
 skippy-xd-git v2016.10.20.34.gb2cf2e2-1 1
@@ -1682,7 +1658,6 @@ steamtinkerlaunch 11.11-2 1
 sticky-git master.lmde5.r0.ga2dff0d-1 1
 strawberry-qt5 1.0.10-1 1
 streamlink-twitch-gui 2.2.0-1 1
-stylepak-git 16.124fbdc-1 1
 sublime-text-3 3.3211-1 1
 subliminal-git 2.1.0.r22.g160ea63-6 1
 subsurface 5.0.9-1 1
@@ -1693,7 +1668,6 @@ surf-git 2.1.r10.g665a709-1 1
 sushi-git 42.0+1+g0d40ec1-1 1
 swayidle-git 1.7.1.r8.ga63281d-1 1
 swaylock-effects 1.6.10-1 1
-swaylock-git 1.6.r11.gcc27793-1 1
 swaync 0.7.2-1 1
 swaystatus-git 0.3.0.r0.b613598-1 1
 switchboard-plug-a11y-git 2.3.0.r68.g3e94359-1 1
@@ -1810,7 +1784,6 @@ vala-panel-appmenu-xfce-git 0.7.6.r25.g56de7d2-1 1
 vala-panel-genmon-git 5.1.0.r41.gd8f2540-1 1
 vala-panel-git 0.5.0.r16.gead4e7a-1 1
 vala-panel-sntray-git 0.4.13.1.r3.ga5028a3-1 1
-vcpkg 2022.09.27-1 1
 vdhcoapp 1.6.3-1 1
 velox-git 0.0.2.r287.gfcc0412-1 1
 ventoy-bin 1.0.81-1 1
