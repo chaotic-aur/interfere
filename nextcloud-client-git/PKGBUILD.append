@@ -1,4 +1,4 @@
-depends+=(qt5-websockets)
+depends+=(qt5-websockets karchive)
 
 pkgver() {
   cd "$_name"
