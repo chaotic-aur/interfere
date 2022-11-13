@@ -1,1 +1,2 @@
 makedepends+=(kdoctools-git)
+depends+=(kcmutils)
