@@ -279,7 +279,6 @@ cpod-appimage 1.28.0-3 1
 cpupower-gui 1.0.0-5 1
 crazydiskinfo 1.1.0-2 2
 crossover 22.0.0-1 1
-crowdsec 1.4.1-4 1
 cryptobridge-bin 0.18.3-1 1
 cs-firewall-bouncer 0.0.23-1 1
 csound-blue 2.8.1-1 1
@@ -1462,7 +1461,7 @@ soundux 0.2.7-2 1
 soundwire 3.0.0-4 1
 sourcetrail 2021.4.19-1 1
 spacefm-git 1.0.6.r80.ge257d15-3 1
-sphinxbase 5prealpha-13 1
+sphinxbase 5prealpha-13 2
 spotify-adblock-git 1:1.0.2.r0.g9ba383b-1 1
 spotifyd-full-git 0.3.3.73.gddfcbb2-1 1
 spotify-qt 3.9-1 1
@@ -1603,7 +1602,6 @@ via-bin 2.0.5-2 1
 vibrantlinux 2.1.10-1 1
 video-downloader 0.9.10-1 1
 video-trimmer 0.8.0-1 1
-vim-coc-clangd-git r515.b938848-1 1
 vim-coc-css-git 2.0.0.r0.gfca6b25-1 1
 vim-coc-deno-git r263.0ecba51-1 1
 vim-coc-eslint-git 1.5.8.r0.g0344fd0-1 1
@@ -1654,7 +1652,6 @@ wayfire-plugins-extra 0.7.0-2 1
 wdisplays 1.1-1 1
 wdisplays-git 1.1.r0.ga9aa747-1 1
 webapp-manager 1.2.5-1 1
-webapp-manager-git master.lmde5.r0.g8fd7e46-1 1
 webcamoid 9.0.0-2 1
 webkit2gtk-unstable 2.38.0-1 1
 webkitgtk 3:2.4.11-26 1
@@ -1746,7 +1743,6 @@ yaru-metacity-theme 22.10.2-1 1
 yaru-session 22.10.2-1 1
 yin-yang-git 1.0.beta.r214.ge15663f-1 1
 youplay 0.38-1 1
-youtube-bin 1.0.8-1 1
 youtubedl-gui 3.0-1 1
 youtube-music-bin 1.18.0-1 1
 youtube-music-git 1.18.0.r19.g77173c1-1 1
