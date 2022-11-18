@@ -60,7 +60,6 @@ pulseeffects-legacy 4.8.7-1 2
 ananicy-cpp 1.0.0.rc7-1 2
 garuda-settings-manager-git 1.0.1.r3.g27adcf0-1 1
 paru 1.11.1-1 3
-cargo-make 0.36.1-1 2
 chatterino2-7tv-git r3816.c086185a-1 2
 chiaki 2.1.1-2 2
 cinny-desktop 2.2.2-1 2
@@ -608,7 +607,7 @@ jdk16-graalvm-bin 21.2.0-2 1
 jdk8-graalvm-bin 21.2.0-2 1
 jdk-temurin 19.u36-1 1
 jdownloader2 latest-17 1
-jellyfin-media-player-git r1631.aaa82f1-1 1
+jellyfin-media-player-git r1631.aaa82f1-1 2
 jetbrains-toolbox 1.26.5.13419-1 1
 jeuclid-core 3.1.9-1 1
 jgoodies-looks 2.8.0-4 1
@@ -1123,7 +1122,6 @@ python-aioopenssl 0.6.0-1 1
 python-aiosasl 0.5.0-1 1
 python-aioxmpp 0.13.2-2 1
 python-anyascii 0.3.1-1 1
-python-apprise 1.1.0-1 1
 python-asyncio-dgram 1.2.0-1 1
 python-av 10.0.0-1 1
 python-awesometkinter 2021.11.8-1 1
@@ -1417,7 +1415,6 @@ setzer-git 0.4.8.r17.g4f9c831-1 1
 shadowsocks-gtk-rs 0.4.1-1 1
 share-preview 0.2.0-1 1
 shortwave 1:3.0.0-2 1
-shutter-encoder 16.4-1 1
 sidequest-bin 0.10.32-1 1
 silo-netflix 0.6-1 1
 silo-primevideo 0.5-1 1
@@ -1571,11 +1568,8 @@ vala0.52 0.52.11-1 1
 vala-panel 0.5.0-1 1
 vala-panel-appmenu-budgie-git 0.7.6.r25.g56de7d2-1 1
 vala-panel-appmenu-jayatana-git 0.7.6.r25.g56de7d2-1 1
-vala-panel-appmenu-mate 0.7.6-2 1
 vala-panel-appmenu-mate-git 0.7.6.r25.g56de7d2-1 1
-vala-panel-appmenu-valapanel 0.7.6-2 1
 vala-panel-appmenu-valapanel-git 0.7.6.r25.g56de7d2-1 1
-vala-panel-appmenu-xfce 0.7.6-2 1
 vala-panel-appmenu-xfce-git 0.7.6.r25.g56de7d2-1 1
 vala-panel-genmon-git 5.1.0.r41.gd8f2540-1 1
 vala-panel-git 0.5.0.r16.gead4e7a-1 1
@@ -1610,7 +1604,6 @@ vimix-gtk-themes 2022.10.30-1 1
 vim-language-server 2.2.10-1 1
 vimv-git r47.3bb51a4-1 1
 vim-vimwiki 2.5-1 1
-virtualbox-ext-oracle 7.0.2-1 1
 vkcube-git r145.8261e90-1 1
 vlc-git 4.0.0.r20918.g02c95ad381-1 1
 vmware-keymaps 1.0-3 1
