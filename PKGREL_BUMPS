@@ -874,7 +874,6 @@ mycroft-gui-git r721.53fb4a1-1 1
 mysql57 5.7.38-1 1
 mystiq 20.03.23-1 1
 nasc 0.8.0-2 1
-natron-bin 2.4.3-1 2
 nautilus-folder-icons 3.0.1-3 1
 neard 0.18-1 1
 neovim-drop-in 1-1 1
@@ -1048,7 +1047,7 @@ plasma5-applets-window-appmenu-git 0.8.0.r0.gb7ac182-1 1
 plasma5-applets-window-buttons-git 0.11.1.r0.g90e3750-1 1
 plasma5-applets-window-title 0.7.1-2 1
 plasma5-applets-window-title-git 0.7.1.r0.gb785c0a-1 1
-plasma5-wallpapers-wallpaper-engine 0.5.4-2 1
+plasma5-wallpapers-wallpaper-engine 0.5.4-2 2
 plasma-systemmonitor-git _r.g-1 1
 play-emu-git 0.51.r8.g600e9991-1 1
 plex-media-player 2.58.1-3 1
@@ -1093,7 +1092,6 @@ protonvpn-gui 1.12.0-1 1
 psautohint 3:2.4.0-1 2
 pspp 1.6.2-1 1
 pw-viz 0.1.0-1 1
-pycharm-community-eap 14:223.7255.83-1 1
 pycharm-professional 2022.2.3-1 1
 pyqt4-common 4.12.3-5 1
 pyradio-git 0.8.9.28.r0.gfa7f277-1 1
