@@ -153,7 +153,6 @@ asix-ax88179-dkms 1.20.0-2 1
 astrofox 1.4.0-3 1
 asusctl-git 4.3.4.r44.g1f85e30-1 1
 athenaeum-git v2.3.2.r0.b0cd237-1 1
-atlauncher-bin 3.4.20.4-1 1
 atom-editor-beta-bin 1.61.0beta0-1 2
 audio-recorder 3.3.4-1 1
 audio-sharing 0.2.1-1 1
@@ -419,7 +418,6 @@ fzf-tab-bin-git r228.14f66e4-1 1
 g4music 1.8.2-1 1
 g4music-git 1.6.1.r52.g0166148-1 1
 gajim-plugin-omemo 2.8.17-1 1
-gallery-dl 1.23.5-1 1
 game-devices-udev 0.18-1 1
 gamehub 0.16.3.2-1 1
 gamerworld-bin 1.3.0-3 1
@@ -535,7 +533,6 @@ handbrake-nvenc 1.5.1-1 1
 hardcode-tray 4.3-3 1
 hardinfo 0.5.1.816.g877ea2b-2 1
 hardinfo-git 0.6.alpha.1400.ga798cba-1 1
-harmonoid-bin 0.3.3-1 1
 hblock 3.4.0-1 1
 headset-bin 3.3.3-1 1
 heimdall-grimler-git 2.0.2.r0.02b577e-2 1
@@ -622,7 +619,7 @@ jrosetta 1.0.4-5 1
 jupyter-metakernel 0.29.2-2 1
 kalarmcal-git 5.19.40_r1186.gd40d710-1 1
 kasts 22.09.2-2 1
-kawaii-player 5.0.0-2 1
+kawaii-player 5.0.0-2 2
 kazam 1.4.5-9 1
 kcm-colorful-git 1.0.5.r0.g411e8c9-1 1
 kcm-polkit-kde-git 1:5.9.0.r215.g4aca751-1 1
@@ -1217,7 +1214,6 @@ python-pyglm 2.5.7-1 1
 python-pynput 1.7.6-2 1
 python-pyo 1.0.4-1 1
 python-pyparted 3.11.7-1 1
-python-pypdf2 2.11.1-2 1
 python-pypresence 4.2.1-2 1
 python-pyqt4 4.12.3-5 1
 python-pyramid 2.0-4 1
@@ -1405,7 +1401,6 @@ simplenote-electron-bin 2.21.0-1 1
 siril 1.0.6-1 1
 sirula-git r67.70b5ce1-1 1
 skippy-xd-git v2016.10.20.34.gb2cf2e2-1 1
-slack-electron 4.28.184-1 1
 slade 3.2.1-2 1
 smartgit 21.2.4-1 1
 smooth 0.9.9-1 1
