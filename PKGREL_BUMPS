@@ -1033,7 +1033,7 @@ plasma5-applets-window-title-git 0.7.1.r0.gb785c0a-1 1
 plasma5-wallpapers-wallpaper-engine 0.5.4-2 2
 plasma-systemmonitor-git _r.g-1 1
 play-emu-git 0.51.r8.g600e9991-1 1
-plex-media-player 2.58.1-3 1
+plex-media-player 2.58.1-3 2
 plots 0.8.1-1 1
 plymouth 22.02.122-4 1
 plymouth-theme-aregression 1.1-1 1
@@ -1505,7 +1505,6 @@ tlpui 1.5.0-1 1
 todoist-electron 1.24.0-4 1
 todoist-nativefier 2022.07.30-1 1
 tor-browser 11.5.7-1 1
-trackma-git 0.8.5.r5.g4f7f619-1 1
 tracktion-waveform 12.1.8-1 1
 trello 0.1.9-4 1
 trello-cli 0.5.1-1 1
@@ -1690,7 +1689,6 @@ yin-yang-git 1.0.beta.r214.ge15663f-1 1
 youplay 0.38-1 1
 youtubedl-gui 3.0-1 1
 youtube-music-bin 1.18.0-1 1
-youtube-music-git 1.18.0.r19.g77173c1-1 1
 youtube-search-python 1.6.0-0 1
 yozo-office 8.0.1331.101ZH.S1-6 1
 yp-tools 4.2.3-6 1
