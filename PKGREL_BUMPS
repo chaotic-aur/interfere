@@ -1039,7 +1039,7 @@ pokerth 1.1.2-23 1
 pokete-git 0.9.0-1 1
 polkit-qt5-git v0.114.0.r13.g590e710-1 1
 polly-git 16.0.0_r440377.3edc1210a49d-1 1
-polychromatic 0.7.3-1 2
+polychromatic 0.7.3-1 3
 polyglot 3.5-1 1
 popcorntime 0.4.9-1 1
 popcorntime-git 0.4.4.r1879.g64553fa7-1 1
@@ -1155,7 +1155,6 @@ python-liblnk-git 20210417.r14.g4405b84-1 1
 python-limits 2.6.3-1 1
 python-lyricsgenius 3.0.0-1 1
 python-m2r 0.2.1-1 1
-python-manimpango 0.4.1-1 1
 python-material-color-utilities 0.1.5-1 1
 python-moderngl-git 5.6.4.r190.gff12a936-1 1
 python-moderngl-window 2.4.1-1 1
