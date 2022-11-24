@@ -328,7 +328,6 @@ elasticsearch 8.4.1-1 1
 electron15-bin 15.5.7-1 1
 electron16-bin 16.2.8-1 1
 elementary-planner 3.0.7-1 1
-elm-language-server 2.1.0-1 1
 emerald-gtk3 0.8.18-2 1
 emote 3.0.3-4 1
 emulationstation 2.11.0-1 1
@@ -1659,4 +1658,4 @@ zulucrypt 6.2.0-1 1
 stremio 4.4.159-1 1
 bibata-cursor-theme 2.0.2-2 1
 vmware-workstation 17.0.0-1 1
-visual-studio-code-insiders-bin 1667540698-1 1
+vscodium-insiders 1.74.0.22325-1 1
