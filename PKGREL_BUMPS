@@ -56,7 +56,6 @@ calamares 3.2.61-1 3
 qt5-styleplugins 5.0.0.20170311-30 2
 nixfmt 0.5.0-4 2
 pulseeffects-legacy 4.8.7-1 2
-ananicy-cpp 1.0.0.rc7-1 2
 garuda-settings-manager-git 1.0.1.r3.g27adcf0-1 1
 paru 1.11.1-1 3
 chiaki 2.1.1-2 2
@@ -271,7 +270,6 @@ cryptobridge-bin 0.18.3-1 1
 cs-firewall-bouncer 0.0.23-1 1
 csound-blue 2.8.1-1 1
 curlew 0.2.5-1 1
-czkawka-git 5.0.2.r5.g5349239-1 1
 czkawka-gui 5.0.2-1 1
 dangerzone 0.3.2-1 1
 dataspell 2022.2.3-1 1
@@ -451,7 +449,6 @@ gis-weather 0.8.4.1-1 1
 gis-weather-git 0.8.2.76-1 1
 git-bug 0.7.2-1 1
 git-bug-git 0.7.1.r700.g650c11dc-1 1
-git-credential-manager-core-bin 2.0.785-1 1
 git-fixup-git v1.5.0.r8.g76c688c-1 1
 github-desktop 3.1.1-1 1
 glaxnimate 0.5.0_1_g49002eec-1 1
@@ -528,7 +525,6 @@ hardinfo-git 0.6.alpha.1400.ga798cba-1 1
 hblock 3.4.0-1 1
 headset-bin 3.3.3-1 1
 heimdall-grimler-git 2.0.2.r0.02b577e-2 1
-heimer 3.6.1-1 1
 heroic-games-launcher-bin 2.4.3-2 1
 heroku-cli-bin 7.62.0-1 1
 hopper 0.1.0-1 1
@@ -668,8 +664,6 @@ lariza 21.06-1 1
 layer-shell-qt-git 5.26.80_r68.g70dc87f-1 1
 lbry-desktop-git 0.53.4.r10906.ge11fb5d22-1 1
 ledger-udev 1-7 1
-lib32-bluez-libs 5.65-2 1
-lib32-bluez-plugins 5.65-2 1
 lib32-chromaprint 1.5.1-1 1
 lib32-faudio-tkg-git 22.11.r0.g6567310-1 1
 lib32-ffmpeg 2:5.1.2-1 1
@@ -908,7 +902,6 @@ obs-hevc-vaapi-git 27.2.0.r103.g02e541038-1 1
 obs-nvfbc 0.0.7-1 1
 obs-rtspserver 2.2.1-3 1
 obs-streamfx 0.11.1-1 1
-obs-studio-git 28.1.0.beta1-2 1
 obs-v4l2sink 0.1.0-23 1
 ocenaudio-bin 3.11.15-1 1
 ocrmypdf 14.0.1-1 1
@@ -969,7 +962,6 @@ parlatype-libreoffice-extension 3.1.1-2 1
 parsec-bin 150_28-5 1
 passbook 0.8-1 1
 passbook-git 0.8.r36.g750825d-1 1
-path-of-building-community-git 2.21.1.r6441.60.517-1 1
 patool 1.12-5 1
 pcsxr 1.9.95-2 1
 pdf2png 0.5.3-1 1
@@ -1010,7 +1002,6 @@ plasma5-applets-window-appmenu-git 0.8.0.r0.gb7ac182-1 1
 plasma5-applets-window-buttons-git 0.11.1.r0.g90e3750-1 1
 plasma5-applets-window-title 0.7.1-2 1
 plasma5-applets-window-title-git 0.7.1.r0.gb785c0a-1 1
-plasma5-wallpapers-wallpaper-engine 0.5.4-2 2
 plasma-systemmonitor-git _r.g-1 1
 play-emu-git 0.51.r8.g600e9991-1 1
 plex-media-player 2.58.1-3 2
@@ -1086,7 +1077,6 @@ python-booleanoperations 0.9.0-4 1
 python-bs4 0.0.1-2 1
 python-casttube 0.2.1-4 1
 python-catalogue 2.0.7-1 1
-python-chess-git 1.9.3.r18.g7ab1acb8-1 1
 python-clickgen1 1.2.0-1 1
 python-coloredlogs 15.0.1-3 1
 python-colorzero 2.0-2 1
@@ -1580,7 +1570,6 @@ wineasio 1.1.0-4 1
 wineasio-git 1.1.0.r0.g56c3e9d-1 1
 wine-installer 5.0.3-2 1
 wine-lol 1:7.0_5-1 1
-wine-tkg-fsync-git 7.10.r0.g631f4d5e42b-327 1
 wingpanel-indicator-session-git 2.3.0.r68.g0ea9a3b-1 1
 wired 0.10.2-1 1
 wl-mirror 0.12.2-5 1
@@ -1669,3 +1658,4 @@ zsync2-git 2.0.0r210.1bb5c9b-1 1
 zulucrypt 6.2.0-1 1
 stremio 4.4.159-1 1
 bibata-cursor-theme 2.0.2-2 1
+vmware-workstation 17.0.0-1 1
