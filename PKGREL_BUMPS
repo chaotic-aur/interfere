@@ -23,7 +23,6 @@ google-meet-desktop 1.2.0-1 2
 graphite-cursor-theme-git 2021.11.26.r9.g8773e95-1 1
 ircd-hybrid 8.2.39-1 3
 isomaster 1.3.16-1 2
-jade-application-kit 3.5.6-2 2
 lib32-gallium-nine-git 0.r388.9abd0b4-1 2
 libgksu 2.0.12-9 1
 librewolf-extension-xdm-browser-monitor 2.2-1 2
@@ -131,7 +130,6 @@ android-platform 33_r02-1 1
 android-sdk 26.1.1-2 1
 angrysearch 1.0.4-1 1
 anki 2.1.54-2 1
-antimicrox 3.3.1-1 1
 antlr3 3.5.2-1 1
 anydesk-bin 6.2.1-2 1
 apostrophe 2.6.3-5 1
@@ -139,7 +137,6 @@ appimagelauncher 2.2.0-6 1
 appmenu-gtk-module-git 0.7.6.r25.g56de7d2-1 1
 aravis 0.8.22-1 1
 archlinux-java-run 9-1 1
-arch-update 1.3.2-1 1
 artha 1.0.5-1 1
 art-rawconverter 1.16.4-1 1
 asdf-vm 0.10.2-1 1
@@ -154,7 +151,6 @@ aura 3.2.9-1 1
 authenticator 4.1.6-1 1
 authpass-bin 1.9.7-1 1
 authselect 1.4.0-1 1
-authy 2.2.1-1 1
 auto-cpufreq 1.9.6-1 1
 autokey-common 0.96.0-4 1
 autokey-gtk 0.96.0-4 1
@@ -170,7 +166,7 @@ balena-etcher 1.7.9-1 1
 basket 2.49b-7 1
 betterdiscordctl-git 2.0.1.r2.g49a26fe-1 1
 betterlockscreen 4.0.4-1 1
-biglybt 3.2.0.0-1 1
+biglybt 3.2.0.0-1 2
 biglybt-extreme-mod 3.1.0.0-1 1
 binder_linux-dkms 6.0-2 1
 bit 1.1.2-1 1
@@ -180,7 +176,6 @@ blockbench-git 4.2.5-1 1
 blockout2 2.5-2 1
 bluej 5.1.0-1 1
 boca 1:1.0.6a-1 1
-bombsquad 1.7.10-1 1
 bookletimposer 0.3.1-1 1
 bootiso 4.2.0-1 1
 boxtron 0.5.4-1 1
@@ -223,13 +218,11 @@ cef-minimal-obs-bin 103.0.0_5060_shared_textures_143.2591+g4204d54+chromium_103.
 certmonger 0.79.15-1 1
 cfs-zen-tweaks 1.2.0-1 1
 chaotic-keyring 20220803-1 1
-cheese-git 43.alpha+r9+gbcb66c70-1 1
 chemtool 1.6.14-4 1
 chocolate-doom 3.0.1-1 1
 chromaprint-fftw 1.5.1-1 1
 chromedriver 107.0.5304.62-1 1
 chrome-gnome-shell 10.1-6 1
-chrome-remote-desktop 106.0.5249.37-1 1
 chromium-widevine 1:4.10.2557.0-1 1
 cider 1.5.9-4 1
 ckb-next 0.5.0-2 1
@@ -284,7 +277,6 @@ digilent.adept.utilities 2.7.1-1 1
 digital 0.29-4 1
 diodon 1.13.0-1 1
 discord-canary 0.0.143-1 1
-discord-canary-electron-bin 0.0.143-1 1
 discord-chat-exporter-cli 2.36.2-1 1
 discord-development-electron-bin 0.0.203-1 1
 discover-overlay 0.6.3-1 1
@@ -328,7 +320,6 @@ emulationstation 2.11.0-1 1
 endeavour 42.0-4 1
 epiphany-git 43.0+8+g349277e2a-1 1
 epsxe 2.0.5-28 1
-eqonomize-git r514.0c5fc78-1 1
 evdi-git 1.12.0.r6.gbdc258b-1 1
 evopop-gtk-theme-git 2.9.99.r12.g6dce1c5-1 1
 exaile 4.1.2-1 1
@@ -398,7 +389,6 @@ fujprog 4.8-1 1
 furiusisomount 0.11.3.1-2 1
 fuse-emulator 1.6.0-1 1
 fvs 0.3.4-1 1
-fzf-tab-bin-git r228.14f66e4-1 1
 g4music 1.8.2-1 1
 g4music-git 1.6.1.r52.g0166148-1 1
 gajim-plugin-omemo 2.8.17-1 1
@@ -690,7 +680,6 @@ lib32-wxgtk3 3.0.5.1-3 1
 lib32-zbar 0.23.90-1 1
 libadwaita-without-adwaita-git 1.2.0-2 1
 libavresample 4.4.1-1 1
-libcheese-git 43.alpha+r9+gbcb66c70-1 1
 libcmrt 1.0.6-2 1
 libcprime 4.4.1-1 1
 libfprint-git 1:1.94.5.r5.g6395dda0-1 1
@@ -851,13 +840,11 @@ nginx-mainline-mod-lua 1:0.10.22-2 1
 nginx-mainline-mod-ndk 0.3.2-1 1
 nm-eduroam-ufscar 20190409-2 1
 nodejs-intelephense 1.8.2-1 1
-nodejs-nativefier 50.0.0-1 1
 nohang 0.2.0-1 1
 noisetorch 0.12.2-2 1
 non-euclidean-git r37.191fc4c-1 1
 nordpy 1.3.5-1 1
 notejot 3.5.1-1 1
-notepadnext 0.5.5-1 1
 notion-app-enhanced 2.0.18-1 1
 notorious-git 0.4.r8.g1cf8751-1 1
 notparadoxlauncher-bin 1.3.1-1 1
@@ -1022,7 +1009,6 @@ prestopalette 0.1.31-1 1
 primus-vk-git r150.2486f2a-1 1
 protondb-tags 1.2.2-1 1
 protonmail-bridge-bin 2.3.0-1 1
-protontricks-git 1.9.2.r4.gfd93e45-1 1
 protonup-git 0.1.4.r9.gd8289b0-1 1
 protonvpn-cli 3.13.0-2 1
 protonvpn-gui 1.12.0-1 1
@@ -1030,7 +1016,6 @@ psautohint 3:2.4.0-1 2
 pspp 1.6.2-1 1
 pw-viz 0.1.0-1 1
 pyqt4-common 4.12.3-5 1
-pyradio-git 0.8.9.28.r0.gfa7f277-1 1
 pyside-tools-common 0.2.15-3 1
 python2-constantly 15.1.0-9 1
 python2-dbus 1.2.18-2 1
@@ -1417,7 +1402,6 @@ tabby 1.0.181-2 1
 tangram 1.4.2-2 1
 targetcli-fb 2.1.54-1 1
 tartube 2.4.093-1 1
-tauon-music-box 7.4.3-1 1
 tblock 2.5.0-1 1
 teams 1.5.00.23861-1 1
 tenacity-git 1:r13942.g91f8b4340-3 1
@@ -1428,7 +1412,6 @@ themix-export-spotify-git 1.2.6.r1.gf47c36b-1 1
 themix-full-git 1.15-2 1
 themix-icons-gnome-colors-git 5.5.6.r0.gd2cb7eb-2 1
 themix-theme-arc-git 20190917.r4.g1fd68cc-1 1
-themix-theme-oomox-git 1.12.3.r1.ge87724dd-1 1
 thingy 1.0.9-1 1
 thonny 4.0.1-1 1
 thorium-bin 2.1.0-2 1
@@ -1446,7 +1429,6 @@ timeshift-autosnap 0.9-1 1
 tlpui 1.5.0-1 1
 todoist-electron 1.24.0-4 1
 todoist-nativefier 2022.07.30-1 1
-tor-browser 11.5.7-1 1
 tracktion-waveform 12.1.8-1 1
 trello 0.1.9-4 1
 trello-cli 0.5.1-1 1
@@ -1524,7 +1506,6 @@ vscodium-marketplace 1.65.0-1 1
 vte4-copy-patch-git 0.61.90+r306+gc757fc5c-1 1
 wahay-bin 6be34ec-1 1
 warp 0.3.1-1 1
-warpinator-git master.lmde5.r0.gdbada84-1 1
 waterfox-classic-kpe 2022.08-0 1
 waterfox-g3-bin 2.6-1 1
 waterfox-g4-bin 1.5-0 1
@@ -1545,7 +1526,6 @@ wget2 2.0.1-1 1
 whalebird 4.6.5-2 1
 whatsapp-for-linux 1.5.0-2 1
 whatsie-git v4.10.2.r281.d7f1fae-1 1
-whitesur-kvantum-theme-git r88.91ad563-1 1
 whoogle 0.7.4-1 1
 wike 1.8.2-1 1
 windscribe-bin 2.4.11-1 1
@@ -1632,7 +1612,6 @@ yozo-office 8.0.1331.101ZH.S1-6 1
 yp-tools 4.2.3-6 1
 ytfzf 2.5.0-1 1
 zeal 0.6.1-3 1
-zeal-git 0.6.1.r251.g7ea03e4-1 1
 zecwallet-lite 1.7.13-2 1
 zeit-git 0.6.0.r0.gc80c6d2-1 1
 zenmonitor3-git 89.2e68a31-1 1
@@ -1642,4 +1621,3 @@ zsync2-git 2.0.0r210.1bb5c9b-1 1
 zulucrypt 6.2.0-1 1
 stremio 4.4.159-1 1
 bibata-cursor-theme 2.0.2-2 1
-vmware-workstation 17.0.0-1 1
