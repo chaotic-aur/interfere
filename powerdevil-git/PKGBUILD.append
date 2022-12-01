@@ -1,1 +1,0 @@
-source=("git+https://github.com/KDE/${pkgname%-git}.git#commit=a43c43055f0b098eafd499ab8c82a9134bdc13c5")
