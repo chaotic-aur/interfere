@@ -781,7 +781,7 @@ nginx-mainline-mod-echo 0.61-37 1
 nginx-mainline-mod-fancyindex 0.5.2-3 1
 nginx-mainline-mod-headers-more 0.34-1 1
 nginx-mainline-mod-ndk 0.3.2-1 1
-nheko 0.10.2
+nheko-git 0.10.2.r155.g40a7d58c-1 1
 nm-eduroam-ufscar 20190409-2 1
 nodejs-intelephense 1.8.2-1 1
 nohang 0.2.0-1 1
