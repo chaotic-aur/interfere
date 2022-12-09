@@ -1,1 +1,0 @@
-makedepends=('java-environment=19' 'java-openjfx>=19' 'maven')
