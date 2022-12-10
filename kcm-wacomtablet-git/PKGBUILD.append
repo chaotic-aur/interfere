@@ -1,1 +1,2 @@
 source=('git+https://anongit.kde.org/wacomtablet.git')
+makedepends+=(kcmutils)
