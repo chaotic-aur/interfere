@@ -1,2 +1,1 @@
-depends=(plasma-wayland-protocols-git)
-optdepends=(qt5-x11extras libxss)
+depends+=(plasma-wayland-protocols-git)
