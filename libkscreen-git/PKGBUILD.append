@@ -1,2 +1,1 @@
-depends=(kwayland-git kconfig-git)
-optdepends=(qt5-x11extras libxrandr)
+depends+=(kwayland-git kconfig-git)
