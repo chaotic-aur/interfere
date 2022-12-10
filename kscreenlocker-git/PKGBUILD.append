@@ -1,1 +1,1 @@
-depends+=('kscreen-git')
+depends+=(kscreen-git kauth-git kcodecs-git kconfig-git kconfigwidgets-git kcoreaddons-git kdbusaddons-git kglobalaccel-git ki18n-git kpackage-git kservice-git kwidgetsaddons-git kxmlgui-git)
