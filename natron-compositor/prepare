@@ -1,2 +1,0 @@
-#!/usr/bin/env sh
-sed -i 's/python2-pyside/pyside2/g' PKGBUILD
