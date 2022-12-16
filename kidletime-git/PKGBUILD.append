@@ -1,1 +1,1 @@
-depends+=(plasma-wayland-protocols-git)
+depends+=(plasma-wayland-protocols-git qt5-wayland wayland-protocols-git)
