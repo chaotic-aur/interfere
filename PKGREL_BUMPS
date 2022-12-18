@@ -174,7 +174,6 @@ buttercup-desktop 2.17.0-1 1
 buttermanager 2.5.0-1 1
 bytecode-viewer 2.11.2-1 1
 cabbage-bin 2.8.0-1 1
-ca-certificates-icp_br 20221024-1 1
 caffeine 2.9.12-1 1
 caja-pdf-tools-git 1.2.9.0extras20.04.03.r104.18ad131-1 1
 callaudiod 0.1.4-1 1
@@ -198,7 +197,6 @@ chocolate-doom 3.0.1-1 1
 chromaprint-fftw 1.5.1-1 1
 chrome-gnome-shell 10.1-6 1
 chromium-widevine 1:4.10.2557.0-1 1
-cider 1.5.9-4 1
 ckb-next 0.5.0-2 1
 clamav-unofficial-sigs 7.2.5-1 1
 clang-git 16.0.0_r440377.3edc1210a49d-1 1
@@ -254,7 +252,6 @@ disman-git 0.526.80_r1847.g8f7345c-1 1
 disman-kwinft 5.26.0-1 1
 displaylink 5.6.1-3 1
 dockbarx 1:1.0beta+r858+d98020e-1 1
-dogecoin-qt 1.14.6-3 1
 dosbox-staging 1:0.79.1-1 1
 dosbox-x 2022.08.0-1 1
 dotfonts-git r64.a768278-1 1
@@ -389,7 +386,6 @@ gis-weather-git 0.8.2.76-1 1
 git-bug 0.7.2-1 1
 git-bug-git 0.7.1.r700.g650c11dc-1 1
 git-fixup-git v1.5.0.r8.g76c688c-1 1
-github-desktop 3.1.1-1 1
 glaxnimate 0.5.0_1_g49002eec-1 1
 glaxnimate-git 0.5.1+flatpak_56_g214afdfb-1 1
 glew-egl-glx 2.2.0-1 1
@@ -524,7 +520,6 @@ jogl 2.3.2-2 1
 joplin-desktop 2.8.8-1 1
 joystickwake 0.3-1 1
 jre 19.0.1-1 1
-jre8 8u341-1 1
 jrosetta 1.0.4-5 1
 kalarmcal-git 5.19.40_r1186.gd40d710-1 1
 kawaii-player 5.0.0-2 2
@@ -563,7 +558,6 @@ koka-bin 2.3.8-1 1
 komorebi 2.2.1-1 1
 kquickchatcomponents-git r15.f184bbc-1 1
 ksmoothdock 6.3-2 1
-ktlint 0.47.1-1 1
 kvantum-theme-matcha-git r11.a3b247b-1 1
 kvantum-theme-vimix-git 2021.09.05.r13.ga001152-1 1
 kwallet-secrets 5.96.0-1 1
@@ -605,8 +599,6 @@ lib32-mangohud 0.6.8-1 1
 lib32-mangohud-wayland 0.6.7.1-2 1
 lib32-mangohud-x11 0.6.7.1-2 1
 lib32-mjpegtools 2.2.1-1 1
-lib32-nvidia-390xx-utils 390.154-1 1
-lib32-nvidia-470xx-utils 470.141.03-1 1
 lib32-primus-vk-git r150.2486f2a-1 1
 lib32-raptor 2.0.15-11 1
 lib32-rtmpdump 1:2.4.r99.f1b83c1-1 1
@@ -626,7 +618,6 @@ libgweather-git 4.0.0.r31.g00e2a68d-1 1
 libhandy-git 1.8.0.r6.gc63acce-1 1
 libinput-gestures 2.73-1 1
 libinput_gestures_qt 0.3.2+7+g0868859-1 1
-libkipi-git 5.2.0_r1282.gabe801d-1 1
 libmarble-git 1.3.0.r4.g6dcc6fe-3 1
 libmysqlclient57 5.7.38-1 1
 libnautilus-extension-typeahead 42.1.1-1 1
@@ -718,7 +709,6 @@ mindustry-server 1:7.0_139-1 1
 minecraft-launcher 1:1.0.1221-1 1
 minigalaxy 1.2.2-3 1
 mintlocale 1.5.8-1 1
-mintstick 1.5.0-2 1
 mint-x-icons 1.6.4-1 1
 mips64-elf-binutils 2.39-1 1
 miredo 1.2.6+r159+ge5f5652-1 1
@@ -779,7 +769,6 @@ ntfsprogs-ntfs3 2022.5.17-6 1
 nvidia-390xx-dkms 390.154-1 1
 nvidia-390xx-settings 390.154-1 1
 nvidia-390xx-utils 390.154-1 1
-nvidia-470xx-settings 470.141.03-1 1
 nvidia-container-toolkit 1.11.0-1 1
 nvidia-open-dkms-git 520.56.06.r0.g7c345b838-1 1
 nvidia-open-git 520.56.06.r0.g7c345b838-1 1
@@ -800,7 +789,7 @@ obs-gstreamer 0.3.5-1 1
 obs-hevc-vaapi-git 27.2.0.r103.g02e541038-1 1
 obs-nvfbc 0.0.7-1 1
 obs-rtspserver 2.2.1-3 1
-obs-streamfx 0.11.1-1 1
+obs-streamfx 0.11.1-1 2
 obs-v4l2sink 0.1.0-23 1
 ocrmypdf 14.0.1-1 1
 ocs-url 3.1.0-7 1
@@ -1056,7 +1045,6 @@ python-pyscf 2.0.1-1 1
 python-pysdl2 0.9.14-1 1
 python-pyspark 3.3.0-1 1
 python-pystray 0.19.4-1 1
-python-pytube 12.1.0-1 1
 python-qiskit 0.39.0-1 1
 python-qiskit-aer 0.11.1-1 1
 python-qiskit-aqua 0.9.5-1 1
@@ -1096,7 +1084,6 @@ python-torchvision-cuda 0.13.1-2 1
 python-ufonormalizer 0.6.1-2 1
 python-ufoprocessor 1.9.0-5 1
 python-vdf 3.4-2 1
-python-vosk 0.3.43-1 1
 python-wasabi 0.10.1-1 1
 python-yubico 1.3.3-2 1
 pyzbar 0.1.9-1 1
@@ -1183,7 +1170,6 @@ rocketlauncher2-git 0.1.0.2.r11.gbdb48cd-1 1
 rofi-lbonn-wayland 1.7.5+wayland1-1 1
 rootactions-servicemenu 2.7.3-1 1
 rpi-imager 1.7.3-2 1
-rstudio-desktop 2022.07.2+576-1 1
 rtl8192cu-fixes-git r118.e5c01a3-1 1
 rtl88x2ce-dkms 5.7.3_35403-4 1
 rtl-sdr-git 1:0.6.0.r34.g5e73f90-1 1
@@ -1210,7 +1196,6 @@ silo-netflix 0.6-1 1
 silo-primevideo 0.5-1 1
 silos 0.1.59-1 1
 silo-trello 0.3-1 1
-simple64 2022.11.1-1 1
 simple-mtpfs 0.4.0-1 1
 simplenote-electron-bin 2.21.0-1 1
 siril 1.0.6-1 1
@@ -1295,7 +1280,6 @@ thunar-volman-git 1:4.16.0+32+gf1948f7-1 1
 thunarx-python 1:0.5.2-2 1
 tidal-gui 2022.1.18.3-1 1
 tidal-hifi-bin 4.3.1-1 1
-tiddlydesktop 0.0.14-2 1
 timeshift-autosnap 0.9-1 1
 tlpui 1.5.0-1 1
 todoist-electron 1.24.0-4 1
@@ -1338,7 +1322,6 @@ via-bin 2.0.5-2 1
 vibrantlinux 2.1.10-1 1
 video-downloader 0.9.10-1 1
 vim-coc-css-git 2.0.0.r0.gfca6b25-1 1
-vim-coc-eslint-git 1.5.8.r0.g0344fd0-1 1
 vim-coc-explorer-git 0.25.4.r0.g8f1f5f2-1 1
 vim-coc-flutter-git 1.9.3.r16.g48ac6f7-1 1
 vim-coc-highlight-git 2.0.4.r0.gc405d34-1 1
@@ -1359,7 +1342,6 @@ vim-language-server 2.2.10-1 1
 vimv-git r47.3bb51a4-1 1
 vim-vimwiki 2.5-1 1
 vkcube-git r145.8261e90-1 1
-vlc-git 4.0.0.r20918.g02c95ad381-1 1
 vmware-keymaps 1.0-3 1
 vnote 3.15.1-1 1
 vpaint-git v1.7.r22.g5805751-1 1
@@ -1401,7 +1383,6 @@ wlroots-eglstreams-git 0.16.0.r5636.6ea54173-1 1
 wluma 4.1.2-1 1
 woeusb 5.2.4-1 1
 woeusb-ng 0.2.10-1 1
-wps-office 11.1.0.11664-2 1
 wps-office-all-dicts-win-languages 11.2.0.9255-2 1
 wps-office-cn 11.1.0.11664-3 1
 wrapland-kwinft 5.26.0-1 1
@@ -1473,4 +1454,3 @@ zfs-dkms 2.1.6-1 1
 zsync2-git 2.0.0r210.1bb5c9b-1 1
 zulucrypt 6.2.0-1 1
 stremio 4.4.159-1 1
-chromium-wayland-vaapi 108.0.5359.98-2 1
