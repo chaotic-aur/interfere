@@ -1454,3 +1454,6 @@ zfs-dkms 2.1.6-1 1
 zsync2-git 2.0.0r210.1bb5c9b-1 1
 zulucrypt 6.2.0-1 1
 stremio 4.4.159-1 1
+nvidia-470xx-dkms 470.141.03-2 1
+nvidia-470xx-utils 470.141.03-2 1
+opencl-nvidia-470xx 470.141.03-2 1
