@@ -1,2 +1,1 @@
-pkgname=linux-bore
 MAKEFLAGS="${MAKEFLAGS:-} -j $(nproc)"
