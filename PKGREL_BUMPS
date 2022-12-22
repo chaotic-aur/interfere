@@ -63,7 +63,6 @@ hfsprogs 540.1.linux3-4 3
 hlsdl 0.27-2 2
 kotatogram-desktop-beta-dynamic-bin 1.4.9-4 2
 leagueoflegends-ge-git 0.12.6.r5.ga503e81-1 2
-libdigidocpp 3.14.10.1429-1 2
 libshout-idjc 2.4.4-1 2
 libtd 1.8.5-1 2
 lutris-wine-git 0.75.4.r1.gd75fc6b-1 2
@@ -167,7 +166,6 @@ budgie-genmon-git 5.1.0.r41.gd8f2540-1 1
 budgie-network-applet 2.2-1 1
 budgie-screenshot-applet 0.4.3.r0.gd92b06c-3 1
 budgie-sntray-git 0.4.13.1.r3.ga5028a3-1 1
-buttercup-desktop 2.17.0-1 1
 buttermanager 2.5.0-1 1
 bytecode-viewer 2.11.2-1 1
 cabbage-bin 2.8.0-1 1
@@ -432,7 +430,6 @@ gtk-gnutella-git 1.2.2.r9.g12757e513-1 1
 gtkhash 1.4-5 1
 gtk-theme-windows10-dark-git r134.827fbec-1 1
 gtk-update-icon-cache-git 4.9.2.r1.g9c5ba5544e-1 1
-gtkwave-tcl 3.3.111-1 1
 guayadeque-git 0.4.6.r2224.a8b47a68-1 1
 guilded 1.0.9161723-1 1
 guiscrcpy 1:2022.7.1-1 1
@@ -456,7 +453,7 @@ hsphfpd-git r29.d294d06-1 1
 hw-probe 1.6.5-1 1
 hyperspace-bin 1:1.1.4-1 1
 hypnotix 2.9-1 1
-i3lock-color 2.13.c.4-1 1
+i3lock-color 2.13.c.4-1 2
 i3lock-fancy-git r191.4cfcd47-1 1
 ialauncher-git r127.b93f75d-1 1
 ibus-bamboo-git 0.8.2+RC3+0+gd14fd96-1 1
@@ -483,7 +480,6 @@ insync-dolphin 3.7.9.50368-1 1
 insync-nemo 3.7.9.50368-1 1
 intel-hybrid-codec-driver 2.0.0.r170.7961945-1 1
 iota-firefly-wallet 1.7.0-1 1
-ipscan 3.8.2-1 1
 iriunwebcam-bin 2.7-1 1
 irpf 2022.1.6-3 1
 isoimagewriter 0.9-1 1
@@ -567,7 +563,6 @@ kwinft 5.26.0-1 1
 kwin-scripts-forceblur 0.6.1-1 1
 kwin-scripts-krohnkite-git r471.bc6fe23-1 1
 kwin-scripts-window-colors 0.2-3 1
-kwrited-git 5.26.80_r520.g5ddc413-1 1
 labwc 0.5.3-1 1
 lanshare 1.2.1-8 1
 lariza 21.06-1 1
@@ -845,7 +840,6 @@ pdf2png 0.5.3-1 1
 pdfbox 2.0.27-1 1
 pdfquirk 0.95-1 1
 pdfsam 4.3.4-1 1
-peazip-gtk2-bin 8.9.0-1 1
 peazip-qt5 8.9.0-1 1
 pebbles-git r442.d9f37f1-1 1
 pencil 3.1.0-7 1
@@ -1085,7 +1079,6 @@ python-yubico 1.3.3-2 1
 pyzbar 0.1.9-1 1
 qca-qt5-git 2.3.5_r2472.gaa691107-1 1
 qca-qt6-git 2.3.5_r2472.gaa691107-1 1
-qdigidoc4 4.2.12.118-1 1
 qdirstat 1.8.1-1 1
 qnapi-git 0.2.3snapshot.r5.gd4e0378-1 1
 qomui 0.8.2-2 1
