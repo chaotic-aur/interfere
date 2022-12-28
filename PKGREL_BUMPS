@@ -80,7 +80,6 @@ rum 0.7.2-1 2
 speedtest++ 1.14.r71.0f63cfb-1 2
 spot-client-git 0.3.3.r0.g8fe75ea-1 2
 spotify 1:1.1.84.716-2 2
-spotify-tui 0.25.0-2 2
 telegram-tdlib 1.8.0-3 2
 telegram-tdlib-git 1.8.4-1 2
 trousers 0.3.15-2 2
@@ -98,7 +97,6 @@ agregore-browser-bin 1.9.1-1 1
 airspy-git 20221015-1 1
 airspyhf-git r115.1af81c0-1 1
 akira 0.0.16-1 1
-akira-git 0.0.15.r113.g09a62716-1 1
 akvcam-dkms 1.2.3-1 1
 alpm_octopi_utils-git r20.1e735c3-1 1
 alvr 19.0.0.r0.g1215da95-1 1
@@ -107,8 +105,6 @@ amf-amdgpu-pro 22.10_1395274-1 1
 amf-amdgpu-pro-cfe 21.50_1373477-2 1
 ananicy 2.2.1-1 1
 anbox-modules-dkms 5.19-4 1
-android-emulator 31.3.13-1 1
-android-messages-desktop 5.4.0-1 1
 android-ndk r25.b-1 1
 android-platform 33_r02-1 1
 android-sdk 26.1.1-2 1
@@ -121,7 +117,6 @@ appmenu-gtk-module-git 0.7.6.r25.g56de7d2-1 1
 aravis 0.8.22-1 1
 archlinux-java-run 9-1 1
 artha 1.0.5-1 1
-asdf-vm 0.10.2-1 1
 asix-ax88179-dkms 1.20.0-2 1
 astrofox 1.4.0-3 1
 asusctl-git 4.3.4.r44.g1f85e30-1 1
@@ -146,8 +141,6 @@ basket 2.49b-7 1
 betterdiscordctl-git 2.0.1.r2.g49a26fe-1 1
 betterlockscreen 4.0.4-1 1
 biglybt 3.2.0.0-1 2
-biglybt-extreme-mod 3.1.0.0-1 1
-binder_linux-dkms 6.0-2 1
 bit 1.1.2-1 1
 blackbox-terminal-git 0.11.2.r3.g2eb708c-1 1
 blockbench-git 4.2.5-1 1
@@ -196,7 +189,6 @@ ckb-next 0.5.0-2 1
 clamav-unofficial-sigs 7.2.5-1 1
 clang-git 16.0.0_r440377.3edc1210a49d-1 1
 clapper 0.5.2-1 1
-clasp-cl-git 0.4.2.r5140.ga864b7b79-1 1
 cobang 0.9.8-1 1
 codelite 16.0.0-1 1
 code-marketplace 1.73.0-1 2
@@ -247,7 +239,6 @@ disman-kwinft 5.26.0-1 1
 displaylink 5.6.1-3 1
 dockbarx 1:1.0beta+r858+d98020e-1 1
 dosbox-staging 1:0.79.1-1 1
-dosbox-x 2022.08.0-1 1
 dotfonts-git r64.a768278-1 1
 downgrade 11.2.1-1 1
 downloader-cli 0.3.3-0 1
@@ -265,7 +256,6 @@ dynamic-wallpaper-editor 2.7-2 1
 easystroke 0.6.0-24 1
 easytether-bin 0.8.9-1 1
 eclipse-mat 1.13.0-2 1
-eka2l1-git 5637.9051a1d07-1 1
 elasticsearch 8.4.1-1 1
 electron15-bin 15.5.7-1 1
 electron16-bin 16.2.8-1 1
@@ -401,7 +391,6 @@ gnome-shell-git 1:43.alpha+40+g1d96cbdf6-1 1
 gnome-shell-pomodoro 0.22.0-1 1
 gnome-text-editor-git 42.1.r83.gc9c9d50-1 1
 godot-mono 3.5-1 1
-goneovim-bin 0.6.3-1 1
 goocanvas2 2.0.4-9 1
 google-cloud-sdk 404.0.0-1 1
 gpredict 2.2.1-2 1
@@ -423,7 +412,6 @@ gstreamer0.10-base-plugins 0.10.36-13 1
 gtk2-patched-filechooser-icon-view 2.24.33-2 1
 gtk3-nocsd-git r82.512c2bd-1 1
 gtk4-git 4.9.2.r1.g9c5ba5544e-1 1
-gtk4-telegrand 4.8.2-1 1
 gtkglarea 2.1.0-6 1
 gtk-gnutella 1.2.2-1 1
 gtk-gnutella-git 1.2.2.r9.g12757e513-1 1
@@ -458,7 +446,6 @@ i3lock-fancy-git r191.4cfcd47-1 1
 ialauncher-git r127.b93f75d-1 1
 ibus-bamboo-git 0.8.2+RC3+0+gd14fd96-1 1
 ice-ssb 6.0.8-1 1
-icestorm-git r811.a545498-1 1
 icoextract 0.1.4-1 1
 identity 0.4.0-1 1
 ignition-cmake 2.15.0-1 1
@@ -536,7 +523,6 @@ kde-servicemenus-setaswallpaper 1-1 1
 kdisplay-git 5.26.80_r1519.gb6f9da5-1 1
 kdisplay-kwinft 5.26.0-1 1
 kdocker 5.4-1 1
-kdsoap-git 2.1.2_r1860.gf943b216-1 1
 kdsoap-ws-discovery-client-git 0_r62.gdcefb65-1 1
 keeweb-desktop-bin 1.18.7-1 1
 kega-fusion 3.63-17 1
@@ -556,7 +542,6 @@ kwallet-secrets 5.96.0-1 1
 kwaterfoxhelper 5.0.7-0 1
 kwayland-server-git 5.24.80.r1481.gdec04c49-1 1
 kwin-bismuth 3.1.4-1 1
-kwin-bismuth-git 3.1.4.r2.g8899c31-1 1
 kwin-effects-sliding-notifications 1.4.0-1 1
 kwin-effects-yet-another-magic-lamp 5.26.0-1 1
 kwinft 5.26.0-1 1
@@ -566,7 +551,6 @@ kwin-scripts-window-colors 0.2-3 1
 labwc 0.5.3-1 1
 lanshare 1.2.1-8 1
 lariza 21.06-1 1
-layer-shell-qt-git 5.26.80_r68.g70dc87f-1 1
 lbry-desktop-git 0.53.4.r10906.ge11fb5d22-1 1
 lib32-chromaprint 1.5.1-1 1
 lib32-ffmpeg 2:5.1.2-1 1
@@ -681,7 +665,6 @@ matrix-registration 0.9.1-2 1
 mauikit-git 2.1.2.r2.gf7899647-1 1
 mcstatus 9.4.2-1 1
 media-downloader 2.5.0-1 1
-mediainfo-gui-qt 22.09-1 1
 mediawriter 5.0.3-1 1
 mednaffe 0.9.2-1 1
 mellowplayer 3.6.8-0 1
@@ -756,7 +739,6 @@ notparadoxlauncher-bin 1.3.1-1 1
 nspawn-git r46.09c5220-1 1
 nteract-bin 0.28.0-1 1
 ntfs3-dkms 1:5.17-1 1
-ntfsprogs-ntfs3 2022.5.17-6 1
 nvidia-390xx-dkms 390.154-1 1
 nvidia-390xx-settings 390.154-1 1
 nvidia-390xx-utils 390.154-1 1
@@ -831,7 +813,6 @@ papirus-folders 1.12.0-1 1
 papirus-folders-gui 1.5-2 1
 parlatype 3.1-2 1
 parlatype-libreoffice-extension 3.1.1-2 1
-parsec-bin 150_28-5 1
 passbook 0.8-1 1
 passbook-git 0.8.r36.g750825d-1 1
 patool 1.12-5 1
@@ -850,7 +831,6 @@ phoronix-test-suite 10.8.4-1 1
 phosh 0.21.0-1 1
 phosh-git 0.21.1.r17.ga1507895-1 1
 photocollage 1.4.5-2 1
-photoqt 2.9.1-1 1
 php-cs-fixer 3.8.0-1 1
 picom-ibhagwan-git 1578_Next.297.gc4107bb_2021.11.03-1 1
 pigpio 79-1 1
@@ -1062,7 +1042,6 @@ python-sip-pyqt4 4.19.25-1 1
 python-sphinx-automodapi 0.14.1-1 1
 python-srsly 2.4.4-1 1
 python-srt 3.5.2-1 1
-python-steam 1.4.3-1 1
 python-steamgriddb 1.0.5-1 1
 python-suntime 1.2.5-1 1
 python-telegram-send 0.34-1 1
@@ -1164,7 +1143,6 @@ rtl88x2ce-dkms 5.7.3_35403-4 1
 ruby-coderay 1.1.3-3 1
 rubymine-eap-jre 223.6646.99-1 1
 rustdesk 1.1.9-7 1
-safeeyes 2.1.3-1 1
 salad-git 1.0.7.r3.g6c1ebfff-1 1
 saxon-he 11.4-1 1
 sayonara-player 1.7.0_stable3-1 1
@@ -1175,7 +1153,6 @@ sddm-config-editor-git 0.1.r89.g24cb417-1 1
 sddm-theme-astronaut 1.0-1 1
 sdformat-9 9.8.0-1 1
 searx 1.1.0-1 1
-sejda-console 3.2.85-6 1
 setzer-git 0.4.8.r17.g4f9c831-1 1
 shadowsocks-gtk-rs 0.4.1-1 1
 share-preview 0.2.0-1 1
@@ -1256,7 +1233,6 @@ tartube 2.4.093-1 1
 teams 1.5.00.23861-1 1
 terasology 1:5.3.0alpha23-1 1
 texmacs 2.1.2-1 1
-themix-export-spotify-git 1.2.6.r1.gf47c36b-1 1
 themix-icons-gnome-colors-git 5.5.6.r0.gd2cb7eb-2 1
 themix-theme-arc-git 20190917.r4.g1fd68cc-1 1
 thonny 4.0.1-1 1
@@ -1271,7 +1247,6 @@ tidal-hifi-bin 4.3.1-1 1
 timeshift-autosnap 0.9-1 1
 tlpui 1.5.0-1 1
 todoist-electron 1.24.0-4 1
-todoist-nativefier 2022.07.30-1 1
 tracktion-waveform 12.1.8-1 1
 trello-cli 0.5.1-1 1
 trello-git 0.1.1-1 1
@@ -1353,7 +1328,6 @@ webkit2gtk-unstable 2.38.0-1 1
 webkitgtk 3:2.4.11-26 1
 wf-osk-git r13.d2e2e32-1 1
 wget2 2.0.1-1 1
-whatsapp-for-linux 1.5.0-2 1
 whoogle 0.7.4-1 1
 wike 1.8.2-1 1
 windscribe-bin 2.4.11-1 1
@@ -1398,7 +1372,6 @@ xen-qemu-builtin 4.16.1-1 1
 xerces2-java 2.12.1-1 1
 xfce4-dockbarx-plugin 1:0.6+r65+aa9c974-1 1
 xfce4-docklike-plugin 0.4.0-2 1
-xfce4-panel-compiz 4.16.4-1 1
 xfce4-panel-genmon-ng-git 5.1.0.r41.gd8f2540-1 1
 xfce4-panel-profiles 1.0.13-1 1
 xfce4-panel-sntray-git 0.4.13.1.r3.ga5028a3-1 1
@@ -1426,7 +1399,6 @@ yaru-icon-theme 22.10.2-1 1
 yaru-metacity-theme 22.10.2-1 1
 yaru-session 22.10.2-1 1
 yin-yang-git 1.0.beta.r214.ge15663f-1 1
-youplay 0.38-1 1
 youtubedl-gui 3.0-1 1
 youtube-music-bin 1.18.0-1 1
 youtube-search-python 1.6.0-0 1
@@ -1441,3 +1413,4 @@ zfs-dkms 2.1.6-1 1
 zsync2-git 2.0.0r210.1bb5c9b-1 1
 zulucrypt 6.2.0-1 1
 stremio 4.4.159-1 1
+pipewire-common-git 0.3.63.r17.gb0853ad3-1 1
