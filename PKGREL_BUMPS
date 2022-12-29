@@ -520,7 +520,6 @@ kde-servicemenus-pdf-encrypt-decrypt 1-1 1
 kde-servicemenus-rootactions 2.9.1-2 1
 kde-servicemenus-sendtodesktop 1-1 1
 kde-servicemenus-setaswallpaper 1-1 1
-kdisplay-git 5.26.80_r1519.gb6f9da5-1 1
 kdisplay-kwinft 5.26.0-1 1
 kdocker 5.4-1 1
 kdsoap-ws-discovery-client-git 0_r62.gdcefb65-1 1
@@ -548,7 +547,6 @@ kwinft 5.26.0-1 1
 kwin-scripts-forceblur 0.6.1-1 1
 kwin-scripts-krohnkite-git r471.bc6fe23-1 1
 kwin-scripts-window-colors 0.2-3 1
-labwc 0.5.3-1 1
 lanshare 1.2.1-8 1
 lariza 21.06-1 1
 lbry-desktop-git 0.53.4.r10906.ge11fb5d22-1 1
@@ -719,7 +717,6 @@ neovim-plug-git 0.11.0.r10.ddce935-1 1
 neovim-remote 2.5.0-1 1
 nestopia 1.51.0-1 1
 networkmanager-dmenu-git r165.60c12b5-1 1
-nextpnr-git 0.4.r28.gac17c36b-1 1
 nginx-mainline-mod-brotli 1:1.0.0rc-5 1
 nginx-mainline-mod-dav-ext 3.0.0-21 1
 nginx-mainline-mod-echo 0.61-37 1
@@ -958,7 +955,6 @@ python-injector 0.20.1-2 1
 python-inputs 0.5.0-1 1
 python-isounidecode 0.3-3 1
 python-itunespy 1.6-2 1
-python-jaraco.packaging 9.1.1-1 1
 python-kiss-headers 2.3.1-2 1
 python-liblarch 3.2.0-1 1
 python-liblnk-git 20210417.r14.g4405b84-1 1
@@ -1414,3 +1410,4 @@ zsync2-git 2.0.0r210.1bb5c9b-1 1
 zulucrypt 6.2.0-1 1
 stremio 4.4.159-1 1
 pipewire-common-git 0.3.63.r17.gb0853ad3-1 1
+qbittorrent-git 1:4.6.0alpha1.r167.g71f4a5667-1 1
