@@ -81,7 +81,6 @@ speedtest++ 1.14.r71.0f63cfb-1 2
 spot-client-git 0.3.3.r0.g8fe75ea-1 2
 spotify 1:1.1.84.716-2 2
 telegram-tdlib 1.8.0-3 2
-telegram-tdlib-git 1.8.4-1 2
 trousers 0.3.15-2 2
 ucommon 7.0.1-1 2
 vboot-utils 100.14526-1 2
@@ -189,7 +188,6 @@ ckb-next 0.5.0-2 1
 clamav-unofficial-sigs 7.2.5-1 1
 clang-git 16.0.0_r440377.3edc1210a49d-1 1
 clapper 0.5.2-1 1
-cobang 0.9.8-1 1
 codelite 16.0.0-1 1
 code-marketplace 1.73.0-1 2
 colorway 1.2.0-2 1
@@ -256,7 +254,6 @@ dynamic-wallpaper-editor 2.7-2 1
 easystroke 0.6.0-24 1
 easytether-bin 0.8.9-1 1
 eclipse-mat 1.13.0-2 1
-elasticsearch 8.4.1-1 1
 electron15-bin 15.5.7-1 1
 electron16-bin 16.2.8-1 1
 elementary-planner 3.0.7-1 1
@@ -316,7 +313,6 @@ fop-hyph 2.2-1 1
 foxitreader 2.4.5.0727-1 1
 fprintd-libfprint2 1:1.94.2+14+geeaacec-1 1
 freac 1.1.6-1 1
-freenet 0.7.5.1494-1 1
 freeoffice 1054-1 1
 freetube 0.18.0-2 1
 friendiqa 0.6.5-1 1
@@ -416,7 +412,6 @@ gtkglarea 2.1.0-6 1
 gtk-gnutella 1.2.2-1 1
 gtk-gnutella-git 1.2.2.r9.g12757e513-1 1
 gtkhash 1.4-5 1
-gtk-theme-windows10-dark-git r134.827fbec-1 1
 gtk-update-icon-cache-git 4.9.2.r1.g9c5ba5544e-1 1
 guayadeque-git 0.4.6.r2224.a8b47a68-1 1
 guilded 1.0.9161723-1 1
@@ -1362,7 +1357,6 @@ xalan-java 2.7.2-3 1
 xampp 8.1.10-1 1
 xboxdrv 0.8.8-7 1
 xbox-generic-controller 0.1.2-1 1
-xdman 2020.7.2.11-2 1
 xemu-git 0.7.71.r0.g22db3304a4-1 1
 xen-qemu-builtin 4.16.1-1 1
 xerces2-java 2.12.1-1 1
@@ -1409,5 +1403,5 @@ zfs-dkms 2.1.6-1 1
 zsync2-git 2.0.0r210.1bb5c9b-1 1
 zulucrypt 6.2.0-1 1
 stremio 4.4.159-1 1
-pipewire-common-git 0.3.63.r17.gb0853ad3-1 1
 qbittorrent-git 1:4.6.0alpha1.r167.g71f4a5667-1 1
+libklvanc-git r551.b5743b6-1 1
