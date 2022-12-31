@@ -186,13 +186,11 @@ chrome-gnome-shell 10.1-6 1
 chromium-widevine 1:4.10.2557.0-1 1
 ckb-next 0.5.0-2 1
 clamav-unofficial-sigs 7.2.5-1 1
-clang-git 16.0.0_r440377.3edc1210a49d-1 1
 clapper 0.5.2-1 1
 codelite 16.0.0-1 1
 code-marketplace 1.73.0-1 2
 colorway 1.2.0-2 1
 commit 3.3.0-1 1
-compiler-rt-git 16.0.0_r440377.3edc1210a49d-1 1
 compiz 0.9.14.2-1 1
 compiz-core 0.8.18-3 1
 compiz-git 0.9.14.2.r0.g12aca6852-1 1
@@ -411,7 +409,6 @@ gtk4-git 4.9.2.r1.g9c5ba5544e-1 1
 gtkglarea 2.1.0-6 1
 gtk-gnutella 1.2.2-1 1
 gtk-gnutella-git 1.2.2.r9.g12757e513-1 1
-gtkhash 1.4-5 1
 gtk-update-icon-cache-git 4.9.2.r1.g9c5ba5544e-1 1
 guayadeque-git 0.4.6.r2224.a8b47a68-1 1
 guilded 1.0.9161723-1 1
@@ -618,10 +615,6 @@ linux-steam-integration 0.7.3-4 1
 linux-wifi-hotspot 4.4.0-1 1
 linux-xanmod-tt 5.15.54-1 1
 linux-xanmod-tt-headers 5.15.54-1 1
-lldb-git 16.0.0_r440377.3edc1210a49d-1 1
-lld-git 16.0.0_r440377.3edc1210a49d-1 1
-llvm-git 16.0.0_r440377.3edc1210a49d-1 1
-llvm-libs-git 16.0.0_r440377.3edc1210a49d-1 1
 loginized 1.4.0-2 1
 logiops 0.2.3-1 1
 logstalgia 1.1.2-1 1
@@ -854,7 +847,6 @@ podman-compose-git 1:.r153.08ffcf6-1 1
 pokemon-colorscripts-git r112.0483c85-1 1
 pokerth 1.1.2-23 1
 polkit-qt5-git v0.114.0.r13.g590e710-1 1
-polly-git 16.0.0_r440377.3edc1210a49d-1 1
 polyglot 3.5-1 1
 popcorntime 0.4.9-1 1
 popcorntime-git 0.4.4.r1879.g64553fa7-1 1
@@ -1390,7 +1382,6 @@ yaru-metacity-theme 22.10.2-1 1
 yaru-session 22.10.2-1 1
 yin-yang-git 1.0.beta.r214.ge15663f-1 1
 youtubedl-gui 3.0-1 1
-youtube-music-bin 1.18.0-1 1
 youtube-search-python 1.6.0-0 1
 yozo-office 8.0.1331.101ZH.S1-6 1
 yp-tools 4.2.3-6 1
@@ -1406,3 +1397,4 @@ stremio 4.4.159-1 1
 qbittorrent-git 1:4.6.0alpha1.r167.g71f4a5667-1 1
 libklvanc-git r551.b5743b6-1 1
 qqc2-desktop-style-git 5.102.0_r700.gc6e4a13-1 1
+dracula-xresources-git r12.539ef24-1 1
