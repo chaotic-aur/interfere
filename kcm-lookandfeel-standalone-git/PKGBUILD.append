@@ -1,0 +1,1 @@
+depends+=(plasma-framework kcmutils kdoctools krunner kdelibs4support kdesignerplugin knewstuff knotifyconfig libxcursor)
