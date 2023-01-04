@@ -1,0 +1,1 @@
+depends+=(plasma-framework kcmutils git)
