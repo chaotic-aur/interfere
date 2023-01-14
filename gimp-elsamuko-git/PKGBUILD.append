@@ -1,0 +1,22 @@
+makedepends+=(qt5-base)
+
+build(){
+  cd ${srcdir}
+  msg2 "Building get-curves plugin"
+  pushd ${pkgname%-git}/plugins/elsamuko-get-curves
+  gimptool --build elsamuko-get-curves.c
+  popd
+
+  msg2 "Building depthmap-cv plugin TODO"
+  pushd ${pkgname%-git}/plugins/elsamuko-depthmap-cv
+  # export CFLAGS="-I/usr/include/opencv4"
+  # gimptool --build elsamuko-depthmap-cv.cpp
+  popd
+
+  msg2 "Building saturation plugin"
+  pushd ${pkgname%-git}/plugins/elsamuko-saturation
+  gimptool --build elsamuko-saturation.c
+  qmake
+  make
+  popd
+}
