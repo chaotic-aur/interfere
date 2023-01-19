@@ -278,9 +278,6 @@ firedm 2022.2.5-1 1
 firedragon-extension-plasma-integration 1.8.1-3 1
 firedragon-extension-xdm-browser-monitor 2.2-1 1
 firefly-iii 5.7.14-1 1
-firefox-extension-bitwarden 2022.8.0-1 1
-firefox-extension-flagfox 6.1.55-1 1
-firefox-extension-localcdn 2.6.35-1 1
 firefox-extension-xdm-browser-monitor 2.2-1 1
 firefox-kde-opensuse-rpm 99.0.1.978.1-1 1
 firejail-pacman-hook 1-2 1
@@ -333,12 +330,10 @@ gconf 3.2.6+11+g07808097-10 1
 gdcm 3.0.14-1 1
 gdm-plymouth 43.0-1 1
 gdm-prime 43.0-1 1
-gdm-tools-git 1:1.1+6+g05e24ec-1 1
 gedit-plugin-markdown_preview 2.0-1 1
 gerrit 3.4.1-1 1
 gestures 0.3.1-1 1
 getmail6 6.18.10-1 1
-gfeeds-git 2.0.1.r1.ga4cb59a-1 1
 giada 0.23.0-4 1
 giara 1.0-2 1
 gifcurry 6.0.1.0_0-1 1
@@ -353,7 +348,6 @@ glaxnimate 0.5.0_1_g49002eec-1 1
 glew-egl-glx 2.2.0-1 1
 gmenu 0.3.0-1 1
 gmusicbrowser 1.1.16-1 1
-gnome-2048-git 3.38.2.r23.g069c6e1-1 1
 gnome-browser-connector 42.1-3 1
 gnome-console 43.0-1 1
 gnome-control-center-x11-scaling 42.2-1 1
@@ -362,7 +356,6 @@ gnome-icon-theme-symbolic 3.12.0-6 1
 gnome-obfuscate 0.0.7-1 1
 gnome-shell-extension-dash-to-dock 1:75-1 1
 gnome-shell-extension-gnome-ui-tune-git 1.7.1.r0.gbd81dc8-1 1
-gnome-shell-extension-pop-shell-git r927.30bf682-1 1
 gnome-shell-extension-x11gestures 14-1 1
 gnome-shell-git 1:43.alpha+40+g1d96cbdf6-1 1
 gnome-shell-pomodoro 0.22.0-1 1
@@ -417,7 +410,6 @@ ibus-bamboo-git 0.8.2+RC3+0+gd14fd96-1 1
 ice-ssb 6.0.8-1 1
 icoextract 0.1.4-1 1
 identity 0.4.0-1 1
-ignition-cmake 2.15.0-1 1
 ignition-common-3 3.14.1-1 1
 ignition-fuel_tools-4 4.5.0-1 1
 ignition-msgs-5 5.9.1-2 1
@@ -504,7 +496,6 @@ komorebi 2.2.1-1 1
 kquickchatcomponents-git r15.f184bbc-1 1
 ksmoothdock 6.3-2 1
 kvantum-theme-matcha-git r11.a3b247b-1 1
-kvantum-theme-vimix-git 2021.09.05.r13.ga001152-1 1
 kwallet-secrets 5.96.0-1 1
 kwaterfoxhelper 5.0.7-0 1
 kwayland-server-git 5.24.80.r1481.gdec04c49-1 1
@@ -601,7 +592,6 @@ lua53-event 0.4.6-2 1
 lua-event 0.4.6-2 1
 lua-resty-core 1:0.1.24-1 1
 luckybackup 0.5.0-1 1
-luxtorpeda-git 59.0.0.r369.3766219-1 1
 lxqt-kwin-desktop-git 0.17.0-1 1
 m4b-tool-bin 0.4.2~20210604-1 1
 m64p 20220819-1 1
@@ -631,7 +621,6 @@ mendeleydesktop 1.19.8-1 1
 menulibre 2.2.3-1 1
 meshlab 2022.02-1 1
 meteo-gtk 0.9.9.1-1 1
-meteo-qt-git 3.2.4.gda15ee1-1 1
 metronome 1.0.0-1 1
 micropad 4.2.0-1 1
 mindustry 1:7.0_139-1 1
@@ -822,7 +811,6 @@ prestopalette 0.1.31-1 1
 primus-vk-git r150.2486f2a-1 1
 protondb-tags 1.2.2-1 1
 protonmail-bridge-bin 2.3.0-1 1
-protonup-git 0.1.4.r9.gd8289b0-1 1
 protonvpn-cli 3.13.0-2 1
 protonvpn-gui 1.12.0-1 1
 psautohint 3:2.4.0-1 2
@@ -908,7 +896,6 @@ python-kiss-headers 2.3.1-2 1
 python-liblarch 3.2.0-1 1
 python-liblnk-git 20210417.r14.g4405b84-1 1
 python-lyricsgenius 3.0.0-1 1
-python-m2r 0.2.1-1 1
 python-material-color-utilities 0.1.5-1 1
 python-moderngl-git 5.6.4.r190.gff12a936-1 1
 python-moderngl-window 2.4.1-1 1
@@ -933,7 +920,6 @@ python-plac 1.3.5-1 1
 python-plaster-pastedeploy 0.7-4 1
 python-playsound 1.3.0-2 1
 python-pluginbase 1.0.0-6 1
-python-plyer 2.0.0-1 1
 python-poetry-core-git 1.1.0a7.r8.g935b11b-1 1
 python-poetry-git 1.2.0b3.r23.g601dc7896-1 1
 python-polib 1.1.1-1 1
@@ -987,7 +973,6 @@ python-srsly 2.4.4-1 1
 python-srt 3.5.2-1 1
 python-steamgriddb 1.0.5-1 1
 python-suntime 1.2.5-1 1
-python-telegram-send 0.34-1 1
 python-textx 3.0.0-2 1
 python-thinc 8.1.1-1 1
 python-timeago 1.0.16-2 1
@@ -1177,7 +1162,6 @@ thunarx-python 1:0.5.2-2 1
 tidal-gui 2022.1.18.3-1 1
 tidal-hifi-bin 4.3.1-1 1
 timeshift-autosnap 0.9-1 1
-tlpui 1.5.0-1 1
 todoist-electron 1.24.0-4 1
 tracktion-waveform 12.1.8-1 1
 trello-cli 0.5.1-1 1
@@ -1191,7 +1175,6 @@ tuxedo-keyboard 3.0.10-3 1
 twinkle 1.10.3-1 1
 twinkle-git 1.10.3.r478.78313b4-1 1
 typora 1.4.7-1 1
-ulauncher 5.15.0-1 1
 unflac 1.0-1 1
 unity-editor-lts 1:2019.4.24f1-1 1
 update-grub 0.0.1-7 1
@@ -1285,7 +1268,6 @@ xalan-java 2.7.2-3 1
 xboxdrv 0.8.8-7 1
 xbox-generic-controller 0.1.2-1 1
 xen-qemu-builtin 4.16.1-1 1
-xerces2-java 2.12.1-1 1
 xfce4-docklike-plugin 0.4.0-2 1
 xfce4-panel-genmon-ng-git 5.1.0.r41.gd8f2540-1 1
 xfce4-panel-profiles 1.0.13-1 1
@@ -1297,7 +1279,6 @@ xmm7360-pci-dkms-git r231.107b6ba-1 1
 xmm7360-pci-utils-git r231.107b6ba-1 1
 xnconvert 1.96.0-1 1
 xone-dkms 0.3-3 1
-xone-dkms-git 0.3.r0.g8311a25-2 1
 xow-git 1:0.5.r36.gd335d60-1 1
 xpadneo-dkms 0.9.5-2 1
 xplayer 2.4.2-2 1
@@ -1306,11 +1287,6 @@ xviewer-plugins 1.4.1-3 1
 xylib 1.6-2 1
 yagf 0.9.5-3 1
 yandex-disk 0.1.6.1080-1 1
-yaru-gnome-shell-theme 22.10.2-1 1
-yaru-gtk-theme 22.10.2-1 1
-yaru-icon-theme 22.10.2-1 1
-yaru-metacity-theme 22.10.2-1 1
-yaru-session 22.10.2-1 1
 yin-yang-git 1.0.beta.r214.ge15663f-1 1
 youtubedl-gui 3.0-1 1
 youtube-search-python 1.6.0-0 1
@@ -1326,3 +1302,5 @@ zulucrypt 6.2.0-1 1
 stremio 4.4.159-1 1
 libklvanc-git r551.b5743b6-1 1
 dracula-xresources-git r12.539ef24-1 1
+mesa-tkg-git 23.1.0_devel.165379.79bbfb31686-1 1
+lib32-mesa-tkg-git 23.1.0_devel.165379.79bbfb31686-1 1
