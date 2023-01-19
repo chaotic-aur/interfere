@@ -1302,5 +1302,10 @@ zulucrypt 6.2.0-1 1
 stremio 4.4.159-1 1
 libklvanc-git r551.b5743b6-1 1
 dracula-xresources-git r12.539ef24-1 1
-mesa-tkg-git 23.1.0_devel.165379.79bbfb31686-1 1
-lib32-mesa-tkg-git 23.1.0_devel.165379.79bbfb31686-1 1
+polly-git 16.0.0_r448737.0ad590995815-1 1
+llvm-git 16.0.0_r448737.0ad590995815-1 1
+lldb-git 16.0.0_r448737.0ad590995815-1 1
+lld-git 16.0.0_r448737.0ad590995815-1 1
+compiler-rt-git 16.0.0_r448737.0ad590995815-1 1
+clasp-cl-git 2.1.0_21_ge9ee50e55-1 1
+clang-git 16.0.0_r448737.0ad590995815-1 1
