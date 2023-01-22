@@ -17,7 +17,6 @@ evdev-right-click-emulation 20190313.350939-1 1
 fann 2.2.0-5 1
 firefox-extension-plasma-integration 1.8.1-1 2
 foo2zjs-nightly 20201127-1 2
-fotokilof 3.8.3-1 2
 gallium-nine-git 0.r388.9abd0b4-1 2
 google-meet-desktop 1.2.0-1 2
 graphite-cursor-theme-git 2021.11.26.r9.g8773e95-1 1
@@ -53,8 +52,6 @@ pulseeffects-legacy 4.8.7-1 2
 garuda-settings-manager-git 1.0.1.r3.g27adcf0-1 1
 paru 1.11.1-1 3
 chiaki 2.1.1-2 2
-cinny-desktop 2.2.2-1 2
-crow-translate 2.10.1-1 2
 dwarfs 0.6.2-1 2
 guestfs-tools 1.48.2-1 2
 hfsprogs 540.1.linux3-4 3
@@ -92,7 +89,6 @@ airspyhf-git r115.1af81c0-1 1
 akira 0.0.16-1 1
 akvcam-dkms 1.2.3-1 1
 alpm_octopi_utils-git r20.1e735c3-1 1
-alvr 19.0.0.r0.g1215da95-1 1
 amarok 2.9.71-2 1
 amf-amdgpu-pro 22.10_1395274-1 1
 amf-amdgpu-pro-cfe 21.50_1373477-2 1
@@ -131,7 +127,6 @@ badwolf 1.2.2-2 1
 balena-etcher 1.7.9-1 1
 basket 2.49b-7 1
 betterdiscordctl-git 2.0.1.r2.g49a26fe-1 1
-betterlockscreen 4.0.4-1 1
 biglybt 3.2.0.0-1 2
 bit 1.1.2-1 1
 blackbox-terminal-git 0.11.2.r3.g2eb708c-1 1
@@ -220,9 +215,7 @@ discord-development-electron-bin 0.0.203-1 1
 discover-overlay 0.6.3-1 1
 dislocker 0.7.3-2 1
 disman-git 0.526.80_r1847.g8f7345c-1 1
-disman-kwinft 5.26.0-1 1
 displaylink 5.6.1-3 1
-dosbox-staging 1:0.79.1-1 1
 dotfonts-git r64.a768278-1 1
 downgrade 11.2.1-1 1
 downloader-cli 0.3.3-0 1
@@ -262,7 +255,6 @@ fancontrol-kcm v0.8-1 1
 feem 4.4.2-1 1
 ferdi 5.8.1-1 1
 ferdi-git 5.8.2.nightly.10.r2.gbae5e3f8a-1 1
-ff2mpv-native-messaging-host-git r67.1f6cfc4-1 1
 ffmpeg-compat-57 3.4.11-1 1
 ffmpeg-compat-58 4.4.2-2 1
 ffmpeg-full 5.1.2-1 1
@@ -334,7 +326,6 @@ gedit-plugin-markdown_preview 2.0-1 1
 gerrit 3.4.1-1 1
 gestures 0.3.1-1 1
 getmail6 6.18.10-1 1
-giada 0.23.0-4 1
 giara 1.0-2 1
 gifcurry 6.0.1.0_0-1 1
 gigolo 0.5.2-1 1
@@ -346,7 +337,6 @@ git-bug-git 0.7.1.r700.g650c11dc-1 1
 git-fixup-git v1.5.0.r8.g76c688c-1 1
 glaxnimate 0.5.0_1_g49002eec-1 1
 glew-egl-glx 2.2.0-1 1
-gmenu 0.3.0-1 1
 gmusicbrowser 1.1.16-1 1
 gnome-browser-connector 42.1-3 1
 gnome-console 43.0-1 1
@@ -356,7 +346,6 @@ gnome-icon-theme-symbolic 3.12.0-6 1
 gnome-obfuscate 0.0.7-1 1
 gnome-shell-extension-dash-to-dock 1:75-1 1
 gnome-shell-extension-gnome-ui-tune-git 1.7.1.r0.gbd81dc8-1 1
-gnome-shell-extension-x11gestures 14-1 1
 gnome-shell-git 1:43.alpha+40+g1d96cbdf6-1 1
 gnome-shell-pomodoro 0.22.0-1 1
 gnome-text-editor-git 42.1.r83.gc9c9d50-1 1
@@ -480,9 +469,7 @@ kde-servicemenus-pdf-encrypt-decrypt 1-1 1
 kde-servicemenus-rootactions 2.9.1-2 1
 kde-servicemenus-sendtodesktop 1-1 1
 kde-servicemenus-setaswallpaper 1-1 1
-kdisplay-kwinft 5.26.0-1 1
 kdocker 5.4-1 1
-kdsoap-ws-discovery-client-git 0_r62.gdcefb65-1 1
 keeweb-desktop-bin 1.18.7-1 1
 kega-fusion 3.63-17 1
 keyboard-visualizer-git release_4.00.r26.gb50cc50-1 1
@@ -556,7 +543,6 @@ libnvidia-container-tools 1.11.0-1 1
 libopenglrecorder 0.1.0-1 1
 libpamac-flatpak 11.3.1-1 1
 libqaccessibilityclient-git v0.4.0.r38.1953994-1 1
-libreoffice-extension-languagetool 5.8-1 1
 libreswan 4.9-1 1
 libretro-mame-git 84544.5526dd0fbf6-1 1
 librewolf-extension-gnome-shell-integration 10.1-1 1
@@ -660,12 +646,11 @@ nautilus-folder-icons 3.0.1-3 1
 neard 0.18-1 1
 neovim-drop-in 1-1 1
 neovim-plug 0.11.0-3 1
-neovim-plug-git 0.11.0.r10.ddce935-1 1
 neovim-remote 2.5.0-1 1
 nestopia 1.51.0-1 1
 networkmanager-dmenu-git r165.60c12b5-1 1
 nginx-mainline-mod-brotli 1:1.0.0rc-5 1
-nginx-mainline-mod-dav-ext 3.0.0-21 1
+nginx-mainline-mod-dav-ext 3.0.0-21 2
 nginx-mainline-mod-echo 0.61-37 1
 nginx-mainline-mod-fancyindex 0.5.2-3 1
 nginx-mainline-mod-headers-more 0.34-1 1
@@ -907,7 +892,6 @@ python-mutatormath 3.0.1-2 1
 python-mypy-protobuf 2.9-1 1
 python-nototools 0.2.13-1 1
 python-nudatus 0.0.5-1 1
-python-openrgb-git v0.2.15.r5.g6f1b3d3-1 1
 python-pa-ringbuffer 0.1.4-1 1
 python-patch-ng 1.17.4-3 1
 python-pathlib 1.0.1-1 1
@@ -994,7 +978,6 @@ qoob-git 0.2.1.r0.g2e3ed22-1 1
 qpdftools 2.0.4-0 1
 qpdfview 0.4.18-2 1
 qrab 0.4-3 1
-qt6gtk2 0.2-8 1
 qtfm 6.2.1-1 1
 qtforkawesome 0.1.0-1 1
 qt-installer-framework 4.2.0-1 1
@@ -1152,7 +1135,6 @@ terasology 1:5.3.0alpha23-1 1
 texmacs 2.1.2-1 1
 themix-icons-gnome-colors-git 5.5.6.r0.gd2cb7eb-2 1
 themix-theme-arc-git 20190917.r4.g1fd68cc-1 1
-thonny 4.0.1-1 1
 threema-web 2.4.4-1 1
 thunar-archive-plugin-git 0.5.0+5+gd982488-1 1
 thunar-media-tags-plugin-git 0.3.0+143+g550e5bb-1 1
@@ -1248,7 +1230,6 @@ wluma 4.1.2-1 1
 woeusb 5.2.4-1 1
 woeusb-ng 0.2.10-1 1
 wps-office-all-dicts-win-languages 11.2.0.9255-2 1
-wrapland-kwinft 5.26.0-1 1
 write_stylus 300.r469-1 1
 wxcommon-dev-light 3.1.6-1 1
 wxformbuilder 3.10.1-2 1
@@ -1302,10 +1283,3 @@ zulucrypt 6.2.0-1 1
 stremio 4.4.159-1 1
 libklvanc-git r551.b5743b6-1 1
 dracula-xresources-git r12.539ef24-1 1
-polly-git 16.0.0_r448737.0ad590995815-1 1
-llvm-git 16.0.0_r448737.0ad590995815-1 1
-lldb-git 16.0.0_r448737.0ad590995815-1 1
-lld-git 16.0.0_r448737.0ad590995815-1 1
-compiler-rt-git 16.0.0_r448737.0ad590995815-1 1
-clasp-cl-git 2.1.0_21_ge9ee50e55-1 1
-clang-git 16.0.0_r448737.0ad590995815-1 1
