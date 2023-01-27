@@ -169,7 +169,7 @@ chocolate-doom 3.0.1-1 1
 chromaprint-fftw 1.5.1-1 1
 chrome-gnome-shell 10.1-6 1
 chromium-widevine 1:4.10.2557.0-1 1
-ckb-next 0.5.0-2 2
+ckb-next 0.5.0-2 3
 clamav-unofficial-sigs 7.2.5-1 1
 clapper 0.5.2-1 1
 code-marketplace 1.73.0-1 2
@@ -611,7 +611,6 @@ minecraft-launcher 1:1.0.1221-1 1
 minigalaxy 1.2.2-3 1
 mintlocale 1.5.8-1 1
 mint-x-icons 1.6.4-1 1
-mips64-elf-binutils 2.39-1 1
 miredo 1.2.6+r159+ge5f5652-1 1
 mkinitcpio-git 31.r4.g84a00b5-1 1
 mkinitcpio-openswap 0.1.0-3 1
