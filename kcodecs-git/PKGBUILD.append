@@ -10,3 +10,4 @@ build() {
   cmake -B build -S $_name -DCMAKE_DISABLE_FIND_PACKAGE_PythonModuleGeneration=ON
   cmake --build build
 }
+source=("git+https://github.com/KDE/${pkgname%-git}#branch=kf5")

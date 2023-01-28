@@ -10,3 +10,4 @@ build() {
 }
 
 depends+=(qt5-quickcontrols2)
+source=("git+https://github.com/KDE/${pkgname%-git}#branch=kf5")
