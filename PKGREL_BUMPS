@@ -64,7 +64,6 @@ mbuffer 20220418-1 2
 metronome-git 4.0.0-1 2
 mysql-clients57 5.7.38-1 2
 nghttp2 1.50.0-1 2
-openboard 1.6.4-1 2
 paho-mqtt-c 1.3.10-1 2
 pixelserv-tls 2.4-1 2
 powershell 7.2.6-1 2
@@ -430,7 +429,6 @@ jdk 19.0.1-1 1
 jdk16-graalvm-bin 21.2.0-2 1
 jdk8-graalvm-bin 21.2.0-2 1
 jdownloader2 latest-17 1
-jellyfin-media-player-git r1631.aaa82f1-1 2
 jeuclid-core 3.1.9-1 1
 jgoodies-looks 2.8.0-4 1
 jgraphx-jre8 3.9.10-1 1
@@ -930,7 +928,6 @@ python-rapidyaml-git 0.4.1.r107.g74c8031-1 1
 python-rarfile 4.0-3 1
 python-retworkx 0.11.0-1 1
 python-rq 1.10.1-2 1
-python-rst.linker 2.3.1-1 1
 python-rtslib-fb 2.1.75-1 1
 python-sanic 22.6.2-1 1
 python-scrap_engine-git 1.4.0-1 1
@@ -1052,7 +1049,6 @@ searx 1.1.0-1 1
 setzer-git 0.4.8.r17.g4f9c831-1 1
 shadowsocks-gtk-rs 0.4.1-1 1
 share-preview 0.2.0-1 1
-sidequest-bin 0.10.32-1 1
 silo-netflix 0.6-1 1
 silo-primevideo 0.5-1 1
 silos 0.1.59-1 1
@@ -1268,8 +1264,5 @@ zulucrypt 6.2.0-1 1
 stremio 4.4.159-1 1
 libklvanc-git r551.b5743b6-1 1
 dracula-xresources-git r12.539ef24-1 1
-prismlauncher 6.1-1 1
-prismlauncher-qt5 6.1-1 1
-cemu 2.0.274-1 1
-rstudio-desktop 2022.12.0.353-1 1
 qimgv-git v1.0.3.alpha.r78.g8ad0a11-1 1
+calamares-git .r10506.a8131c2be-2 1
