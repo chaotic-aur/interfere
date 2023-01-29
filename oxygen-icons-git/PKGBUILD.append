@@ -1,1 +1,1 @@
-source=("git+https://github.com/KDE/${pkgname%-git}#branch=kf5")
+source=("git+https://github.com/KDE/${pkgname%-git}5#branch=kf5")
