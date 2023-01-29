@@ -1,3 +1,3 @@
 #depends+=('pimcommon-git' 'mailcommon-git')
 
-depends=('ki18n-git' 'kirigami2-git' 'kcalendarcore-git' 'kpackage-git' 'kconfigwidgets-git' 'kwindowsystem-git' 'akonadi-git' 'akonadi-contacts-git' 'calendarsupport-git' 'kpeople-git' 'eventviews-git' 'kirigami-addons-git' 'qqc2-desktop-style-git' 'mailcommon-git')
+depends=('ki18n-git' 'kirigami2-git' 'kcalendarcore-git' 'kpackage-git' 'kconfigwidgets-git' 'kwindowsystem-git' 'akonadi-git' 'akonadi-contacts-git' 'calendarsupport-git' 'kpeople-git' 'eventviews-git' 'kirigami-addons-git' 'qqc2-desktop-style-git' 'mailcommon-git' 'kpimtextedit-git')
