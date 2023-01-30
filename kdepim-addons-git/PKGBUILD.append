@@ -1,1 +1,1 @@
-depends+=(kaddressbook-git kpimtextedit-git)
+depends+=(kaddressbook-git ktextaddons-git)
