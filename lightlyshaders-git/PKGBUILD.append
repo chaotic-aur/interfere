@@ -1,3 +1,3 @@
 source=("git+${url}.git")
-depends=('qt5-x11extras' 'qt5-xmlpatterns' 'qt5-tools' 'kconfig-git' 'kconfigwidgets-git' 'ki18n-git' 'kcoreaddons-git' 'kcrash-git' 'kio-git' 'kservice-git' 'kinit-git' 'knotifications-git' 'kwin-git' 'kwidgetsaddons-git' 'kwindowsystem-git' 'kguiaddons-git' 'kglobalaccel-git' 'kde-dev-utils')
-makedepends=('git' 'extra-cmake-modules-git')
+#depends=('qt5-x11extras' 'qt5-xmlpatterns' 'qt5-tools' 'kconfig-git' 'kconfigwidgets-git' 'ki18n-git' 'kcoreaddons-git' 'kcrash-git' 'kio-git' 'kservice-git' 'kinit-git' 'knotifications-git' 'kwin-git' 'kwidgetsaddons-git' 'kwindowsystem-git' 'kguiaddons-git' 'kglobalaccel-git' 'kde-dev-utils')
+#makedepends=('git' 'extra-cmake-modules-git')
