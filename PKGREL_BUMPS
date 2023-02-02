@@ -58,7 +58,6 @@ hlsdl 0.27-2 2
 kotatogram-desktop-beta-dynamic-bin 1.4.9-4 2
 leagueoflegends-ge-git 0.12.6.r5.ga503e81-1 2
 libshout-idjc 2.4.4-1 2
-libtd 1.8.5-1 2
 mbuffer 20220418-1 2
 metronome-git 4.0.0-1 2
 mysql-clients57 5.7.38-1 2
@@ -90,7 +89,6 @@ amf-amdgpu-pro 22.10_1395274-1 1
 amf-amdgpu-pro-cfe 21.50_1373477-2 1
 ananicy 2.2.1-1 1
 anbox-modules-dkms 5.19-4 1
-android-ndk r25.b-1 1
 android-platform 33_r02-1 1
 android-sdk 26.1.1-2 1
 angrysearch 1.0.4-1 1
@@ -352,7 +350,6 @@ green-recorder-git 3.2.10.r7.gde31bbc-1 1
 greetd-qtgreet 1.0.0-4 1
 gr-foo-git r169.cc8bfc6-1 1
 gr-ieee802-11-git r356.56d8c5c-1 1
-grim-git 1.4.0.r6.g1573b1020ce2-2 1
 grimshot 1.6.1-1 1
 gr-limesdr-git r85.57fc840-1 1
 grub2-signing-extension 0.1.7-2 1
@@ -444,7 +441,6 @@ kalarmcal-git 5.19.40_r1186.gd40d710-1 1
 kawaii-player 5.0.0-2 2
 kazam 1.4.5-9 1
 kcm-colorful-git 1.0.5.r0.g411e8c9-1 1
-kcm-polkit-kde-git 1:5.9.0.r215.g4aca751-1 1
 kcm-uefi 0.1-1 1
 kcolorpicker-git 0.2.0_r77.g15e1637-1 1
 kde-cdemu-manager 0.8.0-1 1
@@ -503,8 +499,6 @@ lib32-libsrtp 1:2.4.2-1 1
 lib32-libwmf 0.2.12-2 1
 lib32-lilv 0.24.20-1 1
 lib32-lv2 1.18.10-1 1
-lib32-mangoapp 0.6.8-1 1
-lib32-mangohud 0.6.8-1 1
 lib32-mangohud-wayland 0.6.7.1-2 1
 lib32-mangohud-x11 0.6.7.1-2 1
 lib32-mjpegtools 2.2.1-1 1
@@ -574,7 +568,6 @@ m64p 20220819-1 1
 m64py 0.2.5-2 1
 makehuman 1.2.0-6 1
 makehuman-git r2692.d9d4db70-1 1
-mangohud 0.6.8-2 2
 mangohud-wayland 0.6.7.1-2 1
 mangohud-x11 0.6.7.1-2 1
 manuskript-git 0.14.0.r1.gaecdc21-1 1
@@ -908,7 +901,6 @@ python-pyramid 2.0-4 1
 python-pyramid-debugtoolbar 3.0.5-1 1
 python-pyrr 0.10.3-1 1
 python-pyscf 2.0.1-1 1
-python-pysdl2 0.9.14-1 1
 python-pyspark 3.3.0-1 1
 python-pystray 0.19.4-1 1
 python-qiskit 0.39.0-1 1
@@ -957,7 +949,6 @@ qomui 0.8.2-2 1
 qomui-git 0.8.2.r22.23650ab-3 1
 qoob-git 0.2.1.r0.g2e3ed22-1 1
 qpdftools 2.0.4-0 1
-qpdfview 0.4.18-2 1
 qrab 0.4-3 1
 qtfm 6.2.1-1 1
 qtforkawesome 0.1.0-1 1
@@ -1258,3 +1249,5 @@ dracula-xresources-git r12.539ef24-1 1
 qimgv-git v1.0.3.alpha.r78.g8ad0a11-1 1
 gittyup 1.2.2-1 1
 lightlyshaders-git v2.0.0.r4.gd6d6ba9-1 1
+prismlauncher 6.1-2 1
+prismlauncher-qt5 6.1-2 1
