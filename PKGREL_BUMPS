@@ -96,7 +96,6 @@ antlr3 3.5.2-1 1
 anydesk-bin 6.2.1-2 1
 apostrophe 2.6.3-5 1
 appimagelauncher 2.2.0-6 1
-aravis 0.8.22-1 1
 archlinux-java-run 9-1 1
 artha 1.0.5-1 1
 asix-ax88179-dkms 1.20.0-2 1
@@ -168,7 +167,7 @@ chromium-widevine 1:4.10.2557.0-1 1
 ckb-next 0.5.0-2 3
 clamav-unofficial-sigs 7.2.5-1 1
 clapper 0.5.2-1 1
-code-marketplace 1.73.0-1 2
+code-marketplace 1.73.0-1 3
 colorway 1.2.0-2 1
 commit 3.3.0-1 1
 compiz 0.9.14.2-1 1
@@ -250,7 +249,6 @@ ferdi 5.8.1-1 1
 ferdi-git 5.8.2.nightly.10.r2.gbae5e3f8a-1 1
 ffmpeg-compat-57 3.4.11-1 1
 ffmpeg-compat-58 4.4.2-2 1
-ffmpeg-obs 5.1.2-1 1
 ffmpeg-vulkan 2:5.1-1 1
 ffsend-bin 0.2.76-1 1
 fiddler 4.6.20171.26113-1 1
@@ -1249,5 +1247,3 @@ dracula-xresources-git r12.539ef24-1 1
 qimgv-git v1.0.3.alpha.r78.g8ad0a11-1 1
 gittyup 1.2.2-1 1
 lightlyshaders-git v2.0.0.r4.gd6d6ba9-1 1
-prismlauncher 6.1-2 1
-prismlauncher-qt5 6.1-2 1
