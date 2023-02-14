@@ -195,7 +195,6 @@ detwinner 0.4.2-2 1
 dialect 2.1.1-1 1
 digilent.adept.utilities 2.7.1-1 1
 digital 0.29-4 1
-discord-chat-exporter-cli 2.36.2-1 1
 discord-development-electron-bin 0.0.203-1 1
 discover-overlay 0.6.3-1 1
 dislocker 0.7.3-2 1
@@ -268,7 +267,6 @@ fontfinder 1.4.1-1 1
 foobillard++ 3.42beta-7 1
 fop-hyph 2.2-1 1
 foxitreader 2.4.5.0727-1 1
-fprintd-libfprint2 1:1.94.2+14+geeaacec-1 1
 freac 1.1.6-1 1
 freetube 0.18.0-2 1
 friendiqa 0.6.5-1 1
@@ -446,7 +444,6 @@ keyboard-visualizer-git release_4.00.r26.gb50cc50-1 1
 kfiredragonhelper 5.0.6-1 1
 kid3-cli 3.9.1-1 1
 kimap2-git 0.4.0_r826.g366193b-1 1
-klassy-git 4.0.breeze5.25.80.r3.g15bcf1f2-1 1
 kmozillahelper 1:5.0.6-1 1
 koka-bin 2.3.8-1 1
 komorebi 2.2.1-1 1
@@ -1204,3 +1201,5 @@ gittyup 1.2.2-1 1
 lightlyshaders-git v2.0.0.r4.gd6d6ba9-1 1
 pipewire-common-git 0.3.65.r62.g7de00c87-1 1
 linux-firmware-git 20230210.bf4115c-1 1
+prismlauncher 6.3-1 1
+prismlauncher-git 6.0.r286.gc15962c6-1 1
