@@ -62,7 +62,6 @@ mbuffer 20220418-1 2
 metronome-git 4.0.0-1 2
 mysql-clients57 5.7.38-1 2
 paho-mqtt-c 1.3.10-1 2
-pixelserv-tls 2.4-1 2
 pure-ftpd 1.0.51-1 2
 rum 0.7.2-1 2
 speedtest++ 1.14.r71.0f63cfb-1 2
@@ -150,7 +149,6 @@ cassandra 4.0.7-1 1
 catia-git r1062.78b0307-1 1
 ccrtp 2.1.2-4 1
 cecilia 5.4.1-1 1
-cef-minimal 99.2.14-1 1
 cef-minimal-obs-bin 103.0.0_5060_shared_textures_143.2591+g4204d54+chromium_103.0.5060.134_1-3 1
 cfs-zen-tweaks 1.2.0-1 1
 chaotic-keyring 20220803-1 1
@@ -161,7 +159,6 @@ chromium-widevine 1:4.10.2557.0-1 1
 ckb-next 0.5.0-2 3
 clamav-unofficial-sigs 7.2.5-1 1
 clapper 0.5.2-1 1
-code-marketplace 1.73.0-1 3
 colorway 1.2.0-2 1
 commit 3.3.0-1 1
 compiz 0.9.14.2-1 1
@@ -269,7 +266,6 @@ fop-hyph 2.2-1 1
 foxitreader 2.4.5.0727-1 1
 freac 1.1.6-1 1
 freetube 0.18.0-2 1
-friendiqa 0.6.5-1 1
 friture 0.49-1 1
 frog-ocr 1.2.0-1 1
 fsearch 0.2.2-1 1
@@ -298,7 +294,7 @@ gcc-git 13.0.0_r195551.gad2aab5c816-1 1
 gcc-go-git 13.0.0_r195551.gad2aab5c816-1 1
 gcc-objc-git 13.0.0_r195551.gad2aab5c816-1 1
 gcdemu 3.2.6-1 1
-gconf 3.2.6+11+g07808097-10 1
+gconf 3.2.6+11+g07808097-10 2
 gdcm 3.0.14-1 1
 gdm-plymouth 43.0-1 1
 gdm-prime 43.0-1 1
@@ -349,14 +345,11 @@ gtkglarea 2.1.0-6 1
 gtk-gnutella 1.2.2-1 1
 gtk-gnutella-git 1.2.2.r9.g12757e513-1 1
 gtk-update-icon-cache-git 4.9.2.r1.g9c5ba5544e-1 1
-guayadeque-git 0.4.6.r2224.a8b47a68-1 1
-guilded 1.0.9161723-1 1
 gwe 0.15.5-3 1
 haguichi 1.4.5-1 1
 hakuneko-desktop 6.1.7-2 1
 hardcode-tray 4.3-3 1
 hardinfo 0.5.1.816.g877ea2b-2 1
-hardinfo-git 0.6.alpha.1400.ga798cba-1 1
 hblock 3.4.0-1 1
 headset-bin 3.3.3-1 1
 heimdall-grimler-git 2.0.2.r0.02b577e-2 1
@@ -453,8 +446,6 @@ kvantum-theme-matcha-git r11.a3b247b-1 1
 kwallet-secrets 5.96.0-1 1
 kwaterfoxhelper 5.0.7-0 1
 kwayland-server-git 5.24.80.r1481.gdec04c49-1 1
-kwin-effects-sliding-notifications 1.4.0-1 1
-kwin-effects-yet-another-magic-lamp 5.26.0-1 1
 kwin-scripts-forceblur 0.6.1-1 1
 kwin-scripts-krohnkite-git r471.bc6fe23-1 1
 kwin-scripts-window-colors 0.2-3 1
@@ -540,7 +531,6 @@ lxqt-kwin-desktop-git 0.17.0-1 1
 m4b-tool-bin 0.4.2~20210604-1 1
 m64p 20220819-1 1
 m64py 0.2.5-2 1
-makehuman-git r2692.d9d4db70-1 1
 mangohud-wayland 0.6.7.1-2 1
 mangohud-x11 0.6.7.1-2 1
 manuskript-git 0.14.0.r1.gaecdc21-1 1
@@ -766,7 +756,6 @@ python-acestream 0.2.0-1 1
 python-aigpy 2022.7.8.1-1 1
 python-aioopenssl 0.6.0-1 1
 python-aiosasl 0.5.0-1 1
-python-aioxmpp 0.13.2-2 1
 python-anyascii 0.3.1-1 1
 python-asyncio-dgram 1.2.0-1 1
 python-av 10.0.0-1 1
@@ -1106,7 +1095,6 @@ vim-coc-yaml-git 1.9.0.r0.g40880b1-1 1
 vim-coc-zsh-git r3.ef6b0ca-1 1
 vim-colorschemes r215.fd8f122-1 1
 vimiv-qt 0.8.0-2 1
-vim-language-server 2.2.10-1 1
 vimv-git r47.3bb51a4-1 1
 vkcube-git r145.8261e90-1 1
 vmware-keymaps 1.0-3 1
@@ -1199,7 +1187,4 @@ dracula-xresources-git r12.539ef24-1 1
 qimgv-git v1.0.3.alpha.r78.g8ad0a11-1 1
 gittyup 1.2.2-1 1
 lightlyshaders-git v2.0.0.r4.gd6d6ba9-1 1
-pipewire-common-git 0.3.65.r62.g7de00c87-1 1
-linux-firmware-git 20230210.bf4115c-1 1
 prismlauncher 6.3-1 1
-prismlauncher-git 6.0.r286.gc15962c6-1 1
