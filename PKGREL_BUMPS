@@ -730,7 +730,7 @@ protonmail-bridge-bin 2.3.0-1 1
 protonvpn-cli 3.13.0-2 1
 protonvpn-gui 1.12.0-1 1
 psautohint 3:2.4.0-1 2
-pspp 1.6.2-1 2
+pspp 1.6.2-1 1
 pyqt4-common 4.12.3-5 1
 pyside-tools-common 0.2.15-3 1
 python2-constantly 15.1.0-9 1
@@ -1193,3 +1193,4 @@ dosbox-x 2022.12.26-1 1
 php80-pgsql 8.0.27-2 1
 playonlinux 4.4+29+gd0ae9ce6-2 1
 php80 8.0.27-2 1
+steam-boilr-gui 1.7.21-1 1
