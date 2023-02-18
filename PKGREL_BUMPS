@@ -556,7 +556,7 @@ metronome 1.0.0-1 1
 micropad 4.2.0-1 1
 mindustry 1:7.0_139-1 1
 mindustry-server 1:7.0_139-1 1
-minecraft-launcher 1:1.0.1221-1 1
+minecraft-launcher 1:1.0.1221-1 2
 minigalaxy 1.2.2-3 1
 mintlocale 1.5.8-1 1
 mint-x-icons 1.6.4-1 1
@@ -1190,4 +1190,3 @@ prismlauncher 6.3-1 1
 celestia 1.6.2.2-2 1
 codelite 17.0.0-0 1
 dosbox-x 2022.12.26-1 1
-lib32-gtk3-classic 3.24.35-1 1
