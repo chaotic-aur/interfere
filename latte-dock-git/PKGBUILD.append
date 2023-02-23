@@ -1,5 +1,10 @@
 pkgver() {
   cd "latte-dock"
-  # cutting off 'foo-' prefix that presents in the git tag
-  git describe --long | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
+
+  local _release_version="0.10.9"
+  local _release_commit="1d468a94e931d684f1ec180584eaa1d25765f100"
+
+  printf "$_release_version.r%s.g%s" \
+    "$(git rev-list --count $_release_commit..HEAD)" \
+    "$(git rev-parse --short HEAD)"
 }
