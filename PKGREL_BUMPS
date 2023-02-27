@@ -55,7 +55,7 @@ dwarfs 0.6.2-1 2
 guestfs-tools 1.48.2-1 2
 hfsprogs 540.1.linux3-4 3
 hlsdl 0.27-2 2
-kotatogram-desktop-beta-dynamic-bin 1.4.9-4 2
+kotatogram-desktop-beta-dynamic-bin 1.4.9-4 3
 leagueoflegends-ge-git 0.12.6.r5.ga503e81-1 2
 libshout-idjc 2.4.4-1 2
 mbuffer 20220418-1 2
@@ -139,7 +139,6 @@ bytecode-viewer 2.11.2-1 1
 cabbage-bin 2.8.0-1 1
 caffeine 2.9.12-1 1
 caja-pdf-tools-git 1.2.9.0extras20.04.03.r104.18ad131-1 1
-callaudiod 0.1.4-1 1
 canta-gtk-theme 2021.09.08-1 1
 canta-gtk-theme-git 2021.09.08.r6.332fdec-1 1
 canta-icon-theme-git 2021.09.08.r6.332fdec-1 1
@@ -216,11 +215,9 @@ electron16-bin 16.2.8-1 1
 elementary-planner 3.0.7-1 1
 emerald-gtk3 0.8.18-2 1
 emote 3.0.3-4 1
-emulationstation 2.11.0-1 1
 endeavour 42.0-4 1
 epiphany-git 43.0+8+g349277e2a-1 1
 epsxe 2.0.5-28 1
-evdi-git 1.12.0.r6.gbdc258b-1 1
 evopop-gtk-theme-git 2.9.99.r12.g6dce1c5-1 1
 exaile 4.1.2-1 1
 exe-thumbnailer 0.10.1-1 1
@@ -317,7 +314,6 @@ gnome-control-center-x11-scaling 42.2-1 1
 gnome-icon-theme 3.12.0-7 1
 gnome-icon-theme-symbolic 3.12.0-6 1
 gnome-obfuscate 0.0.7-1 1
-gnome-shell-extension-dash-to-dock 1:75-1 1
 gnome-shell-extension-gnome-ui-tune-git 1.7.1.r0.gbd81dc8-1 1
 gnome-shell-git 1:43.alpha+40+g1d96cbdf6-1 1
 gnome-text-editor-git 42.1.r83.gc9c9d50-1 1
@@ -326,7 +322,6 @@ google-cloud-sdk 404.0.0-1 1
 gpredict 2.2.1-2 1
 granite-git 6.2.0.r15.3fc535f5-1 1
 green-recorder 3.2.10-1 1
-green-recorder-git 3.2.10.r7.gde31bbc-1 1
 greetd-qtgreet 1.0.0-4 1
 gr-foo-git r169.cc8bfc6-1 1
 gr-ieee802-11-git r356.56d8c5c-1 1
@@ -676,7 +671,6 @@ pdfbox 2.0.27-1 1
 pdfquirk 0.95-1 1
 pebbles-git r442.d9f37f1-1 1
 persepolis-git 3.2.0.r101.g7ce2d57-1 1
-phoc-embedded-wlroots 0.21.0-1 1
 phoenicis-playonlinux 5.0_snapshot-3 1
 phoronix-test-suite 10.8.4-1 1
 phosh 0.21.0-1 1
@@ -706,7 +700,6 @@ plymouth 22.02.122-4 1
 plymouth-theme-aregression 1.1-1 1
 pm2ml 2021.11.20.1-4 1
 pm-utils 1.4.1-8 1
-pocketsphinx 5prealpha-13 2
 podman-compose-git 1:.r153.08ffcf6-1 1
 pokemon-colorscripts-git r112.0483c85-1 1
 polkit-qt5-git v0.114.0.r13.g590e710-1 1
@@ -720,7 +713,6 @@ prelockd 0.9-2 1
 prestopalette 0.1.31-1 1
 primus-vk-git r150.2486f2a-1 1
 protondb-tags 1.2.2-1 1
-protonmail-bridge-bin 2.3.0-1 1
 protonvpn-cli 3.13.0-2 1
 protonvpn-gui 1.12.0-1 1
 psautohint 3:2.4.0-1 2
@@ -787,7 +779,6 @@ python-exifread 3.0.0-2 1
 python-face_recognition 1.3.0-1 1
 python-fasm-git 0.0.2.r100.gffafe82-1 1
 python-fastdtw 0.3.4-1 1
-python-fontpens 0.2.4-3 2
 python-freetype-py 2.3.0-1 1
 python-gevent-eventemitter 2.1-3 1
 python-googletrans-git r116.d15c94f-1 1
@@ -806,7 +797,6 @@ python-material-color-utilities 0.1.5-1 1
 python-moderngl-git 5.6.4.r190.gff12a936-1 1
 python-moderngl-window 2.4.1-1 1
 python-moviepy 1.0.3-4 1
-python-mpv 1.0.1-1 1
 python-multipledispatch 0.6.0-3 1
 python-multitasking 0.0.11-2 1
 python-mutatormath 3.0.1-2 1
@@ -833,7 +823,6 @@ python-proton-client 0.7.1-2 1
 python-protonvpn-nm-lib 3.14.0-1 1
 python-py3nvml 0.2.7-1 1
 python-pyasn 1.6.1-2 1
-python-pyclip 0.6.0-2 1
 python-pydub 0.25.1-3 1
 python-pynput 1.7.6-2 1
 python-pyo 1.0.4-1 1
@@ -861,7 +850,6 @@ python-rtslib-fb 2.1.75-1 1
 python-sanic 22.6.2-1 1
 python-scrap_engine-git 1.4.0-1 1
 python-shiboken 1.2.4-8 1
-python-simber 0.2.4-0 1
 python-simpleaudio 1.0.4-5 1
 python-simplediff 1.1-1 1
 python-simplematch 1.3-1 1
@@ -1115,7 +1103,6 @@ wine-installer 5.0.3-2 1
 wine-lol 1:7.0_5-1 1
 wingpanel-indicator-session-git 2.3.0.r68.g0ea9a3b-1 1
 wired 0.10.2-1 1
-wl-mirror 0.12.2-5 1
 wlogout 1.1.1-3 1
 wlroots-eglstreams-git 0.16.0.r5636.6ea54173-1 1
 wluma 4.1.2-1 1
@@ -1183,4 +1170,3 @@ playonlinux 4.4+29+gd0ae9ce6-2 1
 steam-boilr-gui 1.7.21-1 1
 proftpd 2:1.3.8-1 1
 lib32-libglvnd-git 1.6.0.r2.gdba80d0-1 1
-vita3k-git r3010.55ec0c2b-1 1
