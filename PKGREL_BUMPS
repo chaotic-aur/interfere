@@ -355,7 +355,6 @@ hyperspace-bin 1:1.1.4-1 1
 i3lock-color 2.13.c.4-1 2
 i3lock-fancy-git r191.4cfcd47-1 1
 ialauncher-git r127.b93f75d-1 1
-ibus-bamboo-git 0.8.2+RC3+0+gd14fd96-1 1
 ice-ssb 6.0.8-1 1
 icoextract 0.1.4-1 1
 identity 0.4.0-1 1
@@ -521,7 +520,6 @@ m64p 20220819-1 1
 m64py 0.2.5-2 1
 mangohud-wayland 0.6.7.1-2 1
 mangohud-x11 0.6.7.1-2 1
-manuskript-git 0.14.0.r1.gaecdc21-1 1
 marktext-bin 0.17.1-1 1
 masterpdfeditor-free 4.3.89-1 1
 mate-hud 22.10.3-1 1
@@ -1091,7 +1089,6 @@ webkitgtk 3:2.4.11-26 1
 wf-osk-git r13.d2e2e32-1 1
 wget2 2.0.1-1 1
 whoogle 0.7.4-1 1
-wike 1.8.2-1 1
 windscribe-bin 2.4.11-1 1
 windscribe-cli 1.4_51-1 1
 wineasio-git 1.1.0.r0.g56c3e9d-1 1
@@ -1141,7 +1138,6 @@ yagf 0.9.5-3 1
 yandex-disk 0.1.6.1080-1 1
 yin-yang-git 1.0.beta.r214.ge15663f-1 1
 youtubedl-gui 3.0-1 1
-youtube-search-python 1.6.0-0 1
 yozo-office 8.0.1331.101ZH.S1-6 1
 yp-tools 4.2.3-6 1
 ytfzf 2.5.0-1 1
@@ -1149,7 +1145,6 @@ zeal 0.6.1-3 1
 zecwallet-lite 1.7.13-2 1
 zenmonitor3-git 89.2e68a31-1 1
 zenpower3-dkms 0.2.0-3 1
-zsync2-git 2.0.0r210.1bb5c9b-1 1
 zulucrypt 6.2.0-1 1
 stremio 4.4.159-1 1
 libklvanc-git r551.b5743b6-1 1
@@ -1167,3 +1162,4 @@ proftpd 2:1.3.8-1 1
 lib32-libglvnd-git 1.6.0.r2.gdba80d0-1 1
 telegram-desktop-userfonts 4.6.3-1 1
 blender-git 3.5.r121402.g3002670332a-1 1
+anki 2.1.60-1 1
