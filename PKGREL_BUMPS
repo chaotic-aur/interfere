@@ -197,7 +197,7 @@ dracula-grub-theme-git r11.0e721d9-1 1
 dracula-qtcreator-theme-git r27.898dbb5-1 1
 dracut-hook 0.5.3-1 1
 driconf 0.9.1-14 1
-droidcam 1:1.8.2-1 1
+droidcam 1:1.8.2-1 2
 duc-git 1.4.5.r1.gc24ce26-1 1
 dupeguru 4.3.1-1 1
 dynamic-wallpaper-editor 2.7-2 1
@@ -285,7 +285,6 @@ gdcm 3.0.14-1 1
 gdm-plymouth 43.0-1 1
 gdm-prime 43.0-1 1
 gedit-plugin-markdown_preview 2.0-1 1
-gerrit 3.4.1-1 1
 gestures 0.3.1-1 1
 getmail6 6.18.10-1 1
 giara 1.0-2 1
@@ -546,7 +545,6 @@ mousai 0.6.6-4 1
 movie-monad 0.0.7.0_0-1 1
 mozc-ut-common 2.26.4656.102.20220216-1 1
 ms-office-online 2:2.1.1-1 1
-mu-editor 1:1.0.3-3 1
 mugshot 0.4.3-3 1
 multibootusb 9.2.0-5 1
 munt-qt 2.7.0-4 1
@@ -1142,7 +1140,6 @@ blender-git 3.5.r121402.g3002670332a-1 1
 anki 2.1.60-1 1
 zsync2-git 2.0.0r225.1608115-1 1
 forkgram 4.6.7-1 1
-librewolf 110.0-2 1
 firedragon 110.0.1-1 2
 gzdoom 4.10.0-1 1
 mpv-full 0.35.1-2 1
