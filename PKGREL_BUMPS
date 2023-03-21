@@ -44,7 +44,7 @@ x2goserver 4.1.0.3-10 2
 mongodb-compass 1.32.6-1 2
 glibc-eac 2.36-2 1
 matrix-mirage 0.7.2-2 2
-libva-intel-driver-hybrid 2.4.1-2 2
+libva-intel-driver-hybrid 2.4.1-2 3
 calamares 3.2.61-1 3
 nixfmt 0.5.0-4 2
 pulseeffects-legacy 4.8.7-1 2
