@@ -354,7 +354,6 @@ ignition-msgs-5 5.9.1-2 1
 ignition-transport-8 8.2.0-2 1
 imagemagick-git-doc 7.1.0.27.r19763.g14a8a3584-1 1
 image-roll-bin 2.1.0-1 1
-imagewriter 1.10.1432200249.1d253d9.2.14-1 1
 imaginary-teleprompter-bin 2.4.0-7 1
 imagine-git 0.7.1.r0.g278e380-1 1
 imeditor 0.9.7-1 1
@@ -428,7 +427,6 @@ kwin-scripts-window-colors 0.2-3 1
 lanshare 1.2.1-8 1
 lariza 21.06-1 1
 lbry-desktop-git 0.53.4.r10906.ge11fb5d22-1 1
-lib32-chromaprint 1.5.1-1 1
 lib32-fftw 3.3.10-3 1
 lib32-fltk 1.3.8-1 1
 lib32-gupnp 1.4.3-1 1
@@ -1135,3 +1133,4 @@ mpv-full 0.35.1-2 1
 wlrobs-hg r63.a48763b63f96-1 1
 xfce4-docklike-plugin 0.4.1-1 1
 emacs-git 30.0.50.165537-1 1
+bottles 2:51.5-1 1
