@@ -55,7 +55,6 @@ dwarfs 0.6.2-1 2
 guestfs-tools 1.48.2-1 2
 hfsprogs 540.1.linux3-4 3
 hlsdl 0.27-2 2
-kotatogram-desktop-beta-dynamic-bin 1.4.9-4 3
 leagueoflegends-ge-git 0.12.6.r5.ga503e81-1 2
 libshout-idjc 2.4.4-1 2
 mbuffer 20220418-1 2
@@ -155,7 +154,6 @@ ckb-next 0.5.0-2 3
 clamav-unofficial-sigs 7.2.5-1 1
 clapper 0.5.2-1 1
 colorway 1.2.0-2 1
-commit 3.3.0-1 1
 compiz 0.9.14.2-1 1
 compiz-core 0.8.18-3 1
 compiz-git 0.9.14.2.r0.g12aca6852-1 1
@@ -796,7 +794,6 @@ python-py3nvml 0.2.7-1 1
 python-pyasn 1.6.1-2 1
 python-pydub 0.25.1-3 1
 python-pynput 1.7.6-2 1
-python-pyo 1.0.4-1 1
 python-pyparted 3.11.7-1 1
 python-pypresence 4.2.1-2 1
 python-pyqt4 4.12.3-5 1
@@ -1024,7 +1021,6 @@ vdhcoapp 1.6.3-1 1
 velox-git 0.0.2.r287.gfcc0412-1 1
 vibrantlinux 2.1.10-1 1
 vim-coc-css-git 2.0.0.r0.gfca6b25-1 1
-vim-coc-flutter-git 1.9.3.r16.g48ac6f7-1 1
 vim-coc-highlight-git 2.0.4.r0.gc405d34-1 1
 vim-coc-html-git 1.8.0.r0.g70299db-1 1
 vim-coc-htmlhint-git 0.6.1.r0.g99b4977-1 1
@@ -1118,7 +1114,6 @@ stremio 4.4.159-1 1
 dracula-xresources-git r12.539ef24-1 1
 qimgv-git v1.0.3.alpha.r78.g8ad0a11-1 1
 gittyup 1.2.2-1 1
-lightlyshaders-git v2.0.0.r4.gd6d6ba9-1 1
 prismlauncher 6.3-1 1
 celestia 1.6.2.2-2 1
 codelite 17.0.0-0 1
@@ -1128,9 +1123,7 @@ steam-boilr-gui 1.7.21-1 1
 proftpd 2:1.3.8-1 1
 anki 2.1.60-1 1
 zsync2-git 2.0.0r225.1608115-1 1
-gzdoom 4.10.0-1 1
 mpv-full 0.35.1-2 1
 wlrobs-hg r63.a48763b63f96-1 1
 xfce4-docklike-plugin 0.4.1-1 1
-emacs-git 30.0.50.165537-1 1
-bottles 2:51.5-1 1
+forkgram 4.7-1 1
