@@ -432,7 +432,7 @@ lib32-libnice 0.1.19-1 1
 lib32-libofa 0.9.3-8 1
 lib32-libsrtp 1:2.4.2-1 1
 lib32-libwmf 0.2.12-2 1
-lib32-lilv 0.24.20-1 1
+lib32-lilv 0.24.20-1 2
 lib32-lv2 1.18.10-1 1
 lib32-mangohud-wayland 0.6.7.1-2 1
 lib32-mangohud-x11 0.6.7.1-2 1
@@ -912,7 +912,6 @@ searx 1.1.0-1 1
 shadowsocks-gtk-rs 0.4.1-1 1
 silo-netflix 0.6-1 1
 silo-primevideo 0.5-1 1
-silos 0.1.59-1 1
 silo-trello 0.3-1 1
 simple-mtpfs 0.4.0-1 1
 simplenote-electron-bin 2.21.0-1 1
