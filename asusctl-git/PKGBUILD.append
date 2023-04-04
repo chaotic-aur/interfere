@@ -1,1 +1,1 @@
-makedepends+=(clang cmake pango)
+makedepends+=(clang cmake gdk-pixbuf2 pango)
