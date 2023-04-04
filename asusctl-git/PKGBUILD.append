@@ -1,1 +1,1 @@
-makedepends+=(clang)
+makedepends+=(clang cmake)
