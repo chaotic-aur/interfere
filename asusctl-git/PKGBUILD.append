@@ -1,1 +1,1 @@
-makedepends+=(clang cmake)
+makedepends+=(clang cmake pango)
