@@ -96,7 +96,6 @@ archlinux-java-run 9-1 1
 artha 1.0.5-1 1
 asix-ax88179-dkms 1.20.0-2 1
 astrofox 1.4.0-3 1
-asusctl-git 4.3.4.r44.g1f85e30-1 1
 athenaeum-git v2.3.2.r0.b0cd237-1 1
 atom-editor-beta-bin 1.61.0beta0-1 2
 audio-recorder 3.3.4-1 1
@@ -149,7 +148,6 @@ chemtool 1.6.14-4 1
 chocolate-doom 3.0.1-1 1
 chrome-gnome-shell 10.1-6 1
 chromium-widevine 1:4.10.2557.0-1 1
-ckb-next 0.5.0-2 3
 clamav-unofficial-sigs 7.2.5-1 1
 clapper 0.5.2-1 1
 colorway 1.2.0-2 1
@@ -527,7 +525,6 @@ mobydroid 0.4-1 1
 modprobed-db 2.46-1 2
 moodle-dl-git v2.2.2.3.r7.g81172b5-1 1
 motrix-bin 1.6.11-1 1
-mousai 0.6.6-4 1
 movie-monad 0.0.7.0_0-1 1
 mozc-ut-common 2.26.4656.102.20220216-1 1
 ms-office-online 2:2.1.1-1 1
@@ -545,7 +542,6 @@ nautilus-folder-icons 3.0.1-3 1
 neard 0.18-1 1
 neovim-drop-in 1-1 1
 neovim-plug 0.11.0-3 1
-neovim-remote 2.5.0-1 1
 nestopia 1.51.0-1 1
 networkmanager-dmenu-git r165.60c12b5-1 1
 nginx-mainline-mod-brotli 1:1.0.0rc-5 1
@@ -632,7 +628,6 @@ pcsxr 1.9.95-2 1
 pdf2png 0.5.3-1 1
 pdfbox 2.0.27-1 1
 pdfquirk 0.95-1 1
-pebbles-git r442.d9f37f1-1 1
 persepolis-git 3.2.0.r101.g7ce2d57-1 1
 phoenicis-playonlinux 5.0_snapshot-3 1
 phoronix-test-suite 10.8.4-1 1
@@ -955,7 +950,6 @@ switchboard-plug-user-accounts-git 2.4.2.r16.g8ebc1ee-1 1
 synkron 1.6.2-4 1
 sysbox-ce 0.5.2-1 1
 systemd-boot-pacman-hook 3-1 1
-systemd-cron-next-git v1.0.2.r16.ga4c2de7-1 1
 systemd-guest-user 33.2-1 1
 systemd-kcm 1.2.1-5 1
 systemd-oomd-defaults 251.5-1 1
@@ -1095,7 +1089,6 @@ gittyup 1.2.2-1 1
 prismlauncher 6.3-1 1
 celestia 1.6.2.2-2 1
 codelite 17.0.0-0 1
-dosbox-x 2022.12.26-1 1
 playonlinux 4.4+29+gd0ae9ce6-2 1
 steam-boilr-gui 1.7.21-1 1
 proftpd 2:1.3.8-1 1
@@ -1105,3 +1098,4 @@ wlrobs-hg r63.a48763b63f96-1 1
 xfce4-docklike-plugin 0.4.1-1 1
 forkgram 4.7-1 1
 qt6gtk2 0.2-4 1
+kitty-git 1:r12011.gd9d2e3131-1 1
