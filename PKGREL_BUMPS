@@ -236,7 +236,6 @@ fityk 1.3.2-1 1
 flashfocus-git v2.3.1.r0.gaa710b9-1 1
 flashplugin 32.0.0.465-1 1
 flatseal 1.8.1-1 1
-fluffychat 1.4.0-1 1
 fmit 1.2.14-1 1
 fondo 1.6.1-2 1
 fontdownloader 10.0.0-1 1
@@ -295,7 +294,6 @@ gnome-console 43.0-1 1
 gnome-control-center-x11-scaling 42.2-1 1
 gnome-icon-theme 3.12.0-7 1
 gnome-icon-theme-symbolic 3.12.0-6 1
-gnome-shell-extension-gnome-ui-tune-git 1.7.1.r0.gbd81dc8-1 1
 gnome-shell-git 1:43.alpha+40+g1d96cbdf6-1 1
 gnome-text-editor-git 42.1.r83.gc9c9d50-1 1
 goocanvas2 2.0.4-9 1
@@ -414,7 +412,6 @@ kwin-scripts-forceblur 0.6.1-1 1
 kwin-scripts-krohnkite-git r471.bc6fe23-1 1
 kwin-scripts-window-colors 0.2-3 1
 lanshare 1.2.1-8 1
-lariza 21.06-1 1
 lbry-desktop-git 0.53.4.r10906.ge11fb5d22-1 1
 lib32-fftw 3.3.10-3 1
 lib32-fltk 1.3.8-1 1
@@ -446,7 +443,6 @@ libgaminggear 0.15.1-8 1
 libgccjit-git 13.0.0_r195551.gad2aab5c816-1 1
 libgdm-plymouth 43.0-1 1
 libgdm-prime 43.0-1 1
-libgweather-git 4.0.0.r31.g00e2a68d-1 1
 libinput_gestures_qt 0.3.2+7+g0868859-1 1
 libmarble-git 1.3.0.r4.g6dcc6fe-3 1
 libmysqlclient57 5.7.38-1 1
@@ -651,7 +647,6 @@ plasma5-applets-window-buttons-git 0.11.1.r0.g90e3750-1 1
 plasma5-applets-window-title 0.7.1-2 1
 plasma5-applets-window-title-git 0.7.1.r0.gb785c0a-1 1
 plasma-systemmonitor-git _r.g-1 1
-play-emu-git 0.51.r8.g600e9991-1 1
 plex-media-player 2.58.1-3 2
 plymouth 22.02.122-4 1
 plymouth-theme-aregression 1.1-1 1
@@ -670,7 +665,7 @@ prestopalette 0.1.31-1 1
 primus-vk-git r150.2486f2a-1 1
 protondb-tags 1.2.2-1 1
 protonvpn-cli 3.13.0-2 1
-protonvpn-gui 1.12.0-1 1
+protonvpn-gui 1.12.0-1 2
 psautohint 3:2.4.0-1 2
 pspp 1.6.2-1 2
 pyqt4-common 4.12.3-5 1
@@ -845,7 +840,6 @@ raider-file-shredder 1.3.1-1 1
 rclone-browser 1.8.0-3 1
 re3-git r3167.3233ffe1-1 1
 reactgame 1.3.1-1 1
-realmd 0.17.0-1 1
 reaver-wps-fork-t6x-git 1.6.6.r20.4091bf2-1 1
 reflector-simple 2.0-1 1
 reicast 20.04-2 1
@@ -908,7 +902,6 @@ simple-mtpfs 0.4.0-1 1
 simplenote-electron-bin 2.21.0-1 1
 siril 1.0.6-1 1
 sirula-git r67.70b5ce1-1 1
-slade 3.2.1-2 1
 snap-pac-grub 2.0.2-1 1
 snapper-gui-git 0.1.r8.g1915750-1 1
 snkrx-drmfree-git r118.6b93a64-1 1
@@ -1097,4 +1090,3 @@ wlrobs-hg r63.a48763b63f96-1 1
 xfce4-docklike-plugin 0.4.1-1 1
 forkgram 4.7-1 1
 qt6gtk2 0.2-4 1
-kitty-git 1:r12011.gd9d2e3131-1 1
