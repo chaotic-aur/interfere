@@ -1,2 +1,2 @@
-depends=(webkit2gtk-unstable gcr icu libdazzle libhandy-git libportal libportal-gtk3 libarchive)
+depends=(webkit2gtk-unstable gcr-4 icu libdazzle libhandy-git libportal libportal-gtk3 libarchive)
 makedepends+=(cmake)
