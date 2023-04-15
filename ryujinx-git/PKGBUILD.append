@@ -1,2 +1,0 @@
-depends=(dotnet-runtime)
-makedepends=(git 'dotnet-runtime>=5' 'dotnet-sdk>=5')
