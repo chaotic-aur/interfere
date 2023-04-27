@@ -1,1 +1,1 @@
-depends+=(qtkeychain-qt5-git kmailtransport-git)
+depends+=(qtkeychain-qt5-git)
