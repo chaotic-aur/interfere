@@ -1,1 +1,0 @@
-makedepends+=(at-spi2-core clang cmake gdk-pixbuf2 gtk3 pango)
