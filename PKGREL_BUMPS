@@ -2,7 +2,7 @@ linux-mainline-anbox 5.17-1 2
 linux-cacule 5.17.4-2 1
 alacritty-ligatures-git 0.8.0.1772.g3ed0430-1 1
 alpm_octopi_utils 1.0.2-3 2
-archinstall-git 2.4.0.dev0-1 2
+archinstall-git 2.4.0.dev0-1 3
 bass-fish 1.0-1 1
 bcache-tools 1.1-1 2
 birdtray 1.9.0-1 2
