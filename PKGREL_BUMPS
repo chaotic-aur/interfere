@@ -626,7 +626,7 @@ popcorntime 0.4.9-1 3
 popcorntime-git 0.4.4.r1879.g64553fa7-1 3
 pop-gtk-theme-git 5.5.1.r2.ge09de355-1 3
 pop-shell-shortcuts-git 1:r30.52cc83f-2 3
-powerpill 2021.11-4 3
+powerpill 2021.11-4 4
 prelockd 0.9-2 3
 prestopalette 0.1.31-1 3
 primus-vk-git r150.2486f2a-1 3
@@ -674,7 +674,6 @@ python-colorzero 2.0-2 3
 python-configshell-fb 1.1.29-1 3
 python-constraint 1.4.0-6 1
 python-cssutils 2.6.0-1 3
-python-deezer-py 1.3.7-1 3
 python-defcon 0.10.2-1 1
 python-dephell-archive 0.1.7-2 3
 python-dephell-argparse 0.1.3-5 3
@@ -1093,7 +1092,6 @@ authselect 1.4.2-1 3
 authy 2.3.0-1 3
 auto-cpufreq 1.9.7-2 3
 autojump 22.5.3-9 3
-autotiling 1.8-2 3
 avaloniailspy v7.2-1 3
 avvie 2.2-1 3
 aws2-wrap 1.3.1-1 3
@@ -2066,8 +2064,6 @@ python-pyclip 0.7.0-2 2
 python-pydes 2.0.1-6 2
 python-pygccxml 2.2.1-1 2
 python-pyglm 2.7.0-1 2
-python-pygraphviz 1.9-2 2
-python-pykakasi 2.2.1-2 2
 python-pympress 1.8.2-1 2
 python-pympv 0.7.1-1 2
 python-pyo 1.0.5-1 2
@@ -2435,7 +2431,6 @@ vita3k-git r3126.9a529b2c-1 2
 vital-synth 1.5.5-1 2
 vivaldi-snapshot 6.1.3001.3-1 2
 vkbasalt-cli 3.1.1-1 2
-vkd3d-proton-mingw-git 2.8.r307.g453d2744-1 2
 vlc-git 4.0.0.r23113.gf7bb59d9f5-1 2
 vlc-luajit 3.0.18-7 2
 vmware-workstation 17.0.2-1 2
@@ -2543,7 +2538,6 @@ tenacity-git 1:r14512.geb7d28f7c-1 1
 vim-coc-clangd-git r564.6abad1b-1 1
 vim-coc-pyright-git r1191.f6afcf4-1 1
 warp 0.5.4-1 1
-waybar-experimental-git 0.9.17.r169.g56fa6b6a-1 1
 waybar-hyprland-git 0.9.17.r169.g56fa6b6a-1 1
 yuzu-early-access 3549-1 1
 akonadi-notes-git 5.23.40_r1166.g4c985c0-1 1
@@ -2573,30 +2567,22 @@ freecad-git 0.21.0.33073.g2de08f77b7-1 1
 freerdp-git 2.0.0.r3054.g4640da987-1 1
 g4music-git 1.9.2.r28.g1601a5f-1 1
 gajim-plugin-omemo 2.9.0-3 1
-goldendict-git 1:1.5.0rc2.r618.g1bcf391b-1 1
-goldendict-webengine-pr-git 22.12.02.r46.g86a95d8b-1 1
 google-earth-pro 7.3.6.9345-1 1
-hyprland-git r2875.bf04c83e-1 1
 hyprland-nvidia 0.25.0-1 1
 imagemagick-full-git 7.1.1.8.r18.gf8feb2ee1-1 1
 jellyfin-git 10.8.0.alpha5.r1768.gaaddc5a33e-1 1
 jellyfin-server-git 10.8.0.alpha5.r1768.gaaddc5a33e-1 1
-kdenlive-stabledeps-git 23.07.70.r17974-1 1
 kvantum-git 1.0.10.r1.gb50ad352-1 1
 kvantum-theme-nordic-git 2.2.0.r50.ga07fe37-1 1
 kwin-effects-burn-my-windows-git r1230.679f990-1 1
 media-downloader-git 3.1.0.r33.g62a2414-1 1
 menulibre 1:2.2.3-2 1
-mkosi-git 14.r504.g05dedce-1 1
 mullvad-vpn-beta 2023.4.beta1-1 1
-mypy-git v0.520.r4910.gfea5c9329-1 1
 nextcloud-client-git 3.6.0.r968.g19d796e75-1 1
 nvidia-390xx-dkms 390.157-4 1
 nvidia-390xx-utils 390.157-4 1
 openrazer-daemon 3.6.0-2 1
 openrazer-meta 3.6.0-2 1
-openttd-git 27249.0b72297d57-1 1
-pcsx2-git 1.7.4462.r0.g341f377e6-1 1
 pikaur-git 1.15.1.r0.gf1ac3a0-1 1
 python-openrazer 3.6.0-2 1
 qemu-arch-extra-git 19:8.0.0.r402.gf6b761bdbd-1 1
@@ -2607,4 +2593,3 @@ qemu-headless-git 19:8.0.0.r402.gf6b761bdbd-1 1
 scummvm-git r141768.3094584beb3-1 1
 sddm-nordic-theme-git 2.2.0.r50.ga07fe37-1 1
 sigil-git 1.9.30.r26.g7e5087081-1 1
-siril-git 1.2.0.5872.a60b6f7fa-1 1
