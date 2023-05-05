@@ -59,7 +59,6 @@ libshout-idjc 2.4.4-1 2
 mbuffer 20220418-1 2
 metronome-git 4.0.0-1 2
 mysql-clients57 5.7.38-1 2
-paho-mqtt-c 1.3.10-1 2
 pure-ftpd 1.0.51-1 2
 rum 0.7.2-1 2
 speedtest++ 1.14.r71.0f63cfb-1 2
@@ -1109,7 +1108,6 @@ backintime-git 1.3.3.r11.g66d248fe-1 2
 baloo-git 5.104.0_r3144.ge69542db-1 2
 basilisk-bin 1:52.9.2023.04.05-1 2
 basket 2.49b-8 2
-basket-git 2.49.90.r1607.8881ce3-1 2
 bauh 0.10.5-1 2
 bcachefs-tools-git 1053-1 2
 betterlockscreen 4.0.4-2 2
@@ -1271,7 +1269,6 @@ f3-qt-git v2.1.0.r16.g10ab886-1 1
 f3d-git nightly.r0.g3993e05c-1 1
 fancontrol-kcm-git v0.8.r23.g5bfa8fa-1 1
 fancytasks 1.1.1.r17.g449d8a2-1 1
-fastgame-git 0.2.0.r15.g3ea07c4-1 1
 faudio-tkg-git 23.05.r0.gcac0aca-1 1
 ferdium-bin 6.2.6-1 1
 ferdium-nightly-bin 6.2.7.nightly.9-1 1
@@ -1470,8 +1467,6 @@ gnome-terminal-transparency 3.46.8-1 1
 gnome-text-editor-git 44.0.r14.g1c652bf-1 1
 godot-git 4.0.r52237.gc7aadab155a-1 1
 godot-mono 3.5.1-1 1
-goldendict-git 1:1.5.0rc2.r617.g8834e4a2-1 1
-goldendict-webengine-pr-git 22.12.02.r45.g53471069-1 1
 goodvibes 0.7.6-1 1
 goodvibes-git 0.7.6.r68.g36a9299-1 1
 google-chrome 113.0.5672.63-1 1
@@ -1514,7 +1509,6 @@ heimer 4.1.0-1 1
 helvum-git 0.4.0.r1.g84570f4-1 1
 hotspot 1.4.1-1 1
 hypnotix 3.2-1 1
-hyprland-git r2873.da093a8a-1 1
 i3lock-fancy-git r193.55f5c30-1 1
 ibus-bamboo-git 0.8.2+RC3+2+gf8fab45-1 1
 ibus-mozc 2.28.5080.102-1 1
@@ -1544,10 +1538,8 @@ jade-application-kit 3.5.7-2 1
 jameica 2.10.4-1 1
 jamesdsp-git 2.4.r124.gd46304d-1 1
 jdanimatedimageeditor 1.3-1 1
-jellyfin-git 10.8.0.alpha5.r1761.g5e2a1fb447-1 1
 jellyfin-media-player 1.9.1-1 1
 jellyfin-media-player-git r1699.69d1b87-1 1
-jellyfin-server-git 10.8.0.alpha5.r1761.g5e2a1fb447-1 1
 jitsi-meet-desktop 2023.2.0-2 1
 joystickwake 0.4-1 1
 jupyter-metakernel 0.29.4-1 1
@@ -1693,10 +1685,8 @@ ktnef-git 5.23.40_r797.g45c926f-1 1
 ktorrent-git 23.07.70.r2967-1 1
 kunitconversion-git 5.104.0_r481.g1dbe91a-1 1
 kuserfeedback-git 1.2.1_r813.g8d0062d-1 1
-kvantum-git 1.0.10.r0.ga868cd0b-1 1
 kvantum-theme-chromeos-git r65.fa7c1ac-1 1
 kvantum-theme-layan-git r70.108e852-1 1
-kvantum-theme-nordic-git 2.2.0.r49.ge33367f-1 1
 kvantum-theme-orchis-git r47.1fb7c7d-1 1
 kvantum-theme-qogir-git r89.f430168-1 1
 kvantum-theme-vimix-git 2021.09.05.r15.g29c4316-1 1
@@ -1853,7 +1843,6 @@ mpc-qt 23.02-1 1
 mpv-full-git 0.35.1.r339.gd1d0b1a8ee-1 1
 mullvad-browser-bin 12.0.4-4 1
 mullvad-vpn 2023.3-2 1
-mullvad-vpn-beta 2023.3.stable-1 1
 multimc5 0.6.16-3 1
 musikcube 3.0.0-1 1
 mutter-dynamic-buffering 43.4-1 1
@@ -1927,7 +1916,7 @@ openfx-arena 2.5.0-1 1
 openfx-gmic 2.5.0-1 1
 openfx-io 2.5.0-1 1
 openfx-misc 2.5.0-1 1
-openrazer-daemon 3.6.0-1 1
+openrazer-daemon 3.6.0-1 2
 openrazer-meta 3.6.0-1 1
 openrgb 0.8-1 1
 openrgb-git r3088.b1360605-1 1
@@ -1999,7 +1988,7 @@ pokerth 1.1.2-24 1
 pokete-git 0.9.1-1 1
 polkit-kde-agent-git 5.27.80_r567.gd55c17c-1 1
 polly-git 17.0.0_r453920.0ffea218934b-1 1
-polychromatic 0.8.1-1 1
+polychromatic 0.8.1-1 2
 pop-bin 8.0.20-1 1
 pop-shell-plugin-system76-power-git 1.2.1.r47.gce2ba21-2 1
 poppler-qt5-git 23.03.0.r27.gfc802d21-1 1
@@ -2068,7 +2057,7 @@ python-murmurhash 1.0.9-1 1
 python-nbxmpp-git 4.2.2.r3.g7cd4a1e-1 1
 python-node-semver 0.8.1-2 1
 python-omemo-dr-git r36.015f561-1 1
-python-openrazer 3.6.0-1 1
+python-openrazer 3.6.0-1 2
 python-openrgb-git v0.2.15.r11.g44dff5e-1 1
 python-pathvalidate 2.5.2-1 1
 python-plaster 1.1-1 1
@@ -2201,7 +2190,6 @@ scid 5.0.2-1 1
 scylla-bin 5.0.1-1 1
 sddm-git 0.19.0.218.g58a3517-1 1
 sddm-kcm-git 5.27.80_r739.g8e586f7-1 1
-sddm-nordic-theme-git 2.2.0.r49.ge33367f-1 1
 sdl2_compat12-git r769.8662325-1 1
 sdrpp-git 1.0.4.r469.b89fdba-1 1
 seafile 9.0.1-2 1
@@ -2294,7 +2282,6 @@ teamviewer 15.41.7-1 1
 telegram-desktop-userfonts 4.8.1-2 1
 telegrand-git r1281.55723e1-1 1
 telepathy-kde-accounts-kcm-git v19.12.3.r88.gc8c2a2f-1 1
-tenacity-git 1:r14511.g812e94d3e-1 1
 termius 7.58.5-1 1
 termv-git v1.2-2 1
 text-engine 0.1.1-3 1
@@ -2467,8 +2454,6 @@ warpinator-git 1.6.1.r1.gd43434e-1 1
 wasi-sdk-git r189.c891cd2-1 1
 waterfox-g-bin 5.1.5-0 1
 wavebox-beta 10.113.11_3-1 1
-waybar-experimental-git 0.9.17.r167.gb0695375-1 1
-waybar-hyprland-git 0.9.17.r167.gb0695375-1 1
 waydroid 1.4.0-2 1
 waydroid-git 1.4.1.r0.g7ce2e28-1 1
 waydroid-image 18.1_20230422-1 1
@@ -2546,7 +2531,6 @@ youtube-search-python 1.6.6-2 1
 yt-dlg-git 1.2.0.r360.g768ba36-1 1
 yt-dlp-git 2023.03.04.r109.gb079c26f0-1 1
 ytmdl 2023.2.28-0 1
-yuzu-early-access 3544-1 1
 yuzu-mainline-bin 0.1419-1 1
 yuzu-mainline-git r23270.647e73edc-1 1
 zandronum 3.1-2 1
