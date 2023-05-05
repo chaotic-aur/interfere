@@ -2556,9 +2556,7 @@ darktable-git 4.3.0.r2129.g7c5d77f216-1 1
 dxvk-mingw-git 2.1.r78.g242ac207-1 1
 electron-nightly-npm 26.0.0.nightly.20230503-1 1
 elisa-git 22.04.0.r372.gbed428ba-1 1
-emacs-git 30.0.50.166136-1 1
 emacs-git-noway-widgets 30.0.50.166136-1 1
-emacs-pgtk-native-comp-git 30.0.50.166136-1 1
 emote 3.0.3-5 1
 fastgame-git 0.2.0.r18.g5273f9c-1 1
 ffmpeg-git 6.1.r110472.g4006c71d19-1 1
@@ -2575,7 +2573,6 @@ jellyfin-server-git 10.8.0.alpha5.r1768.gaaddc5a33e-1 1
 kvantum-git 1.0.10.r1.gb50ad352-1 1
 kvantum-theme-nordic-git 2.2.0.r50.ga07fe37-1 1
 kwin-effects-burn-my-windows-git r1230.679f990-1 1
-media-downloader-git 3.1.0.r33.g62a2414-1 1
 menulibre 1:2.2.3-2 1
 mullvad-vpn-beta 2023.4.beta1-1 1
 nextcloud-client-git 3.6.0.r968.g19d796e75-1 1
@@ -2593,3 +2590,4 @@ qemu-headless-git 19:8.0.0.r402.gf6b761bdbd-1 1
 scummvm-git r141768.3094584beb3-1 1
 sddm-nordic-theme-git 2.2.0.r50.ga07fe37-1 1
 sigil-git 1.9.30.r26.g7e5087081-1 1
+poppler-git 23.03.0.r27.gfc802d21-1 1
