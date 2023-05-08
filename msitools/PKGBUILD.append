@@ -1,3 +1,0 @@
-check() {
-    echo "Disabled as it blocks building permanently"
-}
