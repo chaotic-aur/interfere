@@ -1,3 +1,0 @@
-#!/usr/bin/env sh
-$CAUR_PUSH 'yes | pacman -S systemd-git'
-$CAUR_PUSH 'yes | pacman -S systemd-libs-git'

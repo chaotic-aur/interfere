@@ -1,5 +1,0 @@
-build() {
-	cd "$srcdir/$pkgname"
-	npm i
-	npm run build
-}

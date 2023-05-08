@@ -1,2 +1,0 @@
-depends+=('pipewire' 'glibmm' 'gtkmm3' 'gstreamer0.10' 'gstreamer' 'gst-plugins-bad' 'gst-plugins-good' 'libebur128')
-makedepends+=('cmake')

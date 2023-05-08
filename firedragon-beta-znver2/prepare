@@ -1,6 +1,0 @@
-#!/usr/bin/env sh
-sed -i 's&test -s jarlog&&g' PKGBUILD
-sed -i 's&stat -c "Jar log found (%s bytes)" jarlog&&g' PKGBUILD
-sed -i 's&ac_add_options --with-pgo-jarlog=${PWD@Q}/jarlog&&g' PKGBUILD
-sed -i 's&-march=x86-64&-march=x86-64-v3&'  /etc/makepkg.conf
-sed -i 's&-mtune=x86-64&-mtune=x86-64-v3&'  /etc/makepkg.conf

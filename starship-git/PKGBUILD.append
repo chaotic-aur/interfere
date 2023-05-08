@@ -1,3 +1,0 @@
-check() {
-    echo "Disabled because of the toolbox"
-}
