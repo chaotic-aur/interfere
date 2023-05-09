@@ -584,7 +584,7 @@ parlatype 3.1-2 3
 parlatype-libreoffice-extension 3.1.1-2 3
 passbook 0.8-1 4
 passbook-git 0.8.r36.g750825d-1 4
-patool 1.12-5 4
+patool 1.12-5 5
 pcsxr 1.9.95-2 3
 pdf2png 0.5.3-1 3
 pdfquirk 0.95-1 3
@@ -1069,9 +1069,7 @@ aqualung 1.1+4+g44a3f40-1 3
 aravis 0.8.26-1 3
 arch-update 1.5.3-1 3
 ardour-git 7.4.r25.g2bdf51e02d-1 3
-ares-emu 132-1 3
 ark-git 23.03.70_r5003.gaaeebe0c-1 3
-armcord-git r792.974f90f-1 3
 armorpaint-git 0.9.r3115.g4ec16d38-1 3
 art-rawconverter 1.19.3-1 3
 asbru-cm-git 6.4.0.r5.g8dce568-1 3
@@ -1109,7 +1107,6 @@ boca 1:1.0.7-1 3
 bombsquad 1.7.19-1 3
 bookworm-git 1.1.2.r240.g95e6ef7-1 3
 bottles 2:51.5-3 3
-brave-bin 1:1.51.110-1 3
 breeze-git 5.27.80_r2584.g4107cc0c-1 3
 brother-hl2280dw 2.1.0_1-2 3
 browsh 1.8.2-1 3
@@ -1165,7 +1162,6 @@ ckb-next 0.5.0-3 2
 clang-git 17.0.0_r453920.0ffea218934b-1 2
 clash-for-windows-bin 0.20.22-1 2
 clash-verge 1.3.1-2 2
-clasp-cl-git 2.2.0_112_g1c8686968-1 2
 clementine-git 1.4.0rc1.r875.g351a5e254.0.g351a5e254-1 2
 cmake-extras-git r290-1 2
 cmst-git 2023.03.14-1 2
@@ -1391,7 +1387,6 @@ fritzing 0.9.10-2 2
 frog-ocr 1.3.0-1 3
 fsearch-git 0.2.r148.g729a613-1 2
 fuse-emulator 1.6.0-3 2
-gajim-git 1:r20785.e2e40a351-1 3
 gajim-plugin-omemo-git 2.5.10.r975.gdebcc20-1 3
 gala-git 7.0.3.r7.073b89bc-1 2
 gallery-dl 1.25.3-1 3
@@ -1438,7 +1433,6 @@ gnome-shell-extension-pop-shell-git r939.b5accce-1 2
 gnome-shell-extension-tiling-assistant-git 40.r2.gf991a6e-1 2
 gnome-shell-extension-ubuntu-dock-git 79ubuntu2.r0.gc4aa938-1 2
 gnome-shell-extension-x11gestures 15-1 2
-gnome-shell-performance 1:43.4-2 2
 gnome-shell-pomodoro 0.23.1-1 2
 gnome-text-editor-git 44.0.r14.g1c652bf-1 2
 godot-git 4.0.r52237.gc7aadab155a-1 2
@@ -1580,7 +1574,6 @@ kholidays-git 1:5.105.0_r1113.gbaa3e33-1 2
 khotkeys-git 5.27.80_r2215.g828e1d5-1 2
 khtml-git 5.102.0_r642.gaa8e54d-1 2
 ki18n-git 5.105.0_r624.gf5d152e-1 2
-kicad-git 7.99.0.r942.g7eb099187d-1 2
 kiconthemes-git 5.103.0_r667.gde9bedc-1 2
 kidentitymanagement-git 5.22.42_r3968.g159ab1a8-1 2
 kidletime-git 5.105.0_r394.gb8b79e8-1 2
@@ -1813,7 +1806,6 @@ multimc5 0.6.16-3 2
 musikcube 3.0.0-1 2
 mutter-dynamic-buffering 43.4-1 2
 mutter-git 43.1+r352+g48dc8073d-1 2
-mutter-performance 1:43.4+r5+gc35e9f8c0-1 2
 mycroft-gui-git r724.0cf38d1-1 2
 natron-bin 2.5.0-1 2
 natron-compositor 2.5.0-1 2
@@ -2113,7 +2105,6 @@ river-git 0.3.0_dev.r110.g5de9bf8-1 2
 rmg 0.3.9-1 2
 rocketchat-desktop 3.9.3-1 2
 roundedsbe-git 5.27.4.r232.6f75936-1 2
-rpcs3-git 0.0.27.14962.b00b8ae71b-1 2
 rpi-imager 1.7.4-1 2
 rstudio-desktop 2023.03.0.386-1 2
 ruffle-git 1:r9115.6e8929e6d-1 2
@@ -2366,7 +2357,6 @@ virt-install-git 4.1.0.r35.g102fe5216-1 2
 virt-manager-git 4.1.0.r35.g102fe5216-1 2
 virt-manager-meta 5-4 2
 virtualbox-ext-oracle 7.0.8-1 2
-visual-studio-code-bin 1.78.0-1 2
 visual-studio-code-insiders-bin 1677825946-1 2
 vital-synth 1.5.5-1 2
 vivaldi-snapshot 6.1.3001.3-1 2
@@ -2383,10 +2373,8 @@ vscodium-git 1.77.0.23095.r4.g6137a9f-1 2
 vscodium-insiders 1.78.0.23095-1 2
 vte4-git 0.69.90+r71+g7666d476-1 2
 warpinator-git 1.6.1.r1.gd43434e-1 2
-wasi-sdk-git r189.c891cd2-1 2
 waterfox-g-bin 5.1.5-0 2
 wavebox-beta 10.113.11_3-1 2
-waydroid 1.4.0-2 2
 waydroid-git 1.4.1.r0.g7ce2e28-1 2
 waydroid-image 18.1_20230422-1 2
 waydroid-image-gapps 18.1_20230422-1 2
@@ -2489,7 +2477,6 @@ emote 3.0.3-5 1
 fastgame-git 0.2.0.r18.g5273f9c-1 1
 ffmpeg-git 6.1.r110472.g4006c71d19-1 1
 ffmpegthumbs-git 23.07.70.r261-1 1
-freecad-git 0.21.0.33073.g2de08f77b7-1 1
 freerdp-git 2.0.0.r3054.g4640da987-1 1
 gajim-plugin-omemo 2.9.0-3 1
 google-earth-pro 7.3.6.9345-1 1
@@ -2506,6 +2493,5 @@ openrazer-daemon 3.6.0-2 1
 openrazer-meta 3.6.0-2 1
 pikaur-git 1.15.1.r0.gf1ac3a0-1 1
 python-openrazer 3.6.0-2 1
-scummvm-git r141768.3094584beb3-1 1
 sddm-nordic-theme-git 2.2.0.r50.ga07fe37-1 1
 sigil-git 1.9.30.r26.g7e5087081-1 1
