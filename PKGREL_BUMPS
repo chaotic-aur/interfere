@@ -98,8 +98,8 @@ audio-sharing 0.2.1-1 4
 aura 3.2.9-1 1
 authpass-bin 1.9.7-1 4
 autokey-common 0.96.0-4 6
-autokey-gtk 0.96.0-4 5
-autokey-qt 0.96.0-4 5
+autokey-gtk 0.96.0-4 6
+autokey-qt 0.96.0-4 6
 ayatana-indicator-application 22.2.0-1 4
 ayatana-indicator-messages 22.9.0-1 1
 b43-firmware 6.30.163.46-1 1
