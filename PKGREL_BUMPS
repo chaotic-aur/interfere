@@ -681,7 +681,7 @@ python-gevent-eventemitter 2.1-3 3
 python-googletrans-git r116.d15c94f-1 3
 python-grpcio-tools 1.47.0-1 1
 python-injector 0.20.1-2 3
-python-inputs 0.5.0-1 4
+python-inputs 0.5.0-1 5
 python-isounidecode 0.3-3 3
 python-itunespy 1.6-2 3
 python-kiss-headers 2.3.1-2 3
@@ -1608,7 +1608,6 @@ kwrited-git 5.27.80_r528.g1583ef3-1 2
 kxmlgui-git 5.103.0_r959.g05016661-1 2
 kxmlrpcclient-git 5.102.0_r508.g06ea4c7e9-1 2
 labplot-git 2.9.0_r11210.gf5676879e-1 2
-labwc-git 0.6.2.r41.ge1725e1-1 2
 lagrange 1.15.9-1 2
 lantern-bin 7.0.3-1 2
 latte-dock-git 0.10.9.r39.ga0a4911a-1 2
@@ -1657,7 +1656,6 @@ libreswan 4.10-1 2
 libretro-mupen64plus-next-git r468.90dae29e-1 2
 librewolf 112.0.2-1 2
 libsearpc 2:3.3.0-2 3
-libshumate-git 1.0.1.r72.g7e75407-1 2
 libva-git 2.18.0.r12.g4bb5f16c-1 2
 lightdm-settings 1.6.1-1 2
 lightlyshaders-git v2.0.0.r9.gcea07c0-1 2
@@ -1790,7 +1788,6 @@ pamac-nosnap 10.4.3-3 2
 parsec-bin 150_86e-2 2
 partitionmanager-git 23.07.70.r1771.d24774d-1 2
 paru-git 1.11.2.r167.g257e011-1 2
-path-of-building-community-git 2.29.0.r7034.60.517-1 2
 pcem 17-4 2
 pdf-xchange 9.5.368.0-1 2
 peazip-qt5 9.2.0-1 2
@@ -2078,7 +2075,6 @@ themix-theme-materia-git 20210322.r52.g6e585038-1 2
 themix-theme-oomox-git 1.12.4.r6.g71d8d5a9-1 2
 thingy 1.1.0-1 2
 thonny 4.0.2-1 3
-thonny-git r4760.4c21feaf-1 3
 thorium-bin 2.2.0-1 2
 threadweaver-git 5.105.0_r568.g2a600a4-1 2
 threema-web 2.5.1-1 2
@@ -2301,12 +2297,10 @@ cantor-git v21.12.2.r302.g7e664b5b-1 1
 castxml 0.6.1-1 1
 celluloid-git 0.25.r7.gafd012e-1 1
 chromeos-kde-theme-git r71.d10b58c-1 1
-chromium-snapshot-bin 115.0.5751.0.r1139400-1 1
 darktable-git 4.3.0.r2129.g7c5d77f216-1 1
 elisa-git 22.04.0.r372.gbed428ba-1 1
 emote 3.0.3-5 1
 fastgame-git 0.2.0.r18.g5273f9c-1 1
-ffmpeg-git 6.1.r110472.g4006c71d19-1 1
 ffmpegthumbs-git 23.07.70.r261-1 1
 gajim-plugin-omemo 2.9.0-3 1
 google-earth-pro 7.3.6.9345-1 1
