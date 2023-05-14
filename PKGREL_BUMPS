@@ -571,7 +571,7 @@ parlatype 3.1-2 3
 parlatype-libreoffice-extension 3.1.1-2 3
 passbook 0.8-1 4
 passbook-git 0.8.r36.g750825d-1 4
-patool 1.12-5 5
+patool 1.12-5 6
 pcsxr 1.9.95-2 3
 pdf2png 0.5.3-1 3
 pdfquirk 0.95-1 3
@@ -742,7 +742,7 @@ python-single-version 1.5.1-4 3
 python-sip-pyqt4 4.19.25-1 1
 python-srsly 2.4.4-1 3
 python-srt 3.5.2-1 3
-python-steamgriddb 1.0.5-1 3
+python-steamgriddb 1.0.5-1 4
 python-suntime 1.2.5-1 3
 python-thinc 8.1.1-1 4
 python-timeago 1.0.16-2 3
@@ -1332,7 +1332,6 @@ frog-ocr 1.3.0-1 3
 fsearch-git 0.2.r148.g729a613-1 2
 fuse-emulator 1.6.0-3 2
 gajim-plugin-omemo-git 2.5.10.r975.gdebcc20-1 3
-gallery-dl 1.25.3-1 3
 gamehub 0.16.3.2-2 2
 gamescope-git 3.12.0.beta3.r3.g1716555-1 2
 gdb-multiarch 13.1-1 2
@@ -1766,7 +1765,6 @@ opensnitch-ebpf-module 1.5.7-1 2
 optimus-manager-qt-git 1.6.9.r3.g7121c8e-1 2
 orage 4.18.0-1 2
 otpclient 3.1.6-1 2
-oversteer 0.7.2-1 3
 oxygen-git 5.27.80_r4560.g62c242b1-1 2
 pa-applet-git r19.3b4f8b3-8 2
 pacmanlogviewer-git 1.5.1.r0.g7e47e18-1 2
