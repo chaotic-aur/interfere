@@ -1382,7 +1382,6 @@ goodvibes-git 0.7.6.r68.g36a9299-1 2
 googlemaps 20220503-1 2
 goverlay-git 0.9.1.r2.gbe1867a-1 2
 gradience 0.4.1_patch1-1 3
-gradience-git 0.4.1.patch1.r292.g78da705c-1 3
 grantlee-git v5.3.1.0.g20d415b-1 2
 grantleetheme-git 5.23.40_r481.gd428be3-1 2
 grapejuice 7.8.3-2 2
@@ -1713,7 +1712,6 @@ mutter-git 43.1+r352+g48dc8073d-1 2
 mycroft-gui-git r724.0cf38d1-1 2
 natron-bin 2.5.0-1 2
 natron-compositor 2.5.0-1 2
-neovide-git 0.10.4.r4.g67e9737-1 2
 neovim-remote 2.5.1-1 3
 network-manager-applet-nolibappindicator 1.30.0-1 2
 networkmanager-dmenu-git r169.121fc88-1 2
@@ -1781,9 +1779,7 @@ pcem 17-4 2
 pdf-xchange 9.5.368.0-1 2
 peazip-qt5 9.2.0-1 2
 pebbles-git r445.5e5e455-1 2
-pegasus-frontend-git alpha16.r49.gbb289e81-1 2
 pencil 3.1.1-2 2
-phoc-embedded-wlroots 0.24.0-1 2
 phonesim 2.0.r0.ga55ada2-1 2
 pika-backup 1:0.6.1-1 2
 pikasso-git r92.64bcf29-1 2
@@ -2188,7 +2184,7 @@ virt-manager-meta 5-4 2
 virtualbox-ext-oracle 7.0.8-1 2
 visual-studio-code-insiders-bin 1677825946-1 2
 vital-synth 1.5.5-1 2
-vkbasalt-cli 3.1.1-1 3
+vkbasalt-cli 3.1.1-1 4
 vlc-git 4.0.0.r23113.gf7bb59d9f5-1 2
 vlc-luajit 3.0.18-7 2
 vmware-workstation 17.0.2-1 2
@@ -2308,4 +2304,3 @@ python-xdgenvpy 2.3.5-2 1
 xcb-proto-git xcb.rproto.1.15.2.11.gcfcc518-1 1
 moodle-dl-git v2.3.2.0.r1.g2e79839-1 1
 mangohud 0.6.9.1-2 1
-oxygen-icons-git 5.105.0_r373.g46b5ee5-1 1
