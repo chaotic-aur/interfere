@@ -1,5 +1,0 @@
-prepare() {
-  mkdir -p build
-  sed -i '/execute_process(COMMAND "${CMAKE_COMMAND}" -E touch "${PYTHON_UMBRELLA_MODULE_FILE}")/d' ${pkgname%-git}/find-modules/GeneratePythonBindingUmbrellaModule.cmake
-  sed -i 's/foreach (pyversion "2" "3")/foreach (pyversion "3")/' ${pkgname%-git}/find-modules/FindPythonModuleGeneration.cmake
-}
