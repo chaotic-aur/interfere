@@ -91,7 +91,6 @@ archlinux-java-run 9-1 1
 artha 1.0.5-1 1
 asix-ax88179-dkms 1.20.0-2 1
 astrofox 1.4.0-3 4
-athenaeum-git v2.3.2.r0.b0cd237-1 4
 atom-editor-beta-bin 1.61.0beta0-1 2
 audio-recorder 3.3.4-1 4
 audio-sharing 0.2.1-1 4
@@ -1073,7 +1072,6 @@ backintime-git 1.3.3.r11.g66d248fe-1 3
 baloo-git 5.104.0_r3144.ge69542db-1 3
 basket 2.49b-8 3
 bauh 0.10.5-1 3
-bcachefs-tools-git 1053-1 3
 betterlockscreen 4.0.4-2 3
 blanket-git 0.6.0.r84.g408ca93-1 3
 blender-git 3.6.r122734.g8c1090aeb07-1 3
@@ -1123,8 +1121,6 @@ celestia-addon-vaders_tie_fighter 1-2 2
 celestia-addon-voyagers 2-2 2
 celestia-addon-xwing 1-3 2
 chatgpt-desktop-bin 0.12.0-1 2
-chatterino2-7tv-git v7.4.3.r0.ga86fa753-1 2
-chatterino2-git v2.4.2.r84.gbcd802813-1 2
 cheese-git 44.0.1+r3+gab37580f-1 2
 chrome-remote-desktop 112.0.5615.18-1 2
 chromedriver 112.0.5615.49-1 2
@@ -1163,7 +1159,6 @@ decaf-emu-git r5217.dd0b1be3-1 2
 decoder 0.3.3-1 2
 deluge-git 1:2.1.1.dev52.g366cded7b-1 2
 denise 2.0-1 2
-dino-git v0.4.1.r32.g0bddf9f3-1 2
 diodon 1.13.0-2 2
 discord-canary 0.0.151-1 2
 discord-canary-electron-bin 0.0.151-2 2
@@ -1204,7 +1199,6 @@ endeavour-git 43.0.r48.g6e45ce5c-1 2
 enve-git continuous.linux.r68.gd919d4d3-1 2
 epdfview-gtk3 0.2.0-3 2
 eventviews-git 5.22.40_r945.g88bbbe1-1 2
-extension-manager-git 0.4.0.r82.g2768f82-1 2
 f3-qt-git v2.1.0.r16.g10ab886-1 2
 f3d-git nightly.r0.g3993e05c-1 3
 fancontrol-kcm-git v0.8.r23.g5bfa8fa-1 2
@@ -1436,7 +1430,6 @@ insync-caja 3.7.9.50368-1 2
 insync-nautilus 3.8.2.50468-1 2
 insync-thunar 3.7.9.50368-1 2
 iota-firefly-wallet 2.1.0-1 2
-ipfs-desktop 0.27.2-1 2
 iriunwebcam-bin 2.8-1 2
 isoimagewriter 1.0.0-1 2
 itch-setup-bin 1.26.0-1 2
@@ -1624,7 +1617,6 @@ lib32-libglvnd-git 1.6.0.r10.g179d727-1 2
 lib32-nvidia-390xx-utils 390.157-2 2
 lib32-nvidia-470xx-utils 470.182.03-1 2
 lib32-obs-vkcapture-git r255.0a976a6-1 2
-lib32-sdl2_compat12-git r769.8662325-1 2
 libadwaita-git 1.3.rc+62+ge715fae6-1 2
 libadwaita-git-demos 1.3.rc+62+ge715fae6-1 2
 libakonadi-git 23.03.40_r12925.g9d3a70065-1 2
@@ -1633,7 +1625,6 @@ libcheese-git 44.0.1+r3+gab37580f-1 2
 libelectron 1.0.11-1 2
 libglvnd-git 1.6.0.r10.g179d727-1 2
 libgravatar-git 5.22.41_r480.gac4c75c-1 2
-libhandy-git 1.8.0.r22.g2b8561e-1 2
 libinput-gestures 2.74-1 2
 libkdcraw-git v22.12.0.r3.gd1fef38-1 2
 libkdepim-git 5.23.40_r983.g61fb5b0-1 2
@@ -1987,7 +1978,6 @@ scid 5.0.2-1 2
 scylla-bin 5.0.1-1 2
 sddm-git 0.19.0.218.g58a3517-1 2
 sddm-kcm-git 5.27.80_r739.g8e586f7-1 2
-sdl2_compat12-git r769.8662325-1 2
 sdrpp-git 1.0.4.r469.b89fdba-1 2
 searx-git 1.0.0.r490.g75b859d2-1 3
 servo-git r45462.a8f7c458117-1 2
@@ -2021,7 +2011,6 @@ spotify 1:1.2.9.743-1 2
 spotify-adblock-git 1:1.0.2.r4.g22847a7-1 2
 spotify-tray-git 1.3.2.r9.g7ec6ac4-1 2
 srb2kart 1.6-1 2
-steam-metadata-editor-git 1.0.2.r57.96265af-1 2
 steam-rom-manager-git 2.4.14-1 2
 steamtinkerlaunch 12.12-1 2
 stellarium 23.1-2 2
@@ -2056,7 +2045,6 @@ tahoma2d 1.3-2 2
 tangram 3.0-3 2
 tartube 2.4.370-2 3
 tauon-music-box 7.6.4-1 2
-tblock 2.6.1-1 3
 teams-for-linux 1.0.68-1 2
 teamviewer 15.41.7-1 2
 telegram-desktop-userfonts 4.8.1-2 2
@@ -2255,7 +2243,6 @@ xembed-sni-proxy-git v5.26.90.r223.g8acfd6785-1 2
 xemu-git 0.7.88.r0.g9e1f5f2f19-1 2
 xen 4.17.0-1 3
 xfce4-appfinder-devel 4.19.0-1 2
-xfce4-appfinder-git 4.19.0+6+g499a3dc-1 2
 xfce4-dockbarx-plugin 1:0.7.1-2 2
 xfce4-panel-compiz 4.18.0-1 2
 xfce4-windowck-plugin-xfwm4-theme-support 1:0.4.5+139+g23d3432-1 2
@@ -2303,7 +2290,6 @@ ffmpegthumbs-git 23.07.70.r261-1 1
 gajim-plugin-omemo 2.9.0-3 1
 google-earth-pro 7.3.6.9345-1 1
 hyprland-nvidia 0.25.0-1 1
-imagemagick-full-git 7.1.1.8.r18.gf8feb2ee1-1 1
 kvantum-git 1.0.10.r1.gb50ad352-1 1
 kwin-effects-burn-my-windows-git r1230.679f990-1 1
 menulibre 1:2.2.3-2 1
@@ -2323,3 +2309,4 @@ python-rtmixer 0.1.4-1 1
 python-xdgenvpy 2.3.5-2 1
 xcb-proto-git xcb.rproto.1.15.2.11.gcfcc518-1 1
 moodle-dl-git v2.3.2.0.r1.g2e79839-1 1
+mangohud 0.6.9.1-2 1
