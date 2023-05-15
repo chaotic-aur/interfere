@@ -744,7 +744,6 @@ python-srsly 2.4.4-1 3
 python-srt 3.5.2-1 3
 python-steamgriddb 1.0.5-1 4
 python-suntime 1.2.5-1 3
-python-thinc 8.1.1-1 4
 python-timeago 1.0.16-2 3
 python-torchvision 0.13.1-2 1
 python-torchvision-cuda 0.13.1-2 1
@@ -1190,12 +1189,10 @@ dsda-doom 0.25.6-1 2
 eclipse-java 2:4.27-1 2
 edex-ui-bin 2.2.8-1 2
 edopro-bin 40.0.2-1 2
-eka2l1-git 5782.89ca48c85-1 2
 electronmail-bin 5.1.7-1 2
 emacs-ng 30.0.50-5 2
 emacs-ng-git 1:r166863.gdbf1cc80538-1 2
 emulationstation 2.11.2-1 2
-endeavour-git 43.0.r48.g6e45ce5c-1 2
 enve-git continuous.linux.r68.gd919d4d3-1 2
 epdfview-gtk3 0.2.0-3 2
 eventviews-git 5.22.40_r945.g88bbbe1-1 2
@@ -1373,7 +1370,6 @@ gnome-shell-extension-pop-shell-git r939.b5accce-1 2
 gnome-shell-extension-tiling-assistant-git 40.r2.gf991a6e-1 2
 gnome-shell-extension-ubuntu-dock-git 79ubuntu2.r0.gc4aa938-1 2
 gnome-shell-pomodoro 0.23.1-1 2
-gnome-text-editor-git 44.0.r14.g1c652bf-1 2
 godot-git 4.0.r52237.gc7aadab155a-1 2
 godot-mono 3.5.1-1 2
 goodvibes 0.7.6-1 2
@@ -1415,7 +1411,6 @@ ibus-bamboo-git 0.8.2+RC3+2+gf8fab45-1 2
 icaclient 23.3.0.32-1 2
 icecat 102.10.0-1 2
 icestorm-git r820.d20a5e9-1 2
-icon-library 0.0.15-1 2
 identity 0.5.0-1 2
 imagewriter 1.10.1432200249.1d253d9.2.15-1 2
 imhex 1.28.0-3 2
@@ -1707,7 +1702,6 @@ mpv-full-git 0.35.1.r339.gd1d0b1a8ee-1 2
 mullvad-vpn 2023.3-2 2
 multimc5 0.6.16-3 2
 musikcube 3.0.0-1 2
-mutter-git 43.1+r352+g48dc8073d-1 2
 mycroft-gui-git r724.0cf38d1-1 2
 natron-bin 2.5.0-1 2
 natron-compositor 2.5.0-1 2
@@ -1730,7 +1724,6 @@ nvidia-open-dkms-git 530.41.03.r0.g6dd092ddb-1 2
 nvidia-open-git 530.41.03.r0.g6dd092ddb-1 2
 nvidia-settings-beta 530.41.03-1 2
 nvidia-utils-beta 530.41.03-1 2
-nvidia-utils-nvlax 530.41.03-1 2
 nvidia-vaapi-driver-git 0.0.9.r7.gc0a7f54-1 2
 nvim-yarp-git r59.bb5f5e0-1 2
 nwg-bar 0.1.3-1 2
@@ -1742,7 +1735,6 @@ obs-backgroundremoval 0.5.17-1 2
 obs-gstreamer 1:0.4.0-1 2
 obs-vaapi 0.2.0-2 2
 obs-vkcapture-git r255.0a976a6-1 2
-ocrmypdf 14.1.0-1 3
 octopi 0.14.0-2 2
 octopi-git 0.14.0.r6.a92868cb-1 2
 octopi-notifier-frameworks 0.14.0-2 2
@@ -1875,11 +1867,9 @@ python-plyer 2.1.0-1 2
 python-polib 1.2.0-1 2
 python-preshed 3.0.8-1 2
 python-pychromecast 13.0.7-1 2
-python-pyclip 0.7.0-2 2
 python-pydes 2.0.1-6 2
 python-pygccxml 2.2.1-1 2
 python-pyglm 2.7.0-1 2
-python-pympv 0.7.1-1 3
 python-pyo 1.0.5-1 2
 python-pypdf2 1:2.12.1-3 2
 python-pysdl2 0.9.15-1 2
@@ -2240,7 +2230,6 @@ xfce4-panel-compiz 4.18.0-1 2
 xfce4-windowck-plugin-xfwm4-theme-support 1:0.4.5+139+g23d3432-1 2
 xkcdpass 1.19.3-1 3
 xnconvert 1.98.0-1 2
-xpra-git v4.4.r482.gd85c0475c-1 3
 xviewer 3.2.12-3 2
 yacreader 9.12.0-1 2
 yacreaderlibraryserver 9.12.0-1 2
@@ -2302,3 +2291,4 @@ python-xdgenvpy 2.3.5-2 1
 xcb-proto-git xcb.rproto.1.15.2.11.gcfcc518-1 1
 moodle-dl-git v2.3.2.0.r1.g2e79839-1 1
 mangohud 0.6.9.1-2 1
+numix-circle-icon-theme-git 23.04.28.r0.g6455f94-1 1
