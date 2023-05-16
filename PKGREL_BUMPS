@@ -110,7 +110,6 @@ blackbox-terminal-git 0.11.2.r3.g2eb708c-1 1
 blockbench-git 4.2.5-1 4
 blockout2 2.5-2 4
 bluej 5.1.0-1 4
-bookletimposer 0.3.1-1 5
 bootiso 4.2.0-1 1
 boxtron 0.5.4-1 5
 bpytop-git 1.0.68.r3.gac0f666-1 4
@@ -141,7 +140,6 @@ chrome-gnome-shell 10.1-6 1
 clamav-unofficial-sigs 7.2.5-1 1
 clapper 0.5.2-1 3
 colorway 1.2.0-2 3
-compiz 0.9.14.2-1 4
 compiz-core 0.8.18-3 3
 compiz-git 0.9.14.2.r0.g12aca6852-1 4
 compiz-gtk 0.8.18-3 3
@@ -386,11 +384,8 @@ kwin-scripts-window-colors 0.2-3 3
 lanshare 1.2.1-8 3
 lib32-fftw 3.3.10-3 1
 lib32-fltk 1.3.8-1 3
-lib32-gupnp 1.4.3-1 1
-lib32-gupnp-igd 1.2.0-1 1
 lib32-libdc1394 2.2.6-1 1
 lib32-liblrdf 0.6.1-3 1
-lib32-libnice 0.1.19-1 1
 lib32-libofa 0.9.3-8 1
 lib32-libwmf 0.2.12-2 1
 lib32-lilv 0.24.20-1 2
@@ -438,7 +433,6 @@ linux-xanmod-tt 5.15.54-1 1
 linux-xanmod-tt-headers 5.15.54-1 1
 loginized 1.4.0-2 3
 logstalgia 1.1.2-1 3
-lollypop-next-git 1.4.34.r1.g9b5393ca2-1 1
 lto-dump-git 13.0.0_r195551.gad2aab5c816-1 1
 lua51-event 0.4.6-2 1
 lua52-event 0.4.6-2 1
@@ -612,7 +606,6 @@ popcorntime-git 0.4.4.r1879.g64553fa7-1 3
 pop-gtk-theme-git 5.5.1.r2.ge09de355-1 3
 pop-shell-shortcuts-git 1:r30.52cc83f-2 3
 powerpill 2021.11-4 4
-prelockd 0.9-2 3
 prestopalette 0.1.31-1 3
 primus-vk-git r150.2486f2a-1 3
 protondb-tags 1.2.2-1 1
@@ -1011,7 +1004,6 @@ dracula-xresources-git r12.539ef24-1 1
 prismlauncher 6.3-1 3
 codelite 17.0.0-0 3
 playonlinux 4.4+29+gd0ae9ce6-2 3
-steam-boilr-gui 1.7.21-1 3
 proftpd 2:1.3.8-1 1
 zsync2-git 2.0.0r225.1608115-1 1
 mpv-full 0.35.1-2 4
@@ -1035,7 +1027,6 @@ alvr 19.1.0.r0.g969899c7-1 3
 amberol 0.10.2-1 3
 amdgpu-fan 0.1.0-3 5
 amule-git 2.3.3.r42.e26d06a6e-3 1
-anki 2.1.62-2 3
 antimicrox 3.3.3-1 3
 app-icon-preview 3.3.0-1 3
 app-icon-preview-git 3.3.0.r12.gc26a720-1 3
@@ -1201,7 +1192,6 @@ fancontrol-kcm-git v0.8.r23.g5bfa8fa-1 2
 fancytasks 1.1.1.r17.g449d8a2-1 2
 ff2mpv-native-messaging-host-git r70.6ca0eb0-1 2
 ffmpeg-full 6.0-2 2
-ffmpeg-obs 6.0.r12.ga6dc929-3 2
 filebot 5.0.2-3 2
 filelight-git 23.03.70.r1336-1 2
 firedragon 112.0.2-1 2
@@ -1342,7 +1332,6 @@ gimp-elsamuko-git r88.b401697-1 2
 gimp-extras 2.0.4-1 2
 gimp-git 2:2.99.15.r494.5112394636-1 2
 git-cinnabar 0.6.1-1 2
-git-cola 4.2.1-1 3
 github-desktop 3.2.1-1 2
 gitify-bin 4.3.1-1 2
 gittyup 1.3.0-1 2
@@ -1375,7 +1364,6 @@ godot-mono 3.5.1-1 2
 goodvibes 0.7.6-1 2
 goodvibes-git 0.7.6.r68.g36a9299-1 2
 googlemaps 20220503-1 2
-goverlay-git 0.9.1.r2.gbe1867a-1 2
 gradience 0.4.1_patch1-1 3
 grantlee-git v5.3.1.0.g20d415b-1 2
 grantleetheme-git 5.23.40_r481.gd428be3-1 2
@@ -1400,7 +1388,6 @@ gyroflow-git 1.5.0.r56.gfa987c6b-1 2
 haguichi 1.4.6-1 2
 handbrake-nvenc 1.6.1-1 2
 handbrake-nvenc-cli 1.6.1-1 2
-hardinfo-git 0.6.alpha.1406.g2834bf9-1 2
 harmonoid-bin 0.3.8-1 2
 heimer 4.1.0-1 2
 helvum-git 0.4.0.r1.g84570f4-1 2
@@ -1409,7 +1396,6 @@ hypnotix 3.2-1 2
 i3lock-fancy-git r193.55f5c30-1 2
 ibus-bamboo-git 0.8.2+RC3+2+gf8fab45-1 2
 icaclient 23.3.0.32-1 2
-icecat 102.10.0-1 2
 icestorm-git r820.d20a5e9-1 2
 identity 0.5.0-1 2
 imagewriter 1.10.1432200249.1d253d9.2.15-1 2
@@ -1428,7 +1414,6 @@ itch-setup-bin 1.26.0-1 2
 j9-git r4387.a6f48f96-1 2
 jade-application-kit 3.5.7-2 3
 jameica 2.10.4-1 2
-jdanimatedimageeditor 1.3-1 3
 jellyfin-media-player 1.9.1-1 2
 jitsi-meet-desktop 2023.2.0-2 2
 joystickwake 0.4-1 3
@@ -1530,8 +1515,6 @@ knewstuff-git 5.103.0_r1482.gcbd9bb79-1 2
 knotes-git 23.03.40_r3815.g58410a88-1 2
 knotifications-git 5.103.0_r802.gfc3b28d-1 2
 knotifyconfig-git 5.104.0_r424.g622a031-1 2
-kodi-git r62978.e4e520e71a8-1 2
-kodi-git-dev r62978.e4e520e71a8-1 2
 kolourpaint-git r2501.8374d5f7-1 2
 kompare-git 23.03.70_r1242.g04fdc0b-1 2
 konsole-git 23.03.70_r8896.g5f380ca5a-1 2
@@ -1642,7 +1625,6 @@ libva-git 2.18.0.r12.g4bb5f16c-1 2
 lightdm-settings 1.6.1-1 2
 lightlyshaders-git v2.0.0.r9.gcea07c0-1 2
 lightlyshaders-kdegit-git v2.0.0.r7.gd86ca81-1 2
-lightspark-git 0.8.6.1.r174.437484d9-1 2
 linux-nitrous-fire-headers 6.2.13-1 2
 linux-nitrous-headers 6.2.13-1 2
 linux-steam-integration 0.7.3-5 2
@@ -1650,7 +1632,6 @@ lld-git 17.0.0_r453920.0ffea218934b-1 2
 lldb-git 17.0.0_r453920.0ffea218934b-1 3
 llvm-git 17.0.0_r453920.0ffea218934b-1 3
 llvm-libs-git 17.0.0_r453920.0ffea218934b-1 2
-lmms-git 1.3.0.alpha.1.r288.g3440d49aa-1 2
 losslesscut-bin 3.54.0-1 2
 loupe 44.2-1 2
 lutris-wine-git 0.76.8.r2.g527f7ec-1 2
@@ -1670,7 +1651,6 @@ materia-theme-git 20210322.r52.g6e585038-1 2
 material-kwin-decoration-git v7+39+g0e989e5-1 2
 mauikit-git 2.2.2.r92.g224e28f5-1 2
 mbox-importer-git 23.03.40_r621.gdba6c78-1 2
-mcomix 2.1.0-1 3
 mcomix-git r1652.cfaae88-1 3
 mcpelauncher-ui-git v0.9.0.qt6.r0.g65a1283-1 2
 media-downloader 2.7.0-1 2
@@ -1702,7 +1682,7 @@ mpv-full-git 0.35.1.r339.gd1d0b1a8ee-1 2
 mullvad-vpn 2023.3-2 2
 multimc5 0.6.16-3 2
 musikcube 3.0.0-1 2
-mycroft-gui-git r724.0cf38d1-1 2
+mycroft-gui-git r724.0cf38d1-1 3
 natron-bin 2.5.0-1 2
 natron-compositor 2.5.0-1 2
 neovim-remote 2.5.1-1 3
@@ -1795,7 +1775,7 @@ plasma-wayland-session-git 5.27.80_r13268.g365bd94bc-1 2
 plasma-workspace-git 5.27.80_r13268.g365bd94bc-1 2
 plasma5-applets-betterinlineclock-git r24.bbad71b-1 2
 plasma5-applets-latte-separator 0.1.2-1 2
-plasma5-applets-mycroft-git r179.633f4bc-1 2
+plasma5-applets-mycroft-git r179.633f4bc-1 3
 plasma5-applets-weather-widget-2 2.3.4.3-1 2
 plasma5-wallpapers-wallpaper-engine 0.5.4-3 2
 play-emu-git 0.60.r8.ge4665bb8-1 2
@@ -1811,7 +1791,6 @@ pop-shell-plugin-system76-power-git 1.2.1.r47.gce2ba21-2 2
 popsicle 1.3.1-1 2
 popsicle-git 1.3.1.r11.g6b49ef3-1 2
 portainer-bin 1:2.18.2-1 2
-postman-bin 10.13.0-1 2
 powerdevil-git 5.27.80_r2683.g1883de98-1 2
 powershell 7.3.4-3 2
 powershell-bin 7.3.4-1 2
@@ -1879,7 +1858,6 @@ python-recurring-ical-events 2.0.2-1 2
 python-rst.linker 2.4.0-1 2
 python-simber 0.2.6-0 2
 python-soundcloud-v2 1.3.0-2 2
-python-spacy 3.5.2-1 4
 python-sphinx-automodapi 0.15.0-1 2
 python-sphinxcontrib-svg2pdfconverter 1.2.2-1 2
 python-spotdl 4.1.10-1 2
@@ -2031,7 +2009,6 @@ teams-for-linux 1.0.68-1 2
 teamviewer 15.41.7-1 2
 telegram-desktop-userfonts 4.8.1-2 2
 telegrand-git r1281.55723e1-1 2
-telepathy-kde-accounts-kcm-git v19.12.3.r88.gc8c2a2f-1 2
 termius 7.58.5-1 2
 termv-git v1.2-2 2
 text-engine 0.1.1-3 2
@@ -2243,7 +2220,6 @@ youtube-music-bin 1.19.0-4 2
 youtube-search-python 1.6.6-2 3
 yt-dlg-git 1.2.0.r360.g768ba36-1 3
 ytmdl 2023.2.28-0 3
-yuzu-mainline-git r23270.647e73edc-1 2
 zandronum 3.1-2 2
 zeal-git 0.6.1.r302.g1cfa7c6-1 2
 zeit-git 0.6.0.r8.gde6b5c2-1 2
@@ -2263,10 +2239,7 @@ cantor-git v21.12.2.r302.g7e664b5b-1 1
 castxml 0.6.1-1 1
 celluloid-git 0.25.r7.gafd012e-1 1
 chromeos-kde-theme-git r71.d10b58c-1 1
-darktable-git 4.3.0.r2129.g7c5d77f216-1 1
 elisa-git 22.04.0.r372.gbed428ba-1 1
-emote 3.0.3-5 1
-fastgame-git 0.2.0.r18.g5273f9c-1 1
 ffmpegthumbs-git 23.07.70.r261-1 1
 gajim-plugin-omemo 2.9.0-3 1
 google-earth-pro 7.3.6.9345-1 1
@@ -2282,7 +2255,6 @@ openrazer-meta 3.6.0-2 1
 python-openrazer 3.6.0-2 1
 sigil-git 1.9.30.r26.g7e5087081-1 1
 dee 1.2.7-14 1
-kodi-git-eventclients r62978.e4e520e71a8-1 1
 libselinux 3.5-1 1
 python-codegen 1.0-5 1
 python-langcodes 3.3.0-1 1
