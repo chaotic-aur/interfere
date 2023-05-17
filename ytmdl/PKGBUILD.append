@@ -1,0 +1,67 @@
+# fix prepare on version changes
+# 
+# 2023.2.28
+
+depends=(
+  "downloader-cli"
+  "python-beautifulsoup4"
+  "python-ffmpeg"
+  "python-itunespy"
+  "python-musicbrainzngs"
+  "python-mutagen"
+  "python-pydes"
+  "python-pyxdg"
+  "python-rich"
+  "python-simber"
+  "python-spotipy"
+  "python-unidecode"
+  "python-urllib3"
+  "python-ytmusicapi"
+  "youtube-search-python"
+  "yt-dlp"
+
+  #"python-brotli"
+  #"python-pycryptodomex"
+  #"python-pysocks"
+  #"python-websockets"
+)
+
+makedepends=(
+  "git"
+  "python-build"
+  "python-installer"
+  "python-setuptools"
+  "python-wheel"
+)
+
+conflicts=(${provides[@]})
+
+prepare() {
+  cd "$pkgname-$pkgver"
+  sed -i 's|etc/bash_completion.d|share/completions|' setup.py
+  sed -i 's|usr/share/zsh/functions/Completion/Unix|share/completions|' setup.py
+
+  sed -i '14,32d' setup.py
+}
+
+build() {
+  cd "$pkgname-$pkgver"
+  python -m build --no-isolation --wheel
+}
+
+package() {
+  cd "$pkgname-$pkgver"
+  python -m installer --destdir="$pkgdir" dist/*.whl
+
+  install -Dm664 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname"
+
+  install -Dm644 \
+    "$pkgdir/usr/lib"/python*/"site-packages/share/completions/ytmdl.zsh" \
+    "$pkgdir/usr/share/zsh/site-functions/_ytmdl"
+
+  install -Dm644 \
+    "$pkgdir/usr/lib"/python*/"site-packages/share/completions/ytmdl.bash" \
+    "$pkgdir/usr/share/bash-completion/completions/ytmdl"
+
+  rm -rf "$pkgdir/usr/lib"/python*/"site-packages/share"
+}
