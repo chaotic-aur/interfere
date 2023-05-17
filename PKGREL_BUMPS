@@ -30,7 +30,6 @@ amberol 0.10.2-1 3
 amdgpu-fan 0.1.0-3 5
 amule-git 2.3.3.r42.e26d06a6e-3 1
 ananicy 2.2.1-1 4
-android-platform 33_r02-1 1
 android-sdk 26.1.1-2 1
 angrysearch 1.0.4-1 4
 antimicrox 3.3.3-1 3
@@ -101,7 +100,7 @@ blockbench-git 4.2.5-1 4
 blockout2 2.5-2 4
 bluedevil-git 5.27.80_r2572.gce191bd9-1 3
 bluej 5.1.0-1 4
-bluemail 1.135.3-1 3
+bluemail 1.135.3-1 4
 bluetooth-autoconnect 1.3-1 5
 bluez-qt-git 5.105.0_r741.g2ba724b-1 1
 boca 1:1.0.7-1 3
@@ -246,8 +245,6 @@ dialect 2.1.1-1 3
 digilent.adept.utilities 2.7.1-1 1
 digital 0.29-4 1
 diodon 1.13.0-2 2
-discord-canary 0.0.151-1 2
-discord-canary-electron-bin 0.0.151-2 2
 discord-development-electron-bin 0.0.203-1 3
 discord-ptb 0.0.42-1 2
 discord-screenaudio 1.8.1-1 2
@@ -282,7 +279,6 @@ drawpile 2.1.20-4 2
 drawpile-client 2.1.20-4 2
 drawpile-server 2.1.20-4 2
 drkonqi-git 5.27.80_r897.gdd732a0d-1 2
-droidcam 1:1.8.2-1 4
 dsda-doom 0.25.6-1 2
 duc-git 1.4.5.r1.gc24ce26-1 1
 dupeguru 4.3.1-1 3
@@ -527,7 +523,6 @@ gnome-multi-writer-git 3.35.90.r330.91c7b2d-1 2
 gnome-network-displays 0.90.5-7 2
 gnome-obfuscate 0.0.9-1 2
 gnome-shell-extension-appindicator-git 1:53+0+g078af31-1 2
-gnome-shell-extension-dash-to-dock 1:80-1 2
 gnome-shell-extension-dash-to-panel-git 56.r1.gbe8214d-1 2
 gnome-shell-extension-desktop-icons-ng 47.0.2-1 2
 gnome-shell-extension-gnome-ui-tune-git 1.7.3.r0.gc03e0e0-1 2
@@ -556,7 +551,6 @@ grantlee-git v5.3.1.0.g20d415b-1 2
 grantleetheme-git 5.23.40_r481.gd428be3-1 2
 grapejuice 7.8.3-2 2
 graphite-cursor-theme-git 2021.11.26.r9.g8773e95-1 1
-grass 8.2.1-2 4
 green-recorder 3.2.10-1 4
 green-recorder-git 3.2.10.r8.g1ad6656-1 3
 grimshot 1.6.1-1 1
@@ -577,7 +571,6 @@ gtkhash 1.5-1 2
 gtksourceview-git r7220.5ac51629-1 2
 gtuber-git r417.83a614e-1 2
 guayadeque-git 0.4.7.r2229.1ae725ae-1 2
-guilded 1.0.9196665-1 2
 guiscrcpy 1:2023.1.1-1 3
 gwe 0.15.5-3 4
 gwenview-git 23.03.70.r7037-1 2
@@ -623,8 +616,6 @@ imeditor 0.9.7-1 3
 imhex 1.28.0-3 2
 incidenceeditor-git 5.22.40_r996.gdaaf3b3-1 2
 include-what-you-use 0.19-1 2
-input-remapper-git 2.0.0.r6.g15eb0e96-1 3
-insync 3.8.5.50499-1 2
 insync-caja 3.7.9.50368-1 2
 insync-dolphin 3.7.9.50368-1 3
 insync-nautilus 3.8.2.50468-1 2
@@ -767,7 +758,6 @@ kitinerary-git 5.22.42_r2695.g49b686ba-1 2
 kjobwidgets-git 5.104.0_r465.g5bb73a7-1 2
 kjs-git 5.102.0_r388.g6b34482-1 2
 kjsembed-git 5.102.0_r361.g457ba7f-1 2
-klassy-git 4.0.breeze5.25.80.r5.gfe2fd6ed-1 2
 kldap-git 5.23.40_r1053.gb25e539-1 2
 kleopatra-git 23.03._r7124.g323e33ed-1 2
 kmail-account-wizard-git 23.03.40_r946.g3a9bcaf-1 2
@@ -837,7 +827,6 @@ kwidgetsaddons-git 5.105.0_r1068.g8a4dd986-1 2
 kwin-bismuth 3.1.4-3 2
 kwin-bismuth-git 3.1.4.r3.gef69afe-3 2
 kwin-decoration-sierra-breeze-enhanced-git r219.fb8e165-1 2
-kwin-effects-burn-my-windows-git r1230.679f990-1 1
 kwin-effects-sliding-notifications 1.5.0-1 2
 kwin-effects-yet-another-magic-lamp 5.27.0-1 2
 kwin-git 5.27.80_r24092.gf71ee59a3-1 2
@@ -939,7 +928,6 @@ lightlyshaders-kdegit-git v2.0.0.r7.gd86ca81-1 2
 linux-nitrous-fire-headers 6.2.13-1 2
 linux-nitrous-headers 6.2.13-1 2
 linux-steam-integration 0.7.3-5 2
-linux-wifi-hotspot 4.4.0-1 3
 linux-xanmod-tt 5.15.54-1 1
 linux-xanmod-tt-headers 5.15.54-1 1
 lld-git 17.0.0_r453920.0ffea218934b-1 2
@@ -984,7 +972,6 @@ material-kwin-decoration-git v7+39+g0e989e5-1 2
 matrix-registration 0.9.1-2 4
 mauikit-git 2.2.2.r92.g224e28f5-1 2
 mbox-importer-git 23.03.40_r621.gdba6c78-1 2
-mcomix-git r1652.cfaae88-1 3
 mcpelauncher-ui-git v0.9.0.qt6.r0.g65a1283-1 2
 mcstatus 9.4.2-1 4
 media-downloader 2.7.0-1 2
@@ -1010,8 +997,6 @@ metronome 1.0.0-1 3
 micromamba 1.4.2-1 2
 micropad 4.2.1-1 2
 milou-git 5.27.80_r811.gc498381-1 2
-mindustry 1:7.0_139-1 1
-mindustry-server 1:7.0_139-1 1
 minecraft-launcher 1:1.0.1221-1 4
 minigalaxy 1.2.2-3 4
 mint-x-icons 1.6.4-1 1
@@ -1080,7 +1065,6 @@ nspawn-git r46.09c5220-1 1
 nteract-bin 0.28.0-1 3
 ntfs3-dkms 1:5.17-1 1
 nuclear-player-bin 1667906953281:2022118_2aafe80b9a7a18d4b506b4f8b92005cc-2 2
-numix-circle-icon-theme-git 23.04.28.r0.g6455f94-1 1
 numix-icon-theme-git 23.04.26.r0.g71b89af4f-1 1
 nvidia-390xx-dkms 390.157-4 1
 nvidia-390xx-settings 390.157-1 2
@@ -1099,7 +1083,6 @@ nvidia-vaapi-driver-git 0.0.9.r7.gc0a7f54-1 2
 nvim-yarp-git r59.bb5f5e0-1 2
 nvlax-git r11.b3699ad-5 3
 nwg-bar 0.1.3-1 2
-nwg-dock 0.3.3-1 2
 nwg-drawer 0.3.8-1 2
 nwg-launchers 0.7.1-1 3
 nwg-menu 0.1.1-1 3
@@ -1154,7 +1137,6 @@ orage 4.18.0-1 2
 organize 2.2.0-1 4
 orjail 1.1-2 1
 otpclient 3.1.6-1 2
-otter-browser-git 0.9.99.1.r2089.g0e53e6ab5-1 1
 overdue 1.1.1-1 1
 oxygen-cursors v1.0.0-1 1
 oxygen-git 5.27.80_r4560.g62c242b1-1 2
@@ -1304,14 +1286,12 @@ python-coloredlogs 15.0.1-3 3
 python-colorzero 2.0-2 3
 python-configshell-fb 1.1.29-1 3
 python-cssutils 2.6.0-1 3
-python-dacite 1.8.0-1 2
 python-dasbus 1.7-1 2
 python-elgato-streamdeck 0.9.3-1 2
 python-enzyme 0.4.1-5 3
 python-exifread 3.0.0-2 3
 python-fasm-git 0.0.2.r100.gffafe82-1 3
 python-ffmpeg 0.2.0-5 2
-python-flask-limiter 3.3.0-1 2
 python-gevent-eventemitter 2.1-3 3
 python-googletrans-git r116.d15c94f-1 3
 python-gpiozero 1.6.2-2 2
@@ -1331,7 +1311,6 @@ python-jaraco.packaging 9.1.2-1 2
 python-kiss-headers 2.3.1-2 3
 python-langcodes 3.3.0-1 1
 python-liblarch 3.2.0-1 3
-python-limits 3.3.1-1 2
 python-lyricsgenius 3.0.0-1 3
 python-manimpango 0.4.3-1 2
 python-manuf 1.1.5-1 2
@@ -1353,8 +1332,6 @@ python-pid 3.0.4-1 3
 python-plac 1.3.5-1 3
 python-playsound 1.3.0-2 3
 python-pluginbase 1.0.0-6 3
-python-poetry-core-git 1.1.0a7.r8.g935b11b-1 1
-python-poetry-git 1.2.0b3.r23.g601dc7896-1 1
 python-polib 1.2.0-1 2
 python-preshed 3.0.8-1 2
 python-proglog 0.1.10-1 3
@@ -1421,7 +1398,6 @@ qdirstat 1.8.1-1 3
 qimgv-git v1.0.3.alpha.r85.g22a8f2e-1 2
 qlcplus 4.12.6-1 2
 qnapi-git 0.2.3snapshot.r5.gd4e0378-1 3
-qogir-gtk-theme-git 2023.02.27.r26.g1dda914-1 2
 qogir-kde-theme-git r89.f430168-1 2
 qomui 0.8.2-2 3
 qomui-git 0.8.2.r22.23650ab-3 3
@@ -1482,7 +1458,6 @@ remmina-plugin-teamviewer 1.3.0.0-3 2
 replay-sorcery-git r282.d8d5921-2 2
 repoctl 0.21-3 1
 resp-app 2022.5-1 3
-retroarch-autoconfig-udev-git r2128.f2123bb-1 2
 retrolink-git r22.628f147-1 4
 retroshare 0.6.6-2 3
 revelation 0.5.4-1 3
@@ -1522,7 +1497,6 @@ rocketchat-desktop 3.9.3-1 2
 rocketlauncher2-git 0.1.0.2.r11.gbdb48cd-1 3
 rtl8192cu-fixes-git r118.e5c01a3-1 1
 rtl88x2ce-dkms 5.7.3_35403-4 1
-ruffle-git 1:r9115.6e8929e6d-1 2
 runescape-launcher 2.2.11-1 2
 rustdesk-nightly 1.2.0-0 2
 safeeyes 2.1.5-1 3
@@ -1539,7 +1513,6 @@ sddm-git 0.19.0.218.g58a3517-1 2
 sddm-kcm-git 5.27.80_r739.g8e586f7-1 2
 sddm-theme-astronaut 1.0-1 3
 sdformat-9 9.8.0-1 3
-sdrpp-git 1.0.4.r469.b89fdba-1 2
 searx 1.1.0-1 3
 searx-git 1.0.0.r490.g75b859d2-1 3
 servo-git r45462.a8f7c458117-1 2
@@ -1584,7 +1557,6 @@ soundux 0.2.7-2 3
 soundwire 3.0.0-4 3
 sourcetrail 2021.4.19-1 3
 spacefm-git 1.0.6.r80.ge257d15-3 3
-sparrow-wifi-git r189.7521e4d-1 2
 spectacle-git 23.03.70_r1548.g67fde5f8-1 2
 spectral-matrix-git 218.r648.g30028a2-1 4
 spot-client 0.4.0-1 2
@@ -1761,7 +1733,6 @@ trayscale 0.9.7-1 2
 trello 0.1.9-5 2
 trello-cli 0.5.1-1 3
 trello-git 0.1.1-1 3
-trilium 0.58.7-1 2
 trimage-git 1.0.6.r16.gad74684-1 4
 trousers 0.3.15-2 2
 trustedqsl 2.6.5-2 3
@@ -1806,7 +1777,6 @@ vim-coc-clangd-git r564.6abad1b-1 1
 vim-coc-css-git 2.0.0.r0.gfca6b25-1 3
 vim-coc-deno-git r282.44b7d02-1 2
 vim-coc-eslint-git 1.6.0.r0.g007ad15-1 2
-vim-coc-explorer-git 0.26.4.r1.gf8af6b5-1 2
 vim-coc-flutter-git 1.9.3.r19.g883c269-1 2
 vim-coc-git 0.0.82.r171.gbbaa1d5d-2 2
 vim-coc-git-git 2.6.1.r0.g618a4d3-1 2
@@ -1860,7 +1830,6 @@ waydroid-git 1.4.1.r0.g7ce2e28-1 2
 waydroid-image 18.1_20230422-1 2
 waydroid-image-gapps 18.1_20230422-1 2
 wayfire 0.7.5-1 2
-wayfire-git r2517.076dc76f-1 2
 wayfire-plugins-extra 0.7.5-1 2
 waypipe-git 0.8.6.r0.g033d0e7-1 2
 wcm 0.7.5-1 2
@@ -1923,7 +1892,6 @@ xdg-desktop-portal-kde-git 5.27.80_r674.g3768fd1-1 2
 xdg-desktop-portal-wlr-git v0.7.0.r0.g776113a-1 2
 xdman 1:7.2.11-2 2
 xembed-sni-proxy-git v5.26.90.r223.g8acfd6785-1 2
-xemu-git 0.7.88.r0.g9e1f5f2f19-1 2
 xen 4.17.0-1 3
 xfce-theme-manager 3.8-2 3
 xfce4-appfinder-devel 4.19.0-1 2
@@ -1968,14 +1936,12 @@ ytmdl 2023.2.28-0 3
 zandronum 3.1-2 2
 zeal 0.6.1-3 3
 zeal-git 0.6.1.r302.g1cfa7c6-1 2
-zecwallet-lite 1.7.13-2 1
 zeit-git 0.6.0.r8.gde6b5c2-1 2
 zenmap-python3-git 7.93-1 3
 zenmonitor3-git 89.2e68a31-1 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 1
 zotero-bin 6.0.26-1 2
-zrythm 1.0.0.beta.4.8.1-1 2
 zrythm-git 1:1.0.0.beta.4.5.62.r16.gdc3093182-1 2
 zsync2-git 2.0.0r225.1608115-1 1
 zulucrypt 6.2.0-1 3
