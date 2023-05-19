@@ -44,7 +44,6 @@ aqemu 0.9.4-2 3
 aqualung 1.1+4+g44a3f40-1 3
 aravis 0.8.26-1 3
 arch-update 1.5.3-1 3
-archinstall-git 2.4.0.dev0-1 6
 archlinux-java-run 9-1 1
 ark-git 23.03.70_r5003.gaaeebe0c-1 3
 armorpaint-git 0.9.r3115.g4ec16d38-1 3
@@ -78,8 +77,6 @@ ayatana-indicator-datetime 22.9.1-1 3
 ayatana-indicator-messages 22.9.0-1 1
 azote 1.11.0-2 3
 b43-firmware 6.30.163.46-1 1
-backintime 1.3.3-3 3
-backintime-cli 1.3.3-3 3
 backintime-cli-git 1.3.3.r11.g66d248fe-1 3
 backintime-git 1.3.3.r11.g66d248fe-1 3
 badwolf 1.2.2-2 4
@@ -221,7 +218,6 @@ cpupower-gui 1.0.0-5 3
 crazydiskinfo 1.1.0-2 2
 crossover 22.1.0-1 2
 crow-translate 2.10.4-1 2
-crow-translate-git 2.10.4.r1.g6a11598-1 2
 cryptobridge-bin 0.18.3-1 3
 csound-blue 2.8.1-1 3
 cura-bin 5.3.1-1 2
@@ -452,7 +448,7 @@ foxitreader 2.4.5.0727-1 3
 frameworkintegration-git 5.104.0_r670.g03219de-1 2
 freac 1.1.7-1 2
 freedownloadmanager 6.19.0.5156-2 2
-freeipa-client 4.10.1-1 2
+freeipa-client 4.10.1-1 3
 freeoffice 1062-1 2
 freetube 0.18.0-2 3
 friendiqa 0.6.7-1 2
@@ -486,7 +482,6 @@ gdm-plymouth 43.0-1 3
 gdm-plymouth-prime 43.0-1 2
 gdm-prime 43.0-1 3
 gdm-settings 3.1-2 3
-gdm-settings-git 3.1+76+gdca11d6-1 3
 gedit-plugin-markdown_preview 2.0-1 3
 gegl-git 0..r10515.401c6d30b-1 2
 genymotion 3.3.3-1 2
@@ -530,7 +525,6 @@ gnome-shell-extension-gsconnect-git 55.r40.g370493b7-1 2
 gnome-shell-extension-material-shell-git 1:r982.db20eb5-1 2
 gnome-shell-extension-pop-shell 1.2.0+292+g0e09473-1 2
 gnome-shell-extension-pop-shell-git r939.b5accce-1 2
-gnome-shell-extension-tiling-assistant-git 40.r2.gf991a6e-1 2
 gnome-shell-extension-ubuntu-dock-git 79ubuntu2.r0.gc4aa938-1 2
 gnome-shell-pomodoro 0.23.1-1 2
 godot-git 4.0.r52237.gc7aadab155a-1 2
@@ -660,7 +654,6 @@ kaddressbook-git 23.03.40_r6323.g2ca3d801-1 2
 kalarm-git 23_r8262.g5267c070-1 2
 kalendar-git 1.0.0.r549.gcba3027a-1 2
 kapidox-git 5.102.0_r585.gef3fe99-1 2
-karchive-git 5.105.0_r637.g38ba048-1 2
 kate-git 23.03.70_r20303.g05cc17771-1 2
 kauth-git 5.104.0_r540.g3f3e2cb-1 2
 kawaii-player 5.0.0-2 5
@@ -677,13 +670,10 @@ kcm-polkit-kde-git 1:5.9.0.r229.g294c719-1 2
 kcm-tablet-git r75.a363dd6-1 2
 kcm-uefi 0.1-1 3
 kcmutils-git 5.103.0_r709.g29207c9-1 2
-kcodecs-git 5.104.0_r481.g2cd2433-1 2
 kcolorpicker-git 0.2.0_r77.g15e1637-1 3
 kcompletion-git 5.105.0_r548.ga15ea6b-1 2
-kconfig-git 5.105.0_r1051.g7a42894c-1 2
 kconfigwidgets-git 5.105.0_r877.g608ac63c-1 2
 kcontacts-git 5.104.0_r3398.gb432eedb-1 2
-kcoreaddons-git 5.105.0_r1685.gd8853b37-1 2
 kcrash-git 5.104.0_r469.g86830ff-1 2
 kdav-git 1:5.104.0_r1387.gdda4bb8-1 2
 kdbusaddons-git 5.105.0_r467.gea86d6d-1 2
@@ -721,7 +711,6 @@ kdisplay-git 5.27.80_r1525.g58f4f3d-1 2
 kdisplay-kwinft 5.27-1 2
 kdnssd-git 5.105.0_r396.g0ef838b-1 2
 kdocker 5.4-1 3
-kdoctools-git 5.105.0_r719.gfead6ba-1 2
 kdsoap-git 2.1.2_r1872.g731a1202-1 2
 kdsoap-ws-discovery-client-git 0_r69.g602e3f9-1 2
 keeweb-desktop-bin 1.18.7-1 3
@@ -733,7 +722,6 @@ kfiredragonhelper 5.0.6-1 3
 kgamma5-git 5.27.80_r512.g9f4eb6d-1 2
 kget-git 23.03.70_r3334.g46f49972-1 2
 kglobalaccel-git 5.103.0_r629.ge302b1e-1 2
-kguiaddons-git 5.104.0_r532.g38b9fba-1 2
 khelpcenter-git 23.03.70_r2862.g236456a3-1 2
 kholidays-git 1:5.105.0_r1113.gbaa3e33-1 2
 khotkeys-git 5.27.80_r2215.g828e1d5-1 2
@@ -753,7 +741,6 @@ kio-git 5.103.0_r6062.g406b02e73-1 2
 kirigami-addons-git 0.7.2.r7.gefb5680-1 2
 kirigami2-git 5.105.0_r3645.g9bfdd04a-1 2
 kitemmodels-git 5.105.0_r643.gbf82e31-1 2
-kitemviews-git 5.105.0_r421.g48ed954-1 2
 kitinerary-git 5.22.42_r2695.g49b686ba-1 2
 kjobwidgets-git 5.104.0_r465.g5bb73a7-1 2
 kjs-git 5.102.0_r388.g6b34482-1 2
@@ -849,7 +836,6 @@ lbry-desktop-bin 0.53.9-1 2
 lbry-desktop-git 0.53.9.r10962.gd14c9141d-1 2
 leagueoflegends-git 13.7.2.r9.g93f07ed-1 2
 lens 6.4.15-1 2
-leocad-git 23.03.r15.ca11177a-1 2
 lib32-chromaprint 1.5.1-2 2
 lib32-ffmpeg 2:6.0-2 2
 lib32-fftw 3.3.10-3 1
@@ -868,7 +854,6 @@ lib32-mjpegtools 2.2.1-1 3
 lib32-nvidia-390xx-utils 390.157-2 2
 lib32-nvidia-470xx-utils 470.182.03-1 2
 lib32-obs-vkcapture-git r255.0a976a6-1 2
-lib32-primus-vk-git r150.2486f2a-1 3
 lib32-rtmpdump 1:2.4.r99.f1b83c1-1 1
 lib32-sratom 0.6.14-1 1
 lib32-wxgtk3 3.0.5.1-3 3
@@ -907,7 +892,6 @@ libreoffice-dev-bin 7.5.0.2-1 2
 libreoffice-extension-languagetool 6.0-1 2
 libreswan 4.10-1 2
 libretro-mupen64plus-next-git r468.90dae29e-1 2
-librewolf 112.0.2-1 2
 librewolf-extension-gnome-shell-integration 10.1-1 3
 librewolf-extension-noscript 11.2.11-1 3
 librewolf-extension-plasma-integration 1.8.1-2 3
@@ -1253,7 +1237,6 @@ powershell-bin 7.3.4-1 2
 prboom-plus 2.6.2-1 2
 prboom-plus-um-git 2.6.2.r66.g8be14f40-1 2
 prestopalette 0.1.31-1 3
-primus-vk-git r150.2486f2a-1 3
 prismlauncher 6.3-1 3
 prismlauncher-git 6.0.r403.g8dc32679-1 2
 prismlauncher-qt5 6.3-1 2
@@ -1302,8 +1285,8 @@ python-humblewx 0.2.2-1 2
 python-imageio 2.28.1-1 2
 python-injector 0.20.1-2 3
 python-inputs 0.5.0-1 6
-python-ipaclient 4.10.1-1 3
-python-ipalib 4.10.1-1 3
+python-ipaclient 4.10.1-1 4
+python-ipalib 4.10.1-1 4
 python-isounidecode 0.3-3 3
 python-itunespy 1.6-2 3
 python-jaconv 0.3.4-2 2
@@ -1375,7 +1358,6 @@ python-timeago 1.0.16-2 3
 python-transitions 0.9.0-1 2
 python-ufonormalizer 0.6.1-3 2
 python-vdf 3.4-2 3
-python-vlc 3.0.16120-1 2
 python-vosk 0.3.45-1 4
 python-wasabi 0.10.1-1 3
 python-x-wr-timezone 0.0.5-1 2
@@ -1503,7 +1485,6 @@ safeeyes 2.1.5-1 3
 sameboy 0.15.8-1 2
 saxon-he 11.4-1 1
 sayonara-player 1.7.0_stable3-1 3
-sayonara-player-git 1.8.0.beta1.r111.g2b88dd4f-1 2
 sc-controller 0.4.8.9-2 2
 schildichat-desktop 1.11.30.sc.1-1 2
 scid 5.0.2-1 2
@@ -1741,7 +1722,6 @@ tuner 1.5.1-3 2
 tuxclocker 0.1.1-2 3
 twinkle 1.10.3-1 3
 twinkle-git 1.10.3.r480.355813d-1 2
-typora 1.5.10-1 2
 ubertooth 2020.12.R1-2 3
 ucommon 7.0.1-1 2
 uefitool-git r230.8d6fa65-1 2
@@ -1801,7 +1781,6 @@ vim-vimwiki 2023.04.04_1-1 2
 vimiv-qt 0.8.0-2 4
 vimiv-qt-git r2411.8d2c7acf-1 3
 vimix-gtk-themes 2023.01.25-2 2
-vimix-gtk-themes-git r526.545d2e44-1 2
 vimv-git r47.3bb51a4-1 1
 virt-manager-meta 5-4 2
 virtualbox-ext-oracle 7.0.8-1 2
@@ -1817,7 +1796,6 @@ vosk-api 0.3.45-1 1
 vpaint-git v1.7.r22.g5805751-1 3
 vr-video-player-git r96.d094f73-3 2
 vscodium-electron 1.77.3.23102-1 2
-vscodium-git 1.77.0.23095.r4.g6137a9f-1 2
 vscodium-insiders 1.78.0.23095-1 2
 vscodium-insiders-marketplace 1.72.0-1 3
 vscodium-marketplace 1.65.0-1 3
@@ -1845,7 +1823,6 @@ wf-shell 0.7.0-3 2
 wget2 2.0.1-1 3
 whalebird 5.0.1-1 2
 whatsapp-for-linux 1.6.2-1 2
-whatsie-git v4.13.0.r307.b4b5dc3-1 2
 whoogle 0.8.2-1 2
 wike 2.0.1-1 2
 windscribe-bin 2.4.11-1 1
@@ -1924,9 +1901,7 @@ yaru-gtk-theme 23.04.4-1 2
 yaru-metacity-theme 23.04.4-1 2
 yaru-session 23.04.4-1 2
 yaup-git 0.1.r4.g7ee3fdb-1 4
-youplay 0.43-1 2
 youtube-bin 1.0.8-2 2
-youtube-music-bin 1.19.0-4 2
 youtube-search-python 1.6.6-2 3
 youtubedl-gui 3.0-1 3
 yozo-office 8.0.1331.101ZH.S1-6 1
@@ -1946,3 +1921,5 @@ zrythm-git 1:1.0.0.beta.4.5.62.r16.gdc3093182-1 2
 zsync2-git 2.0.0r225.1608115-1 1
 zulucrypt 6.2.0-1 3
 android-platform 33_r02-1.2 1
+freeipa-common 4.10.1-1 1
+freeipa-client-common 4.10.1-1 1
