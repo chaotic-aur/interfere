@@ -1,2 +1,0 @@
-#!/usr/bin/env sh
-sed -i 's/archlinux-appstream-data/archlinux-appstream-data-pamac/g' PKGBUILD
