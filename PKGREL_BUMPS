@@ -47,7 +47,6 @@ arch-update 1.5.3-1 3
 archlinux-java-run 9-1 1
 ark-git 23.03.70_r5003.gaaeebe0c-1 3
 armorpaint-git 0.9.r3115.g4ec16d38-1 3
-art-rawconverter 1.19.3-1 3
 artha 1.0.5-1 1
 asbru-cm-git 6.4.0.r5.g8dce568-1 3
 asix-ax88179-dkms 1.20.0-2 1
@@ -201,7 +200,6 @@ compiz-gtk 0.8.18-3 3
 conan 2.0.4-1 2
 connman-gtk 1.1.1-2 4
 consolekit 1.2.5-4 2
-contour-git 0.3.12.r3662.26d7c6ce-1 2
 contrast 0.0.7-1 2
 copypastegrab-git r84.9dfd205-1 3
 coreimage 4.4.0-1 3
@@ -217,7 +215,6 @@ cpu-x 4.5.3-1 2
 cpupower-gui 1.0.0-5 3
 crazydiskinfo 1.1.0-2 2
 crossover 22.1.0-1 2
-crow-translate 2.10.4-1 2
 cryptobridge-bin 0.18.3-1 3
 csound-blue 2.8.1-1 3
 cura-bin 5.3.1-1 2
@@ -522,7 +519,6 @@ gnome-shell-extension-dash-to-panel-git 56.r1.gbe8214d-1 2
 gnome-shell-extension-desktop-icons-ng 47.0.2-1 2
 gnome-shell-extension-gnome-ui-tune-git 1.7.3.r0.gc03e0e0-1 2
 gnome-shell-extension-gsconnect-git 55.r40.g370493b7-1 2
-gnome-shell-extension-material-shell-git 1:r982.db20eb5-1 2
 gnome-shell-extension-pop-shell 1.2.0+292+g0e09473-1 2
 gnome-shell-extension-pop-shell-git r939.b5accce-1 2
 gnome-shell-extension-ubuntu-dock-git 79ubuntu2.r0.gc4aa938-1 2
@@ -563,7 +559,6 @@ gtkcord4 0.0.10-1 2
 gtkglarea 2.1.0-6 3
 gtkhash 1.5-1 2
 gtksourceview-git r7220.5ac51629-1 2
-gtuber-git r417.83a614e-1 2
 guayadeque-git 0.4.7.r2229.1ae725ae-1 2
 guiscrcpy 1:2023.1.1-1 3
 gwe 0.15.5-3 4
@@ -1025,7 +1020,6 @@ neovim-plug 0.11.0-3 1
 neovim-remote 2.5.1-1 3
 nestopia 1.51.0-1 3
 network-manager-applet-nolibappindicator 1.30.0-1 2
-networkmanager-dmenu-git r169.121fc88-1 2
 networkmanager-qt-git 5.105.0_r1185.g03448fe-1 2
 nginx-mainline-mod-brotli 1:1.0.0rc-5 1
 nginx-mainline-mod-dav-ext 3.0.0-21 2
@@ -1534,7 +1528,6 @@ solvespace 3.1-1 3
 sonarr 3.0.10.1567-1 2
 sonnet-git 5.105.0_r767.ged03149-1 2
 soundcloud-dl-git v2.7.3.r0.g4276511-1 2
-soundux 0.2.7-2 3
 soundwire 3.0.0-4 3
 sourcetrail 2021.4.19-1 3
 spacefm-git 1.0.6.r80.ge257d15-3 3
@@ -1784,7 +1777,6 @@ vimix-gtk-themes 2023.01.25-2 2
 vimv-git r47.3bb51a4-1 1
 virt-manager-meta 5-4 2
 virtualbox-ext-oracle 7.0.8-1 2
-visual-studio-code-insiders-bin 1677825946-1 2
 vital-synth 1.5.5-1 2
 vkbasalt-cli 3.1.1-1 5
 vlc-git 4.0.0.r23113.gf7bb59d9f5-1 2
@@ -1923,3 +1915,4 @@ zulucrypt 6.2.0-1 3
 android-platform 33_r02-1.2 1
 freeipa-common 4.10.1-1 1
 freeipa-client-common 4.10.1-1 1
+pamac-aur 10.5.1-3 1
