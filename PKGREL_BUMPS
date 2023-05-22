@@ -27,7 +27,6 @@ alpm_octopi_utils-git r20.1e735c3-1 1
 alvr 19.1.0.r0.g969899c7-1 3
 amarok 2.9.71-2 4
 amberol 0.10.2-1 3
-amdgpu-fan 0.1.0-3 5
 amule-git 2.3.3.r42.e26d06a6e-3 1
 ananicy 2.2.1-1 4
 android-sdk 26.1.1-2 1
@@ -36,7 +35,6 @@ antimicrox 3.3.3-1 3
 anydesk-bin 6.2.1-2 4
 apostrophe 2.6.3-5 4
 app-icon-preview 3.3.0-1 3
-app-icon-preview-git 3.3.0.r12.gc26a720-1 3
 appflowy-bin 0.1.3-1 3
 appimagelauncher 2.2.0-6 4
 appmenu-gtk-module-git 0.7.6.r28.g76442be-1 3
@@ -162,7 +160,6 @@ celestia-addon-ulysses 2.0-1 2
 celestia-addon-vaders_tie_fighter 1-2 2
 celestia-addon-voyagers 2-2 2
 celestia-addon-xwing 1-3 2
-celluloid-git 0.25.r7.gafd012e-1 1
 cfs-zen-tweaks 1.2.0-1 1
 chaotic-keyring 20220803-1 1
 chaotic-neofetch-git 7.1.0.r166.gccd5d9f5-2 5
@@ -200,7 +197,6 @@ compiz-gtk 0.8.18-3 3
 conan 2.0.4-1 2
 connman-gtk 1.1.1-2 4
 consolekit 1.2.5-4 2
-contrast 0.0.7-1 2
 copypastegrab-git r84.9dfd205-1 3
 coreimage 4.4.0-1 3
 corekeyboard 4.4.0-1 3
@@ -444,7 +440,6 @@ fotokilof 4.2.6-1 3
 foxitreader 2.4.5.0727-1 3
 frameworkintegration-git 5.104.0_r670.g03219de-1 2
 freac 1.1.7-1 2
-freedownloadmanager 6.19.0.5156-2 2
 freeipa-client 4.10.1-1 3
 freeoffice 1062-1 2
 freetube 0.18.0-2 3
@@ -602,7 +597,6 @@ imagewriter 1.10.1432200249.1d253d9.2.15-1 2
 imaginary-teleprompter-bin 2.4.0-7 3
 imagine-git 0.7.1.r0.g278e380-1 3
 imeditor 0.9.7-1 3
-imhex 1.28.0-3 2
 incidenceeditor-git 5.22.40_r996.gdaaf3b3-1 2
 include-what-you-use 0.19-1 2
 insync-caja 3.7.9.50368-1 2
@@ -760,7 +754,6 @@ konsole-git 23.03.70_r8896.g5f380ca5a-1 2
 kontact-git 23.03.40_r5709.g0a18a905-1 2
 kontactinterface-git 5.22.41_r759.g9426f80-1 2
 konversation-git 1.9.230370.r9248.c86f262d-1 2
-koodo-reader-bin 1.5.4-2 2
 korganizer-git 23.03.40_r11952.g109e3a80d-1 2
 kotatogram-desktop-beta-dynamic-bin 1.4.9-5 2
 kpackage-git 5.103.0_r811.g0d3d264-1 2
@@ -796,7 +789,6 @@ kvantum-git 1.0.10.r1.gb50ad352-1 1
 kvantum-theme-layan-git r70.108e852-1 2
 kvantum-theme-matcha-git r11.a3b247b-1 3
 kvantum-theme-orchis-git r47.1fb7c7d-1 2
-kvantum-theme-qogir-git r89.f430168-1 2
 kvantum-theme-vimix-git 2021.09.05.r15.g29c4316-1 2
 kwallet-git 5.104.0_r1231.g353f494-1 2
 kwallet-pam-git 5.27.80_r284.gaf3180a-1 2
@@ -822,7 +814,6 @@ kwrited-git 5.27.80_r528.g1583ef3-1 2
 kxmlgui-git 5.103.0_r959.g05016661-1 2
 kxmlrpcclient-git 5.102.0_r508.g06ea4c7e9-1 2
 labplot-git 2.9.0_r11210.gf5676879e-1 2
-lagrange 1.15.9-1 2
 lanshare 1.2.1-8 3
 lantern-bin 7.0.3-1 2
 latte-dock-git 0.10.9.r39.ga0a4911a-1 2
@@ -893,7 +884,6 @@ librewolf-extension-plasma-integration 1.8.1-2 3
 librewolf-extension-xdm-browser-monitor 2.2-1 4
 libsdrplay 3.07.1-1 1
 libsearpc 2:3.3.0-2 3
-libselinux 3.5-1 1
 libstrangle-git 0.1.1.r135.0273e31-2 3
 libunity 7.1.4-15 3
 libva-git 2.18.0.r12.g4bb5f16c-1 2
@@ -947,7 +937,7 @@ mate-panel-genmon-git 5.1.0.r41.gd8f2540-1 3
 mate-panel-sntray-git 0.4.13.1.r3.ga5028a3-1 3
 mate-tweak 22.10.0-3 3
 materia-theme-git 20210322.r52.g6e585038-1 2
-material-kwin-decoration-git v7+39+g0e989e5-1 2
+material-kwin-decoration-git v7+39+g0e989e5-1 3
 matrix-registration 0.9.1-2 4
 mauikit-git 2.2.2.r92.g224e28f5-1 2
 mbox-importer-git 23.03.40_r621.gdba6c78-1 2
@@ -957,7 +947,6 @@ media-downloader 2.7.0-1 2
 mediainfo-gui-qt 23.04-1 2
 mediawriter 5.0.6-1 2
 mednaffe 0.9.2-1 3
-megasync-bin 4.9.1-3 2
 mellowplayer 3.6.8-0 3
 memavaild 0.6-2 3
 mendeleydesktop 1.19.8-1 3
@@ -1033,7 +1022,6 @@ nohang 0.2.0-1 3
 noisetorch 0.12.2-2 1
 non-euclidean-git r37.191fc4c-1 3
 nordpy 1.3.5-1 3
-normcap 0.4.1-1 2
 notejot 3.5.1-1 3
 notepadnext 0.6-1 2
 notion-app-enhanced 2.0.18-1 3
@@ -1076,7 +1064,6 @@ obs-vkcapture-git r255.0a976a6-1 2
 obsidian-icon-theme-git 4.15.r1.g4cccdd3f-1 1
 ocs-url 3.1.0-7 3
 octopi 0.14.0-2 2
-octopi-git 0.14.0.r6.a92868cb-1 2
 octopi-notifier-frameworks 0.14.0-2 2
 octopi-notifier-qt5 0.14.0-2 2
 oddjob 0.34.7-1 3
@@ -1103,7 +1090,6 @@ openfx-io 2.5.0-1 2
 openfx-misc 2.5.0-1 2
 openrazer-daemon 3.6.0-2 1
 openrazer-meta 3.6.0-2 1
-openrgb 0.8-1 2
 opensnitch-ebpf-module 1.5.7-1 2
 openswan 3.0.0-1 1
 openxray 1.6.02_1144-1 3
@@ -1302,7 +1288,6 @@ python-openrazer 3.6.0-2 1
 python-openrgb-git v0.2.15.r11.g44dff5e-1 2
 python-pa-ringbuffer 0.1.4-1 3
 python-patch-ng 1.17.4-3 3
-python-pathvalidate 2.5.2-1 2
 python-pdf2image 1.16.0-1 3
 python-pgi 0.0.11.2-1 3
 python-pid 3.0.4-1 3
@@ -1374,7 +1359,6 @@ qdirstat 1.8.1-1 3
 qimgv-git v1.0.3.alpha.r85.g22a8f2e-1 2
 qlcplus 4.12.6-1 2
 qnapi-git 0.2.3snapshot.r5.gd4e0378-1 3
-qogir-kde-theme-git r89.f430168-1 2
 qomui 0.8.2-2 3
 qomui-git 0.8.2.r22.23650ab-3 3
 qoob-git 0.2.1.r0.g2e3ed22-1 4
@@ -1521,7 +1505,6 @@ snapper-tools-git r13.5da1f15-1 2
 snkrx-drmfree-git r118.6b93a64-1 3
 soapysdrplay-git r72.c4bb9af-1 2
 soci 4.0.3-1 1
-softmaker-office-2021-bin 2021.1062-1 2
 solanum 3.0.1.r0.g3f84b1d-3 2
 solid-git 5.105.0_r857.g9528469-1 2
 solvespace 3.1-1 3
@@ -1541,7 +1524,6 @@ spotify-qt 3.9-1 3
 spotify-tray-git 1.3.2.r9.g7ec6ac4-1 2
 spread-sheet-widget 0.8-1 3
 sqlcl 22.2.0.172.1718-1 1
-srb2 2.2.10-1 3
 srb2kart 1.6-1 2
 stacer 1.1.0-1 3
 stacer-git 1.1.0.r108.g0f24534-1 3
@@ -1565,7 +1547,6 @@ sunshine 0.19.1-1 2
 superproductivity-bin 7.13.2-1 2
 supertuxkart-git 23148+18575-1 2
 surf-git 2.1.r10.g665a709-1 3
-swayfx 0.2-2 2
 swaylock-effects 1.6.10-1 1
 swaync 0.8.0-2 2
 swaystatus-git 0.3.0.r24.f2e7c6b-1 3
@@ -1793,7 +1774,6 @@ vscodium-insiders-marketplace 1.72.0-1 3
 vscodium-marketplace 1.65.0-1 3
 wahay-bin 6be34ec-1 3
 warp 0.5.4-1 1
-waterfox-g-bin 5.1.5-0 2
 waterfox-g3-bin 2.6-1 3
 waterfox-g4-bin 1.5-0 3
 waydroid-git 1.4.1.r0.g7ce2e28-1 2
@@ -1903,9 +1883,7 @@ ytmdl 2023.2.28-0 3
 zandronum 3.1-2 2
 zeal 0.6.1-3 3
 zeal-git 0.6.1.r302.g1cfa7c6-1 2
-zeit-git 0.6.0.r8.gde6b5c2-1 2
 zenmap-python3-git 7.93-1 3
-zenmonitor3-git 89.2e68a31-1 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 1
 zotero-bin 6.0.26-1 2
