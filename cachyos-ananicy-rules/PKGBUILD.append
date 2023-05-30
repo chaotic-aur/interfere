@@ -1,4 +1,0 @@
-pkgname=ananicy-rules
-pkgdesc='CachyOS - Ananicy rules'
-makedepends=(git)
-source=("${_gitname}::git+https://github.com/CachyOS/${_gitname}.git")
