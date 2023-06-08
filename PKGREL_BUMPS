@@ -158,7 +158,6 @@ chromeos-kde-theme-git r71.d10b58c-1 1
 chromium-wayland-vaapi 111.0.5563.146-1 2
 cider 1.5.9-5 2
 cinny-desktop 2.2.6-1 2
-citra-canary-git r9536.631c3f66a-1 2
 ckb-next 0.5.0-3 2
 clamav-unofficial-sigs 7.2.5-1 1
 clapper 0.5.2-1 3
@@ -168,7 +167,6 @@ cmake-extras-git r290-1 2
 cmst-git 2023.03.14-1 2
 cobang 0.10.1-1 2
 codelite 17.0.0-0 3
-codelite-unstable 17.2.0-1 2
 colorway 1.2.0-2 3
 commit 4.0-2 2
 compiz-core 0.8.18-3 3
@@ -409,7 +407,6 @@ fotokilof 4.2.6-1 3
 foxitreader 2.4.5.0727-1 3
 frameworkintegration-git 5.104.0_r670.g03219de-1 2
 freac 1.1.7-1 2
-freeipa-client 4.10.1-1 3
 freeoffice 1062-1 2
 freetube 0.18.0-2 3
 friendiqa 0.6.7-1 2
@@ -510,7 +507,6 @@ gtk-gnutella-git 1.2.2.r9.g12757e513-1 1
 gtk3-nocsd-git r82.512c2bd-1 3
 gtk4-telegrand 4.10.3-1 2
 gtkglarea 2.1.0-6 3
-gtkhash 1.5-1 2
 gtksourceview-git r7220.5ac51629-1 2
 guiscrcpy 1:2023.1.1-1 3
 gwe 0.15.5-3 4
@@ -538,7 +534,6 @@ i3lock-color 2.13.c.4-1 2
 i3lock-fancy-git r193.55f5c30-1 2
 ialauncher-git r127.b93f75d-1 4
 ibus-bamboo-git 0.8.2+RC3+2+gf8fab45-1 2
-icaclient 23.3.0.32-1 2
 ice-ssb 6.0.8-1 3
 icestorm-git r820.d20a5e9-1 2
 identity 0.5.0-1 2
@@ -893,7 +888,6 @@ mesen-x-git 1.0.1.r177.ge6d75fcf-1 2
 meshlab 2022.02-1 3
 meshlab-git 2022.02.r129.gc139a651f-1 2
 messagelib-git 5.22.41_r6933.gaab499eb2-1 2
-metadata-cleaner 2.5.1-1 2
 meteo-gtk 0.9.9.1-1 3
 meteo-qt-git 3.3-1 2
 metronome 1.0.0-1 3
@@ -902,7 +896,6 @@ micropad 4.2.1-1 2
 milou-git 5.27.80_r811.gc498381-1 2
 minecraft-launcher 1:1.0.1221-1 4
 minigalaxy 1.2.2-3 4
-mint-x-icons 1.6.4-1 1
 mintlocale 1.5.8-1 3
 mintstick 1.5.6-1 2
 miredo 1.2.6+r159+ge5f5652-1 1
@@ -1022,7 +1015,6 @@ openxray 1.6.02_1144-1 3
 optimus-manager 1.4-4 3
 optimus-manager-git 1.4.r12.g29d737f-1 3
 optimus-manager-qt 1.6.9-1 3
-optimus-manager-qt-git 1.6.9.r3.g7121c8e-1 2
 orage 4.18.0-1 2
 organize 2.2.0-1 4
 orjail 1.1-2 1
@@ -1037,7 +1029,6 @@ pacmanlogviewer-git 1.5.1.r0.g7e47e18-1 2
 pacui 1.14-1 1
 pacvis-git 0.2.7.r12.g34f7494-1 3
 pakka 0.0.2-1 1
-palemoon-gtk3-bin 1:32.1.0-1 2
 pamac-classic 7.3.0-2 4
 pamac-tray-icon-plasma 0.1.3-1 3
 paper-icon-theme-git 832.aa3e8af7-1 3
@@ -1074,7 +1065,6 @@ pim-data-exporter-git 23.03.40_r2869.g37814cc9-1 2
 pim-sieve-editor-git 23.03.40_r1735.ga679ceb-1 2
 pimcommon-git 5.22.49_r1978.gfa99d548-1 2
 pip-tools 6.13.0-1 3
-pix 2.8.9-1 3
 pixelorama 0.10.3-1 3
 pixelorama-git 2226.de7ef580-1 2
 pjsua 2.13-2 2
@@ -1123,7 +1113,6 @@ polkit-qt5-git v0.114.0.r13.g590e710-1 3
 polychromatic 0.8.1-1 3
 polyglot 3.5-1 3
 pop-bin 8.0.20-1 2
-pop-gtk-theme-git 5.5.1.r2.ge09de355-1 3
 pop-shell-plugin-system76-power-git 1.2.1.r47.gce2ba21-2 2
 pop-shell-shortcuts-git 1:r30.52cc83f-2 3
 popcorntime 0.4.9-1 3
@@ -1185,8 +1174,6 @@ python-humblewx 0.2.2-1 2
 python-imageio 2.28.1-1 2
 python-injector 0.20.1-2 3
 python-inputs 0.5.0-1 6
-python-ipaclient 4.10.1-1 4
-python-ipalib 4.10.1-1 4
 python-isounidecode 0.3-3 3
 python-itunespy 1.6-2 3
 python-jaconv 0.3.4-2 2
@@ -1271,7 +1258,6 @@ qca-qt6-git 2.3.5_r2475.ge05243a2-1 2
 qdigidoc4 4.3.0.4439-1 2
 qdirstat 1.8.1-1 3
 qimgv-git v1.0.3.alpha.r85.g22a8f2e-1 2
-qlcplus 4.12.6-1 2
 qnapi-git 0.2.3snapshot.r5.gd4e0378-1 3
 qomui 0.8.2-2 3
 qomui-git 0.8.2.r22.23650ab-3 3
@@ -1291,7 +1277,6 @@ qtfm 6.2.1-1 3
 qtforkawesome 0.1.0-1 3
 qtkeychain-qt5-git _r381.g8485316-1 2
 qtscrcpy 2.1.2-1 3
-qtutilities 6.12.0-1 2
 qtwebflix-git 0.1.r190.g54c2c1b-1 3
 quartus-130 13.0.1.232-1 1
 quassel-client-git 0.14.0.r7.gb2deed91-1 2
@@ -1379,7 +1364,6 @@ sddm-kcm-git 5.27.80_r739.g8e586f7-1 2
 sddm-theme-astronaut 1.0-1 3
 sdformat-9 9.8.0-1 3
 searx-git 1.0.0.r490.g75b859d2-1 3
-servo-git r45462.a8f7c458117-1 2
 shadowsocks-gtk-rs 0.4.1-1 3
 share-preview 0.3.0-1 2
 shortwave 1:3.2.0-1 2
@@ -1433,7 +1417,6 @@ startgame 1.2.3-1 3
 steam-rom-manager-git 2.4.14-1 2
 steamtinkerlaunch 12.12-1 2
 stellarium 23.1-2 2
-sticky-git 1.14.r4.g7760fb1-1 2
 streamlink-twitch-gui-bin 2.2.0-1 2
 stylepak-git 18.0c4b0c1-1 2
 sublime-text-4 4.4143-4 2
@@ -1445,7 +1428,6 @@ superproductivity-bin 7.13.2-1 2
 supertuxkart-git 23148+18575-1 2
 surf-git 2.1.r10.g665a709-1 3
 swaylock-effects 1.6.10-1 1
-syncthingtray 1.4.1-1 2
 syndication-git 5.103.0_r896.g311d4ef-1 2
 synfig-dev 1.5.1-4 2
 synfigstudio-dev 1.5.1-1 2
@@ -1485,7 +1467,6 @@ themix-plugin-base16-git 1.5.3.r20.g5e06d79-1 2
 themix-theme-arc-git 20190917.r4.g1fd68cc-1 1
 themix-theme-materia-git 20210322.r52.g6e585038-1 2
 themix-theme-oomox-git 1.12.4.r6.g71d8d5a9-1 2
-thonny 4.0.2-1 3
 thorium-bin 2.2.0-1 2
 threadweaver-git 5.105.0_r568.g2a600a4-1 2
 threema-web 2.5.1-1 2
@@ -1635,7 +1616,6 @@ vim-coc-vetur-git 1.2.4.r2.ga525569-1 3
 vim-coc-yaml-git 1.9.0.r0.g40880b1-1 3
 vim-coc-zsh-git r3.ef6b0ca-1 3
 vim-colorschemes r215.fd8f122-1 3
-vim-slime-git r373.bb15285-1 2
 vim-vimwiki 2023.04.04_1-1 2
 vimiv-qt 0.8.0-2 4
 vimiv-qt-git r2411.8d2c7acf-1 3
@@ -1668,13 +1648,11 @@ waypipe-git 0.8.6.r0.g033d0e7-1 2
 wcm 0.7.5-1 2
 wdisplays 1.1-1 3
 wdisplays-git 1.1.r0.ga9aa747-1 3
-webapp-manager 1.2.8-1 2
 webcamoid 9.0.0-2 3
 webkit2gtk-unstable 2.38.0-1 3
 webwatcher-git r24.3d3099f-2 2
 wf-osk-git r13.d2e2e32-1 3
 wf-shell 0.7.0-3 2
-wget2 2.0.1-1 3
 whalebird 5.0.1-1 2
 whoogle 0.8.2-1 2
 wike 2.0.1-1 2
@@ -1767,8 +1745,7 @@ zrythm-git 1:1.0.0.beta.4.5.62.r16.gdc3093182-1 2
 zsync2-git 2.0.0r225.1608115-1 1
 zulucrypt 6.2.0-1 3
 android-platform 33_r02-1.2 1
-freeipa-common 4.10.1-1 1
-freeipa-client-common 4.10.1-1 1
 pamac-aur 10.5.1-3 1
 streamdeck-ui-git 2.0.15.r8.g9b9c269-1 1
 python39 3.9.16-2 1
+tenacity-git 1:r14542.g6ad0bf9e9-1 1
