@@ -802,7 +802,6 @@ libinput-gestures 2.74-1 2
 libinput_gestures_qt 0.3.2+7+g0868859-1 3
 libkdcraw-git v22.12.0.r3.gd1fef38-1 2
 libkdepim-git 5.23.40_r983.g61fb5b0-1 2
-libkexiv2-git 5.0.0_r835.gdd4c552-1 2
 libkgapi-git 5.23.40_r1549.g14794274-1 2
 libkipi-git 5.2.0_r1287.gd143c44-1 2
 libkleo-git 5.23.40_r1418.gdd0fb16-1 2
@@ -1744,3 +1743,4 @@ pamac-aur 10.5.1-3 1
 streamdeck-ui-git 2.0.15.r8.g9b9c269-1 1
 python39 3.9.16-2 1
 nomacs 1:3.17.2206-13 1
+photoqt 3.2-1 1
