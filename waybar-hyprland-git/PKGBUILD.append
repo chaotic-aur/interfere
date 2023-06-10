@@ -1,1 +1,0 @@
-makedepends+=(jack2 wireplumber libinput playerctl)
