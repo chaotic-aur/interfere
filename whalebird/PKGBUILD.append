@@ -1,1 +1,5 @@
-makedepends+=(git python)
+makedepends+=(git node-gyp)
+
+if [ x"$cnflicts" != "x" ] ; then
+  conflicts=(${cnflicts[@]})
+fi
