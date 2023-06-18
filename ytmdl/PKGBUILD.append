@@ -15,7 +15,7 @@ depends=(
 
   # AUR
   "downloader-cli"
-  "python-ffmpeg"
+  "python-ffmpeg-python"
   "python-itunespy"
   "python-pydes"
   "python-simber"
