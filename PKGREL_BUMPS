@@ -1008,7 +1008,6 @@ passbook-git 0.8.r36.g750825d-1 4
 patool 1.12-5 6
 pcem 17-4 2
 pcsxr 1.9.95-2 3
-pdf-xchange 9.5.368.0-1 2
 pdf2png 0.5.3-1 3
 pdfquirk 0.95-1 3
 peazip-qt5 9.2.0-1 2
@@ -1504,7 +1503,7 @@ todoist-nativefier 2022.12.26-1 2
 touche 2.0.9-1 2
 touchegg 2.0.16-1 2
 trayscale 0.9.7-1 2
-trello 0.1.9-5 2
+trello 0.1.9-5 3
 trello-cli 0.5.1-1 3
 trello-git 0.1.1-1 3
 trimage-git 1.0.6.r16.gad74684-1 4
