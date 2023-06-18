@@ -50,7 +50,6 @@ audiotube-git 23.01.0.r173.gf976e9e-1 3
 aura 3.2.9-1 1
 auracle-git r366.8739929-5 3
 ausweisapp2 1.26.4-1 3
-authenticator 4.2.0-2 3
 authpass-bin 1.9.7-1 4
 authselect 1.4.2-1 3
 authy 2.3.0-1 3
@@ -104,7 +103,6 @@ cabbage-bin 2.8.0-1 1
 caffeine 2.9.12-1 3
 cage-git 0.1.4.r54.gbd5b20e-1 2
 calamares-git .r10586.29ef9e909-1 1
-calcmysky 0.3.0-1 2
 calendarsupport-git 5.22.40_r790.g9a3eea6-1 2
 calligra-git 3.3.89_r101964.gbc66e4b610b-1 2
 canta-gtk-theme-git 2021.09.08.r6.332fdec-1 1
@@ -141,7 +139,6 @@ celestia-addon-vaders_tie_fighter 1-2 2
 celestia-addon-voyagers 2-2 2
 celestia-addon-xwing 1-3 2
 cfs-zen-tweaks 1.2.0-1 1
-chaotic-keyring 20220803-1 1
 chaotic-neofetch-git 7.1.0.r166.gccd5d9f5-2 5
 cheese-git 44.0.1+r3+gab37580f-1 2
 chemtool 1.6.14-4 1
@@ -218,7 +215,6 @@ dolphin-emu-nogui-git 5.0.r19268.g8fbfee03ab-1 2
 dolphin-git 23.03.70_r7304.g5a5a82a0c-1 2
 dolphin-megasync-bin 3.6.6-2 2
 dolphin-plugins-git 23.03.70_r730.gf8ede92-1 2
-doomrunner 1.7.1-1 2
 dosbox-staging 1:0.80.1-2 2
 dosbox-x 2023.05.01-1 2
 dotfonts-git r64.a768278-1 3
@@ -434,7 +430,6 @@ gimp-elsamuko-git r88.b401697-1 2
 gimp-extras 2.0.4-1 2
 gimp-git 2:2.99.15.r494.5112394636-1 2
 gimp-plugin-normalmap 1.2.3-2 3
-gis-weather 0.8.4.1-1 3
 git-cinnabar 0.6.1-1 2
 git-fixup-git v1.5.0.r8.g76c688c-1 1
 github-desktop 3.2.1-1 2
@@ -446,7 +441,6 @@ glew-egl-glx 2.2.0-1 3
 gmenu 0.3.0-3 2
 gmsh-bin 4.11.1-1 2
 gmusicbrowser 1.1.16-1 1
-gnome-2048-git 3.38.2.r28.gfef77d8-1 2
 gnome-browser-connector 42.1-3 4
 gnome-calendar-git 44.1+19+g412f8bc4-1 2
 gnome-gesture-improvements r201.f007cac-1 2
@@ -458,7 +452,6 @@ gnome-obfuscate 0.0.9-1 2
 gnome-shell-extension-appindicator-git 1:53+0+g078af31-1 2
 gnome-shell-extension-dash-to-panel-git 56.r1.gbe8214d-1 2
 gnome-shell-extension-gnome-ui-tune-git 1.7.3.r0.gc03e0e0-1 2
-gnome-shell-extension-gsconnect-git 55.r40.g370493b7-1 2
 gnome-shell-extension-pop-shell 1.2.0+292+g0e09473-1 2
 gnome-shell-extension-pop-shell-git r939.b5accce-1 2
 gnome-shell-pomodoro 0.23.1-1 2
@@ -549,7 +542,6 @@ itch-setup-bin 1.26.0-1 2
 j9-git r4387.a6f48f96-1 2
 jade-application-kit 3.5.7-2 3
 jameica 2.10.4-1 2
-jamesdsp-pulse 2.4-1 3
 java-p7zip-binding 16.02-2 1
 java-resolver 1.2-4 1
 java-skinlf 6.7-5 1
@@ -746,7 +738,6 @@ kxmlgui-git 5.103.0_r959.g05016661-1 2
 kxmlrpcclient-git 5.102.0_r508.g06ea4c7e9-1 2
 labplot-git 2.9.0_r11210.gf5676879e-1 2
 lanshare 1.2.1-8 3
-lantern-bin 7.0.3-1 2
 latte-dock-git 0.10.9.r39.ga0a4911a-1 2
 layer-shell-qt-git 5.27.80_r76.g3c85e2e-1 2
 lbry-desktop-bin 0.53.9-1 2
@@ -807,7 +798,6 @@ librewolf-extension-noscript 11.2.11-1 3
 librewolf-extension-plasma-integration 1.8.1-2 3
 librewolf-extension-xdm-browser-monitor 2.2-1 4
 libsdrplay 3.07.1-1 1
-libsearpc 2:3.3.0-2 3
 libstrangle-git 0.1.1.r135.0273e31-2 3
 libunity 7.1.4-15 3
 libva-intel-driver-g45-h264 1:2.4.1-2 3
@@ -945,13 +935,8 @@ nvidia-470xx-dkms 470.182.03-2 2
 nvidia-470xx-settings 470.182.03-1 2
 nvidia-470xx-utils 470.182.03-2 2
 nvidia-exec 0.1.0-4 2
-nvidia-open-beta 530.41.03-1 2
-nvidia-open-beta-dkms 530.41.03-1 2
-nvidia-settings-beta 530.41.03-1 2
-nvidia-utils-beta 530.41.03-1 2
 nvidia-vaapi-driver-git 0.0.9.r7.gc0a7f54-1 2
 nvim-yarp-git r59.bb5f5e0-1 2
-nvlax-git r11.b3699ad-5 3
 nwg-bar 0.1.3-1 2
 nwg-drawer 0.3.8-1 2
 nwg-launchers 0.7.1-1 3
@@ -980,11 +965,9 @@ olive-git continuous.r2470.ge7982239b-1 2
 olivia r858.4048134-1 2
 onedrivegui-git 1.0.2.r11.g2e5b259-1 2
 onedriver 0.13.0-0 2
-onlyoffice-bin 7.3.3-1 2
 openal-examples-git 1.23.1.r38.gce588ea5-1 2
 openbangla-keyboard 2.0.0-7 3
 openboard 1.6.4-2 2
-opencl-nvidia-beta 530.41.03-1 2
 openctm-tools 2:1.0.3-1 3
 opendoas-sudo 1-1 1
 openfx-arena 2.5.0-1 2
@@ -994,7 +977,6 @@ openfx-misc 2.5.0-1 2
 openswan 3.0.0-1 1
 openxray 1.6.02_1144-1 3
 optimus-manager 1.4-4 3
-optimus-manager-git 1.4.r12.g29d737f-1 3
 optimus-manager-qt 1.6.9-1 3
 orage 4.18.0-1 2
 organize 2.2.0-1 4
@@ -1046,7 +1028,6 @@ pim-data-exporter-git 23.03.40_r2869.g37814cc9-1 2
 pim-sieve-editor-git 23.03.40_r1735.ga679ceb-1 2
 pimcommon-git 5.22.49_r1978.gfa99d548-1 2
 pip-tools 6.13.0-1 3
-pixelorama 0.10.3-1 3
 pixelorama-git 2226.de7ef580-1 2
 pjsua 2.13-2 2
 plasma-browser-integration-git 5.27.80_r1436.g8aa1b8a1-1 2
@@ -1105,7 +1086,6 @@ powerpill 2021.11-4 4
 powershell 7.3.4-3 2
 powershell-bin 7.3.4-1 2
 prboom-plus 2.6.2-1 2
-prboom-plus-um-git 2.6.2.r66.g8be14f40-1 2
 prestopalette 0.1.31-1 3
 prismlauncher 6.3-1 3
 prismlauncher-git 6.0.r403.g8dc32679-1 2
@@ -1211,7 +1191,6 @@ python-sphinx-automodapi 0.15.0-1 2
 python-sphinxcontrib-svg2pdfconverter 1.2.2-1 2
 python-spotipy 2.23.0-1 2
 python-srsly 2.4.4-1 3
-python-srt 3.5.2-1 3
 python-steam 1.4.4-1 2
 python-steamgriddb 1.0.5-1 4
 python-suntime 1.2.5-1 3
@@ -1711,8 +1690,8 @@ zenpower3-dkms 0.2.0-3 1
 zotero-bin 6.0.26-1 2
 zrythm-git 1:1.0.0.beta.4.5.62.r16.gdc3093182-1 2
 zulucrypt 6.2.0-1 3
-android-platform 33_r02-1.2 1
 pamac-aur 10.5.1-3 1
 streamdeck-ui-git 2.0.15.r8.g9b9c269-1 1
 art-rawconverter 1.20-1 1
 flatseal 2.0.1-1 1
+spleeter-git 2.3.2.r45.g0b26dec-1 1
