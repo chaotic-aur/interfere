@@ -1,2 +1,0 @@
-makedepends+=(cmake gi-docgen)
-depends+=(sysprof)
