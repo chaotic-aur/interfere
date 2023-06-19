@@ -1,0 +1,6 @@
+pkgver() {
+  cd "$srcdir/$pkgname"
+
+  git describe --long --tags --match [0-9]*.[0-9]*.[0-9] --match [0-9]*.[0-9]*.[0-9][0-9] \
+    | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
+}
