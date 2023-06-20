@@ -1,1 +1,1 @@
-depmakedepends+=(lib32-gcc-libs)
+makedepends+=(multilib-devel)
