@@ -1,0 +1,21 @@
+pkgver=$( printf '%s' "$pkgver" | sed 's@_@.@g' )
+
+
+# mindustry does not currently build with jdk > 19,
+# so need to set java-environment to a supported version.
+
+makedepends=(${makedepends[@]/java-environment*})
+makedepends+=('java-environment=17')
+
+
+# java-runtime can be unversioned inside package
+
+depends=(${depends[@]/java-runtime*})
+
+eval _orig_"$(declare -f _package_common)"
+
+_package_common() {
+  depends+=('java-runtime')
+
+  _orig__package_common
+}
