@@ -22,12 +22,10 @@ akregator-git 23.03.40_r6598.g5a344362-1 3
 alpm_octopi_utils 1.0.2-3 2
 alpm_octopi_utils-git r20.1e735c3-1 1
 alvr 19.1.0.r0.g969899c7-1 3
-amarok 2.9.71-2 4
 amule-git 2.3.3.r42.e26d06a6e-3 1
 ananicy 2.2.1-1 4
 android-sdk 26.1.1-2 1
 angrysearch 1.0.4-1 4
-antimicrox 3.3.3-1 3
 anydesk-bin 6.2.1-2 4
 app-icon-preview 3.3.0-1 3
 appflowy-bin 0.1.3-1 3
@@ -202,8 +200,6 @@ disneyplus 1.0.3-4 2
 dissenter-browser-bin 1.5.114-2 4
 dockbarx 2:1.0beta2-1 3
 dogecoin-qt 1.14.6-4 2
-dolphin-emu-git 5.0.r19268.g8fbfee03ab-1 2
-dolphin-emu-nogui-git 5.0.r19268.g8fbfee03ab-1 2
 dolphin-git 23.03.70_r7304.g5a5a82a0c-1 2
 dolphin-megasync-bin 3.6.6-2 2
 dolphin-plugins-git 23.03.70_r730.gf8ede92-1 2
@@ -473,7 +469,7 @@ gtk4-telegrand 4.10.3-1 2
 gtkglarea 2.1.0-6 3
 gtksourceview-git r7220.5ac51629-1 2
 guiscrcpy 1:2023.1.1-1 3
-gwe 0.15.5-3 4
+gwe 0.15.5-3 5
 gwenview-git 23.03.70.r7037-1 2
 haguichi 1.4.6-1 2
 hakuneko-desktop 6.1.7-2 3
@@ -816,7 +812,6 @@ manuskript-git 0.15.0.r1.g2f93c2f-1 2
 marble-common-git 20.12.3.360.g779b14f5f-1 2
 marble-git 20.12.3.360.g779b14f5f-1 2
 marktext-bin 0.17.1-1 3
-masterpdfeditor 5.9.40-4 2
 masterpdfeditor-free 4.3.89-1 3
 mastodon 4.1.2-1 2
 mate-hud 22.10.3-1 4
@@ -1142,7 +1137,6 @@ python-pynput 1.7.6-2 3
 python-pyo 1.0.5-1 2
 python-pypdf2 1:2.12.1-3 2
 python-pyrr 0.10.3-1 3
-python-pysdl2 0.9.15-1 2
 python-pywhat 5.1.0-4 2
 python-qt-material-git r243.20230206-1 2
 python-rarfile 4.0-3 3
@@ -1445,7 +1439,6 @@ thunderbird-beta-i18n-zh-cn 113.0b5-2 2
 thunderbird-beta-i18n-zh-tw 113.0b5-2 2
 tidal-dl-git 2022.08.29.1.r33.g513be57-1 2
 tidal-gui 2022.1.18.3-1 3
-tiddlydesktop 0.0.16-1 2
 timelineproject-hg 2.8.0.r7893-1 2
 timeshift-autosnap 0.9-1 3
 timetrack 2.0.8-1 3
@@ -1472,7 +1465,6 @@ uefitool-git r230.8d6fa65-1 2
 ulauncher 5.15.2-1 3
 ums 13.3.0-1 2
 unflac 1.0-1 1
-update-grub 0.0.1-7 1
 uresourced 0.5.3-1 1
 usbaudio-git r4.6f46c43-1 3
 usbimager 1.0.9-1 2
@@ -1519,7 +1511,6 @@ vim-coc-zsh-git r3.ef6b0ca-1 3
 vim-colorschemes r215.fd8f122-1 3
 vim-vimwiki 2023.04.04_1-1 2
 vimiv-qt 0.8.0-2 4
-vimix-gtk-themes 2023.01.25-2 2
 vimv-git r47.3bb51a4-1 1
 virt-manager-meta 5-4 2
 virtualbox-ext-oracle 7.0.8-1 2
@@ -1649,4 +1640,3 @@ mysql 8.0.33-1 1
 php73-intl 7.3.33-10 1
 podman-desktop 1.1.0-1 1
 tor-browser 12.5-1 1
-ungoogled-chromium 114.0.5735.198-1 1
