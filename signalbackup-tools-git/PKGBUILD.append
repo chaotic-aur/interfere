@@ -1,4 +1,0 @@
-build() {
-	cd "$srcdir/${pkgname%-git}"
-	/bin/sh ./BUILDSCRIPT.sh
-}

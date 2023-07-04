@@ -1,4 +1,0 @@
-makedepends+=(python)
-check() {
-    echo "Removed as build breaking"
-}
