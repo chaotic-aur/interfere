@@ -77,7 +77,6 @@ bluedevil-git 5.27.80_r2572.gce191bd9-1 3
 bluetooth-autoconnect 1.3-1 5
 bluez-qt-git 5.105.0_r741.g2ba724b-1 1
 boca 1:1.0.7-1 3
-bombsquad 1.7.19-1 3
 bookworm-git 1.1.2.r240.g95e6ef7-1 3
 bootiso 4.2.0-1 1
 boxtron 0.5.4-1 5
@@ -171,7 +170,6 @@ crazydiskinfo 1.1.0-2 2
 crossover 22.1.0-1 2
 cryptobridge-bin 0.18.3-1 3
 csound-blue 2.8.1-1 3
-cura-bin 5.3.1-1 2
 dashbinsh 0.1-5 1
 davinci-resolve 18.1.4-1 2
 davinci-resolve-studio 18.1.4-1 2
@@ -201,7 +199,6 @@ dissenter-browser-bin 1.5.114-2 4
 dockbarx 2:1.0beta2-1 3
 dogecoin-qt 1.14.6-4 2
 dolphin-git 23.03.70_r7304.g5a5a82a0c-1 2
-dolphin-megasync-bin 3.6.6-2 2
 dolphin-plugins-git 23.03.70_r730.gf8ede92-1 2
 dosbox-staging 1:0.80.1-2 2
 dosbox-x 2023.05.01-1 2
@@ -365,7 +362,6 @@ flare-engine 1.14-1 2
 flare-game 1.14-1 2
 flashfocus-git v2.3.1.r0.gaa710b9-1 3
 flashplugin 32.0.0.465-1 1
-flycast 2.1-1 2
 fmit 1.2.14-1 3
 fondo 1.6.1-2 3
 fontdownloader 10.0.0-1 3
@@ -415,7 +411,6 @@ gimp-git 2:2.99.15.r494.5112394636-1 2
 gimp-plugin-normalmap 1.2.3-2 3
 git-cinnabar 0.6.1-1 2
 git-fixup-git v1.5.0.r8.g76c688c-1 1
-github-desktop 3.2.1-1 2
 gitify-bin 4.3.1-1 2
 gittyup 1.3.0-1 2
 gksu 2.0.2-6 2
@@ -737,7 +732,6 @@ lib32-lilv 0.24.20-1 2
 lib32-lv2 1.18.10-1 1
 lib32-mjpegtools 2.2.1-1 3
 lib32-nvidia-390xx-utils 390.157-2 2
-lib32-nvidia-470xx-utils 470.182.03-1 2
 lib32-rtmpdump 1:2.4.r99.f1b83c1-1 1
 lib32-sratom 0.6.14-1 1
 lib32-wxgtk3 3.0.5.1-3 3
@@ -813,7 +807,6 @@ marble-common-git 20.12.3.360.g779b14f5f-1 2
 marble-git 20.12.3.360.g779b14f5f-1 2
 marktext-bin 0.17.1-1 3
 masterpdfeditor-free 4.3.89-1 3
-mastodon 4.1.2-1 3
 mate-hud 22.10.3-1 4
 mate-menu 22.04.2-1 3
 mate-panel-genmon-git 5.1.0.r41.gd8f2540-1 3
@@ -840,7 +833,6 @@ messagelib-git 5.22.41_r6933.gaab499eb2-1 2
 meteo-gtk 0.9.9.1-1 3
 meteo-qt-git 3.3-1 2
 metronome 1.0.0-1 3
-micromamba 1.4.2-1 2
 micropad 4.2.1-1 2
 milou-git 5.27.80_r811.gc498381-1 2
 minecraft-launcher 1:1.0.1221-1 4
@@ -864,7 +856,6 @@ mpv-full 0.35.1-2 4
 mpv-full-git 0.35.1.r339.gd1d0b1a8ee-1 2
 ms-office-online 2:2.1.1-1 3
 mugshot 0.4.3-3 3
-mullvad-vpn 2023.3-2 2
 multibootusb 9.2.0-5 3
 multimc5 0.6.16-3 2
 munt-qt 2.7.0-4 3
@@ -903,11 +894,8 @@ nteract-bin 0.28.0-1 3
 ntfs3-dkms 1:5.17-1 1
 nuclear-player-bin 1667906953281:2022118_2aafe80b9a7a18d4b506b4f8b92005cc-2 2
 numix-icon-theme-git 23.04.26.r0.g71b89af4f-1 1
-nvidia-390xx-dkms 390.157-4 1
 nvidia-390xx-settings 390.157-1 2
-nvidia-390xx-utils 390.157-4 1
 nvidia-470xx-dkms 470.182.03-2 2
-nvidia-470xx-settings 470.182.03-1 2
 nvidia-470xx-utils 470.182.03-2 2
 nvidia-exec 0.1.0-4 2
 nvidia-vaapi-driver-git 0.0.9.r7.gc0a7f54-1 2
@@ -919,7 +907,6 @@ nwg-menu 0.1.1-1 3
 nwg-wrapper 0.1.3-2 2
 nx-firewall-git 0.1.r116.gdbe0809-1 3
 nxagent 3.5.99.26-1 1
-nyrna 2.11.1-2 2
 obs-backgroundremoval 0.5.17-1 2
 obs-gstreamer 1:0.4.0-1 2
 obs-streamfx 0.11.1-1 4
@@ -1037,10 +1024,8 @@ plymouth-theme-aregression 1.1-1 1
 pm-utils 1.4.1-8 1
 poddr-bin 2.0.0-4 2
 pokemon-colorscripts-git r112.0483c85-1 3
-pokerth 1.1.2-24 2
 pokete-git 0.9.1-1 2
 polkit-kde-agent-git 5.27.80_r567.gd55c17c-1 2
-polkit-qt5-git v0.114.0.r13.g590e710-1 3
 polychromatic 0.8.1-1 3
 polyglot 3.5-1 3
 pop-bin 8.0.20-1 2
@@ -1050,17 +1035,12 @@ popcorntime-git 0.4.4.r1879.g64553fa7-1 3
 popsicle 1.3.1-1 2
 popsicle-git 1.3.1.r11.g6b49ef3-1 2
 powerdevil-git 5.27.80_r2683.g1883de98-1 2
-powershell 7.3.4-3 2
-powershell-bin 7.3.4-1 2
 prboom-plus 2.6.2-1 2
 prestopalette 0.1.31-1 3
-prismlauncher-git 6.0.r403.g8dc32679-1 2
-prismlauncher-qt5-git 6.0.r403.g8dc32679-1 2
 prison-git 5.105.0_r423.g52975d3-1 2
 processing 4.2-1 2
 proftpd 2:1.3.8-1 1
 protonup-git 0.1.5.r0.g54bcad9-1 3
-protonup-qt 2.8.0-1 3
 protonvpn-cli 3.13.0-2 4
 protonvpn-gui 1.12.0-1 4
 psautohint 3:2.4.0-2 2
@@ -1186,7 +1166,6 @@ qt-jdenticon 0.3.0-1 3
 qt-solutions-git 56.777e95b-1 2
 qt-virt-manager 0.72.99-4 3
 qt5-styleplugins 5.0.0.20170311-35 2
-qt6gtk2 0.2-7 2
 qtfm 6.2.1-1 3
 qtforkawesome 0.1.0-1 3
 qtkeychain-qt5-git _r381.g8485316-1 2
@@ -1226,7 +1205,6 @@ repoctl 0.21-3 1
 resp-app 2022.5-1 3
 retrolink-git r22.628f147-1 4
 retroshare 0.6.6-2 3
-revolt-desktop-git 1:1.0.7.r0.g19df085-1 3
 riftshare 0.1.9-4 3
 ripcord 0.4.29-1 2
 ripcord-arch-libs 0.4.29-3 2
@@ -1319,7 +1297,6 @@ stacer-git 1.1.0.r108.g0f24534-1 3
 startgame 1.2.3-1 3
 steam-rom-manager-git 2.4.14-1 2
 steamtinkerlaunch 12.12-1 2
-stellarium 23.1-2 2
 streamlink-twitch-gui-bin 2.2.0-1 2
 stylepak-git 18.0c4b0c1-1 2
 sublime-text-4 4.4143-4 2
@@ -1341,7 +1318,6 @@ systemd-boot-pacman-hook 3-1 1
 systemd-guest-user 33.2-1 1
 systemd-kcm 1.2.1-5 3
 systemd-manager-git 1.0.0.r12.g4efeb47-1 2
-systemd-oomd-defaults 251.5-1 1
 systemsettings-git 5.27.80_r2859.g61e6b368-1 2
 systray-x-git 0.9.2.r13.g4b9ebc9-1 2
 tahoma2d 1.3-2 2
@@ -1443,7 +1419,6 @@ timeshift-autosnap 0.9-1 3
 timetrack 2.0.8-1 3
 tlpui 1:1.5.0.7-1 3
 todoist-electron 1.24.0-4 3
-todoist-nativefier 2022.12.26-1 2
 touche 2.0.9-1 2
 touchegg 2.0.16-1 2
 trayscale 0.9.7-1 2
@@ -1533,7 +1508,6 @@ waydroid-image 18.1_20230422-1 2
 waydroid-image-gapps 18.1_20230422-1 2
 wayfire 0.7.5-1 2
 wayfire-plugins-extra 0.7.5-1 2
-waypipe-git 0.8.6.r0.g033d0e7-1 2
 wcm 0.7.5-1 2
 webkit2gtk-unstable 2.38.0-1 3
 webwatcher-git r24.3d3099f-2 2
@@ -1640,3 +1614,4 @@ qt5-webkit 5.212.0alpha4-19 1
 foobillard++ 3.42beta-7 2
 speedtest++ 1.14.r71.0f63cfb-1 1
 1password 8.10.8-45 1
+nomacs 1:3.17.2282-2 1
