@@ -442,7 +442,6 @@ googlemaps 20220503-1 2
 gpredict 2.2.1-2 3
 gr-foo-git r169.cc8bfc6-1 3
 gr-ieee802-11-git r356.56d8c5c-1 3
-gr-limesdr-git r85.57fc840-1 4
 gradience 0.4.1_patch1-1 3
 grantlee-git v5.3.1.0.g20d415b-1 2
 grantleetheme-git 5.23.40_r481.gd428be3-1 2
@@ -564,7 +563,6 @@ kcontacts-git 5.104.0_r3398.gb432eedb-1 2
 kcrash-git 5.104.0_r469.g86830ff-1 2
 kdav-git 1:5.104.0_r1387.gdda4bb8-1 2
 kdbusaddons-git 5.105.0_r467.gea86d6d-1 2
-kddockwidgets 1.5.0-1 2
 kde-cdemu-manager 0.8.0-1 3
 kde-cli-tools-git 5.27.80_r2073.g2173f56-1 2
 kde-git-meta 6-1 3
@@ -958,7 +956,6 @@ papirus-folders 1.12.0-1 1
 papirus-folders-gui 1.5-2 3
 parlatype 3.1-2 3
 parlatype-libreoffice-extension 3.1.1-2 3
-parsec-bin 150_86e-2 2
 partitionmanager-git 23.07.70.r1771.d24774d-1 2
 paru 1.11.1-1 3
 paru-git 1.11.2.r167.g257e011-1 2
@@ -1239,7 +1236,6 @@ rtl8192cu-fixes-git r118.e5c01a3-1 1
 rtl88x2ce-dkms 5.7.3_35403-4 1
 runescape-launcher 2.2.11-1 2
 rustdesk-nightly 1.2.0-0 2
-safeeyes 2.1.5-1 3
 sameboy 0.15.8-1 2
 saxon-he 11.4-1 1
 sayonara-player 1.7.0_stable3-1 3
@@ -1436,7 +1432,6 @@ ubertooth 2020.12.R1-2 3
 ucommon 7.0.1-1 2
 uefitool-git r230.8d6fa65-1 2
 ulauncher 5.15.2-1 3
-ums 13.3.0-1 2
 unflac 1.0-1 1
 uresourced 0.5.3-1 1
 usbaudio-git r4.6f46c43-1 3
@@ -1598,7 +1593,6 @@ zrythm-git 1:1.0.0.beta.4.5.62.r16.gdc3093182-1 2
 zulucrypt 6.2.0-1 3
 streamdeck-ui-git 2.0.15.r8.g9b9c269-1 1
 art-rawconverter 1.20-1 1
-flatseal 2.0.1-1 1
 spleeter-git 2.3.2.r45.g0b26dec-1 1
 ytmdl 2023.2.28-1 1
 firedragon 114.0.1-1 1
@@ -1614,3 +1608,4 @@ speedtest++ 1.14.r71.0f63cfb-1 1
 1password 8.10.8-45 1
 qimgv-git v1.0.3.alpha.r94.ge2675f1-1 1
 telegram-desktop-userfonts 4.8.4-1 1
+forkgram 4.8.1-2 1
