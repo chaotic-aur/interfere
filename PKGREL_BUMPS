@@ -175,7 +175,7 @@ deadd-notification-center-git 2.0.1.r2.g48e2c8d-1 2
 debtap 3.5.1-1 1
 decaf-emu-git r5217.dd0b1be3-1 2
 decoder 0.3.3-1 2
-dee 1.2.7-14 2
+dee 1.2.7-14 3
 delft-icon-theme-git 1.15.r0.gdd693fcf-1 2
 denise 2.0-1 2
 densify 0.3.1-3 3
@@ -1565,9 +1565,9 @@ streamdeck-ui-git 2.0.15.r8.g9b9c269-1 1
 art-rawconverter 1.20-1 1
 spleeter-git 2.3.2.r45.g0b26dec-1 1
 ytmdl 2023.2.28-1 1
-miktex 23.5-1 1
-mysql 8.0.33-1 1
-php73-intl 7.3.33-10 1
+miktex 23.5-1 2
+mysql 8.0.33-1 2
+php73-intl 7.3.33-10 2
 foobillard++ 3.42beta-7 2
 speedtest++ 1.14.r71.0f63cfb-1 1
 1password 8.10.8-45 1
