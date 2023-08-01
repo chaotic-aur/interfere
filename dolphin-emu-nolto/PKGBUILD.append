@@ -4,6 +4,4 @@ pkgname="dolphin-emu-nolto"
 provides+=('dolphin-emu')
 conflicts+=('dolphin-emu')
 
-pkgrel="$pkgrel".1
-
 options+=('!lto')
