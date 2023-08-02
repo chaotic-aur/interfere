@@ -878,7 +878,6 @@ ofono 1.34-1 1
 ogre-1.9 1.9.1-7 3
 okular-git 23.03.70_r9965.g880444b7b-1 2
 olive 0.1.2-3 3
-olive-git continuous.r2470.ge7982239b-1 3
 olivia r858.4048134-1 2
 onedrivegui-git 1.0.2.r11.g2e5b259-1 2
 onedriver 0.13.0-0 2
@@ -1246,7 +1245,7 @@ subtitlecomposer 0.7.1-6 3
 superproductivity-bin 7.13.2-1 2
 supertuxkart-git 23148+18575-1 2
 surf-git 2.1.r10.g665a709-1 3
-swaylock-effects 1.6.10-1 1
+swaylock-effects 1.6.10-1 2
 syndication-git 5.103.0_r896.g311d4ef-1 2
 synfig-dev 1.5.1-4 2
 synfigstudio-dev 1.5.1-1 2
@@ -1462,4 +1461,3 @@ forkgram 4.8.1-2 2
 mcpelauncher-linux-git v0.9.0.qt6.r8.g27eb1b8-1 1
 librist 0.2.7-1 1
 ananicy-cpp 1.1.0-2 1
-pocketsphinx 5.0.0-2 1
