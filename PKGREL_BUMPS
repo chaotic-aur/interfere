@@ -1238,7 +1238,6 @@ steam-rom-manager-git 2.4.14-1 2
 steamtinkerlaunch 12.12-1 2
 streamlink-twitch-gui-bin 2.2.0-1 2
 stylepak-git 18.0c4b0c1-1 2
-sublime-text-4 4.4143-4 2
 subliminal-git 2.1.0.r22.g160ea63-6 4
 subsurface 5.0.10-1 2
 subtitlecomposer 0.7.1-6 3
@@ -1461,3 +1460,4 @@ forkgram 4.8.1-2 2
 mcpelauncher-linux-git v0.9.0.qt6.r8.g27eb1b8-1 1
 librist 0.2.7-1 1
 ananicy-cpp 1.1.0-2 1
+mpv-full 0.36.0-1 1
