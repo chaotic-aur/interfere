@@ -25,7 +25,6 @@ amule-git 2.3.3.r42.e26d06a6e-3 1
 ananicy 2.2.1-1 4
 android-sdk 26.1.1-2 1
 angrysearch 1.0.4-1 4
-anydesk-bin 6.2.1-2 4
 app-icon-preview 3.3.0-1 3
 appflowy-bin 0.1.3-1 3
 appimagelauncher 2.2.0-6 4
@@ -143,7 +142,6 @@ compiz-core 0.8.18-3 3
 compiz-git 0.9.14.2.r0.g12aca6852-1 4
 compiz-gtk 0.8.18-3 3
 connman-gtk 1.1.1-2 4
-consolekit 1.2.5-4 2
 copypastegrab-git r84.9dfd205-1 3
 coreimage 4.4.0-1 3
 corekeyboard 4.4.0-1 3
@@ -783,10 +781,8 @@ meshlab-git 2022.02.r129.gc139a651f-1 2
 messagelib-git 5.22.41_r6933.gaab499eb2-1 2
 meteo-qt-git 3.3-1 2
 metronome 1.0.0-1 3
-micropad 4.2.1-1 2
 milou-git 5.27.80_r811.gc498381-1 2
 minecraft-launcher 1:1.0.1221-1 4
-minigalaxy 1.2.2-3 4
 mintlocale 1.5.8-1 3
 mintstick 1.5.6-1 2
 miredo 1.2.6+r159+ge5f5652-1 1
@@ -860,7 +856,6 @@ octopi-notifier-frameworks 0.14.0-2 2
 octopi-notifier-qt5 0.14.0-2 2
 oddjob 0.34.7-1 3
 odr-dabmod-git 2.6.0.r0.g451a7fa-1 4
-odr-dabmux-git 4.3.0.r0.gcf1ce1f-1 1
 ofono 1.34-1 1
 ogre-1.9 1.9.1-7 3
 okular-git 23.03.70_r9965.g880444b7b-1 2
@@ -954,7 +949,6 @@ plasma5-applets-window-title-git 0.7.1.r0.gb785c0a-1 3
 play-emu-git 0.60.r8.ge4665bb8-1 2
 playonlinux 4.4+29+gd0ae9ce6-2 3
 plex-media-player 2.58.1-3 4
-plots 0.8.4-1 2
 pm-utils 1.4.1-8 1
 poddr-bin 2.0.0-4 2
 pokemon-colorscripts-git r112.0483c85-1 3
@@ -1211,7 +1205,6 @@ spotify-tray-git 1.3.2.r9.g7ec6ac4-1 2
 spread-sheet-widget 0.8-1 3
 srb2kart 1.6-1 2
 stacer 1.1.0-1 4
-stacer-git 1.1.0.r108.g0f24534-1 3
 startgame 1.2.3-1 3
 steamtinkerlaunch 12.12-1 2
 stylepak-git 18.0c4b0c1-1 2
@@ -1261,7 +1254,6 @@ tlpui 1:1.5.0.7-1 3
 todoist-electron 1.24.0-4 3
 touche 2.0.9-1 2
 touchegg 2.0.16-1 2
-trayscale 0.9.7-1 2
 trello 0.1.9-5 3
 trello-cli 0.5.1-1 3
 trello-git 0.1.1-1 3
@@ -1324,7 +1316,6 @@ vital-synth 1.5.5-1 2
 vkbasalt-cli 3.1.1-1 5
 vlc-git 4.0.0.r23113.gf7bb59d9f5-1 2
 vmware-keymaps 1.0-3 1
-vmware-workstation 17.0.2-1 2
 vnote 3.16.0-1 2
 vorta 0.8.12-1 3
 vosk-api 0.3.45-1 1
@@ -1362,9 +1353,7 @@ wlrobs-hg r63.a48763b63f96-1 3
 wlroots-eglstreams-git 0.16.0.r5636.6ea54173-1 3
 woeusb 5.2.4-1 1
 woof-git 10.5.0.r0.79e01421-1 2
-wps-office 11.1.0.11698-1 2
 wps-office-all-dicts-win-languages 11.2.0.9255-2 3
-wps-office-cn 11.1.0.11698-1 2
 wrapland-git 0.527.0.beta.0.r6.gecb57dc-1 2
 wrapland-kwinft 5.27-1 2
 write_stylus 300.r469-1 3
@@ -1429,3 +1418,4 @@ librist 0.2.7-1 1
 ananicy-cpp 1.1.0-2 1
 mpv-full 0.36.0-1 2
 balena-etcher 2:1.18.12-1 1
+armcord-git r946.8a79d34-1 1
