@@ -154,7 +154,6 @@ cozy-audiobooks 1.2.1-1 3
 cpod-appimage 1.28.0-3 3
 cpupower-gui 1.0.0-5 3
 crazydiskinfo 1.1.0-2 2
-crossover 22.1.0-1 2
 cryptobridge-bin 0.18.3-1 3
 csound-blue 2.8.1-1 3
 dashbinsh 0.1-5 1
@@ -1409,3 +1408,4 @@ chromium-wayland-vaapi 115.0.5790.170-1 1
 nheko-git 0.11.3.r407.gb865ca20-32 1
 podman-desktop 1.2.1-1 1
 phpstorm-eap 232.8660.205-1 1
+wlroots-git 0.17.0.r6548.22b6581a1-1 1
