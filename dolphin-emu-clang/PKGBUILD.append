@@ -1,0 +1,28 @@
+
+pkgname="dolphin-emu-clang"
+
+provides+=('dolphin-emu')
+conflicts+=('dolphin-emu')
+
+makedepends+=(
+  clang
+  lld
+)
+
+eval _orig_"$(declare -f package)"
+package() {
+  cd dolphin-emu
+  sed -i '/_ARCHIVE_/d' CMakeLists.txt
+
+  _orig_package
+}
+
+eval _orig_"$(declare -f build)"
+build() {
+  export CC=clang
+  export CXX=clang++
+  export AR=ar
+  export NM=nm
+
+  _orig_build
+}
