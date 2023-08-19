@@ -1406,6 +1406,6 @@ mpv-full 0.36.0-1 2
 balena-etcher 2:1.18.12-1 1
 chromium-wayland-vaapi 115.0.5790.170-1 1
 nheko-git 0.11.3.r407.gb865ca20-32 1
-podman-desktop 1.2.1-1 1
 phpstorm-eap 232.8660.205-1 1
 wlroots-git 0.17.0.r6548.22b6581a1-1 1
+retroarch-autoconfig-udev-git r2169.5666e46-1 1
