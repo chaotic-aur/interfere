@@ -1,5 +1,4 @@
 8188fu-dkms-git r13.586d795-1 1
-86box 3.11-1 4
 acidrip 0.14-10 5
 across 0.1.3-1 6
 adcli 0.9.2-1 1
@@ -49,7 +48,6 @@ avaloniailspy v7.2-1 3
 aws2-wrap 1.3.1-1 3
 ayatana-indicator-application 22.2.0-1 4
 ayatana-indicator-bluetooth 22.9.1-1 3
-ayatana-indicator-datetime 22.9.1-1 4
 ayatana-indicator-messages 22.9.0-1 1
 b43-firmware 6.30.163.46-1 1
 badwolf 1.2.2-2 4
@@ -412,7 +410,6 @@ grimshot 1.6.1-1 1
 gromit-mpx 1.4.3-2 2
 grub-silent 2.06-5 1
 grub2-signing-extension 0.1.7-2 1
-gruvbox-material-gtk-theme-git r22.558c2e174-1 2
 gstreamer0.10-base-plugins 0.10.36-13 3
 gtg 0.6-6 3
 gtk-gnutella 1.2.2-1 1
@@ -465,7 +462,6 @@ ircd-hybrid 8.2.39-1 3
 isoimagewriter 1.0.0-1 2
 isomaster 1.3.16-1 2
 itch-setup-bin 1.26.0-1 2
-j9-git r4387.a6f48f96-1 2
 jade-application-kit 3.5.7-2 3
 jameica 2.10.4-1 2
 java-p7zip-binding 16.02-2 1
@@ -785,7 +781,6 @@ modemmanager-qt-git 5.105.0_r578.gb608599-1 2
 modprobed-db 2.46-1 2
 moodle-dl-git v2.3.2.0.r1.g2e79839-1 1
 moonlight-qt 4.3.1-1 3
-motivewave 6.6.15-1 2
 motrix-bin 1.8.19-1 2
 movie-monad 0.0.7.0_0-1 3
 mozillavpn 2.12.0-1 2
@@ -801,7 +796,6 @@ mycroft-gui-git r724.0cf38d1-1 3
 nasc 0.8.0-2 3
 natron-bin 2.5.0-1 2
 natron-compositor 2.5.0-1 2
-neard 0.18-1 1
 neofrog-git 7.1.0.r166.gccd5d9f5-1 1
 neovim-drop-in 1-1 1
 neovim-plug 0.11.0-3 1
@@ -986,7 +980,6 @@ python-gps3 0.33.3-3 2
 python-gtts 2.3.2-1 2
 python-guizero 1.4.0-1 2
 python-humblewx 0.2.2-1 2
-python-injector 0.20.1-2 3
 python-inputs 0.5.0-1 6
 python-isounidecode 0.3-3 3
 python-itunespy 1.6-2 3
@@ -1092,7 +1085,6 @@ radeon-profile-daemon-git 20190603.r0.g7923bd6-1 2
 radeon-profile-git 20200824.r26.g0d632ba-1 4
 raider-file-shredder 1.3.1-1 3
 rclone-browser 1.8.0-3 3
-re3-git r3167.3233ffe1-1 3
 reactgame 1.3.1-1 1
 redshift-minimal 1.12-4 2
 remarkable 1.87-7 2
@@ -1228,7 +1220,6 @@ thunar-shares-plugin 1:0.3.2-1 2
 thunarx-python 1:0.5.2-2 3
 tidal-gui 2022.1.18.3-1 3
 timeshift-autosnap 0.9-1 3
-tlpui 1:1.5.0.7-1 3
 todoist-electron 1.24.0-4 3
 touche 2.0.9-1 2
 touchegg 2.0.16-1 2
@@ -1396,3 +1387,4 @@ lokinet 0.9.11-3 1
 strawberry-qt5 1.0.18-1 1
 linux-cachyos-bore 6.4.12-1 1
 linux-cachyos 6.4.12-1 1
+chromium-wayland-vaapi 115.0.5790.170-2 1
