@@ -58,7 +58,6 @@ bauh 0.10.5-1 3
 bcache-tools 1.1-1 2
 betterdiscordctl-git 2.0.1.r2.g49a26fe-1 1
 betterlockscreen 4.0.4-2 3
-birdtray 1.9.0-1 5
 bit 1.1.2-1 1
 blanket-git 0.6.0.r84.g408ca93-1 3
 blender-git 3.6.r122734.g8c1090aeb07-1 3
@@ -135,8 +134,8 @@ cobang 0.10.1-1 2
 codelite 17.0.0-0 3
 colorway 1.2.0-2 3
 commit 4.0-2 2
-compiz-core 0.8.18-3 4
-compiz-git 0.9.14.2.r0.g12aca6852-1 5
+compiz-core 0.8.18-3 5
+compiz-git 0.9.14.2.r0.g12aca6852-1 6
 compiz-gtk 0.8.18-3 4
 connman-gtk 1.1.1-2 4
 copypastegrab-git r84.9dfd205-1 3
@@ -205,7 +204,7 @@ electron16-bin 16.2.8-1 3
 elisa-git 22.04.0.r372.gbed428ba-1 1
 emacs-ng 30.0.50-5 2
 emacs-ng-git 1:r166863.gdbf1cc80538-1 2
-emerald-gtk3 0.8.18-2 4
+emerald-gtk3 0.8.18-2 5
 emulationstation 2.11.2-1 2
 enve-git continuous.linux.r68.gd919d4d3-1 2
 epdfview-gtk3 0.2.0-3 2
@@ -370,7 +369,7 @@ gestures 0.3.1-1 3
 getmail6 6.18.10-1 4
 gifcurry 6.0.1.0_0-1 3
 gigolo 0.5.2-1 3
-gimp-elsamuko-git r88.b401697-1 3
+gimp-elsamuko-git r88.b401697-1 4
 gimp-extras 2.0.4-1 2
 gimp-plugin-normalmap 1.2.3-2 3
 git-fixup-git v1.5.0.r8.g76c688c-1 1
@@ -471,7 +470,7 @@ java-testng 7.6.1-1 1
 jdk16-graalvm-bin 21.2.0-2 1
 jdk8-graalvm-bin 21.2.0-2 1
 jdownloader2 latest-17 1
-jellyfin-media-player 1.9.1-1 3
+jellyfin-media-player 1.9.1-1 4
 jeuclid-core 3.1.9-1 1
 jgoodies-looks 2.8.0-4 1
 jgraphx-jre8 3.9.10-1 1
@@ -792,7 +791,6 @@ multimc5 0.6.16-3 2
 munt-qt 2.7.0-4 3
 museeks-bin 0.13.1-1 1
 mutter-rounded 42.3-1 3
-mycroft-gui-git r724.0cf38d1-1 3
 nasc 0.8.0-2 3
 natron-bin 2.5.0-1 2
 natron-compositor 2.5.0-1 2
@@ -832,7 +830,6 @@ nwg-launchers 0.7.1-1 3
 nwg-menu 0.1.1-1 3
 nwg-wrapper 0.1.3-2 2
 nx-firewall-git 0.1.r116.gdbe0809-1 3
-nxagent 3.5.99.26-1 1
 obs-gstreamer 1:0.4.0-1 2
 obs-streamfx 0.11.1-1 4
 obsidian-icon-theme-git 4.15.r1.g4cccdd3f-1 1
@@ -933,7 +930,7 @@ plasma5-applets-window-buttons-git 0.11.1.r0.g90e3750-1 3
 plasma5-applets-window-title 0.7.1-2 3
 plasma5-applets-window-title-git 0.7.1.r0.gb785c0a-1 3
 playonlinux 4.4+29+gd0ae9ce6-2 3
-plex-media-player 2.58.1-3 5
+plex-media-player 2.58.1-3 6
 pm-utils 1.4.1-8 1
 poddr-bin 2.0.0-4 2
 pokemon-colorscripts-git r112.0483c85-1 3
@@ -1064,7 +1061,7 @@ qt5-styleplugins 5.0.0.20170311-35 2
 qtfm 6.2.1-1 3
 qtforkawesome 0.1.0-1 3
 qtkeychain-qt5-git _r381.g8485316-1 2
-qtscrcpy 2.1.2-1 4
+qtscrcpy 2.1.2-1 5
 qtwebflix-git 0.1.r190.g54c2c1b-1 3
 quartus-130 13.0.1.232-1 1
 quassel-client-git 0.14.0.r7.gb2deed91-1 2
@@ -1383,8 +1380,8 @@ nheko-git 0.11.3.r407.gb865ca20-32 1
 retroarch-autoconfig-udev-git r2169.5666e46-1 1
 libshumate-git 1.0.1.r95.g6f81b16-1 1
 endeavour-git 43.0.r53.g2d080ac8-1 1
-lokinet 0.9.11-3 1
-strawberry-qt5 1.0.18-1 1
+strawberry-qt5 1.0.18-1 2
 linux-cachyos-bore 6.4.12-1 1
-linux-cachyos 6.4.12-1 1
 chromium-wayland-vaapi 115.0.5790.170-2 1
+ayatana-indicator-datetime 23.6.0-1 1
+lokinet 0.9.11-5 1
