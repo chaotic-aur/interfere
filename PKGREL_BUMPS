@@ -24,7 +24,6 @@ ananicy 2.2.1-1 4
 android-sdk 26.1.1-2 1
 angrysearch 1.0.4-1 4
 app-icon-preview 3.3.0-1 3
-appflowy-bin 0.1.3-1 3
 appimagelauncher 2.2.0-6 4
 appmenu-gtk-module-git 0.7.6.r28.g76442be-1 3
 aqemu 0.9.4-2 3
@@ -57,7 +56,6 @@ bass-fish 1.0-1 1
 bauh 0.10.5-1 3
 bcache-tools 1.1-1 2
 betterdiscordctl-git 2.0.1.r2.g49a26fe-1 1
-betterlockscreen 4.0.4-2 3
 bit 1.1.2-1 1
 blanket-git 0.6.0.r84.g408ca93-1 3
 blender-git 3.6.r122734.g8c1090aeb07-1 3
@@ -136,7 +134,6 @@ colorway 1.2.0-2 3
 commit 4.0-2 2
 compiz-core 0.8.18-3 5
 compiz-git 0.9.14.2.r0.g12aca6852-1 6
-compiz-gtk 0.8.18-3 4
 connman-gtk 1.1.1-2 4
 copypastegrab-git r84.9dfd205-1 3
 coreimage 4.4.0-1 3
@@ -449,7 +446,6 @@ imaginary-teleprompter-bin 2.4.0-7 3
 imagine-git 0.7.1.r0.g278e380-1 3
 imeditor 0.9.7-1 3
 incidenceeditor-git 5.22.40_r996.gdaaf3b3-1 2
-include-what-you-use 0.19-1 2
 insync-caja 3.7.9.50368-1 2
 insync-dolphin 3.7.9.50368-1 3
 insync-nautilus 3.8.2.50468-1 2
@@ -722,7 +718,6 @@ linux-xanmod-tt 5.15.54-1 1
 linux-xanmod-tt-headers 5.15.54-1 1
 loginized 1.4.0-2 3
 logstalgia 1.1.2-1 3
-losslesscut-bin 3.54.0-1 2
 loupe 44.2-1 2
 lua51-event 0.4.6-2 1
 lua52-event 0.4.6-2 1
@@ -1376,7 +1371,6 @@ qimgv-git v1.0.3.alpha.r94.ge2675f1-1 1
 librist 0.2.7-1 1
 mpv-full 0.36.0-1 3
 balena-etcher 2:1.18.12-1 1
-nheko-git 0.11.3.r407.gb865ca20-32 1
 retroarch-autoconfig-udev-git r2169.5666e46-1 1
 libshumate-git 1.0.1.r95.g6f81b16-1 1
 endeavour-git 43.0.r53.g2d080ac8-1 1
@@ -1385,3 +1379,4 @@ linux-cachyos-bore 6.4.12-1 1
 chromium-wayland-vaapi 115.0.5790.170-2 1
 ayatana-indicator-datetime 23.6.0-1 1
 lokinet 0.9.11-5 1
+ueberzugpp 2.9.1-1 1
