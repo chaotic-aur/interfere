@@ -136,11 +136,6 @@ compiz-core 0.8.18-3 5
 compiz-git 0.9.14.2.r0.g12aca6852-1 6
 connman-gtk 1.1.1-2 4
 copypastegrab-git r84.9dfd205-1 3
-coreimage 4.4.0-1 3
-corekeyboard 4.4.0-1 3
-corepad 4.4.0-1 3
-corepaint 4.4.0-1 3
-corepdf 4.4.0-1 3
 corrosion-git v0.3.0.r146.gdc1e4e5-1 2
 coulr 1.8.1-1 3
 cozy-audiobooks 1.2.1-1 3
@@ -678,7 +673,6 @@ libakonadi-git 23.03.40_r12925.g9d3a70065-1 2
 libavresample 4.4.1-1 3
 libbtbb 2020.12.R1-2 2
 libcmrt 1.0.6-2 3
-libcprime 4.4.1-1 3
 libgaminggear 0.15.1-8 3
 libgdm-plymouth 43.0-1 1
 libgksu 2.0.12-9 3
@@ -1138,7 +1132,6 @@ silo-trello 0.3-1 3
 silos 0.1.60-1 3
 simple-mtpfs 0.4.0-1 1
 simplenote-electron-bin 2.21.0-1 3
-sioyek 2.0.0-2 2
 siril 1.0.6-1 4
 sirula-git r67.70b5ce1-1 3
 sleek 1.3.1-1 2
@@ -1369,14 +1362,11 @@ foobillard++ 3.42beta-7 2
 speedtest++ 1.14.r71.0f63cfb-1 1
 qimgv-git v1.0.3.alpha.r94.ge2675f1-1 1
 librist 0.2.7-1 1
-mpv-full 0.36.0-1 3
+mpv-full 0.36.0-1 4
 balena-etcher 2:1.18.12-1 1
 retroarch-autoconfig-udev-git r2169.5666e46-1 1
 libshumate-git 1.0.1.r95.g6f81b16-1 1
 endeavour-git 43.0.r53.g2d080ac8-1 1
 strawberry-qt5 1.0.18-1 2
-linux-cachyos-bore 6.4.12-1 1
-chromium-wayland-vaapi 115.0.5790.170-2 1
 ayatana-indicator-datetime 23.6.0-1 1
 lokinet 0.9.11-5 1
-ueberzugpp 2.9.1-1 1
