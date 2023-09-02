@@ -47,6 +47,9 @@ depends=(
       'lib32-xz'
       'lib32-zlib')
 
+options=(${options[@]/debug*})
+options+=(!debug)
+
 build() {
   cd ${_pkgbasename}
 

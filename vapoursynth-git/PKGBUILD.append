@@ -1,3 +1,6 @@
+options=(${options[@]/debug*})
+options+=(!debug)
+
 check() {
     echo "Disabled as it blocks building permanently"
 }
