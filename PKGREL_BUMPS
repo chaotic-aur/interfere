@@ -161,7 +161,6 @@ digilent.adept.utilities 2.7.1-1 1
 digital 0.29-4 1
 diodon 1.13.0-2 2
 discord-development-electron-bin 0.0.203-1 3
-discord-screenaudio 1.8.1-1 2
 discover-git 5.27.80_r9211.gd3756e498-1 2
 disman-git 0.527.80_r1850.gb012e68-1 2
 disman-kwinft 5.27-1 2
@@ -410,7 +409,6 @@ kde-service-menu-reimage 2.5-1 3
 kde-servicemenus-encfs 0.8-2 3
 kde-servicemenus-komparemenu 0.1-3 3
 kde-servicemenus-officeconverter 1-1 3
-kde-servicemenus-pdf 2.3-1 3
 kde-servicemenus-pdf-encrypt-decrypt 1-1 3
 kde-servicemenus-rootactions 2.9.1-2 3
 kde-servicemenus-sendtodesktop 1-1 3
@@ -1020,7 +1018,6 @@ sddm-config-editor-git 0.1.r89.g24cb417-1 3
 sddm-kcm-git 5.27.80_r739.g8e586f7-1 2
 sddm-theme-astronaut 1.0-1 3
 sdformat-9 9.8.0-1 3
-searx-git 1.0.0.r490.g75b859d2-1 3
 shadowsocks-gtk-rs 0.4.1-1 3
 share-preview 0.3.0-1 2
 shortwave 1:3.2.0-1 2
@@ -1217,7 +1214,6 @@ xfce4-panel-genmon-ng-git 5.1.0.r41.gd8f2540-1 3
 xfce4-panel-sntray-git 0.4.13.1.r3.ga5028a3-1 3
 xfce4-windowck-plugin-xfwm4-theme-support 1:0.4.5+139+g23d3432-1 2
 xfdashboard 1.0.0-1 3
-xkcdpass 1.19.3-1 3
 xml-security-c 2.0.4-1 1
 xnconvert 1.98.0-1 2
 xone-dkms 0.3-3 1
@@ -1242,7 +1238,6 @@ zandronum 3.1-2 2
 zeal 0.6.1-3 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 1
-zotero-bin 6.0.26-1 2
 zrythm-git 1:1.0.0.beta.4.5.62.r16.gdc3093182-1 2
 zulucrypt 6.2.0-1 3
 ytmdl 2023.2.28-1 1
@@ -1260,3 +1255,4 @@ strawberry-qt5 1.0.18-1 2
 ayatana-indicator-datetime 23.6.0-1 1
 lokinet 0.9.11-5 1
 proton-ge-custom 2:GE.Proton8.14-2 1
+yuzu-early-access 3842-1 1
