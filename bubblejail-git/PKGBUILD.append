@@ -4,3 +4,8 @@ pkgver() {
   git describe --long --tags --match [0-9]*.[0-9]*.[0-9] --match [0-9]*.[0-9]*.[0-9][0-9] \
     | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
 }
+
+prepare() {
+  sed -Ei -e "s@^\s+'--urgency', 'critical',.*\$@@" \
+    "$srcdir/$pkgname/src/bubblejail/bubblejail_cli.py"
+}
