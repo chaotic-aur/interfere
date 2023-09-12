@@ -1,0 +1,41 @@
+# PKGBUILD creates a random hash that:
+#  * cannot be used to determine whether the sources have actually changed, whether a rebuild is necessary.
+#  * is not useful for bug reports.
+#  * results in version numbers that are not monotonically increasing.
+#
+# This creates a stable hash based on source repository commits.
+pkgver() {
+    cd "${pkgname}"
+
+    _goldendict_commit=$(
+        curl "https://api.github.com/repos/goldendict/goldendict/commits" -s \
+            | grep -E '^\s+"url".*goldendict/git/commits.*$' \
+            | sed -E 's@^.*/([a-f0-9]+)",.*$@\1@' \
+            | head -1
+    )
+
+    _vedgy_commit=$(
+        curl "https://api.github.com/repos/vedgy/goldendict/commits" -s \
+            | grep -E '^\s+"url".*goldendict/git/commits.*$' \
+            | sed -E 's@^.*/([a-f0-9]+)",.*$@\1@' \
+            | head -1
+    )
+
+    _version_hash="${_goldendict_commit::7}.${_vedgy_commit::7}"
+
+    # Generate git tag based version. Count only expected we##.##.##* [#=digit] tags.
+    _gitversion=$(
+        git describe --long --tags --match 'we[0-9][0-9].[0-9][0-9].[0-9][0-9]*'
+    )
+
+    # Format git-based version for pkgver, without commit hash
+    # Expected format: e.g. 22.12.02.r0
+    _gitversion=$(
+        printf '%s' "$_gitversion" \
+            | sed -E -e 's/^we//; s/([^-]*-g)/r\1/; s/-/./g; s/.g[a-f0-9]+$//'
+    )
+
+    # Print final version with goldendict and vedgy hashes
+    # Expected format: e.g. 22.12.02.r0.gabcd.1234
+    printf '%s.g%s' "$_gitversion" "$_version_hash"
+}
