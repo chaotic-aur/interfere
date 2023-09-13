@@ -555,7 +555,6 @@ lib32-fltk 1.3.8-1 3
 lib32-gallium-nine-git 0.r388.9abd0b4-1 4
 lib32-glslang 12.1.0-1 2
 lib32-libffmpeg 2:6.0-2 2
-lib32-libglvnd-git 1.6.0.r10.g179d727-1 2
 lib32-liblrdf 0.6.1-3 1
 lib32-libofa 0.9.3-8 1
 lib32-lilv 0.24.20-1 2
@@ -574,7 +573,6 @@ libcmrt 1.0.6-2 3
 libgaminggear 0.15.1-8 3
 libgdm-plymouth 43.0-1 1
 libgksu 2.0.12-9 3
-libglvnd-git 1.6.0.r10.g179d727-1 2
 libgravatar-git 5.22.41_r480.gac4c75c-1 2
 libinput-gestures 2.74-1 2
 libinput_gestures_qt 0.3.2+7+g0868859-1 3
@@ -1252,17 +1250,12 @@ lokinet 0.9.11-5 1
 proton-ge-custom 2:GE.Proton8.14-2 1
 yuzu-early-access 3842-1 2
 chatterino2-7tv-git v7.4.5.r1.g3e722661-1 1
-citra-canary-git 2575.r0.g64f2694-1 1
 compiz 0.9.14.2-3 2
-compiz-gtk 0.8.18-3.5 1
 deluge-git 1:2.1.1.dev62.ga459e7826-1 1
 dwarfs 0.7.2-1 1
-fastgame-git 0.2.0.r38.g9a417b7-1 1
 fatrat-git 1.2.0.b2.r60.g1b0dd1f-1 1
 fldigi-git v4.2.00.r0.gb1d9024b-1 1
 gr-foo-git r173.7c154d9-1 1
-gr-ieee802-11-git r363.965e2d4-1 1
-hal-git v4.2.0.r100.ge4fae37bec9-1 1
 lazarus-beta 3.0.0.rc1-6 1
 lazarus-beta-gtk3 3.0.0.rc1-6 1
 lazarus-beta-qt6 3.0.0.rc1-6 1
@@ -1276,8 +1269,7 @@ qlog-git r1319.f5502d6-1 1
 rstudio-desktop 2023.06.2.561-3 1
 shutter-encoder 17.3-1 1
 spleeter-git 2.4.0.r36.g13c771b-1 1
-stumpwm-contrib-git r535.472bdef-1 1
 sunshine 0.20.0-2 1
 syncthingtray 1.4.6-1 1
-yosys-git 0.32+1.r12429.389b8d0f9-1 1
 zrythm 1.0.0.beta.4.9.1-1 1
+dynarmic 6.5.0-1 1
