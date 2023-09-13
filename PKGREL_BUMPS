@@ -86,9 +86,7 @@ calendarsupport-git 5.22.40_r790.g9a3eea6-1 2
 calligra-git 3.3.89_r101964.gbc66e4b610b-1 2
 canta-gtk-theme-git 2021.09.08.r6.332fdec-1 1
 canta-icon-theme-git 2021.09.08.r6.332fdec-1 1
-cantor-git v21.12.2.r302.g7e664b5b-1 1
 capnproto-java 0.1.14-1 1
-carla-git 1:2.5.1.r102.g5d0d243be-1 2
 cassowary 0.6-1 2
 catia-git r1062.78b0307-1 3
 ccrtp 2.1.2-4 1
@@ -291,7 +289,6 @@ google-meet-desktop 1.2.0-1 4
 googlemaps 20220503-1 2
 gpredict 2.2.1-2 3
 gradience 0.4.1_patch1-1 3
-grantlee-git v5.3.1.0.g20d415b-1 2
 grantleetheme-git 5.23.40_r481.gd428be3-1 2
 graphite-cursor-theme-git 2021.11.26.r9.g8773e95-1 1
 green-recorder 3.2.10-1 4
@@ -451,7 +448,6 @@ ki18n-git 5.105.0_r624.gf5d152e-1 2
 kiconthemes-git 5.103.0_r667.gde9bedc-1 2
 kidentitymanagement-git 5.22.42_r3968.g159ab1a8-1 2
 kidletime-git 5.105.0_r394.gb8b79e8-1 2
-kimageannotator-git r1147.2048501-1 2
 kimageformats-git 5.103.0_r479.g63056c5-1 2
 kimap-git 5.22.40_r1256.g78c5a3f-1 2
 kimap2-git 0.4.0_r826.g366193b-1 3
@@ -479,7 +475,6 @@ knotes-git 23.03.40_r3815.g58410a88-1 4
 knotifications-git 5.103.0_r802.gfc3b28d-1 2
 knotifyconfig-git 5.104.0_r424.g622a031-1 2
 koka-bin 2.3.8-1 1
-kolourpaint-git r2501.8374d5f7-1 2
 komorebi 2.2.1-1 3
 kompare-git 23.03.70_r1242.g04fdc0b-1 2
 konsole-git 23.03.70_r8896.g5f380ca5a-1 2
@@ -529,7 +524,6 @@ kwayland-server-git 5.24.80.r1481.gdec04c49-1 3
 kwidgetsaddons-git 5.105.0_r1068.g8a4dd986-1 2
 kwin-bismuth 3.1.4-3 2
 kwin-bismuth-git 3.1.4.r3.gef69afe-3 2
-kwin-decoration-sierra-breeze-enhanced-git r219.fb8e165-1 2
 kwin-effects-sliding-notifications 1.5.0-1 2
 kwin-effects-yet-another-magic-lamp 5.27.0-1 2
 kwin-git 5.27.80_r24092.gf71ee59a3-1 2
@@ -576,7 +570,6 @@ libgksu 2.0.12-9 3
 libgravatar-git 5.22.41_r480.gac4c75c-1 2
 libinput-gestures 2.74-1 2
 libinput_gestures_qt 0.3.2+7+g0868859-1 3
-libkdcraw-git v22.12.0.r3.gd1fef38-1 2
 libkdepim-git 5.23.40_r983.g61fb5b0-1 2
 libkgapi-git 5.23.40_r1549.g14794274-1 2
 libkipi-git 5.2.0_r1287.gd143c44-1 2
@@ -587,7 +580,6 @@ libksieve-git 5.22.41_r1840.g2bee17ff-1 2
 libksysguard-git 5.27.80_r2558.g45a4c59-1 2
 libktorrent-git 23.07.70.r594.b0afbfe-1 2
 libopenglrecorder 0.1.0-1 1
-libqaccessibilityclient-git v0.4.0.r47.0f08684-1 2
 libreoffice-extension-languagetool 6.0-1 3
 librewolf-extension-gnome-shell-integration 10.1-1 3
 librewolf-extension-noscript 11.2.11-1 3
@@ -937,7 +929,7 @@ qt-installer-framework 4.5.2-1 2
 qt-jdenticon 0.3.0-1 3
 qt-solutions-git 56.777e95b-1 2
 qt-virt-manager 0.72.99-4 3
-qt5-styleplugins 5.0.0.20170311-35 2
+qt5-styleplugins 5.0.0.20170311-35 3
 qtfm 6.2.1-1 3
 qtforkawesome 0.1.0-1 3
 qtkeychain-qt5-git _r381.g8485316-1 2
@@ -1135,7 +1127,6 @@ vim-coc-go-git 1.3.3.r0.g9b9d6b9-1 2
 vim-coc-highlight-git 2.0.4.r0.gc405d34-1 3
 vim-coc-html-git 1.8.0.r0.g70299db-1 3
 vim-coc-htmlhint-git 0.6.1.r0.g99b4977-1 3
-vim-coc-json-git 1.8.0.r1.ga44f950-1 2
 vim-coc-lists-git 1.5.1.r0.g720f871-1 2
 vim-coc-marketplace-git 1.4.0.r165.g5ad69f0-1 3
 vim-coc-sh-git 0.7.0.r0.gd4d0d0f-1 3
@@ -1248,8 +1239,6 @@ strawberry-qt5 1.0.18-1 2
 ayatana-indicator-datetime 23.6.0-1 1
 lokinet 0.9.11-5 1
 proton-ge-custom 2:GE.Proton8.14-2 1
-yuzu-early-access 3842-1 2
-chatterino2-7tv-git v7.4.5.r1.g3e722661-1 1
 compiz 0.9.14.2-3 2
 deluge-git 1:2.1.1.dev62.ga459e7826-1 1
 dwarfs 0.7.2-1 1
@@ -1271,5 +1260,4 @@ shutter-encoder 17.3-1 1
 spleeter-git 2.4.0.r36.g13c771b-1 1
 sunshine 0.20.0-2 1
 syncthingtray 1.4.6-1 1
-zrythm 1.0.0.beta.4.9.1-1 1
 dynarmic 6.5.0-1 1
