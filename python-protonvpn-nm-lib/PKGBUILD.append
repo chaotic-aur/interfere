@@ -1,0 +1,17 @@
+makedepends=(
+  python-build
+  python-installer
+  python-wheel
+)
+
+build() {
+  cd "$_gitpkgname-$pkgver"
+  python -m build --wheel --no-isolation
+}
+
+package() {
+  cd "$_gitpkgname-$pkgver"
+  _pythonversion="$(python --version | awk '{print $2}' | awk -F. '{print $1"."$2}')"
+  python -m installer --destdir="$pkgdir" --compile-bytecode=2 dist/*.whl
+  rm -Rfv "${pkgdir}/usr/lib/python${_pythonversion}/site-packages/tests"
+}
