@@ -832,7 +832,6 @@ python-asyncio-dgram 1.2.0-1 3
 python-blis 0.9.1-1 3
 python-casttube 0.2.1-4 3
 python-catalogue 2.0.7-1 3
-python-clickgen 2.1.3-1 2
 python-codegen 1.0-5 1
 python-coloredlogs 15.0.1-3 3
 python-colorzero 2.0-2 3
@@ -1261,3 +1260,4 @@ spleeter-git 2.4.0.r36.g13c771b-1 1
 sunshine 0.20.0-2 1
 syncthingtray 1.4.6-1 1
 dynarmic 6.5.0-1 1
+prjapicula 0.9.0-1 1
