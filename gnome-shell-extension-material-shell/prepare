@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-export export MAKEFLAGS='-j1'
+export MAKEFLAGS='-j1'
