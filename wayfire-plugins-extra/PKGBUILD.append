@@ -1,2 +1,0 @@
-depends+=(wayland-protocols)
-makedepends+=(cmake git)
