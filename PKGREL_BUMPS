@@ -592,8 +592,6 @@ libva-intel-driver-g45-h264 1:2.4.1-2 3
 libva-intel-driver-hybrid 2.4.1-2 5
 libzrtpcpp 4.7.0-2 1
 lightly-git r2172.121a61e5-2 3
-lightlyshaders-git v2.0.0.r9.gcea07c0-1 3
-lightlyshaders-kdegit-git v2.0.0.r7.gd86ca81-1 2
 linux-nitrous-fire-headers 6.2.13-1 2
 linux-steam-integration 0.7.3-5 2
 linux-xanmod-tt 5.15.54-1 1
@@ -899,7 +897,6 @@ python-sphinxcontrib-svg2pdfconverter 1.2.2-1 2
 python-spotipy 2.23.0-1 2
 python-steam 1.4.4-1 2
 python-suntime 1.2.5-1 3
-python-syncedlyrics 0.5.0-2 2
 python-telegram-send 0.34-2 2
 python-textx 3.1.1-1 2
 python-transitions 0.9.0-1 2
@@ -1013,7 +1010,6 @@ silos 0.1.60-1 3
 simple-mtpfs 0.4.0-1 1
 simplenote-electron-bin 2.21.0-1 3
 siril 1.0.6-1 4
-sirula-git r67.70b5ce1-1 3
 sleek 1.3.1-1 2
 smooth 0.9.10-1 2
 smtube 21.10.0-4 2
@@ -1160,7 +1156,6 @@ wike 2.0.1-1 2
 windscribe-bin 2.4.11-1 1
 windscribe-cli 1.4_51-1 1
 wine-installer 5.0.3-2 3
-wine-stable 8.0.1-2 2
 wine-wl-git 8.2.r928.gb2547ddf9e0-1 2
 wineasio 1.1.0-7 2
 wineasio-git 1.1.0.r0.g56c3e9d-1 3
@@ -1260,3 +1255,5 @@ syncthingtray 1.4.6-1 1
 dynarmic 6.5.0-1 1
 prjapicula 0.9.0-1 1
 forkgram 4.9.1-2 1
+lib32-gd 2.3.3-2 1
+lib32-libgphoto2 2.5.30-1 1
