@@ -117,7 +117,6 @@ celestia-addon-xwing 1-3 2
 cfs-zen-tweaks 1.2.0-1 1
 chaotic-neofetch-git 7.1.0.r166.gccd5d9f5-2 5
 chemtool 1.6.14-4 1
-chiaki 2.1.1-2 4
 chocolate-doom 3.0.1-1 3
 cinny-desktop 2.2.6-1 2
 clamav-unofficial-sigs 7.2.5-1 1
@@ -227,7 +226,6 @@ flare-game 1.14-1 2
 flashfocus-git v2.3.1.r0.gaa710b9-1 3
 flashplugin 32.0.0.465-1 1
 fmit 1.2.14-1 3
-fondo 1.6.1-2 3
 fontdownloader 10.0.0-1 3
 fontfinder 1.4.1-1 3
 foo2zjs-nightly 20201127-1 2
@@ -257,7 +255,6 @@ gdm-plymouth 43.0-1 3
 gdm-plymouth-prime 43.0-1 2
 gegl-git 0..r10515.401c6d30b-1 2
 gestures 0.3.1-1 3
-getmail6 6.18.10-1 4
 gifcurry 6.0.1.0_0-1 3
 gigolo 0.5.2-1 3
 gimp-elsamuko-git r88.b401697-1 4
@@ -650,7 +647,6 @@ mintstick 1.5.6-1 2
 miredo 1.2.6+r159+ge5f5652-1 1
 mkinitcpio-openswap 0.1.0-3 1
 mmsd-git r648.f4b8b32-1 1
-mobydroid 0.4-1 1
 modemmanager-qt-git 5.105.0_r578.gb608599-1 2
 modprobed-db 2.46-1 2
 moodle-dl-git v2.3.2.0.r1.g2e79839-1 1
@@ -884,7 +880,6 @@ python-pypdf2 1:2.12.1-3 2
 python-pyrr 0.10.3-1 3
 python-pywhat 5.1.0-4 2
 python-qt-material-git r243.20230206-1 2
-python-rarfile 4.0-3 3
 python-recurring-ical-events 2.0.2-1 2
 python-rst.linker 2.4.0-1 2
 python-rtmixer 0.1.4-1 1
@@ -1117,7 +1112,6 @@ vibrantlinux 2.1.10-1 3
 video-trimmer 0.8.1-1 2
 vim-coc-eslint-git 1.6.0.r0.g007ad15-1 2
 vim-coc-flutter-git 1.9.3.r19.g883c269-1 2
-vim-coc-go-git 1.3.3.r0.g9b9d6b9-1 2
 vim-coc-highlight-git 2.0.4.r0.gc405d34-1 3
 vim-coc-html-git 1.8.0.r0.g70299db-1 3
 vim-coc-htmlhint-git 0.6.1.r0.g99b4977-1 3
@@ -1230,7 +1224,6 @@ endeavour-git 43.0.r53.g2d080ac8-1 1
 strawberry-qt5 1.0.18-1 2
 ayatana-indicator-datetime 23.6.0-1 1
 lokinet 0.9.11-5 1
-proton-ge-custom 2:GE.Proton8.14-2 1
 compiz 0.9.14.2-3 2
 deluge-git 1:2.1.1.dev62.ga459e7826-1 1
 dwarfs 0.7.2-1 1
@@ -1240,7 +1233,6 @@ gr-foo-git r173.7c154d9-1 1
 lazarus-beta 3.0.0.rc1-6 1
 lazarus-beta-gtk3 3.0.0.rc1-6 1
 lazarus-beta-qt6 3.0.0.rc1-6 1
-nextpnr-git 0.6.r86.g79c6840f-1 1
 odr-dabmux-git 4.4.1.r0.g36594de-1 1
 qbittorrent-enhanced 4.5.5.10-1 1
 qbittorrent-enhanced-git 4.5.5.10.r0.g0cf9d4918-1 1
@@ -1262,3 +1254,4 @@ lib32-libxpm 3.5.16-1 1
 lib32-svt-av1 1.7.0-1 1
 lib32-x265 3.5-2 1
 wine-stable 8.0.2-1 1
+wine-wow64 8.15-1 1
