@@ -1255,3 +1255,5 @@ lib32-svt-av1 1.7.0-1 1
 lib32-x265 3.5-2 1
 wine-stable 8.0.2-1 1
 wine-wow64 8.15-1 1
+bubblejail 0.8.1-1 1
+bubblejail-git 0.8.1.r0.g806acc9-1 1
