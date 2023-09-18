@@ -1,3 +1,0 @@
-depends=('kpmcore-git'
-         'kio'
-         'hicolor-icon-theme')
