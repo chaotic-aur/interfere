@@ -1,7 +1,0 @@
-depends+=(kpipewire-git)
-#source+=('https://raw.githubusercontent.com/chaotic-aur/interfere/master/plasma-workspace-git/globalmenu.patch')
-#sha256sums+=('37138ef3bb0ad841b9ac0aef9cf27f54a986b49b2c32a0543cf9b091c93331fb')
-#
-#prepare() {
-#  patch -R --strip=1 --input="../globalmenu.patch" --directory="${pkgbase%-git}"
-#}
