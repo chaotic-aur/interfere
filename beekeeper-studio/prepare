@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+# prevent gigabyte-size build log
+sed -Ei "s@\bDEBUG='\*'@@" PKGBUILD
