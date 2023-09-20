@@ -606,7 +606,6 @@ masterpdfeditor-free 4.3.89-1 3
 mate-hud 22.10.3-1 4
 mate-menu 22.04.2-1 3
 mate-panel-genmon-git 5.1.0.r41.gd8f2540-1 3
-mate-panel-sntray-git 0.4.13.1.r3.ga5028a3-1 3
 mate-tweak 22.10.0-3 3
 materia-theme-git 20210322.r52.g6e585038-1 2
 material-kwin-decoration-git v7+39+g0e989e5-1 3
@@ -1058,7 +1057,7 @@ tidal-gui 2022.1.18.3-1 3
 timeshift-autosnap 0.9-1 3
 todoist-electron 1.24.0-4 3
 touchegg 2.0.16-1 2
-trello 0.1.9-5 3
+trello 0.1.9-5 4
 trello-git 0.1.1-1 3
 trimage-git 1.0.6.r16.gad74684-1 4
 trousers 0.3.15-2 2
@@ -1162,7 +1161,6 @@ xembed-sni-proxy-git v5.26.90.r223.g8acfd6785-1 2
 xfce-theme-manager 3.8-2 3
 xfce4-docklike-plugin 0.4.1-1 3
 xfce4-panel-genmon-ng-git 5.1.0.r41.gd8f2540-1 3
-xfce4-panel-sntray-git 0.4.13.1.r3.ga5028a3-1 3
 xfce4-windowck-plugin-xfwm4-theme-support 1:0.4.5+139+g23d3432-1 2
 xfdashboard 1.0.0-1 3
 xml-security-c 2.0.4-1 1
