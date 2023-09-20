@@ -48,7 +48,6 @@ ayatana-indicator-application 22.2.0-1 4
 ayatana-indicator-bluetooth 22.9.1-1 3
 ayatana-indicator-messages 22.9.0-1 1
 b43-firmware 6.30.163.46-1 1
-badwolf 1.2.2-2 4
 baloo-git 5.104.0_r3144.ge69542db-1 3
 basket 2.49b-8 3
 bass-fish 1.0-1 1
@@ -199,10 +198,6 @@ eventviews-git 5.22.40_r945.g88bbbe1-1 2
 evopop-gtk-theme-git 2.9.99.r12.g6dce1c5-1 3
 exifcleaner-bin 3.6.0-4 3
 f3-qt-git v2.1.0.r16.g10ab886-1 2
-fancontrol-gui v0.8-1 3
-fancontrol-gui-git v0.8.r23.g5bfa8fa-1 3
-fancontrol-kcm v0.8-1 3
-fancontrol-kcm-git v0.8.r23.g5bfa8fa-1 2
 fann 2.2.0-5 1
 feem 4.4.2-1 3
 ffmpegthumbs-git 23.07.70.r261-1 1
@@ -266,12 +261,10 @@ gmsh-bin 4.11.1-1 2
 gmusicbrowser 1.1.16-1 1
 gnome-browser-connector 42.1-3 4
 gnome-calendar-git 44.1+19+g412f8bc4-1 2
-gnome-gesture-improvements r201.f007cac-1 2
 gnome-icon-theme 3.12.0-7 1
 gnome-icon-theme-symbolic 3.12.0-6 1
 gnome-network-displays 0.90.5-7 2
 gnome-obfuscate 0.0.9-1 2
-gnome-shell-extension-pop-shell 1.2.0+292+g0e09473-1 2
 gnome-shell-extension-pop-shell-git r939.b5accce-1 2
 gnome-shell-pomodoro 0.23.1-1 2
 godot-git 4.0.r52237.gc7aadab155a-1 2
@@ -287,7 +280,6 @@ grantleetheme-git 5.23.40_r481.gd428be3-1 2
 graphite-cursor-theme-git 2021.11.26.r9.g8773e95-1 1
 green-recorder 3.2.10-1 4
 green-recorder-git 3.2.10.r8.g1ad6656-1 3
-grimshot 1.6.1-1 1
 gromit-mpx 1.4.3-2 2
 grub-silent 2.06-5 1
 grub2-signing-extension 0.1.7-2 1
@@ -922,13 +914,6 @@ qtkeychain-qt5-git _r381.g8485316-1 2
 qtscrcpy 2.1.2-1 5
 qtwebflix-git 0.1.r190.g54c2c1b-1 3
 quartus-130 13.0.1.232-1 1
-quassel-client-git 0.14.0.r7.gb2deed91-1 2
-quassel-client-light-git 0.14.0.r7.gb2deed91-1 2
-quassel-client-light-webengine-git 0.14.0.r7.gb2deed91-1 2
-quassel-core-git 0.14.0.r7.gb2deed91-1 2
-quassel-git 0.14.0.r7.gb2deed91-1 2
-quassel-light-git 0.14.0.r7.gb2deed91-1 2
-quassel-light-webengine-git 0.14.0.r7.gb2deed91-1 2
 quaternion 0.0.95.1-1 3
 quaternion-git 0.0.95.1.flatpak.r40.ge69bbb7-1 3
 qucs 0.0.20_rc2-2 3
@@ -1250,4 +1235,4 @@ wine-stable 8.0.2-1 1
 bubblejail 0.8.1-1 1
 bubblejail-git 0.8.1.r0.g806acc9-1 1
 nekoray 3.21-1 1
-vita3k-git r3382.15f170f0-1 1
+rofi-lbonn-wayland 1.7.5+wayland1-1 1
