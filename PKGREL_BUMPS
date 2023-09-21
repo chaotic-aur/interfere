@@ -1210,7 +1210,7 @@ qbittorrent-enhanced-git 4.5.5.10.r0.g0cf9d4918-1 1
 qbittorrent-enhanced-qt5 4.5.5.10-1 1
 qbittorrent-qt5 4.5.5-1 1
 qlog-git r1319.f5502d6-1 1
-rstudio-desktop 2023.06.2.561-3 1
+rstudio-desktop 2023.06.2.561-3 2
 shutter-encoder 17.3-1 1
 spleeter-git 2.4.0.r36.g13c771b-1 1
 sunshine 0.20.0-2 1
@@ -1232,8 +1232,6 @@ rofi-lbonn-wayland 1.7.5+wayland1-1 1
 hakuneko-desktop-bin 6.1.7-2 1
 kwin-effect-rounded-corners-git 0.4.2.r3.ge784166-1 1
 authy 2.4.1-1 1
-remmina-git 1.4.32.r3.g0a2e484dc-1 1
-qemu-git 20:8.1.0.r856.g55394dcbec-1 1
 rustup-git 1.26.0.r131.gd4c68448-1 1
 flashrom-git 1.2.1354.g879fa069-1 1
 intel-hybrid-codec-driver-git 1:2.0.0.r170.20220515.cfb3b71-3 1
