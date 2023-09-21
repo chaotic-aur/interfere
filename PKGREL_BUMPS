@@ -1241,3 +1241,5 @@ intel-hybrid-codec-driver-git 1:2.0.0.r170.20220515.cfb3b71-3 1
 whoogle-git 0.8.3.r9.ge9c4ed6-1 1
 fancontrol-kcm-git 0.8.r23.g5bfa8fa-1 1
 libretro-mupen64plus-next-git r469.26fd1edd-1 1
+gruvbox-material-icon-theme-git r23.a1295d8bc-1 1
+gruvbox-material-gtk-theme-git r23.a1295d8bc-1 1
