@@ -1209,7 +1209,6 @@ qbittorrent-enhanced 4.5.5.10-1 1
 qbittorrent-enhanced-git 4.5.5.10.r0.g0cf9d4918-1 1
 qbittorrent-enhanced-qt5 4.5.5.10-1 1
 qbittorrent-qt5 4.5.5-1 1
-qlog-git r1319.f5502d6-1 1
 rstudio-desktop 2023.06.2.561-3 2
 shutter-encoder 17.3-1 1
 spleeter-git 2.4.0.r36.g13c771b-1 1
@@ -1238,4 +1237,4 @@ fancontrol-kcm-git 0.8.r23.g5bfa8fa-1 1
 libretro-mupen64plus-next-git r469.26fd1edd-1 1
 gruvbox-material-icon-theme-git r23.a1295d8bc-1 1
 gruvbox-material-gtk-theme-git r23.a1295d8bc-1 1
-celluloid-git 0.26.r2.g00c8032-1 1
+tuxedo-keyboard-dkms 3.2.11-1 1
