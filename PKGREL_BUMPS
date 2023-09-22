@@ -1217,7 +1217,6 @@ sunshine 0.20.0-2 1
 syncthingtray 1.4.6-1 1
 dynarmic 6.5.0-1 1
 prjapicula 0.9.0-1 1
-forkgram 4.9.1-2 1
 lib32-gd 2.3.3-2 1
 lib32-libgphoto2 2.5.30-1 2
 lib32-libraqm 0.9.0-1 1
@@ -1233,10 +1232,10 @@ hakuneko-desktop-bin 6.1.7-2 1
 kwin-effect-rounded-corners-git 0.4.2.r3.ge784166-1 1
 authy 2.4.1-1 1
 rustup-git 1.26.0.r131.gd4c68448-1 1
-flashrom-git 1.2.1354.g879fa069-1 1
 intel-hybrid-codec-driver-git 1:2.0.0.r170.20220515.cfb3b71-3 1
 whoogle-git 0.8.3.r9.ge9c4ed6-1 1
 fancontrol-kcm-git 0.8.r23.g5bfa8fa-1 1
 libretro-mupen64plus-next-git r469.26fd1edd-1 1
 gruvbox-material-icon-theme-git r23.a1295d8bc-1 1
 gruvbox-material-gtk-theme-git r23.a1295d8bc-1 1
+celluloid-git 0.26.r2.g00c8032-1 1
