@@ -1,0 +1,4 @@
+
+# Specific java-runtime version is unnecessary
+depends=(${depends[@]/java-runtime*})
+depends+=('java-runtime')
