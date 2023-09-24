@@ -917,7 +917,6 @@ quick-lookup 2.0.0-2 3
 quickdocs 2.2.6-1 3
 qwertone-git v0.4.0.r0.24bcfb0-1 3
 qytdl 1.6-1 3
-radeon-profile-daemon-git 20190603.r0.g7923bd6-1 2
 radeon-profile-git 20200824.r26.g0d632ba-1 4
 raider-file-shredder 1.3.1-1 3
 rclone-browser 1.8.0-3 3
@@ -1079,7 +1078,7 @@ vala-panel-appmenu-valapanel-git 0.7.6.r28.g76442be-1 2
 vala-panel-appmenu-xfce 0.7.6-3 2
 vala-panel-appmenu-xfce-git 0.7.6.r28.g76442be-1 2
 vala-panel-genmon-git 5.1.0.r41.gd8f2540-1 3
-vala-panel-sntray-git 0.4.13.1.r3.ga5028a3-1 4
+vala-panel-sntray-git 0.4.13.1.r3.ga5028a3-1 5
 vala0.44 0.44.11-1 3
 vala0.52 0.52.11-1 3
 velox-git 0.0.2.r287.gfcc0412-1 1
@@ -1354,7 +1353,6 @@ nomacs 1:3.17.2285-1 1
 obs-backgroundremoval 1.1.3-1 1
 obs-rtspserver 3.0.0-3 1
 obs-studio-browser 29.1.3-4 1
-obs-studio-git 30.0.0.beta2-1 1
 obs-studio-rc 6:29.1.3-2 1
 obs-studio-tytan652 29.1.3-4 1
 obs-vaapi 0.4.0-1 1
@@ -1422,7 +1420,6 @@ valent-git r1110.33ccc62a-1 1
 veloren-git nightly.r0.5d311e13bd-1 1
 video-downloader 0.12.9-1 1
 vim-coc-deno-git r304.a89e905-1 1
-virt-manager-git 4.1.0.r130.g17dc77748-1 1
 vlc-luajit 3.0.18-8 1
 vscodium-electron 1.81.1.23222-1 1
 warpinator-git 1.6.4.r7.g896a0ae-1 1
