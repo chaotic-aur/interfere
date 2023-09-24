@@ -1008,7 +1008,7 @@ spotify-tray-git 1.3.2.r9.g7ec6ac4-1 2
 spread-sheet-widget 0.8-1 3
 srb2kart 1.6-1 2
 stacer 1.1.0-1 4
-startgame 1.2.3-1 3
+startgame 1.2.3-1 4
 steamtinkerlaunch 12.12-1 2
 stylepak-git 18.0c4b0c1-1 2
 subliminal-git 2.1.0.r22.g160ea63-6 4
@@ -1098,7 +1098,7 @@ vim-coc-yaml-git 1.9.0.r0.g40880b1-1 3
 vim-coc-zsh-git r3.ef6b0ca-1 3
 vim-colorschemes r215.fd8f122-1 3
 vim-vimwiki 2023.04.04_1-1 2
-virt-manager-meta 5-4 2
+virt-manager-meta 5-4 3
 vital-synth 1.5.5-1 2
 vkbasalt-cli 3.1.1-1 5
 vlc-git 4.0.0.r23113.gf7bb59d9f5-1 2
@@ -1235,3 +1235,6 @@ gruvbox-material-icon-theme-git r23.a1295d8bc-1 1
 gruvbox-material-gtk-theme-git r23.a1295d8bc-1 1
 tuxedo-keyboard-dkms 3.2.11-1 1
 pdfsam 5.1.3-1 1
+dolphin-emu-clang 1:5.0.r19870.032c77b462-1 1
+dolphin-emu-nolto 1:5.0.r19870.032c77b462-1 1
+waterfox-g-bin 5.1.13-0 1
