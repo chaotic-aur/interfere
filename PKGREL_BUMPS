@@ -527,7 +527,7 @@ layer-shell-qt-git 5.27.80_r76.g3c85e2e-1 2
 lbry-desktop-bin 0.53.9-1 2
 lbry-desktop-git 0.53.9.r10962.gd14c9141d-1 2
 lib32-chromaprint 1.5.1-2 2
-lib32-ffmpeg 2:6.0-2 3
+lib32-ffmpeg 2:6.0-2 4
 lib32-fftw 3.3.10-3 1
 lib32-fltk 1.3.8-1 3
 lib32-gallium-nine-git 0.r388.9abd0b4-1 4
