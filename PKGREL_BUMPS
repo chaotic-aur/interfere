@@ -166,7 +166,6 @@ dosbox-staging 1:0.80.1-2 3
 dotfonts-git r64.a768278-1 3
 downloader-cli 0.3.3-0 3
 dracula-grub-theme-git r11.0e721d9-1 1
-dracula-qtcreator-theme-git r27.898dbb5-1 4
 dracula-xresources-git r12.539ef24-1 1
 dracut-hook 0.5.3-1 1
 dragon-git 23.03.70.r1139-1 2
@@ -1064,11 +1063,8 @@ usbimager 1.0.9-1 2
 vala-panel 0.5.0-1 3
 vala-panel-applets-icontasks-git r88.74de68c-1 2
 vala-panel-applets-xembed-git r88.74de68c-1 2
-vala-panel-appmenu-budgie-git 0.7.6.r28.g76442be-1 2
 vala-panel-appmenu-mate 0.7.6-3 2
-vala-panel-appmenu-mate-git 0.7.6.r28.g76442be-1 2
 vala-panel-appmenu-valapanel 0.7.6-3 2
-vala-panel-appmenu-valapanel-git 0.7.6.r28.g76442be-1 2
 vala-panel-appmenu-xfce 0.7.6-3 2
 vala-panel-appmenu-xfce-git 0.7.6.r28.g76442be-1 3
 vala-panel-genmon-git 5.1.0.r41.gd8f2540-1 3
@@ -1295,16 +1291,12 @@ gimp-elsamuko-git r90.ac9a756-1 1
 gnome-gesture-improvements r201.f007cac-2 1
 gnome-shell-extension-appindicator-git 1:57+1+gdbcbb9f-1 1
 gnome-shell-extension-arch-update 52-1 1
-gnome-shell-extension-compiz-windows-effect-git r32.5d25f00-1 1
 gnome-shell-extension-dash-to-dock 1:85-1 1
 gnome-shell-extension-desktop-icons-ng 47.0.4-1 1
-gnome-shell-extension-desktop-icons-ng-git 47.0.3.r4.g6d2c57e-1 1
 gnome-shell-extension-gnome-ui-tune-git 1.7.4.r0.g84b2ac4-1 1
 gnome-shell-extension-gsconnect 2:55-1 1
 gnome-shell-extension-material-shell 44-1 1
 gnome-shell-extension-material-shell-git 1:r984.a322939-1 1
-gnome-shell-extension-space-bar-git 21.r0.g5f57a93-1 1
-gnome-shell-extension-tiling-assistant-git 41.r4.g1e37b4f-1 1
 gnome-shell-extension-ubuntu-dock-git 87ubuntu1.r0.g7b799bd-1 1
 gnome-shell-extension-x11gestures 17-1 1
 gnome-shell-performance 1:44.5-1 1
@@ -1441,3 +1433,4 @@ python-ffmpeg-python 0.2.0-5 1
 python-spotdl 4.2.1-1 1
 srb2 2.2.13-1 1
 telegram-desktop-userfonts 4.9.5-1 1
+criterion 2.4.2-1 1
