@@ -27,7 +27,6 @@ app-icon-preview 3.3.0-1 3
 appimagelauncher 2.2.0-6 5
 appmenu-gtk-module-git 0.7.6.r28.g76442be-1 3
 aqemu 0.9.4-2 4
-archlinux-java-run 9-1 1
 ark-git 23.03.70_r5003.gaaeebe0c-1 3
 armorpaint-git 0.9.r3115.g4ec16d38-1 3
 artha 1.0.5-1 1
@@ -74,7 +73,6 @@ browsh 1.8.2-1 3
 budgie-genmon-git 5.1.0.r41.gd8f2540-1 4
 budgie-network-applet 2.2-1 5
 budgie-screenshot-applet 0.4.3.r0.gd92b06c-3 5
-budgie-sntray-git 0.4.13.1.r3.ga5028a3-1 4
 buttermanager 2.5.0-1 3
 bytecode-viewer 2.11.2-1 1
 cabbage-bin 2.8.0-1 1
@@ -171,7 +169,6 @@ dracula-grub-theme-git r11.0e721d9-1 1
 dracula-qtcreator-theme-git r27.898dbb5-1 4
 dracula-xresources-git r12.539ef24-1 1
 dracut-hook 0.5.3-1 1
-dragon-drop-git 1.2.0.r3.g0a56eb2-1 2
 dragon-git 23.03.70.r1139-1 2
 drawpile 2.1.20-4 2
 drawpile-client 2.1.20-4 2
@@ -531,7 +528,6 @@ lib32-fftw 3.3.10-3 1
 lib32-fltk 1.3.8-1 3
 lib32-gallium-nine-git 0.r388.9abd0b4-1 4
 lib32-glslang 12.1.0-1 2
-lib32-libffmpeg 2:6.0-2 2
 lib32-liblrdf 0.6.1-3 1
 lib32-libofa 0.9.3-8 1
 lib32-lilv 0.24.20-1 2
@@ -863,7 +859,6 @@ python-pypdf2 1:2.12.1-3 2
 python-pyrr 0.10.3-1 3
 python-pywhat 5.1.0-4 2
 python-qt-material-git r243.20230206-1 2
-python-recurring-ical-events 2.0.2-1 2
 python-rst.linker 2.4.0-1 2
 python-rtmixer 0.1.4-1 1
 python-rtslib-fb 2.1.75-1 3
@@ -1075,7 +1070,7 @@ vala-panel-appmenu-mate-git 0.7.6.r28.g76442be-1 2
 vala-panel-appmenu-valapanel 0.7.6-3 2
 vala-panel-appmenu-valapanel-git 0.7.6.r28.g76442be-1 2
 vala-panel-appmenu-xfce 0.7.6-3 2
-vala-panel-appmenu-xfce-git 0.7.6.r28.g76442be-1 2
+vala-panel-appmenu-xfce-git 0.7.6.r28.g76442be-1 3
 vala-panel-genmon-git 5.1.0.r41.gd8f2540-1 3
 vala-panel-sntray-git 0.4.13.1.r3.ga5028a3-1 5
 vala0.44 0.44.11-1 3
@@ -1262,7 +1257,6 @@ crowdsec 1.5.4-1 1
 curlew 0.2.5-2 1
 cyberchef-electron 10.4.0-1 1
 dangerzone 0.4.2-3 1
-darktable-git 4.5.0.r748.g5d11597580-1 1
 deltachat-desktop-git v1.40.4.r12.gbd183d2d-1 1
 dino-git 0.4.1.r51.ge2c34bf-1 1
 discord-screenaudio 1.8.2-1 1
@@ -1298,7 +1292,6 @@ gdm-prime 44.1-1 1
 gdm-settings 3.3-1 1
 giada 0.24.0-1 1
 gimp-elsamuko-git r90.ac9a756-1 1
-glaxnimate-git 0.5.4_23_g6b102d9e-1 1
 gnome-gesture-improvements r201.f007cac-2 1
 gnome-shell-extension-appindicator-git 1:57+1+gdbcbb9f-1 1
 gnome-shell-extension-arch-update 52-1 1
@@ -1322,7 +1315,6 @@ gpu-screen-recorder-git r366.59bf8e3-1 1
 gpu-screen-recorder-gtk-git r158.96f3ad9-1 1
 gr-limesdr-git 3.0.1.r69.gd0fac85-2 1
 guiscrcpy 1:2023.1.1-3 1
-gyroflow-git 1.5.2.r104.g0c701dd2-1 1
 icecat 102.15.0-1 1
 jamesdsp-pulse 2.6.1-1 1
 jdminecraftlauncher 5.2-2 1
@@ -1331,7 +1323,6 @@ kde-servicemenus-pdf 2.3-2 1
 kotatogram-dev-git k1.4.9.r2.g52b300cb3-1 1
 ledger-live 2.68.1-1 1
 libreswan 4.12-1 1
-lmms-git 1.3.0.alpha.1.r400.g33d1baddc-1 1
 mastodon 4.2.0-1 1
 maui-shell-git 0.6.6.r1.g920eca7-1 1
 mauikit-calendar-git 3.0.1.r5.gf3fea7b-1 1
@@ -1346,7 +1337,6 @@ mutter-dynamic-buffering 44.4-1 1
 mutter-x11-scaling 44.5-1 1
 natron-git 1:1-1 1
 natron-plugins-git 2.1.7.r1201.gb0c499f-1 1
-nextcloud-client-git 3.6.0.r2080.gdb057b571-1 1
 nheko-git 0.11.3.r413.g03be9e47-31 1
 nomacs 1:3.17.2285-1 1
 obs-backgroundremoval 1.1.3-1 1
