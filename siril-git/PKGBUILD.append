@@ -1,1 +1,4 @@
-makedepends+=(cmake git)
+
+unset replaces
+
+depends+=(libheif)
