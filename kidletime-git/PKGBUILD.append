@@ -1,2 +1,0 @@
-depends+=(plasma-wayland-protocols-git qt5-wayland wayland-protocols-git)
-source=("git+https://github.com/KDE/${pkgname%-git}#branch=kf5")
