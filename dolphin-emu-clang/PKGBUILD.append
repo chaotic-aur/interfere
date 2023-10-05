@@ -9,6 +9,9 @@ makedepends+=(
   lld
 )
 
+options=(${options[@]/*lto*})
+options+=('lto')
+
 eval _orig_"$(declare -f package)"
 package() {
   cd dolphin-emu
