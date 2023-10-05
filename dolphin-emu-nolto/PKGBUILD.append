@@ -1,7 +1,0 @@
-
-pkgname="dolphin-emu-nolto"
-
-provides+=('dolphin-emu')
-conflicts+=('dolphin-emu')
-
-options+=('!lto')
