@@ -1277,7 +1277,6 @@ opensnitch-ebpf-module 1.6.3-1 1
 otpclient 3.1.9-1 1
 pdf-xchange 10.1.1.381-1 1
 pegasus-frontend-git alpha16.r65.g6dd137e4-1 1
-photoqt 3.3-1 1
 plasma5-applets-weather-widget-2 2.3.5beta2-1 1
 plasma5-wallpapers-blurredwallpaper 2.2-1 1
 plasma5-wallpapers-wallpaper-engine 0.5.4-4 1
@@ -1317,12 +1316,10 @@ unflac 1.1-1 1
 valent-git r1110.33ccc62a-1 1
 video-downloader 0.12.9-1 1
 vscodium-electron 1.81.1.23222-1 1
-webcord 4.4.1-1 1
 whatsapp-for-linux 1.6.4-1 1
 whatsie-git v4.14.1.r311.906ca7e-1 1
 wlrobs-hg r64.f72d5cb3cbbd-1 1
 xpra-git 4.4.r2212.g1394ee839-1 1
-youtube-music-git 1.20.0.r20.g0c45f98-1 1
 zrythm 1.0.0.beta.4.12.34-2 1
 86box 4.0-1 1
 munt 2.7.0-4 1
@@ -1342,3 +1339,4 @@ srb2 2.2.13-1 1
 criterion 2.4.2-1 1
 art-rawconverter 1.20.2-1 1
 gnome-multi-writer-git 3.35.90.r332.6a6d4d9-1 1
+cinelerra-gg-git 2023.09.r0.gfaa30d86-1 1
