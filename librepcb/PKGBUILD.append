@@ -1,0 +1,3 @@
+check() {
+  echo "Removed due to not having an available X session!"
+}
