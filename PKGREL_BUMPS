@@ -609,7 +609,6 @@ mesen-x-git 1.0.1.r177.ge6d75fcf-1 2
 meshlab 2022.02-1 4
 meshlab-git 2022.02.r129.gc139a651f-1 3
 messagelib-git 5.22.41_r6933.gaab499eb2-1 2
-meteo-qt-git 3.3-1 2
 metronome 1.0.0-1 3
 milou-git 5.27.80_r811.gc498381-1 2
 minecraft-launcher 1:1.0.1221-1 4
@@ -661,7 +660,6 @@ nspawn-git r46.09c5220-1 1
 nteract-bin 0.28.0-1 3
 ntfs3-dkms 1:5.17-1 1
 nuclear-player-bin 1667906953281:2022118_2aafe80b9a7a18d4b506b4f8b92005cc-2 2
-numix-icon-theme-git 23.04.26.r0.g71b89af4f-1 1
 nvidia-390xx-settings 390.157-1 2
 nvidia-vaapi-driver-git 0.0.9.r7.gc0a7f54-1 2
 nvim-yarp-git r59.bb5f5e0-1 2
@@ -1017,7 +1015,6 @@ text-engine 0.1.1-3 2
 themix-full-git 1.15.1-1 2
 themix-icons-archdroid-git 1.0.3.r0.gb90779de4-1 1
 themix-icons-gnome-colors-git 5.5.6.r0.gd2cb7eb-2 3
-themix-icons-numix-git 23.04.26.r0.g71b89af4f.23.02.11.r0.gb8ab58632-1 1
 themix-icons-suru-plus-aspromauros-git 3.0.r0.gd43a8ec4-2 1
 themix-icons-suru-plus-git 30.0.r2.g9bd895f32-2 1
 themix-theme-arc-git 20190917.r4.g1fd68cc-1 1
@@ -1058,7 +1055,6 @@ vala0.44 0.44.11-1 3
 vala0.52 0.52.11-1 3
 velox-git 0.0.2.r287.gfcc0412-1 1
 vibrantlinux 2.1.10-1 3
-video-trimmer 0.8.1-1 3
 vim-coc-eslint-git 1.6.0.r0.g007ad15-1 2
 vim-coc-flutter-git 1.9.3.r19.g883c269-1 2
 vim-coc-highlight-git 2.0.4.r0.gc405d34-1 3
@@ -1084,13 +1080,9 @@ wahay-bin 6be34ec-1 3
 warp 0.5.4-1 1
 waterfox-g3-bin 2.6-1 3
 waterfox-g4-bin 1.5-0 3
-wayfire 0.7.5-1 2
-wayfire-plugins-extra 0.7.5-1 2
-wcm 0.7.5-1 2
 webkit2gtk-unstable 2.38.0-1 3
 webwatcher-git r24.3d3099f-2 2
 wf-osk-git r13.d2e2e32-1 3
-wf-shell 0.7.0-3 2
 wike 2.0.1-1 2
 windscribe-bin 2.4.11-1 1
 windscribe-cli 1.4_51-1 1
@@ -1212,14 +1204,12 @@ curlew 0.2.5-2 1
 cyberchef-electron 10.4.0-1 1
 dangerzone 0.4.2-3 1
 discord-screenaudio 1.8.2-1 1
-dosbox-x 2023.09.01-1 1
 droidcam 1:2.0.0-1 1
 dsda-doom 0.26.2-1 1
 dxvk-async-git 2.2.r22.ge9e09497-1 1
 exaile 4.1.3-1 1
 ff2mpv-native-messaging-host-git r75.96897a8-1 1
 ffmpeg-full 6.0-4 2
-ffmpeg-obs 6.0.r12.ga6dc929-6 2
 filebot 5.1.1-1 1
 flat-remix-gnome 20230606-1 1
 fldigi 4.2.00-1 1
@@ -1232,7 +1222,6 @@ gdm-settings 3.3-1 1
 giada 0.24.0-1 1
 gimp-elsamuko-git r90.ac9a756-1 1
 gnome-gesture-improvements r201.f007cac-2 1
-gnome-shell-extension-appindicator-git 1:57+1+gdbcbb9f-1 1
 gnome-shell-extension-arch-update 52-1 1
 gnome-shell-extension-dash-to-dock 1:85-1 1
 gnome-shell-extension-desktop-icons-ng 47.0.4-1 1
@@ -1240,7 +1229,6 @@ gnome-shell-extension-gnome-ui-tune-git 1.7.4.r0.g84b2ac4-1 1
 gnome-shell-extension-gsconnect 2:55-1 1
 gnome-shell-extension-material-shell 44-1 1
 gnome-shell-extension-material-shell-git 1:r984.a322939-1 1
-gnome-shell-extension-ubuntu-dock-git 87ubuntu1.r0.g7b799bd-1 1
 gnome-shell-extension-x11gestures 17-1 1
 gnome-shell-performance 1:44.5-1 1
 goodvibes-git 0.7.6.r73.g43a4465-1 1
@@ -1254,10 +1242,9 @@ kotatogram-dev-git k1.4.9.r2.g52b300cb3-1 1
 libreswan 4.12-1 1
 mastodon 4.2.0-1 1
 maui-shell-git 0.6.6.r1.g920eca7-1 1
-mcpelauncher-ui-git v0.11.0.qt6.r3.ga40ddb0-1 1
 megasync-git 4.9.6.0.2.g64b7bd189-1 1
 mobydroid 0.6-1 1
-motivewave 1:6.7.12-1 1
+motivewave 1:6.7.12-1 2
 mousai 0.7.5-2 1
 mpvpaper 1.3-3 1
 musikcube 3.0.2-1 1
@@ -1265,12 +1252,9 @@ mutter-dynamic-buffering 44.4-1 1
 mutter-x11-scaling 44.5-1 1
 natron-git 1:1-1 1
 natron-plugins-git 2.1.7.r1201.gb0c499f-1 1
-nomacs 1:3.17.2285-1 1
 obs-backgroundremoval 1.1.3-1 1
 obs-rtspserver 3.0.0-3 1
-obs-studio-browser 29.1.3-4 1
 obs-studio-rc 6:29.1.3-2 1
-obs-studio-tytan652 29.1.3-4 1
 obs-vaapi 0.4.0-1 1
 onedrivegui-git 1.0.3.r2.g92d18f1-1 1
 opensnitch-ebpf-module 1.6.3-1 1
@@ -1332,13 +1316,9 @@ micropad 4.3.0-1 1
 mystiq 23.05.15-3 1
 nudelta 0.7.2-1 1
 openfx-io-git natron_testing.r9.g432948c-1 1
-polychromatic 0.8.1-2 1
 python-ffmpeg-python 0.2.0-5 1
 python-spotdl 4.2.1-1 1
 srb2 2.2.13-1 1
 criterion 2.4.2-1 1
 art-rawconverter 1.20.2-1 1
 gnome-multi-writer-git 3.35.90.r332.6a6d4d9-1 1
-chromium-wayland-vaapi 117.0.5938.132-1 1
-kodi-git r64120.df97ff523a9-1 1
-kodi-nexus-git r62191.34d2cacc8a7-1 1
