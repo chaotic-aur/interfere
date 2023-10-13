@@ -319,7 +319,7 @@ java-skinlf 6.7-5 1
 java-testng 7.6.1-1 1
 jdk16-graalvm-bin 21.2.0-2 1
 jdk8-graalvm-bin 21.2.0-2 1
-jdownloader2 latest-17 1
+jdownloader2 latest-17 2
 jellyfin-media-player 1.9.1-1 5
 jeuclid-core 3.1.9-1 1
 jgoodies-looks 2.8.0-4 1
@@ -1153,10 +1153,10 @@ lib32-x265 3.5-2 1
 wine-stable 8.0.2-1 1
 bubblejail 0.8.1-1 1
 rofi-lbonn-wayland 1.7.5+wayland1-1 1
-hakuneko-desktop-bin 6.1.7-2 1
+hakuneko-desktop-bin 6.1.7-2 2
 kwin-effect-rounded-corners-git 0.4.2.r3.ge784166-1 1
 authy 2.4.1-1 1
-intel-hybrid-codec-driver-git 1:2.0.0.r170.20220515.cfb3b71-3 1
+intel-hybrid-codec-driver-git 1:2.0.0.r170.20220515.cfb3b71-3 2
 fancontrol-kcm-git 0.8.r23.g5bfa8fa-1 1
 libretro-mupen64plus-next-git r469.26fd1edd-1 1
 gruvbox-material-icon-theme-git r23.a1295d8bc-1 1
@@ -1205,7 +1205,7 @@ goodvibes-git 0.7.6.r73.g43a4465-1 1
 gpu-screen-recorder-gtk-git r158.96f3ad9-1 1
 gr-limesdr-git 3.0.1.r69.gd0fac85-2 1
 guiscrcpy 1:2023.1.1-3 1
-jamesdsp-pulse 2.6.1-1 1
+jamesdsp-pulse 2.6.1-1 2
 jdminecraftlauncher 5.2-2 1
 kde-servicemenus-pdf 2.3-2 1
 kotatogram-dev-git k1.4.9.r2.g52b300cb3-1 1
@@ -1309,3 +1309,8 @@ goland-jre 2023.2.3-1 1
 grimshot 1.6.1-5 1
 gtk3-patched-filechooser-icon-view 1:3.24.38-1 1
 gzdoom 4.11.0-1 1
+imagemagick-full-git 7.1.1.18.r2.gc9e40fece-1 1
+intel-gmmlib-git 22.3.12.r0.gfa8ac6d-1 1
+jamesdsp 2.6.1-1 1
+jamesdsp-git 2.6.1.r15.g243ad9f-1 1
+jitsi-meet-desktop 2023.10.0-1 1
