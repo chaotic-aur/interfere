@@ -527,7 +527,7 @@ libgaminggear 0.15.1-8 3
 libgdm-plymouth 43.0-1 1
 libgksu 2.0.12-9 3
 libgravatar-git 5.22.41_r480.gac4c75c-1 2
-libinput-gestures 2.74-1 2
+libinput-gestures 2.74-1 3
 libinput_gestures_qt 0.3.2+7+g0868859-1 3
 libkdepim-git 5.23.40_r983.g61fb5b0-1 2
 libkgapi-git 5.23.40_r1549.g14794274-1 2
@@ -548,7 +548,7 @@ libsdrplay 3.07.1-1 1
 libstrangle-git 0.1.1.r135.0273e31-2 3
 libunity 7.1.4-15 3
 libva-intel-driver-g45-h264 1:2.4.1-2 4
-libva-intel-driver-hybrid 2.4.1-2 5
+libva-intel-driver-hybrid 2.4.1-2 6
 libzrtpcpp 4.7.0-2 1
 lightly-git r2172.121a61e5-2 3
 linux-nitrous-fire-headers 6.2.13-1 2
@@ -1158,7 +1158,7 @@ kwin-effect-rounded-corners-git 0.4.2.r3.ge784166-1 1
 authy 2.4.1-1 1
 intel-hybrid-codec-driver-git 1:2.0.0.r170.20220515.cfb3b71-3 2
 fancontrol-kcm-git 0.8.r23.g5bfa8fa-1 1
-libretro-mupen64plus-next-git r469.26fd1edd-1 1
+libretro-mupen64plus-next-git r469.26fd1edd-1 2
 gruvbox-material-icon-theme-git r23.a1295d8bc-1 1
 gruvbox-material-gtk-theme-git r23.a1295d8bc-1 1
 tuxedo-keyboard-dkms 3.2.11-1 1
@@ -1314,3 +1314,14 @@ intel-gmmlib-git 22.3.12.r0.gfa8ac6d-1 1
 jamesdsp 2.6.1-1 1
 jamesdsp-git 2.6.1.r15.g243ad9f-1 1
 jitsi-meet-desktop 2023.10.0-1 1
+keepassxc-git 2.7.1.r224.gcd7a53ab-1 1
+klassy-git 4.3.breeze5.27.5.r18.g2482daa3-1 1
+lib32-nvidia-525xx-utils 525.116.04-1 1
+lib32-openexr 3.1.9-1 1
+lib32-x264 3:0.164.r3095.baee400-1 1
+libeb 4.4.3-10 1
+libjxl-doc-git 0.8.2.r615.g2aef53ee-1 1
+libjxl-git 0.8.2.r615.g2aef53ee-1 1
+libpqmarble 1.3.0+12+gf240b2e-4 1
+logmein-hamachi 2.1.0.203-1 1
+lollypop-git 1.4.37.r5.gb1c5fe1b3-1 1
