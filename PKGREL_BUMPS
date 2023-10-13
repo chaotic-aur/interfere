@@ -109,7 +109,7 @@ celestia-addon-xwing 1-3 2
 cfs-zen-tweaks 1.2.0-1 1
 chaotic-neofetch-git 7.1.0.r166.gccd5d9f5-2 5
 chemtool 1.6.14-4 1
-chocolate-doom 3.0.1-1 3
+chocolate-doom 3.0.1-1 4
 cinny-desktop 2.2.6-1 3
 clamav-unofficial-sigs 7.2.5-1 1
 clapper 0.5.2-1 4
@@ -123,7 +123,6 @@ compiz-core 0.8.18-3 7
 compiz-git 0.9.14.2.r0.g12aca6852-1 7
 connman-gtk 1.1.1-2 4
 copypastegrab-git r84.9dfd205-1 3
-corrosion-git v0.3.0.r146.gdc1e4e5-1 2
 coulr 1.8.1-1 3
 cozy-audiobooks 1.2.1-1 4
 cpod-appimage 1.28.0-3 4
@@ -717,7 +716,6 @@ phoronix-test-suite 10.8.4-1 1
 photocollage 1.4.5-2 4
 picom-ibhagwan-git 1578_Next.297.gc4107bb_2021.11.03-1 3
 pigpio 79-1 3
-pikasso-git r92.64bcf29-1 2
 pim-data-exporter-git 23.03.40_r2869.g37814cc9-1 2
 pim-sieve-editor-git 23.03.40_r1735.ga679ceb-1 2
 pimcommon-git 5.22.49_r1978.gfa99d548-1 2
@@ -1291,3 +1289,4 @@ gnome-multi-writer-git 3.35.90.r332.6a6d4d9-1 1
 zotero-bin 6.0.27-1 1
 agg-2.6-git r153.c4f36b4-1 1
 antimicrox 3.3.4-3 1
+anydesk-bin 6.3.0-1 1
