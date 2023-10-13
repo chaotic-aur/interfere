@@ -235,7 +235,7 @@ gestures 0.3.1-1 3
 gifcurry 6.0.1.0_0-1 4
 gigolo 0.5.2-1 3
 gimp-extras 2.0.4-1 2
-gimp-plugin-normalmap 1.2.3-2 3
+gimp-plugin-normalmap 1.2.3-2 4
 gittyup 1.3.0-1 2
 gksu 2.0.2-6 2
 glew-egl-glx 2.2.0-1 3
@@ -260,9 +260,9 @@ grantleetheme-git 5.23.40_r481.gd428be3-1 2
 graphite-cursor-theme-git 2021.11.26.r9.g8773e95-1 1
 green-recorder 3.2.10-1 4
 green-recorder-git 3.2.10.r8.g1ad6656-1 4
-grub-silent 2.06-5 1
+grub-silent 2.06-5 2
 grub2-signing-extension 0.1.7-2 1
-gstreamer0.10-base-plugins 0.10.36-13 3
+gstreamer0.10-base-plugins 0.10.36-13 4
 gtg 0.6-6 3
 gtk-gnutella 1.2.2-1 1
 gtk-gnutella-git 1.2.2.r9.g12757e513-1 1
@@ -1301,3 +1301,11 @@ flite1 1.4-6 1
 fonts-meta-extended-lt 4-1 1
 fonts-tlwg 0.7.3-1 1
 fractal-git 1:5.beta2.r66.ge1976cd4-1 1
+freedoom 0.12.1-4 1
+fvs 0.3.4-2 1
+gajim-git 1:r21232.504ebff13-1 1
+goland 2023.2.3-1 1
+goland-jre 2023.2.3-1 1
+grimshot 1.6.1-5 1
+gtk3-patched-filechooser-icon-view 1:3.24.38-1 1
+gzdoom 4.11.0-1 1
