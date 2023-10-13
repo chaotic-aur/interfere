@@ -147,7 +147,6 @@ discord-development-electron-bin 0.0.203-1 3
 discover-git 5.27.80_r9211.gd3756e498-1 2
 disman-git 0.527.80_r1850.gb012e68-1 2
 disman-kwinft 5.27-1 2
-disneyplus 1.0.3-4 2
 dissenter-browser-bin 1.5.114-2 4
 dogecoin-qt 1.14.6-4 3
 dolphin-git 23.03.70_r7304.g5a5a82a0c-1 2
@@ -1303,7 +1302,6 @@ fonts-tlwg 0.7.3-1 1
 fractal-git 1:5.beta2.r66.ge1976cd4-1 1
 freedoom 0.12.1-4 1
 fvs 0.3.4-2 1
-gajim-git 1:r21232.504ebff13-1 1
 goland 2023.2.3-1 1
 goland-jre 2023.2.3-1 1
 grimshot 1.6.1-5 1
@@ -1376,3 +1374,4 @@ xorg-server-git 21.1.99.1.r531.g9617de733-1 1
 xorg-xwayland-git 23.1.2.r127.g9617de733-1 1
 zfs-dkms 2.1.13-1 1
 zfs-dkms-git 2:2.2.99.r153.gc0e58995e3-1 1
+gstreamer0.10-base 0.10.36-13 1
