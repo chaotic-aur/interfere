@@ -1326,7 +1326,6 @@ nvidia-390xx-utils 390.157-6 1
 nvidia-525xx-utils 525.116.04-1 1
 nvidia-container-toolkit 1.13.5-1 1
 nvidia-utils-beta 535.113.01-1 1
-openvino-git 2023.1.0.r691.g83c593be3b4-1 1
 os-prober-btrfs 1.79-5 1
 picom-git 1960_9.rc1.282.g751f305_2023.09.23-1 1
 planify 4.1.1-1 1
@@ -1363,8 +1362,8 @@ xerces2-java 2.12.2-1 1
 xfce4-appfinder-devel 4.19.1-1 1
 xorg-server-git 21.1.99.1.r531.g9617de733-1 1
 xorg-xwayland-git 23.1.2.r127.g9617de733-1 1
-zfs-dkms 2.1.13-1 1
 zfs-dkms-git 2:2.2.99.r153.gc0e58995e3-1 1
 gstreamer0.10-base 0.10.36-13 1
 sip4 4.19.25-5 2
 scala 2.13.11-1 1
+android-ndk r26.b-1 1
