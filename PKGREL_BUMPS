@@ -206,7 +206,7 @@ flashplugin 32.0.0.465-1 1
 fmit 1.2.14-1 4
 fontdownloader 10.0.0-1 3
 fontfinder 1.4.1-1 3
-foo2zjs-nightly 20201127-1 2
+foo2zjs-nightly 20201127-1 3
 fop-hyph 2.2-1 1
 foxitreader 2.4.5.0727-1 3
 frameworkintegration-git 5.104.0_r670.g03219de-1 2
@@ -1122,7 +1122,7 @@ zrythm-git 1:1.0.0.beta.4.5.62.r16.gdc3093182-1 2
 zulucrypt 6.2.0-1 3
 ytmdl 2023.2.28-1 2
 php73-intl 7.3.33-10 2
-foobillard++ 3.42beta-7 2
+foobillard++ 3.42beta-7 3
 speedtest++ 1.14.r71.0f63cfb-1 1
 librist 0.2.7-1 1
 mpv-full 0.36.0-1 5
@@ -1290,3 +1290,14 @@ zotero-bin 6.0.27-1 1
 agg-2.6-git r153.c4f36b4-1 1
 antimicrox 3.3.4-3 1
 anydesk-bin 6.3.0-1 1
+davs2 1.7-1 1
+crossover 23.5.0-1 1
+decklink-sdk 1:12.7-1 1
+element-desktop-git 1.11.46.r14.gb9ea639f9d-1 1
+element-web-git 1.11.46.r14.gb9ea639f9d-1 1
+epy-ereader-git r290.6b0e9fe-1 1
+fancontrol-gui 0.8-1 1
+flite1 1.4-6 1
+fonts-meta-extended-lt 4-1 1
+fonts-tlwg 0.7.3-1 1
+fractal-git 1:5.beta2.r66.ge1976cd4-1 1
