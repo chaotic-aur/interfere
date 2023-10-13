@@ -798,7 +798,6 @@ python-jaconv 0.3.4-2 2
 python-langcodes 3.3.0-1 1
 python-liblarch 3.2.0-1 3
 python-lyricsgenius 3.0.0-1 3
-python-manimpango 0.4.3-1 2
 python-manuf 1.1.5-1 2
 python-material-color-utilities 0.1.5-1 3
 python-moviepy 1.0.3-4 4
@@ -1058,7 +1057,6 @@ vosk-api 0.3.45-1 1
 vscodium-insiders-marketplace 1.72.0-1 3
 vscodium-marketplace 1.65.0-1 3
 wahay-bin 6be34ec-1 3
-warp 0.5.4-1 2
 waterfox-g3-bin 2.6-1 3
 waterfox-g4-bin 1.5-0 3
 webkit2gtk-unstable 2.38.0-1 3
@@ -1307,7 +1305,6 @@ goland-jre 2023.2.3-1 1
 grimshot 1.6.1-5 1
 gtk3-patched-filechooser-icon-view 1:3.24.38-1 1
 gzdoom 4.11.0-1 1
-imagemagick-full-git 7.1.1.18.r2.gc9e40fece-1 1
 intel-gmmlib-git 22.3.12.r0.gfa8ac6d-1 1
 jamesdsp 2.6.1-1 1
 jamesdsp-git 2.6.1.r15.g243ad9f-1 1
@@ -1318,8 +1315,6 @@ lib32-nvidia-525xx-utils 525.116.04-1 1
 lib32-openexr 3.1.9-1 1
 lib32-x264 3:0.164.r3095.baee400-1 1
 libeb 4.4.3-10 1
-libjxl-doc-git 0.8.2.r615.g2aef53ee-1 1
-libjxl-git 0.8.2.r615.g2aef53ee-1 1
 libpqmarble 1.3.0+12+gf240b2e-4 1
 logmein-hamachi 2.1.0.203-1 1
 lollypop-git 1.4.37.r5.gb1c5fe1b3-1 1
@@ -1336,10 +1331,7 @@ os-prober-btrfs 1.79-5 1
 picom-git 1960_9.rc1.282.g751f305_2023.09.23-1 1
 planify 4.1.1-1 1
 prjtrellis-git 1.4.r64.g36c615d-1 1
-prjxray-tools-git r3800.3418f9b5-1 1
-python-sip4 4.19.25-5 1
 pop-shell-plugin-system76-power-git 1.2.1.r48.g0febac5-1 1
-qtscrcpy-docs 2.1.2-1.6 1
 reaver-wps-fork-t6x-git 1.6.6.r21.bd0f382-1 1
 rofi-greenclip 4.2-2 1
 rtw88-dkms-git r315.1603dba-1 1
@@ -1369,10 +1361,10 @@ wordnet-cli 3.1-4 1
 xavs2 1.4-1 1
 xerces2-java 2.12.2-1 1
 xfce4-appfinder-devel 4.19.1-1 1
-xfce4-appfinder-git 4.19.1+2+gad81d8b-1 1
 xorg-server-git 21.1.99.1.r531.g9617de733-1 1
 xorg-xwayland-git 23.1.2.r127.g9617de733-1 1
 zfs-dkms 2.1.13-1 1
 zfs-dkms-git 2:2.2.99.r153.gc0e58995e3-1 1
 gstreamer0.10-base 0.10.36-13 1
 sip4 4.19.25-5 2
+scala 2.13.11-1 1
