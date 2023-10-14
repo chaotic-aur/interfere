@@ -1318,11 +1318,11 @@ lollypop-git 1.4.37.r5.gb1c5fe1b3-1 1
 matrix-synapse-git 1.94.0.r2.g5f12090fd7-1 1
 mauiman-git 3.0.1.r0.gae3d464-1 1
 munt-daemon 2.7.0-4.1 1
-nvidia-340xx-utils 340.108-1 1
-nvidia-390xx-utils 390.157-6 1
-nvidia-525xx-utils 525.116.04-1 1
+nvidia-340xx-utils 340.108-1 2
+nvidia-390xx-utils 390.157-6 2
+nvidia-525xx-utils 525.116.04-1 2
 nvidia-container-toolkit 1.13.5-1 1
-nvidia-utils-beta 535.113.01-1 1
+nvidia-utils-beta 535.113.01-1 2
 os-prober-btrfs 1.79-5 1
 picom-git 1960_9.rc1.282.g751f305_2023.09.23-1 1
 planify 4.1.1-1 1
