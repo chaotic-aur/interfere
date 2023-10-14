@@ -1328,8 +1328,6 @@ pop-shell-plugin-system76-power-git 1.2.1.r48.g0febac5-1 1
 reaver-wps-fork-t6x-git 1.6.6.r21.bd0f382-1 1
 rofi-greenclip 4.2-2 1
 rtw88-dkms-git r315.1603dba-1 1
-scala-docs 2.13.11-1 1
-scala-sources 2.13.11-1 1
 searx 1.1.0-2 1
 simple64 2023.09.2-1 1
 smartgit 22.1.7-1 1
@@ -1362,3 +1360,4 @@ element-desktop-git 1.11.46.r17.gb206e0cea0-1 1
 pop-launcher-git 1.2.1.r48.g0febac5-1 1
 libjxl-git 0.8.2.r616.gc6a7bc2b-1 1
 xfce4-panel-profiles 1.0.14-2 1
+gstreamer0.10-base 0.10.36-13 1
