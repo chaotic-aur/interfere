@@ -1,2 +1,4 @@
 #!/usr/bin/env sh
-sed -Ei 's&^(\s+)(replaces\+?=)&\1 _ignore_\2&g'  PKGBUILD
+
+# mangle replaces directive
+sed -Ei 's&^(\s+)(replaces\+?=)&\1 _ignore_\2&g' PKGBUILD
