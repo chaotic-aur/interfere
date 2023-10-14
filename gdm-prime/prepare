@@ -1,2 +1,4 @@
 #!/usr/bin/env sh
-sed -i 's& groups=(gnome)&&'  PKGBUILD
+
+# mangle groups directive
+sed -Ei 's&^(\s+)(groups\+?=)&\1 _ignore_\2&g' PKGBUILD
