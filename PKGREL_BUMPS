@@ -1297,8 +1297,8 @@ fonts-meta-extended-lt 4-1 3
 fonts-tlwg 0.7.3-1 1
 fractal-git 1:5.beta2.r66.ge1976cd4-1 1
 fvs 0.3.4-2 1
-goland 2023.2.3-1 1
-goland-jre 2023.2.3-1 1
+goland 2023.2.3-1 2
+goland-jre 2023.2.3-1 2
 grimshot 1.6.1-5 1
 gtk3-patched-filechooser-icon-view 1:3.24.38-1 1
 gzdoom 4.11.0-1 1
