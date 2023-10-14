@@ -1031,7 +1031,6 @@ vala-panel-appmenu-valapanel 0.7.6-3 2
 vala-panel-appmenu-xfce 0.7.6-3 2
 vala-panel-appmenu-xfce-git 0.7.6.r28.g76442be-1 3
 vala-panel-genmon-git 5.1.0.r41.gd8f2540-1 3
-vala-panel-sntray-git 0.4.13.1.r3.ga5028a3-1 5
 vala0.44 0.44.11-1 3
 vala0.52 0.52.11-1 3
 velox-git 0.0.2.r287.gfcc0412-1 1
@@ -1297,7 +1296,6 @@ fonts-meta-extended-lt 4-1 3
 fonts-tlwg 0.7.3-1 1
 fractal-git 1:5.beta2.r66.ge1976cd4-1 1
 fvs 0.3.4-2 1
-goland 2023.2.3-1 2
 goland-jre 2023.2.3-1 2
 grimshot 1.6.1-5 1
 gtk3-patched-filechooser-icon-view 1:3.24.38-1 1
@@ -1317,7 +1315,6 @@ logmein-hamachi 2.1.0.203-1 1
 lollypop-git 1.4.37.r5.gb1c5fe1b3-1 1
 matrix-synapse-git 1.94.0.r2.g5f12090fd7-1 1
 mauiman-git 3.0.1.r0.gae3d464-1 1
-munt-daemon 2.7.0-4.1 1
 nvidia-340xx-utils 340.108-1 2
 nvidia-390xx-utils 390.157-6 2
 nvidia-525xx-utils 525.116.04-1 2
@@ -1336,7 +1333,6 @@ scala-sources 2.13.11-1 1
 searx 1.1.0-2 1
 simple64 2023.09.2-1 1
 smartgit 22.1.7-1 1
-sntray-plugin-common-git 0.4.13.1.r3.ga5028a3-1.5 2
 split2flac 20200508-1 1
 ssacli 4.21.7.0-1 1
 sweet-gtk-theme 3.0-1 1
@@ -1349,23 +1345,19 @@ telegram-desktop-dev-bin 4.9.5-1 1
 telepathy-farstream 0.6.2-7 1
 trackma-git 0.8.6.r33.g601de5b-1 1
 tutanota-desktop-bin 3.118.13-1 1
-vala-panel-appmenu-common 0.7.6-3 1
 vala-panel-appmenu-common-git 0.7.6.r28.g76442be-1.3 2
 vazirmatn-fonts 33.003-1 1
 vmaf-git 2.3.1.r161.gaf31e4cd-1 1
-wordnet-cli 3.1-4 3
 xavs2 1.4-1 1
 xerces2-java 2.12.2-1 1
 xfce4-appfinder-devel 4.19.1-1 1
 xorg-server-git 21.1.99.1.r531.g9617de733-1 2
 xorg-xwayland-git 23.1.2.r127.g9617de733-1 1
 zfs-dkms-git 2:2.2.99.r153.gc0e58995e3-1 1
-gstreamer0.10-base 0.10.36-13 1
 sip4 4.19.25-5 3
-scala 2.13.11-1 2
+scala 2.13.11-1 3
 android-ndk r26.b-1 1
 connman-git 1.42.r10.g53964711-1 1
 element-desktop-git 1.11.46.r17.gb206e0cea0-1 1
-imagemagick-full-git 7.1.1.20.r11.g3576c625c-1 1
 pop-launcher-git 1.2.1.r48.g0febac5-1 1
-prjxray-tools-git r3805.728c748e-1 1
+libjxl-git 0.8.2.r616.gc6a7bc2b-1 1
