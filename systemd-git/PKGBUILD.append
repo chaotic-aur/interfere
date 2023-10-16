@@ -1,3 +1,0 @@
-check() {
-  echo "Lets skip tests for this one"
-}
