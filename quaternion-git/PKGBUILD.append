@@ -1,7 +1,7 @@
 _pkgname="quaternion"
 pkgname="$_pkgname-git"
-pkgver=0.0.95
-pkgrel=1
+pkgver=0.0.95.1.r213.g8ccd49a
+pkgrel=2
 pkgdesc='Qt-based IM client for the Matrix protocol'
 #url="https://matrix.org/docs/projects/client/quaternion.html"
 url="https://github.com/quotient-im/Quaternion"
@@ -11,10 +11,8 @@ license=(GPL3)
 depends=(
   hicolor-icon-theme
   qt5-multimedia
-  qt5-tools
-  qt5-quickcontrols
   qt5-quickcontrols2
-  qt5-graphicaleffects
+  qt5-tools
   qtkeychain-qt5
 )
 makedepends=(
