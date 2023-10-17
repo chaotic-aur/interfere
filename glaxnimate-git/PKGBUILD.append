@@ -1,3 +1,4 @@
+makedepends+=(clang)
 
 pkgver() {
   cd "$_pkgname"
