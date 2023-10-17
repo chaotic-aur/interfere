@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+# comply with font package guidelines
+sed -Ei 's&^(\s+)(depends\+?=)&\1 _ignore_\2&g' PKGBUILD
+sed -Ei 's&^(\s+)(makedepends\+?=)&\1 _ignore_\2&g' PKGBUILD
+sed -Ei 's&^(\s+)(install\+?=)&\1 _ignore_\2&g' PKGBUILD
