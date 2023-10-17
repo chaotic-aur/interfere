@@ -1,1 +1,0 @@
-source=("git+https://github.com/godotengine/${_gitname}.git#branch=master")
