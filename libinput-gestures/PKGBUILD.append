@@ -1,10 +1,11 @@
 
-conflicts=()
-replaces=()
+unset conflicts
+unset replaces
 
-depends=("${depends[@]/python}")
-depends+=(
-  'dbus-python'
-  'gobject-introspection-runtime'
-  'python-gobject'
+depends=(
+  dbus-python
+  gobject-introspection-runtime
+  hicolor-icon-theme
+  libinput
+  python-gobject
 )
