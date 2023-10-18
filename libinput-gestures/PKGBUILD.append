@@ -1,0 +1,9 @@
+unset conflicts
+unset replaces
+
+depends=(${depends[@]/python})
+depends+=(
+  'dbus-python'
+  'gobject-introspection-runtime'
+  'python-gobject'
+)
