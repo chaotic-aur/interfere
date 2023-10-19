@@ -93,7 +93,6 @@ celestia-addon-vaders_tie_fighter 1-2 2
 celestia-addon-voyagers 2-2 2
 celestia-addon-xwing 1-3 2
 cfs-zen-tweaks 1.2.0-1 1
-cheese-git 44.1-1 1
 chemtool 1.6.14-4 1
 chocolate-doom 3.0.1-1 4
 cinny-desktop 2.2.6-1 3
@@ -256,7 +255,6 @@ graphite-cursor-theme-git 2021.11.26.r9.g8773e95-1 1
 green-recorder 3.2.10-1 4
 green-recorder-git 3.2.10.r8.g1ad6656-1 4
 grimshot 1.6.1-5 1
-grub-silent 2.06-5 2
 grub2-signing-extension 0.1.7-2 1
 gstreamer0.10-base 0.10.36-13 1
 gtg 0.6-6 3
@@ -427,7 +425,6 @@ materia-theme-git 20210322.r52.g6e585038-1 2
 material-kwin-decoration-git v7+39+g0e989e5-1 3
 matrix-registration 0.9.1-2 4
 matrix-synapse-git 1.94.0.r2.g5f12090fd7-1 1
-mauiman-git 3.0.1.r0.gae3d464-1 1
 mcstatus 9.4.2-1 4
 media-downloader 2.7.0-1 2
 mediawriter 5.0.6-1 2
@@ -503,7 +500,6 @@ nwg-launchers 0.7.1-1 3
 nwg-menu 0.1.1-1 3
 nwg-wrapper 0.1.3-2 2
 nx-firewall-git 0.1.r116.gdbe0809-1 4
-obs-backgroundremoval 1.1.3-1 1
 obs-gstreamer 1:0.4.0-1 3
 obs-rtspserver 3.0.0-3 1
 obs-streamfx 0.11.1-1 3
@@ -590,7 +586,6 @@ prestopalette 0.1.31-1 3
 prjtrellis-git 1.4.r64.g36c615d-1 1
 processing 4.3-2 1
 proftpd 2:1.3.8-1 1
-protonup-git 0.1.5.r0.g54bcad9-1 3
 protonvpn-cli 3.13.0-2 4
 protonvpn-gui 1.12.0-1 4
 psautohint 3:2.4.0-2 2
@@ -721,7 +716,6 @@ rocketlauncher2-git 0.1.0.2.r11.gbdb48cd-1 3
 rofi-greenclip 4.2-2 1
 rofi-lbonn-wayland 1.7.5+wayland1-1 1
 rtl8192cu-fixes-git r118.e5c01a3-1 2
-rtw88-dkms-git r315.1603dba-1 1
 runescape-launcher 2.2.11-1 2
 sameboy 0.15.8-1 2
 saxon-he 11.4-1 1
