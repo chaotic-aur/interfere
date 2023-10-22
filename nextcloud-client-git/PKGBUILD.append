@@ -1,3 +1,4 @@
+
 depends+=(qt5-websockets karchive)
 
 pkgver() {

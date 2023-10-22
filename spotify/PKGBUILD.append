@@ -1,3 +1,4 @@
+
 prepare() {
 	echo "The prepare function breaks our build, hence we remove it"
 }

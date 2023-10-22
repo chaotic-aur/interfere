@@ -1,3 +1,4 @@
+
 makedepends+=(clang)
 depends=(
       "$_pkgbasename>=$pkgver"

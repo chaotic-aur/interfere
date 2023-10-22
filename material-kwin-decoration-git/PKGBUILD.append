@@ -1,1 +1,2 @@
+
 depends+=(kauth kcodecs kwidgetsaddons ki18n kwayland)

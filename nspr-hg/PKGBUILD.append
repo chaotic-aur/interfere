@@ -1,3 +1,4 @@
+
 pkgver() {
   local vmajor vminor vpatch
   cd "$_pkgname"
@@ -7,5 +8,3 @@ pkgver() {
 
     printf "%s.%s.%sr%s.%s" "$vmajor" "$vminor" "$vpatch" "$(hg identify -n)" "$(hg identify -i)"
 }
-
-

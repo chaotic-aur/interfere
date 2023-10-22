@@ -1,3 +1,4 @@
+
 prepare() {
   sed -Ei -e "s@^\s+'--urgency', 'critical',.*\$@@" \
     "$srcdir/src/bubblejail/bubblejail_cli.py"

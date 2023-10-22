@@ -1,3 +1,4 @@
+
 # Maintainer:
 # Contributor: GodofGrunts <me@godofgrunts.xyz>
 
@@ -105,4 +106,3 @@ package() {
   install -Dm644 "$pkgdir/usr/share/libresprite/data/icons/ase64.png" \
     "$pkgdir/usr/share/pixmaps/libresprite.png"
 }
-

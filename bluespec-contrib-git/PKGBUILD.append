@@ -1,1 +1,2 @@
+
 eval pkgrel=$(curl -s http://127.0.0.1:15854/$pkgname/$pkgver/$(for d in bluespec-git; do echo -n "$d=$(pacman -Q $d | cut -d' ' -f2),"; done))

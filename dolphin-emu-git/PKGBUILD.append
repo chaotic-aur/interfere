@@ -1,3 +1,4 @@
+
 _pkgname="dolphin-emu"
 pkgname="$_pkgname-git"
 pkgver=5.0.r20237.gc87b2e46b4

@@ -1,2 +1,2 @@
-makedepends+=(pipewire)
 
+makedepends+=(pipewire)
