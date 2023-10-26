@@ -1,6 +1,9 @@
 
-makedepends+=(python-pip)
+depends+=('python-pywlroots')
 
-check() {
-    echo "Disabled as it blocks building permanently"
-}
+for key in ${!optdepends[@]} ; do
+  if [[ "${optdepends[${key}]}" =~ '^python-pywlroots:.*$' ]] ; then
+    unset ${optdepends[${key}]}
+    break
+  fi
+done
