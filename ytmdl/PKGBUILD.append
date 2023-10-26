@@ -2,7 +2,7 @@
 _pkgname="ytmdl"
 pkgname="$_pkgname"
 pkgver=2023.07.27
-pkgrel=1
+pkgrel=2
 pkgdesc="Download songs from YouTube with metadata from sources like iTunes and Gaana"
 arch=("any")
 url="https://github.com/deepjyoti30/ytmdl"
@@ -35,19 +35,26 @@ makedepends=(
   'python-setuptools'
   'python-wheel'
 )
+optdepends=(
+  'chaotic-interfere: chaotic-aur interference tracker'
+)
 
 if [ x"$pkgname" == x"$_pkgname" ] ; then
   # normal package
   _pkgsrc="$_pkgname"
-  source=("$_pkgsrc"::"git+$url#tag=$pkgver")
+  source=("$_pkgsrc"::"git+$url#tag=${pkgver%%.r*}")
   sha256sums=("SKIP")
+
+  pkgver() {
+    echo "${pkgver%%.r*}"
+  }
 else
   # git package
   provides=("$_pkgname")
   conflicts=("$_pkgname")
 
   _pkgsrc="$_pkgname"
-  source=("$_pkgsrc"::"git+$url#tag=$pkgver")
+  source=("$_pkgsrc"::"git+$url")
   sha256sums=("SKIP")
 
   pkgver() {
@@ -66,10 +73,10 @@ build() {
 
 package() {
   cd "$_pkgsrc"
-  python -m installer --destdir="$pkgdir" dist/*.whl
+  python -m installer --destdir="${pkgdir:?}" dist/*.whl
 
-  install -Dm664 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname"
+  install -Dm664 LICENSE -t "${pkgdir:?}/usr/share/licenses/$pkgname"
 
-  install -Dm644 "ytmdl.zsh" "$pkgdir/usr/share/zsh/site-functions/_ytmdl"
-  install -Dm644 "ytmdl.bash" "$pkgdir/usr/share/bash-completion/completions/ytmdl"
+  install -Dm644 "ytmdl.zsh" "${pkgdir:?}/usr/share/zsh/site-functions/_ytmdl"
+  install -Dm644 "ytmdl.bash" "${pkgdir:?}/usr/share/bash-completion/completions/ytmdl"
 }

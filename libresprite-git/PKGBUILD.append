@@ -1,11 +1,8 @@
 
-# Maintainer:
-# Contributor: GodofGrunts <me@godofgrunts.xyz>
-
 _pkgname="libresprite"
 pkgname="$_pkgname-git"
-pkgver=1.0.r35.gbd5a0fc82
-pkgrel=1
+pkgver=1.0.r37.g4dac17fd1
+pkgrel=2
 pkgdesc='Animated sprite editor and pixel art tool'
 arch=('x86_64' 'i686')
 url='https://github.com/LibreSprite/LibreSprite'
@@ -30,27 +27,33 @@ makedepends=(
   'git'
   'gtest'
 )
+optdepends=(
+  'chaotic-interfere: chaotic-aur interference tracker'
+)
 
+_pkgsrc="$_pkgname"
 source=(
-  "$_pkgname"::"git+https://github.com/LibreSprite/LibreSprite.git"
-  "clip"::"git+https://github.com/aseprite/clip.git"
-  "duktape"::"git+https://github.com/LibreSprite/duktape.git"
-  "flic"::"git+https://github.com/aseprite/flic.git"
-  "observable"::"git+https://github.com/dacap/observable.git"
-  "simpleini"::"git+https://github.com/aseprite/simpleini.git"
-  "undo"::"git+https://github.com/aseprite/undo.git"
+  "$_pkgsrc"::"git+https://github.com/LibreSprite/LibreSprite.git"
   "libresprite.desktop"
+
+  'clip'::'git+https://github.com/aseprite/clip.git'
+  'duktape'::'git+https://github.com/libresprite/duktape.git'
+  'flic'::'git+https://github.com/aseprite/flic.git'
+  'observable'::'git+https://github.com/dacap/observable.git'
+  'simpleini'::'git+https://github.com/aseprite/simpleini.git'
+  'undo'::'git+https://github.com/aseprite/undo.git'
 )
 
 sha256sums=(
   'SKIP'
-  'SKIP'
-  'SKIP'
-  'SKIP'
-  'SKIP'
-  'SKIP'
-  'SKIP'
   'd246c14dc6c0d71d02aba337c15c23611c6e982687300c86167f37b9926af7ba'
+
+  'SKIP'
+  'SKIP'
+  'SKIP'
+  'SKIP'
+  'SKIP'
+  'SKIP'
 )
 
 provides=(
@@ -62,32 +65,34 @@ conflicts=(
 )
 
 pkgver() {
-  cd "$_pkgname"
+  cd "$_pkgsrc"
   git describe --long --tags | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
 }
 
 prepare() {
-  cd "$_pkgname"
-
-  _submodules=(
-    'src/clip'
-    'src/flic'
-    'src/observable'
-    'src/undo'
-    'third_party/duktape'
-    'third_party/simpleini'
+  (
+    # submodules for LibreSprite
+    cd "$_pkgsrc"
+    local -A _submodules=(
+      ['clip']='src/clip'
+      ['duktape']='third_party/duktape'
+      ['flic']='src/flic'
+      ['observable']='src/observable'
+      ['simpleini']='third_party/simpleini'
+      ['undo']='src/undo'
+    )
+     for key in ${!_submodules[@]} ; do
+      git submodule init "${_submodules[${key}]}"
+      git submodule set-url "${_submodules[${key}]}" "${srcdir}/${key}"
+      git -c protocol.file.allow=always submodule update "${_submodules[${key}]}"
+    done
   )
-  for submodule in ${_submodules[@]} ; do
-    git submodule init ${submodule}
-    git submodule set-url ${submodule} "${srcdir}/${submodule##*/}"
-    git -c protocol.file.allow=always submodule update ${submodule}
-  done
 }
 
 build() {
   _cmake_options=(
     -B build
-    -S "$_pkgname"
+    -S "$_pkgsrc"
 
     -DCMAKE_INSTALL_PREFIX="/usr"
   )
@@ -98,11 +103,11 @@ build() {
 
 
 package() {
-  DESTDIR="$pkgdir" cmake --install build
+  DESTDIR="${pkgdir:?}" cmake --install build
 
   install -Dm644 "$srcdir/libresprite.desktop" \
-    -t "$pkgdir/usr/share/applications"
+    -t "${pkgdir:?}/usr/share/applications"
 
   install -Dm644 "$pkgdir/usr/share/libresprite/data/icons/ase64.png" \
-    "$pkgdir/usr/share/pixmaps/libresprite.png"
+    "${pkgdir:?}/usr/share/pixmaps/libresprite.png"
 }
