@@ -201,6 +201,7 @@ gcdemu 3.2.6-1 3
 gconf 3.2.6+11+g07808097-10 4
 gdm-plymouth-prime 43.0-1 3
 gdm-tools-git 1:1.2+7+g4294817-1 1
+geany-plugin-preview-git 0.0.4.r0.gd8b9e04-1 1
 gegl-git 0..r10515.401c6d30b-1 2
 gestures 0.3.1-1 3
 gifcurry 6.0.1.0_0-1 4
@@ -463,7 +464,6 @@ nvidia-390xx-utils 390.157-6 2
 nvidia-525xx-utils 525.116.04-1 2
 nvidia-container-toolkit 1.13.5-1 1
 nvim-yarp-git r59.bb5f5e0-1 2
-nwg-bar 0.1.3-1 2
 nwg-launchers 0.7.1-1 3
 nwg-menu 0.1.1-1 3
 nwg-wrapper 0.1.3-2 2
@@ -529,7 +529,6 @@ plasma5-applets-eventcalendar 76-1 4
 plasma5-applets-netspeed 1.9-1 4
 plasma5-applets-virtual-desktop-bar-git r524.3c42104-1 4
 plasma5-applets-weather-widget-2 2.3.5beta2-1 1
-plasma5-applets-window-appmenu 0.8.0-1 4
 plasma5-applets-window-title 0.7.1-2 4
 plasma5-wallpapers-blurredwallpaper 2.2-1 1
 playonlinux 4.4+29+gd0ae9ce6-2 4
@@ -542,7 +541,6 @@ pop-bin 8.0.20-1 3
 pop-launcher-git 1.2.1.r48.g0febac5-1 1
 pop-shell-plugin-system76-power-git 1.2.1.r48.g0febac5-1 1
 pop-shell-shortcuts-git 1:r30.52cc83f-2 3
-popcorntime-git 0.4.4.r1879.g64553fa7-1 3
 prestopalette 0.1.31-1 3
 prjtrellis-git 1.4.r64.g36c615d-1 1
 processing 4.3-2 1
