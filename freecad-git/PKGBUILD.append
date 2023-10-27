@@ -1,4 +1,0 @@
-
-check() {
-  echo "Removed due to not being adapted for -git"
-}
