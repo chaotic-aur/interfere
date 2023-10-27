@@ -1,3 +1,0 @@
-
-makedepends+=(cmake)
-depends+=(libhandy)
