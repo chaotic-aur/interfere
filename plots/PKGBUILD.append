@@ -1,5 +1,0 @@
-
-makedepends+=(python-wheel python-pip)
-check() {
-    echo "Removed tests to stop build breaking from no display"
-}
