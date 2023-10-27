@@ -322,7 +322,6 @@ kdocker 5.4-1 3
 keeweb-desktop-bin 1.18.7-1 3
 kega-fusion 3.63-17 3
 keyboard-visualizer-git release_4.00.r26.gb50cc50-1 3
-klassy-git 4.3.breeze5.27.5.r18.g2482daa3-1 1
 komorebi 2.2.1-1 3
 kotatogram-desktop-beta-dynamic-bin 1.4.9-5 2
 kotatogram-dev-git k1.4.9.r2.g52b300cb3-1 1
@@ -675,7 +674,6 @@ rtl8192cu-fixes-git r118.e5c01a3-1 2
 runescape-launcher 2.2.11-1 2
 sameboy 0.15.8-1 2
 sayonara-player 1.7.0_stable3-1 4
-scala 2.13.11-1 3
 schildichat-desktop 1.11.30.sc.2-1 1
 scid 5.0.2-1 2
 sddm-theme-astronaut 1.0-1 3
@@ -736,6 +734,7 @@ swaylock-effects 1.6.10-1 2
 sweet-gtk-theme 3.0-1 1
 sweet-gtk-theme-dark 3.0-1 1
 syncthing-gtk 0.9.4.5-1 1
+syncthingtray 1.4.7-1 1
 synfigstudio-dev 1.5.1-1 4
 synkron 1.6.2-4 3
 syphon-bin 0.2.14-2 2
