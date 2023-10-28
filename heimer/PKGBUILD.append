@@ -1,0 +1,5 @@
+
+pkgver=4.2.0
+pkgrel=1
+source=("$pkgname-$pkgver.tar.gz::https://github.com/juzzlin/heimer/archive/$pkgver.tar.gz")
+sha256sums=('cbbc68c556845cb66a0bba0f1eab0bd6a0fb0d7f8bdd7e23984a45ab55b25ff5')
