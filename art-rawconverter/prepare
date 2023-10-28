@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+# preserve pkgname, pkgver
+_pkgname="$(sed -En 's/^\s*(pkgname=.*)$/\1/p' PKGBUILD)"
+_pkgver="$(sed -En 's/^\s*(pkgver=.*)$/\1/p' PKGBUILD)"
+
+# clear PKGBUILD
+truncate -s 0 PKGBUILD
+
+# ...
+echo "$_pkgname" >> PKGBUILD
+echo "$_pkgver" >> PKGBUILD
