@@ -41,7 +41,7 @@ optdepends=(
   'perl-image-exiftool: metadata support for CR3 images'
 )
 
-[[ x"{$_clang::1}" == "xt" ]] && makedepends+=('clang' 'lld' 'llvm')
+[[ x"${_clang::1}" == "xt" ]] && makedepends+=('clang' 'lld' 'llvm')
 
 if [ x"$pkgname" == x"$_pkgname" ] ; then
   # normal package
@@ -93,7 +93,7 @@ build() {
     -Wno-dev
   )
 
-  [[ x"{$_clang::1}" == "xt" ]] && _cmake_options+=(
+  [[ x"${_clang::1}" == "xt" ]] && _cmake_options+=(
     -DCMAKE_C_COMPILER=clang
     -DCMAKE_CXX_COMPILER=clang++
   )
