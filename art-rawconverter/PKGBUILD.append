@@ -70,7 +70,7 @@ fi
 prepare() {
   # fix version in about dialog
   sed -E \
-    -e "s@COMMAND.*--exact-match@COMMAND echo '${pkgver:?} (aur.chaotic.cx)'@" \
+    -e "s@COMMAND.*--exact-match@COMMAND echo ${pkgver:?}@" \
     -i "${srcdir:?}/$_pkgsrc/UpdateInfo.cmake"
 }
 
