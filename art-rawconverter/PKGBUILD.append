@@ -1,5 +1,5 @@
 
-: ${_clang:=true}
+: ${_clang:=false}
 
 _pkgname="art-rawconverter"
 : ${pkgname:="$_pkgname-git"}
