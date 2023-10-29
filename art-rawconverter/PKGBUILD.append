@@ -70,7 +70,7 @@ fi
 prepare() {
   # fix version in about dialog
   sed -E \
-    -e 's@--exact-match@--exclude="*[a-zA-Z][a-zA-Z]*" | sed -E "s/^v//;s/([^-]*-g)/r\1/;s/-/./g;s/\$/ (aur.chaotic.cx)/" @' \
+    -e 's@--exact-match@--exclude="*[a-zA-Z][a-zA-Z]*" | sed -E "s/^v//;s/([^-]*-g)/r\\1/;s/-/./g;s/\\$/ (aur.chaotic.cx)/"@' \
     -i "${srcdir:?}/$_pkgsrc/UpdateInfo.cmake"
 }
 
