@@ -70,7 +70,7 @@ fi
 prepare() {
   # fix version in about dialog
   sed -E \
-    -e "s@--exact-match@@" \
+    -e "s@describe.*--exact-match@describe --long --tags@" \
     -i "${srcdir:?}/$_pkgsrc/UpdateInfo.cmake"
 }
 
