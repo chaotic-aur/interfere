@@ -2,9 +2,9 @@
 : ${_clang:=true}
 
 _pkgname="art-rawconverter"
-: ${pkgname:="$_pkgname"}
-: ${pkgver:=1.20.2}
-pkgrel=2
+: ${pkgname:="$_pkgname-git"}
+: ${pkgver:=1.20.2.r9.gc2a681faf}
+pkgrel=3
 pkgdesc="Raw image Converter forked from RawTherapee with ease of use in mind"
 url="https://bitbucket.org/agriggio/art"
 license=('GPL3')
@@ -67,7 +67,20 @@ else
   }
 fi
 
+prepare() {
+  # fix version in about dialog
+  sed -E \
+    -e 's@--exact-match@--exclude="*[a-zA-Z][a-zA-Z]*" | sed -E "s/^v//;s/([^-]*-g)/r\1/;s/-/./g;s/\$/ (aur.chaotic.cx)/" @' \
+    -i "${srcdir:?}/$_pkgsrc/UpdateInfo.cmake"
+}
+
 build() {
+  if [[ x"$pkgname" != _"$_pkgname" ]] ; then
+    # apply CPU optimizations only for git package
+    export CFLAGS="$(echo "$CFLAGS" | sed -E 's@(\s*-(march|mtune)=\S+\s+)@ @g;s@$@ -march=broadwell -mtune=skylake@')"
+    export CXXFLAGS="$(echo "$CFLAGS" | sed -E 's@(\s*-(march|mtune)=\S+\s+)@ @g;s@$@ -march=broadwell -mtune=skylake@')"
+  fi
+
   local _cmake_options=(
     -B build
     -S "$_pkgsrc"
@@ -77,6 +90,7 @@ build() {
     -DENABLE_LIBRAW=ON
     -DENABLE_OCIO=ON
     -DBUILD_SHARED=ON
+    -Wno-dev
   )
 
   [[ x"{$_clang::1}" == "xt" ]] && _cmake_options+=(
@@ -90,4 +104,8 @@ build() {
 
 package() {
   DESTDIR="${pkgdir:?}" cmake --install build
+
+  # symlinks
+  ln -s "ART" "${pkgdir:?}/usr/bin/art"
+  ln -s "ART-cli" "${pkgdir:?}/usr/bin/art-cli"
 }

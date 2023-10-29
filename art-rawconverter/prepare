@@ -9,4 +9,4 @@ truncate -s 0 PKGBUILD
 
 # ...
 echo "$_pkgname" >> PKGBUILD
-echo "$_pkgver" >> PKGBUILD
+[[ x"${_pkgver::1}" != "xr" ]] && echo "$_pkgver" >> PKGBUILD
