@@ -70,12 +70,12 @@ fi
 prepare() {
   # fix version in about dialog
   sed -E \
-    -e "s@COMMAND.*--exact-match@COMMAND echo ${pkgver:?}@" \
+    -e "s@--exact-match@@" \
     -i "${srcdir:?}/$_pkgsrc/UpdateInfo.cmake"
 }
 
 build() {
-  if [[ x"$pkgname" != _"$_pkgname" ]] ; then
+  if [[ x"$pkgname" != x"$_pkgname" ]] ; then
     # apply CPU optimizations only for git package
     export CFLAGS="$(echo "$CFLAGS" | sed -E 's@(\s*-(march|mtune)=\S+\s+)@ @g;s@$@ -march=broadwell -mtune=skylake@')"
     export CXXFLAGS="$(echo "$CFLAGS" | sed -E 's@(\s*-(march|mtune)=\S+\s+)@ @g;s@$@ -march=broadwell -mtune=skylake@')"
