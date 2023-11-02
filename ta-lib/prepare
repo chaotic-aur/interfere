@@ -1,2 +1,0 @@
-#!/usr/bin/env sh
-sed -i 's&make&make -j1&'  PKGBUILD
