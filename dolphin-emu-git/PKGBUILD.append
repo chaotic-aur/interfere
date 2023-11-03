@@ -1,8 +1,8 @@
 
 _pkgname="dolphin-emu"
 pkgname="$_pkgname-git"
-pkgver=5.0.r20237.gc87b2e46b4
-pkgrel=1
+pkgver=5.0.r20288.gc7243c368f
+pkgrel=2
 pkgdesc='A Gamecube / Wii / Triforce emulator'
 arch=(x86_64)
 url="https://dolphin-emu.org"
@@ -40,11 +40,11 @@ depends=(
 
   ## dolphin-emu-git
   #libmgba
+  #zlib-ng
   cubeb
   fmt
   libspng
   mbedtls2
-  zlib-ng
 )
 makedepends+=(
   cmake
@@ -70,50 +70,8 @@ else
   conflicts=("$_pkgname")
 
   _pkgsrc="$_pkgname"
-  source=(
-    "$_pkgname"::"git+$url.git"
-
-    ## submodules - dolphin-emu
-    #'FFmpeg-bin'::'git+https://github.com/dolphin-emu/ext-win-ffmpeg.git'
-    #'Qt'::'git+https://github.com/dolphin-emu/ext-win-qt.git'
-    #'SDL'::'git+https://github.com/libsdl-org/SDL.git'
-    #'SPIRV-Cross'::'git+https://github.com/KhronosGroup/SPIRV-Cross.git'
-    #'cubeb'::'git+https://github.com/mozilla/cubeb.git'
-    #'curl'::'git+https://github.com/curl/curl.git'
-    #'fmt'::'git+https://github.com/fmtlib/fmt.git'
-    #'gtest'::'git+https://github.com/google/googletest.git'
-    #'libadrenotools'::'git+https://github.com/bylaws/libadrenotools.git'
-    #'libspng'::'git+https://github.com/randy408/libspng.git'
-    #'libusb'::'git+https://github.com/libusb/libusb.git'
-    #'lz4'::'git+https://github.com/lz4/lz4'
-    #'zlib-ng'::'git+https://github.com/zlib-ng/zlib-ng.git'
-    'VulkanMemoryAllocator'::'git+https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git'
-    'implot'::'git+https://github.com/epezent/implot.git'
-    'mgba'::'git+https://github.com/mgba-emu/mgba.git'
-    'rcheevos'::'git+https://github.com/RetroAchievements/rcheevos.git'
-
-  )
-  sha256sums+=(
-    'SKIP'
-
-    #'SKIP'
-    #'SKIP'
-    #'SKIP'
-    #'SKIP'
-    #'SKIP'
-    #'SKIP'
-    #'SKIP'
-    #'SKIP'
-    #'SKIP'
-    #'SKIP'
-    #'SKIP'
-    #'SKIP'
-    #'SKIP'
-    'SKIP'
-    'SKIP'
-    'SKIP'
-    'SKIP'
-  )
+  source=("$_pkgname"::"git+$url.git")
+  sha256sums+=('SKIP')
 
   pkgver() {
     cd "$_pkgsrc"
@@ -121,39 +79,90 @@ else
   }
 fi
 
+_submodules_dolphin_emu() {
+  source+=(
+    #'bylaws.libadrenotools'::'git+https://github.com/bylaws/libadrenotools.git'
+    #'curl'::'git+https://github.com/curl/curl.git'
+    #'dolphin-emu.ext-win-ffmpeg'::'git+https://github.com/dolphin-emu/ext-win-ffmpeg.git'
+    #'dolphin-emu.ext-win-qt'::'git+https://github.com/dolphin-emu/ext-win-qt.git'
+    #'fmtlib.fmt'::'git+https://github.com/fmtlib/fmt.git'
+    #'google.googletest'::'git+https://github.com/google/googletest.git'
+    #'khronosgroup.spirv-cross'::'git+https://github.com/KhronosGroup/SPIRV-Cross.git'
+    #'libsdl-org.sdl'::'git+https://github.com/libsdl-org/SDL.git'
+    #'libusb'::'git+https://github.com/libusb/libusb.git'
+    #'lz4'::'git+https://github.com/lz4/lz4.git'
+    #'mozilla.cubeb'::'git+https://github.com/mozilla/cubeb.git'
+    #'randy408.libspng'::'git+https://github.com/randy408/libspng.git'
+
+    'zlib-ng'::'git+https://github.com/zlib-ng/zlib-ng.git'
+
+    'epezent.implot'::'git+https://github.com/epezent/implot.git'
+    'gpuopen-librariesandsdks.vulkanmemoryallocator'::'git+https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git'
+    'mgba-emu.mgba'::'git+https://github.com/mgba-emu/mgba.git'
+    'retroachievements.rcheevos'::'git+https://github.com/RetroAchievements/rcheevos.git'
+  )
+  sha256sums+=(
+    #'SKIP'
+    #'SKIP'
+    #'SKIP'
+    #'SKIP'
+    #'SKIP'
+    #'SKIP'
+    #'SKIP'
+    #'SKIP'
+    #'SKIP'
+    #'SKIP'
+    #'SKIP'
+    #'SKIP'
+
+    'SKIP'
+
+    'SKIP'
+    'SKIP'
+    'SKIP'
+    'SKIP'
+  )
+
+  _prepare_dolphin_emu() (
+    cd "${srcdir:?}/$_pkgsrc"
+    local -A _submodules=(
+      #['bylaws.libadrenotools']='Externals/libadrenotools'
+      #['curl']='Externals/curl/curl'
+      #['dolphin-emu.ext-win-ffmpeg']='Externals/FFmpeg-bin'
+      #['dolphin-emu.ext-win-qt']='Externals/Qt'
+      #['fmtlib.fmt']='Externals/fmt/fmt'
+      #['google.googletest']='Externals/gtest'
+      #['khronosgroup.spirv-cross']='Externals/spirv_cross/SPIRV-Cross'
+      #['libsdl-org.sdl']='Externals/SDL/SDL'
+      #['libusb']='Externals/libusb/libusb'
+      #['lz4']='Externals/lz4/lz4'
+      #['mozilla.cubeb']='Externals/cubeb/cubeb'
+      #['randy408.libspng']='Externals/libspng/libspng'
+
+      ['epezent.implot']='Externals/implot/implot'
+      ['gpuopen-librariesandsdks.vulkanmemoryallocator']='Externals/VulkanMemoryAllocator'
+      ['mgba-emu.mgba']='Externals/mGBA/mgba'
+      ['retroachievements.rcheevos']='Externals/rcheevos/rcheevos'
+      ['zlib-ng']='Externals/zlib-ng/zlib-ng'
+    )
+    for key in ${!_submodules[@]} ; do
+      git submodule init "${_submodules[${key}]}"
+      git submodule set-url "${_submodules[${key}]}" "${srcdir}/${key}"
+      git -c protocol.file.allow=always submodule update "${_submodules[${key}]}"
+    done
+  )
+}
+
+_submodules_dolphin_emu
+
 prepare() {
+  _prepare_dolphin_emu
+
+  cd "$_pkgsrc"
+
   # Fix minizip-ng name for Arch
   sed -E -e 's@(pkgconfig\(MINIZIP minizip)([^a-z]+)@\1-ng\2@' \
     -i "${srcdir:?}/$_pkgsrc/CMakeLists.txt"
-
-  (
-    # submodules - dolphin-emu
-    cd "$_pkgname"
-    local _submodules=(
-      #'Externals/FFmpeg-bin'
-      #'Externals/Qt'
-      #'Externals/SDL/SDL'
-      #'Externals/cubeb/cubeb'
-      #'Externals/curl/curl'
-      #'Externals/fmt/fmt'
-      #'Externals/gtest'
-      #'Externals/libadrenotools'
-      #'Externals/libspng/libspng'
-      #'Externals/libusb/libusb'
-      #'Externals/lz4/lz4'
-      #'Externals/spirv_cross/SPIRV-Cross'
-      #'Externals/zlib-ng/zlib-ng'
-      'Externals/VulkanMemoryAllocator'
-      'Externals/implot/implot'
-      'Externals/mGBA/mgba'
-      'Externals/rcheevos/rcheevos'
-    )
-    for submodule in "${_submodules[@]}" ; do
-      git submodule init "${submodule}"
-      git submodule set-url "${submodule}" "${srcdir}/${submodule##*/}"
-      git -c protocol.file.allow=always submodule update "${submodule}"
-    done
-  )
 }
 
 build() {
@@ -164,10 +173,13 @@ build() {
     -DCMAKE_BUILD_TYPE=None
     -DCMAKE_INSTALL_PREFIX='/usr'
     -DDISTRIBUTOR='aur.chaotic.cx'
-    -DENABLE_TESTS=OFF
     -DENABLE_AUTOUPDATE=OFF
-    -DUSE_SYSTEM_LIBS=ON
+    # -DENABLE_ANALYTICS=OFF # ON is opt-in
+    # -DUSE_SYSTEM_LIBS=ON # AUTO
     -DUSE_SYSTEM_LIBMGBA=OFF
+
+    -DENABLE_LTO=OFF # segfault when on
+    -DENABLE_TESTS=OFF
     -Wno-dev
   )
 
