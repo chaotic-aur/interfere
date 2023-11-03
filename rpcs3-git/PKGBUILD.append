@@ -1,0 +1,17 @@
+
+pkgver() {
+  cd rpcs3
+
+  _tag=$(git tag | sort -V | tail -1)
+  if [[ $(vercmp "$_tag" "v0.0.29") -lt "0" ]] ; then
+    _tag="v0.0.29"
+  fi
+
+  _revision=$(git rev-list --count ${_tag:?}..HEAD)
+  _hash=$(git rev-parse --short=7 HEAD)
+
+  printf '%s.r%s.g%s' \
+    "$_tag" \
+    "$_revision" \
+    "$_hash"
+}
