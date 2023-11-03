@@ -68,9 +68,11 @@ else
 fi
 
 prepare() {
+  local _pkgver=$(pkgver)
+
   # fix version in about dialog
   sed -E \
-    -e "s@describe.*--exact-match@describe --long --tags@" \
+    -e 's@^(\s*)execute_process.*GIT_CMD.*describe.*GIT_DESCRIBE.*$@set(GIT_DESCRIBE "'"${_pkgver:?}"'")@' \
     -i "${srcdir:?}/$_pkgsrc/UpdateInfo.cmake"
 }
 
