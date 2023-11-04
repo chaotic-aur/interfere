@@ -1,3 +1,9 @@
 *
 !.gitignore
-!PKGREL
+!PKGREL_BUMPS
+!*/PKGBUILD.append
+!*/PKGBUILD.prepend
+!*/interfere.patch
+!*/on-failure.sh
+!*/on-success.sh
+!*/prepare

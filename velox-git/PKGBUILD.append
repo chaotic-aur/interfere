@@ -1,0 +1,53 @@
+
+_pkgname="velox"
+pkgname="$_pkgname-git"
+pkgver=0.0.2.r287.gfcc0412
+pkgrel=1
+pkgdesc="Simple xcb window manager inspired by awesome, xmonad, and dwm"
+url="https://github.com/michaelforney/velox"
+license=('MIT')
+arch=('i686' 'x86_64')
+
+depends=(
+  'swc'
+  'wld'
+  'libxkbcommon'
+  'wayland'
+  'libinput'
+)
+makedepends=('git')
+optdepends=(
+  'chaotic-interfere: chaotic-aur interference tracker'
+)
+
+conflicts=("$_pkgname")
+provides=("$_pkgname")
+
+_pkgsrc="$_pkgname"
+source=("$_pkgsrc"::"git+$url.git")
+sha256sums=('SKIP')
+
+pkgver() {
+  cd "$_pkgsrc"
+  git describe --tags --long | sed -E 's/([^-]*-g)/r\1/;s/-/./g'
+}
+
+prepare() {
+  cd "$_pkgsrc"
+  tee config.mk <<EOF
+PREFIX = /usr
+LIBEXECDIR = /usr/lib
+V = 1
+EOF
+}
+
+build() {
+  cd "$_pkgsrc"
+  make
+}
+
+package() {
+  cd "$_pkgsrc"
+  make DESTDIR="${pkgdir:?}" install
+  install -Dm644 LICENSE -t "${pkgdir:?}/usr/share/licenses/$pkgname/"
+}
