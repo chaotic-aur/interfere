@@ -79,7 +79,7 @@ else
   }
 fi
 
-_submodules_dolphin_emu() {
+_source_dolphin_emu() {
   source+=(
     #'bylaws.libadrenotools'::'git+https://github.com/bylaws/libadrenotools.git'
     #'curl'::'git+https://github.com/curl/curl.git'
@@ -145,15 +145,19 @@ _submodules_dolphin_emu() {
       ['retroachievements.rcheevos']='Externals/rcheevos/rcheevos'
       ['zlib-ng']='Externals/zlib-ng/zlib-ng'
     )
-    for key in ${!_submodules[@]} ; do
-      git submodule init "${_submodules[${key}]}"
-      git submodule set-url "${_submodules[${key}]}" "${srcdir}/${key}"
-      git -c protocol.file.allow=always submodule update "${_submodules[${key}]}"
-    done
+    _submodule_update
   )
 }
 
-_submodules_dolphin_emu
+_submodule_update() {
+  for key in ${!_submodules[@]} ; do
+    git submodule init "${_submodules[${key}]}"
+    git submodule set-url "${_submodules[${key}]}" "${srcdir}/${key}"
+    git -c protocol.file.allow=always submodule update "${_submodules[${key}]}"
+  done
+}
+
+_source_dolphin_emu
 
 prepare() {
   _prepare_dolphin_emu
