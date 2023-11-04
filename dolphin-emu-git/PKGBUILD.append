@@ -158,7 +158,11 @@ _submodules_dolphin_emu
 prepare() {
   _prepare_dolphin_emu
 
-  cd "$_pkgsrc"
+  # Fix version string
+  local _pkgver=$(pkgver)
+  sed -Ez \
+    -e 's@\n\s+execute_process\([^\(\)]+\bdescribe [^\(\)]*--dirty\b[^\(\)]+\)@\n\nset(DOLPHIN_WC_DESCRIBE "'"${_pkgver:?}"'")@' \
+    -i "${srcdir:?}/$_pkgsrc/CMake/ScmRevGen.cmake"
 
   # Fix minizip-ng name for Arch
   sed -E -e 's@(pkgconfig\(MINIZIP minizip)([^a-z]+)@\1-ng\2@' \
