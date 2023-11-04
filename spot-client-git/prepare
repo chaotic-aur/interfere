@@ -1,2 +1,0 @@
-#!/usr/bin/env sh
-sed -i 's&$pkgname::git+$url&$pkgname::git+$url#branch=master&'  PKGBUILD
