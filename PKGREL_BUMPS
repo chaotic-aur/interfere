@@ -418,6 +418,7 @@ natron-plugins-git 2.1.7.r1201.gb0c499f-1 1
 neovim-drop-in 1-1 1
 neovim-plug 0.11.0-3 1
 neovim-remote 2.5.1-1 3
+nextcloud-client-git 3.10.1.r202.g291b5b9e9-1 1
 nginx-mainline-mod-brotli 1:1.0.0rc-5 1
 nginx-mainline-mod-dav-ext 3.0.0-21 2
 nginx-mainline-mod-echo 0.61-37 1
@@ -613,6 +614,7 @@ qt-virt-manager 0.72.99-4 5
 qt5-styleplugins 5.0.0.20170311-35 4
 qtfm 6.2.1-1 3
 qtforkawesome 0.1.0-1 3
+qtile-git 0.23.0.r48.g8547c215-1 1
 qtscrcpy 2.1.2-1 7
 qtwebflix-git 0.1.r190.g54c2c1b-1 4
 quartus-130 13.0.1.232-1 1
@@ -696,6 +698,7 @@ steamtinkerlaunch 12.12-1 2
 stylepak-git 18.0c4b0c1-1 2
 subliminal-git 2.1.0.r22.g160ea63-6 4
 subsurface 5.0.10-1 2
+subtitlecomposer-git 0.7.1.r346.gd3250824-1 1
 superproductivity-bin 7.13.2-1 2
 surf-git 2.1.r10.g665a709-1 3
 swaylock-effects 1.6.10-1 2
