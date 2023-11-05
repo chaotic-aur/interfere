@@ -1,7 +1,0 @@
-
-makedepends+=('git' 'pixman')
-
-pkgver() {
-  cd xf86-input-libinput
-  git describe --long --tags | sed -E 's/^xf86-[^0-9]+//;s/([^-]*-g)/r\1/;s/-/./g'
-}
