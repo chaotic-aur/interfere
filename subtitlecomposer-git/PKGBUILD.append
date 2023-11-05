@@ -12,7 +12,10 @@ pkgver() {
 
 
 # Disable pocketsphinx, causes build errors
-
 makedepends=(${makedepends[@]/pocketsphinx*})
 
-optdepends=(${optdepends[@]/pocketsphinx*})
+for key in ${!optdepends[@]} ; do
+  if [[ "${optdepends[${key}]}" =~ ^pocketsphinx.*$ ]] ; then
+    unset optdepends[${key}]
+  fi
+done

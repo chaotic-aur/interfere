@@ -4,11 +4,9 @@ url="https://github.com/nextcloud/desktop"
 depends=(${depends[@]/qtkeychain*})
 depends+=(karchive5 qtkeychain-qt5)
 
-optdepends+=(chaotic-interfere)
-
 # Fix optdepends kio -> kio5
 for key in ${!optdepends[@]} ; do
-  if [[ "${optdepends[${key}]}" =~ '^kio:.*$' ]] ; then
+  if [[ "${optdepends[${key}]}" =~ ^kio:.*$ ]] ; then
     optdepends[${key}]="kio5:${optdepends[${key}]#*:}"
     break
   fi
