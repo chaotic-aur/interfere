@@ -1,6 +1,14 @@
 
+
+read _week _day <<< $(date '+%U %u')
+if [[ $(( (_week + _day) % 2 )) == 1  ]] ; then
+  _pkgtype='avx-git'
+else
+  _pkgtype='git'
+fi
+
 _pkgname="yuzu"
-pkgname="$_pkgname-git"
+pkgname="$_pkgname-$_pkgtype"
 pkgver=r25700.57c8dcfd7
 pkgrel=1
 pkgdesc='An experimental open-source emulator for the Nintendo Switch'
@@ -51,7 +59,6 @@ sha256sums=('SKIP')
 
 _source_yuzu() {
   source+=(
-    # submodules for yuzu
     'yuzu-emu.discord-rpc'::'git+https://github.com/yuzu-emu/discord-rpc.git'
     'bylaws.libadrenotools'::'git+https://github.com/bylaws/libadrenotools.git'
     'herumi.xbyak'::'git+https://github.com/herumi/xbyak.git'
@@ -97,7 +104,6 @@ _source_yuzu() {
   )
 
   _prepare_yuzu() (
-    # submodules for yuzu
     cd "${srcdir:?}/$_pkgsrc"
     local -A _submodules=(
       ['yuzu-emu.discord-rpc']='externals/discord-rpc'
@@ -127,7 +133,6 @@ _source_yuzu() {
 
 _source_bylaws_libadrenotools() {
   source+=(
-    # submodules for bylaws.libadrenotools
     'bylaws.liblinkernsbypass'::'git+https://github.com/bylaws/liblinkernsbypass.git'
   )
   sha256sums+=(
@@ -135,7 +140,6 @@ _source_bylaws_libadrenotools() {
   )
 
   _prepare_bylaws_libadrenotools() (
-    # submodules for bylaws.libadrenotools
     cd "${srcdir:?}/$_pkgsrc"
     cd "externals/libadrenotools"
     local -A _submodules=(
@@ -147,7 +151,6 @@ _source_bylaws_libadrenotools() {
 
 _source_lat9nq_tzdb_to_nx() {
   source+=(
-    # submodules for lat9nq.tzdb_to_nx
     'eggert.tz'::'git+https://github.com/eggert/tz.git'
   )
   sha256sums+=(
@@ -155,7 +158,6 @@ _source_lat9nq_tzdb_to_nx() {
   )
 
   _prepare_lat9nq_tzdb_to_nx() (
-    # submodules for lat9nq.tzdb_to_nx
     cd "${srcdir:?}/$_pkgsrc"
     cd "externals/nx_tzdb/tzdb_to_nx"
     local -A _submodules=(
@@ -167,7 +169,6 @@ _source_lat9nq_tzdb_to_nx() {
 
 _source_mozilla_cubeb() {
   source+=(
-    # submodules for mozilla.cubeb
     'google.googletest'::'git+https://github.com/google/googletest.git'
     'arsenm.sanitizers-cmake'::'git+https://github.com/arsenm/sanitizers-cmake.git'
   )
@@ -177,7 +178,6 @@ _source_mozilla_cubeb() {
   )
 
   _prepare_mozilla_cubeb() (
-    # submodules for mozilla.cubeb
     cd "${srcdir:?}/$_pkgsrc"
     cd "externals/cubeb"
     local -A _submodules=(
@@ -190,7 +190,6 @@ _source_mozilla_cubeb() {
 
 _source_yuzu_emu_sirit() {
   source+=(
-    # submodules for yuzu-emu.sirit
     'khronosgroup.spirv-headers'::'git+https://github.com/KhronosGroup/SPIRV-Headers.git'
   )
   sha256sums+=(
@@ -198,7 +197,6 @@ _source_yuzu_emu_sirit() {
   )
 
   _prepare_yuzu_emu_sirit() (
-    # submodules for yuzu-emu.sirit
     cd "${srcdir:?}/$_pkgsrc"
     cd "externals/sirit"
     local -A _submodules=(
@@ -209,7 +207,6 @@ _source_yuzu_emu_sirit() {
 }
 
 _submodule_update() {
-  # requires predefined associative array _submodules[@]
   local key
   for key in ${!_submodules[@]} ; do
     git submodule init "${_submodules[${key}]}"
@@ -243,6 +240,11 @@ prepare() {
 }
 
 build() {
+  if [[ x"${_pkgtype::3}" == "xavx" ]] ; then
+    export CFLAGS="$(echo "$CFLAGS" | sed -E 's@(\s*-(march|mtune)=\S+\s*)@ @g;s@\s*-O[0-9]\s*@ @g;s@\s+@ @g') -march=x86-64-v3 -mtune=skylake -O3"
+    export CXXFLAGS="$(echo "$CFLAGS" | sed -E 's@(\s*-(march|mtune)=\S+\s*)@ @g;s@\s*-O[0-9]\s*@ @g;s@\s+@ @g') -march=x86-64-v3 -mtune=skylake -O3"
+  fi
+
   local _cmake_options=(
     -S "$_pkgsrc"
     -B build
