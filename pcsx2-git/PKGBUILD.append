@@ -1,0 +1,22 @@
+
+# build -avx-git package every other day
+read _week _day <<< $(date '+%U %u')
+if [[ $(( (_week + _day) % 2 )) == 1  ]] ; then
+  _pkgtype='avx-git'
+else
+  _pkgtype='git'
+fi
+
+_pkgname="pcsx2"
+pkgname="$_pkgname-$_pkgtype"
+
+eval _orig_"$(declare -f build)"
+
+build() {
+  if [[ x"${_pkgtype::3}" == "xavx" ]] ; then
+    export CFLAGS="$(echo "$CFLAGS" | sed -E 's@(\s*-(march|mtune)=\S+\s*)@ @g;s@\s*-O[0-9]\s*@ @g;s@\s+@ @g') -march=x86-64-v3 -mtune=skylake -O3"
+    export CXXFLAGS="$(echo "$CFLAGS" | sed -E 's@(\s*-(march|mtune)=\S+\s*)@ @g;s@\s*-O[0-9]\s*@ @g;s@\s+@ @g') -march=x86-64-v3 -mtune=skylake -O3"
+  fi
+
+  _orig_build
+}
