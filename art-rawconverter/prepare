@@ -8,5 +8,5 @@ _pkgver="$(sed -En 's/^\s*(pkgver=.*)$/\1/p' PKGBUILD)"
 truncate -s 0 PKGBUILD
 
 # ...
-echo "$_pkgname" >> PKGBUILD
+[[ x"$_pkgname" == "art-rawconverter" ]] && echo "$_pkgname" >> PKGBUILD
 [[ x"${_pkgver::1}" != "xr" ]] && echo "$_pkgver" >> PKGBUILD

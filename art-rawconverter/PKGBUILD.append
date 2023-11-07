@@ -1,8 +1,15 @@
 
 : ${_clang:=false}
 
+read _week _day <<< $(date '+%U %u')
+if [[ $(( (_week + _day) % 2 )) == 1  ]] ; then
+  _pkgtype='avx-git'
+else
+  _pkgtype='git'
+fi
+
 _pkgname="art-rawconverter"
-: ${pkgname:="$_pkgname-git"}
+: ${pkgname:="$_pkgname-$_pkgtype"}
 : ${pkgver:=1.20.2.r9.gc2a681faf}
 pkgrel=3
 pkgdesc="Raw image Converter forked from RawTherapee with ease of use in mind"
@@ -77,10 +84,9 @@ prepare() {
 }
 
 build() {
-  if [[ x"$pkgname" != x"$_pkgname" ]] ; then
-    # apply CPU optimizations only for git package
-    export CFLAGS="$(echo "$CFLAGS" | sed -E 's@(\s*-(march|mtune)=\S+\s*)@ @g;s@\s*-O[0-9]\s*@ @g;s@\s+@ @g') -march=broadwell -mtune=skylake"
-    export CXXFLAGS="$(echo "$CFLAGS" | sed -E 's@(\s*-(march|mtune)=\S+\s*)@ @g;s@\s*-O[0-9]\s*@ @g;s@\s+@ @g') -march=broadwell -mtune=skylake"
+  if [[ x"${_pkgtype::3}" == "xavx" ]] && [[ x"$pkgname" != x"$_pkgname" ]] ; then
+    export CFLAGS="$(echo "$CFLAGS" | sed -E 's@(\s*-(march|mtune)=\S+\s*)@ @g;s@\s*-O[0-9]\s*@ @g;s@\s+@ @g') -march=x86-64-v3 -mtune=skylake -O3"
+    export CXXFLAGS="$(echo "$CFLAGS" | sed -E 's@(\s*-(march|mtune)=\S+\s*)@ @g;s@\s*-O[0-9]\s*@ @g;s@\s+@ @g') -march=x86-64-v3 -mtune=skylake -O3"
   fi
 
   local _cmake_options=(
