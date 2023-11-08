@@ -27,7 +27,7 @@ astrofox 1.4.0-3 5
 audio-recorder 3.3.4-1 5
 aura 3.2.9-1 1
 auracle-git r366.8739929-5 3
-authy 2.4.1-1 1
+authy 2.4.1-1 2
 autojump 22.5.3-9 3
 aws2-wrap 1.3.1-1 3
 ayatana-indicator-application 22.2.0-1 4
@@ -119,7 +119,6 @@ dialect 2.1.1-1 3
 digilent.adept.utilities 2.7.1-1 1
 digital 0.29-4 1
 diodon 1.13.0-2 2
-disman-kwinft 5.27-1 2
 dissenter-browser-bin 1.5.114-2 4
 dosbox-staging 1:0.80.1-2 3
 dotfonts-git r64.a768278-1 3
@@ -347,7 +346,6 @@ libgksu 2.0.12-9 3
 libinput-gestures 2.76-1 2
 libopenglrecorder 0.1.0-1 3
 libpqmarble 1.3.0+12+gf240b2e-4 1
-libreoffice-extension-languagetool 6.0-1 3
 libreswan 4.12-1 1
 libretro-mupen64plus-next-git r469.26fd1edd-1 2
 librewolf-extension-plasma-integration 1.8.1-2 4
@@ -469,7 +467,6 @@ organize 2.2.0-1 4
 orjail 1.1-2 1
 os-prober-btrfs 1.79-5 1
 otf-firamath 0.4_beta_3-1 1
-otpclient 3.2.0-1 1
 overdue 1.1.1-1 1
 p7zip-gui 16.02-8 3
 pa-applet-git r19.3b4f8b3-8 2
@@ -495,7 +492,6 @@ pencil 3.1.1-2 2
 phonesim 2.0.r0.ga55ada2-1 2
 phoronix-test-suite 10.8.4-1 1
 photocollage 1.4.5-2 4
-pigpio 79-1 3
 pjsua 2.13-2 3
 planify 4.1.1-1 1
 plasma5-applets-audio-device-switcher 0.3.0-1 4
@@ -560,7 +556,6 @@ python-museval 0.4.0-2 1
 python-node-semver 0.8.1-2 2
 python-nototools 0.2.13-1 3
 python-nudatus 0.0.5-1 3
-python-omemo-dr-git r83.a953803-1 1
 python-openrgb-git v0.2.15.r11.g44dff5e-1 2
 python-pa-ringbuffer 0.1.4-1 4
 python-patch-ng 1.17.4-3 3
@@ -608,7 +603,6 @@ qomui 0.8.2-2 3
 qomui-git 0.8.2.r22.23650ab-3 3
 qoob-git 0.2.1.r0.g2e3ed22-1 5
 qpdftools 2.0.4-0 3
-qps 2.7.0-1 2
 qrab 0.4-3 3
 qt-jdenticon 0.3.0-1 3
 qt-solutions-git 56.777e95b-1 2
@@ -616,7 +610,6 @@ qt-virt-manager 0.72.99-4 5
 qt5-styleplugins 5.0.0.20170311-35 4
 qtfm 6.2.1-1 3
 qtforkawesome 0.1.0-1 3
-qtile-git 0.23.0.r48.g8547c215-1 1
 qtscrcpy 2.1.2-1 7
 qtwebflix-git 0.1.r190.g54c2c1b-1 4
 quartus-130 13.0.1.232-1 1
@@ -660,11 +653,9 @@ silo-primevideo 0.5-1 4
 silo-trello 0.3-1 4
 silos 0.1.60-1 4
 simple-mtpfs 0.4.0-1 1
-simple64 2023.09.2-1 1
 simplenote-electron-bin 2.21.0-1 3
 simplescreenrecorder 0.4.4-2 1
 sip4 4.19.25-5 3
-siril-git 1.2.0.6259.fd0785100-1 1
 slade 3.2.4-1 1
 smartgit 22.1.7-1 1
 smooth 0.9.10-1 2
@@ -709,7 +700,6 @@ swaylock-effects 1.6.10-1 2
 sweet-gtk-theme 3.0-1 1
 sweet-gtk-theme-dark 3.0-1 1
 syncthing-gtk 0.9.4.5-1 1
-syncthingtray 1.4.7-1 1
 synfigstudio-dev 1.5.1-1 4
 synkron 1.6.2-4 3
 syphon-bin 0.2.14-2 2
@@ -721,7 +711,6 @@ tartube 2.4.370-2 3
 teams 1.5.00.23861-1 4
 telegram-desktop-userfonts 4.11.3-1 1
 telegram-tdlib 1.8.0-3 2
-telepathy-farstream 0.6.2-7 1
 terasology 1:5.3.0alpha23-1 1
 termv-git v1.2-2 3
 texmacs 2.1.2-1 3
@@ -748,7 +737,6 @@ ttf-geosans-light 1.0-3 2
 ttf-twemoji 14.0.2-2 2
 ttfautohint 1.8.4-1 3
 tuner 1.5.1-3 3
-tutanota-desktop-bin 3.118.13-1 1
 twinkle 1.10.3-1 3
 twinkle-git 1.10.3.r480.355813d-1 2
 ubertooth 2020.12.R1-2 3
@@ -802,7 +790,6 @@ wlogout 1.1.1-3 3
 wlrobs-hg r64.f72d5cb3cbbd-1 1
 woeusb 5.2.4-1 1
 wps-office-all-dicts-win-languages 11.2.0.9255-2 3
-wrapland-kwinft 5.27-1 2
 write_stylus 300.r469-1 3
 xalan-java 2.7.2-3 1
 xavs2 1.4-1 1
@@ -830,6 +817,5 @@ yp-tools 4.2.3-6 1
 zandronum 3.1-2 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 1
-zotero-bin 6.0.27-1 1
 zrythm 1.0.0.beta.4.12.34-2 1
 zulucrypt 6.2.0-1 3
