@@ -1,0 +1,91 @@
+#!/usr/bin/env sh
+
+# clear PKGBUILD
+truncate -s 0 PKGBUILD
+
+# clear support files
+truncate -s 0 mercury-browser.desktop
+truncate -s 0 mercury-browser.install
+truncate -s 0 mercury-browser.sh
+
+# create support files
+cat <<'EOF' > mercury-browser.desktop
+[Desktop Entry]
+Name=Mercury Browser
+GenericName=Web Browser
+Comment=The fastest Firefox fork on Earth
+Exec=mercury-browser %u
+Icon=mercury-browser
+Terminal=false
+Type=Application
+MimeType=text/html;text/xml;application/xhtml+xml;application/vnd.mozilla.xul+xml;text/mml;x-scheme-handler/http;x-scheme-handler/https;
+StartupWMClass=Mercury Browser
+Categories=Network;WebBrowser;
+Keywords=web;browser;internet;
+EOF
+
+cat <<'EOF' > mercury-browser.install
+# Colored makepkg-like functions
+msg_blue() {
+    printf "${BLUE}==>${BOLD} $1${ALL_OFF}\n"
+}
+
+note() {
+    printf "${BLUE}==>${YELLOW} NOTE:${BOLD} $1${ALL_OFF}\n"
+}
+
+ALL_OFF="$(tput sgr0)"
+BOLD="${ALL_OFF}$(tput bold)"
+BLACK="${BOLD}$(tput setaf 0)"
+RED="${BOLD}$(tput setaf 1)"
+GREEN="${BOLD}$(tput setaf 2)"
+YELLOW="${BOLD}$(tput setaf 3)"
+BLUE="${BOLD}$(tput setaf 4)"
+MAGENTA="${BOLD}$(tput setaf 5)"
+CYAN="${BOLD}$(tput setaf 6)"
+WHITE="${BOLD}$(tput setaf 7)"
+
+post_install() {
+    if /usr/lib/ld-linux-x86-64.so.2 --help | grep -qsE '^\s+x86-64-v3.*supported.*$' ; then
+        note "Congratulations.  Your processor supports x86-64-v3."
+        note "Enjoy the fastest Firefox fork on Earth: mercury-browser"
+    else
+        note "Your processor does not support x86-64-v3."
+        note "mercury-browser will not work on your computer."
+    fi
+}
+
+post_upgrade() {
+    post_install
+}
+EOF
+
+cat <<'EOF' > mercury-browser.sh
+#!/usr/bin/env bash
+
+# check microprocessor architecture level
+if /usr/lib/ld-linux-x86-64.so.2 --help | grep -qsE '^\s+x86-64-v3.*supported.*$' ; then
+   XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-~/.config}
+
+   # Allow users to override command-line options
+   if [[ -f $XDG_CONFIG_HOME/mercury-flags.conf ]]; then
+      MERCURY_USER_FLAGS="$(cat $XDG_CONFIG_HOME/mercury-flags.conf)"
+   fi
+
+   # Launch
+   exec /opt/mercury-browser/mercury $MERCURY_USER_FLAGS "$@"
+else
+   _message=''
+   _message+=$'Your processor does not support x86-64-v3.\n'
+   _message+=$'mercury-browser will not work on your computer.'
+fi
+
+# display processor support message
+if tty -s ; then
+   echo "${_message:?}"
+else
+   notify-send -a "mercury-browser" -t 3000 "${_message:?}"
+fi
+
+exit 1
+EOF
