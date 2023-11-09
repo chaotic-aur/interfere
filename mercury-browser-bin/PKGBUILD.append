@@ -53,6 +53,8 @@ esac
 depends=()
 makedepends=()
 optdepends=(
+  'chaotic-interfere: chaotic-aur interference tracker'
+
   'ffmpeg: H264/AAC/MP3 decoding'
   'hunspell: Spell checking'
   'hyphen: Hyphenation'
