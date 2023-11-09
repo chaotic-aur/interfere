@@ -1,0 +1,4 @@
+
+# rename package to indicate that package
+# requires x86-64-v3 capable processor
+pkgname="thorium-browser-avx-bin"
