@@ -1,0 +1,75 @@
+
+# options
+if [ x"${_srcinfo::1}" == "xt" ] ; then
+  : ${_autoupdate:=false}
+elif [ -z "$_pkgver" ] ; then
+  : ${_autoupdate:=true}
+else
+  : ${_autoupdate:=false}
+fi
+
+: ${_pkgver:=1.15.7}
+
+# basic info
+_pkgname="elixir"
+pkgname="$_pkgname-latest"
+pkgver=1.15.7
+pkgrel=1
+pkgdesc="a functional meta-programming aware language built on top of the Erlang VM"
+#url="https://elixir-lang.org"
+url="https://github.com/elixir-lang/elixir"
+license=('Apache' 'custom:EPL')
+arch=('any')
+
+# update version
+case "${_autoupdate::1}" in
+  't'|'y'|'1')
+    _response=$(curl "https://api.github.com/repos/elixir-lang/elixir/releases" -s)
+
+    _get() {
+      printf '%s' "$_response" \
+        | awk -F '"' '/"'"$1"'":/{print $4}' \
+        | head -1 | sed 's/^v//'
+    }
+    _pkgver_new=$(_get name)
+
+    # update _pkgver
+    if [[ "${_pkgver_new:?}" =~ ^[0-9\.]$ ]]; then
+      if [ x"$_pkgver" != x"${_pkgver_new:?}" ] ; then
+        _pkgver="${_pkgver_new:?}"
+        sed -Ei "s@^(\s*: \\\$\{_pkgver):=[0-9]+.*\}\$@\1:=$_pkgver}@" "$startdir/PKGBUILD"
+      fi
+    else
+      # don't update _pkgver
+      echo "Error: release candidate or other unusual version detected"
+    fi
+    ;;
+esac
+
+depends=('erlang-nox')
+checkdepends=('git')
+optdepends=(
+  'chaotic-interfere: chaotic-aur interference tracker'
+)
+
+conflicts=("$_pkgname")
+provides=("$_pkgname")
+
+_pkgsrc="$_pkgname-$_pkgver"
+source=("$_pkgsrc.tar.gz::https://github.com/elixir-lang/elixir/archive/v$_pkgver.tar.gz")
+sha256sums=('SKIP')
+
+pkgver() {
+  printf '%s' "${_pkgver//-rc./rc}"
+}
+
+build() {
+  cd "$_pkgsrc"
+  make
+}
+
+package() {
+  cd "$_pkgsrc"
+  install -Dm644 "LICENSE" -t "$pkgdir/usr/share/licenses/$pkgname"
+  make DESTDIR="$pkgdir" PREFIX=/usr install
+}
