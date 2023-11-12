@@ -27,7 +27,6 @@ astrofox 1.4.0-3 5
 audio-recorder 3.3.4-1 5
 aura 3.2.9-1 1
 auracle-git r366.8739929-5 3
-authy 2.4.1-1 2
 autojump 22.5.3-9 3
 aws2-wrap 1.3.1-1 3
 ayatana-indicator-application 22.2.0-1 4
@@ -153,13 +152,11 @@ feem 4.4.2-1 3
 ff2mpv-native-messaging-host-git r75.96897a8-1 1
 ffsend-bin 0.2.76-1 1
 fiddler 4.6.20171.26113-1 3
-filebot 5.1.1-1 1
-find-the-command 2.0.1-1 1
+find-the-command 2.0.1-1 2
 find-the-command-git 2.0.1.r0.gfecba1a-1 1
 firedragon-extension-plasma-integration 1.8.1-3 5
 firefox-extension-bitwarden 2023.1.0-1 3
 firefox-extension-flagfox 6.1.62-1 1
-firefox-extension-xdm-browser-monitor 2.2-1 4
 firejail-pacman-hook 1-2 3
 firetools-git 0.9.72.r3.g81ca775-1 2
 fityk 1.3.2-1 3
@@ -175,7 +172,6 @@ fonts-tlwg 0.7.3-1 1
 foo2zjs-nightly 20201127-1 3
 foobillard++ 3.42beta-7 3
 fop-hyph 2.2-1 1
-forkgram 4.11.3-1 2
 foxitreader 2.4.5.0727-1 3
 freac 1.1.7-1 2
 freedownloadmanager 6.19.1.5263-2 1
@@ -260,7 +256,6 @@ insync-dolphin 3.7.9.50368-1 4
 insync-nautilus 3.8.2.50468-1 2
 insync-nemo 3.7.9.50368-1 3
 insync-thunar 3.7.9.50368-1 2
-intel-gmmlib-git 22.3.12.r0.gfa8ac6d-1 1
 intel-hybrid-codec-driver-git 1:2.0.0.r170.20220515.cfb3b71-3 2
 ircd-hybrid 8.2.39-1 3
 isomaster 1.3.16-1 2
@@ -291,7 +286,6 @@ kawaii-player 5.0.0-2 5
 kazam 1.4.5-9 5
 kcm-colorful-git 1.0.5.r0.g411e8c9-1 4
 kcm-imchooser-frameworks 0.1-2 2
-kcm-lookandfeel-standalone-git r332.2d03247-1 2
 kcm-polkit-kde-git 1:5.9.0.r229.g294c719-1 2
 kcm-tablet-git r75.a363dd6-1 2
 kcm-uefi 0.1-1 3
@@ -409,7 +403,6 @@ multimc5 0.6.16-3 1
 munt 2.7.0-4 2
 museeks-bin 0.13.1-1 1
 musikcube 3.0.2-1 1
-mutter-performance 1:45.0+r49+g8d3d8b86e-2 1
 mystiq 23.05.15-3 1
 nasc 0.8.0-2 3
 natron-bin 2.5.0-1 3
@@ -438,14 +431,12 @@ nspawn-git r46.09c5220-1 1
 ntfs3-dkms 1:5.17-1 1
 nvidia-340xx-utils 340.108-1 2
 nvidia-390xx-settings 390.157-1 2
-nvidia-390xx-utils 390.157-6 2
 nvidia-525xx-utils 525.116.04-1 2
 nvidia-container-toolkit 1.13.5-1 1
 nvim-yarp-git r59.bb5f5e0-1 2
 nwg-launchers 0.7.1-1 3
 nwg-menu 0.1.1-1 3
 nwg-wrapper 0.1.3-2 2
-nx-firewall-git 0.1.r116.gdbe0809-1 4
 obs-gstreamer 1:0.4.0-1 3
 obs-rtspserver 3.0.0-3 1
 obs-streamfx 0.11.1-1 3
@@ -487,7 +478,6 @@ pcem 17-4 2
 pcsxr 1.9.95-2 3
 pdf2png 0.5.3-1 3
 pdfquirk 0.95-1 3
-pdfsam 5.1.3-3 1
 pebbles-git r445.5e5e455-1 3
 pencil 3.1.1-2 2
 phonesim 2.0.r0.ga55ada2-1 2
@@ -511,8 +501,6 @@ pokemon-colorscripts-git r112.0483c85-1 3
 pokerth 1.1.2-30 1
 pokete-git 0.9.1-1 2
 pop-bin 8.0.20-1 3
-pop-launcher-git 1.2.1.r48.g0febac5-1 1
-pop-shell-plugin-system76-power-git 1.2.1.r48.g0febac5-1 1
 pop-shell-shortcuts-git 1:r30.52cc83f-2 3
 prestopalette 0.1.31-1 3
 prjtrellis-git 1.4.r64.g36c615d-1 1
@@ -584,7 +572,6 @@ python-rtslib-fb 2.1.75-1 3
 python-simber 0.2.6-0 2
 python-simplediff 1.1-1 3
 python-simplematch 1.3-1 3
-python-spotdl 4.2.1-1 1
 python-spotipy 2.23.0-1 2
 python-steam 1.4.4-1 2
 python-suntime 1.2.5-1 3
@@ -688,13 +675,10 @@ srb2kart 1.6-1 2
 ssacli 4.21.7.0-1 1
 stacer 1.1.0-1 4
 steamtinkerlaunch 12.12-1 2
-strawberry-full-git 1.0.21.r19.geeb55fbc-1 1
-strawberry-git 1.0.21.r19.geeb55fbc-1 1
 strawberry-qt5 1.0.21-1 1
 stylepak-git 18.0c4b0c1-1 2
 subliminal-git 2.1.0.r22.g160ea63-6 4
 subsurface 5.0.10-1 2
-subtitlecomposer-git 0.7.1.r346.gd3250824-1 1
 superproductivity-bin 7.13.2-1 2
 surf-git 2.1.r10.g665a709-1 3
 swaylock-effects 1.6.10-1 2
@@ -710,8 +694,6 @@ systemd-manager-git 1.0.0.r12.g4efeb47-1 2
 tangram 3.0-3 2
 tartube 2.4.370-2 3
 teams 1.5.00.23861-1 4
-telegram-desktop-userfonts 4.11.3-1 1
-telegram-tdlib 1.8.0-3 2
 terasology 1:5.3.0alpha23-1 1
 termv-git v1.2-2 3
 texmacs 2.1.2-1 3
@@ -751,7 +733,6 @@ vala-panel-appmenu-xfce-git 0.7.6.r28.g76442be-1 3
 vazirmatn-fonts 33.003-1 1
 velox-git 0.0.2.r287.gfcc0412-1 2
 vibrantlinux 2.1.10-1 3
-video-downloader 0.12.9-1 1
 vim-coc-eslint-git 1.6.0.r0.g007ad15-1 2
 vim-coc-flutter-git 1.9.3.r19.g883c269-1 2
 vim-coc-highlight-git 2.0.4.r0.gc405d34-1 3
@@ -766,7 +747,6 @@ vim-coc-zsh-git r3.ef6b0ca-1 3
 vim-colorschemes r215.fd8f122-1 3
 vim-vimwiki 2023.04.04_1-1 2
 vital-synth 1.5.5-1 2
-vmaf-git 2.3.1.r161.gaf31e4cd-1 1
 vmware-keymaps 1.0-3 1
 vorta 0.8.12-1 3
 vosk-api 0.3.45-1 1
