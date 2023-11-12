@@ -1,0 +1,8 @@
+
+pkgver() {
+  cd "obs-studio-git"
+  _version=$(git tag | grep -Ev '.*[a-z]{2}.*' | sort -V | tail -1)
+  _revision=$(git rev-list --count $_version..HEAD)
+  _hash=$(git rev-parse --short=7 HEAD)
+  printf '%s.r%s.g%s' "${_version:?}" "${_revision:?}" "${_hash:?}"
+}
