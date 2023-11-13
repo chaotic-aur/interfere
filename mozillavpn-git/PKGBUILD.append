@@ -5,3 +5,4 @@ if [[ $(( (_week + _day) % 2 )) == 1  ]] ; then
 else
   _pkgtype=''
 fi
+

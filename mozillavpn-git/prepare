@@ -1,4 +1,7 @@
 #!/usr/bin/env sh
 
-# rewrite pkgname
-sed -E 's&^\s*(pkgname)=\S+\s*$&\1="${_pkgname}${_pkgtype:+-$_pkgtype}"&' -i PKGBUILD
+# rewrite pkgname/pkgver
+sed -E \
+  -e 's&^\s*(pkgname)=\S+\s*$&\1="${_pkgname}${_pkgtype:+-$_pkgtype}"&' \
+  -e 's&^\s*(pkgver)=("?)(\S+)(\.r.*)("?)\s*$&\1=\3&' \
+  -i PKGBUILD
