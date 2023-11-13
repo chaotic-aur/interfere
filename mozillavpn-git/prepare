@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+# rewrite pkgname
+sed -E 's&^\s*(pkgname)=\S+\s*$&\1="${_pkgname}${_pkgtype:+-$_pkgtype}"&' -i PKGBUILD

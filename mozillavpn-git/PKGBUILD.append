@@ -1,0 +1,7 @@
+
+read _week _day <<< $(date '+%U %u')
+if [[ $(( (_week + _day) % 2 )) == 1  ]] ; then
+  _pkgtype='git'
+else
+  _pkgtype=''
+fi
