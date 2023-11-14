@@ -15,8 +15,6 @@ fi
 
 : ${_pkgver:=30.0.0}
 
-_pkgtype='stable'
-
 # basic info
 _pkgname="obs-studio"
 pkgname="$_pkgname${_pkgtype:+-$_pkgtype}"
