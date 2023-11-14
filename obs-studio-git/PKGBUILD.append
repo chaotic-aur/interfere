@@ -1,8 +1,374 @@
 
-pkgver() {
-  cd "obs-studio-git"
-  _version=$(git tag | grep -Ev '.*[a-z]{2}.*' | sort -V | tail -1)
-  _revision=$(git rev-list --count $_version..HEAD)
-  _hash=$(git rev-parse --short=7 HEAD)
-  printf '%s.r%s.g%s' "${_version:?}" "${_revision:?}" "${_hash:?}"
+read _week _day <<< $(date '+%U %u')
+if [[ $(( (_week + _day) % 2 )) == 1  ]] ; then
+  : ${_pkgtype:=stable}
+else
+  : ${_pkgtype:=git}
+fi
+
+# options
+: ${_autoupdate:=true}
+: ${_cef_build:=false}
+
+: ${_plugin_aja:=false}
+: ${_plugin_webrtc:=false}
+
+: ${_pkgver:=30.0.0}
+
+_pkgtype='stable'
+
+# basic info
+_pkgname="obs-studio"
+pkgname="$_pkgname${_pkgtype:+-$_pkgtype}"
+pkgver=30.0.0
+pkgrel=2
+pkgdesc="Free, open source software for live streaming and recording - Browser enabled"
+url="https://github.com/obsproject/obs-studio"
+license=("GPL2")
+arch=("x86_64")
+
+# main package
+_main_package() {
+  depends=(
+    curl
+    ffmpeg
+    gtk-update-icon-cache
+    jack
+    jansson
+    libxcomposite
+    libxinerama
+    libxkbcommon-x11
+    mbedtls
+    pciutils
+    pipewire
+    qt6-svg
+    rnnoise
+
+    librist
+    onevpl
+    speexdsp
+
+    # AUR
+    qrcodegencpp-cmake
+  )
+  makedepends=(
+    cmake
+    libfdk-aac
+    luajit
+    python
+    sndio
+    swig
+    x264
+
+    asio
+    git
+    nlohmann-json
+    pipewire
+    qt6-wayland
+    vlc
+    wayland
+    websocketpp
+    xdg-desktop-portal
+  )
+  optdepends=(
+    'chaotic-interfere: chaotic-aur interference tracking'
+
+    'libfdk-aac: FDK AAC codec support'
+    'libva-intel-driver: hardware encoding'
+    'libva-mesa-driver: hardware encoding'
+    'luajit: scripting support'
+    'python: scripting support'
+    'sndio: Sndio input client'
+    'v4l2loopback-dkms: virtual camera support'
+
+    'vlc: VLC Media Source'
+    'pipewire: Pipewire capture'
+    'pipewire-media-session: Pipewire capture'
+    'xdg-desktop-portal: Pipewire capture'
+  )
+
+  options=(!debug)
+
+  if [ x"$pkgname" == x"$_pkgname" ] ; then
+    :
+  else
+    provides=("$_pkgname=${pkgver%%.r*}")
+    conflicts=("$_pkgname")
+  fi
+
+  if [ x"${pkgname: -4}" != "x-git" ] ; then
+    _main_stable
+  else
+    _main_git
+  fi
+
+  # patches
+  source+=('fix_python_binary_loading.patch'::'https://gitlab.archlinux.org/archlinux/packaging/packages/obs-studio/-/raw/main/fix_python_binary_loading.patch')
+  sha256sums+=('bdfbd062f080bc925588aec1989bb1df34bf779cc2fc08ac27236679cf612abd')
+
+  # cef
+  if [ x"${_cef_build::1}" == "xt" ] ; then
+    _source_cef
+  else
+    makedepends+=('cef-minimal-obs-bin') # AUR
+  fi
+
+  if [ x"${_plugin_aja::1}" == "xt" ] ; then
+    makedepends+=('libajantv2') # AUR
+    _plugin_aja='ON'
+  else
+    _plugin_aja='OFF'
+  fi
+
+  if [ x"${_plugin_webrtc::1}" == "xt" ] ; then
+    makedepends+=('libdatachannel') # AUR
+    _plugin_webrtc='ON'
+  else
+    _plugin_webrtc='OFF'
+  fi
+
+  _source_obs_studio
+  _source_mixer_ftl_sdk
+  _source_obsproject_libdshowcapture
 }
+
+# submodules
+_source_obs_studio() {
+  source+=(
+    'mixer.ftl-sdk'::'git+https://github.com/Mixer/ftl-sdk.git'
+    'obsproject.obs-browser'::'git+https://github.com/obsproject/obs-browser.git'
+    'obsproject.libdshowcapture'::'git+https://github.com/obsproject/libdshowcapture.git'
+    'obsproject.obs-websocket'::'git+https://github.com/obsproject/obs-websocket.git'
+  )
+
+  sha256sums+=(
+    'SKIP'
+    'SKIP'
+    'SKIP'
+    'SKIP'
+  )
+
+  _prepare_obs_studio() (
+    cd "${srcdir:?}/$_pkgsrc"
+    local -A _submodules=(
+      ['mixer.ftl-sdk']='plugins/obs-outputs/ftl-sdk'
+      ['obsproject.obs-browser']='plugins/obs-browser'
+      ['obsproject.libdshowcapture']='plugins/win-dshow/libdshowcapture'
+      ['obsproject.obs-websocket']='plugins/obs-websocket'
+    )
+    _submodule_update
+
+    apply-patch "${srcdir:?}/fix_python_binary_loading.patch"
+  )
+}
+
+_source_mixer_ftl_sdk() {
+  source+=(
+    'akheron.jansson'::'git+https://github.com/akheron/jansson.git'
+    'curl'::'git+https://github.com/curl/curl.git'
+  )
+  sha256sums+=(
+    'SKIP'
+    'SKIP'
+  )
+
+  _prepare_mixer_ftl_sdk() (
+    cd "${srcdir:?}/$_pkgsrc"
+    cd 'plugins/obs-outputs/ftl-sdk'
+    local -A _submodules=(
+      ['akheron.jansson']='libjansson'
+      ['curl']='libcurl'
+    )
+    _submodule_update
+  )
+}
+
+_source_obsproject_libdshowcapture() {
+  source+=(
+    'elgatosf.capture-device-support'::'git+https://github.com/elgatosf/capture-device-support.git'
+  )
+  sha256sums+=(
+    'SKIP'
+  )
+
+  _prepare_obsproject_libdshowcapture() (
+    cd "${srcdir:?}/$_pkgsrc"
+    cd 'plugins/win-dshow/libdshowcapture'
+    local -A _submodules=(
+      ['elgatosf.capture-device-support']='external/capture-device-support'
+    )
+    _submodule_update
+  )
+}
+
+# cef
+_source_cef() {
+  makedepends+=(
+    alsa-lib
+    at-spi2-core
+    dbus
+    expat
+    gcc-libs
+    glib2
+    glibc
+    libcups
+    libdrm
+    libx11
+    libxcb
+    libxcomposite
+    libxdamage
+    libxext
+    libxfixes
+    libxkbcommon
+    libxrandr
+    mesa
+    nspr
+    nss
+    wayland
+  )
+
+  _cef_branch=5060
+  _cef_src="cef_binary_${_cef_branch}_linux_${CARCH}"
+  _cef_ver="_v3"
+  _cef_ext="tar.xz"
+  _cef_filename="$_cef_src$_cef_ver.$_cef_ext"
+  _cef_dl_url="https://cdn-fastly.obsproject.com/downloads/"
+
+  source+=("$_cef_filename"::"$_cef_dl_url/$_cef_filename")
+  sha256sums+=('1253a6a36c3b8ac5b5ece9bfdb6eae6ab75e49516375fc475e2e871795ad9bea')
+
+  _build_cef() {
+    local _cmake_options=(
+      -S "$_cef_src"
+      -B "$_cef_src"
+      -DCMAKE_BUILD_TYPE=Release
+      -DPROJECT_ARCH=$CARCH
+      -Wno-dev
+    )
+
+    cmake "${_cmake_options[@]}"
+    cmake --build "$_cef_src"
+  }
+}
+
+# stable package
+_main_stable() {
+  _update_version
+
+  _pkgsrc="$_pkgname"
+  source+=("$_pkgsrc"::"git+$url.git#tag=${_pkgver:?}")
+  sha256sums+=('SKIP')
+
+  pkgver() {
+    echo "${_pkgver:?}"
+  }
+}
+
+# git package
+_main_git() {
+  _pkgsrc="$_pkgname"
+  source+=("$_pkgsrc"::"git+$url.git")
+  sha256sums+=('SKIP')
+
+  pkgver() {
+    cd "$_pkgsrc"
+    local _version=$(git tag | grep -Ev '.*[a-z]{2}.*' | sort -V | tail -1)
+    local _revision=$(git rev-list --count $_version..HEAD)
+    local _hash=$(git rev-parse --short=7 HEAD)
+    local _pkgver="${_version:?}.r${_revision:?}.g${_hash:?}"
+    echo "${_pkgver:?}"
+  }
+}
+
+# common functions
+prepare() {
+  _submodule_update() {
+    local key;
+    for key in ${!_submodules[@]} ; do
+      git submodule init "${_submodules[${key}]}"
+      git submodule set-url "${_submodules[${key}]}" "${srcdir}/${key}"
+      git -c protocol.file.allow=always submodule update "${_submodules[${key}]}"
+    done
+  }
+
+  apply-patch() {
+    printf '\nApplying patch %s\n' "$1"
+    patch -Np1 -F100 -i "$1"
+  }
+
+  _prepare_obs_studio
+  _prepare_mixer_ftl_sdk
+  _prepare_obsproject_libdshowcapture
+}
+
+_build_obs_studio() {
+  local _cmake_options=(
+    -B build
+    -S "$_pkgsrc"
+    -DCMAKE_BUILD_TYPE=None
+    -DCMAKE_INSTALL_PREFIX='/usr'
+    -DCMAKE_INSTALL_LIBDIR='lib'
+    -DCEF_ROOT_DIR="$_cef_src"
+    -DOBS_VERSION_OVERRIDE="${pkgver%%.r*}"
+    -DBUILD_FOR_DISTRIBUTION=ON
+    -DBUILD_BROWSER=ON # qrcodegencpp-cmake
+    -DENABLE_LIBFDK=ON
+    -DBUILD_TESTS=OFF
+    -DENABLE_UNIT_TESTS=OFF
+    -Wno-dev
+
+    -DENABLE_AJA="${_plugin_aja:?}"
+    -DENABLE_JACK=ON
+    -DENABLE_NEW_MPEGTS_OUTPUT=ON
+    -DENABLE_VLC=OFF
+    -DENABLE_VST=ON
+    -DENABLE_WEBRTC=ON="${_plugin_webrtc:?}"
+  )
+
+  cmake "${_cmake_options[@]}"
+  cmake --build build
+}
+
+build() {
+  if [ x"${_cef_build::1}" == "xt" ] ; then
+    _build_cef
+    _cef_src="${srcdir:?}/$_cef_src"
+  else
+    _cef_src="/opt/cef-obs"
+  fi
+
+  _build_obs_studio
+}
+
+package() {
+  DESTDIR="${pkgdir:?}" cmake --install build
+}
+
+# update version
+_update_version() {
+  case "${_autoupdate::1}" in
+    't'|'y'|'1')
+      _repo="${url#*//*/}"
+      _response=$(curl "https://api.github.com/repos/${_repo:?}/tags" -s)
+
+      _get() {
+        printf '%s' "$_response" \
+          | awk -F '"' '/"'"$1"'":/{print $4}' \
+          | sed 's@^.*[a-z-].*$@@' | sort -rV | head -1
+      }
+      _pkgver_new=$(_get name)
+
+      # update pkgver
+      _pkgver="${pkgver%%.r*}"
+      if [ x"$_pkgver" != x"${_pkgver_new:?}" ] ; then
+        _pkgver="${_pkgver_new:?}"
+        sed -E \
+          -e 's@^(\s*: \$\{_pkgver):=.*\}$@\1:='"${_pkgver:?}"'}@' \
+          -i "$startdir/PKGBUILD"
+      fi
+      ;;
+  esac
+}
+
+# execute
+_main_package
