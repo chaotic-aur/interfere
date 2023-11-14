@@ -323,7 +323,7 @@ lib32-fftw 3.3.10-3 1
 lib32-fltk 1.3.8-1 3
 lib32-gd 2.3.3-2 1
 lib32-liblrdf 0.6.1-3 1
-lib32-libvmaf 2.3.1-1 1
+lib32-vmaf 2.3.1-1 1
 lib32-lilv 0.24.20-1 2
 lib32-lv2 1.18.10-1 1
 lib32-mjpegtools 2.2.1-1 3
@@ -370,7 +370,7 @@ mate-menu 22.04.2-1 3
 mate-panel-genmon-git 5.1.0.r41.gd8f2540-1 1
 mate-tweak 22.10.0-3 3
 materia-theme-git 20210322.r52.g6e585038-1 3
-material-gtk-theme-palenight-git r38.4d828d5d-1 1
+material-gtk-theme-git r38.4d828d5d-1 1
 material-kwin-decoration-git v7+39+g0e989e5-1 3
 matrix-registration 0.9.1-2 4
 mcmojave-cursors-git r11.7d0bfc1-1 1
@@ -455,8 +455,7 @@ odr-dabmux-git 4.4.1.r0.g36594de-1 1
 ofono 1.34-1 1
 olive 0.1.2-3 4
 onedrivegui-git 1.0.3.r2.g92d18f1-1 1
-oomox-qt5-styleplugin-git 1.4.1.r36.ge15cd47-1 1
-oomox-qt6-styleplugin-git 1.4.1.r36.ge15cd47-1 1
+oomox-qt-styleplugin-git 1.4.1.r36.ge15cd47-1 1
 openbangla-keyboard 2.0.0-7 3
 openboard 1.6.4-2 4
 openctm-tools 2:1.0.3-1 3
@@ -745,8 +744,6 @@ vala-panel-appmenu-xfce-git 0.7.6.r28.g76442be-1 3
 vazirmatn-fonts 33.003-1 1
 velox-git 0.0.2.r287.gfcc0412-1 2
 vibrantlinux 2.1.10-1 3
-vim-coc-dictionary-git 1.2.5.r28.g78890dc-1 1
-vim-coc-emoji-git 1.2.5.r28.g78890dc-1 1
 vim-coc-eslint-git 1.6.0.r0.g007ad15-1 2
 vim-coc-flutter-git 1.9.3.r19.g883c269-1 2
 vim-coc-highlight-git 2.0.4.r0.gc405d34-1 3
@@ -756,10 +753,8 @@ vim-coc-lists-git 1.5.1.r0.g720f871-1 2
 vim-coc-marketplace-git 1.4.0.r165.g5ad69f0-1 3
 vim-coc-rust-analyzer-git r1431.230c4b5-1 1
 vim-coc-sh-git 0.7.0.r0.gd4d0d0f-1 2
-vim-coc-syntax-git 1.2.5.r28.g78890dc-1 1
-vim-coc-tag-git 1.2.5.r28.g78890dc-1 1
 vim-coc-vetur-git 1.2.4.r2.ga525569-1 3
-vim-coc-word-git 1.2.5.r28.g78890dc-1 1
+vim-coc-sources-git 1.2.5.r28.g78890dc-1 1
 vim-coc-yaml-git 1.9.0.r0.g40880b1-1 3
 vim-coc-zsh-git r3.ef6b0ca-1 3
 vim-colorschemes r215.fd8f122-1 3
@@ -788,9 +783,7 @@ wkhtmltopdf 0.12.6-1 2
 wlogout 1.1.1-3 3
 wlrobs-hg r64.f72d5cb3cbbd-1 1
 woeusb 5.2.4-1 1
-wordnet-cli 3.1-4 1
-wordnet-common 3.1-4 1
-wordnet-tk 3.1-4 1
+wordnet 3.1-4 1
 wps-office-all-dicts-win-languages 11.2.0.9255-2 3
 write_stylus 300.r469-1 3
 xalan-java 2.7.2-3 1
