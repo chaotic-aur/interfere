@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+# rewrite pkgname
+_pkgname="$(sed -En 's/^\s*_(pkgname=.*)$/\1/p' PKGBUILD)"
+sed -E 's/^\s*(pkgname=.*)$/'"$_pkgname"'/' -i PKGBUILD
