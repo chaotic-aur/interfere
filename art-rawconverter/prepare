@@ -1,12 +1,12 @@
 #!/usr/bin/env sh
 
-# preserve pkgname, pkgver
+# save pkgname, pkgver
 _pkgname="$(sed -En 's/^\s*(pkgname=.*)$/\1/p' PKGBUILD)"
 _pkgver="$(sed -En 's/^\s*(pkgver=.*)$/\1/p' PKGBUILD)"
 
 # clear PKGBUILD
 truncate -s 0 PKGBUILD
 
-# ...
-[[ x"$_pkgname" == "art-rawconverter" ]] && echo "$_pkgname" >> PKGBUILD
+# write pkgname, pkgver
+[[ x"$_pkgname" == "xart-rawconverter" ]] && echo "$_pkgname" >> PKGBUILD
 [[ x"${_pkgver::1}" != "xr" ]] && echo "$_pkgver" >> PKGBUILD
