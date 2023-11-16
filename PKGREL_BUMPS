@@ -183,7 +183,6 @@ fujprog 4.8-1 1
 fuse-emulator 1.6.0-3 2
 fvs 0.3.4-2 1
 fzf-tab-bin-git r238.c2b4aa5-1 1
-g4music 3.3-1 1
 gamehub 0.16.3.2-2 2
 gamerworld-bin 1.3.0-3 3
 gcdemu 3.2.6-1 3
@@ -554,7 +553,7 @@ python-pgi 0.0.11.2-1 3
 python-pid 3.0.4-1 3
 python-playsound 1.3.0-2 3
 python-pluginbase 1.0.0-6 3
-python-polib 1.2.0-1 2
+python-polib 1.2.0-1 3
 python-proglog 0.1.10-1 3
 python-proton-client 0.7.1-2 3
 python-py3nvml 0.2.7-1 3
