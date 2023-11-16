@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
-# rewrite pkgname
-_pkgname="$(sed -En 's/^\s*_(pkgname=.*)$/\1/p' PKGBUILD)"
-sed -E 's/^\s*(pkgname=.*)$/'"$_pkgname"'/' -i PKGBUILD
+# delete default _pkgtype, rewrite pkgver
+sed -E \
+  -e 's&^\s*:\s*\$\{_pkgtype:=.*\}&&' \
+  -e 's&^\s*(pkgver)=("?)(\S+)(\.r.*)("?)\s*$&\1=\3&' \
+  -i PKGBUILD

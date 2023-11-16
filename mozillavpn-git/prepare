@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-# delete existing _pkgtype, rewrite pkgver
+# delete default _pkgtype, rewrite pkgver
 sed -E \
   -e 's&^\s*:\s*\$\{_pkgtype:=.*\}&&' \
   -e 's&^\s*(pkgver)=("?)(\S+)(\.r.*)("?)\s*$&\1=\3&' \
