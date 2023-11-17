@@ -1,0 +1,60 @@
+
+_pkgname="nestopia"
+pkgname="$_pkgname-glu"
+pkgver=1.52.0.r3.g185d747
+pkgrel=1
+pkgdesc="High-accuracy NES/Famicom emulator"
+url="https://github.com/0ldsk00l/nestopia"
+#url="http://0ldsk00l.ca/nestopia/"
+license=('GPL')
+arch=('x86_64')
+
+depends=(
+  fltk
+  glu
+  libarchive
+  sdl2
+  zlib
+)
+makedepends=(
+  autoconf-archive
+  mesa
+)
+optdepends=(
+  'chaotic-interfere: chaotic-aur interference tracker'
+)
+
+if [[ x"$pkgname" == x"$_pkgname" ]] ; then
+  :
+else
+  makedepends+=('git')
+
+  provides=("$_pkgname=${pkgver%%.r*}")
+  conflicts=("$_pkgname")
+
+  _pkgsrc="$_pkgname"
+  source=("$_pkgsrc"::"git+$url.git")
+  sha256sums=('SKIP')
+
+  pkgver() {
+    cd "$_pkgsrc"
+    local _pkgver=$(
+      git describe --long --tags --exclude='*[a-zA-Z][a-zA-Z]*' 2>/dev/null \
+        | sed -E 's/^v//;s/([^-]*-g)/r\1/;s/-/./g'
+    )
+
+    echo "${_pkgver:?}"
+  }
+fi
+
+build() {
+  cd "$_pkgsrc"
+
+  autoreconf -fi
+  ./configure --prefix=/usr
+  make
+}
+
+package() {
+  make -C "$_pkgsrc" install DESTDIR="$pkgdir"
+}
