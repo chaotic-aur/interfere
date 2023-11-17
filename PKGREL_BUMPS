@@ -6,7 +6,6 @@ agenda-git r461.05af261-1 4
 agg-2.6-git r153.c4f36b4-1 1
 airspy-git 20221015-1 1
 akira 0.0.16-1 4
-akira-git 0.0.15.r117.g6ba3574f-1 3
 alpm_octopi_utils 1.0.2-3 2
 alpm_octopi_utils-git r20.1e735c3-1 1
 amberol 0.10.3-1 1
@@ -115,7 +114,6 @@ dee 1.2.7-14 3
 delft-icon-theme-git 1.15.r0.gdd693fcf-1 2
 densify 0.3.1-3 4
 detwinner 0.4.2-2 2
-dialect 2.1.1-1 3
 digilent.adept.utilities 2.7.1-1 1
 digital 0.29-4 1
 diodon 1.13.0-2 2
@@ -209,7 +207,6 @@ gnome-network-displays 0.90.5-7 3
 gnome-obfuscate 0.0.9-1 2
 gnome-shell-extension-desktop-icons-ng 47.0.4-1 1
 gnome-shell-extension-material-shell 44-1 1
-gnome-shell-extension-material-shell-git 1:r984.a322939-1 1
 gnome-shell-extension-x11gestures 17-1 1
 goocanvas2 2.0.4-9 3
 goodvibes-git 0.7.6.r73.g43a4465-1 1
@@ -680,7 +677,6 @@ strawberry-qt5 1.0.21-1 1
 stylepak-git 18.0c4b0c1-1 2
 subliminal-git 2.1.0.r22.g160ea63-6 5
 subsurface 5.0.10-1 2
-superproductivity-bin 7.13.2-1 3
 surf-git 2.1.r10.g665a709-1 3
 swaylock-effects 1.6.10-1 2
 sweet-gtk-theme 3.0-1 1
@@ -803,5 +799,4 @@ zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 1
 zrythm 1.0.0.beta.4.12.34-2 1
 zulucrypt 6.2.0-1 3
-fastgame-git 0.2.0.r54.g082da85-1 1
-libiqa-git 1.1.3.r2.g4687a4c-1 1
+btop-git 1.2.13.r772.0267eba-1 1
