@@ -1,9 +1,0 @@
-
-# enable nvidia features
-depends+=('libxnvctrl')
-
-build() {
-  # default build type is debugoptimized
-  arch-meson fastgame build --buildtype=release
-  ninja -C build
-}
