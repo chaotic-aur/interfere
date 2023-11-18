@@ -1,6 +1,6 @@
 
 _pkgname="nestopia"
-pkgname="$_pkgname-glu"
+pkgname="$_pkgname-git"
 pkgver=1.52.0.r3.g185d747
 pkgrel=1
 pkgdesc="High-accuracy NES/Famicom emulator"
