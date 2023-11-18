@@ -29,6 +29,7 @@ auracle-git r366.8739929-5 3
 autojump 22.5.3-9 3
 aws2-wrap 1.3.1-1 3
 ayatana-indicator-application 22.2.0-1 4
+ayatana-indicator-notifications 23.10.0-1 1
 b43-firmware 6.30.163.46-1 1
 bass-fish 1.0-1 1
 bauh 0.10.5-1 3
@@ -47,6 +48,7 @@ brisk-menu 1:0.6.2-1 5
 broadcom-bt-firmware-git 12.0.1.1105_p4.r0.ga0eb480-1 1
 brother-hl2280dw 2.1.0_1-2 3
 browsh 1.8.2-1 4
+btop-git 1.2.13.r772.0267eba-1 1
 budgie-network-applet 2.2-1 5
 budgie-screenshot-applet 0.4.3.r0.gd92b06c-3 5
 buttermanager 2.5.0-1 3
@@ -244,7 +246,6 @@ i3lock-fancy-git r193.55f5c30-1 2
 ice-ssb 6.0.8-1 3
 icestorm-git r820.d20a5e9-1 2
 identity 0.5.0-1 2
-image-roll-bin 2.1.0-1 3
 imaginary-teleprompter-bin 2.4.0-7 3
 imagine-git 0.7.1.r0.g278e380-1 4
 imeditor 0.9.7-1 3
@@ -255,6 +256,7 @@ insync-nemo 3.7.9.50368-1 3
 insync-thunar 3.7.9.50368-1 2
 intel-hybrid-codec-driver-git 1:2.0.0.r170.20220515.cfb3b71-3 2
 ircd-hybrid 8.2.39-1 3
+iriunwebcam-bin 2.8.1-1 1
 isomaster 1.3.16-1 2
 itch-setup-bin 1.26.0-1 2
 jade-application-kit 3.5.7-2 4
@@ -317,7 +319,6 @@ lib32-fftw 3.3.10-3 1
 lib32-fltk 1.3.8-1 3
 lib32-gd 2.3.3-2 1
 lib32-liblrdf 0.6.1-3 1
-lib32-vmaf 2.3.1-1 1
 lib32-lilv 0.24.20-1 2
 lib32-lv2 1.18.10-1 1
 lib32-mjpegtools 2.2.1-1 3
@@ -326,6 +327,7 @@ lib32-nvidia-525xx-utils 525.116.04-1 2
 lib32-rtmpdump 1:2.4.r99.f1b83c1-1 1
 lib32-sratom 0.6.14-1 1
 lib32-svt-av1 1.7.0-1 1
+lib32-vmaf 2.3.1-1 1
 lib32-x264 3:0.164.r3095.baee400-1 1
 lib32-x265 3.5-2 1
 lib32-zbar 0.23.90-1 4
@@ -738,8 +740,8 @@ vim-coc-htmlhint-git 0.6.1.r0.g99b4977-1 3
 vim-coc-lists-git 1.5.1.r0.g720f871-1 2
 vim-coc-marketplace-git 1.4.0.r165.g5ad69f0-1 3
 vim-coc-sh-git 0.7.0.r0.gd4d0d0f-1 2
-vim-coc-vetur-git 1.2.4.r2.ga525569-1 3
 vim-coc-sources-git 1.2.5.r28.g78890dc-1 1
+vim-coc-vetur-git 1.2.4.r2.ga525569-1 3
 vim-coc-yaml-git 1.9.0.r0.g40880b1-1 3
 vim-coc-zsh-git r3.ef6b0ca-1 3
 vim-colorschemes r215.fd8f122-1 3
@@ -799,5 +801,3 @@ zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 1
 zrythm 1.0.0.beta.4.12.34-2 1
 zulucrypt 6.2.0-1 3
-btop-git 1.2.13.r772.0267eba-1 1
-ayatana-indicator-notifications 23.10.0-1 1

@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+sed -E 's&/usr/local/bin/&/usr/bin/&' -i PKGBUILD
