@@ -1,4 +1,2 @@
 
-unset replaces
-
 depends+=(libheif)
