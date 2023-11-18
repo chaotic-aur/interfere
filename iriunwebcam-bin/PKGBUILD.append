@@ -1,0 +1,16 @@
+
+url="https://iriun.com/"
+
+package() {
+  tar -xf "${srcdir:?}/data.tar.xz" -C "${pkgdir:?}"
+
+  # move binary
+  install -Dm644 "$pkgdir/usr/local/bin/iriunwebcam" -t "$pkgdir/usr/bin/"
+  rm -rf "$pkgdir/usr/local"
+
+  # fix desktop
+  sed -E -e 's&/usr/local/bin/&&' -i "$pkgdir/usr/share/applications/iriunwebcam.desktop"
+
+  # fix permissions
+  chmod -R u+rwX,go+rX,go-w "$pkgdir"
+}
