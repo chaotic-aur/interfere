@@ -148,9 +148,7 @@ evopop-gtk-theme-git 2.9.99.r12.g6dce1c5-1 3
 exaile 4.1.3-1 1
 exifcleaner-bin 3.6.0-4 3
 f3-qt-git v2.1.0.r16.g10ab886-1 2
-fatrat-git 1.2.0.b2.r60.g1b0dd1f-1 2
 feem 4.4.2-1 3
-ff2mpv-native-messaging-host-git r75.96897a8-1 1
 ffsend-bin 0.2.76-1 1
 fiddler 4.6.20171.26113-1 3
 find-the-command 2.0.1-1 2
@@ -159,7 +157,6 @@ firedragon-extension-plasma-integration 1.8.1-3 5
 firefox-extension-bitwarden 2023.1.0-1 3
 firefox-extension-flagfox 6.1.62-1 1
 firejail-pacman-hook 1-2 3
-firetools-git 0.9.72.r3.g81ca775-1 2
 fityk 1.3.2-1 3
 flare-engine 1.14-1 2
 flare-game 1.14-1 2
@@ -230,8 +227,6 @@ gtk3-patched-filechooser-icon-view 1:3.24.38-1 1
 gtkglarea 2.1.0-6 3
 haguichi 1.4.6-1 3
 hakuneko-desktop-bin 6.1.7-2 3
-handbrake-nvenc 1.6.1-1 2
-handbrake-nvenc-cli 1.6.1-1 2
 hardcode-tray 4.3-3 3
 hardinfo 0.5.1.816.g877ea2b-2 2
 heimdall-grimler-git 2.0.2.r0.02b577e-2 1
@@ -262,7 +257,6 @@ itch-setup-bin 1.26.0-1 2
 jade-application-kit 3.5.7-2 4
 jameica 2.10.4-1 2
 jamesdsp 2.6.1-1 1
-jamesdsp-git 2.6.1.r15.g243ad9f-1 1
 jamesdsp-pulse 2.6.1-1 2
 java-p7zip-binding 16.02-2 1
 java-resolver 1.2-4 1
@@ -271,12 +265,10 @@ jdanimatedimageeditor 1.4-1 1
 jdminecraftlauncher 5.2-2 1
 jdownloader2 latest-17 2
 jellyfin-media-player 1.9.1-1 6
-jellyfin-media-player-git r1717.af7dbab-1 1
 jeuclid-core 3.1.9-1 1
 jgoodies-looks 2.8.0-4 1
 jgraphx-jre8 3.9.10-1 1
 jitsi 2.11.5633-1 1
-jitsi-meet-desktop 2023.10.0-1 2
 jlatexmath-fop 1.0.7-1 1
 jmencode 0.64-6 5
 jogl 2.3.2-2 3
@@ -391,7 +383,6 @@ mobydroid 0.6-1 1
 modprobed-db 2.46-1 3
 moodle-dl-git v2.3.2.0.r1.g2e79839-1 2
 motrix-bin 1.8.19-1 2
-mousai 0.7.5-2 1
 movie-monad 0.0.7.0_0-1 4
 mpc-qt 23.02-1 3
 mpv-full 0.36.0-1 5
@@ -451,7 +442,6 @@ oomox-qt-styleplugin-git 1.4.1.r36.ge15cd47-1 1
 openbangla-keyboard 2.0.0-7 3
 openboard 1.6.4-2 4
 openctm-tools 2:1.0.3-1 3
-opensnitch-ebpf-module 1.6.3-1 1
 openswan 3.0.0-1 1
 orage 4.18.0-1 2
 organize 2.2.0-1 4
@@ -497,7 +487,6 @@ plex-media-player 2.58.1-3 8
 pm-utils 1.4.1-8 2
 podman-compose-git 1:.r56.bce40c2-1 1
 pokemon-colorscripts-git r112.0483c85-1 3
-pokerth 1.1.2-30 1
 pokete-git 0.9.1-1 2
 pop-bin 8.0.20-1 3
 pop-shell-shortcuts-git 1:r30.52cc83f-2 3
@@ -555,9 +544,7 @@ python-polib 1.2.0-1 3
 python-proglog 0.1.10-1 3
 python-proton-client 0.7.1-2 3
 python-py3nvml 0.2.7-1 3
-python-pychromecast 13.0.7-1 3
 python-pydub 0.25.1-3 4
-python-pyglm 2.7.0-1 2
 python-pympv 0.7.1-2 1
 python-pynput 1.7.6-2 3
 python-pyo 1.0.5-1 3
@@ -678,7 +665,6 @@ strawberry-qt5 1.0.21-1 1
 stylepak-git 18.0c4b0c1-1 2
 subliminal-git 2.1.0.r22.g160ea63-6 5
 subsurface 5.0.10-1 2
-surf-git 2.1.r10.g665a709-1 3
 swaylock-effects 1.6.10-1 2
 sweet-gtk-theme 3.0-1 1
 sweet-gtk-theme-dark 3.0-1 1
@@ -794,7 +780,7 @@ yandex-disk 0.1.6.1080-1 1
 yaup-git 0.1.r4.g7ee3fdb-1 4
 youtube-search-python 1.6.6-2 3
 yozo-office 8.0.1331.101ZH.S1-6 1
-yp-tools 4.2.3-6 1
+yp-tools 4.2.3-6 2
 zandronum 3.1-2 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 1
