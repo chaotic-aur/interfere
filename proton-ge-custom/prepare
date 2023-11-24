@@ -1,3 +1,0 @@
-#!/usr/bin/env sh
-NEW_CFLAGS='-O2 -march=nocona -mtune=core-avx2'
-export TARGET_ARGS="CFLAGS=\"$NEW_CFLAGS\" CXXFLAGS=\"$NEW_CFLAGS\" ${TARGET_ARGS:-}"
