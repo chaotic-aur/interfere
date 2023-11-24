@@ -1,3 +1,0 @@
-
-pkgver=${pkgver#0.}
-source[0]="$pkgname-$pkgver.tar.gz::$url/releases/download/mainline-0-${pkgver}/yuzu-linux-${_ver}.tar.xz"
