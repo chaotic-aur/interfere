@@ -1,4 +1,12 @@
 
+license=(MIT)
+
+provides=(
+  "${pkgname%-git}=${pkgver%%.r*}"
+  "xdg-desktop-portal-impl"
+)
+conflicts=("${pkgname%-git}")
+
 unset epoch
 pkgver() {
   cd "xdg-desktop-portal-hyprland"
