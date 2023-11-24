@@ -196,7 +196,6 @@ gimp-extras 2.0.4-1 3
 gimp-plugin-normalmap 1.2.3-2 4
 gittyup 1.3.0-1 2
 gksu 2.0.2-6 2
-glew-egl-glx 2.2.0-1 3
 gmsh-bin 4.11.1-1 2
 gmusicbrowser 1.1.16-1 1
 gnome-gesture-improvements r201.f007cac-2 1
@@ -276,7 +275,6 @@ jrosetta 1.0.4-5 1
 kawaii-player 5.0.0-2 5
 kazam 1.4.5-9 5
 kcm-colorful-git 1.0.5.r0.g411e8c9-1 4
-kcm-imchooser-frameworks 0.1-2 2
 kcm-polkit-kde-git 1:5.9.0.r229.g294c719-1 2
 kcm-uefi 0.1-1 3
 kde-service-menu-reimage 2.5-1 4
@@ -305,7 +303,6 @@ lbry-desktop-bin 0.53.9-1 3
 lbry-desktop-git 0.53.9.r10962.gd14c9141d-1 2
 leagueoflegends-git 13.7.2.r24.g661790a-1 1
 lib32-chromaprint 1.5.1-2 3
-lib32-ffmpeg 2:6.0-2 4
 lib32-fftw 3.3.10-3 1
 lib32-fltk 1.3.8-1 3
 lib32-gd 2.3.3-2 1
@@ -332,7 +329,6 @@ libinput-gestures 2.76-1 2
 libopenglrecorder 0.1.0-1 3
 libpqmarble 1.3.0+12+gf240b2e-4 1
 libreswan 4.12-1 1
-libretro-mupen64plus-next-git r469.26fd1edd-1 2
 librewolf-extension-plasma-integration 1.8.1-2 4
 libsdrplay 3.07.1-1 1
 libunity 7.1.4-15 3
@@ -385,7 +381,6 @@ moodle-dl-git v2.3.2.0.r1.g2e79839-1 2
 motrix-bin 1.8.19-1 2
 movie-monad 0.0.7.0_0-1 4
 mpc-qt 23.02-1 3
-mpv-full 0.36.0-1 5
 ms-office-online 2:2.1.1-1 5
 mugshot 0.4.3-3 3
 multibootusb 9.2.0-5 3
@@ -469,6 +464,11 @@ pdf2png 0.5.3-1 3
 pdfquirk 0.95-1 3
 pebbles-git r445.5e5e455-1 3
 pencil 3.1.1-2 2
+perl-crypt-rijndael 1.16-2 1
+perl-expect 1.35-1 1
+perl-file-rename 2.01-1 1
+perl-net-arp 1.0.11-2 1
+perl-x11-guitest 0.28-3 1
 phonesim 2.0.r0.ga55ada2-1 2
 phoronix-test-suite 10.8.4-1 1
 photocollage 1.4.5-2 4
@@ -608,7 +608,6 @@ ripcord 0.4.29-1 2
 ripcord-arch-libs 0.4.29-3 2
 rocketlauncher2-git 0.1.0.2.r11.gbdb48cd-1 3
 rofi-greenclip 4.2-2 1
-rofi-lbonn-wayland 1.7.5+wayland1-1 1
 rtl8192cu-fixes-git r118.e5c01a3-1 2
 runescape-launcher 2.2.11-1 2
 sameboy 0.15.8-1 2
@@ -712,6 +711,7 @@ uefitool-git r230.8d6fa65-1 2
 unflac 1.1-1 1
 uresourced 0.5.3-1 1
 usbaudio-git r4.6f46c43-1 4
+uuid 1.6.2-20 1
 vala-panel 0.5.0-1 3
 vala-panel-appmenu-xfce-git 0.7.6.r28.g76442be-1 3
 vazirmatn-fonts 33.003-1 1
