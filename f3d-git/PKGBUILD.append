@@ -1,0 +1,6 @@
+
+pkgver() {
+  cd "f3d"
+  git describe --long --tags --exclude='*[a-zA-Z][a-zA-Z]*' \
+    | sed -E 's/^v//;s/([^-]*-g)/r\1/;s/-/./g'
+}
