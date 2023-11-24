@@ -1,0 +1,3 @@
+
+source=("${pkgname%-*}::git+https://github.com/c0re100/qBittorrent-Enhanced-Edition.git")
+sha256sums=('SKIP')
