@@ -1,55 +1,80 @@
 
+# options
+if [ x"${_srcinfo::1}" == "xt" ] ; then
+  : ${_autoupdate:=false}
+elif [ -z "$_pkgver" ] ; then
+  : ${_autoupdate:=true}
+else
+  : ${_autoupdate:=false}
+fi
+
+#: ${_pkgtype:=git}
+
+# basic info
 _pkgname="ytmdl"
-pkgname="$_pkgname"
+pkgname="$_pkgname${_pkgtype:+-$_pkgtype}"
 pkgver=2023.07.27
-pkgrel=2
+pkgrel=1
 pkgdesc="Download songs from YouTube with metadata from sources like iTunes and Gaana"
 arch=("any")
 url="https://github.com/deepjyoti30/ytmdl"
 license=('MIT')
 
-depends=(
-  'python-beautifulsoup4'
-  'python-musicbrainzngs'
-  'python-mutagen'
-  'python-pyxdg'
-  'python-rich'
-  'python-unidecode'
-  'python-urllib3'
-  'python-ytmusicapi'
-  'yt-dlp'
+# main package
+_main_package() {
+  depends=(
+    'python-beautifulsoup4'
+    'python-musicbrainzngs'
+    'python-mutagen'
+    'python-pyxdg'
+    'python-rich'
+    'python-unidecode'
+    'python-urllib3'
+    'python-ytmusicapi'
+    'yt-dlp'
 
-  # AUR
-  'downloader-cli'
-  'python-ffmpeg-python'
-  'python-itunespy'
-  'python-pydes'
-  'python-simber'
-  'python-spotipy'
-  'youtube-search-python'
-)
-makedepends=(
-  'git'
-  'python-build'
-  'python-installer'
-  'python-setuptools'
-  'python-wheel'
-)
-optdepends=(
-  'chaotic-interfere: chaotic-aur interference tracker'
-)
+    # AUR
+    'downloader-cli'
+    'python-ffmpeg-python'
+    'python-itunespy'
+    'python-pydes'
+    'python-simber'
+    'python-spotipy'
+    'youtube-search-python'
+  )
+  makedepends=(
+    'git'
+    'python-build'
+    'python-installer'
+    'python-setuptools'
+    'python-wheel'
+  )
+  optdepends=(
+    'chaotic-interfere: chaotic-aur interference tracker'
+  )
 
-if [ x"$pkgname" == x"$_pkgname" ] ; then
-  # normal package
+  if [ x"$pkgname" == x"$_pkgname" ] ; then
+    _main_stable
+  else
+    _main_git
+  fi
+}
+
+# stable package
+_main_stable() {
+  _update_version
+
   _pkgsrc="$_pkgname"
-  source=("$_pkgsrc"::"git+$url#tag=${pkgver%%.r*}")
+  source=("$_pkgsrc"::"git+$url#tag=${_pkgver:?}")
   sha256sums=("SKIP")
 
   pkgver() {
-    echo "${pkgver%%.r*}"
+    echo "${_pkgver}"
   }
-else
-  # git package
+}
+
+# git package
+_main_git() {
   provides=("$_pkgname")
   conflicts=("$_pkgname")
 
@@ -59,11 +84,12 @@ else
 
   pkgver() {
     cd "$_pkgsrc"
-    git describe --long --tags | sed 's/\([^-]*-g\)/r\1/;s/-/./g'
+    git describe --long --tags --exclude='*[a-zA-Z][a-zA-Z]*' \
+      | sed -E 's/^v//;s/([^-]*-g)/r\1/;s/-/./g'
   }
-fi
+}
 
-
+# common functions
 build() {
   cd "$_pkgsrc"
   python -m build --no-isolation --wheel --skip-dependency-check
@@ -80,3 +106,30 @@ package() {
   install -Dm644 "ytmdl.zsh" "${pkgdir:?}/usr/share/zsh/site-functions/_ytmdl"
   install -Dm644 "ytmdl.bash" "${pkgdir:?}/usr/share/bash-completion/completions/ytmdl"
 }
+
+# update version
+_update_version() {
+  : ${_pkgver:=${pkgver%%.r*}}
+
+  if [[ x"${_autoupdate::1}" != "xt" ]] ; then
+    return
+  fi
+
+  _repo="${url#*//*/}"
+  _response=$(curl -Ssf "https://api.github.com/repos/${_repo:?}/tags")
+
+  _get() {
+    printf '%s' "$_response" \
+      | awk -F '"' '/"'"$1"'":/{print $4}' \
+      | sed 's@^.*[a-z-].*$@@' | sort -rV | head -1
+  }
+  _pkgver_new=$(_get name)
+
+  # update pkgver
+  if [ x"$_pkgver" != x"${_pkgver_new:?}" ] ; then
+    _pkgver="${_pkgver_new:?}"
+  fi
+}
+
+# execute
+_main_package
