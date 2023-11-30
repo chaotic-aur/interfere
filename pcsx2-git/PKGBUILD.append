@@ -1,4 +1,6 @@
 
+pkgname="$_pkgname-$_pkgtype"
+
 eval _orig_"$(declare -f build)"
 
 build() {
