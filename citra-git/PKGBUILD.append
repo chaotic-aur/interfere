@@ -6,6 +6,7 @@ else
   _pkgtype='git'
 fi
 
+# basic info
 _pkgname="citra"
 pkgname="$_pkgname-$_pkgtype"
 pkgver=r9863.80ac6c03b
@@ -15,81 +16,86 @@ url="https://github.com/citra-emu/citra"
 license=('GPL2')
 arch=('i686' 'x86_64')
 
-depends=(
-  'ffmpeg'
-  'fmt'
-  'gcc-libs'
-  'glibc'
-  'libbacktrace-git'
-  'libfdk-aac'
-  'libinih'
-  'libusb'
-  'mbedtls'
-  'openssl'
-  'sndio'
-  'soundtouch'
-  'speexdsp'
-  'zstd'
+# main package
+_main_package() {
+  depends=(
+    'ffmpeg'
+    'fmt'
+    'gcc-libs'
+    'glibc'
+    'libbacktrace-git'
+    'libfdk-aac'
+    'libinih'
+    'libusb'
+    'mbedtls'
+    'openssl'
+    'sndio'
+    'soundtouch'
+    'speexdsp'
+    'zstd'
 
-  # sdl
-  'libinih'
-  'sdl2'
+    # sdl
+    'libinih'
+    'sdl2'
 
-  # qt
-  'hicolor-icon-theme'
-  'qt6-base'
-  'qt6-multimedia'
-  'sdl2'
-)
+    # qt
+    'hicolor-icon-theme'
+    'qt6-base'
+    'qt6-multimedia'
+    'sdl2'
+  )
 
-makedepends=(
-  'cmake'
-  'doxygen'
-  'gcc'
-  'git'
-  'glslang'
-  'llvm'
-  'nlohmann-json'
-  'python'
-  'qt6-multimedia'
-  'qt6-tools'
-  'rapidjson'
-  'vulkan-headers'
-)
-optdepends=(
-  'chaotic-interfere: chaotic-aur interference tracker'
-  'libxkbcommon-x11: for X11 support'
-  'qt6-wayland: for Wayland support'
-)
+  makedepends=(
+    'cmake'
+    'doxygen'
+    'gcc'
+    'git'
+    'glslang'
+    'llvm'
+    'nlohmann-json'
+    'python'
+    'qt6-multimedia'
+    'qt6-tools'
+    'rapidjson'
+    'vulkan-headers'
+  )
+  optdepends=(
+    'chaotic-interfere: chaotic-aur interference tracker'
+    'libxkbcommon-x11: for X11 support'
+    'qt6-wayland: for Wayland support'
+  )
 
-options=("lto" "strip" "!debug")
+  options=("lto" "strip" "!debug")
 
-provides=(
-  "$_pkgname"
-  "$_pkgname-qt"
-)
-conflicts=(
-  "$_pkgname"
-  "$_pkgname-qt"
+  provides=(
+    "$_pkgname"
+    "$_pkgname-qt"
+  )
+  conflicts=(
+    "$_pkgname"
+    "$_pkgname-qt"
 
-  "$_pkgname-git"
-  "$_pkgname-qt-git"
-)
+    "$_pkgname-git"
+    "$_pkgname-qt-git"
+  )
 
-_pkgsrc="$_pkgname"
-source=("$_pkgsrc"::"git+$url.git")
-sha256sums=('SKIP')
+  _pkgsrc="$_pkgname"
+  source=("$_pkgsrc"::"git+$url.git")
+  sha256sums=('SKIP')
 
+  _source_citra
+  _source_bylaws_libadrenotools
+  _source_mozilla_cubeb
+  _source_yuzu_emu_sirit
+}
+
+# submodules
 _source_citra() {
   source+=(
-    'bylaws.libadrenotools'::'git+https://github.com/bylaws/libadrenotools.git'
-    'merryhime.dynarmic'::'git+https://github.com/merryhime/dynarmic.git'
-    'mozilla.cubeb'::'git+https://github.com/mozilla/cubeb.git'
-    'yuzu-emu.sirit'::'git+https://github.com/yuzu-emu/sirit.git'
-
     'abdes.cryptopp-cmake'::'git+https://github.com/abdes/cryptopp-cmake.git'
     'arun11299.cpp-jwt'::'git+https://github.com/arun11299/cpp-jwt.git'
     'benhoyt.inih'::'git+https://github.com/benhoyt/inih.git'
+    'bylaws.libadrenotools'::'git+https://github.com/bylaws/libadrenotools.git'
     'catchorg.catch2'::'git+https://github.com/catchorg/Catch2.git'
     'citra-emu.ext-boost'::'git+https://github.com/citra-emu/ext-boost.git'
     'citra-emu.ext-library-headers'::'git+https://github.com/citra-emu/ext-library-headers.git'
@@ -107,13 +113,16 @@ _source_citra() {
     'libusb'::'git+https://github.com/libusb/libusb.git'
     'lsalzman.enet'::'git+https://github.com/lsalzman/enet.git'
     'lvandeve.lodepng'::'git+https://github.com/lvandeve/lodepng.git'
+    'merryhime.dynarmic'::'git+https://github.com/merryhime/dynarmic.git'
     'merryhime.oaknut'::'git+https://github.com/merryhime/oaknut.git'
+    'mozilla.cubeb'::'git+https://github.com/mozilla/cubeb.git'
     'neobrain.nihstro'::'git+https://github.com/neobrain/nihstro.git'
     'septag.dds-ktx'::'git+https://github.com/septag/dds-ktx.git'
     'soundtouch'::'git+https://codeberg.org/soundtouch/soundtouch.git'
     'weidai11.cryptopp'::'git+https://github.com/weidai11/cryptopp.git'
     'wwylele.teakra'::'git+https://github.com/wwylele/teakra.git'
     'yuzu-emu.discord-rpc'::'git+https://github.com/yuzu-emu/discord-rpc.git'
+    'yuzu-emu.sirit'::'git+https://github.com/yuzu-emu/sirit.git'
   )
   sha256sums+=(
     'SKIP'
@@ -152,14 +161,10 @@ _source_citra() {
   _prepare_citra() (
     cd "${srcdir:?}/$_pkgsrc"
     local -A _submodules=(
-      ['bylaws.libadrenotools']='externals/libadrenotools'
-      ['merryhime.dynarmic']='externals/dynarmic'
-      ['mozilla.cubeb']='externals/cubeb'
-      ['yuzu-emu.sirit']='externals/sirit'
-
       ['abdes.cryptopp-cmake']='externals/cryptopp-cmake'
       ['arun11299.cpp-jwt']='externals/cpp-jwt'
       ['benhoyt.inih']='externals/inih/inih'
+      ['bylaws.libadrenotools']='externals/libadrenotools'
       ['catchorg.catch2']='externals/catch2'
       ['citra-emu.ext-boost']='externals/boost'
       ['citra-emu.ext-library-headers']='externals/library-headers'
@@ -177,34 +182,16 @@ _source_citra() {
       ['libusb']='externals/libusb/libusb'
       ['lsalzman.enet']='externals/enet'
       ['lvandeve.lodepng']='externals/lodepng/lodepng'
+      ['merryhime.dynarmic']='externals/dynarmic'
       ['merryhime.oaknut']='externals/oaknut'
+      ['mozilla.cubeb']='externals/cubeb'
       ['neobrain.nihstro']='externals/nihstro'
       ['septag.dds-ktx']='externals/dds-ktx'
       ['soundtouch']='externals/soundtouch'
       ['weidai11.cryptopp']='externals/cryptopp'
       ['wwylele.teakra']='externals/teakra'
       ['yuzu-emu.discord-rpc']='externals/discord-rpc'
-    )
-    _submodule_update
-  )
-}
-
-_source_merryhime_dynarmic() {
-  source+=(
-    'zyantific.zycore-c'::'git+https://github.com/zyantific/zycore-c.git'
-    #'zyantific.zydis'::'git+https://github.com/zyantific/zydis.git'
-  )
-  sha256sums+=(
-    'SKIP'
-    #'SKIP'
-  )
-
-  _prepare_merryhime_dynarmic() (
-    cd "${srcdir:?}/$_pkgsrc"
-    cd "externals/dynarmic"
-    local -A _submodules=(
-      ['zyantific.zycore-c']='externals/zycore'
-      #['zyantific.zydis']='externals/zydis'
+      ['yuzu-emu.sirit']='externals/sirit'
     )
     _submodule_update
   )
@@ -267,26 +254,20 @@ _source_yuzu_emu_sirit() {
   )
 }
 
-_submodule_update() {
-  local key;
-  for key in ${!_submodules[@]} ; do
-    git submodule init "${_submodules[${key}]}"
-    git submodule set-url "${_submodules[${key}]}" "${srcdir}/${key}"
-    git -c protocol.file.allow=always submodule update "${_submodules[${key}]}"
-  done
-}
-
-_source_citra
-_source_bylaws_libadrenotools
-_source_merryhime_dynarmic
-_source_mozilla_cubeb
-_source_yuzu_emu_sirit
-
+# common functions
 prepare() {
+  _submodule_update() {
+    local key;
+    for key in ${!_submodules[@]} ; do
+      git submodule init "${_submodules[${key}]}"
+      git submodule set-url "${_submodules[${key}]}" "${srcdir}/${key}"
+      git -c protocol.file.allow=always submodule update "${_submodules[${key}]}"
+    done
+  }
+
   _prepare_citra
   _prepare_mozilla_cubeb
   _prepare_bylaws_libadrenotools
-  _prepare_merryhime_dynarmic
   _prepare_yuzu_emu_sirit
 }
 
@@ -331,7 +312,7 @@ build() {
     -DUSE_SYSTEM_BOOST=OFF
     -DUSE_SYSTEM_FFMPEG_HEADERS=ON
     -DUSE_SYSTEM_FMT=ON
-    -DUSE_SYSTEM_GLSLANG=ON
+    #-DUSE_SYSTEM_GLSLANG=ON
     -DUSE_SYSTEM_INIH=ON
     -DUSE_SYSTEM_JSON=ON
     -DUSE_SYSTEM_LIBUSB=ON
@@ -348,3 +329,6 @@ build() {
 package() {
   DESTDIR="${pkgdir:?}" cmake --install build
 }
+
+# execute
+_main_package
