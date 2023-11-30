@@ -1,93 +1,44 @@
-# Maintainer: aur.chaotic.cx
-
-_pkgname="tradingview"
-_snapname="tradingview"
 
 # options
-if [ -z "$_pkgver" ] ; then
+if [ x"${_srcinfo::1}" == "xt" ] ; then
+  : ${_autoupdate:=false}
+elif [ -z "$_pkgver" ] ; then
   : ${_autoupdate:=true}
 else
   : ${_autoupdate:=false}
 fi
 
-: ${_pkgver:=2.6.3}
-
-
 # basic info
-pkgname="$_pkgname"
-pkgver=2.6.3
+_pkgname="tradingview"
+_snapname="tradingview"
+pkgname="$_pkgname${_pkgtype:+-$_pkgtype}"
+pkgver=2.7.1
 pkgrel=1
-epoch=1
 pkgdesc='Charting platform for traders and investors'
 arch=('x86_64')
 url="https://snapcraft.io/$_snapname"
 # url='https://www.tradingview.com/desktop/'
 license=('custom')
 
+# main package
+_main_package() {
+  _update_version
 
-# update version
-case "${_autoupdate::1}" in
-  't'|'y'|'1')
-    _response=$(
-      curl -H 'Snap-Device-Series: 16' --no-progress-meter "http://api.snapcraft.io/v2/snaps/info/$_snapname" \
-        | sed 's@,@,\n@g'
-    )
+  makedepends=(
+    'html-xml-utils'
+    'pandoc'
+    'sha3sum'
+    'squashfs-tools'
+  )
+  optdepends=(
+    'chaotic-interfere: chaotic-aur interference tracker'
+  )
 
-    _dl_url=$(
-      printf '%s' "$_response" \
-        | grep '"url"' \
-        | sed -E 's@^"url":"(https:.*\.snap)".*$@\1@'
-    )
+  source=("$_filename"::"$_dl_url")
+  sha256sums=('SKIP')
+}
 
-    _pkgver_new=$(
-      printf '%s' "$_response" \
-        | grep '"version"' \
-        | sed -E 's@^"version":"([0-9]+\.[0-9]+\.[0-9]+)".*$@\1@'
-    )
-
-    # sha3-384 checksum
-    _cksum=$(
-      printf '%s' "$_response" \
-        | grep '"sha3-384"' \
-        | sed -E 's@^"sha3-384":"([a-f0-9]+)".*$@\1@'
-    )
-
-    _filename="$_pkgname-$_pkgver_new.snap"
-
-    # update _pkgver
-    if [ x"$_pkgver" != x"${_pkgver_new:?}" ] ; then
-      _pkgver="${_pkgver_new:?}"
-      sed -Ei 's@^(\s*: \$\{_pkgver):=.*\}$@\1:='"${_pkgver:?}"'}@' "$startdir/PKGBUILD"
-    fi
-
-    pkgver() {
-      printf '%s' "$_pkgver"
-    }
-    ;;
-esac
-
-makedepends=(
-  'html-xml-utils'
-  'pandoc'
-  'sha3sum'
-  'squashfs-tools'
-)
-optdepends=(
-  'chaotic-interfere: chaotic-aur interference tracker'
-)
-
-if [ x"$_pkgname" != x"$pkgname" ] ; then
-  provides+=("$_pkgname")
-  conflicts+=("$_pkgname")
-fi
-
-source=(
-  "$_filename"::"$_dl_url"
-)
-sha256sums=(
-  'SKIP'
-)
-
+# common functions
 _eula_basename="$_pkgname-eula"
 
 prepare() {
@@ -166,3 +117,50 @@ package() {
   # license/eula
   install -Dm644 "$_eula_basename.txt" -t "$pkgdir/usr/share/licenses/$pkgname"
 }
+
+# update version
+_update_version() {
+  : ${_pkgver:=${pkgver%%.r*}}
+
+  if [[ x"${_autoupdate::1}" != "xt" ]] ; then
+    return
+  fi
+
+  _response=$(
+    curl -H 'Snap-Device-Series: 16' --no-progress-meter "http://api.snapcraft.io/v2/snaps/info/$_snapname" \
+      | sed 's@,@,\n@g'
+  )
+
+  _dl_url=$(
+    printf '%s' "$_response" \
+      | grep '"url"' \
+      | sed -E 's@^"url":"(https:.*\.snap)".*$@\1@'
+  )
+
+  _pkgver_new=$(
+    printf '%s' "$_response" \
+      | grep '"version"' \
+      | sed -E 's@^"version":"([0-9]+\.[0-9]+\.[0-9]+)".*$@\1@'
+  )
+
+  # sha3-384 checksum
+  _cksum=$(
+    printf '%s' "$_response" \
+      | grep '"sha3-384"' \
+      | sed -E 's@^"sha3-384":"([a-f0-9]+)".*$@\1@'
+  )
+
+  _filename="$_pkgname-${_pkgver_new:?}.snap"
+
+  # update _pkgver
+  if [ x"$_pkgver" != x"${_pkgver_new:?}" ] ; then
+    _pkgver="${_pkgver_new:?}"
+  fi
+
+  pkgver() {
+    printf '%s' "${_pkgver:?}"
+  }
+}
+
+# execute
+_main_package
