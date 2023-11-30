@@ -1,91 +1,44 @@
 
-_pkgname="bluemail"
-_snapname="bluemail"
-
 # options
-if [ -z "$_pkgver" ] ; then
+if [ x"${_srcinfo::1}" == "xt" ] ; then
+  : ${_autoupdate:=false}
+elif [ -z "$_pkgver" ] ; then
   : ${_autoupdate:=true}
 else
   : ${_autoupdate:=false}
 fi
 
-: ${_pkgver:=1.137.2}
-
-
 # basic info
-pkgname="$_pkgname"
+_pkgname="bluemail"
+_snapname="bluemail"
+pkgname="$_pkgname${_pkgtype:+-$_pkgtype}"
 pkgver=1.137.2
-pkgrel=1
+pkgrel=2
 pkgdesc="BlueMail is a free, secure, universal email app, capable of managing an unlimited number of mail accounts"
 url="https://snapcraft.io/$_snapname"
 # url='https://www.bluemail.me'
 arch=('x86_64')
 license=('custom')
 
+# main package
+_main_package() {
+  _update_version
 
-# update version
-case "${_autoupdate::1}" in
-  't'|'y'|'1')
-    _response=$(
-      curl -H 'Snap-Device-Series: 16' --no-progress-meter "http://api.snapcraft.io/v2/snaps/info/$_snapname" \
-        | sed 's@,@,\n@g'
-    )
+  makedepends=(
+    'html-xml-utils'
+    'pandoc'
+    'sha3sum'
+    'squashfs-tools'
+  )
+  optdepends=(
+    'chaotic-interfere: chaotic-aur interference tracker'
+  )
 
-    _dl_url=$(
-      printf '%s' "$_response" \
-        | grep '"url"' \
-        | sed -E 's@^"url":"(https:.*\.snap)".*$@\1@'
-    )
+  source=("$_filename"::"$_dl_url")
+  sha256sums=('SKIP')
+}
 
-    _pkgver_new=$(
-      printf '%s' "$_response" \
-        | grep '"version"' \
-        | sed -E 's@^"version":"([0-9]+\.[0-9]+\.[0-9]+)".*$@\1@'
-    )
-
-    # sha3-384 checksum
-    _cksum=$(
-      printf '%s' "$_response" \
-        | grep '"sha3-384"' \
-        | sed -E 's@^"sha3-384":"([a-f0-9]+)".*$@\1@'
-    )
-
-    _filename="$_pkgname-${_pkgver_new:?}.snap"
-
-    # update _pkgver
-    if [ x"$_pkgver" != x"${_pkgver_new:?}" ] ; then
-      _pkgver="${_pkgver_new:?}"
-      sed -Ei 's@^(\s*: \$\{_pkgver):=.*\}$@\1:='"${_pkgver:?}"'}@' "$startdir/PKGBUILD"
-    fi
-
-    pkgver() {
-      printf '%s' "$_pkgver"
-    }
-    ;;
-esac
-
-makedepends=(
-  'html-xml-utils'
-  'pandoc'
-  'sha3sum'
-  'squashfs-tools'
-)
-optdepends=(
-  'chaotic-interfere: chaotic-aur interference tracker'
-)
-
-if [ x"$_pkgname" != x"$pkgname" ] ; then
-  provides+=("$_pkgname")
-  conflicts+=("$_pkgname")
-fi
-
-source=(
-  "$_filename"::"$_dl_url"
-)
-sha256sums=(
-  'SKIP'
-)
-
+# common functions
 _privacy_policy="privacy_policy"
 _privacy_policy_url="https://bluemail.me/privacy/"
 _terms_of_use="terms_of_use"
@@ -164,3 +117,50 @@ package() {
   install -Dm644 "$_privacy_policy.txt" -t "$pkgdir/usr/share/licenses/$pkgname"
   install -Dm644 "$_terms_of_use.txt" -t "$pkgdir/usr/share/licenses/$pkgname"
 }
+
+# update version
+_update_version() {
+  : ${_pkgver:=${pkgver%%.r*}}
+
+  if [[ x"${_autoupdate::1}" != "xt" ]] ; then
+    return
+  fi
+
+  _response=$(
+    curl -H 'Snap-Device-Series: 16' --no-progress-meter "http://api.snapcraft.io/v2/snaps/info/$_snapname" \
+      | sed 's@,@,\n@g'
+  )
+
+  _dl_url=$(
+    printf '%s' "$_response" \
+      | grep '"url"' \
+      | sed -E 's@^"url":"(https:.*\.snap)".*$@\1@'
+  )
+
+  _pkgver_new=$(
+    printf '%s' "$_response" \
+      | grep '"version"' \
+      | sed -E 's@^"version":"([0-9]+\.[0-9]+\.[0-9]+)".*$@\1@'
+  )
+
+  # sha3-384 checksum
+  _cksum=$(
+    printf '%s' "$_response" \
+      | grep '"sha3-384"' \
+      | sed -E 's@^"sha3-384":"([a-f0-9]+)".*$@\1@'
+  )
+
+  _filename="$_pkgname-${_pkgver_new:?}.snap"
+
+  # update _pkgver
+  if [ x"$_pkgver" != x"${_pkgver_new:?}" ] ; then
+    _pkgver="${_pkgver_new:?}"
+  fi
+
+  pkgver() {
+    printf '%s' "${_pkgver:?}"
+  }
+}
+
+# execute
+_main_package
