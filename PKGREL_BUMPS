@@ -1,5 +1,6 @@
 64gram-desktop 1:1.1.4-1 1
 8188fu-dkms-git r13.586d795-1 1
+86box 4.0.1-1 1
 acidrip 0.14-10 6
 adcli 0.9.2-1 2
 agenda 1.1.2-1 4
@@ -49,13 +50,13 @@ brisk-menu 1:0.6.2-1 5
 broadcom-bt-firmware-git 12.0.1.1105_p4.r0.ga0eb480-1 1
 brother-hl2280dw 2.1.0_1-2 3
 browsh 1.8.2-1 4
-btop-git 1.2.13.r772.0267eba-1 1
 budgie-network-applet 2.2-1 5
 budgie-screenshot-applet 0.4.3.r0.gd92b06c-3 5
 buttermanager 2.5.0-1 3
 bytecode-viewer 2.11.2-1 1
 cabbage-bin 2.8.0-1 1
 caffeine 2.9.12-1 3
+calcmysky 0.3.1-1 1
 capnproto-java 0.1.14-1 1
 cask-server-git 0.6.6.r1.g8bf2c28-1 1
 cassowary 0.6-1 4
@@ -123,7 +124,6 @@ diodon 1.13.0-2 2
 dissenter-browser-bin 1.5.114-2 4
 dosbox-staging 1:0.80.1-2 3
 dotfonts-git r64.a768278-1 3
-downloader-cli 0.3.3-0 3
 dracula-grub-theme-git r11.0e721d9-1 1
 dracula-xresources-git r12.539ef24-1 1
 dracut-hook 0.5.3-1 1
@@ -137,7 +137,8 @@ easystroke 0.6.0-24 4
 easytether-bin 0.8.9-1 1
 edex-ui-bin 2.2.8-1 2
 edopro-bin 40.0.2-1 2
-electron16-bin 16.2.8-1 3
+efibooteditor 1.3.1-1 1
+eka2l1-git 5801.2fe3bca41-1 1
 emacs-ng-git 1:r166863.gdbf1cc80538-1 2
 emerald-gtk3 0.8.18-2 7
 emulationstation 2.11.2-1 4
@@ -291,7 +292,6 @@ keeweb-desktop-bin 1.18.7-1 3
 kega-fusion 3.63-17 3
 keyboard-visualizer-git release_4.00.r26.gb50cc50-1 3
 komorebi 2.2.1-1 3
-kotatogram-desktop-bin 1.4.9-1 1
 krop 0.6.0-2 3
 kvantum-theme-matcha-git r11.a3b247b-1 3
 kvantum-theme-vimix-git 2021.09.05.r15.g29c4316-1 2
@@ -353,16 +353,17 @@ masterpdfeditor-free 4.3.89-1 3
 mastodon 4.2.1-1 2
 mate-hud 22.10.3-1 4
 mate-menu 22.04.2-1 3
-mate-panel-genmon-git 5.1.0.r41.gd8f2540-1 1
 mate-tweak 22.10.0-3 3
 materia-theme-git 20210322.r52.g6e585038-1 3
 material-gtk-theme-git r38.4d828d5d-1 1
 matrix-registration 0.9.1-2 4
 mcmojave-cursors-git r11.7d0bfc1-1 1
-mcpelauncher-ui-git 0.11.0.qt6.r4.g348a805-1 2
+mcpelauncher-linux-git 0.11.0.qt6.r9.g2184b0c-1 1
+mcpelauncher-ui-git 0.11.0.qt6.r4.g348a805-1 3
 mcstatus 9.4.2-1 4
 media-downloader 2.7.0-1 2
-mediawriter 5.0.6-1 2
+mediainfo-gui-qt 23.07-1 1
+mediawriter 5.0.6-1 3
 mednaffe 0.9.2-1 4
 mellowplayer 3.6.8-0 4
 memavaild 0.6-2 3
@@ -383,6 +384,7 @@ modprobed-db 2.46-1 3
 moodle-dl-git v2.3.2.0.r1.g2e79839-1 2
 motrix-bin 1.8.19-1 2
 movie-monad 0.0.7.0_0-1 4
+mozc-ut 2.29.5268.102.20231104-1 1
 mpc-qt 23.02-1 3
 ms-office-online 2:2.1.1-1 5
 mugshot 0.4.3-3 3
@@ -396,7 +398,7 @@ nasc 0.8.0-2 3
 natron-bin 2.5.0-1 3
 natron-git 1:1-1 1
 natron-plugins-git 2.1.7.r1201.gb0c499f-1 1
-nekoray 3.24-1 3
+nekoray 3.25-1 1
 neovim-drop-in 1-1 1
 neovim-plug 0.11.0-3 1
 neovim-remote 2.5.1-1 3
@@ -412,6 +414,7 @@ noisetorch 0.12.2-2 2
 non-euclidean-git r37.191fc4c-1 3
 nordpy 1.3.5-1 3
 notejot 3.5.1-1 2
+notes 2.2.1-2 1
 notion-app-enhanced 2.0.18-1 5
 notorious-git 0.4.r8.g1cf8751-1 4
 notparadoxlauncher-bin 1.3.1-1 3
@@ -428,6 +431,8 @@ nwg-wrapper 0.1.3-2 2
 obs-gstreamer 1:0.4.0-1 3
 obs-rtspserver 3.0.0-3 1
 obs-streamfx 0.11.1-1 3
+obs-streamfx-unstable 0.12.0b299-3 1
+obs-studio-tytan652 30.0.0-1 1
 obsidian-icon-theme-git 4.15.r1.g4cccdd3f-1 1
 ocs-url 3.1.0-7 3
 oddjob 0.34.7-1 3
@@ -451,7 +456,7 @@ overdue 1.1.1-1 2
 p7zip-gui 16.02-8 3
 pa-applet-git r19.3b4f8b3-8 3
 pace 1.4.2-1 3
-pacmanlogviewer-git 1.5.1.r0.g7e47e18-1 2
+pacmanlogviewer-git 1.5.1.r0.g7e47e18-1 3
 pacvis-git 0.2.7.r12.g34f7494-1 3
 pakka 0.0.2-1 1
 pamac-classic 7.3.0-2 5
@@ -459,9 +464,9 @@ paper-icon-theme-git 832.aa3e8af7-1 3
 papirus-folders 1.12.0-1 1
 parlatype 3.1-2 4
 parlatype-libreoffice-extension 3.1.1-2 5
-paru 1.11.1-1 3
 passbook 0.8-1 4
 passbook-git 0.8.r36.g750825d-1 4
+path-of-building-community-git 2.34.1.r7404.62.517-1 1
 pcem 17-4 2
 pcsxr 1.9.95-2 3
 pdf2png 0.5.3-1 3
@@ -496,6 +501,8 @@ pokete-git 0.9.1-1 2
 pop-bin 8.0.20-1 3
 pop-shell-shortcuts-git 1:r30.52cc83f-2 3
 prestopalette 0.1.31-1 3
+prismlauncher 8.0-1 1
+prismlauncher-git 8.0.r76.g4c59a1ba1-1 1
 prjtrellis-git 1.4.r64.g36c615d-1 1
 processing 4.3-2 2
 proftpd 2:1.3.8-1 1
@@ -574,6 +581,8 @@ python-x-wr-timezone 0.0.5-1 2
 pyzbar 0.1.9-1 4
 q-zandronum 1.2.1-1 3
 q4wine-git 1.3.13.4.g82ced8e-1 3
+qbittorrent-enhanced 4.6.1.10-1 1
+qdigidoc4 4.4.0.4447-1 1
 qdirstat 1.8.1-1 3
 qimgv-git v1.0.3.alpha.r98.g4c12677-1 2
 qnapi-git 0.2.3snapshot.r5.gd4e0378-1 3
@@ -586,6 +595,8 @@ qt-jdenticon 0.3.0-1 3
 qt-solutions-git 56.777e95b-1 2
 qt-virt-manager 0.72.99-4 5
 qt5-styleplugins 5.0.0.20170311-35 4
+qt6gtk2 0.2-7 1
+qt6pas 6.2.7-1 1
 qtfm 6.2.1-1 3
 qtforkawesome 0.1.0-1 3
 qtscrcpy 2.1.2-1 7
@@ -611,6 +622,7 @@ revolt-desktop-git 1:1.0.7.r13.g2373e7d-1 1
 riftshare 0.1.9-4 3
 ripcord 0.4.29-1 2
 ripcord-arch-libs 0.4.29-3 2
+rmg 0.5.2-1 1
 rocketlauncher2-git 0.1.0.2.r11.gbdb48cd-1 3
 rofi-greenclip 4.2-2 1
 rtl8192cu-fixes-git r118.e5c01a3-1 2
@@ -620,7 +632,7 @@ sayonara-player 1.7.0_stable3-1 4
 schildichat-desktop 1.11.30.sc.2-1 1
 scid 5.0.2-1 2
 sddm-theme-astronaut 1.0-1 3
-seafile-client 9.0.4-1 1
+seafile-client 9.0.4-1 2
 searx 1.1.0-2 1
 servo-git r46236.e153bcb40b9-1 1
 shadowsocks-gtk-rs 0.4.1-1 3
@@ -630,12 +642,12 @@ silo-primevideo 0.5-1 4
 silo-trello 0.3-1 4
 silos 0.1.60-1 4
 simple-mtpfs 0.4.0-1 1
+simple64 2023.11.02-1 1
 simplenote-electron-bin 2.21.0-1 4
 simplescreenrecorder 0.4.4-2 1
 sip4 4.19.25-5 3
 sirula-git r68.b15efe8-1 1
 slade 3.2.4-1 1
-smartgit 22.1.7-1 1
 smooth 0.9.10-1 2
 smtube 21.10.0-4 2
 snap-pac-grub 2.0.2-1 4
@@ -651,7 +663,6 @@ soundcloud-dl-git v2.7.3.r0.g4276511-1 2
 soundcloud-nativefier 20230310-1 1
 soundux 0.2.7-3 1
 soundwire 3.0.0-4 4
-sourcetrail 2021.4.19-1 4
 spacefm-git 1.0.6.r80.ge257d15-3 5
 spectral-matrix-git 218.r648.g30028a2-1 4
 speedtest++ 1.14.r71.0f63cfb-1 2
@@ -665,8 +676,6 @@ srb2kart 1.6-1 2
 ssacli 4.21.7.0-1 1
 stacer 1.1.0-1 4
 steamtinkerlaunch 12.12-1 2
-strawberry-full-git 1.0.21.r29.g8e4b4d6e-1 1
-strawberry-git 1.0.21.r29.g8e4b4d6e-1 1
 strawberry-qt5 1.0.21-1 2
 stylepak-git 18.0c4b0c1-1 2
 subliminal-git 2.1.0.r22.g160ea63-6 5
@@ -741,7 +750,6 @@ vim-vimwiki 2023.04.04_1-1 2
 vital-synth 1.5.5-1 3
 vmware-keymaps 1.0-3 1
 vosk-api 0.3.45-1 1
-vscodium-electron 1.81.1.23222-1 1
 vscodium-insiders-marketplace 1.72.0-1 3
 vscodium-marketplace 1.65.0-1 3
 wahay-bin 6be34ec-1 3
@@ -749,7 +757,6 @@ waterfox-g3-bin 2.6-1 3
 webwatcher-git r24.3d3099f-2 2
 wf-osk-git r13.d2e2e32-1 3
 whatsapp-for-linux 1.6.4-1 1
-whatsie-git v4.14.1.r311.906ca7e-1 1
 wike 2.0.1-1 2
 windscribe-bin 2.4.11-1 1
 windscribe-cli 1.4_51-1 1
@@ -788,7 +795,7 @@ youtube-search-python 1.6.6-2 3
 yozo-office 8.0.1331.101ZH.S1-6 1
 yp-tools 4.2.3-6 2
 zandronum 3.1-2 3
+zeal-git 0.7.0.r6.g9630cc9-1 1
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 1
-zrythm 1.0.0.beta.4.12.34-2 1
 zulucrypt 6.2.0-1 3
