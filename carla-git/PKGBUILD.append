@@ -1,0 +1,11 @@
+
+unset groups
+
+pkgver() {
+  cd $_pkgname
+  local _version=$(git tag | grep -Ev '^.*[a-zA-Z]{2}.*$' | sort -V | tail -1)
+  local _revision=$(git rev-list --count --cherry-pick ${_version:?}...HEAD)
+  local _hash=$(git rev-parse --short=8 HEAD)
+
+  printf '%s.r%s.g%s' "${_version#v}" "${_revision:?}" "${_hash:?}"
+}
