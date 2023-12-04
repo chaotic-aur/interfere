@@ -1,4 +1,3 @@
-64gram-desktop 1:1.1.4-1 1
 8188fu-dkms-git r13.586d795-1 1
 86box 4.0.1-1 1
 acidrip 0.14-10 6
@@ -137,7 +136,6 @@ easystroke 0.6.0-24 4
 easytether-bin 0.8.9-1 1
 edex-ui-bin 2.2.8-1 2
 edopro-bin 40.0.2-1 2
-efibooteditor 1.3.1-1 1
 eka2l1-git 5801.2fe3bca41-1 1
 emacs-ng-git 1:r166863.gdbf1cc80538-1 2
 emerald-gtk3 0.8.18-2 7
@@ -172,7 +170,6 @@ fonts-tlwg 0.7.3-1 1
 foo2zjs-nightly 20201127-1 3
 foobillard++ 3.42beta-7 3
 fop-hyph 2.2-1 1
-forkgram 4.11.7-1 1
 foxitreader 2.4.5.0727-1 3
 freac 1.1.7-1 2
 freedownloadmanager 6.19.1.5263-2 1
@@ -276,11 +273,10 @@ jlatexmath-fop 1.0.7-1 1
 jmencode 0.64-6 5
 jogl 2.3.2-2 3
 jrosetta 1.0.4-5 1
-kawaii-player 5.0.0-2 5
 kazam 1.4.5-9 5
 kcm-colorful-git 1.0.5.r0.g411e8c9-1 4
 kcm-polkit-kde-git 1:5.9.0.r229.g294c719-1 2
-kcm-uefi 0.1-1 3
+kcm-uefi 0.1-1 4
 kde-service-menu-reimage 2.5-1 4
 kde-servicemenus-komparemenu 0.1-3 4
 kde-servicemenus-officeconverter 1-1 4
@@ -370,12 +366,9 @@ memavaild 0.6-2 3
 mendeleydesktop 1.19.8-1 4
 menulibre 1:2.2.3-2 1
 meowsql 0.4.18-1 2
-meshlab 2022.02-1 2
-meshlab-git 2022.02.r129.gc139a651f-1 1
 metronome 1.0.0-1 3
 minecraft-launcher 1:1.0.1221-1 4
 mintlocale 1.5.8-1 3
-mintstick 1.5.6-1 2
 miredo 1.2.6+r159+ge5f5652-1 1
 mkinitcpio-openswap 0.1.0-3 1
 mmsd-git r648.f4b8b32-1 1
@@ -389,7 +382,6 @@ mpc-qt 23.02-1 3
 ms-office-online 2:2.1.1-1 5
 mugshot 0.4.3-3 3
 multibootusb 9.2.0-5 3
-multimc5 0.6.16-3 1
 munt 2.7.0-4 2
 museeks-bin 0.13.1-1 1
 musikcube 3.0.2-1 1
@@ -466,7 +458,6 @@ parlatype 3.1-2 4
 parlatype-libreoffice-extension 3.1.1-2 5
 passbook 0.8-1 4
 passbook-git 0.8.r36.g750825d-1 4
-path-of-building-community-git 2.34.1.r7404.62.517-1 1
 pcem 17-4 2
 pcsxr 1.9.95-2 3
 pdf2png 0.5.3-1 3
@@ -486,7 +477,6 @@ planify 4.1.1-1 1
 plasma5-applets-audio-device-switcher 0.3.0-1 4
 plasma5-applets-betterinlineclock-git r24.bbad71b-1 3
 plasma5-applets-eventcalendar 76-1 4
-plasma5-applets-netspeed 1.9-1 4
 plasma5-applets-virtual-desktop-bar-git r524.3c42104-1 4
 plasma5-applets-weather-widget-2 2.3.5beta2-1 1
 plasma5-applets-window-title 0.7.1-2 4
@@ -502,7 +492,6 @@ pop-bin 8.0.20-1 3
 pop-shell-shortcuts-git 1:r30.52cc83f-2 3
 prestopalette 0.1.31-1 3
 prismlauncher 8.0-1 1
-prismlauncher-git 8.0.r76.g4c59a1ba1-1 1
 prjtrellis-git 1.4.r64.g36c615d-1 1
 processing 4.3-2 2
 proftpd 2:1.3.8-1 1
@@ -595,7 +584,6 @@ qt-jdenticon 0.3.0-1 3
 qt-solutions-git 56.777e95b-1 2
 qt-virt-manager 0.72.99-4 5
 qt5-styleplugins 5.0.0.20170311-35 4
-qt6gtk2 0.2-7 1
 qt6pas 6.2.7-1 1
 qtfm 6.2.1-1 3
 qtforkawesome 0.1.0-1 3
@@ -693,7 +681,6 @@ systemd-manager-git 1.0.0.r12.g4efeb47-1 2
 tangram 3.0-3 2
 tartube 2.4.370-2 3
 teams 1.5.00.23861-1 4
-telegram-desktop-userfonts 4.11.8-1 1
 terasology 1:5.3.0alpha23-1 1
 termv-git v1.2-2 3
 texmacs 2.1.2-1 3
