@@ -103,6 +103,5 @@ build() {
 }
 
 package(){
-  depends=()
   DESTDIR="$pkgdir" meson install -C build
 }
