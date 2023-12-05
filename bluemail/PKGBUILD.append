@@ -13,7 +13,7 @@ _pkgname="bluemail"
 _snapname="bluemail"
 pkgname="$_pkgname${_pkgtype:+-$_pkgtype}"
 pkgver=1.137.2
-pkgrel=2
+pkgrel=3
 pkgdesc="BlueMail is a free, secure, universal email app, capable of managing an unlimited number of mail accounts"
 url="https://snapcraft.io/$_snapname"
 # url='https://www.bluemail.me'
@@ -25,6 +25,7 @@ _main_package() {
   _update_version
 
   makedepends=(
+    'gendesk'
     'html-xml-utils'
     'pandoc'
     'sha3sum'
@@ -45,6 +46,39 @@ _terms_of_use="terms_of_use"
 _terms_of_use_url="https://bluemail.me/tos/"
 
 prepare() {
+  cat <<'EOF' > "$_pkgname.sh"
+#!/usr/bin/env sh
+set -e
+
+APPDIR="/opt/bluemail"
+XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
+
+_ELECTRON="$APPDIR/bluemail"
+_FLAGS_FILE="$XDG_CONFIG_HOME/bluemail-flags.conf"
+
+if [ -r "$_FLAGS_FILE" ]; then
+  _USER_FLAGS="$(cat "$_FLAGS_FILE")"
+fi
+
+exec $_ELECTRON $_USER_FLAGS --no-sandbox --ozone-platform=x11 "$@"
+EOF
+
+  local _gendesk_options=(
+    -q -f -n
+    --pkgname="$_pkgname"
+    --pkgdesc="$pkgdesc"
+    --name="BlueMail"
+    --exec="$_pkgname %U"
+    --icon="$_pkgname"
+    --terminal=false
+    --categories="Office"
+    --mimetypes="x-scheme-handler/me.blueone.linux;x-scheme-handler/mailto;x-scheme-handler/me.blueone.linux"
+    --startupnotify=true
+    --custom="StartupWMClass=BlueMail"
+  )
+
+  gendesk "${_gendesk_options[@]}"
+
   # check upstream sha3-384sum
   printf '%s  %s' "$_cksum" "$_filename" | sha3-384sum -c
 
@@ -78,13 +112,6 @@ prepare() {
   mkdir -p "$_pkgname-$_pkgver"
   unsquashfs -q -n -f -d "$_pkgname-$_pkgver/" "$_filename"
 
-  # .desktop file
-  mv "$_pkgname-$_pkgver/meta/gui/$_snapname.desktop" "$srcdir/$_pkgname.desktop"
-  sed -i \
-    -e 's@'"$_snapname"'@'"${_pkgname}"'@g' \
-    -e 's@${SNAP}/meta/gui/icon.png@'"${_pkgname}"'@g' \
-    "$srcdir/$_pkgname.desktop"
-
   # icon
   mv "$_pkgname-$_pkgver/meta/gui/icon.png" "$srcdir"
 
@@ -105,9 +132,8 @@ package() {
   install -d "$pkgdir/opt/$_pkgname"
   cp -r "$srcdir/$_pkgname-$pkgver/"* "$pkgdir/opt/$_pkgname"
 
-  # symlink binary
-  install -d "$pkgdir/usr/bin"
-  ln -s "/opt/$_pkgname/$_snapname" "$pkgdir/usr/bin/$_pkgname"
+  # script
+  install -Dm755 "$_pkgname.sh" "${pkgdir:?}/usr/bin/$_pkgname"
 
   # icons
   install -Dm644 "$srcdir/icon.png" "$pkgdir/usr/share/icons/hicolor/512x512/apps/$_pkgname.png"
