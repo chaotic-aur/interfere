@@ -13,13 +13,11 @@ fi
 : ${_plugin_aja:=false}
 : ${_plugin_webrtc:=false}
 
-: ${_pkgver:=30.0.0}
-
 # basic info
 _pkgname="obs-studio"
 pkgname="$_pkgname${_pkgtype:+-$_pkgtype}"
-pkgver=30.0.0
-pkgrel=2
+pkgver=30.0.2
+pkgrel=1
 pkgdesc="Free, open source software for live streaming and recording - Browser enabled"
 url="https://github.com/obsproject/obs-studio"
 license=("GPL2")
@@ -87,38 +85,34 @@ _main_package() {
 
   options=(!debug)
 
-  if [ x"$pkgname" == x"$_pkgname" ] ; then
+  if [ "$pkgname" == "$_pkgname" ] ; then
     :
   else
     provides=("$_pkgname=${pkgver%%.r*}")
     conflicts=("$_pkgname")
   fi
 
-  if [ x"${pkgname: -4}" != "x-git" ] ; then
+  if [ "${pkgname: -4}" != "-git" ] ; then
     _main_stable
   else
     _main_git
   fi
 
-  # patches
-  source+=('fix_python_binary_loading.patch'::'https://gitlab.archlinux.org/archlinux/packaging/packages/obs-studio/-/raw/main/fix_python_binary_loading.patch')
-  sha256sums+=('bdfbd062f080bc925588aec1989bb1df34bf779cc2fc08ac27236679cf612abd')
-
   # cef
-  if [ x"${_cef_build::1}" == "xt" ] ; then
+  if [ "${_cef_build::1}" == "t" ] ; then
     _source_cef
   else
     makedepends+=('cef-minimal-obs-bin') # AUR
   fi
 
-  if [ x"${_plugin_aja::1}" == "xt" ] ; then
+  if [ "${_plugin_aja::1}" == "t" ] ; then
     makedepends+=('libajantv2') # AUR
     _plugin_aja='ON'
   else
     _plugin_aja='OFF'
   fi
 
-  if [ x"${_plugin_webrtc::1}" == "xt" ] ; then
+  if [ "${_plugin_webrtc::1}" == "t" ] ; then
     makedepends+=('libdatachannel') # AUR
     _plugin_webrtc='ON'
   else
@@ -127,7 +121,6 @@ _main_package() {
 
   _source_obs_studio
   _source_mixer_ftl_sdk
-  _source_obsproject_libdshowcapture
 }
 
 # submodules
@@ -135,12 +128,10 @@ _source_obs_studio() {
   source+=(
     'mixer.ftl-sdk'::'git+https://github.com/Mixer/ftl-sdk.git'
     'obsproject.obs-browser'::'git+https://github.com/obsproject/obs-browser.git'
-    'obsproject.libdshowcapture'::'git+https://github.com/obsproject/libdshowcapture.git'
     'obsproject.obs-websocket'::'git+https://github.com/obsproject/obs-websocket.git'
   )
 
   sha256sums+=(
-    'SKIP'
     'SKIP'
     'SKIP'
     'SKIP'
@@ -151,12 +142,9 @@ _source_obs_studio() {
     local -A _submodules=(
       ['mixer.ftl-sdk']='plugins/obs-outputs/ftl-sdk'
       ['obsproject.obs-browser']='plugins/obs-browser'
-      ['obsproject.libdshowcapture']='plugins/win-dshow/libdshowcapture'
       ['obsproject.obs-websocket']='plugins/obs-websocket'
     )
     _submodule_update
-
-    apply-patch "${srcdir:?}/fix_python_binary_loading.patch"
   )
 }
 
@@ -176,24 +164,6 @@ _source_mixer_ftl_sdk() {
     local -A _submodules=(
       ['akheron.jansson']='libjansson'
       ['curl']='libcurl'
-    )
-    _submodule_update
-  )
-}
-
-_source_obsproject_libdshowcapture() {
-  source+=(
-    'elgatosf.capture-device-support'::'git+https://github.com/elgatosf/capture-device-support.git'
-  )
-  sha256sums+=(
-    'SKIP'
-  )
-
-  _prepare_obsproject_libdshowcapture() (
-    cd "${srcdir:?}/$_pkgsrc"
-    cd 'plugins/win-dshow/libdshowcapture'
-    local -A _submodules=(
-      ['elgatosf.capture-device-support']='external/capture-device-support'
     )
     _submodule_update
   )
@@ -251,12 +221,38 @@ _source_cef() {
 
 # stable package
 _main_stable() {
-  _update_version
-
   _pkgsrc="$_pkgname"
-  source+=("$_pkgsrc"::"git+$url.git#tag=${_pkgver:?}")
+  source+=("$_pkgsrc"::"git+$url.git#tag=${pkgver%%.r*}")
   sha256sums+=('SKIP')
 
+  # patches
+  source+=(
+    'fix_ffmpeg.patch'::'https://github.com/obsproject/obs-studio/compare/master...Stephen-Seo:obs-studio:obs_ffmpeg6.1.patch'
+  )
+  sha256sums+=(
+    '426fd28d1cf73df4276b64d20c52348ecb2c6f9a368f587be3f8fd6668b9bdb8'
+  )
+
+  _prepare() {
+    apply-patch() {
+      printf '\nApplying patch %s\n' "$1"
+      patch -Np1 -F100 -i "$1"
+    }
+
+    pushd "$_pkgsrc"
+
+    local _tag=$(git tag | grep -Ev '^.*[A-Za-z]{2}.*$' | sort -V | tail -1)
+    _pkgver="${_tag:?}"
+
+    if [[ "$_pkgver" != "${pkgver%%.r*}" ]] ; then
+      git checkout -f "$_tag"
+      git describe --long --tags
+    fi
+
+    apply-patch "${srcdir:?}/fix_ffmpeg.patch"
+
+    popd
+  }
   pkgver() {
     echo "${_pkgver:?}"
   }
@@ -268,10 +264,14 @@ _main_git() {
   source+=("$_pkgsrc"::"git+$url.git")
   sha256sums+=('SKIP')
 
+  _prepare() {
+    :
+  }
+
   pkgver() {
     cd "$_pkgsrc"
     local _version=$(git tag | grep -Ev '.*[a-z]{2}.*' | sort -V | tail -1)
-    local _revision=$(git rev-list --count $_version..HEAD)
+    local _revision=$(git rev-list --count --cherry-pick $_version...HEAD)
     local _hash=$(git rev-parse --short=7 HEAD)
     local _pkgver="${_version:?}.r${_revision:?}.g${_hash:?}"
     echo "${_pkgver:?}"
@@ -289,14 +289,10 @@ prepare() {
     done
   }
 
-  apply-patch() {
-    printf '\nApplying patch %s\n' "$1"
-    patch -Np1 -F100 -i "$1"
-  }
-
   _prepare_obs_studio
   _prepare_mixer_ftl_sdk
-  _prepare_obsproject_libdshowcapture
+
+  _prepare
 }
 
 _build_obs_studio() {
@@ -320,7 +316,7 @@ _build_obs_studio() {
     -DENABLE_NEW_MPEGTS_OUTPUT=ON
     -DENABLE_VLC=OFF
     -DENABLE_VST=ON
-    -DENABLE_WEBRTC=ON="${_plugin_webrtc:?}"
+    -DENABLE_WEBRTC="${_plugin_webrtc:?}"
   )
 
   cmake "${_cmake_options[@]}"
@@ -328,7 +324,7 @@ _build_obs_studio() {
 }
 
 build() {
-  if [ x"${_cef_build::1}" == "xt" ] ; then
+  if [ "${_cef_build::1}" == "t" ] ; then
     _build_cef
     _cef_src="${srcdir:?}/$_cef_src"
   else
@@ -340,32 +336,6 @@ build() {
 
 package() {
   DESTDIR="${pkgdir:?}" cmake --install build
-}
-
-# update version
-_update_version() {
-  if [ x"${_autoupdate::1}" != "xt" ] ; then
-    return
-  fi
-
-  _repo="${url#*//*/}"
-  _response=$(curl "https://api.github.com/repos/${_repo:?}/tags" -s)
-
-  _get() {
-    printf '%s' "$_response" \
-      | awk -F '"' '/"'"$1"'":/{print $4}' \
-      | sed 's@^.*[a-z-].*$@@' | sort -rV | head -1
-  }
-  _pkgver_new=$(_get name)
-
-  # update pkgver
-  _pkgver="${pkgver%%.r*}"
-  if [ x"$_pkgver" != x"${_pkgver_new:?}" ] ; then
-    _pkgver="${_pkgver_new:?}"
-    sed -E \
-      -e 's@^(\s*: \$\{_pkgver):=.*\}$@\1:='"${_pkgver:?}"'}@' \
-      -i "$startdir/PKGBUILD"
-  fi
 }
 
 # execute
