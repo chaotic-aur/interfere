@@ -1,3 +1,6 @@
 
+makedepends=(${makedepends[@]/libdatachannel*})
+makedepends+=('libdatachannel')
+
 options=(${options[@]/debug*})
 options+=(!debug)
