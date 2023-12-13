@@ -1,3 +1,0 @@
-#!/usr/bin/env sh
-
-sed -E 's&\$\{pkgname%-git\}&${_pkgname}&g' -i PKGBUILD
