@@ -76,7 +76,7 @@ _main_package() {
 
   provides=(
     "ppsspp=${pkgver%%.r*}"
-    "ppsspp-assets=${pkgve4r%%.r*}"
+    "ppsspp-assets=${pkgver%%.r*}"
   )
   conflicts=(
     "ppsspp"
