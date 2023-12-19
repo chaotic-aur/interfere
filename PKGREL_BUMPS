@@ -444,7 +444,6 @@ perl-crypt-rijndael 1.16-2 1
 perl-expect 1.35-1 1
 perl-file-rename 2.01-1 1
 perl-net-arp 1.0.11-2 1
-perl-x11-guitest 0.28-3 1
 phonesim 2.0.r0.ga55ada2-1 2
 phoronix-test-suite 10.8.4-1 1
 photocollage 1.4.5-2 4
@@ -540,7 +539,6 @@ python-ufonormalizer 0.6.1-3 2
 python-vdf 3.4-2 4
 python-x-wr-timezone 0.0.5-1 2
 pyzbar 0.1.9-1 4
-q-zandronum 1.2.1-1 3
 q4wine-git 1.3.13.4.g82ced8e-1 3
 qdigidoc4 4.4.0.4447-1 1
 qdirstat 1.8.1-1 3
@@ -753,3 +751,4 @@ zeal-git 0.7.0.r6.g9630cc9-1 1
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 1
 zulucrypt 6.2.0-1 3
+firedragon 119.0-2 1
