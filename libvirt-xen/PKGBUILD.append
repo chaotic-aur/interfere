@@ -1,4 +1,0 @@
-
-check() {
-  echo Seems run a test unsupported by our build tools?
-}

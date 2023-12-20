@@ -1,4 +1,0 @@
-
-check() {
-    echo "Skipping checks because build breaks"
-}

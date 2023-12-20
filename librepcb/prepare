@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
 
 # disable check
+# cannot run tests without X session
 export TARGET_ARGS="--nocheck ${TARGET_ARGS:-}"
