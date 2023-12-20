@@ -1,5 +1,11 @@
 
+depends+=('libdisplay-info')
+
 pkgver() {
-  cd "$srcdir/wayfire"
-  printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+  cd "wayfire"
+  local _tag=$(git tag | sort -V | tail -1)
+  local _pkgver=$(sed -E 's&^[^0-9]*&&' <<< "${_tag:?}")
+  local _revision=$(git rev-list --count --cherry-pick $_tag...HEAD)
+  local _hash=$(git rev-parse --short HEAD)
+  printf '%s.r%s.g%s' "${_pkgver:?}" "${_revision:?}" "${_hash:?}"
 }
