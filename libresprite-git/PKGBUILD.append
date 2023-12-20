@@ -1,8 +1,8 @@
 
 _pkgname="libresprite"
 pkgname="$_pkgname-git"
-pkgver=1.0.r37.g4dac17fd1
-pkgrel=2
+pkgver=1.0.r171.gd3316387f
+pkgrel=1
 pkgdesc='Animated sprite editor and pixel art tool'
 arch=('x86_64' 'i686')
 url='https://github.com/LibreSprite/LibreSprite'
@@ -18,11 +18,10 @@ depends=(
   'pixman'
   'sdl2'
   'sdl2_image'
-  'tinyxml'
+  'tinyxml2'
   'zlib'
 )
 makedepends=(
-  #'ninja'
   'cmake'
   'git'
   'gtest'
@@ -66,35 +65,35 @@ conflicts=(
 
 pkgver() {
   cd "$_pkgsrc"
-  git describe --long --tags | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
+  git describe --long --tags --exclude='*[a-zA-Z][a-zA-Z]*' \
+    | sed -E 's/^v//;s/([^-]*-g)/r\1/;s/-/./g'
 }
 
 prepare() {
-  (
-    # submodules for LibreSprite
-    cd "$_pkgsrc"
-    local -A _submodules=(
-      ['clip']='src/clip'
-      ['duktape']='third_party/duktape'
-      ['flic']='src/flic'
-      ['observable']='src/observable'
-      ['simpleini']='third_party/simpleini'
-      ['undo']='src/undo'
-    )
-     for key in ${!_submodules[@]} ; do
-      git submodule init "${_submodules[${key}]}"
-      git submodule set-url "${_submodules[${key}]}" "${srcdir}/${key}"
-      git -c protocol.file.allow=always submodule update "${_submodules[${key}]}"
-    done
+  # submodules for LibreSprite
+  cd "$_pkgsrc"
+  local -A _submodules=(
+    ['clip']='src/clip'
+    ['duktape']='third_party/duktape'
+    ['flic']='src/flic'
+    ['observable']='src/observable'
+    ['simpleini']='third_party/simpleini'
+    ['undo']='src/undo'
   )
+  for key in ${!_submodules[@]} ; do
+    git submodule init "${_submodules[${key}]}"
+    git submodule set-url "${_submodules[${key}]}" "${srcdir}/${key}"
+    git -c protocol.file.allow=always submodule update "${_submodules[${key}]}"
+  done
 }
 
 build() {
-  _cmake_options=(
+  local _cmake_options=(
     -B build
     -S "$_pkgsrc"
 
     -DCMAKE_INSTALL_PREFIX="/usr"
+    -Wno-dev
   )
 
   cmake "${_cmake_options[@]}"
