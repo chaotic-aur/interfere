@@ -142,7 +142,6 @@ evdev-right-click-emulation 20190313.350939-1 1
 evopop-gtk-theme-git 2.9.99.r12.g6dce1c5-1 3
 exaile 4.1.3-1 1
 exifcleaner-bin 3.6.0-4 3
-f3-qt-git v2.1.0.r16.g10ab886-1 2
 feem 4.4.2-1 3
 ffsend-bin 0.2.76-1 1
 fiddler 4.6.20171.26113-1 3
@@ -184,7 +183,6 @@ gconf 3.2.6+11+g07808097-10 4
 gdm-plymouth-prime 43.0-1 3
 gdm-tools-git 1:1.2+7+g4294817-1 1
 geany-plugin-preview-git 0.0.4.r0.gd8b9e04-1 1
-gegl-git 0..r10515.401c6d30b-1 2
 gestures 0.3.1-1 3
 gifcurry 6.0.1.0_0-1 4
 gigolo 0.5.2-1 3
