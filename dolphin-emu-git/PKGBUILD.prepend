@@ -1,9 +1,11 @@
 
 read _week _day <<< $(date '+%U %u')
 if [[ $(( (_week + _day) % 2 )) == 1  ]] ; then
-  _avx_build="true"
+  _build_avx="true"
 else
-  _avx_build="false"
+  _build_avx="false"
 fi
 
-_pkgtype="git"
+: ${_debugfast:=false}
+: ${_build_debugfast:=false}
+: ${_build_git:=true}
