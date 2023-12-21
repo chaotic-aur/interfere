@@ -1,4 +1,9 @@
 #!/usr/bin/env sh
+
+# skip failing part of pgo
 sed -i 's&test -s jarlog&&g' PKGBUILD
 sed -i 's&stat -c "Jar log found (%s bytes)" jarlog&&g' PKGBUILD
 sed -i 's&ac_add_options --with-pgo-jarlog=${PWD@Q}/jarlog&&g' PKGBUILD
+
+# cross,full causes out of memory
+sed -E 's&(enable-lto)=.*$&\1=cross&'
