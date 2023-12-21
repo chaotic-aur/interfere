@@ -1,2 +1,2 @@
 
-_pkgtype:=git
+_build_git=true
