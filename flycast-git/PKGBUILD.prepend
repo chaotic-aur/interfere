@@ -6,3 +6,5 @@ if [[ $(( (_week + _day) % 2 )) == 1  ]] ; then
 else
   : ${_build_avx:=false}
 fi
+
+: ${_build_git:=true}
