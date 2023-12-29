@@ -1,17 +1,15 @@
 
 # options
-if [ x"${_srcinfo::1}" == "xt" ] ; then
+if [ -n "$_srcinfo" ] || [ -n "$_pkgver" ] ; then
   : ${_autoupdate:=false}
-elif [ -z "$_pkgver" ] ; then
-  : ${_autoupdate:=true}
 else
-  : ${_autoupdate:=false}
+  : ${_autoupdate:=true}
 fi
 
 # basic info
 _pkgname="tradingview"
 _snapname="tradingview"
-pkgname="$_pkgname${_pkgtype:+-$_pkgtype}"
+pkgname="$_pkgname${_pkgtype:-}"
 pkgver=2.7.1
 pkgrel=1
 pkgdesc='Charting platform for traders and investors'
@@ -122,7 +120,7 @@ package() {
 _update_version() {
   : ${_pkgver:=${pkgver%%.r*}}
 
-  if [[ x"${_autoupdate::1}" != "xt" ]] ; then
+  if [[ "${_autoupdate::1}" != "t" ]] ; then
     return
   fi
 
@@ -153,7 +151,7 @@ _update_version() {
   _filename="$_pkgname-${_pkgver_new:?}.snap"
 
   # update _pkgver
-  if [ x"$_pkgver" != x"${_pkgver_new:?}" ] ; then
+  if [ "$_pkgver" != "${_pkgver_new:?}" ] ; then
     _pkgver="${_pkgver_new:?}"
   fi
 
