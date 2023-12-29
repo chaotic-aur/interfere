@@ -72,7 +72,7 @@ _main_package() {
     sdl2_ttf
   )
   optdepends=(
-    'chaotic-interfere: Chaotic-AUR Interference tracker'
+    'chaotic-interfere: chaotic-aur interference tracker'
   )
 
   provides=(

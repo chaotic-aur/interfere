@@ -1,5 +1,5 @@
 
-# build -avx-git package every other day
+# build avx package every other day
 read _week _day <<< $(date '+%U %u')
 if [[ $(( (_week + _day) % 2 )) == 1  ]] ; then
   : ${_build_avx:=true}
