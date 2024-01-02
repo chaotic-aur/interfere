@@ -103,7 +103,6 @@ build() {
 
   printf "\nStep 2/4. Running benchmark for pgo-build ...\n"
   ./stockfish bench > PGOBENCH.out
-  tail PGOBENCH.out
 
   printf "\nStep 3/4. Building optimized executable ...\n"
 
