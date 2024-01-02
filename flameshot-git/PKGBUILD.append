@@ -1,33 +1,47 @@
 
+# options
+: ${_build_git:=true}
+
+[[ "${_build_git::1}" == "t" ]] && _pkgtype+="-git"
+
+# basic info
 _pkgname=flameshot
-pkgname="$_pkgname-git"
+pkgname="$_pkgname${_pkgtype:-}"
 pkgver=12.1.0.r119.gfa29bcb
 pkgrel=1
 pkgdesc="Powerful yet simple to use screenshot software"
 url="https://github.com/flameshot-org/flameshot"
-license=('GPL')
+license=('GPL-3.0-or-later')
 arch=('x86_64')
 
-depends=(
-  'qt5-svg'
-  'hicolor-icon-theme'
-  'kguiaddons5'
-)
-makedepends=(
-  'make'
-  'qt5-tools'
-  'cmake'
-)
-optdepends=(
-  'chaotic-interfere: chaotic-aur interference tracker'
-  'gnome-shell-extension-appindicator: for system tray icon if you are using Gnome'
-  'grim: for wlroots wayland support'
-  'xdg-desktop-portal: for wayland support, you will need the implementation for your wayland desktop environment'
-)
+# main package
+_main_package() {
+  depends=(
+    'qt5-svg'
+    'hicolor-icon-theme'
+    'kguiaddons5'
+  )
+  makedepends=(
+    'make'
+    'qt5-tools'
+    'cmake'
+  )
+  optdepends=(
+    'chaotic-interfere: chaotic-aur interference tracker'
+    'gnome-shell-extension-appindicator: system tray icon on GNOME'
+    'grim: wlroots wayland support'
+    'xdg-desktop-portal: wayland support'
+  )
 
+  if [ "${_build_git::1}" != "t" ] ; then
+    _main_stable
+  else
+    _main_git
+  fi
+}
 
-if [ x"$pkgname" == x"$_pkgname" ] ; then
-  # normal package
+# stable package
+_main_stable() {
   _pkgsrc="$_pkgname-${pkgver%%.r*}"
   _pkgext="tar.gz"
 
@@ -39,8 +53,10 @@ if [ x"$pkgname" == x"$_pkgname" ] ; then
   pkgver() {
     echo "${pkgver%%.r*}"
   }
-else
-  # git package
+}
+
+# git package
+_main_git() {
   makedepends+=('git')
 
   provides=("$_pkgname=${pkgver%%.r*}")
@@ -52,14 +68,15 @@ else
 
   pkgver() {
     cd "$_pkgsrc"
-    _tag=$(git tag | grep -Ev '[a-z]{2}' | sort -V | tail -1)
-    _revision=$(git rev-list --count $_tag..HEAD)
+    _tag=$(git tag | grep -Ev '[a-z]{2}' | sort -rV | head -1)
+    _revision=$(git rev-list --count --cherry-pick $_tag...HEAD)
     _commit=$(git rev-parse --short=7 HEAD)
 
     printf '%s.r%s.g%s' "${_tag#v}" "$_revision" "$_commit"
   }
-fi
+}
 
+# common functions
 build() {
   local _cmake_options=(
     -B build
@@ -76,8 +93,8 @@ build() {
 }
 
 package() {
-  DESTDIR="${pkgdir:?}" cmake --install build
-
-  # zsh _flameshot completion is provided by zsh-completions so exclude from packaging
-  rm -rf ${pkgdir}/usr/share/zsh/
+  DESTDIR="$pkgdir" cmake --install build
 }
+
+# execute
+_main_package
