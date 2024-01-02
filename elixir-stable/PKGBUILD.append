@@ -66,7 +66,7 @@ _update_version() {
     printf '%s' "$_response" \
       | grep '/releases/tag/' \
       | sed -E 's@^.*/releases/tag/(.*)".*$@\1@' \
-      | grep -Ev '[a-z]{2}' | sort -V | tail -1
+      | grep -Ev '[a-z]{2}' | sort -rV | head -1
   )
   local _pkgver_new="${_tag#v}"
 

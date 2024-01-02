@@ -36,7 +36,7 @@ pkgver() {
     git describe --tags --abbrev=0
   )
   _revision=$(
-    git rev-list --count $_tag..HEAD
+    git rev-list --count --cherry-pick $_tag...HEAD
   )
   _hash=$(
     git rev-parse --short HEAD
