@@ -1,0 +1,4 @@
+
+: ${_autoupdate:=true}
+: ${_build_avx:=false}
+: ${_build_git:=false}
