@@ -28,6 +28,10 @@ license=('GPL-3.0-only')
 
 # main package
 _main_package() {
+  optdepends=(
+    'chaotic-interfere: chaotic-aur interference tracker'
+  )
+
   if [[ "${_build_git::1}" == "t" ]] || [[ "${_build_avx::1}" == "t" ]] ; then
     provides+=(stockfish="${pkgver%%.r*}")
     conflicts+=(stockfish)
