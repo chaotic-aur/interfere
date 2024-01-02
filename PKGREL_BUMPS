@@ -249,7 +249,6 @@ java-resolver 1.2-4 1
 java-skinlf 6.7-5 1
 jdanimatedimageeditor 1.4-1 1
 jdminecraftlauncher 5.2-2 1
-jellyfin-media-player 1.9.1-1 7
 jeuclid-core 3.1.9-1 1
 jgoodies-looks 2.8.0-4 1
 jgraphx-jre8 3.9.10-1 1
@@ -334,7 +333,6 @@ materia-theme-git 20210322.r52.g6e585038-1 3
 material-gtk-theme-git r38.4d828d5d-1 1
 matrix-registration 0.9.1-2 4
 mcmojave-cursors-git r11.7d0bfc1-1 1
-mcpelauncher-ui-git 0.11.0.qt6.r4.g348a805-1 3
 mcstatus 9.4.2-1 4
 mediainfo-gui-qt 23.07-1 1
 mediawriter 5.0.6-1 3
@@ -345,7 +343,6 @@ memavaild 0.6-2 3
 mendeleydesktop 1.19.8-1 4
 menulibre 1:2.2.3-2 1
 meowsql 0.4.18-1 2
-miktex 23.10.12-1 1
 minecraft-launcher 1:1.0.1221-1 4
 mintlocale 1.5.8-1 3
 miredo 1.2.6+r159+ge5f5652-1 1
@@ -357,7 +354,6 @@ moodle-dl-git v2.3.2.0.r1.g2e79839-1 2
 motrix-bin 1.8.19-1 2
 movie-monad 0.0.7.0_0-1 4
 mozc-ut 2.29.5268.102.20231104-1 1
-mpc-qt 23.02-1 3
 ms-office-online 2:2.1.1-1 5
 mugshot 0.4.3-3 3
 multibootusb 9.2.0-5 3
@@ -393,13 +389,11 @@ ntfs3-dkms 1:5.17-1 1
 nvidia-340xx-utils 340.108-1 2
 nvidia-390xx-settings 390.157-1 2
 nvidia-525xx-utils 525.116.04-1 2
-nvidia-container-toolkit 1.13.5-1 1
 nvim-yarp-git r59.bb5f5e0-1 2
 nwg-launchers 0.7.1-1 3
 nwg-menu 0.1.1-1 3
 nwg-wrapper 0.1.3-2 2
 obs-gstreamer 1:0.4.0-1 3
-obs-rtspserver 3.0.0-3 1
 obs-streamfx-unstable 0.12.0b299-3 2
 obsidian-icon-theme-git 4.15.r1.g4cccdd3f-1 1
 ocs-url 3.1.0-7 3
@@ -485,7 +479,6 @@ python-fasm-git 0.0.2.r100.gffafe82-1 3
 python-ffmpeg-python 0.2.0-5 1
 python-gevent-eventemitter 2.1-3 3
 python-googletrans-git r116.d15c94f-1 3
-python-gpiozero 1.6.2-2 3
 python-gps3 0.33.3-3 2
 python-humblewx 0.2.2-1 3
 python-imageio-ffmpeg 0.4.9-1 1
@@ -601,7 +594,6 @@ snapper-tools 1.1.3-1 2
 snkrx-drmfree-git r118.6b93a64-1 3
 soci 4.0.3-1 1
 solvespace 3.1-1 3
-sonarr 3.0.10.1567-1 2
 sonobus 1.6.1-1 1
 soundcloud-dl-git v2.7.3.r0.g4276511-1 2
 soundcloud-nativefier 20230310-1 1
@@ -620,6 +612,7 @@ srb2kart 1.6-1 2
 ssacli 4.21.7.0-1 1
 stacer 1.1.0-1 4
 steamtinkerlaunch 12.12-1 2
+stockfish 16-1 1
 strawberry-qt5 1.0.22-1 1
 stylepak-git 18.0c4b0c1-1 2
 subliminal-git 2.1.0.r22.g160ea63-6 5
@@ -667,7 +660,6 @@ twinkle-git 1.10.3.r480.355813d-1 2
 ubertooth 2020.12.R1-2 3
 ucommon 7.0.1-1 3
 uefitool-git r230.8d6fa65-1 2
-unflac 1.1-1 1
 uresourced 0.5.3-1 1
 usbaudio-git r4.6f46c43-1 4
 uuid 1.6.2-20 1
@@ -717,7 +709,6 @@ xboxdrv 0.8.8-7 3
 xerces2-java 2.12.2-1 1
 xfce-theme-manager 3.8-2 3
 xfce4-appfinder-devel 4.19.1-1 1
-xfce4-docklike-plugin 0.4.1-1 3
 xfce4-panel-profiles 1.0.14-2 2
 xfce4-windowck-plugin-xfwm4-theme-support 1:0.4.5+139+g23d3432-1 2
 xfdashboard 1.0.0-1 3
