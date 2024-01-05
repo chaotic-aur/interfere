@@ -18,7 +18,7 @@
 
 ## basic info
 _pkgname="obs-studio"
-pkgname="$_pkgname${_pkgtype:-}"
+pkgname="$_pkgname${_pkgtype:-stable}"
 pkgver=30.0.2
 pkgrel=1
 pkgdesc="Free, open source software for live streaming and recording - Browser enabled"
