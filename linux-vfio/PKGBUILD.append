@@ -1,2 +1,2 @@
 
-MAKEFLAGS="${MAKEFLAGS:-} -j $(nproc)"
+export MAKEFLAGS="${MAKEFLAGS:-} -j $(nproc)"
