@@ -1,4 +1,7 @@
 #!/usr/bin/env sh
 
+# fix symbols archive
+sed -E 's&(crashreporter-symbols)-full\.tar\.zst&\1.zip&' PKGBUILD
+
 # fix mimetype
-sed -E 's&application/zstd&application/x-zstd&' -i upload-symbol-archive
+sed -E 's&application/zstd&application/zip&' -i upload-symbol-archive
