@@ -1,0 +1,12 @@
+
+export MAKEFLAGS="${MAKEFLAGS:-} -j $(nproc)"
+
+_microarchitecture=93
+_config=config_x86-64-v3
+
+use_numa=n
+use_tracers=n
+_compress_modules=y
+
+_localmodcfg=n
+_makenconfig=n
