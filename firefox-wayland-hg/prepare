@@ -1,7 +1,15 @@
 #!/usr/bin/env sh
 
-# fix symbols archive
+# remove old symbols archive
+pwd
+ls *.{zip,zst} pkgwork/*.{zip,zst} 
+rm -rf *crashreporter-symbols* pkgwork/*crashreporter-symbols*
+
+# fix reference to symbols archive
 sed -E 's&(crashreporter-symbols)-full\.tar\.zst&\1.zip&' -i PKGBUILD
 
-# fix mimetype
-sed -E 's&application/zstd&application/zip&' -i upload-symbol-archive
+# fix upload script
+sed -E \
+  -e 's&application/zstd&application/zip&' \
+  -e '/^\s*mv.*archive.*$/d' \
+  -i upload-symbol-archive
