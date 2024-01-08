@@ -6,7 +6,8 @@ _config=config_x86-64-v1
 
 use_numa=n
 use_tracers=n
-_compress_modules=y
+_compiler=clang
 
+_compress_modules=y
 _localmodcfg=n
 _makenconfig=n
