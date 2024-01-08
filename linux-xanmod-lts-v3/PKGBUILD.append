@@ -2,9 +2,8 @@
 _suffix="-v3"
 pkgname=("${pkgbase}${_suffix}" "${pkgbase}-headers${_suffix}")
 for _p in "${pkgname[@]}"; do
-  local _q="${_p%$suffix}"
-  eval "package_$_p() {
-    $(declare -f "_package${_q#$pkgbase}")
-    _package${_q#$pkgbase}
+  _p=${_p%$_suffix}
+  eval "package_$_p$_suffix() {
+    _package${_p#$pkgbase}
   }"
 done
