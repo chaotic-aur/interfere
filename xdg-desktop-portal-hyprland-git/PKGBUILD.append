@@ -1,13 +1,15 @@
 
+unset epoch
+unset options
+
 license=(MIT)
 
 provides=(
-  "${pkgname%-git}=${pkgver%%.r*}"
+  "xdg-desktop-portal-hyprland=${pkgver%%.r*}"
   "xdg-desktop-portal-impl"
 )
-conflicts=("${pkgname%-git}")
+conflicts=("xdg-desktop-portal-hyprland")
 
-unset epoch
 pkgver() {
   cd "xdg-desktop-portal-hyprland"
   git describe --long --tags | sed -E 's/^v//;s/([^-]*-g)/r\1/;s/-/./g'
