@@ -1,5 +1,5 @@
 
-_suffix="-v3"
+_suffix="-v2"
 pkgname=("${pkgbase}${_suffix}" "${pkgbase}-headers${_suffix}")
 for _p in "${pkgname[@]}"; do
   _p=${_p%$_suffix}
