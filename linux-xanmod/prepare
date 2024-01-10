@@ -15,3 +15,7 @@ curl -o config.arch "https://gitlab.archlinux.org/archlinux/packaging/packages/l
 
 sed -E -i PKGBUILD \
   -e 's&^(\s*)cp .*xanmod.*\.config$&\1cp -vf "$srcdir/config.arch" .config&'
+
+# disable microarchitecture script
+sed -E -i PKGBUILD \
+  -e 's&^(\s*)(\.\./choose-gcc-optimization\.sh.*)$&\1# \2&'

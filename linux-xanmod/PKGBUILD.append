@@ -3,13 +3,23 @@ source+=('config.arch')
 sha256sums+=('SKIP')
 
 _suffix="${_config#config_x86-64}"
+_level="${_suffix#-v}"
 _suffix="${_suffix#-v1}"
 
-pkgname=("${pkgbase}${_suffix}" "${pkgbase}-headers${_suffix}")
+pkgname=("${pkgbase}${_suffix:-}" "${pkgbase}-headers${_suffix:-}")
 for _p in "${pkgname[@]}"; do
   _p=${_p%$_suffix}
-  eval "package_$_p$_suffix() {
+  eval "package_$_p${_suffix:-}() {
     $(declare -f "_package${_p#$pkgbase}")
     _package${_p#$pkgbase}
   }"
 done
+
+# fixup config
+sed -E -i config.arch \
+  -e '/^CONFIG_GENERIC_CPU[0-9]*=.*$/d' \
+  -e '/^CONFIG_LOCALVERSION=.*$/d'
+
+# specify microarchitecture
+echo 'CONFIG_LOCALVERSION="-x64v${_level}"' >> config.arch
+echo "CONFIG_GENERIC_CPU${_suffix#-v}=y" >> config.arch
