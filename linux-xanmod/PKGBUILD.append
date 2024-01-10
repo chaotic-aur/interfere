@@ -13,17 +13,3 @@ for _p in "${pkgname[@]}"; do
     _package${_p#$pkgbase}
   }"
 done
-
-# fixup kernel config
-eval _orig_"$(declare -f build)"
-
-build() {
-  sed -E -i "linux-${_major}/.config" \
-    -e 's&^(CONFIG_LOCALVERSION)=.*$&\1=-x64'"${_suffix#-}"'&' \
-    -e 's&^(CONFIG_GENERIC_CPU)=(.*)$&\1'"${_suffix#-v}"'=\2&'
-
-  _orig_build
-}
-
-
-
