@@ -1,9 +1,1 @@
-
-_suffix="-v2"
-pkgname=("${pkgbase}${_suffix}" "${pkgbase}-headers${_suffix}")
-for _p in "${pkgname[@]}"; do
-  _p=${_p%$_suffix}
-  eval "package_$_p$_suffix() {
-    _package${_p#$pkgbase}
-  }"
-done
+../linux-xanmod/PKGBUILD.append

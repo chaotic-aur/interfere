@@ -1,0 +1,29 @@
+
+source+=('config.arch')
+sha256sums+=('SKIP')
+
+_suffix="${_config#config_x86-64}"
+_suffix="${_suffix#-v1}"
+
+pkgname=("${pkgbase}${_suffix}" "${pkgbase}-headers${_suffix}")
+for _p in "${pkgname[@]}"; do
+  _p=${_p%$_suffix}
+  eval "package_$_p$_suffix() {
+    $(declare -f "_package${_p#$pkgbase}")
+    _package${_p#$pkgbase}
+  }"
+done
+
+# fixup kernel config
+eval _orig_"$(declare -f build)"
+
+build() {
+  sed -E -i "linux-${_major}/.config" \
+    -e 's&^(CONFIG_LOCALVERSION)=.*$&\1=-x64'"${_suffix#-}&" \
+    -e 's&^(CONFIG_GENERIC_CPU)=(.*)$&\1'"${_suffix#-v}"'=\2&'
+
+  _orig_build
+}
+
+
+

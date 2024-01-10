@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+
+# mangle replaces directive
+sed -E 's&^(\s*)(replaces\+?=)&\1 _ignore_\2&g' -i PKGBUILD
+
+# add conflicts
+sed -E \
+  -e 's&^(_package\(\) \{)$&\1\n  conflicts=(linux-xanmod-lts)&' \
+  -e 's&^(_package-headers\(\) \{)$&\1\n  conflicts=(linux-xanmod-lts-headers)&' \
+  -i PKGBUILD
+
+# use Arch kernel config as base
+rm -f config.arch
+curl -o config.arch "https://gitlab.archlinux.org/archlinux/packaging/packages/linux/-/raw/main/config"
+
+sed -E -i PKGBUILD \
+  -e 's&^(\s*)cp .*xanmod.*\.config$&\1cp -vf "$srcdir/config.arch" .config&'
