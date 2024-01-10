@@ -1,6 +1,7 @@
 
 export MAKEFLAGS="${MAKEFLAGS:-} -j $(nproc)"
 
+# package options
 _microarchitecture=93
 _config=config_x86-64-v3
 
@@ -11,3 +12,7 @@ _compiler=clang
 _compress_modules=y
 _localmodcfg=n
 _makenconfig=n
+
+# pkgbase extension
+_pkgtype=${_config#_config=config_x86-64}
+_pkgtype=${_pkgtype#-v1}

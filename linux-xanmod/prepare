@@ -4,7 +4,7 @@
 sed -E 's&^(\s*)(replaces\+?=)&\1 _ignore_\2&g' -i PKGBUILD
 
 # add conflicts
-sed -E \
+sed -E -i PKGBUILD \
   -e 's&^(_package\(\) \{)$&\1\n  conflicts=(linux-xanmod-lts)&' \
   -e 's&^(_package-headers\(\) \{)$&\1\n  conflicts=(linux-xanmod-lts-headers)&' \
-  -i PKGBUILD
+  -e 's&^(pkgbase=\S+)$&\1${_pkgtype:-}&'
