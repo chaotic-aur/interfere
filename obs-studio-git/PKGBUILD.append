@@ -20,7 +20,7 @@
 _pkgname="obs-studio"
 pkgname="$_pkgname${_pkgtype:--stable}"
 pkgver=30.0.2
-pkgrel=1
+pkgrel=2
 pkgdesc="Free, open source software for live streaming and recording - Browser enabled"
 url="https://github.com/obsproject/obs-studio"
 license=("GPL-2.0-or-later")
@@ -31,21 +31,22 @@ _main_package() {
   depends=(
     curl
     ffmpeg
-    gtk-update-icon-cache
     jack
     jansson
     libxcomposite
-    libxinerama
-    libxkbcommon-x11
     mbedtls
     pciutils
-    pipewire
     qt6-svg
     rnnoise
 
     librist
-    onevpl
+    libvpl
     speexdsp
+
+    ## namcap: not needed?
+    #libxinerama
+    #libxkbcommon-x11
+    #pipewire
 
     # AUR
     qrcodegencpp-cmake
@@ -62,7 +63,6 @@ _main_package() {
     asio
     git
     nlohmann-json
-    pipewire
     qt6-wayland
     vlc
     wayland
@@ -81,9 +81,6 @@ _main_package() {
     'v4l2loopback-dkms: virtual camera support'
 
     'vlc: VLC Media Source'
-    'pipewire: Pipewire capture'
-    'pipewire-media-session: Pipewire capture'
-    'xdg-desktop-portal: Pipewire capture'
   )
 
   options=(!debug)
@@ -174,9 +171,15 @@ _source_mixer_ftl_sdk() {
 
 # cef
 _source_cef() {
+  depends+=(
+    at-spi2-core
+    libxrandr
+    nspr
+    nss
+  )
+
   makedepends+=(
     alsa-lib
-    at-spi2-core
     dbus
     expat
     gcc-libs
@@ -191,10 +194,7 @@ _source_cef() {
     libxext
     libxfixes
     libxkbcommon
-    libxrandr
     mesa
-    nspr
-    nss
     wayland
   )
 
@@ -246,7 +246,7 @@ _main_stable() {
     }
 
     cd "$_pkgsrc"
-    apply-patch "${srcdir:?}/fix_ffmpeg.patch"
+    apply-patch "$srcdir/fix_ffmpeg.patch"
   }
 
   pkgver() {
@@ -322,7 +322,7 @@ _build_obs_studio() {
 build() {
   if [ "${_build_cef::1}" == "t" ] ; then
     _build_cef
-    _cef_src="${srcdir:?}/$_cef_src"
+    _cef_src="$srcdir/$_cef_src"
   else
     _cef_src="/opt/cef-obs"
   fi
@@ -331,7 +331,10 @@ build() {
 }
 
 package() {
-  DESTDIR="${pkgdir:?}" cmake --install build
+  DESTDIR="$pkgdir" cmake --install build
+
+  # fix permissions
+  chmod -R u=rwX,go=rX "$pkgdir"
 }
 
 # update version
