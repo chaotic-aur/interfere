@@ -18,4 +18,4 @@ sed -E -i PKGBUILD \
 
 # disable microarchitecture script
 sed -E -i PKGBUILD \
-  -e 's&^(\s*)(\.\./choose-gcc-optimization\.sh.*)$&\1# \2&'
+  -e 's&^(\s*)(\.\./choose-gcc-optimization\.sh.*)$&\1: # \2&'
