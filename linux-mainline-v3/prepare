@@ -7,4 +7,4 @@ sed -E -i PKGBUILD \
 
 # rename pkgbase
 sed -E -i PKGBUILD \
-  -e 's&^(pkgbase=.*)$&\1-v3&'
+  -e 's&^(pkgbase=.*)$&\1-mainline-v3&'
