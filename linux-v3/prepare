@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+# don't make -docs
+sed -E -i PKGBUILD \
+  -e '/^\s*.*make htmldocs$/d' \
+  -e '/^\s*"$pkgbase-docs"$/d'
+
+# rename pkgbase
+sed -E -i PKGBUILD \
+  -e 's&^(pkgbase=.*)$&\1-v3&'
