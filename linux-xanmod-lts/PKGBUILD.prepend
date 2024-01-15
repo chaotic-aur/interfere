@@ -7,7 +7,7 @@ _config=config_x86-64-v1
 
 use_numa=n
 use_tracers=n
-_compiler=clang
+#_compiler=clang
 
 _compress_modules=y
 _localmodcfg=n
@@ -15,4 +15,4 @@ _makenconfig=n
 
 # pkgbase extension
 _pkgtype=${_config#config_x86-64}
-_pkgtype=${_pkgtype#-v1}
+__pkgtype=${_compiler:+-$_compiler}${_pkgtype#-v1}
