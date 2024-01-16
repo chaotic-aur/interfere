@@ -4,12 +4,3 @@
 pwd
 ls *.{zip,zst} pkgwork/*.{zip,zst} 
 rm -rf *crashreporter-symbols* pkgwork/*crashreporter-symbols*
-
-# fix reference to symbols archive
-sed -E 's&(crashreporter-symbols)-full\.tar\.zst&\1.zip&' -i PKGBUILD
-
-# fix upload script
-sed -E \
-  -e 's&application/zstd&application/zip&' \
-  -e '/^\s*mv.*archive.*$/d' \
-  -i upload-symbol-archive
