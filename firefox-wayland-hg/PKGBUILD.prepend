@@ -19,3 +19,5 @@ _set_pgo_reuse() {
 }
 
 _set_pgo_reuse
+
+: ${_build_symbols:=true}
