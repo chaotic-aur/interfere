@@ -253,17 +253,17 @@ build() {
     if [[ "${_build_pgo_reuse::1}" == "t" ]] ; then
       if [[ -s "$_old_profdata" ]] ; then
         echo "Restoring old profile data."
-        cp --reflink=auto -f "$_old_profdata" "$_pkgname-merged.profdata"
+        cp --reflink=auto -f "$_old_profdata" merged.profdata
       fi
 
       if [[ -s "$_old_jarlog" ]] ; then
         echo "Restoring old jar log."
-        cp --reflink=auto -f "$_old_jarlog" "$_pkgname-jarlog"
+        cp --reflink=auto -f "$_old_jarlog" jarlog
       fi
     fi
 
     # Make new profile
-    if [[ "${_build_pgo_reuse::1}" != "t" ]] || [[ ! -s "$_pkgname-merged.profdata" ]] ; then
+    if [[ "${_build_pgo_reuse::1}" != "t" ]] || [[ ! -s merged.profdata ]] ; then
       echo "Building instrumented browser..."
       cat >.mozconfig ../mozconfig
       echo >>.mozconfig "ac_add_options --enable-profile-generate=cross"
@@ -272,7 +272,7 @@ build() {
       echo "Profiling instrumented browser..."
       ./mach package
 
-      LLVM_PROFDATA=llvm-profdata JARLOG_FILE="$PWD/$_pkgname-jarlog" \
+      LLVM_PROFDATA=llvm-profdata JARLOG_FILE="$PWD/jarlog" \
         wlheadless-run -c weston --width=1920 --height=1080 \
         -- ./mach python build/pgo/profileserver.py
 
@@ -283,23 +283,23 @@ build() {
     echo "Building optimized browser..."
     cat >.mozconfig ../mozconfig
 
-    if [[ -s "$_pkgname-merged.profdata" ]] ; then
-      stat -c "Profile data found (%s bytes)" "$_pkgname-merged.profdata"
+    if [[ -s merged.profdata ]] ; then
+      stat -c "Profile data found (%s bytes)" merged.profdata
       echo >>.mozconfig "ac_add_options --enable-profile-use=cross"
-      echo >>.mozconfig "ac_add_options --with-pgo-profile-path='${PWD@Q}/$_pkgname-merged.profdata'"
+      echo >>.mozconfig "ac_add_options --with-pgo-profile-path='${PWD@Q}/merged.profdata'"
 
       # save profdata for reuse
-      cp --reflink=auto -f "$_pkgname-merged.profdata" "$_old_profdata"
+      cp --reflink=auto -f merged.profdata "$_old_profdata"
     else
       echo "Profile data not found."
     fi
 
     if [[ -s jarlog ]] ; then
-      stat -c "Jar log found (%s bytes)" "$_pkgname-jarlog"
-      echo >>.mozconfig "ac_add_options --with-pgo-jarlog='${PWD@Q}/$_pkgname-jarlog'"
+      stat -c "Jar log found (%s bytes)" jarlog
+      echo >>.mozconfig "ac_add_options --with-pgo-jarlog='${PWD@Q}/jarlog'"
 
       # save jarlog for reuse
-      cp --reflink=auto -f "$_pkgname-jarlog" "$_old_jarlog"
+      cp --reflink=auto -f jarlog "$_old_jarlog"
     else
       echo "Jar log not found."
     fi
