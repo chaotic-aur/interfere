@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+# remove existing pkgver, pkgrel
+sed -E -i PKGBUILD \
+  -e '/^pkgver=.*$/d' \
+  -e '/^pkgrel=.*$/d'
