@@ -42,6 +42,8 @@ conflicts=(
   "xdg-desktop-portal-wlr"
 )
 
+backup=('etc/xdg/xdg-desktop-portal/hyprland-portals.conf')
+
 _pkgsrc="$_pkgname"
 source=(
   "$_pkgsrc"::"git+$url.git"
@@ -96,4 +98,10 @@ build() {
 package() {
   DESTDIR="$pkgdir" cmake --install build
   install -Dm644 "$_pkgsrc/LICENSE" -t "$pkgdir/usr/share/licenses/$pkgname/"
+
+  install -dm755 "$pkgdir/etc/xdg/xdg-desktop-portal"
+  cat > "$pkgdir/etc/xdg/xdg-desktop-portal/hyprland-portals.conf" <<'END'
+[preferred]
+default=gtk;hyprland
+END
 }
