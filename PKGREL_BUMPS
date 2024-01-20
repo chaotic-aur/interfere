@@ -105,7 +105,6 @@ csound-blue 2.8.1-1 5
 curlew 0.2.5-2 1
 dashbinsh 0.1-5 1
 davs2 1.7-1 1
-ddcui-git 0.4.2.r0.g03a902f-1 1
 debtap 3.5.1-1 1
 decklink-sdk 1:12.7-1 1
 dee 1.2.7-14 4
@@ -251,7 +250,6 @@ jogl 2.3.2-2 3
 jrosetta 1.0.4-5 1
 kazam 1.4.5-9 5
 kcm-colorful-git 1.0.5.r0.g411e8c9-1 4
-kcm-polkit-kde-git 1:5.9.0.r229.g294c719-1 2
 kde-service-menu-reimage 2.5-1 4
 kde-servicemenus-komparemenu 0.1-3 4
 kde-servicemenus-officeconverter 1-1 4
@@ -554,7 +552,6 @@ scid 5.0.2-1 2
 sddm-theme-astronaut 1.0-1 3
 seafile-client 9.0.4-1 2
 searx 1.1.0-2 1
-servo-git r46236.e153bcb40b9-1 1
 shadowsocks-gtk-rs 0.4.1-1 3
 shortwave 1:3.2.0-1 3
 silo-netflix 0.6-1 4
