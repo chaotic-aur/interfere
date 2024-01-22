@@ -103,8 +103,8 @@ prepare() {
   unsquashfs -q -n -f -d "$_pkgname-$_pkgver/" "$_filename"
 
   mv "$_pkgname-$_pkgver/meta/gui/$_snapname.desktop" "$srcdir/$_pkgname.desktop"
-  sed -i -e 's@${SNAP}/meta/gui/icon.png@'"${_pkgname}"'@g' \
-    "$srcdir/$_pkgname.desktop"
+  sed -e 's@${SNAP}/meta/gui/icon.png@'"${_pkgname}"'@g' \
+    -i "$srcdir/$_pkgname.desktop"
 
   mv "$_pkgname-$_pkgver/meta/gui/icon.png" "$srcdir"
   rm -r "$_pkgname-$_pkgver/"{data-dir/,gnome-platform/,lib/,meta/,scripts/,usr/,*.sh}

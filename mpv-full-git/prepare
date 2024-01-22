@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
-sed -i'' "s/'vapoursynth'/'vapoursynth-git'/g" PKGBUILD
+sed -e "s/'vapoursynth'/'vapoursynth-git'/g" -i PKGBUILD
 

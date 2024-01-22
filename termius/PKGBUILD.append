@@ -71,10 +71,10 @@ prepare() {
 
   # .desktop file
   mv "$_pkgname-$_pkgver/meta/gui/$_snapname.desktop" "$srcdir/$_pkgname.desktop"
-  sed -i \
+  sed \
     -e 's@'"$_snapname"'@'"${_pkgname}"'@g' \
     -e 's@${SNAP}/meta/gui/icon.png@'"${_pkgname}"'@g' \
-    "$srcdir/$_pkgname.desktop"
+    -i "$srcdir/$_pkgname.desktop"
 
   # icon
   mv "$_pkgname-$_pkgver/meta/gui/icon.png" "$srcdir"

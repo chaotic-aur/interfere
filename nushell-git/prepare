@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-sed -i 's/cargo test/echo Disabling for git package: cargo test/g' PKGBUILD
+sed -e 's/cargo test/echo Disabling for git package: cargo test/g' -i PKGBUILD

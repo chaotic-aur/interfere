@@ -7,6 +7,6 @@ pkgver() {
 }
 
 prepare() {
-  sed -Ei -e "s@^\s+'--urgency', 'critical',.*\$@@" \
-    "$srcdir/$pkgname/src/bubblejail/bubblejail_cli.py"
+  sed -E -e "s@^\s+'--urgency', 'critical',.*\$@@" \
+    -i "$srcdir/$pkgname/src/bubblejail/bubblejail_cli.py"
 }

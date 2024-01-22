@@ -58,12 +58,12 @@ package() {
   install -Dm644 -t "$pkgdir/usr/share/licenses/$pkgname" "$pkgdir/usr/share/motivewave/license.html"
 
   # update .desktop
-  sed -Ei 's@^(Version|Comment)=.*$@@' \
-    "$pkgdir/usr/share/applications/motivewave.desktop"
+  sed -E -e 's@^(Version|Comment)=.*$@@' \
+    -i "$pkgdir/usr/share/applications/motivewave.desktop"
   printf '%s\n' 'Categories=Office;Finance;' \
     >> "$pkgdir/usr/share/applications/motivewave.desktop"
-  sed -Ei -e '1h;2,$H;$!d;g' -e "s@\n\n@\n@g" \
-    "$pkgdir/usr/share/applications/motivewave.desktop"
+  sed -E -e '1h;2,$H;$!d;g' -e "s@\n\n@\n@g" \
+    -i "$pkgdir/usr/share/applications/motivewave.desktop"
 }
 
 
@@ -93,7 +93,7 @@ case "${_autoupdate::1}" in
     # update _pkgver
     if [ "$_pkgver" != "${_pkgver_new:?}" ] ; then
       _pkgver="${_pkgver_new:?}"
-      sed -Ei 's@^(\s*: \$\{_pkgver):=.*\}$@\1:='"${_pkgver:?}"'}@' "$startdir/PKGBUILD"
+      sed -E -e 's@^(\s*: \$\{_pkgver):=.*\}$@\1:='"${_pkgver:?}"'}@' -i "$startdir/PKGBUILD"
     fi
     ;;
   *)
