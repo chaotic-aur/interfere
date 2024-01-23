@@ -15,4 +15,4 @@ _makenconfig=n
 
 # pkgbase extension
 _pkgtype=${_config#config_x86-64}
-__pkgtype=${_compiler:+-$_compiler}${_pkgtype#-v1}
+_pkgtype=${_compiler:+-$_compiler}${_pkgtype#-v1}
