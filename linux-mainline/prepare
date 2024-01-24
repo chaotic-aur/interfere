@@ -8,8 +8,3 @@ sed -E \
   -e 's&^(\s*)(.*make htmldocs)$&\1 : # \2&' \
   -e '/^\s*"\$.*-docs.*"$/d' \
   -i PKGBUILD
-
-# rename pkgbase
-sed -E \
-  -e 's&^(pkgbase=\S+)(.*)$&\1-v3&' \
-  -i PKGBUILD

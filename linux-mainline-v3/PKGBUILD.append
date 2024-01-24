@@ -6,11 +6,12 @@ _prep_v3() {
   export CXXFLAGS="$(echo "$CXXFLAGS" | sed -E 's@(\s*-(march|mtune)=\S+\s*)@ @g;s@\s*-O[0-9]\s*@ @g;s@\s+@ @g') -march=x86-64-v3 -mtune=generic -O3"
 }
 
+eval _orig_"$(declare -f prepare)"
+
 build() {
   _prep_v3
 
-  cd $_srcname
-  make all
+  _orig_build
 }
 
 eval _orig_"$(declare -f prepare)"
