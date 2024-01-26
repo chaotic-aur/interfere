@@ -5,7 +5,7 @@ export MAKEFLAGS="${MAKEFLAGS:-} -j $(nproc)"
 _microarchitecture=92
 _config=config_x86-64-v2
 
-use_numa=n
+use_numa=y
 use_tracers=n
 _compiler=clang
 
