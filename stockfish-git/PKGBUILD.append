@@ -19,8 +19,8 @@ fi
 ## basic info
 _pkgname=stockfish
 pkgname="$_pkgname${_pkgtype:-}"
-pkgver=16.r203.g0fca5605
-pkgrel=2
+pkgver=16.r248.gfcbb02ff
+pkgrel=1
 pkgdesc="A strong UCI chess engine"
 url="https://github.com/official-stockfish/Stockfish"
 arch=('x86_64' 'i686' 'armv7h' 'aarch64')
@@ -30,6 +30,7 @@ license=('GPL-3.0-only')
 _main_package() {
   optdepends=(
     'chaotic-interfere: chaotic-aur interference tracker'
+    'polyglot-winboard: xboard support'
   )
 
   if [[ "${_build_git::1}" == "t" ]] || [[ "${_build_avx::1}" == "t" ]] ; then
