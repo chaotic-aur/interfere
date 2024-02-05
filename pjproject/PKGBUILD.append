@@ -1,0 +1,1 @@
+if [[ "$pkgver" = "2.14" ]]; then sha256sums[0]='5805c1171acab4af9684d7ad096dcb92f71fc42809852144e97e1413468c9981'; fi
