@@ -2,4 +2,4 @@
 
 # remove buggy portaudio backend
 sed -e 's&portaudio&&g' -i PKGBUILD
-sed -e 's&-DNDEBUG&-DNDEBUG -DPJMEDIA_AUDIO_DEV_HAS_PORTAUDIO=0&&' PKGBUILD
+sed -e 's&-DNDEBUG&-DNDEBUG -DPJMEDIA_AUDIO_DEV_HAS_PORTAUDIO=0&' -i PKGBUILD
