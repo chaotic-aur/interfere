@@ -1,5 +1,9 @@
 
-# options
+## useful links
+# https://elixir-lang.org
+# https://github.com/elixir-lang/elixir
+
+## options
 if [ -n "$_srcinfo" ] || [ -n "$_pkgver" ] ; then
   : ${_autoupdate:=false}
 else
@@ -8,38 +12,35 @@ fi
 
 : ${_pkgtype:=stable}
 
-# basic info
+## basic info
 _pkgname="elixir"
 pkgname="$_pkgname${_pkgtype:+-$_pkgtype}"
-pkgver=1.15.7
-pkgrel=1
+pkgver=1.16.1
+pkgrel=2
 pkgdesc="a functional meta-programming aware language built on top of the Erlang VM"
-#url="https://elixir-lang.org"
 url="https://github.com/elixir-lang/elixir"
-license=('Apache' 'custom:EPL')
+license=('Apache-2.0')
 arch=('any')
 
 # main package
 _main_package() {
-  _update_version
-
   depends=('erlang-nox')
   checkdepends=('git')
   optdepends=(
     'chaotic-interfere: chaotic-aur interference tracker'
   )
 
-  conflicts=("$_pkgname=${pkgver:?}")
-  provides=("$_pkgname")
+  provides=("$_pkgname=$_pkgver")
+  conflicts=("$_pkgname")
 
-  _pkgsrc="$_pkgname-${_pkgver:?}"
+  _pkgsrc="$_pkgname-$_pkgver"
   source=("$_pkgsrc.tar.gz::https://github.com/elixir-lang/elixir/archive/v$_pkgver.tar.gz")
   sha256sums=('SKIP')
 }
 
 # common functions
 pkgver() {
-  printf '%s' "${_pkgver//-rc./rc}"
+  echo "${_pkgver:?}"
 }
 
 build() {
@@ -82,4 +83,5 @@ _update_version() {
 }
 
 # execute
+_update_version
 _main_package
