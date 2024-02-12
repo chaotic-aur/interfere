@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+# Enable PGO
+ sed -E \
+  -e 's&^(_system_clang)=1$&\1=0&' \
+  -e 's&^(.*Configuring Chromium.*)$&  _flags=(${_flags[@]/chrome_pgo_phase=0} "chrome_pgo_phase=2")\n\1&' \
+  -i PKGBUILD
