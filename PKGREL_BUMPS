@@ -174,7 +174,7 @@ gigolo 0.5.2-1 3
 gimp-elsamuko-git r90.ac9a756-1 1
 gimp-extras 2.0.4-1 3
 gimp-plugin-normalmap 1.2.3-2 4
-gittyup 1.3.0-1 2
+gittyup 1.3.0-1 3
 gksu 2.0.2-6 2
 glaxnimate 0.5.4-2 1
 glaxnimate-git 0.5.4.r49.g22bbaa6b-1 1
@@ -188,7 +188,6 @@ gnome-shell-extension-x11gestures 17-1 1
 goocanvas2 2.0.4-9 3
 googlemaps 20220503-1 2
 gpredict 2.2.1-2 3
-gpt4all-chat-git r1640.f2024a1f-1 1
 gr-foo-git r173.7c154d9-1 2
 gr-limesdr-git 3.0.1.r69.gd0fac85-2 1
 gradience 0.4.1_patch1-1 4
