@@ -1,9 +1,0 @@
-
-provides=("ryujinx")
-conflicts=("ryujinx")
-
-pkgver() {
-  cd "Ryujinx"
-  git describe --long --tags --exclude='*[a-zA-Z][a-zA-Z]*' 2>/dev/null \
-    | sed -E 's/^v//;s/([^-]*-g)/r\1/;s/-/./g'
-}
