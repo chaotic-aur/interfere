@@ -215,7 +215,6 @@ insync-dolphin 3.7.9.50368-1 4
 insync-nautilus 3.8.2.50468-1 2
 insync-nemo 3.7.9.50368-1 3
 insync-thunar 3.7.9.50368-1 2
-intel-hybrid-codec-driver-git 1:2.0.0.r170.20220515.cfb3b71-3 2
 ircd-hybrid 8.2.39-1 3
 iriunwebcam-bin 2.8.1-1 1
 isomaster 1.3.16-1 2
@@ -281,8 +280,6 @@ libopenglrecorder 0.1.0-1 4
 libpqmarble 1.3.0+12+gf240b2e-4 1
 librewolf-extension-plasma-integration 1.8.1-2 4
 libunity 7.1.4-15 3
-libva-intel-driver-g45-h264 1:2.4.1-2 4
-libva-intel-driver-hybrid 2.4.1-2 6
 libzrtpcpp 4.7.0-2 1
 loginized 1.4.0-2 3
 logmein-hamachi 2.1.0.203-1 1
@@ -508,7 +505,6 @@ qt-virt-manager 0.72.99-4 5
 qt5-styleplugins 5.0.0.20170311-35 4
 qtfm 6.2.1-1 3
 qtforkawesome 0.1.0-1 3
-qtscrcpy 2.1.2-1 7
 qtwebflix-git 0.1.r190.g54c2c1b-1 4
 quartus-130 13.0.1.232-1 1
 quickdocs 2.2.6-1 3
