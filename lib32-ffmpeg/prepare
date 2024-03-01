@@ -1,4 +1,8 @@
 #!/usr/bin/env sh
 
 # disable x265
-sed -E -e '/^.*enable-libx265.*$/d' -i PKGBUILD
+sed -E \
+  -e '/^.*lib32-libx265.*$/d' \
+  -e '/^.*enable-libx265.*$/d' \
+  -e 's&^(\s*)(options=)&\1ignore_\2&' \
+  -i PKGBUILD

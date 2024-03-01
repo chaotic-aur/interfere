@@ -1,6 +1,2 @@
 
 makedepends+=('clang')
-depends=("${depends[@]/lib32-x265*}")
-
-options=("${options[@]/debug*}")
-options+=('!debug')
