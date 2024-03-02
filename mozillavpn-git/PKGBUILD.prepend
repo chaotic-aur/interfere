@@ -1,5 +1,5 @@
 
-read _week _day <<< $(date '+%U %u')
+read _week _day <<< $(date '+%U %u' | sed -E 's@\b0@@g')
 if [[ $(( (_week + _day) % 2 )) == 1  ]] ; then
   _pkgtype='git'
 else

@@ -1,6 +1,6 @@
 
 # alternate v1/v3 builds
-read _week _day <<< $(date '+%U %u')
+read _week _day <<< $(date '+%U %u' | sed -E 's@\b0@@g')
 if [[ $(( (_week + _day) % 2 )) == 1  ]] ; then
   : ${_build_clang:=true}
   : ${_build_v3:=true}
