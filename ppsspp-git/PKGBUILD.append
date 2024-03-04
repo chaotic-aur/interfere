@@ -8,6 +8,8 @@
 : ${_build_qt:=true}
 : ${_build_sdl:=true}
 
+: ${_build_ffmpeg:=false}
+
 : ${_build_avx:=false}
 : ${_build_git:=true}
 
@@ -25,13 +27,14 @@ if [[ ${CARCH::1} == "a" ]] ; then
   _build_avx=false
 fi
 
+unset _pkgtype
 [[ "${_build_avx::1}" == "t" ]] && _pkgtype+='-avx'
 [[ "${_build_git::1}" == "t" ]] && _pkgtype+='-git'
 
 # basic info
 _pkgname="ppsspp"
 pkgname="${_pkgname}${_pkgtype:-}"
-pkgver=1.16.6.r598.g06e92e9d72
+pkgver=1.17.1.r35.g0159102a
 pkgrel=1
 pkgdesc='PSP emulator written in C++'
 url="https://github.com/hrydgard/ppsspp"
@@ -112,15 +115,14 @@ _source_ppsspp() {
     'google.cpu_features'::'git+https://github.com/google/cpu_features.git'
     'hrydgard.minidx9'::'git+https://github.com/hrydgard/minidx9.git'
     'hrydgard.miniupnp'::'git+https://github.com/hrydgard/miniupnp.git'
-    'hrydgard.ppsspp-ffmpeg'::'git+https://github.com/hrydgard/ppsspp-ffmpeg.git'
     'hrydgard.ppsspp-freetype'::'git+https://github.com/hrydgard/ppsspp-freetype.git'
     'hrydgard.ppsspp-mac-sdl'::'git+https://github.com/hrydgard/ppsspp-mac-sdl.git'
     'hrydgard.pspautotests'::'git+https://github.com/hrydgard/pspautotests.git'
+    'hrydgard.rcheevos'::'git+https://github.com/hrydgard/rcheevos.git'
     'khronosgroup.glslang'::'git+https://github.com/KhronosGroup/glslang.git'
     'khronosgroup.spirv-cross'::'git+https://github.com/KhronosGroup/SPIRV-Cross.git'
     'kingcom.armips'::'git+https://github.com/Kingcom/armips.git'
     'libretro.libretro-common'::'git+https://github.com/libretro/libretro-common.git'
-    'retroachievements.rcheevos'::'git+https://github.com/RetroAchievements/rcheevos.git'
     'rtissera.libchdr'::'git+https://github.com/rtissera/libchdr.git'
     'tencent.rapidjson'::'git+https://github.com/Tencent/rapidjson.git'
     'unknownbrackets.ppsspp-debugger'::'git+https://github.com/unknownbrackets/ppsspp-debugger.git'
@@ -144,11 +146,19 @@ _source_ppsspp() {
     'SKIP'
     'SKIP'
     'SKIP'
-    'SKIP'
   )
 
+  if [[ "${_build_ffmpeg::1}" == "t" ]] ; then
+    source+=(
+      'hrydgard.ppsspp-ffmpeg'::'git+https://github.com/hrydgard/ppsspp-ffmpeg.git'
+    )
+    sha256sums+=(
+      'SKIP'
+    )
+  fi
+
   _prepare_ppsspp() (
-    cd "${srcdir:?}/$_pkgsrc"
+    cd "$srcdir/$_pkgsrc"
     local -A _submodules=(
       ['bylaws.libadrenotools']='ext/libadrenotools'
       ['discordapp.discord-rpc']='ext/discord-rpc'
@@ -157,19 +167,25 @@ _source_ppsspp() {
       ['google.cpu_features']='ext/cpu_features'
       ['hrydgard.minidx9']='dx9sdk'
       ['hrydgard.miniupnp']='ext/miniupnp'
-      ['hrydgard.ppsspp-ffmpeg']='ffmpeg'
       ['hrydgard.ppsspp-freetype']='ext/native/tools/prebuilt'
       ['hrydgard.ppsspp-mac-sdl']='SDL/macOS'
       ['hrydgard.pspautotests']='pspautotests'
+      ['hrydgard.rcheevos']='ext/rcheevos'
       ['khronosgroup.glslang']='ext/glslang'
       ['khronosgroup.spirv-cross']='ext/SPIRV-Cross'
       ['kingcom.armips']='ext/armips'
       ['libretro.libretro-common']='libretro/libretro-common'
-      ['retroachievements.rcheevos']='ext/rcheevos'
       ['rtissera.libchdr']='ext/libchdr'
       ['tencent.rapidjson']='ext/rapidjson'
       ['unknownbrackets.ppsspp-debugger']='assets/debugger'
     )
+
+    if [[ "${_build_ffmpeg::1}" == "t" ]] ; then
+      _submodules+=(
+        ['hrydgard.ppsspp-ffmpeg']='ffmpeg'
+      )
+    fi
+
     _submodule_update
   )
 }
@@ -183,7 +199,7 @@ _source_bylaws_libadrenotools() {
   )
 
   _prepare_bylaws_libadrenotools() (
-    cd "${srcdir:?}/$_pkgsrc"
+    cd "$srcdir/$_pkgsrc"
     cd 'ext/libadrenotools'
     local -A _submodules=(
       ['bylaws.liblinkernsbypass']='lib/linkernsbypass'
@@ -193,6 +209,16 @@ _source_bylaws_libadrenotools() {
 }
 
 _source_hrydgard_ppsspp_ffmpeg() {
+  if [ "${_build_ffmpeg::1}" != "t" ] ; then
+    depends+=(ffmpeg)
+
+    _prepare_hrydgard_ppsspp_ffmpeg() {
+      :
+    }
+
+    return
+  fi
+
   source+=(
     'ffmpeg.gas-preprocessor'::'git+https://github.com/FFmpeg/gas-preprocessor.git'
   )
@@ -201,7 +227,7 @@ _source_hrydgard_ppsspp_ffmpeg() {
   )
 
   _prepare_hrydgard_ppsspp_ffmpeg() (
-    cd "${srcdir:?}/$_pkgsrc"
+    cd "$srcdir/$_pkgsrc"
     cd 'ffmpeg'
     local -A _submodules=(
       ['ffmpeg.gas-preprocessor']='gas-preprocessor'
@@ -219,7 +245,7 @@ _source_kingcom_armips() {
   )
 
   _prepare_kingcom_armips() (
-    cd "${srcdir:?}/$_pkgsrc"
+    cd "$srcdir/$_pkgsrc"
     cd 'ext/armips'
     local -A _submodules=(
       ['kingcom.filesystem']='ext/filesystem'
@@ -237,7 +263,7 @@ _source_tencent_rapidjson() {
   )
 
   _prepare_tencent_rapidjson() (
-    cd "${srcdir:?}/$_pkgsrc"
+    cd "$srcdir/$_pkgsrc"
     cd 'ext/rapidjson'
     local -A _submodules=(
       ['google.googletest']='thirdparty/gtest'
@@ -249,7 +275,7 @@ _source_tencent_rapidjson() {
 # common functions
 pkgver() {
   cd ppsspp
-  git describe --long --tags --exclude='*[a-zA-Z][a-zA-Z]*' \
+  git describe --long --tags --abbrev=8 --exclude='*[a-zA-Z][a-zA-Z]*' \
     | sed -E 's/^v//;s/([^-]*-g)/r\1/;s/-/./g'
 }
 
@@ -303,39 +329,45 @@ prepare() {
 
 build() {
   if [[ "${_build_avx::1}" == "t" ]] ; then
-    export CFLAGS="$(echo "$CFLAGS" | sed -E 's@(\s*-(march|mtune)=\S+\s*)@ @g;s@\s*-O[0-9]\s*@ @g;s@\s+@ @g') -march=x86-64-v3 -mtune=skylake -O3"
-    export CXXFLAGS="$(echo "$CXXFLAGS" | sed -E 's@(\s*-(march|mtune)=\S+\s*)@ @g;s@\s*-O[0-9]\s*@ @g;s@\s+@ @g') -march=x86-64-v3 -mtune=skylake -O3"
+    export CFLAGS="$(echo "$CFLAGS" | sed -E 's@(\s*-(march|mtune)=\S+\s*)@ @g;s@\s*-O[0-9]\s*@ @g;s@\s+@ @g') -march=x86-64-v3 -mtune=generic -O3"
+    export CXXFLAGS="$(echo "$CXXFLAGS" | sed -E 's@(\s*-(march|mtune)=\S+\s*)@ @g;s@\s*-O[0-9]\s*@ @g;s@\s+@ @g') -march=x86-64-v3 -mtune=generic -O3"
   fi
 
   export CC=clang
   export CXX=clang++
 
-  # Rebuild ffmpeg locally
-  pushd ppsspp/ffmpeg
-  case "$CARCH" in
-    x86_64)
-      ./linux_x86-64.sh
-      ;;
-    aarch64)
-      ./linux_arm64_native.sh
-      ;;
-  esac
-  popd
-
   local _cmake_options=(
     -S "$_pkgsrc"
-    -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_SKIP_RPATH=ON \
-    -DOpenGL_GL_PREFERENCE=GLVND \
-    -DUSE_SYSTEM_FFMPEG=OFF \
-    -DUSE_SYSTEM_MINIUPNPC=OFF \
-    -DUSE_SYSTEM_LIBZIP=ON \
-    -DUSE_SYSTEM_SNAPPY=ON \
-    -DUSE_SYSTEM_ZSTD=ON \
+    -DCMAKE_BUILD_TYPE=Release
+    -DCMAKE_SKIP_RPATH=ON
+    -DOpenGL_GL_PREFERENCE=GLVND
+    -DUSE_SYSTEM_MINIUPNPC=OFF
+    -DUSE_SYSTEM_LIBZIP=ON
+    -DUSE_SYSTEM_SNAPPY=ON
+    -DUSE_SYSTEM_ZSTD=ON
 
     -DBUILD_TESTING=OFF
     -Wno-dev
   )
+
+  if [[ "${_build_ffmpeg::1}" == "t" ]] ; then
+    _cmake_options+=(-DUSE_SYSTEM_FFMPEG=OFF)
+
+    # Rebuild ffmpeg locally
+    (
+      cd ppsspp/ffmpeg
+      case "$CARCH" in
+        x86_64)
+          ./linux_x86-64.sh
+          ;;
+        aarch64)
+          ./linux_arm64_native.sh
+          ;;
+      esac
+    )
+  else
+    _cmake_options+=(-DUSE_SYSTEM_FFMPEG=ON)
+  fi
 
   if [[ "${_build_sdl::1}" == "t" ]] ; then
     local _cmake_sdl=(
