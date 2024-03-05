@@ -5,7 +5,7 @@ md5sums+=('SKIP')
 license=('GPL-3.0-or-later')
 
 prepare() {
-  patch -d "$pkgname" -Np1 -F100 -i "0096-expandvars-0.patch"
+  patch -d "$pkgname" -Np1 -F100 -i "$srcdir/0096-expandvars-0.patch"
 
   sed -E -e '/--urgency.*critical/d' \
     -i "$pkgname/src/bubblejail/bubblejail_cli.py"
