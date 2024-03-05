@@ -93,7 +93,7 @@ EOF
 
   pandoc --quiet -t plain -o "$_privacy_policy.txt" "$_privacy_policy-2.html"
 
-  # terms of use 
+  # terms of use
   curl --no-progress-meter \
     -o "$_terms_of_use-1.html" \
     "$_terms_of_use_url"

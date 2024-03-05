@@ -132,20 +132,23 @@ _update_version() {
   _dl_url=$(
     printf '%s' "$_response" \
       | grep '"url"' \
-      | sed -E 's@^"url":"(https:.*\.snap)".*$@\1@'
+      | sed -E 's@^"url":"(https:.*\.snap)".*$@\1@' \
+      | head -1
   )
 
   _pkgver_new=$(
     printf '%s' "$_response" \
       | grep '"version"' \
-      | sed -E 's@^"version":"([0-9]+\.[0-9]+\.[0-9]+)".*$@\1@'
+      | sed -E 's@^"version":"([0-9]+\.[0-9]+\.[0-9]+)".*$@\1@' \
+      | head -1
   )
 
   # sha3-384 checksum
   _cksum=$(
     printf '%s' "$_response" \
       | grep '"sha3-384"' \
-      | sed -E 's@^"sha3-384":"([a-f0-9]+)".*$@\1@'
+      | sed -E 's@^"sha3-384":"([a-f0-9]+)".*$@\1@' \
+      | head -1
   )
 
   _filename="$_pkgname-${_pkgver_new:?}.snap"

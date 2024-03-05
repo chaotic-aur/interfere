@@ -2,5 +2,5 @@
 
 # remove old symbols archive
 pwd
-ls *.{zip,zst} pkgwork/*.{zip,zst} 
+ls *.{zip,zst} pkgwork/*.{zip,zst}
 rm -rf *crashreporter-symbols* pkgwork/*crashreporter-symbols*
