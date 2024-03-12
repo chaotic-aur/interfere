@@ -1,0 +1,51 @@
+
+depends=(
+  'python-psutil'
+  'python-mypy_extensions'
+  'python-typing_extensions'
+  'python-tomli'
+)
+makedepends=(
+  'python-build'
+  'python-installer'
+  'python-setuptools'
+  'python-wheel'
+)
+
+pkgver() {
+  cd "${_gitname}"
+
+  local _version=$(git tag | sed -E 's/^[^0-9]+//' | sort -rV | head -1)
+
+  [ git rev-list v${_version} > /dev/null 2>&1 ] && local _version_prefix=v
+
+  local _revision=$(git rev-list --count --cherry-pick "${_version_prefix:-}${_version}"...HEAD)
+
+  local _hash=$(git rev-parse --short=7 HEAD)
+
+  printf '%s.r%s.g%s' "${_version:?}" "${_revision:?}" "${_hash:?}"
+}
+
+prepare() {
+  cd "${_gitname}"
+  # remove unneeded build requirements as we are not compiling mypy: https://github.com/python/mypy/issues/14171
+  sed -e '/typing_extensions/d;/mypy_extensions/d;/typed_ast/d;/tomli/d;/types-psutil/d;/types-setuptools/d;/types-typed-ast/d' -i pyproject.toml
+  # -Werror, not even once
+  sed -e '/Werror/d' -i mypyc/build.py
+}
+
+build() {
+  cd "${_gitname}"
+  python -m build --wheel --no-isolation --skip-dependency-check
+}
+
+package() {
+  local _site_packages=$(python -c "import site; print(site.getsitepackages()[0])")
+
+  cd "${_gitname}"
+  python -m installer --destdir="$pkgdir" dist/*.whl
+  install -Dm644 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname/"
+
+  # remove tests
+  rm -frv "$pkgdir/$_site_packages"/*/test*
+}
