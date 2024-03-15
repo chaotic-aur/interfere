@@ -1,1 +1,1 @@
-depends+=(nlohmann-json fmt verdict)
+depends+=(nlohmann-json)
