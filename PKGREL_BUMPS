@@ -340,7 +340,6 @@ obs-studio-stable 30.0.2-2 1
 obsidian-icon-theme-git 4.15.r1.g4cccdd3f-1 1
 ocs-url 3.1.0-7 3
 octopi 0.15.0-2 1
-octopi-git 0.15.0.r11.64e72f06-1 1
 oddjob 0.34.7-1 3
 odr-dabmod-git 2.6.0.r0.g451a7fa-1 5
 odr-dabmux-git 4.4.1.r0.g36594de-1 1
@@ -618,3 +617,4 @@ zandronum 3.1-2 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 1
 zulucrypt 6.2.0-1 3
+telegram-desktop-userfonts 4.15.2-1 1
