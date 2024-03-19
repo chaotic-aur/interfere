@@ -1,6 +1,22 @@
 
 unset epoch
-pkgver=$( printf '%s' "$pkgver" | sed 's@_@.@g' )
+pkgver=$(sed 's@_@.@g' <<< "$pkgver")
+_tag=$(sed 's@^.*\.@@' <<< "$pkgver")
+
+license=('GPL-3.0-only')
+
+_pkgsrc_arc="Arc-${_tag:?}"
+_pkgext="tar.gz"
+source+=("$_pkgsrc_arc.$_pkgext"::"https://github.com/Anuken/Arc/archive/refs/tags/v${_tag:?}.$_pkgext")
+sha256sums+=('SKIP')
+
+prepare() {
+  cp -rl "$_pkgsrc_arc" Arc
+
+  cd "${_repo_name}-${_build}"
+  sed -E -e '/archash/s&archash=.*$&archash=8d5651a6adebd8c04be146d9a4a95f237ecf57b2&' -i gradle.properties
+}
+
 
 # mindustry does not currently build with jdk > 19,
 # so need to set java-environment to a supported version.

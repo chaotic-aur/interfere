@@ -1,4 +1,26 @@
 
+license=('GPL-3.0-only')
+
+pkgver() {
+  cd "$_pkgname"
+
+  local _regex="^\s+props\['app\\.version'\] = '([0-9]+\\.[0-9]+(\\.[0-9]+)?)'\$"
+  local _file='ios/build.gradle'
+
+  local _line=$(grep -E "$_regex" "$_file" | head -1)
+  local _version=$(sed -E "s@$_regex@\1@" <<< "$_line")
+  local _tag=$(git tag | sort -rV | head -1)
+  local _revision=$(git rev-list --count --cherry-pick "$_tag"...HEAD)
+  local _hash=$(git rev-parse --short=7 HEAD)
+
+  printf '%s.%s.r%s.g%s' \
+    "${_version:?}" \
+    "${_tag#v}" \
+    "${_revision:?}" \
+    "${_hash:?}"
+}
+
+
 # mindustry-git does not currently build with jdk > 19,
 # so need to set java-environment to a supported version.
 
@@ -6,8 +28,7 @@ makedepends=(${makedepends[@]/java-environment*})
 makedepends+=('java-environment=17')
 
 
-# mindustry-git is able to run with jdk > 19,
-# so java-runtime can remain unversioned inside package
+# java-runtime can be unversioned inside package
 
 depends=(${depends[@]/java-runtime*})
 
@@ -17,34 +38,4 @@ package() {
   depends+=('java-runtime')
 
   _orig_package
-}
-
-
-pkgver() {
-  cd "$_pkgname"
-
-  _regex="^\s+props\['app\\.version'\] = '([0-9]+\\.[0-9]+(\\.[0-9]+)?)'\$"
-  _file='ios/build.gradle'
-
-  _line=$(
-    grep -E "$_regex" "$_file" | head -1
-  )
-  _version=$(
-    echo "$_line" | sed -E "s@$_regex@\1@"
-  )
-  _tag=$(
-    git describe --tags --abbrev=0
-  )
-  _revision=$(
-    git rev-list --count --cherry-pick $_tag...HEAD
-  )
-  _hash=$(
-    git rev-parse --short HEAD
-  )
-
-  printf '%s.%s.r%s.g%s' \
-    "$_version" \
-    "${_tag#v}" \
-    "$_revision" \
-    "$_hash"
 }
