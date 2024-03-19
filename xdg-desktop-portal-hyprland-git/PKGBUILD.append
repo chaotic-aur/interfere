@@ -9,7 +9,6 @@ license=(MIT)
 arch=(x86_64)
 
 depends=(
-  libhyprlang.so # hyprlang
   libpipewire
   qt6-base
   sdbus-cpp
@@ -32,13 +31,20 @@ optdepends=(
   'slurp: support for interactive mode for the screenshot portal'
 )
 
+_sodeps=(
+  # makedep::sodep
+  'hyprlang-git'::'libhyprlang.so'
+)
+for i in "${_sodeps[@]}" ; do
+  depends+=("${i#*::}")
+  makedepends+=("${i%::*}")
+done
+
 provides=(
   "$_pkgname=${pkgver%%.r*}"
   "xdg-desktop-portal-impl"
 )
 conflicts=("$_pkgname")
-
-backup=('etc/xdg/xdg-desktop-portal/hyprland-portals.conf')
 
 _pkgsrc="$_pkgname"
 source=(
@@ -95,8 +101,7 @@ package() {
   DESTDIR="$pkgdir" cmake --install build
   install -Dm644 "$_pkgsrc/LICENSE" -t "$pkgdir/usr/share/licenses/$pkgname/"
 
-  install -dm755 "$pkgdir/etc/xdg/xdg-desktop-portal"
-  cat > "$pkgdir/etc/xdg/xdg-desktop-portal/hyprland-portals.conf" <<'END'
+  install -Dm644 /dev/stdin "$pkgdir/usr/share/xdg-desktop-portal/hyprland-portals.conf" <<END
 [preferred]
 default=gtk;hyprland
 END
