@@ -186,7 +186,6 @@ hfsprogs 540.1.linux3-4 3
 hlsdl 0.27-2 2
 hopper 0.1.0-1 1
 hsphfpd-git r29.d294d06-1 1
-hw-probe 1.6.5-1 2
 hyperspace-bin 1:1.1.4-1 4
 i3lock-fancy-git r193.55f5c30-1 2
 ice-ssb 6.0.8-1 3
@@ -444,7 +443,7 @@ qrab 0.4-3 3
 qt-jdenticon 0.3.0-1 4
 qt-solutions-git 56.777e95b-1 2
 qt-virt-manager 0.72.99-4 5
-qt5-styleplugins 5.0.0.20170311-35 4
+qt5-styleplugins 5.0.0.20170311-35 5
 qtfm 6.2.1-1 3
 quartus-130 13.0.1.232-1 1
 quickdocs 2.2.6-1 3
