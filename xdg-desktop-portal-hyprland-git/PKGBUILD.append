@@ -5,7 +5,7 @@ pkgver=1.3.1.r9.gc06fd88b
 pkgrel=1
 pkgdesc="xdg-desktop-portal backend for hyprland"
 url="https://github.com/hyprwm/xdg-desktop-portal-hyprland"
-license=(MIT)
+license=('BSD-3-Clause')
 arch=(x86_64)
 
 depends=(
