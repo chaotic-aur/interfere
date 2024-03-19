@@ -487,7 +487,6 @@ snapper-tools 1.1.3-1 2
 snkrx-drmfree-git r118.6b93a64-1 3
 soci 4.0.3-1 1
 solvespace 3.1-1 3
-soundcloud-dl-git v2.7.3.r0.g4276511-1 2
 soundcloud-nativefier 20230310-1 1
 soundux 0.2.7-3 1
 soundwire 3.0.0-4 4
@@ -599,6 +598,6 @@ yozo-office 8.0.1331.101ZH.S1-6 1
 yp-tools 4.2.3-6 2
 zandronum 3.1-2 3
 zenpower-dkms-git 46.5e2f56f-1 2
-zenpower3-dkms 0.2.0-3 1
+zenpower3-dkms 0.2.0-3 2
 zulucrypt 6.2.0-1 3
 skippy-xd-git 2023.07.30.r45.g192d6524-1 1
