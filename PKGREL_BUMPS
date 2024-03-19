@@ -12,7 +12,6 @@ android-sdk 26.1.1-2 2
 angrysearch 1.0.4-1 4
 anki 23.12.1-1 1
 antimicrox 3.3.4-3 1
-anydesk-bin 6.3.0-1 1
 app-icon-preview 3.3.0-1 3
 appimagelauncher 2.2.0-6 5
 aqemu 0.9.4-2 4
@@ -133,7 +132,6 @@ fonts-meta-extended-lt 4-1 4
 fonts-tlwg 0.7.3-1 1
 foo2zjs-nightly 20201127-1 3
 foobillard++ 3.42beta-7 3
-fop-hyph 2.2-1 1
 foxitreader 2.4.5.0727-1 3
 freac 1.1.7-1 2
 fsearch 0.2.3-1 1
@@ -208,19 +206,10 @@ jade-application-kit 3.5.7-2 4
 jamesdsp 2.7.0-1 1
 jamesdsp-git 2.7.0.r9.g222e6f5-1 1
 jamesdsp-pulse 2.7.0-3 1
-java-resolver 1.2-4 1
-java-skinlf 6.7-5 1
 jdanimatedimageeditor 1.4-1 1
-jeuclid-core 3.1.9-1 1
-jgoodies-looks 2.8.0-4 1
-jgraphx-jre8 3.9.10-1 1
 jitsi 2.11.5633-1 1
-jlatexmath-fop 1.0.7-1 1
 jmencode 0.64-6 5
-jogl 2.3.2-2 3
-jrosetta 1.0.4-5 1
 kazam 1.4.5-9 5
-kcm-colorful-git 1.0.5.r0.g411e8c9-1 4
 kde-service-menu-reimage 2.5-1 4
 kde-servicemenus-komparemenu 0.1-3 4
 kde-servicemenus-officeconverter 1-1 4
@@ -266,7 +255,6 @@ logstalgia 1.1.2-1 5
 lokinet 0.9.11-5 3
 lollypop-git 1.4.37.r5.gb1c5fe1b3-1 1
 luckybackup 0.5.0-1 3
-lxqt-kwin-desktop-git 0.17.0-1 4
 m64py 0.2.5-2 5
 maestral-qt 1.8.0-1 1
 makehuman 1.2.0-7 2
@@ -287,7 +275,6 @@ mendeleydesktop 1.19.8-1 4
 meowsql 0.4.18-1 2
 minecraft-launcher 1:1.0.1221-1 4
 mintlocale 1.5.8-1 3
-miredo 1.2.6+r159+ge5f5652-1 1
 mkinitcpio-openswap 0.1.0-3 1
 mmsd-git r648.f4b8b32-1 1
 mobydroid 0.6-1 1
@@ -339,7 +326,6 @@ obs-streamfx-unstable 0.12.0b299-3 3
 obs-studio-stable 30.0.2-2 1
 obsidian-icon-theme-git 4.15.r1.g4cccdd3f-1 1
 ocs-url 3.1.0-7 3
-octopi 0.15.0-2 1
 oddjob 0.34.7-1 3
 odr-dabmod-git 2.6.0.r0.g451a7fa-1 5
 odr-dabmux-git 4.4.1.r0.g36594de-1 1
@@ -378,8 +364,6 @@ phonesim 2.0.r0.ga55ada2-1 2
 phoronix-test-suite 10.8.4-1 1
 php73 7.3.33-10 1
 pjsua 2.13-2 3
-plasma5-applets-virtual-desktop-bar-git r524.3c42104-1 4
-plasma5-applets-weather-widget-2 2.3.5beta2-1 1
 playonlinux 4.4+29+gd0ae9ce6-2 4
 plex-media-player 2.58.1-3 9
 pm-utils 1.4.1-8 2
@@ -534,6 +518,7 @@ systemd-guest-user 33.2-1 1
 systemd-manager-git 1.0.0.r12.g4efeb47-1 2
 tangram 3.0-3 2
 teams 1.5.00.23861-1 4
+telegram-desktop-userfonts 4.15.2-1 1
 terasology 1:5.3.0alpha23-1 1
 termv-git v1.2-2 3
 texmacs 2.1.2-1 3
@@ -599,7 +584,7 @@ write_stylus 300.r469-1 3
 xavs2 1.4-1 1
 xbox-generic-controller 0.1.2-1 3
 xboxdrv 0.8.8-7 3
-xerces2-java 2.12.2-1 1
+xdg-desktop-portal-hyprland-git 1.3.1.r14.g2d2fb547-1 1
 xfce-theme-manager 3.8-2 3
 xfce4-appfinder-devel 4.19.1-1 1
 xfce4-panel-profiles 1.0.14-2 2
@@ -617,4 +602,3 @@ zandronum 3.1-2 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 1
 zulucrypt 6.2.0-1 3
-telegram-desktop-userfonts 4.15.2-1 1
