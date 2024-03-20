@@ -9,7 +9,7 @@ _pkgtype+="-bin"
 _pkgname="skypeforlinux"
 _snapname="skype"
 pkgname="$_pkgname${_pkgtype:-}"
-pkgver=8.113.0.210
+pkgver=8.115.0.215
 pkgrel=1
 pkgdesc='Skype for Linux'
 url="https://snapcraft.io/$_snapname"
@@ -98,8 +98,11 @@ package() {
   ln -s /opt/skypeforlinux/skypeforlinux "$pkgdir/usr/bin/skypeforlinux"
 
   # desktop file
-  install -Dm644 "$_pkgname-$_pkgver/meta/gui/skypeforlinux.desktop" -t "$pkgdir/usr/share/applications/"
-  install -Dm644 "$_pkgname-$_pkgver/meta/gui/skypeforlinux-share.desktop" -t "$pkgdir/usr/share/applications/"
+  install -Dm644 "$_pkgname-$_pkgver/meta/gui"/*.desktop -t "$pkgdir/usr/share/applications/"
+  sed -E \
+    -e 's&^Icon=.*$&Icon=skypeforlinux&' \
+    -e 's&Exec=skype\b&Exec=skypeforlinux&' \
+    -i "$pkgdir/usr/share/applications"/*.desktop
 
   # icon
   install -Dm644 "$_pkgname-$_pkgver/meta/gui/skypeforlinux.png" -t "$pkgdir/usr/share/pixmaps/"

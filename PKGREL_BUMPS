@@ -189,7 +189,6 @@ hsphfpd-git r29.d294d06-1 1
 hyperspace-bin 1:1.1.4-1 4
 hyprcursor-git 0.1.4.r5.ge3694ecf-1 1
 hypridle-git 0.1.1.r3.g4395339a-1 1
-hyprland-git 0.37.1.r28.95ac8a34-1 1
 hyprlock-git 0.2.0.r14.g54da0cae-1 1
 hyprpaper-git 0.6.0.r12.g518adca-1 1
 i3lock-fancy-git r193.55f5c30-1 2
@@ -483,7 +482,7 @@ simplenote-electron-bin 2.21.0-1 4
 simplescreenrecorder 0.4.4-2 1
 sip4 4.19.25-5 3
 sirula-git r68.b15efe8-1 1
-skippy-xd-git 2023.07.30.r45.g192d6524-1 1
+skypeforlinux-bin 8.115.0.215-1 1
 smooth 0.9.10-1 2
 smtube 21.10.0-4 2
 snap-pac-grub 2.0.2-1 4
