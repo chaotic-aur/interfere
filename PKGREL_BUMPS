@@ -203,7 +203,6 @@ isomaster 1.3.16-1 2
 itch-setup-bin 1.26.0-1 2
 jade-application-kit 3.5.7-2 4
 jamesdsp 2.7.0-1 1
-jamesdsp-git 2.7.0.r9.g222e6f5-1 1
 jamesdsp-pulse 2.7.0-3 1
 jdanimatedimageeditor 1.4-1 1
 jitsi 2.11.5633-1 1
@@ -315,7 +314,6 @@ nspawn-git r46.09c5220-1 1
 ntfs3-dkms 1:5.17-1 1
 nvidia-340xx-utils 340.108-1 2
 nvidia-390xx-settings 390.157-1 2
-nvidia-525xx-utils 525.116.04-1 2
 nvim-yarp-git r59.bb5f5e0-1 2
 nwg-launchers 0.7.1-1 3
 nwg-wrapper 0.1.3-2 2
@@ -429,7 +427,6 @@ python-simplediff 1.1-1 3
 python-simplematch 1.3-1 4
 python-spotipy 2.23.0-1 2
 python-transitions 0.9.0-1 2
-python-ufonormalizer 0.6.1-3 2
 python-vdf 3.4-2 4
 pyzbar 0.1.9-1 4
 q4wine-git 1.3.13.4.g82ced8e-1 3
@@ -463,7 +460,6 @@ revolt-desktop-git 1:1.0.7.r13.g2373e7d-1 1
 riftshare 0.1.9-4 3
 ripcord 0.4.29-1 2
 ripcord-arch-libs 0.4.29-3 2
-rmg 0.5.7-1 1
 rocketlauncher2-git 0.1.0.2.r11.gbdb48cd-1 3
 runescape-launcher 2.2.11-1 2
 scid 5.0.2-1 2
@@ -483,7 +479,6 @@ skypeforlinux-bin 8.115.0.215-1 1
 smooth 0.9.10-1 2
 smtube 21.10.0-4 2
 snap-pac-grub 2.0.2-1 4
-snapper-gui-git 0.1.r8.g1915750-1 5
 snapper-support 1.1.2-2 3
 snapper-tools 1.1.3-1 2
 snkrx-drmfree-git r118.6b93a64-1 3
@@ -552,7 +547,6 @@ uuid 1.6.2-20 1
 vala-panel 0.5.0-1 3
 vazirmatn-fonts 33.003-1 1
 vibrantlinux 2.1.10-1 3
-vim-coc-eslint-git 1.6.0.r0.g007ad15-1 2
 vim-coc-flutter-git 1.9.3.r19.g883c269-1 2
 vim-coc-highlight-git 2.0.4.r0.gc405d34-1 3
 vim-coc-html-git 1.8.0.r0.g70299db-1 3
@@ -602,3 +596,4 @@ zandronum 3.1-2 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
 zulucrypt 6.2.0-1 3
+skippy-xd-git 2023.07.30.r55.gdea14f74-1 1
