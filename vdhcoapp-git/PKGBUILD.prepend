@@ -1,8 +1,0 @@
-
-# alternate between stable and git packages
-read _week _day <<< $(date '+%U %u' | sed -E 's@\b0@@g')
-if [[ $(( (_week + _day) % 2 )) == 1  ]] ; then
-  : ${_build_git:=true}
-else
-  : ${_build_git:=false}
-fi
