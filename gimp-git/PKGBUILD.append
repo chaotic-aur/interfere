@@ -1,7 +1,7 @@
 
 _pkgname="gimp"
 pkgname="$_pkgname-git"
-pkgver=2.99.18.r196.ga4e94d8
+pkgver=2.99.18.r300.g1e10476
 pkgrel=1
 pkgdesc="GNU Image Manipulation Program"
 url="https://gitlab.gnome.org/GNOME/gimp"
@@ -36,6 +36,7 @@ depends=(
   pango
   poppler-data
   poppler-glib
+  python-gobject
   xz
   zlib
 )
@@ -57,6 +58,7 @@ makedepends=(
   meson
   openexr
   openjpeg2
+  python-packaging
   qoi-headers
   vala
 )
@@ -78,14 +80,37 @@ optdepends=(
   'luajit: LUA scripting support'
 )
 
-_pkgsrc="$_pkgname"
-source=("$_pkgsrc"::"git+$url.git")
-sha256sums=('SKIP')
+_pkgsrc="gimp"
+source=(
+  "$_pkgsrc"::"git+https://gitlab.gnome.org/GNOME/gimp.git"
+  'gimp-data'::'git+https://gitlab.gnome.org/GNOME/gimp-data.git'
+)
+sha256sums=(
+  'SKIP'
+  'SKIP'
+)
 
 pkgver() {
   cd "$_pkgsrc"
   git describe --long --tags --abbrev=7 \
-    | sed -E 's/^[^0-9]*//;s/([^-]*-g)/r\1/;s/-/./g'
+    | sed -E 's/^[^0-9]*//;s/([^-]*-g)/r\1/;s/[-_]/./g'
+}
+
+prepare() {
+  local _submodules _module
+
+  cd "$_pkgsrc"
+  _submodules=(
+    'gimp-data'::'gimp-data'
+  )
+  for _module in "${_submodules[@]}" ; do
+    git submodule init "${_module##*::}"
+    git submodule set-url "${_module##*::}" "$srcdir/${_module%::*}"
+    git -c protocol.file.allow=always submodule update "${_module##*::}"
+  done
+
+  # fix batch-interpreter name
+  sed -E -e 's&"python-fu-eval"&"plug-in-script-fu-eval"&' -i "gimp-data/images/meson.build"
 }
 
 build() {
@@ -93,6 +118,7 @@ build() {
     --prefix=/usr
     --sysconfdir=/etc
     --libexecdir=/usr/bin
+    -Dappdata-test=disabled
     -Dcheck-update=no
     -Dg-ir-doc=false
     -Dgi-docgen=disabled
