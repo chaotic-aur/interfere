@@ -14,13 +14,18 @@
 
 : ${_build_git:=true}
 
-[[ "${_build_git::1}" == "t" ]] && _pkgtype+="-git"
+unset _pkgtype
+if [[ "${_build_git::1}" == "t" ]] ; then
+  _pkgtype+="-git"
+else
+  _pkgtype+="-stable"
+fi
 
 ## basic info
 _pkgname="obs-studio"
-pkgname="$_pkgname${_pkgtype:--stable}"
-pkgver=30.0.2
-pkgrel=2
+pkgname="$_pkgname${_pkgtype:-}"
+pkgver=30.1.1
+pkgrel=1
 pkgdesc="Free, open source software for live streaming and recording - Browser enabled"
 url="https://github.com/obsproject/obs-studio"
 license=("GPL-2.0-or-later")
@@ -83,16 +88,12 @@ _main_package() {
     'vlc: VLC Media Source'
   )
 
+  provides=("$_pkgname=${pkgver%%.r*}")
+  conflicts=("$_pkgname")
+
   options=(!debug)
 
-  if [ "$pkgname" == "$_pkgname" ] ; then
-    :
-  else
-    provides=("$_pkgname=${pkgver%%.r*}")
-    conflicts=("$_pkgname")
-  fi
-
-  if [ "${pkgname: -4}" != "-git" ] ; then
+  if [ "${_build_git::}" != "t" ] ; then
     _main_stable
   else
     _main_git
@@ -231,24 +232,6 @@ _main_stable() {
   source+=("$_pkgsrc"::"git+$url.git#tag=$_pkgver")
   sha256sums+=('SKIP')
 
-  # patches
-  source+=(
-    'fix_ffmpeg.patch'::'https://github.com/obsproject/obs-studio/pull/9935.patch'
-  )
-  sha256sums+=(
-    '426fd28d1cf73df4276b64d20c52348ecb2c6f9a368f587be3f8fd6668b9bdb8'
-  )
-
-  _prepare() {
-    apply-patch() {
-      printf '\nApplying patch %s\n' "$1"
-      patch -Np1 -F100 -i "$1"
-    }
-
-    cd "$_pkgsrc"
-    apply-patch "$srcdir/fix_ffmpeg.patch"
-  }
-
   pkgver() {
     echo "${_pkgver:?}"
   }
@@ -260,17 +243,12 @@ _main_git() {
   source+=("$_pkgsrc"::"git+$url.git")
   sha256sums+=('SKIP')
 
-  _prepare() {
-    :
-  }
-
   pkgver() {
     cd "$_pkgsrc"
     local _version=$(git tag | grep -Ev '.*[a-z]{2}.*' | sort -rV | head -1)
-    local _revision=$(git rev-list --count --cherry-pick $_version...HEAD)
+    local _revision=$(git rev-list --count --cherry-pick "$_version"...HEAD)
     local _hash=$(git rev-parse --short=7 HEAD)
-    local _pkgver="${_version:?}.r${_revision:?}.g${_hash:?}"
-    echo "${_pkgver:?}"
+    printf '%s.r%s.g%s' "${_version:?}" "${_revision:?}" "${_hash:?}"
   }
 }
 
@@ -287,8 +265,6 @@ prepare() {
 
   _prepare_obs_studio
   _prepare_mixer_ftl_sdk
-
-  _prepare
 }
 
 _build_obs_studio() {
