@@ -9,7 +9,7 @@ fi
 # basic info
 _pkgname="tradingview"
 _snapname="tradingview"
-pkgname="$_pkgname${_pkgtype:-}"
+pkgname="$_pkgname"
 pkgver=2.7.1
 pkgrel=1
 pkgdesc='Charting platform for traders and investors'

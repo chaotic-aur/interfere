@@ -2,13 +2,10 @@
 # options
 : ${_autoupdate:=true}
 
-unset _pkgtype
-_pkgtype+="-bin"
-
 # basic info
 _pkgname="skypeforlinux"
 _snapname="skype"
-pkgname="$_pkgname${_pkgtype:-}"
+pkgname="$_pkgname-bin"
 pkgver=8.115.0.215
 pkgrel=1
 pkgdesc='Skype for Linux'

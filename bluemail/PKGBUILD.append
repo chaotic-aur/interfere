@@ -9,7 +9,7 @@ fi
 # basic info
 _pkgname="bluemail"
 _snapname="bluemail"
-pkgname="$_pkgname${_pkgtype:-}"
+pkgname="$_pkgname"
 pkgver=1.137.2
 pkgrel=3
 pkgdesc="BlueMail is a free, secure, universal email app, capable of managing an unlimited number of mail accounts"

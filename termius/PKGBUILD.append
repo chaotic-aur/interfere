@@ -9,7 +9,7 @@ fi
 # basic info
 _pkgname="termius"
 _snapname="$_pkgname-app"
-pkgname="$_pkgname${_pkgtype:-}"
+pkgname="$_pkgname"
 pkgver=8.7.2
 pkgrel=1
 pkgdesc="Desktop SSH Client"

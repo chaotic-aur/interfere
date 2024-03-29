@@ -10,13 +10,11 @@ else
   : ${_autoupdate:=true}
 fi
 
-: ${_pkgtype:=stable}
-
 ## basic info
 _pkgname="elixir"
-pkgname="$_pkgname${_pkgtype:+-$_pkgtype}"
-pkgver=1.16.1
-pkgrel=2
+pkgname="$_pkgname-stable"
+pkgver=1.16.2
+pkgrel=1
 pkgdesc="a functional meta-programming aware language built on top of the Erlang VM"
 url="https://github.com/elixir-lang/elixir"
 license=('Apache-2.0')

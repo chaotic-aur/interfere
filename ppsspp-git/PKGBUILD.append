@@ -13,6 +13,7 @@
 : ${_build_avx:=false}
 : ${_build_git:=true}
 
+unset _pkgtype
 if [[ ${_build_full::1} == 't' ]] ; then
   _pkgtype+='-full'
   _build_qt=true
@@ -27,7 +28,6 @@ if [[ ${CARCH::1} == "a" ]] ; then
   _build_avx=false
 fi
 
-unset _pkgtype
 [[ "${_build_avx::1}" == "t" ]] && _pkgtype+='-avx'
 [[ "${_build_git::1}" == "t" ]] && _pkgtype+='-git'
 

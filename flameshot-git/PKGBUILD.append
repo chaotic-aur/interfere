@@ -2,12 +2,13 @@
 # options
 : ${_build_git:=true}
 
+unset _pkgtype
 [[ "${_build_git::1}" == "t" ]] && _pkgtype+="-git"
 
 # basic info
 _pkgname=flameshot
 pkgname="$_pkgname${_pkgtype:-}"
-pkgver=12.1.0.r119.gfa29bcb
+pkgver=12.1.0.r124.g3d21e49
 pkgrel=1
 pkgdesc="Powerful yet simple to use screenshot software"
 url="https://github.com/flameshot-org/flameshot"
@@ -69,10 +70,10 @@ _main_git() {
   pkgver() {
     cd "$_pkgsrc"
     _tag=$(git tag | grep -Ev '[a-z]{2}' | sort -rV | head -1)
-    _revision=$(git rev-list --count --cherry-pick $_tag...HEAD)
+    _revision=$(git rev-list --count --cherry-pick "$_tag"...HEAD)
     _commit=$(git rev-parse --short=7 HEAD)
 
-    printf '%s.r%s.g%s' "${_tag#v}" "$_revision" "$_commit"
+    printf '%s.r%s.g%s' "${_tag#v}" "${_revision:?}" "${_commit:?}"
   }
 }
 

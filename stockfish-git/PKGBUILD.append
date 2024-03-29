@@ -13,6 +13,7 @@ fi
 : ${_build_avx:=false}
 : ${_build_git:=false}
 
+unset _pkgtype
 [[ "${_build_avx::1}" == "t" ]] && _pkgtype+="-avx"
 [[ "${_build_git::1}" == "t" ]] && _pkgtype+="-git"
 
