@@ -24,7 +24,7 @@ fi
 ## basic info
 _pkgname="obs-studio"
 pkgname="$_pkgname${_pkgtype:-}"
-pkgver=30.1.1
+pkgver=30.1.1.r22.g3a10355
 pkgrel=1
 pkgdesc="Free, open source software for live streaming and recording - Browser enabled"
 url="https://github.com/obsproject/obs-studio"
@@ -66,6 +66,7 @@ _main_package() {
     x264
 
     asio
+    ffnvcodec-headers
     git
     nlohmann-json
     qt6-wayland
@@ -93,7 +94,7 @@ _main_package() {
 
   options=(!debug)
 
-  if [ "${_build_git::}" != "t" ] ; then
+  if [ "${_build_git::1}" != "t" ] ; then
     _main_stable
   else
     _main_git
