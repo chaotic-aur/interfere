@@ -34,7 +34,7 @@ fi
 # basic info
 _pkgname="ppsspp"
 pkgname="${_pkgname}${_pkgtype:-}"
-pkgver=1.17.1.r35.g0159102a
+pkgver=1.17.1.r74.g39fdba4f
 pkgrel=1
 pkgdesc='PSP emulator written in C++'
 url="https://github.com/hrydgard/ppsspp"
@@ -120,6 +120,7 @@ _source_ppsspp() {
     'hrydgard.pspautotests'::'git+https://github.com/hrydgard/pspautotests.git'
     'hrydgard.rcheevos'::'git+https://github.com/hrydgard/rcheevos.git'
     'khronosgroup.glslang'::'git+https://github.com/KhronosGroup/glslang.git'
+    'khronosgroup.openxr-sdk'::'git+https://github.com/KhronosGroup/OpenXR-SDK.git'
     'khronosgroup.spirv-cross'::'git+https://github.com/KhronosGroup/SPIRV-Cross.git'
     'kingcom.armips'::'git+https://github.com/Kingcom/armips.git'
     'libretro.libretro-common'::'git+https://github.com/libretro/libretro-common.git'
@@ -128,6 +129,7 @@ _source_ppsspp() {
     'unknownbrackets.ppsspp-debugger'::'git+https://github.com/unknownbrackets/ppsspp-debugger.git'
   )
   sha256sums+=(
+    'SKIP'
     'SKIP'
     'SKIP'
     'SKIP'
@@ -159,30 +161,31 @@ _source_ppsspp() {
 
   _prepare_ppsspp() (
     cd "$srcdir/$_pkgsrc"
-    local -A _submodules=(
-      ['bylaws.libadrenotools']='ext/libadrenotools'
-      ['discordapp.discord-rpc']='ext/discord-rpc'
-      ['erkkah.naett']='ext/naett'
-      ['facebook.zstd']='ext/zstd'
-      ['google.cpu_features']='ext/cpu_features'
-      ['hrydgard.minidx9']='dx9sdk'
-      ['hrydgard.miniupnp']='ext/miniupnp'
-      ['hrydgard.ppsspp-freetype']='ext/native/tools/prebuilt'
-      ['hrydgard.ppsspp-mac-sdl']='SDL/macOS'
-      ['hrydgard.pspautotests']='pspautotests'
-      ['hrydgard.rcheevos']='ext/rcheevos'
-      ['khronosgroup.glslang']='ext/glslang'
-      ['khronosgroup.spirv-cross']='ext/SPIRV-Cross'
-      ['kingcom.armips']='ext/armips'
-      ['libretro.libretro-common']='libretro/libretro-common'
-      ['rtissera.libchdr']='ext/libchdr'
-      ['tencent.rapidjson']='ext/rapidjson'
-      ['unknownbrackets.ppsspp-debugger']='assets/debugger'
+    local _submodules=(
+      'bylaws.libadrenotools'::'ext/libadrenotools'
+      'discordapp.discord-rpc'::'ext/discord-rpc'
+      'erkkah.naett'::'ext/naett'
+      'facebook.zstd'::'ext/zstd'
+      'google.cpu_features'::'ext/cpu_features'
+      'hrydgard.minidx9'::'dx9sdk'
+      'hrydgard.miniupnp'::'ext/miniupnp'
+      'hrydgard.ppsspp-freetype'::'ext/native/tools/prebuilt'
+      'hrydgard.ppsspp-mac-sdl'::'SDL/macOS'
+      'hrydgard.pspautotests'::'pspautotests'
+      'hrydgard.rcheevos'::'ext/rcheevos'
+      'khronosgroup.glslang'::'ext/glslang'
+      'khronosgroup.openxr-sdk'::'ext/OpenXR-SDK'
+      'khronosgroup.spirv-cross'::'ext/SPIRV-Cross'
+      'kingcom.armips'::'ext/armips'
+      'libretro.libretro-common'::'libretro/libretro-common'
+      'rtissera.libchdr'::'ext/libchdr'
+      'tencent.rapidjson'::'ext/rapidjson'
+      'unknownbrackets.ppsspp-debugger'::'assets/debugger'
     )
 
     if [[ "${_build_ffmpeg::1}" == "t" ]] ; then
       _submodules+=(
-        ['hrydgard.ppsspp-ffmpeg']='ffmpeg'
+        'hrydgard.ppsspp-ffmpeg'::'ffmpeg'
       )
     fi
 
@@ -201,8 +204,8 @@ _source_bylaws_libadrenotools() {
   _prepare_bylaws_libadrenotools() (
     cd "$srcdir/$_pkgsrc"
     cd 'ext/libadrenotools'
-    local -A _submodules=(
-      ['bylaws.liblinkernsbypass']='lib/linkernsbypass'
+    local _submodules=(
+      'bylaws.liblinkernsbypass'::'lib/linkernsbypass'
     )
     _submodule_update
   )
@@ -229,8 +232,8 @@ _source_hrydgard_ppsspp_ffmpeg() {
   _prepare_hrydgard_ppsspp_ffmpeg() (
     cd "$srcdir/$_pkgsrc"
     cd 'ffmpeg'
-    local -A _submodules=(
-      ['ffmpeg.gas-preprocessor']='gas-preprocessor'
+    local _submodules=(
+      'ffmpeg.gas-preprocessor'::'gas-preprocessor'
     )
     _submodule_update
   )
@@ -247,8 +250,8 @@ _source_kingcom_armips() {
   _prepare_kingcom_armips() (
     cd "$srcdir/$_pkgsrc"
     cd 'ext/armips'
-    local -A _submodules=(
-      ['kingcom.filesystem']='ext/filesystem'
+    local _submodules=(
+      'kingcom.filesystem'::'ext/filesystem'
     )
     _submodule_update
   )
@@ -265,8 +268,8 @@ _source_tencent_rapidjson() {
   _prepare_tencent_rapidjson() (
     cd "$srcdir/$_pkgsrc"
     cd 'ext/rapidjson'
-    local -A _submodules=(
-      ['google.googletest']='thirdparty/gtest'
+    local _submodules=(
+      'google.googletest'::'thirdparty/gtest'
     )
     _submodule_update
   )
@@ -281,11 +284,11 @@ pkgver() {
 
 prepare() {
   _submodule_update() {
-    local key;
-    for key in ${!_submodules[@]} ; do
-      git submodule init "${_submodules[${key}]}"
-      git submodule set-url "${_submodules[${key}]}" "${srcdir}/${key}"
-      git -c protocol.file.allow=always submodule update "${_submodules[${key}]}"
+    local _module
+    for _module in "${_submodules[@]}" ; do
+      git submodule init "${_module##*::}"
+      git submodule set-url "${_module##*::}" "$srcdir/${_module%::*}"
+      git -c protocol.file.allow=always submodule update "${_module##*::}"
     done
   }
 
@@ -335,6 +338,7 @@ build() {
 
   export CC=clang
   export CXX=clang++
+  export LDFLAGS+=" -Wl,-fuse-ld=lld"
 
   local _cmake_options=(
     -S "$_pkgsrc"
