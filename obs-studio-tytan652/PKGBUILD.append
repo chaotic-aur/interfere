@@ -1,6 +1,6 @@
 
-makedepends=(${makedepends[@]/libdatachannel*})
-makedepends+=('libdatachannel')
+makedepends=(${makedepends[@]/ffmpeg*})
+makedepends+=('ffmpeg')
 
 options=(${options[@]/debug*})
 options+=(!debug)
