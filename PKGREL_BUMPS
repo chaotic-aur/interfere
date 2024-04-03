@@ -9,6 +9,7 @@ amule-git 2.3.3.r42.e26d06a6e-3 1
 ananicy 2.2.1-1 4
 android-sdk 26.1.1-2 2
 angrysearch 1.0.4-1 4
+anki 24.04-2 1
 antimicrox 3.3.4-3 1
 app-icon-preview 3.3.0-1 3
 appimagelauncher 2.2.0-6 5
@@ -497,7 +498,6 @@ systemd-guest-user 33.2-1 1
 systemd-manager-git 1.0.0.r12.g4efeb47-1 2
 tangram 3.0-3 2
 teams 1.5.00.23861-1 4
-telegram-desktop-userfonts 4.15.6-2 1
 terasology 1:5.3.0alpha23-1 1
 termv-git v1.2-2 3
 texmacs 2.1.2-1 3
