@@ -1,0 +1,17 @@
+
+depends=(${depends[@]/python-pip-system-certs*})
+
+for key in ${!optdepends[@]} ; do
+  if [[ "${optdepends[${key}]}" =~ ^texlive-most:.*$ ]] ; then
+    unset optdepends[${key}]
+    break
+  fi
+done
+
+eval _orig_"$(declare -f prepare)"
+
+prepare() {
+  sed -E -e '/import pip_system_certs/d' -i "$pkgname-$pkgver/qt/aqt/__init__.py"
+
+  _orig_prepare
+}
