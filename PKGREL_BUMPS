@@ -1,3 +1,4 @@
+64gram-desktop 1:1.1.17-1 1
 acidrip 0.14-10 6
 adcli 0.9.2-1 2
 agenda 1.1.2-1 4
@@ -43,7 +44,6 @@ caffeine 2.9.12-1 3
 cassowary 0.6-1 4
 catia-git r1062.78b0307-1 3
 ccrtp 2.1.2-4 1
-cecilia 5.4.1-1 4
 cecilia-git 5.4.1.r15.gc592f8e-1 3
 celestia-addon-2009_exoplanets 1.0-2 2
 celestia-addon-2010_exoplanets 1.0-2 2
@@ -72,6 +72,7 @@ clamav-unofficial-sigs 7.2.5-1 1
 clapper 0.5.2-1 4
 clipit 1.4.5-3 4
 codelite 17.0.0-0 3
+colloid-gtk-theme-git 2024.04.14.r0.g2949b6a7-1 1
 colorway 1.2.0-2 3
 compiz-core 0.8.18-3 7
 connman-gtk 1.1.1-2 4
@@ -93,6 +94,7 @@ diodon 1.13.0-2 2
 dotfonts-git r64.a768278-1 3
 downgrade 11.3.0-1 1
 dracula-grub-theme-git r11.0e721d9-1 1
+dracula-gtk-theme-git r358.18350ca-1 1
 dracula-xresources-git r12.539ef24-1 1
 dracut-hook 0.5.3-1 1
 droidcam 1:2.1.2-1 2
@@ -129,6 +131,7 @@ fonts-meta-extended-lt 4-1 4
 fonts-tlwg 0.7.3-1 1
 foo2zjs-nightly 20201127-1 3
 foobillard++ 3.42beta-7 3
+forkgram 4.16-1 1
 foxitreader 2.4.5.0727-1 3
 freac 1.1.7-1 2
 fsearch 0.2.3-1 1
@@ -180,7 +183,6 @@ hlsdl 0.27-2 2
 hopper 0.1.0-1 1
 hsphfpd-git r29.d294d06-1 1
 hyperspace-bin 1:1.1.4-1 4
-hypridle-git 0.1.1.r3.g4395339a-1 1
 i3lock-fancy-git r193.55f5c30-1 2
 ice-ssb 6.0.8-1 3
 image-roll 2.1.0-1 1
@@ -478,7 +480,6 @@ steamtinkerlaunch 12.12-1 2
 strawberry-qt5 1.0.23-1 3
 stremio 4.4.165-1 1
 stylepak-git 18.0c4b0c1-1 3
-subsurface 5.0.10-1 2
 sweet-gtk-theme 3.0-1 1
 sweet-gtk-theme-dark 3.0-1 1
 syncthing-gtk 0.9.4.5-1 1
@@ -489,6 +490,7 @@ systemd-guest-user 33.2-1 1
 systemd-manager-git 1.0.0.r12.g4efeb47-1 2
 tangram 3.0-3 2
 teams 1.5.00.23861-1 4
+telegram-desktop-userfonts 4.16.6-1 1
 terasology 1:5.3.0alpha23-1 1
 termv-git v1.2-2 3
 texmacs 2.1.2-1 3
@@ -540,7 +542,6 @@ vscodium-marketplace 1.65.0-1 3
 wahay-bin 6be34ec-1 3
 webwatcher-git r24.3d3099f-2 2
 whatsapp-for-linux 1.6.4-1 1
-windscribe-bin 2.4.11-1 1
 windscribe-cli 1.4_51-1 1
 wine-installer 5.0.3-2 4
 wkhtmltopdf 0.12.6-1 2
@@ -569,8 +570,3 @@ zandronum 3.1-2 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
 zulucrypt 6.2.0-1 3
-dracula-gtk-theme-git r358.18350ca-1 1
-forkgram 4.16-1 1
-64gram-desktop 1:1.1.17-1 1
-telegram-desktop-userfonts 4.16.6-1 1
-qadwaitadecorations-qt6 0.1.5-1 1
