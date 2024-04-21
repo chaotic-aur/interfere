@@ -1,4 +1,3 @@
-
 ## useful links
 # https://obsproject.com
 # https://github.com/obsproject/obs-studio
@@ -15,7 +14,7 @@
 : ${_build_git:=true}
 
 unset _pkgtype
-if [[ "${_build_git::1}" == "t" ]] ; then
+if [[ "${_build_git::1}" == "t" ]]; then
   _pkgtype+="-git"
 else
   _pkgtype+="-stable"
@@ -24,7 +23,7 @@ fi
 ## basic info
 _pkgname="obs-studio"
 pkgname="$_pkgname${_pkgtype:-}"
-pkgver=30.1.1.r22.g3a10355
+pkgver=30.1.2.r101.ga3a8f6d
 pkgrel=1
 pkgdesc="Free, open source software for live streaming and recording - Browser enabled"
 url="https://github.com/obsproject/obs-studio"
@@ -57,22 +56,22 @@ _main_package() {
     qrcodegencpp-cmake
   )
   makedepends=(
+    asio
     cmake
+    ffnvcodec-headers-12-1 # ffnvcodec-headers
+    git
     libfdk-aac
     luajit
+    nlohmann-json
     python
+    qt6-wayland
     sndio
     swig
-    x264
-
-    asio
-    ffnvcodec-headers
-    git
-    nlohmann-json
-    qt6-wayland
+    uthash
     vlc
     wayland
     websocketpp
+    x264
     xdg-desktop-portal
   )
   optdepends=(
@@ -83,7 +82,7 @@ _main_package() {
     'libva-mesa-driver: hardware encoding'
     'luajit: scripting support'
     'python: scripting support'
-    'sndio: Sndio input client'
+    'sndio: sndio input client'
     'v4l2loopback-dkms: virtual camera support'
 
     'vlc: VLC Media Source'
@@ -94,27 +93,27 @@ _main_package() {
 
   options=(!debug)
 
-  if [ "${_build_git::1}" != "t" ] ; then
+  if [ "${_build_git::1}" != "t" ]; then
     _main_stable
   else
     _main_git
   fi
 
   # cef
-  if [ "${_build_cef::1}" == "t" ] ; then
+  if [ "${_build_cef::1}" == "t" ]; then
     _source_cef
   else
     makedepends+=('cef-minimal-obs-bin') # AUR
   fi
 
-  if [ "${_plugin_aja::1}" == "t" ] ; then
+  if [ "${_plugin_aja::1}" == "t" ]; then
     makedepends+=('libajantv2') # AUR
     _plugin_aja='ON'
   else
     _plugin_aja='OFF'
   fi
 
-  if [ "${_plugin_webrtc::1}" == "t" ] ; then
+  if [ "${_plugin_webrtc::1}" == "t" ]; then
     makedepends+=('libdatachannel') # AUR
     _plugin_webrtc='ON'
   else
@@ -256,8 +255,8 @@ _main_git() {
 # common functions
 prepare() {
   _submodule_update() {
-    local key;
-    for key in ${!_submodules[@]} ; do
+    local key
+    for key in ${!_submodules[@]}; do
       git submodule init "${_submodules[${key}]}"
       git submodule set-url "${_submodules[${key}]}" "${srcdir}/${key}"
       git -c protocol.file.allow=always submodule update "${_submodules[${key}]}"
@@ -266,6 +265,11 @@ prepare() {
 
   _prepare_obs_studio
   _prepare_mixer_ftl_sdk
+
+  sed -E \
+    -e 's&(\s*find_package\(FFnvcodec)\b.*\b(REQUIRED\))&\1 12 \2&' \
+    -i "$_pkgsrc/plugins/obs-ffmpeg/cmake/dependencies.cmake" \
+    -i "$_pkgsrc/plugins/obs-ffmpeg/cmake/legacy.cmake"
 }
 
 _build_obs_studio() {
@@ -280,6 +284,7 @@ _build_obs_studio() {
     -DBUILD_FOR_DISTRIBUTION=ON
     -DBUILD_BROWSER=ON # qrcodegencpp-cmake
     -DENABLE_LIBFDK=ON
+    # -DENABLE_NATIVE_NVENC=OFF # ffnvcodec-headers-12-1
     -DBUILD_TESTS=OFF
     -DENABLE_UNIT_TESTS=OFF
     -Wno-dev
@@ -297,7 +302,7 @@ _build_obs_studio() {
 }
 
 build() {
-  if [ "${_build_cef::1}" == "t" ] ; then
+  if [ "${_build_cef::1}" == "t" ]; then
     _build_cef
     _cef_src="$srcdir/$_cef_src"
   else
@@ -318,7 +323,7 @@ package() {
 _update_version() {
   : ${_pkgver:=$pkgver}
 
-  if [[ "${_autoupdate::1}" != "t" ]] ; then
+  if [[ "${_autoupdate::1}" != "t" ]]; then
     return
   fi
 
@@ -332,7 +337,7 @@ _update_version() {
   local _pkgver_new="${_tag#v}"
 
   # update _pkgver
-  if [ "$_pkgver" != "${_pkgver_new:?}" ] ; then
+  if [ "$_pkgver" != "${_pkgver_new:?}" ]; then
     _pkgver="${_pkgver_new:?}"
   fi
 }
