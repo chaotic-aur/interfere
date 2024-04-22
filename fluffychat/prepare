@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
-$CAUR_PUSH 'pacman -S --noconfirm flutter-bin'
-$CAUR_PUSH 'usermod -aG flutterusers main-builder'
-$CAUR_PUSH 'chown -R main-builder:main-builder /opt/flutter'
+# $CAUR_PUSH 'pacman -S --noconfirm flutter-bin'
+# $CAUR_PUSH 'usermod -aG flutterusers main-builder'
+# $CAUR_PUSH 'chown -R main-builder:main-builder /opt/flutter'
 
 _chaotic_pkgver=1.19.2
 _chaotic_pkgrel=1
@@ -14,5 +14,6 @@ if [[ "$(vercmp "$_chaotic_pkgver" "$_old_pkgver")" -gt 0 ]] ; then
     -e 's@^(\s*pkgver)=.*$@\1='"$_chaotic_pkgver"'@' \
     -e 's@^(\s*pkgrel)=.*$@\1='"$_chaotic_pkgrel"'@' \
     -e 's@^(\s*sha256sums)=.*$@\1=('"$_chaotic_shasum"')@' \
+    -e '/^\s*patch .*$/d' \
     -i PKGBUILD
 fi
