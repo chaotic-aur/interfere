@@ -1,11 +1,11 @@
 #!/usr/bin/env sh
-$CAUR_PUSH 'pacman -S --noconfirm flutter'
+$CAUR_PUSH 'pacman -S --noconfirm flutter-bin'
 $CAUR_PUSH 'usermod -aG flutterusers main-builder'
 $CAUR_PUSH 'chown -R main-builder:main-builder /opt/flutter'
 
-_chaotic_pkgver=1.14.5
+_chaotic_pkgver=1.19.2
 _chaotic_pkgrel=1
-_chaotic_shasum='e30aa12f070ba95131e5bcc8027094ed892dc2edbdc92d5855332e95d75cd0db'
+_chaotic_shasum='547ef91a7e22d1a8133d666108d15768d752ccc65a0623a5e78fdc9426c54915'
 
 _old_pkgver=$(sed -En '/^\s*pkgver=.*[0-9].*/ s/.*\=//p' PKGBUILD)
 
