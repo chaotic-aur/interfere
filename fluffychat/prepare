@@ -13,7 +13,7 @@ if [[ "$(vercmp "$_chaotic_pkgver" "$_old_pkgver")" -gt 0 ]] ; then
   sed -E \
     -e 's@^(\s*pkgver)=.*$@\1='"$_chaotic_pkgver"'@' \
     -e 's@^(\s*pkgrel)=.*$@\1='"$_chaotic_pkgrel"'@' \
-    -e 's@^(\s*sha256sums)=.*$@\1=('"$_chaotic_shasum"')@' \
+    -e 's@^(\s*sha256sums)=.*(\)?)$@\1=('"$_chaotic_shasum"'2@' \
     -e '/^\s*patch .*$/d' \
     -i PKGBUILD
 fi
