@@ -169,7 +169,6 @@ fujprog 4.8-1 1
 fuse-emulator 1.6.0-3 2
 fuse-ext2-git v0.0.11.r2.ge8f1063-1 1
 fvs 0.3.4-2 2
-gajim-git 1:r21405.36b2798bb-1 1
 gamehub 0.16.3.2-2 2
 gamerworld-bin 1.3.0-3 3
 gcdemu 3.2.6-1 3
@@ -269,7 +268,6 @@ kwin-effects-yet-another-magic-lamp 5.27.0-1 2
 lanshare 1.2.1-8 3
 lbry-desktop-bin 0.53.9-1 3
 lbry-desktop-git 0.53.9.r10962.gd14c9141d-1 2
-legendary 0.20.34-1 1
 lensfun-git 0.3.2.r2841.g24154e04-1 1
 lib32-liblrdf 0.6.1-3 1
 lib32-lilv 0.24.20-1 2
@@ -327,7 +325,6 @@ minecraft-launcher 1:1.0.1221-1 4
 minigalaxy 1.2.6-1 1
 mintlocale 1.5.8-1 3
 mkinitcpio-openswap 0.1.0-3 1
-mkosi-git 22.r270.g47ca3913-1 1
 mmsd-git r648.f4b8b32-1 1
 mobydroid 0.6-1 1
 modprobed-db 2.46-1 3
@@ -370,7 +367,6 @@ ntfs3-dkms 1:5.17-1 1
 nvidia-340xx-utils 340.108-1 2
 nvidia-390xx-settings 390.157-1 2
 nvim-yarp-git r59.bb5f5e0-1 2
-nwg-hello 0.1.10-1 1
 nwg-launchers 0.7.1-1 3
 obs-gstreamer 1:0.4.0-1 4
 obs-rtspserver 3.1.0-1 1
@@ -441,7 +437,6 @@ protonup-git 0.1.5.r4.g4ff9d54-1 1
 protonup-qt 2.9.2-1 1
 protonvpn-cli 3.13.0-2 5
 protonvpn-gui 1.12.0-1 5
-psautohint 3:2.4.0-2 3
 pulseaudio-control 3.1.1-1 1
 pulseaudio-module-xrdp 0.7-1 1
 pulseeffects-legacy 4.8.7-1 5
@@ -495,7 +490,6 @@ python-httpx-socks 1:0.9.1-1 1
 python-humblewx 0.2.2-1 4
 python-hwdata 2.4.1-1 1
 python-imagecodecs 2024.1.1-3 1
-python-imageio 2.34.1-1 1
 python-imageio-ffmpeg 0.4.9-1 2
 python-imread 0.7.5-1 1
 python-iniparse-git 0.5.r21.gdbfd717-1 1
@@ -522,7 +516,6 @@ python-mock 5.1.0-1 1
 python-moviepy 1.0.3-4 5
 python-multipledispatch 1.0.0-1 1
 python-musdb 0.3.1-1 1
-python-museval 0.4.0-4 1
 python-nanoid 2.0.0-3 1
 python-node-semver 0.8.1-2 3
 python-norbert 0.2.1-1 1
@@ -832,3 +825,4 @@ zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
 zfs-utils-git 2:2.2.99.r460.g21bc066ece-1 1
 zulucrypt 6.2.0-1 3
+nextpnr-git 0.7.r28.gedcafcf0-1 1
