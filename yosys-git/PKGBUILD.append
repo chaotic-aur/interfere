@@ -1,7 +1,7 @@
 pkgver() {
+    # get rid of running make in pkgver()
     cd "${srcdir}/yosys"
-    git checkout main  # added so that "make" below can run
-    printf "%s.r%s.%s" "$(make echo-yosys-ver)" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+    printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
 }
 
 prepare() {
