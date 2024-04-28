@@ -135,6 +135,8 @@ evdev-right-click-emulation 20190313.350939-1 1
 evopop-gtk-theme-git 2.9.99.r12.g6dce1c5-1 3
 exaile 4.1.3-1 1
 exifcleaner-bin 3.6.0-4 3
+fairy-stockfish 14.0.1-7 1
+fairy-stockfish-git 14.r227.g0e89b9aa-1 1
 ffsend-bin 0.2.76-1 1
 fiddler 4.6.20171.26113-1 3
 find-the-command 2.0.1-1 2
@@ -157,6 +159,7 @@ fotokilof 4.4.8-1 1
 foxitreader 2.4.5.0727-1 3
 freac 1.1.7-1 2
 freecad-git 0.22.0.36846.gcd1f624afb-1 1
+freeipa 4.11.1-1 1
 friture 0.49-3 1
 friture-git 0.49.r15.gff2f84c-1 1
 frog-ocr 1.5.1-1 1
@@ -419,6 +422,7 @@ phoronix-test-suite 10.8.4-1 1
 photocollage 1.4.6-2 1
 pigpio 79-2 1
 pip-tools 7.4.1-1 1
+pjproject 2.14.1-1 1
 pjsua 2.13-2 4
 plasma6-wallpapers-wallpaper-engine-git 0.5.4.r78.g96230de-1 1
 playonlinux 4.4+29+gd0ae9ce6-2 4
@@ -660,6 +664,7 @@ runescape-launcher 2.2.11-1 2
 safeeyes 2.1.6-1 1
 safeeyes-git 2.1.6.r27.g00c3390-1 1
 scid 5.0.2-1 2
+scrap_engine-git 1.4.1-1 1
 sddm-theme-astronaut 1.0-1 3
 seafile 9.0.5-1 1
 searx 1.1.0-2 2
@@ -672,9 +677,10 @@ silo-primevideo 0.5-1 4
 silo-trello 0.3-1 4
 silos 0.2.3-1 1
 simple-mtpfs 0.4.0-1 1
+simpleitk 2.3.1-1 1
 simplenote-electron-bin 2.21.0-1 4
 simplescreenrecorder 0.4.4-2 1
-sip4 4.19.25-5 3
+sip4 4.19.25-5 4
 sirula-git r68.b15efe8-1 1
 smooth 0.9.10-1 2
 smtube 21.10.0-4 2
@@ -781,6 +787,7 @@ vital-synth 1.5.5-1 3
 vkbasalt-cli 3.1.1-2 1
 vmware-keymaps 1.0-3 1
 vorta 0.9.1-3 1
+vosk-api 0.3.50-1 1
 vscodium-marketplace 1.65.0-1 3
 wahay-bin 6be34ec-1 3
 waypaper-git 2.1.r15.gc92cb4e-1 1
