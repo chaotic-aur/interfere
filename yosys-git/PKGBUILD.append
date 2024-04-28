@@ -1,4 +1,5 @@
 prepare() {
+    true
 }
 
 build() {
