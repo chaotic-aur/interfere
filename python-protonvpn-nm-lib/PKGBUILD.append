@@ -2,6 +2,7 @@
 makedepends=(
   python-build
   python-installer
+  python-setuptools
   python-wheel
 )
 
