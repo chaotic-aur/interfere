@@ -355,7 +355,7 @@ natron-plugins-git 2.1.7.r1201.gb0c499f-1 1
 nekoray 3.26-3 2
 neovim-drop-in 1-1 1
 neovim-remote 2.5.1-1 4
-nextpnr-git 0.7.r28.gedcafcf0-1 2
+nextpnr-git 0.7.r28.gedcafcf0-1 3
 nghttp2 1.61.0-1 1
 nginx-mainline-mod-brotli 1:1.0.0rc-5 1
 nginx-mainline-mod-dav-ext 3.0.0-21 2

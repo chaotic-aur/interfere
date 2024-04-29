@@ -1,0 +1,3 @@
+_ARCHS+=('himbaechel')
+makedepends+=('prjapicula')
+_CONFIG+=('-DHIMBAECHEL_GOWIN_DEVICES=all')
