@@ -15,6 +15,7 @@ angrysearch 1.0.4-1 5
 antimicrox 3.3.4-3 1
 appimagelauncher 2.2.0-6 5
 aqemu 0.9.4-2 4
+art-rawconverter-imageio 20230524-1 1
 artha 1.0.5-1 1
 asix-ax88179-dkms 1.20.0-2 1
 astrofox 1.4.0-3 5
@@ -87,6 +88,7 @@ contractor-git 0.3.5-1 1
 cozy-audiobooks 1.3.0-1 1
 cpupower-gui 1.0.0-5 3
 crazydiskinfo 1.1.0-2 2
+criterion 2.4.2-2 1
 crudini 0.9.5-2 1
 csound-blue 2.8.1-1 5
 curlew 0.2.5-4 1
@@ -150,6 +152,7 @@ freac 1.1.7-1 2
 freecad-git 0.22.0.36846.gcd1f624afb-1 1
 freeipa 4.11.1-1 1
 friture 0.49-3 1
+fritzing 1.0.2-2 1
 frog-ocr 1.5.1-1 1
 fsearch 0.2.3-1 1
 fsv2 1:0.9.1-3 3
@@ -243,6 +246,7 @@ kdocker 5.4-1 3
 keeweb-desktop-bin 1.18.7-1 3
 kega-fusion 3.63-17 3
 keyboard-visualizer-git release_4.00.r26.gb50cc50-1 3
+kicad-git 8.99.0.r982.g4dd049ee8f-1 1
 komorebi 2.2.1-1 3
 kotatogram-desktop 1.4.9-1 2
 krop 0.6.0-4 1
@@ -255,11 +259,13 @@ lanshare 1.2.1-8 3
 lbry-desktop-bin 0.53.9-1 3
 lbry-desktop-git 0.53.9.r10962.gd14c9141d-1 2
 lerc 4.0.0-1 1
+lib32-ffmpeg 2:6.1.1-2 1
 lib32-glslang 13.0.0-1 1
 lib32-liblrdf 0.6.1-3 1
 lib32-lilv 0.24.20-1 2
 lib32-lv2 1.18.10-1 1
 lib32-nvidia-390xx-utils 390.157-2 2
+lib32-rav1e 0.7.1-1 1
 lib32-rtmpdump 1:2.4.r99.f1b83c1-1 1
 lib32-sratom 0.6.14-1 1
 libavresample 4.4.1-1 4
@@ -362,9 +368,9 @@ ocrmypdf 16.2.0-1 1
 ocs-url 3.1.0-7 3
 oddjob 0.34.7-1 4
 odr-dabmod-git 2.6.0.r0.g451a7fa-1 5
-odr-dabmux-git 4.4.1.r0.g36594de-1 1
 ofono 1.34-1 1
 olivia-git 1.2.r9.g4048134f-1 1
+onefetch-git 2.20.0.r39.g64b61b5f-1 1
 oomox-qt-styleplugin-git 1.4.1.r36.ge15cd47-1 1
 openbangla-keyboard 2.0.0-7 3
 openctm-tools 2:1.0.3-1 3
@@ -380,6 +386,7 @@ osdlyrics-git 0.5.15.r1.g33dc42a-1 2
 otf-firamath 0.4_beta_3-1 2
 overdue 1.1.1-1 3
 pa-applet-git r19.3b4f8b3-8 3
+pacdiff-pacman-hook-git r97.313dd92-1 1
 pace 1.4.2-1 3
 pacmanlogviewer-git 1.5.1.r0.g7e47e18-1 4
 pacui 1.14-1 1
@@ -444,7 +451,6 @@ python-dacite 1.8.1-2 1
 python-deezer-py 1.3.7-2 1
 python-demjson3 3.0.6-1 1
 python-desktop-entry-lib 4.2-1 1
-python-diskcache 5.6.3-1 1
 python-elgato-streamdeck 0.9.5-1 1
 python-enzyme 0.4.1-5 4
 python-exifread 3.0.0-2 4
@@ -455,7 +461,6 @@ python-flask-limiter 3.6.0-1 1
 python-freetype-py 2.4.0-1 1
 python-gbinder 1.1.2-1 1
 python-gevent-eventemitter 2.1-3 4
-python-glean-parser 14.0.1-1 1
 python-googletrans-git r116.d15c94f-1 4
 python-gpxpy 1.6.2-1 1
 python-gtts 2.5.1-1 1
@@ -511,7 +516,6 @@ python-proton-client 0.7.1-2 4
 python-protonvpn-nm-lib 3.16.0-1 2
 python-py3nvml 0.2.7-1 4
 python-pyamg 5.1.0-1 1
-python-pydes 2.0.1-3 1
 python-pyfuse3 3.3.0-1 1
 python-pyglm 2.7.1-1 1
 python-pyjson5 1.6.4-1 1
@@ -571,7 +575,6 @@ python-xpybutil 0.0.6-5 1
 python-xvfbwrapper 0.2.9-11 1
 python-yapsy 1.12.2-9 1
 python-yattag 1.15.1-1 1
-python-yubico 1.3.3-3 1
 python3-memoizedb 2021-14 1
 python3-xcgf 2021-14 1
 python3-xcpf 2021.12-13 2
@@ -631,6 +634,7 @@ simple-mtpfs 0.4.0-1 1
 simpleitk 2.3.1-1 1
 simplenote-electron-bin 2.21.0-1 4
 simplescreenrecorder 0.4.4-2 1
+siril-git 1.2.1.r863.g6fdf2e87-1 1
 sirula-git r68.b15efe8-1 1
 smooth 0.9.10-1 2
 smtube 21.10.0-4 2
@@ -660,6 +664,7 @@ steamtinkerlaunch 12.12-1 2
 strawberry-qt5 1.0.23-1 3
 stylepak-git 18.0c4b0c1-1 3
 subliminal-git 2.1.0.r26.g4130a48-1 1
+subsurface-git 20240505.46cf2fc08-1 1
 sunshine 0.23.1-1 1
 swayidle-git 1.8.0.r11.gbc795df-1 1
 swaylock-git 1.7.2.r22.gf9ce3f1-1 1
@@ -705,7 +710,6 @@ ulauncher 5.15.7-1 1
 usbaudio-git r4.6f46c43-1 4
 uuid 1.6.2-20 1
 vala-panel-appmenu-xfce-git 24.02.r32.gbada552-1 2
-vala-panel-git 24.03.r2.g295d892-1 1
 vapoursynth-git R66.56.gd27b54e1-1 1
 vazirmatn-fonts 33.003-1 1
 vibrantlinux 2.1.10-1 3
@@ -724,7 +728,6 @@ vim-colorschemes r215.fd8f122-1 3
 vim-vimwiki 2023.04.04_1-1 2
 vimiv-qt 0.9.0-1 1
 vimiv-qt-git r2739.0902c81a-1 1
-virtualbox-kvm 20240325-1 1
 vital-synth 1.5.5-1 3
 vkbasalt-cli 3.1.1-2 1
 vmware-keymaps 1.0-3 1
