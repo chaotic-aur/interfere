@@ -9,12 +9,6 @@ prepare() {
     #orig_prepare
 }
 
-source=('git+https://github.com/YosysHQ/yosys.git'
-        'git+https://github.com/YosysHQ/abc.git')
-
-sha512sums=('SKIP'
-            'SKIP')
-
 build() {
     cd "${srcdir}/yosys"
 
