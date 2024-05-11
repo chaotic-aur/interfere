@@ -1,4 +1,5 @@
 
+depends+=(lcms2) # https://aur.archlinux.org/packages/wlroots-git#comment-970642
 options=(${options[@]/debug*})
 options+=(!debug)
 
