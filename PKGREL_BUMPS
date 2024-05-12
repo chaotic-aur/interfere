@@ -472,7 +472,6 @@ python-materialyoucolor-git 2.0.9.r1.g57ec2e4-1 1
 python-minecraft-launcher-lib 6.4-2 1
 python-mock 5.1.0-1 1
 python-moviepy 1.0.3-4 5
-python-multipledispatch 1.0.0-1 1
 python-musdb 0.3.1-1 1
 python-nanoid 2.0.0-3 1
 python-node-semver 0.8.1-2 3
@@ -709,6 +708,9 @@ whoogle 0.8.4-1 1
 whoogle-git 0.8.4.r20.g9bfdd88-1 1
 windscribe-cli 1.4_51-1 1
 wine-installer 5.0.3-2 4
+wine-staging-wow64 9.8-1 1
+wine-staging-wow64-git 9.8.r57.gae9bdbda-1 1
+wine-wow64 9.8-1 1
 wine-wow64-git 9.8.r57.gae9bdbda-1 1
 wkhtmltopdf 0.12.6-1 2
 wld-git r173.8990a83-1 1
