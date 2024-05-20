@@ -179,6 +179,7 @@ gmusicbrowser 1.1.16-1 1
 gnome-gesture-improvements r201.f007cac-2 1
 gnome-icon-theme 3.12.0-7 1
 gnome-icon-theme-symbolic 3.12.0-6 1
+gnome-multi-writer-git 3.35.90.r337.1395be2-1 1
 gnome-shell-extension-material-shell 44-1 1
 gnome-shell-extension-x11gestures 17-1 1
 goocanvas2 2.0.4-9 3
@@ -236,6 +237,7 @@ kdocker 5.4-1 3
 keeweb-desktop-bin 1.18.7-1 3
 kega-fusion 3.63-17 3
 keyboard-visualizer-git release_4.00.r26.gb50cc50-1 3
+klassy-git 6.1.breeze6.0.3.r1.g67f0584e-1 1
 komorebi 2.2.1-1 3
 kotatogram-desktop 1.4.9-1 2
 krop 0.6.0-4 1
@@ -304,6 +306,7 @@ mmsd-git r648.f4b8b32-1 1
 mobydroid 0.6-1 1
 movie-monad 0.0.7.0_0-1 4
 mpc-qt 23.12-1 1
+mpv-vapoursynth-git 0.38.0.r287.ge6e0aaa6c6-1 1
 ms-office-online 2:2.1.1-1 5
 mugshot 0.4.3-3 4
 multibootusb 9.2.0-5 4
@@ -347,7 +350,6 @@ obs-studio-stable 30.1.2-1 1
 obsidian-icon-theme-git 4.15.r1.g4cccdd3f-1 1
 ocrmypdf 16.2.0-1 1
 ocs-url 3.1.0-7 3
-oddjob 0.34.7-1 4
 odr-dabmod-git 2.6.0.r0.g451a7fa-1 5
 ofono 1.34-1 1
 olivia-git 1.2.r9.g4048134f-1 1
@@ -536,7 +538,7 @@ q4wine-git 1.3.13.4.g82ced8e-1 3
 qadwaitadecorations 0.1.5-1 1
 qadwaitadecorations-git 0.1.5.r0.g8f7357c-1 1
 qflipper 1.3.3-1 1
-qnapi-git 0.2.3snapshot.r5.gd4e0378-1 3
+qnapi-git 0.2.3snapshot.r5.gd4e0378-1 4
 qoob-git 0.2.1.r0.g2e3ed22-1 7
 qpdftools 2.0.4-0 3
 qrab 0.4-3 3
@@ -545,6 +547,7 @@ qt-jdenticon 0.3.0-1 4
 qt-solutions-git 56.777e95b-1 2
 qt-virt-manager 0.72.99-4 5
 qt5-styleplugins 5.0.0.20170311-35 5
+qt5-webkit 5.212.0alpha4-23 1
 qtfm 6.2.1-1 3
 quartus-130 13.0.1.232-1 1
 quickdocs 2.2.6-1 3
@@ -666,7 +669,7 @@ vim-coc-lists-git 1.5.1.r0.g720f871-1 2
 vim-coc-marketplace-git 1.4.0.r165.g5ad69f0-1 3
 vim-coc-sources-git 1.2.5.r28.g78890dc-1 1
 vim-coc-vetur-git 1.2.4.r2.ga525569-1 3
-vim-coc-yaml-git 1.9.0.r0.g40880b1-1 4
+vim-coc-yaml-git 1.9.0.r0.g40880b1-1 5
 vim-coc-zsh-git r3.ef6b0ca-1 3
 vim-colorschemes r215.fd8f122-1 3
 vim-vimwiki 2023.04.04_1-1 2
@@ -702,11 +705,11 @@ xfce4-panel-profiles 1.0.14-2 2
 xfce4-windowck-plugin-xfwm4-theme-support 1:0.4.5+139+g23d3432-1 2
 xfdashboard 1.0.0-1 3
 xkcdpass 1.19.9-1 1
-xml-security-c 2.0.4-1 1
+xml-security-c 2.0.4-1 2
 xplayer-plparser 1.0.3-1 1
 xviewer-plugins 1.4.1-3 3
 xwayland-run-git 0.0.3.r0.gd7538fa-1 1
-xylib 1.6-2 3
+xylib 1.6-2 4
 yaup-git 0.1.r4.g7ee3fdb-1 4
 youtube-search-python 1.6.6-2 4
 yp-tools 4.2.3-6 3
@@ -717,4 +720,3 @@ zenmap 7.94-2 1
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
 zulucrypt 6.2.0-1 3
-qt5-webkit 5.212.0alpha4-23 1
