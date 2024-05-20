@@ -1,0 +1,13 @@
+depends=('qt6-base')
+makedepends=('git' 'qt6-tools')
+optdepends=(
+  'opendoas: privilege elevation'
+  'sudo: privilege elevation'
+)
+_commit=176507aa64f384e661400a164cd633d324555f6c  # branch/master
+source=("git+https://github.com/aarnt/qt-sudo.git#commit=${_commit}")
+sha256sums=('52c461385416eba0cf50424df83c7e18f5f0999ffff28f3f1098e476bcfdb85a')
+pkgver() {
+  cd "$pkgname"
+  printf "r%s.%s" "$(git rev-list --count HEAD)" "$(git rev-parse --short HEAD)"
+}
