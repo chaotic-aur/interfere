@@ -1,2 +1,7 @@
-# see https://gitlab.pyicu.org/main/pyicu/-/issues/169#note_973
-CXXFLAGS="${CXXFLAGS} -std=c++17"
+eval "$(echo "orig_prepare()"; declare -f prepare | tail -n +2)"
+prepare() {
+    cd "qtwebkit-${_pkgver}"
+
+    # see https://gitlab.pyicu.org/main/pyicu/-/issues/169#note_973
+    sed -E -i'' 's,-std=c\+\+11,-std=c++17,g' Source/cmake/OptionsCommon.cmake
+}
