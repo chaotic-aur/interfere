@@ -28,6 +28,7 @@ ayatana-indicator-application 22.2.0-1 4
 ayatana-indicator-notifications 23.10.0-1 1
 b43-firmware 6.30.163.46-1 1
 baca-ereader-git 0.1.17.r0.g13ee794-1 1
+basilisk-bin 1:52.9.2024.05.01-1 1
 bass-fish 1.0-1 1
 bauh 0.10.7-1 1
 bcache-tools 1.1-1 2
@@ -95,7 +96,7 @@ curlew 0.2.5-4 1
 dashbinsh 0.1-5 1
 davs2 1.7-1 1
 debtap 3.5.1-1 2
-dee 1.2.7-14 5
+dee 1.2.7-14 6
 delft-icon-theme-git 1.15.r0.gdd693fcf-1 2
 deluge-git 1:2.1.1.dev99.g7f3f7f69e-1 1
 densify 0.3.1-3 4
@@ -146,10 +147,12 @@ fotokilof 4.4.8-1 1
 foxitreader 2.4.5.0727-1 3
 freac 1.1.7-1 2
 freecad-git 0.22.0.36846.gcd1f624afb-1 1
+freerdp-git 3.5.1.r100.g3dfd617e1-1 1
 friture 0.49-3 1
 fritzing 1.0.2-2 1
 frog-ocr 1.5.1-1 1
-fsearch 0.2.3-1 1
+fsearch 0.2.3-1 2
+fsearch-git 0.2.r189.gd4ff61a-1 1
 fsv2 1:0.9.1-3 3
 fujprog 4.8-1 1
 fuse-emulator 1.6.0-3 2
@@ -171,6 +174,7 @@ gigolo 0.5.2-1 3
 gimp-elsamuko-git r90.ac9a756-1 1
 gimp-extras 2.0.4-1 3
 gimp-plugin-normalmap 1.2.3-2 4
+git-credential-manager-core-bin 2.4.1-3 1
 gittyup 1.3.0-1 3
 gksu 2.0.2-6 2
 glaxnimate 0.5.4-2 1
@@ -267,6 +271,7 @@ libgksu 2.0.12-9 3
 libinput-gestures 2.76-1 2
 libinput-gestures-qt 0.4-1 1
 libopenglrecorder 0.1.0-1 4
+libpdfium-nojs 6367.r1.7b90b15a21-1 1
 libpqmarble 1.3.0+12+gf240b2e-4 1
 libunity 7.1.4-15 4
 libzrtpcpp 4.7.0-2 1
@@ -294,11 +299,13 @@ mcomix 3.1.0-1 1
 mcomix-git 3.1.0.r6.gd593b73-1 1
 mcstatus 9.4.2-1 5
 mediawriter 5.0.6-1 4
-megasync-git 4.11.0.0.10.g11a78ec3d-1 1
+megasync-bin 5.2.1-4 1
+megasync-git 4.11.0.0.10.g11a78ec3d-1 2
 memavaild 0.6-2 3
 mendeleydesktop 1.19.8-1 4
 menulibre 1:2.4.0-1 1
 meowsql 0.4.18-1 2
+miktex 23.12-1 1
 minecraft-launcher 1:1.0.1221-1 4
 minigalaxy 1.2.6-1 1
 mkinitcpio-openswap 0.1.0-3 1
@@ -314,7 +321,7 @@ museeks-bin 0.13.1-1 1
 musikcube 3.0.2-1 1
 mutter-dynamic-buffering 46.1-1 1
 mutter-performance-beta 46rc-1 1
-mysql 8.2.0-1 1
+mysql 8.2.0-1 2
 mystiq 23.05.15-3 1
 nasc 0.8.0-2 3
 natron-bin 2.5.0-1 3
@@ -358,6 +365,7 @@ openbangla-keyboard 2.0.0-7 3
 openctm-tools 2:1.0.3-1 3
 openswan 3.0.0-1 1
 opentimelineio0.14 0.14.1-3 1
+openttd-git 29345.46d7586ab1-1 1
 optimus-manager 1.5-4 1
 optimus-manager-git 1.5.r34.ga3dc87d-1 1
 orage 4.18.0-1 3
@@ -394,6 +402,7 @@ plasma6-wallpapers-wallpaper-engine-git 0.5.4.r78.g96230de-1 1
 plex-media-player 2.58.1-3 10
 plots 0.8.5-1 1
 pm-utils 1.4.1-8 2
+podman-desktop 1.10.2-1 1
 pop-shell-shortcuts-git 1:r30.52cc83f-2 3
 prestopalette 0.1.31-1 3
 protonup-git 0.1.5.r4.g4ff9d54-1 1
@@ -538,16 +547,14 @@ q4wine-git 1.3.13.4.g82ced8e-1 3
 qadwaitadecorations 0.1.5-1 1
 qadwaitadecorations-git 0.1.5.r0.g8f7357c-1 1
 qflipper 1.3.3-1 1
-qnapi-git 0.2.3snapshot.r5.gd4e0378-1 4
 qoob-git 0.2.1.r0.g2e3ed22-1 7
 qpdftools 2.0.4-0 3
-qrab 0.4-3 3
 qsv 0.127.0-1 1
 qt-jdenticon 0.3.0-1 4
 qt-solutions-git 56.777e95b-1 2
 qt-virt-manager 0.72.99-4 5
 qt5-styleplugins 5.0.0.20170311-35 5
-qt5-webkit 5.212.0alpha4-23 1
+qt5-webkit 5.212.0alpha4-23 2
 qtfm 6.2.1-1 3
 quartus-130 13.0.1.232-1 1
 quickdocs 2.2.6-1 3
@@ -613,6 +620,8 @@ srb2kart 1.6-1 2
 ssacli 4.21.7.0-1 1
 startgame 1.2.3-1 1
 steamtinkerlaunch 12.12-1 2
+strawberry-full-git 1.0.23.r174.g9f2e4ac3-1 1
+strawberry-git 1.0.23.r174.g9f2e4ac3-1 1
 strawberry-qt5 1.0.23-1 3
 stylepak-git 18.0c4b0c1-1 3
 sunshine 0.23.1-1 1
@@ -645,6 +654,7 @@ timeshift-autosnap 0.9-1 3
 timetrack 2.2.0-1 1
 tlpui 2:1.6.5-1 1
 tpm2-pkcs11-git 1.9.0.r11.3f8d6e4-1 1
+tracktion-waveform 13.0.42-1 1
 trello 0.1.9-5 5
 trimage-git 1.0.6.r16.gad74684-1 5
 trizen 1:1.68-1 1
@@ -655,6 +665,7 @@ twinkle 1.10.3-1 3
 twinkle-git 1.10.3.r480.355813d-1 2
 uefitool-git r230.8d6fa65-1 2
 ulauncher 5.15.7-1 1
+ungoogled-chromium 123.0.6312.122-1 1
 usbaudio-git r4.6f46c43-1 4
 uuid 1.6.2-20 1
 vala-panel-appmenu-xfce-git 24.02.r32.gbada552-1 2
@@ -682,6 +693,7 @@ vosk-api 0.3.50-1 1
 vscodium-marketplace 1.65.0-1 3
 wahay-bin 6be34ec-1 3
 wdisplays-git 1.1.r15.g6233901-1 1
+webkit2gtk-imgpaste 2.44.1-1 1
 webwatcher-git r24.3d3099f-2 2
 whisper-git 2023.11.17.r2.gba3f3cd5-1 1
 whoogle 0.8.4-1 1
