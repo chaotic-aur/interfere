@@ -1,0 +1,2 @@
+# see https://gitlab.pyicu.org/main/pyicu/-/issues/169#note_973
+CXXFLAGS="${CXXFLAGS} -std=c++17"
