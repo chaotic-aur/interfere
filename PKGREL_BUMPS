@@ -141,7 +141,6 @@ fotokilof 4.4.8-1 1
 foxitreader 2.4.5.0727-1 3
 freac 1.1.7-1 2
 freecad-git 0.22.0.36846.gcd1f624afb-1 1
-freerdp-git 3.5.1.r100.g3dfd617e1-1 1
 friture 0.49-3 1
 fritzing 1.0.2-2 1
 frog-ocr 1.5.1-1 1
@@ -289,7 +288,6 @@ memavaild 0.6-2 3
 mendeleydesktop 1.19.8-1 4
 menulibre 1:2.4.0-1 1
 meowsql 0.4.18-1 2
-miktex 23.12-1 1
 minecraft-launcher 1:1.0.1221-1 4
 minigalaxy 1.2.6-1 1
 mkinitcpio-openswap 0.1.0-3 1
@@ -690,7 +688,7 @@ xfce4-panel-profiles 1.0.14-2 2
 xfce4-windowck-plugin-xfwm4-theme-support 1:0.4.5+139+g23d3432-1 2
 xfdashboard 1.0.0-1 3
 xkcdpass 1.19.9-1 1
-xml-security-c 2.0.4-1 2
+xml-security-c 2.0.4-1 3
 xplayer-plparser 1.0.3-1 1
 xviewer-plugins 1.4.1-3 3
 xwayland-run-git 0.0.3.r0.gd7538fa-1 1
