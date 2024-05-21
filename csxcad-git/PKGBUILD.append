@@ -1,8 +1,8 @@
 
 license=('LGPL-3.0-or-later')
 
-depends=('fparser' 'hdf5' 'tinyxml' 'vtk')
-makedepends=('cgal' 'cmake' 'nlohmann-json')
+depends=('fmt' 'fparser' 'hdf5' 'tinyxml' 'verdict' 'vtk')
+makedepends=('cgal' 'cmake' 'fast_float' 'nlohmann-json')
 
 pkgver() {
   cd "CSXCAD"
