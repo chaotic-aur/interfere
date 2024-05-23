@@ -30,6 +30,9 @@ makedepends=(
   'nlohmann-json'
   'openmpi'
 )
+optdepends=(
+  'chaotic-interfere: chaotic-aur interference tracker'
+)
 
 provides=('openems')
 conflicts=('openems')

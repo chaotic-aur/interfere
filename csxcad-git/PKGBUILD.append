@@ -24,6 +24,9 @@ makedepends=(
   'ninja'
   'nlohmann-json'
 )
+optdepends=(
+  'chaotic-interfere: chaotic-aur interference tracker'
+)
 
 provides=('csxcad')
 conflicts=('csxcad')

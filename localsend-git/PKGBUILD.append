@@ -26,6 +26,9 @@ makedepends=(
   'llvm'
   'ninja'
 )
+optdepends=(
+  'chaotic-interfere: chaotic-aur interference tracker'
+)
 
 conflicts=('localsend')
 provides=('localsend')

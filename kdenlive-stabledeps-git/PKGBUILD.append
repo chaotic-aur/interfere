@@ -49,6 +49,8 @@ makedepends=(
   qt6-tools
 )
 optdepends=(
+  'chaotic-interfere: chaotic-aur interference tracker'
+
   'bigsh0t: VR360 effects'
   'dvgrab: for firewire capture'
   'ffmpeg: for FFmpeg plugin'
