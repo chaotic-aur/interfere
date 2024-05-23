@@ -3,9 +3,9 @@
 # $CAUR_PUSH 'usermod -aG flutterusers main-builder'
 # $CAUR_PUSH 'chown -R main-builder:main-builder /opt/flutter'
 
-_chaotic_pkgver=1.19.2
+_chaotic_pkgver=1.20.0
 _chaotic_pkgrel=1
-_chaotic_shasum='547ef91a7e22d1a8133d666108d15768d752ccc65a0623a5e78fdc9426c54915'
+_chaotic_shasum='c8a0462a1729fc9feb7213af2266cc230dc61fad589b2507cdb4e8144a5fef19'
 
 _old_pkgver=$(sed -En '/^\s*pkgver=.*[0-9].*/ s/.*\=//p' PKGBUILD)
 
