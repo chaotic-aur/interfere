@@ -1,3 +1,0 @@
-#!/usr/bin/env sh
-
-sed -e 's/_vkd3d_source="[^"]*"/_vkd3d_source="https:\/\/github.com\/HansKristian-Work\/vkd3d-proton"/g' -i customization.cfg
