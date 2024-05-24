@@ -13,7 +13,6 @@ ananicy 2.2.1-1 4
 android-sdk 26.1.1-2 2
 angrysearch 1.0.4-1 5
 antimicrox 3.3.4-3 1
-appimagelauncher 2.2.0-6 5
 aqemu 0.9.4-2 4
 art-rawconverter-imageio 20230524-1 1
 artha 1.0.5-1 1
@@ -121,6 +120,7 @@ evdev-right-click-emulation 20190313.350939-1 1
 evopop-gtk-theme-git 2.9.99.r12.g6dce1c5-1 3
 exaile 4.1.3-1 1
 fairy-stockfish 14.0.1-7 1
+ffnvcodec-headers-12-1 12.1.14.0-1 1
 fiddler 4.6.20171.26113-1 3
 find-the-command 2.0.1-1 2
 find-the-command-git 2.0.1.r0.gfecba1a-1 1
@@ -129,7 +129,6 @@ fityk 1.3.2-1 3
 flare-engine 1.14-1 3
 flare-game 1.14-1 2
 flashfocus-git 2.4.1.r1.gdbe7a36-1 1
-flite1 1.4-6 1
 fmit 1.2.14-1 4
 fontdownloader 10.0.0-1 3
 fontfinder 1.4.1-1 3
@@ -251,7 +250,6 @@ lib32-sratom 0.6.14-1 1
 libavresample 4.4.1-1 4
 libcmrt 1.0.6-2 3
 libcotp 3.0.0-1 1
-libeb 4.4.3-10 1
 libgaminggear 0.15.1-8 4
 libgksu 2.0.12-9 3
 libinput-gestures 2.76-1 2
@@ -343,7 +341,6 @@ opentimelineio0.14 0.14.1-3 1
 optimus-manager 1.5-4 1
 optimus-manager-git 1.5.r34.ga3dc87d-1 1
 orage 4.18.0-1 3
-organize 2.2.0-1 5
 orjail 1.1-2 1
 os-prober-btrfs 1.79-5 1
 osdlyrics-git 0.5.15.r1.g33dc42a-1 2
@@ -385,7 +382,6 @@ pulseaudio-control 3.1.1-1 1
 pulseaudio-module-xrdp 0.7-1 1
 pulseeffects-legacy 4.8.7-1 5
 pure-ftpd 1.0.51-1 2
-pyinstaller 6.6.0-2 1
 python-acestream 0.2.0-2 1
 python-altgraph 0.17.4-1 1
 python-asyncio-dgram 1.2.0-1 4
@@ -464,7 +460,6 @@ python-pyfuse3 3.3.0-1 1
 python-pyglm 2.7.1-1 1
 python-pyjson5 1.6.4-1 1
 python-pyo 1.0.5-1 4
-python-pypdf2 1:2.12.1-3 3
 python-pypresence 4.3.0-2 1
 python-pyro5 5.15-1 1
 python-pyrr 0.10.3-1 4
@@ -551,7 +546,6 @@ safeeyes-git 2.1.6.r27.g00c3390-1 1
 scid 5.0.2-1 3
 scrap_engine-git 1.4.1-1 1
 sddm-theme-astronaut 1.0-1 3
-seafile 9.0.5-1 1
 searx 1.1.0-2 2
 searx-git 1.0.0.r491.g276ffd3f-1 1
 shadowsocks-gtk-rs 0.4.1-1 3
@@ -580,16 +574,12 @@ spectral-matrix-git 218.r648.g30028a2-1 4
 spleeter-git 2.4.0.r36.g13c771b-1 3
 split2flac 20200508-1 1
 spotdl 4.2.5-5 1
-spotify-tray-git 1.3.2.r9.g7ec6ac4-1 2
 srb2 2.2.13-1 1
 srb2kart 1.6-1 2
 ssacli 4.21.7.0-1 1
 startgame 1.2.3-1 1
 steamtinkerlaunch 12.12-1 2
-strawberry-full-git 1.0.23.r174.g9f2e4ac3-1 1
-strawberry-git 1.0.23.r174.g9f2e4ac3-1 1
 stylepak-git 18.0c4b0c1-1 3
-subtitlecomposer-qt6-git 0.8.0.r103.gd6e8215-1 1
 sunshine 0.23.1-1 1
 swaylock-git 1.7.2.r22.gf9ce3f1-1 1
 syncthing-gtk 0.9.4.5-1 2
@@ -605,7 +595,6 @@ telegram-tg-git 0.19.0.r3.2b0c0cf-2 1
 terasology 1:5.3.0alpha23-1 1
 termv-git v1.2-2 3
 texmacs 2.1.2-1 3
-text-engine 0.1.1-3 2
 themix-full-git 1.15.1-1 3
 themix-icons-archdroid-git 1.0.3.r0.gb90779de4-1 1
 themix-icons-gnome-colors-git 5.5.6.r0.gd2cb7eb-2 3
@@ -664,7 +653,6 @@ woeusb-ng 0.2.12-3 1
 wordnet 3.1-4 2
 wps-office-all-dicts-win-languages 11.2.0.9255-2 3
 write_stylus 300.r469-1 3
-xavs2 1.4-1 1
 xbox-generic-controller 0.1.2-1 3
 xcb-proto-git 1.17.0.r0.g77d7fc0-1 1
 xen 4.18.2-1 1
