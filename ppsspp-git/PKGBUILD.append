@@ -34,7 +34,7 @@ fi
 # basic info
 _pkgname="ppsspp"
 pkgname="${_pkgname}${_pkgtype:-}"
-pkgver=1.17.1.r74.g39fdba4f
+pkgver=1.17.1.r562.ga04ad1c
 pkgrel=1
 pkgdesc='PSP emulator written in C++'
 url="https://github.com/hrydgard/ppsspp"
@@ -115,20 +115,24 @@ _source_ppsspp() {
     'google.cpu_features'::'git+https://github.com/google/cpu_features.git'
     'hrydgard.minidx9'::'git+https://github.com/hrydgard/minidx9.git'
     'hrydgard.miniupnp'::'git+https://github.com/hrydgard/miniupnp.git'
+    'hrydgard.ppsspp-ffmpeg'::'git+https://github.com/hrydgard/ppsspp-ffmpeg.git'
     'hrydgard.ppsspp-freetype'::'git+https://github.com/hrydgard/ppsspp-freetype.git'
     'hrydgard.ppsspp-mac-sdl'::'git+https://github.com/hrydgard/ppsspp-mac-sdl.git'
+    'hrydgard.ppsspp-moltenvk'::'git+https://github.com/hrydgard/ppsspp-moltenvk.git'
     'hrydgard.pspautotests'::'git+https://github.com/hrydgard/pspautotests.git'
-    'hrydgard.rcheevos'::'git+https://github.com/hrydgard/rcheevos.git'
     'khronosgroup.glslang'::'git+https://github.com/KhronosGroup/glslang.git'
     'khronosgroup.openxr-sdk'::'git+https://github.com/KhronosGroup/OpenXR-SDK.git'
     'khronosgroup.spirv-cross'::'git+https://github.com/KhronosGroup/SPIRV-Cross.git'
     'kingcom.armips'::'git+https://github.com/Kingcom/armips.git'
     'libretro.libretro-common'::'git+https://github.com/libretro/libretro-common.git'
+    'retroachievements.rcheevos'::'git+https://github.com/RetroAchievements/rcheevos.git'
     'rtissera.libchdr'::'git+https://github.com/rtissera/libchdr.git'
     'tencent.rapidjson'::'git+https://github.com/Tencent/rapidjson.git'
     'unknownbrackets.ppsspp-debugger'::'git+https://github.com/unknownbrackets/ppsspp-debugger.git'
   )
   sha256sums+=(
+    'SKIP'
+    'SKIP'
     'SKIP'
     'SKIP'
     'SKIP'
@@ -169,15 +173,17 @@ _source_ppsspp() {
       'google.cpu_features'::'ext/cpu_features'
       'hrydgard.minidx9'::'dx9sdk'
       'hrydgard.miniupnp'::'ext/miniupnp'
+      'hrydgard.ppsspp-ffmpeg'::'ffmpeg'
       'hrydgard.ppsspp-freetype'::'ext/native/tools/prebuilt'
       'hrydgard.ppsspp-mac-sdl'::'SDL/macOS'
+      'hrydgard.ppsspp-moltenvk'::'ios/MoltenVK'
       'hrydgard.pspautotests'::'pspautotests'
-      'hrydgard.rcheevos'::'ext/rcheevos'
       'khronosgroup.glslang'::'ext/glslang'
       'khronosgroup.openxr-sdk'::'ext/OpenXR-SDK'
       'khronosgroup.spirv-cross'::'ext/SPIRV-Cross'
       'kingcom.armips'::'ext/armips'
       'libretro.libretro-common'::'libretro/libretro-common'
+      'retroachievements.rcheevos'::'ext/rcheevos'
       'rtissera.libchdr'::'ext/libchdr'
       'tencent.rapidjson'::'ext/rapidjson'
       'unknownbrackets.ppsspp-debugger'::'assets/debugger'
@@ -278,7 +284,7 @@ _source_tencent_rapidjson() {
 # common functions
 pkgver() {
   cd ppsspp
-  git describe --long --tags --abbrev=8 --exclude='*[a-zA-Z][a-zA-Z]*' \
+  git describe --long --tags --abbrev=7 --exclude='*[a-zA-Z][a-zA-Z]*' \
     | sed -E 's/^v//;s/([^-]*-g)/r\1/;s/-/./g'
 }
 
