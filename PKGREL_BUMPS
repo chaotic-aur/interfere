@@ -365,7 +365,6 @@ plasma6-wallpapers-wallpaper-engine-git 0.5.4.r78.g96230de-1 1
 plex-media-player 2.58.1-3 10
 plots 0.8.5-1 1
 pm-utils 1.4.1-8 2
-podman-desktop 1.10.2-1 1
 pop-shell-shortcuts-git 1:r30.52cc83f-2 3
 prestopalette 0.1.31-1 3
 protonup-git 0.1.5.r4.g4ff9d54-1 1
@@ -656,3 +655,4 @@ zenmap 7.94-2 1
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
 zulucrypt 6.2.0-1 3
+64gram-desktop 1:1.1.23-1 1
