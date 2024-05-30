@@ -1,3 +1,4 @@
+64gram-desktop 1:1.1.23-1 1
 a2ln 1.1.14-4 1
 acestream-launcher 2.1.0-4 1
 acidrip 0.14-10 6
@@ -14,7 +15,6 @@ android-sdk 26.1.1-2 2
 angrysearch 1.0.4-1 5
 antimicrox 3.3.4-3 1
 aqemu 0.9.4-2 4
-art-rawconverter-imageio 20230524-1 1
 artha 1.0.5-1 1
 asix-ax88179-dkms 1.20.0-2 1
 astrofox 1.4.0-3 5
@@ -181,7 +181,6 @@ googlemaps 20220503-1 2
 gr-foo-git r173.7c154d9-1 3
 gr-ieee802-11-git r367.ce70973-1 1
 gr-limesdr-git 3.0.1.r69.gd0fac85-2 2
-gr-lora_sdr-git 8133965-1 1
 grapejuice 7.20.12-2 1
 graphite-cursor-theme-git 2021.11.26.r9.g8773e95-1 2
 grass 8.3.1-1 2
@@ -229,12 +228,10 @@ komorebi 2.2.1-1 3
 krop 0.6.0-4 1
 kvantum-theme-matcha-git r11.a3b247b-1 3
 kvantum-theme-vimix-git 2021.09.05.r15.g29c4316-1 2
-kwin-effects-forceblur 1.2.0-1 1
 kwin-effects-sliding-notifications 1.5.0-1 2
 kwin-effects-yet-another-magic-lamp 5.27.0-1 2
 lanshare 1.2.1-8 3
 lbry-desktop-git 0.53.9.r10962.gd14c9141d-1 2
-lerc 4.0.0-1 1
 lib32-ffmpeg 2:6.1.1-2 1
 lib32-glslang 13.0.0-1 1
 lib32-liblrdf 0.6.1-3 1
@@ -274,7 +271,6 @@ matrix-registration 0.9.1-2 5
 mbuild 2022.07.28-1 1
 mcmojave-cursors-git r11.7d0bfc1-1 1
 mcomix 3.1.0-1 1
-mcomix-git 3.1.0.r6.gd593b73-1 1
 mcstatus 9.4.2-1 5
 mediawriter 5.0.6-1 4
 memavaild 0.6-2 3
@@ -402,9 +398,7 @@ python-gtts 2.5.1-1 1
 python-hdf5storage 0.1.19-2 1
 python-humblewx 0.2.2-1 4
 python-hwdata 2.4.1-1 1
-python-imagecodecs 2024.1.1-3 1
 python-imageio-ffmpeg 0.4.9-1 2
-python-imread 0.7.5-1 1
 python-iniparse-git 0.5.r21.gdbfd717-1 1
 python-injector 0.21.0-1 1
 python-inputs 0.5-4 1
@@ -426,7 +420,6 @@ python-node-semver 0.8.1-2 3
 python-nototools 0.2.13-1 4
 python-omemo-dr-git r87.c88f9d5-1 1
 python-openems-git v0.0.36.r15.g1ccf094-1 1
-python-openexr 1.3.9-2 1
 python-openrgb-git v0.2.15.r16.g43c8bda-1 1
 python-pa-ringbuffer 0.1.4-1 5
 python-palettable 3.3.3-2 1
@@ -655,4 +648,3 @@ zenmap 7.94-2 1
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
 zulucrypt 6.2.0-1 3
-64gram-desktop 1:1.1.23-1 1
