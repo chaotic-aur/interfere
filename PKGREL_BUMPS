@@ -1,4 +1,3 @@
-64gram-desktop 1:1.1.23-1 1
 a2ln 1.1.14-4 1
 acestream-launcher 2.1.0-4 1
 acidrip 0.14-10 6
@@ -13,7 +12,6 @@ anaconda 2024.02.1-1 1
 ananicy 2.2.1-1 4
 android-sdk 26.1.1-2 2
 angrysearch 1.0.4-1 5
-antimicrox 3.3.4-3 1
 aqemu 0.9.4-2 4
 artha 1.0.5-1 1
 asix-ax88179-dkms 1.20.0-2 1
@@ -350,6 +348,7 @@ pcem 17-4 2
 pcsxr 1.9.95-2 3
 pdf2png 0.5.3-1 3
 pdfquirk 0.95-1 3
+pdfsam 5.2.3-1 1
 pebbles-git r445.5e5e455-1 3
 pencil 3.1.1-2 2
 perl-file-rename 2.01-1 1
@@ -373,7 +372,6 @@ python-acestream 0.2.0-2 1
 python-altgraph 0.17.4-1 1
 python-asyncio-dgram 1.2.0-1 4
 python-backoff 2.2.1-2 1
-python-bibtexparser 1.4.1-2 1
 python-caldav 1.3.9-2 1
 python-casttube 0.2.1-4 4
 python-cinemagoer 2023.05.01-1 1
@@ -529,7 +527,6 @@ silo-primevideo 0.5-1 4
 simple-mtpfs 0.4.0-1 1
 simpleitk 2.3.1-1 1
 simplescreenrecorder 0.4.4-2 1
-sioyek-git 2.0.0.r890.gb312fe0-1 1
 sirula-git r68.b15efe8-1 1
 smooth 0.9.10-1 2
 snap-pac-grub 2.0.2-1 5
@@ -538,7 +535,6 @@ snapper-support 1.1.2-2 4
 snapper-tools 1.1.3-1 2
 snkrx-drmfree-git r118.6b93a64-1 3
 soapysdr-git 3:0.8.1.r94.g8c6cb7c-1 1
-soci 4.0.3-1 2
 solvespace 3.1-1 3
 soundcloud-nativefier 20230310-1 1
 soundux 0.2.7-3 1
