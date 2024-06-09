@@ -15,6 +15,8 @@ ananicy 2.2.1-1 5
 android-sdk 26.1.1-2 2
 angrysearch 1.0.4-1 5
 aqemu 0.9.4-2 4
+ares-emu 138-1 1
+ares-emu-git 138.r54.gfc7cdb57f-1 1
 artemis3 3.2.4-1 1
 artha 1.0.5-1 1
 asix-ax88179-dkms 1.20.0-2 1
@@ -38,7 +40,6 @@ blockout2 2.5-2 4
 bluetooth-autoconnect 1.3-1 5
 boca 1:1.0.7-1 3
 bookletimposer 1:0.3.1-2 1
-bookworm-git 1.1.2.r260.gdf3f289b-1 1
 bootiso 4.2.0-1 1
 bottles 2:51.11-2 1
 boxtron 0.5.4-1 7
@@ -105,7 +106,6 @@ densify 0.3.1-3 4
 detwinner 0.4.2-2 2
 digital 0.29-4 1
 diodon 1.13.0-2 2
-dockbarx 2:1.0beta3-1 1
 dotfonts-git r64.a768278-1 3
 downgrade 11.3.0-1 1
 downloader-cli 0.3.4-0 1
@@ -517,7 +517,6 @@ ripcord-arch-libs 0.4.29-3 2
 rocketlauncher2-git 0.1.0.2.r11.gbdb48cd-1 3
 runescape-launcher 2.2.11-1 2
 safeeyes 2.1.6-1 1
-safeeyes-git 2.1.6.r27.g00c3390-1 1
 scid 5.0.2-1 3
 scrap_engine-git 1.4.1-1 1
 sddm-theme-astronaut 1.0-1 3
@@ -561,7 +560,6 @@ synfigstudio-dev 1.5.1-1 4
 systemd-boot-pacman-hook 3-1 2
 systemd-guest-user 33.2-1 1
 systemd-manager-git 1.0.0.r12.g4efeb47-1 2
-targetcli-fb 2.1.56-1 1
 tartube 2.5.0-1 1
 teams 1.5.00.23861-1 4
 telegram-tg-git 0.19.0.r3.2b0c0cf-2 1
