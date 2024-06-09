@@ -1,0 +1,8 @@
+
+# build avx package every other day
+read _week _day <<< $(date '+%U %u' | sed -E 's@\b0@@g')
+if [[ $(( (_week + _day) % 2 )) == 1  ]] ; then
+  : ${_build_avx:=true}
+else
+  : ${_build_avx:=false}
+fi
