@@ -16,7 +16,6 @@ android-sdk 26.1.1-2 2
 angrysearch 1.0.4-1 5
 aqemu 0.9.4-2 4
 ares-emu 138-1 1
-ares-emu-git 138.r54.gfc7cdb57f-1 1
 artemis3 3.2.4-1 1
 artha 1.0.5-1 1
 asix-ax88179-dkms 1.20.0-2 1
@@ -96,7 +95,6 @@ criterion 2.4.2-2 1
 crudini 0.9.5-2 1
 curlew 0.2.5-4 1
 dashbinsh 0.1-5 1
-dataspell 2024.1.1-1 1
 davs2 1.7-1 1
 debtap 3.5.1-1 2
 dee 1.2.7-14 6
@@ -281,7 +279,6 @@ mendeleydesktop 1.19.8-1 4
 menulibre 1:2.4.0-1 1
 meowsql 0.4.18-1 2
 minecraft-launcher 1:1.0.1221-1 4
-minigalaxy 1.2.6-1 1
 mintstick 1.6.0-2 1
 mkinitcpio-openswap 0.1.0-3 1
 mmsd-git r648.f4b8b32-1 1
@@ -386,7 +383,6 @@ python-codegen 1.0-5 2
 python-csxcad-git v0.6.3.r2.gc6a1587-1 1
 python-dacite 1.8.1-2 1
 python-deezer-py 1.3.7-2 1
-python-desktop-entry-lib 4.2-1 1
 python-elgato-streamdeck 0.9.5-1 1
 python-enzyme 0.4.1-5 4
 python-exifread 3.0.0-2 4
@@ -626,6 +622,7 @@ write_stylus 300.r469-1 3
 xbox-generic-controller 0.1.2-1 4
 xboxdrv 0.8.9-1 1
 xcb-proto-git 1.17.0.r0.g77d7fc0-1 1
+xemu-git 0.7.122.r0.g2be220df98-1 1
 xen 4.18.2-1 1
 xfce-theme-manager 3.8-2 3
 xfce4-panel-profiles 1.0.14-2 2
