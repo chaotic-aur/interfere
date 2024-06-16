@@ -1,7 +1,7 @@
 
 _pkgname="gimp"
 pkgname="$_pkgname-git"
-pkgver=2.99.18.r300.g1e10476
+pkgver=2.99.18.r805.g9256a15
 pkgrel=1
 pkgdesc="GNU Image Manipulation Program"
 url="https://gitlab.gnome.org/GNOME/gimp"
@@ -47,6 +47,7 @@ makedepends=(
   cfitsio
   ghostscript
   gjs
+  glib2-devel
   gobject-introspection
   libheif
   libjxl
