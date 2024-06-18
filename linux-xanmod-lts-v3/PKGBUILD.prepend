@@ -7,7 +7,7 @@ _config=config_x86-64-v3
 
 use_numa=y
 use_tracers=n
-_compiler=clang
+#_compiler=clang
 
 _compress_modules=y
 _localmodcfg=n
