@@ -4,8 +4,7 @@
 # https://github.com/hrydgard/ppsspp
 
 # options
-: ${_build_full:=false}
-: ${_build_qt:=true}
+: ${_build_qt:=false}
 : ${_build_sdl:=true}
 
 : ${_build_ffmpeg:=false}
@@ -14,16 +13,6 @@
 : ${_build_git:=true}
 
 unset _pkgtype
-if [[ ${_build_full::1} == 't' ]] ; then
-  _pkgtype+='-full'
-  _build_qt=true
-  _build_sdl=true
-else
-  [[ "${_build_qt::1}" == "t" ]] && _pkgtype+='-qt'
-  [[ "${_build_sdl::1}" == "t" ]] && _pkgtype+='-sdl'
-  _pkgtype="${_pkgtype#-qt-sdl}"
-fi
-
 if [[ ${CARCH::1} == "a" ]] ; then
   _build_avx=false
 fi
@@ -34,7 +23,7 @@ fi
 # basic info
 _pkgname="ppsspp"
 pkgname="${_pkgname}${_pkgtype:-}"
-pkgver=1.17.1.r562.ga04ad1c
+pkgver=1.17.1.r785.gcbdb2a3
 pkgrel=1
 pkgdesc='PSP emulator written in C++'
 url="https://github.com/hrydgard/ppsspp"
@@ -50,8 +39,6 @@ _main_package() {
     snappy
 
     ## implicit
-    #gcc-libs
-    #glibc
     #libglvnd
     #libpng
     #zlib
@@ -65,18 +52,23 @@ _main_package() {
     lld
     ninja
     python
-
-    # qt
-    qt5-tools
-    qt5-base
-    qt5-multimedia
-
-    # sdl
-    sdl2_ttf
   )
   optdepends=(
     'chaotic-interfere: chaotic-aur interference tracker'
   )
+
+  if [[ "${_build_qt::1}" == "t" ]]; then
+    makedepends+=(
+      qt5-tools
+      qt5-base
+      qt5-multimedia
+    )
+  fi
+  if [[ "${_build_sdl::1}" == "t" ]]; then
+    makedepends+=(
+      sdl2_ttf
+    )
+  fi
 
   provides=(
     "ppsspp=${pkgver%%.r*}"
@@ -114,8 +106,6 @@ _source_ppsspp() {
     'facebook.zstd'::'git+https://github.com/facebook/zstd.git'
     'google.cpu_features'::'git+https://github.com/google/cpu_features.git'
     'hrydgard.minidx9'::'git+https://github.com/hrydgard/minidx9.git'
-    'hrydgard.miniupnp'::'git+https://github.com/hrydgard/miniupnp.git'
-    'hrydgard.ppsspp-ffmpeg'::'git+https://github.com/hrydgard/ppsspp-ffmpeg.git'
     'hrydgard.ppsspp-freetype'::'git+https://github.com/hrydgard/ppsspp-freetype.git'
     'hrydgard.ppsspp-mac-sdl'::'git+https://github.com/hrydgard/ppsspp-mac-sdl.git'
     'hrydgard.ppsspp-moltenvk'::'git+https://github.com/hrydgard/ppsspp-moltenvk.git'
@@ -125,13 +115,13 @@ _source_ppsspp() {
     'khronosgroup.spirv-cross'::'git+https://github.com/KhronosGroup/SPIRV-Cross.git'
     'kingcom.armips'::'git+https://github.com/Kingcom/armips.git'
     'libretro.libretro-common'::'git+https://github.com/libretro/libretro-common.git'
+    'miniupnp'::'git+https://github.com/miniupnp/miniupnp.git'
     'retroachievements.rcheevos'::'git+https://github.com/RetroAchievements/rcheevos.git'
     'rtissera.libchdr'::'git+https://github.com/rtissera/libchdr.git'
     'tencent.rapidjson'::'git+https://github.com/Tencent/rapidjson.git'
     'unknownbrackets.ppsspp-debugger'::'git+https://github.com/unknownbrackets/ppsspp-debugger.git'
   )
   sha256sums+=(
-    'SKIP'
     'SKIP'
     'SKIP'
     'SKIP'
@@ -172,8 +162,6 @@ _source_ppsspp() {
       'facebook.zstd'::'ext/zstd'
       'google.cpu_features'::'ext/cpu_features'
       'hrydgard.minidx9'::'dx9sdk'
-      'hrydgard.miniupnp'::'ext/miniupnp'
-      'hrydgard.ppsspp-ffmpeg'::'ffmpeg'
       'hrydgard.ppsspp-freetype'::'ext/native/tools/prebuilt'
       'hrydgard.ppsspp-mac-sdl'::'SDL/macOS'
       'hrydgard.ppsspp-moltenvk'::'ios/MoltenVK'
@@ -183,6 +171,7 @@ _source_ppsspp() {
       'khronosgroup.spirv-cross'::'ext/SPIRV-Cross'
       'kingcom.armips'::'ext/armips'
       'libretro.libretro-common'::'libretro/libretro-common'
+      'miniupnp'::'ext/miniupnp'
       'retroachievements.rcheevos'::'ext/rcheevos'
       'rtissera.libchdr'::'ext/libchdr'
       'tencent.rapidjson'::'ext/rapidjson'
