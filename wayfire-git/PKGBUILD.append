@@ -1,9 +1,4 @@
 
-depends+=(
-  'libdisplay-info'
-  'vulkan-icd-loader'
-)
-
 pkgver() {
   cd "wayfire"
   local _tag=$(git tag | sort -rV | head -1)
