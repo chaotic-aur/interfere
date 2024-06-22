@@ -205,7 +205,6 @@ gnome-shell-extension-space-bar-git 27.r0.g14b3ef5-1 1
 gnome-shell-extension-tiling-assistant-git 47.r16.g5af3a58-1 1
 gnome-shell-extension-top-bar-organizer 10-3 1
 gnome-shell-extension-ubuntu-dock-git 90ubuntu1.r1.g8004637c-1 1
-gnome-shell-extension-vitals-git 66.0.1.r0.g7c50c82-1 1
 gnome-shell-extension-x11gestures 17-1 2
 gnome-shell-performance 1:46.2-1 1
 goldendict-webengine-pr-git 22.12.02.r79.5a87a715.59363bc9-1 1
@@ -232,7 +231,6 @@ hfsprogs 540.1.linux3-4 3
 hlsdl 0.27-2 2
 hopper 0.1.0-1 1
 hsphfpd-git r29.d294d06-1 1
-hyprland-git 0.41.1.r56.4778afe2-1 1
 hyprpaper-git 0.7.0.r8.gf4abf59-1 1
 i3lock-fancy-git r193.55f5c30-1 2
 ialauncher-git r128.15ee45c-1 1
@@ -260,7 +258,6 @@ kega-fusion 3.63-17 3
 keyboard-visualizer-git release_4.00.r26.gb50cc50-1 3
 kf5-servicemenus-encfs 0.8-3 1
 klassy-git 6.1.breeze6.0.3.r1.g67f0584e-1 1
-kodi-git 21.0.r645.g3d14ee6-1 1
 kodi-stable-git 21.0.r119.gde4dc0c-1 1
 komorebi 2.2.1-1 3
 kvantum-theme-matcha-git r11.a3b247b-1 3
@@ -661,7 +658,7 @@ vim-vimwiki 2023.04.04_1-1 2
 vimiv-qt 0.9.0-1 1
 vital-synth 1.5.5-1 3
 vkbasalt-cli 3.1.1-2 1
-vmware-keymaps 1.0-3 1
+vmware-keymaps 1.0-3 2
 vscodium-marketplace 1.65.0-1 3
 wayfire 0.8.1-4 1
 wayfire-git 0.8.1.r172.gfc6bb25d-1 1
@@ -679,7 +676,6 @@ wine-installer 5.0.3-2 4
 wl-gammactl 1:r1.e238595-1 1
 wld-git r173.8990a83-1 1
 wlrobs-hg r69.e992db3deb92-1 1
-wlroots-git 0.17.0.r397.gbedc89093-1 1
 woeusb 5.2.4-1 1
 woeusb-ng 0.2.12-3 1
 wordnet 3.1-4 2
