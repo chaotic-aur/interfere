@@ -15,8 +15,6 @@ ananicy 2.2.1-1 5
 android-sdk 26.1.1-2 2
 angrysearch 1.0.4-1 5
 aqemu 0.9.4-2 4
-ares-emu 138-1 1
-artemis3 3.2.4-1 1
 artha 1.0.5-1 1
 asix-ax88179-dkms 1.20.0-2 1
 astrofox 1.4.0-3 5
@@ -190,7 +188,6 @@ green-recorder 3.2.10-1 5
 green-recorder-git 3.2.10.r9.g01203e1-1 1
 grub2-signing-extension 0.1.7-2 1
 gstreamer0.10-base 0.10.36-13 1
-gtg 0.6-7 1
 gtk-gnutella 1.2.2-1 1
 gtk2-patched-filechooser-icon-view 2.24.33-3 1
 gtkglarea 2.1.0-6 3
@@ -399,7 +396,6 @@ python-ite8291r3-ctl-git r22.d2c490a-4 1
 python-itunespy 1.6-2 4
 python-kiss-headers 2.4.3-1 1
 python-landlock 1.0.0.dev4-1 1
-python-lazy-loader 0.4-1 1
 python-liblarch 3.2.0-2 1
 python-manimpango 0.5.0-2 1
 python-markdownify 0.12.1-1 1
@@ -502,13 +498,11 @@ riftshare 0.1.9-4 3
 ripcord 0.4.29-1 2
 ripcord-arch-libs 0.4.29-3 2
 rocketlauncher2-git 0.1.0.2.r11.gbdb48cd-1 3
+rpcs3-git 0.0.32.r223.gbceaf46e2f-1 1
 runescape-launcher 2.2.11-1 2
-safeeyes 2.1.6-1 1
 scid 5.0.2-1 3
 scrap_engine-git 1.4.1-1 1
 sddm-theme-astronaut 1.0-1 3
-searx 1.1.0-2 2
-searx-git 1.0.0.r491.g276ffd3f-1 1
 shadowsocks-gtk-rs 0.4.1-1 3
 shortwave 1:3.2.0-1 3
 silo-netflix 0.6-1 4
@@ -518,7 +512,6 @@ simpleitk 2.3.1-1 1
 simplescreenrecorder 0.4.4-2 1
 sirula-git r68.b15efe8-1 1
 smooth 0.9.10-1 2
-snap-pac-grub 2.0.2-1 5
 snapper-gui-git 0.1+8.r132.20220626.1915750-1 0
 snapper-support 1.1.2-2 4
 snapper-tools 1.1.3-1 2
@@ -541,6 +534,7 @@ steam-metadata-editor-git 1.0.2.r77.77148d9-1 1
 steamtinkerlaunch 12.12-1 2
 stylepak-git 18.0c4b0c1-1 3
 sunshine 0.23.1-1 1
+suyu-dev-qt6-git r27439.daf2c1f496-1 1
 syncthing-gtk 0.9.4.5-1 2
 synfigstudio-dev 1.5.1-1 4
 systemd-boot-pacman-hook 3-1 2
@@ -607,7 +601,6 @@ wordnet 3.1-4 2
 wps-office-all-dicts-win-languages 11.2.0.9255-2 3
 write_stylus 300.r469-1 3
 xbox-generic-controller 0.1.2-1 4
-xboxdrv 0.8.9-1 1
 xcb-proto-git 1.17.0.r0.g77d7fc0-1 1
 xen 4.18.2-1 1
 xfce-theme-manager 3.8-2 3
