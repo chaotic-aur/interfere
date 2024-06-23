@@ -221,7 +221,6 @@ grimblast-git r104.29a8374-1 1
 grub2-signing-extension 0.1.7-2 1
 gstreamer0.10-base 0.10.36-13 1
 gtk-gnutella 1.2.2-1 1
-gtk2-patched-filechooser-icon-view 2.24.33-3 1
 gtkglarea 2.1.0-6 3
 haguichi 1.4.6-1 3
 hardcode-tray 4.3-3 5
@@ -229,7 +228,6 @@ hfsprogs 540.1.linux3-4 3
 hlsdl 0.27-2 2
 hopper 0.1.0-1 1
 hsphfpd-git r29.d294d06-1 1
-hyprland-git 0.41.1.r57.0b924f54-1 1
 hyprpaper-git 0.7.0.r8.gf4abf59-1 1
 i3lock-fancy-git r193.55f5c30-1 2
 ialauncher-git r128.15ee45c-1 1
@@ -268,10 +266,8 @@ kwin-effects-kinetic 2.0-1 1
 kwin-effects-sliding-notifications 1.5.0-1 3
 kwin-effects-yet-another-magic-lamp 5.27.0-1 3
 kwin-polonium 1.0rc-1 1
-kwin-scripts-krohnkite-git 0.9.5.r35.gbf7c5d6-1 1
 kwin-scripts-truely-maximized 1.1.0-1 1
 labwc 0.7.2-1 1
-labwc-git 0.7.2.r79.g14957080-1 1
 lanshare 1.2.1-8 3
 lbry-desktop-git 0.53.9.r10962.gd14c9141d-1 2
 lib32-ffmpeg 2:6.1.1-2 1
@@ -332,7 +328,6 @@ musikcube 3.0.2-1 1
 mutter-dynamic-buffering 46.2-1 1
 mutter-performance 1:46.2+r6+g62e559d75-3 0
 mutter-performance-beta 46rc-1 2
-mutter-x11-scaling 46.2-2 1
 mystiq 23.05.15-3 1
 nasc 0.8.0-2 3
 natron-git 1:1-1 1
@@ -346,7 +341,6 @@ nginx-mainline-mod-fancyindex 0.5.2-3 1
 nginx-mainline-mod-ndk 0.3.2-1 1
 nm-eduroam-ufscar 20190409-2 1
 nohang 0.2.0-1 4
-noisetorch 0.12.2-2 2
 non-euclidean-git r37.191fc4c-1 3
 nordpy 1.3.5-1 4
 notes 2.2.1-2 2
@@ -402,7 +396,6 @@ phoronix-test-suite 10.8.4-1 1
 photocollage 1.4.6-2 1
 pip-tools 7.4.1-1 1
 plasma-applets-weather-widget-2 3.0.4-1 1
-plasma5-applets-bigsur-inlinebattery 14.70890f2-1 1
 plasma5-applets-control-centre 0.1.0-1 1
 plasma5-applets-corner-menu 5.94d91bd-1 1
 plasma5-applets-latte-separator 0.1.2-1 1
@@ -601,7 +594,7 @@ steam-metadata-editor-git 1.0.2.r77.77148d9-1 1
 steamtinkerlaunch 12.12-1 2
 stylepak-git 18.0c4b0c1-1 3
 sunshine 0.23.1-1 1
-suyu-dev-qt6-git r27439.daf2c1f496-1 1
+suyu-dev-qt6-git r27439.daf2c1f496-1 2
 sway-git 1.10.r7350.cc34210-1 1
 swayfx 0.4-0 1
 swayhide 0.2.1-1 1
