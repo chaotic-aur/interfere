@@ -1,2 +1,0 @@
-depends+=(python-hdf5storage)
-makedepends+=(python-setuptools)
