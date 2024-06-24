@@ -1,7 +1,8 @@
-64gram-desktop 1:1.1.29-1 1
+64gram-desktop 1:1.1.29-1 2
 a2ln 1.1.14-4 1
 acestream-launcher 2.1.0-4 1
 acidrip 0.14-10 6
+across 0.1.3-2 1
 adbmanager 3.1-1 2
 adcli 0.9.2-1 2
 agenda 1.1.2-1 4
@@ -16,6 +17,7 @@ ananicy 2.2.1-1 5
 android-sdk 26.1.1-2 2
 angrysearch 1.0.4-1 5
 aqemu 0.9.4-2 4
+aqualung 1.2-2 1
 artha 1.0.5-1 1
 asix-ax88179-dkms 1.20.0-2 1
 astrofox 1.4.0-3 5
@@ -83,8 +85,10 @@ clight 4.11-1 1
 clipit 1.4.5-3 4
 codelite 17.0.0-0 3
 codon-bin 0.16.3-1 1
+colloid-gtk-theme-git 2024.06.18.r4.gdfff1a7-1 1
+compiz 0.9.14.2-6 1
 compiz-core 0.8.18-3 7
-compiz-git 0.9.14.2.r11.g8196e9c8-1 1
+compiz-git 0.9.14.2.r11.g8196e9c8-1 2
 connman-gtk 1.1.1-2 4
 consolekit 1.2.6-4 1
 contractor-git 0.3.5-1 1
@@ -124,6 +128,7 @@ evdev-right-click-emulation 20190313.350939-1 1
 evopop-gtk-theme-git 2.9.99.r12.g6dce1c5-1 3
 exaile 4.1.3-1 1
 fairy-stockfish 14.0.1-7 1
+feather-wallet 2.6.5-1 1
 ffnvcodec-headers-12-1 12.1.14.0-1 1
 fiddler 4.6.20171.26113-1 3
 find-the-command 2.0.1-1 2
@@ -141,6 +146,7 @@ fontfinder 1.4.1-1 3
 fonts-tlwg 0.7.3-1 1
 foo2zjs-nightly 20201127-1 3
 foobillard++ 3.42beta-7 3
+forkgram 5.1.8-2 1
 fotokilof 4.4.8-1 1
 foxitreader 2.4.5.0727-1 3
 freac 1.1.7-1 2
@@ -244,15 +250,19 @@ isomaster 1.3.16-1 2
 jamesdsp-pulse 2.7.0-3 1
 jdanimatedimageeditor 1.4-1 2
 jdminecraftlauncher 6.0-1 1
+jellyfin-media-player 1.11.1-2 1
+jellyfin-media-player-git r1806.c9c9506-1 1
 jitsi 2.11.5633-1 1
 jmencode 0.64-6 5
 kazam 1.4.5-9 6
 kdocker 5.4-1 3
 kega-fusion 3.63-17 3
 keyboard-visualizer-git release_4.00.r26.gb50cc50-1 3
+kicad-git 8.99.0.r1587.g4bf8ed32cd-1 1
 klassy-git 6.1.breeze6.0.3.r1.g67f0584e-1 1
 kodi-stable-git 21.0.r119.gde4dc0c-1 1
 komorebi 2.2.1-1 3
+kotatogram-desktop-git 1.4.14.r4897.g0c4ceba-4 1
 kvantum-theme-matcha-git r11.a3b247b-1 3
 kvantum-theme-vimix-git 2021.09.05.r15.g29c4316-1 2
 kwin-effect-rounded-corners-git 0.6.6.r11.ge93ff58-1 1
@@ -293,6 +303,7 @@ lutris-git 0.5.17.r226.g98f5322-1 1
 maestral 1.9.3-1 1
 maestral-qt 1.9.3-1 1
 masterpdfeditor-free 4.3.89-1 3
+mastodon 4.2.9-1 1
 mate-hud 22.10.3-1 5
 mate-menu 22.04.2-1 4
 mate-tweak 22.10.0-3 4
@@ -303,6 +314,7 @@ matrix-registration 0.9.1-2 5
 mbuild 2022.07.28-1 1
 mcmojave-cursors-git r11.7d0bfc1-1 1
 mcomix 3.1.0-1 1
+mcpelauncher-ui-git 0.15.0.r0.g8ba3a05-1 1
 mcstatus 9.4.2-1 5
 mediawriter 5.0.6-1 4
 memavaild 0.6-2 4
@@ -324,6 +336,7 @@ mystiq 23.05.15-3 1
 nasc 0.8.0-2 3
 natron-git 1:1-1 1
 natron-plugins-git 2.1.7.r1201.gb0c499f-1 1
+nekoray 3.26-7 1
 neovim-drop-in 1-1 1
 neovim-remote 2.5.1-1 4
 nginx-mainline-mod-brotli 1:1.0.0rc-5 1
@@ -352,6 +365,7 @@ obsidian-icon-theme-git 4.15.r1.g4cccdd3f-1 1
 ocs-url 3.1.0-7 3
 odr-dabmod-git 2.6.0.r0.g451a7fa-1 5
 ofono 1.34-1 1
+ola 0.10.9-7 1
 openbangla-keyboard 2.0.0-7 3
 openctm-tools 2:1.0.3-1 3
 openswan 3.0.0-1 1
@@ -362,6 +376,7 @@ orjail 1.1-2 1
 os-prober-btrfs 1.79-5 1
 osdlyrics-git 0.5.15.r1.g33dc42a-1 2
 otf-firamath 0.4_beta_3-1 2
+otpclient 3.6.0-1 1
 overdue 1.1.1-1 3
 pa-applet-git r19.3b4f8b3-8 3
 pacdiff-pacman-hook-git r97.313dd92-1 1
@@ -396,10 +411,11 @@ plasma5-themes-chromeos-git r84.f8074d3-1 1
 plasma6-applets-window-title 0.5-1 1
 plasma6-wallpapers-blurredwallpaper 3.0.1-1 1
 plasma6-wallpapers-wallpaper-engine-git 0.5.4.r82.g1e60410-1 1
-plex-media-player 2.58.1-3 10
+plex-media-player 2.58.1-3 11
 plots 0.8.5-1 1
 pm-utils 1.4.1-8 2
 pokemon-colorscripts-git r112.0483c85b-2 1
+pokerth 1.1.2-37 1
 pop-shell-shortcuts-git 1:r30.52cc83f-2 3
 prelockd 0.9-3 1
 prestopalette 0.1.31-1 3
@@ -547,7 +563,6 @@ ripcord 0.4.29-1 2
 ripcord-arch-libs 0.4.29-3 2
 river-git 0.3.2.r11.gc5b1d1d-1 1
 rocketlauncher2-git 0.1.0.2.r11.gbdb48cd-1 3
-rpcs3-git 0.0.32.r223.gbceaf46e2f-1 1
 runescape-launcher 2.2.11-1 2
 scenefx 0.1-1 1
 scid 5.0.2-1 3
@@ -582,6 +597,8 @@ ssacli 4.21.7.0-1 1
 startgame 1.2.3-1 1
 steam-metadata-editor-git 1.0.2.r77.77148d9-1 1
 steamtinkerlaunch 12.12-1 2
+strawberry-full-git 1.0.23.r262.ga7a42ea5-1 1
+strawberry-git 1.0.23.r262.ga7a42ea5-1 1
 stylepak-git 18.0c4b0c1-1 3
 sunshine 0.23.1-1 1
 suyu-dev-qt6-git r27439.daf2c1f496-1 2
@@ -596,6 +613,7 @@ systemd-manager-git 1.0.0.r12.g4efeb47-1 2
 tartube 2.5.0-1 1
 teams 1.5.00.23861-1 4
 telegram-tg-git 0.19.0.r3.2b0c0cf-2 1
+termusic 0.9.0-1 1
 termv-git v1.2-2 3
 themix-full-git 1.15.1-1 3
 themix-icons-archdroid-git 1.0.3.r0.gb90779de4-1 1
@@ -686,5 +704,3 @@ zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
 zenstates-git r6.0bc27f4-1 1
 zulucrypt 6.2.0-1 3
-aqualung 1.2-2 1
-colloid-gtk-theme-git 2024.06.18.r4.gdfff1a7-1 1
