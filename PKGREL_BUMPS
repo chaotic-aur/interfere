@@ -348,7 +348,7 @@ obs-backgroundremoval 1.1.13-1 1
 obs-gstreamer 1:0.4.0-1 4
 obs-rtspserver 3.1.0-1 1
 obs-streamfx-unstable 0.12.0b299-3 3
-obs-studio-stable 30.1.2-1 1
+obs-studio-stable 30.1.2-1 2
 obsidian-icon-theme-git 4.15.r1.g4cccdd3f-1 1
 ocs-url 3.1.0-7 3
 odr-dabmod-git 2.6.0.r0.g451a7fa-1 5
