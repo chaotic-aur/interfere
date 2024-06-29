@@ -1,3 +1,0 @@
-
-: ${_autoupdate:=true}
-: ${_build_git:=false}
