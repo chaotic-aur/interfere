@@ -4,26 +4,15 @@
 # https://github.com/obsproject/cef
 
 ## options
-: ${_autoupdate:=true}
-
 : ${_build_cef:=false}
 
 : ${_plugin_aja:=false}
 : ${_plugin_webrtc:=false}
 
-: ${_build_git:=true}
-
-unset _pkgtype
-if [[ "${_build_git::1}" == "t" ]]; then
-  _pkgtype+="-git"
-else
-  _pkgtype+="-stable"
-fi
-
 ## basic info
 _pkgname="obs-studio"
-pkgname="$_pkgname${_pkgtype:-}"
-pkgver=30.1.2.r101.ga3a8f6d
+pkgname="$_pkgname-git"
+pkgver=30.1.2.r365.g9d67bf2
 pkgrel=1
 pkgdesc="Free, open source software for live streaming and recording - Browser enabled"
 url="https://github.com/obsproject/obs-studio"
@@ -93,11 +82,9 @@ _main_package() {
 
   options=(!debug)
 
-  if [ "${_build_git::1}" != "t" ]; then
-    _main_stable
-  else
-    _main_git
-  fi
+  _pkgsrc="$_pkgname"
+  source+=("$_pkgsrc"::"git+$url.git")
+  sha256sums+=('SKIP')
 
   # cef
   if [ "${_build_cef::1}" == "t" ]; then
@@ -224,35 +211,15 @@ _source_cef() {
   }
 }
 
-# stable package
-_main_stable() {
-  _update_version
-
-  _pkgsrc="$_pkgname"
-  source+=("$_pkgsrc"::"git+$url.git#tag=$_pkgver")
-  sha256sums+=('SKIP')
-
-  pkgver() {
-    echo "${_pkgver:?}"
-  }
-}
-
-# git package
-_main_git() {
-  _pkgsrc="$_pkgname"
-  source+=("$_pkgsrc"::"git+$url.git")
-  sha256sums+=('SKIP')
-
-  pkgver() {
-    cd "$_pkgsrc"
-    local _version=$(git tag | grep -Ev '.*[a-z]{2}.*' | sort -rV | head -1)
-    local _revision=$(git rev-list --count --cherry-pick "$_version"...HEAD)
-    local _hash=$(git rev-parse --short=7 HEAD)
-    printf '%s.r%s.g%s' "${_version:?}" "${_revision:?}" "${_hash:?}"
-  }
-}
-
 # common functions
+pkgver() {
+  cd "$_pkgsrc"
+  local _version=$(git tag | grep -Ev '.*[a-z]{2}.*' | sort -rV | head -1)
+  local _revision=$(git rev-list --count --cherry-pick "$_version"...HEAD)
+  local _hash=$(git rev-parse --short=7 HEAD)
+  printf '%s.r%s.g%s' "${_version:?}" "${_revision:?}" "${_hash:?}"
+}
+
 prepare() {
   _submodule_update() {
     local key
@@ -317,29 +284,6 @@ package() {
 
   # fix permissions
   chmod -R u=rwX,go=rX "$pkgdir"
-}
-
-# update version
-_update_version() {
-  : ${_pkgver:=$pkgver}
-
-  if [[ "${_autoupdate::1}" != "t" ]]; then
-    return
-  fi
-
-  local _response=$(curl -Ssf "$url/releases.atom")
-  local _tag=$(
-    printf '%s' "$_response" \
-      | grep '/releases/tag/' \
-      | sed -E 's@^.*/releases/tag/(.*)".*$@\1@' \
-      | grep -Ev '[a-z]{2}' | sort -V | tail -1
-  )
-  local _pkgver_new="${_tag#v}"
-
-  # update _pkgver
-  if [ "$_pkgver" != "${_pkgver_new:?}" ]; then
-    _pkgver="${_pkgver_new:?}"
-  fi
 }
 
 # execute
