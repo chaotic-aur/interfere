@@ -1,4 +1,0 @@
-#!/usr/bin/env sh
-
-# clear PKGBUILD
-truncate -s 0 PKGBUILD
