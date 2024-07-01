@@ -1,4 +1,131 @@
+# Maintainer:
 
+## links
+# https://fluffychat.im/
+# https://github.com/krille-chan/fluffychat
+
+## options
+if [ -n "$_srcinfo" ] || [ -n "$_pkgver" ]; then
+  : ${_autoupdate:=false}
+else
+  : ${_autoupdate:=true}
+fi
+
+: ${_fvm_version:=3.19.6}
+
+## basic info
+_pkgname="fluffychat"
+pkgname="$_pkgname"
+pkgver=1.21.1
+pkgrel=1
+pkgdesc="The cutest instant messenger in the [matrix]"
 url="https://github.com/krille-chan/fluffychat"
+license=('AGPL-3.0-only')
+arch=('x86_64')
 
-makedepends=('flutter-bin')
+_main_package() {
+  depends=(
+    'gtk3'
+    'jsoncpp'
+    'libolm'
+    'libsecret'
+    'openssl'
+    'xdg-user-dirs'
+    'zenity'
+  )
+  makedepends=(
+    'clang'
+    'cmake'
+    'fvm'
+    'git'
+    'lld'
+    'llvm'
+    'ninja'
+  )
+
+  provides=("$_pkgname")
+  conflicts=("$_pkgname")
+
+  options=('!strip' '!debug')
+
+  _pkgsrc="$_pkgname-$_pkgver"
+  _pkgext="tar.gz"
+  source=("$_pkgsrc.$_pkgext"::"$url/archive/refs/tags/v$_pkgver.$_pkgext")
+  sha256sums=('SKIP')
+}
+
+build() {
+  export FVM_CACHE_PATH="$SRCDEST/fvm-cache"
+
+  cd "$_pkgsrc"
+  fvm install $_fvm_version
+  fvm global $_fvm_version
+
+  fvm flutter --disable-analytics
+  #fvm flutter pub upgrade --major-versions
+  fvm flutter pub get
+  fvm flutter build linux --no-pub --release
+}
+
+package() {
+  cd "$_pkgsrc/build/linux/x64/release"
+  cmake -DCMAKE_INSTALL_PREFIX="$pkgdir/usr/lib/$_pkgname" .
+  cmake -P cmake_install.cmake
+
+  # symlink
+  install -dm755 "$pkgdir/usr/bin"
+  ln -s "/usr/lib/$_pkgname/$_pkgname" "$pkgdir/usr/bin/$_pkgname"
+
+  # license
+  install -Dm644 "$srcdir/$_pkgname-$_pkgver/LICENSE" -t "$pkgdir/usr/share/licenses/$pkgname/"
+
+  # icon
+  install -Dm644 "$srcdir/$_pkgname-$_pkgver/assets/favicon.png" "$pkgdir/usr/share/pixmaps/$_pkgname.png"
+
+  # launcher
+  install -Dm644 /dev/stdin "$pkgdir/usr/share/applications/$_pkgname.desktop" << END
+[Desktop Entry]
+Type=Application
+Name=FluffyChat
+Comment=$pkgdesc
+Exec=$_pkgname
+Icon=$_pkgname
+SingleMainWindow=true
+StartupWMClass=chat.fluffy.fluffychat
+Terminal=false
+StartupNotify=false
+Categories=Network;InstantMessaging;Chat;MatrixClient
+X-Purism-FormFactor=Workstation;Mobile;
+END
+}
+
+# update version
+_update_version() {
+  : ${_pkgver:=${pkgver%%.r*}}
+
+  if [[ "${_autoupdate::1}" != "t" ]]; then
+    return
+  fi
+
+  local _response=$(curl -Ssf "$url/releases.atom")
+  local _tag=$(
+    printf '%s' "$_response" \
+      | grep '"https://.*/releases/tag/.*"' \
+      | sed -E 's@^.*/releases/tag/(.*)".*$@\1@' \
+      | grep -Ev '[a-z]{2}' | sort -rV | head -1
+  )
+  local _pkgver_new="${_tag#v}"
+
+  # update _pkgver
+  if [ "$_pkgver" != "${_pkgver_new:?}" ]; then
+    _pkgver="${_pkgver_new:?}"
+  fi
+
+  pkgver() {
+    echo "${_pkgver:?}"
+  }
+}
+
+# execute
+_update_version
+_main_package
