@@ -1,15 +1,18 @@
 # Maintainer:
 
-## options
+## links
+# https://localsend.org/
+# https://github.com/localsend/localsend
 
+## options
 : ${_install_path:=opt}
 
 # basic info
 _pkgname="localsend"
 pkgname="$_pkgname-git"
-pkgver=1.14.0.r72.gf6c0bf1
+pkgver=1.14.0.r89.g1095418
 pkgrel=2
-pkgdesc='An open source cross-platform alternative to AirDrop'
+pkgdesc="An open source cross-platform alternative to AirDrop"
 url="https://github.com/localsend/localsend"
 license=('MIT')
 arch=('x86_64')
@@ -25,13 +28,14 @@ makedepends=(
   'lld'
   'llvm'
   'ninja'
+  'patchelf'
 )
 optdepends=(
   'chaotic-interfere: chaotic-aur interference tracker'
 )
 
-conflicts=('localsend')
-provides=('localsend')
+conflicts=("$_pkgname=${pkgver%%.r*}")
+provides=("$_pkgname")
 
 _pkgsrc="$_pkgname"
 source=("$_pkgsrc"::"git+$url.git")
@@ -44,11 +48,15 @@ pkgver() {
 }
 
 build() {
-  cd "$_pkgsrc/app"
+  export FVM_CACHE_PATH="$SRCDEST/fvm-cache"
 
+  cd "$_pkgsrc/app"
   fvm install
+
+  fvm flutter --disable-analytics
+  #fvm flutter pub upgrade --major-versions
   fvm flutter pub get
-  fvm flutter build linux
+  fvm flutter build linux --release
 }
 
 package() {
@@ -59,26 +67,34 @@ package() {
   cp --reflink=auto -r lib/ "$pkgdir/$_install_path/$_pkgname/"
   cp --reflink=auto -r data/ "$pkgdir/$_install_path/$_pkgname/"
 
+  # runpath
+  patchelf --force-rpath --set-rpath "/$_install_path/$_pkgname/lib" "$pkgdir/$_install_path/$_pkgname/$_pkgname"
+  for i in "$pkgdir/$_install_path/$_pkgname/lib"/*.so; do
+    patchelf --force-rpath --set-rpath "/$_install_path/$_pkgname/lib" "$i"
+  done
+
   # symlink
   install -dm755 "${pkgdir}/usr/bin"
   ln -sfr "$pkgdir/$_install_path/$_pkgname/$_pkgname" "$pkgdir/usr/bin/${_pkgname}"
 
   # icon
-  install -Dm644 "$srcdir/$_pkgname/app/build/flutter_assets/assets/img/logo-512.png" "$pkgdir/usr/share/pixmaps/localsend.png"
+  install -Dm644 "$srcdir/$_pkgname/app/build/flutter_assets/assets/img/logo-512.png" "$pkgdir/usr/share/pixmaps/$_pkgname.png"
 
   # .desktop file
-  install -Dm644 /dev/stdin "$pkgdir/usr/share/applications/$_pkgname.desktop" <<END
+  install -Dm644 /dev/stdin "$pkgdir/usr/share/applications/$_pkgname.desktop" << END
 [Desktop Entry]
 Type=Application
-Comment=An open source cross-platform alternative to AirDrop 
-Name=localsend
-Exec=localsend
-Icon=localsend
+Name=LocalSend
+Comment=$pkgdesc
+Exec=$_pkgname
+Icon=$_pkgname
 Terminal=false
-Hidden=false
 Categories=Utility;Network;
 END
 
   #license
-  install -Dm644 "$srcdir/$_pkgsrc/LICENSE" -t "$pkgdir/usr/share/licenses/$pkname/"
+  install -Dm644 "$srcdir/$_pkgsrc/LICENSE" -t "$pkgdir/usr/share/licenses/$pkgname/"
+
+  # permissions
+  chmod -R u+rwX,go+rX,go-w "$pkgdir/"
 }
