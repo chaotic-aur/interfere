@@ -115,15 +115,10 @@ _main_package() {
 
 # submodules
 _source_obs_studio() {
-  local _commit_patch='057e884f22a1367ccb6232e9c56820a91a4dfbbf'
-  local _url_patch="https://gitlab.archlinux.org/archlinux/packaging/packages/obs-studio/-/raw/${_commit_patch}"
-
   source+=(
     'mixer.ftl-sdk'::'git+https://github.com/Mixer/ftl-sdk.git'
     'obsproject.obs-browser'::'git+https://github.com/obsproject/obs-browser.git'
     'obsproject.obs-websocket'::'git+https://github.com/obsproject/obs-websocket.git'
-
-    "0001-obs-ffmpeg-${_commit_patch::7}.patch"::"$_url_patch/0001-obs-ffmpeg-Fix-incompatible-pointer-types-with-FFmpe.patch"
   )
 
   sha256sums+=(
@@ -142,18 +137,6 @@ _source_obs_studio() {
       ['obsproject.obs-websocket']='plugins/obs-websocket'
     )
     _submodule_update
-
-    local src
-    for src in "${source[@]}"; do
-      src="${src%%::*}"
-      src="${src##*/}"
-      src="${src%.zst}"
-      if [[ $src == *.patch ]]; then
-        printf '\nApplying patch: %s\n' "$src"
-        patch -Np1 -F100 -i "${srcdir:?}/$src"
-      fi
-    done
-  )
 }
 
 _source_mixer_ftl_sdk() {
