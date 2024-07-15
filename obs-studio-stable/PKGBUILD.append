@@ -137,6 +137,7 @@ _source_obs_studio() {
       ['obsproject.obs-websocket']='plugins/obs-websocket'
     )
     _submodule_update
+  )
 }
 
 _source_mixer_ftl_sdk() {
