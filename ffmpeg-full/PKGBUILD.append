@@ -1,0 +1,8 @@
+epoch=2
+
+depends=(${depends[@]//opencv*})
+
+provides=(
+  ${provides[@]//ffmpeg*}
+  "ffmpeg=$epoch:$pkgver"
+)

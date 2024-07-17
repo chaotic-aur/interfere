@@ -3,4 +3,7 @@
 $CAUR_PUSH 'source /etc/profile'
 $CAUR_PUSH 'export PATH=/opt/cuda/bin:$PATH'
 
-sed -E -e 's@--enable-nvenc\b@--disable-nvenc@' -i PKGBUILD
+sed -E \
+  -e 's@--enable-nvenc\b@--disable-nvenc@' \
+  -e 's@--enable-opencv\b@--disable-opencv@' \
+  -i PKGBUILD
