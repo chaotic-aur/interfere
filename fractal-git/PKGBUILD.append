@@ -1,6 +1,8 @@
 unset epoch
 unset replaces
 
+license=('GPL-3.0-or-later')
+
 provides=("fractal=${pkgver%%.r*}")
 conflicts=("fractal")
 
