@@ -33,7 +33,6 @@ bluetooth-autoconnect 1.3-1 5
 boca 1:1.0.7-1 3
 bookletimposer 1:0.3.1-2 1
 bootiso 4.2.0-1 1
-bottles 2:51.11-2 1
 boxtron 0.5.4-1 7
 bpytop-git 1.0.68.r3.gac0f666-1 4
 brickadia-launcher 1.5-1 4
@@ -601,7 +600,7 @@ xcb-proto-git 1.17.0.r0.g77d7fc0-1 1
 xen 4.18.2-1 1
 xfce-theme-manager 3.8-2 3
 xfce4-panel-profiles 1.0.14-2 2
-xfce4-windowck-plugin-xfwm4-theme-support 1:0.4.5+139+g23d3432-1 2
+xfce4-windowck-plugin-xfwm4-theme-support 1:0.4.5+139+g23d3432-1 3
 xfdashboard 1.0.0-1 3
 xkcdpass 1.19.9-1 1
 xml-security-c 2.0.4-1 3
