@@ -15,9 +15,7 @@ ananicy-cpp-git 1.1.1.r5.g097d79f-1 1
 android-sdk 26.1.1-2 2
 aqemu 0.9.4-2 4
 archiso-git 79.r0.gfa3aba3-1 1
-ardour-git 8.6.r375.g5d02970de8-1 1
 ares-emu 139-1 1
-ares-emu-avx-git 139.r20.gcac454a-1 1
 ares-emu-git 139.r22.gffe9722-1 1
 artha 1.0.5-1 1
 asbru-cm-git 6.4.0.r17.gcfa73e1-1 1
@@ -57,6 +55,7 @@ cassowary 0.6-1 5
 catia-git r1062.78b0307-1 3
 catt 0.12.12-1 1
 cava 0.10.2-2 1
+cava-git r955.3f6e931-1 1
 cecilia-git 5.4.1.r15.gc592f8e-1 3
 celestia-addon-2009_exoplanets 1.0-2 2
 celestia-addon-2010_exoplanets 1.0-2 2
@@ -96,10 +95,7 @@ codon-bin 0.16.3-1 1
 compiz-core 0.8.18-3 7
 connman-gtk 1.1.1-2 4
 consolekit 1.2.6-4 1
-cosmic-comp-git r1183.9239dc1-1 1
 cosmic-osd-git r109.27fc5e5-1 1
-cosmic-settings-daemon-git r68.54700df-1 1
-cosmic-settings-git r452.a9dda39-1 1
 cpupower-gui 1.0.0-5 3
 crazydiskinfo 1.1.0-2 2
 criterion 2.4.2-2 1
@@ -117,7 +113,6 @@ detwinner 0.4.2-2 2
 digital 0.29-4 1
 diodon 1.13.0-2 2
 discord-screenaudio 1.10.1-1 1
-dolphin-emu-avx-git 2407.r115.g0c18393-1 1
 dolphin-emu-git 2407.r117.g8a50676-1 1
 dolphin-emu-primehack-git 1.1.2.r8.g7c6cd79-1 1
 doomrunner 1.8.2-2 1
@@ -178,7 +173,6 @@ gdm-plymouth-prime 43.0-1 4
 gdm-prime 46.2-1 1
 gdm-settings 4.4-2 1
 gdm-settings-git 4.3+17+g4949544-1 0
-geeqie-git 2.4.r252.g829500e-1 1
 gestures 0.3.1-1 4
 giada 1.0.0-1 1
 gifcurry 6.0.1.0_0-1 4
@@ -205,7 +199,6 @@ gnome-shell-extension-fly-pie-git 26.r5.ga10b724-1 1
 gnome-shell-extension-gnome-ui-tune-git 1.9.0.r0.g738bb67-1 1
 gnome-shell-extension-gsconnect 2:57-1 1
 gnome-shell-extension-hide-activities-git 46.r0.g8f09198-1 1
-gnome-shell-extension-logo-menu 21.8-1 1
 gnome-shell-extension-material-shell 44-1 2
 gnome-shell-extension-rounded-window-corners 11-5 1
 gnome-shell-extension-space-bar-git 27.r0.g14b3ef5-1 1
@@ -230,7 +223,6 @@ hardcode-tray 4.3-3 5
 hfsprogs 540.1.linux3-4 3
 hsphfpd-git r29.d294d06-1 1
 hypridle-git 0.1.2.r10.ge5366d34-1 1
-hyprland-git 0.41.2.r155.09bb5658-1 1
 i3lock-fancy-git r193.55f5c30-1 2
 ialauncher-git r128.15ee45c-1 1
 ice-ssb 6.0.8-1 3
@@ -258,11 +250,8 @@ kdocker 5.4-1 3
 kega-fusion 3.63-17 3
 kernel-install-mkinitcpio 1.8-1 1
 keyboard-visualizer-git release_4.00.r26.gb50cc50-1 3
-kicad-git 8.99.0.r1920.ga7d493a6a5-1 1
 klassy-git 6.1.breeze6.0.3.r1.g67f0584e-1 1
 komorebi 2.2.1-1 3
-kotatogram-desktop 1.4.9-3 1
-kotatogram-desktop-git 1.4.14.r4897.g0c4ceba-4 2
 kvantum-theme-matcha-git r11.a3b247b-1 3
 kvantum-theme-vimix-git 2021.09.05.r15.g29c4316-1 2
 kwin-effects-kinetic 2.0-1 1
@@ -324,20 +313,18 @@ mendeleydesktop 1.19.8-1 4
 menulibre 1:2.4.0-1 1
 meowsql 0.4.18-1 3
 micromamba 1.5.8-1 1
-minetest-git 1:5.8.0.r638.g8bff2f23c6-1 1
 minq-ananicy-git 2.2.1.r331.g1568890-1 1
 mkinitcpio-openswap 0.1.0-3 1
 mmsd-git r648.f4b8b32-1 1
-mold-git 2.32.1.r122.gdd8d9714-1 1
 mongodb 7.0.11-1 1
 movie-monad 0.0.7.0_0-1 4
-mpc-qt 23.12-1 1
 mpd-notification 0.9.1-1 1
 mpv-full 0.38.0-1 1
 mpv-full-git 0.38.0.r667.g5f768a688b-1 1
 mpv-vapoursynth-git 0.38.0.r641.g6107112b32-1 1
 mugshot 0.4.3-3 4
 multibootusb 9.2.0-5 4
+musikcube 3.0.4-1 1
 mutter-dynamic-buffering 46.3.1-1 1
 mutter-performance 1:46.3.1+r3+g7e0e42801-1 0
 mutter-x11-scaling 46.3.1-1 1
@@ -358,6 +345,7 @@ nginx-mainline-mod-fancyindex 0.5.2-3 1
 nginx-mainline-mod-ndk 0.3.2-1 1
 nm-eduroam-ufscar 20190409-2 1
 nohang 0.2.0-1 5
+noisetorch 0.12.2-3 1
 non-euclidean-git r37.191fc4c-1 3
 nordpy 1.3.5-1 5
 notes 2.2.1-2 2
@@ -435,8 +423,8 @@ proftpd 2:1.3.8b-2 1
 protonplus 0.4.15-1 1
 protonup-git 0.1.5.r4.g4ff9d54-1 1
 pspp 2.0.1-2 1
-pulseaudio-control 3.1.1-1 1
-pulseaudio-module-xrdp 0.7-1 1
+pulseaudio-control 3.1.1-1 2
+pulseaudio-module-xrdp 0.7-1 2
 pulseeffects-legacy 4.8.7-1 5
 pure-ftpd 1.0.51-1 2
 python-acestream 0.2.0-2 1
@@ -545,7 +533,6 @@ qtfm 6.2.1-1 3
 quartus-130 13.0.1.232-1 1
 quickdocs 2.2.6-1 4
 quickemu 4.9.6-1 1
-radare2-git 5.9.3.r32264.d2725b7bd0-1 1
 radeon-profile-git 20200824.r26.g0d632ba-1 5
 rare 1.10.11-1 1
 rclone-browser 1.8.0-3 3
@@ -580,7 +567,6 @@ silo-primevideo 0.5-1 4
 simple-mtpfs 0.4.0-1 1
 simpleitk 2.3.1-1 1
 simutrans-extended-git r22958.2e76934b3-1 1
-siril-git 1.2.3.r1123.g3ea66ee7-1 1
 sirula-git r68.b15efe8-1 1
 smooth 0.9.10-1 2
 snapper-gui-git 0.1+8.r132.20220626.1915750-1 0
@@ -589,7 +575,7 @@ snkrx-drmfree-git r118.6b93a64-1 3
 soapysdr-git 3:0.8.1.r94.g8c6cb7c-1 2
 solvespace 3.1-1 3
 soundcloud-nativefier 20230310-1 1
-soundux 0.2.7-3 1
+soundux 0.2.7-3 2
 soundwire 3.0.0-4 4
 spacefm-git 1.0.6.r80.ge257d15-3 5
 spectral-matrix-git 218.r648.g30028a2-1 4
@@ -604,7 +590,6 @@ stylepak-git 18.0c4b0c1-1 3
 sunshine 0.23.1-4 1
 supergfxctl 5.2.1-1 1
 suyu-dev-qt6-git r27440.4eb41467f8-1 1
-sway-git 1.10.r7379.7e74a49-1 1
 swayfx 0.4-2 1
 swayhide 0.2.1-1 1
 swayidle-git 1.8.0.r12.g49d200e-1 1
@@ -670,7 +655,6 @@ vlc-git 4.0.0.r30165.g0eef00ed53-1 1
 vlc-luajit 3.0.21-2 1
 vmware-keymaps 1.0-3 2
 vscodium-marketplace 1.65.0-1 3
-vulkan-nouveau-git 24.2.branchpoint.r631.gfb03aed-1 1
 warpgui-bin 2.1-1 1
 wayfire 0.8.1-4 1
 wayfire-git 0.8.1.r178.g2b30aca0-1 1
@@ -691,7 +675,6 @@ wireplumber-git 0.5.5.r4.g0a86653-1 1
 wl-gammactl 1:r1.e238595-1 1
 wld-git r173.8990a83-1 1
 wlrobs-hg r69.e992db3deb92-1 1
-wlroots-git 0.18.0.r17.gf9199bb6d-1 1
 wluma 4.4.0-1 1
 woeusb 5.2.4-1 1
 woeusb-ng 0.2.12-3 1
