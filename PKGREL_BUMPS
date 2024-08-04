@@ -16,7 +16,6 @@ android-sdk 26.1.1-2 2
 aqemu 0.9.4-2 4
 archiso-git 79.r0.gfa3aba3-1 1
 ares-emu 139-1 1
-ares-emu-git 139.r22.gffe9722-1 1
 artha 1.0.5-1 1
 asbru-cm-git 6.4.0.r17.gcfa73e1-1 1
 asusctl 6.0.11-0 2
@@ -82,7 +81,6 @@ cemu-git 2.0.91.r1.g517e68fe-1 1
 certmonger 0.79.20-2 1
 cfs-zen-tweaks 1.3.0-1 1
 chemtool 1.6.14-4 1
-chocolate-doom 3.0.1-1 4
 citra-git r10094.e55e619-1 1
 ckb-next 0.6.0-1 1
 clamav-unofficial-sigs 7.2.5-1 2
@@ -113,7 +111,6 @@ detwinner 0.4.2-2 2
 digital 0.29-4 1
 diodon 1.13.0-2 2
 discord-screenaudio 1.10.1-1 1
-dolphin-emu-git 2407.r117.g8a50676-1 1
 dolphin-emu-primehack-git 1.1.2.r8.g7c6cd79-1 1
 doomrunner 1.8.2-2 1
 dotfonts-git r64.a768278-1 3
@@ -181,7 +178,7 @@ gimp-elsamuko-git r90.ac9a756-1 2
 gimp-extras 2.0.4-1 4
 gimp-plugin-normalmap 1.2.3-2 4
 gis-weather 0.8.4.17-1 1
-gittyup 1.3.0-1 3
+gittyup 1.3.0-1 4
 gksu 2.0.2-6 2
 glaxnimate 0.5.4-6 1
 glaxnimate-git 0.5.4.r342.gfd74fa1-1 1
@@ -343,6 +340,7 @@ nginx-mainline-mod-dav-ext 3.0.0-21 2
 nginx-mainline-mod-echo 0.61-37 1
 nginx-mainline-mod-fancyindex 0.5.2-3 1
 nginx-mainline-mod-ndk 0.3.2-1 1
+nheko-git 0.12.0.r35.g50f9edfe-1 1
 nm-eduroam-ufscar 20190409-2 1
 nohang 0.2.0-1 5
 noisetorch 0.12.2-3 1
@@ -419,6 +417,7 @@ pokemon-colorscripts-git r112.0483c85b-2 1
 pop-shell-shortcuts-git 1:r30.52cc83f-2 3
 prelockd 0.9-3 1
 prestopalette 0.1.31-1 3
+prismlauncher-git 8.0.r917.gb77dc47c6c-1 1
 proftpd 2:1.3.8b-2 1
 protonplus 0.4.15-1 1
 protonup-git 0.1.5.r4.g4ff9d54-1 1
@@ -578,7 +577,7 @@ soundcloud-nativefier 20230310-1 1
 soundux 0.2.7-3 2
 soundwire 3.0.0-4 4
 spacefm-git 1.0.6.r80.ge257d15-3 5
-spectral-matrix-git 218.r648.g30028a2-1 4
+spectral-matrix-git 218.r648.g30028a2-1 5
 spleeter-git 2.4.0.r36.g13c771b-1 3
 split2flac 20200508-1 1
 srb2 2.2.13-1 1
@@ -657,7 +656,6 @@ vmware-keymaps 1.0-3 2
 vscodium-marketplace 1.65.0-1 3
 warpgui-bin 2.1-1 1
 wayfire 0.8.1-4 1
-wayfire-git 0.8.1.r178.g2b30aca0-1 1
 wayfire-plugins-extra 0.8.1-1 1
 waypipe-git 0.9.1.r0.g4b62e79-1 1
 wcm 0.8.0-5 1
