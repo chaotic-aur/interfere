@@ -49,7 +49,6 @@ brickadia-launcher 1.5-1 4
 brother-hl2280dw 2.1.0_1-2 3
 budgie-network-applet 2.2-1 6
 buttermanager 2.5.1-1 1
-cage-git 0.1.5.r36.ge7d8780-1 1
 cassowary 0.6-1 5
 catia-git r1062.78b0307-1 3
 catt 0.12.12-1 1
@@ -93,7 +92,6 @@ codon-bin 0.16.3-1 1
 compiz-core 0.8.18-3 7
 connman-gtk 1.1.1-2 4
 consolekit 1.2.6-4 1
-cosmic-osd-git r109.27fc5e5-1 1
 cpupower-gui 1.0.0-5 3
 crazydiskinfo 1.1.0-2 2
 criterion 2.4.2-2 1
@@ -187,7 +185,6 @@ gnome-gesture-improvements r201.f007cac-2 2
 gnome-icon-theme 3.12.0-7 1
 gnome-icon-theme-symbolic 3.12.0-6 1
 gnome-multi-writer-git 3.35.90.r337.1395be2-1 1
-gnome-shell-extension-appindicator-git 1:58+0+g922498c-1 0
 gnome-shell-extension-arch-update 60-1 1
 gnome-shell-extension-blur-my-shell 62-1 1
 gnome-shell-extension-compiz-windows-effect-git r35.fb094e0-2 1
@@ -317,14 +314,12 @@ mongodb 7.0.11-1 1
 movie-monad 0.0.7.0_0-1 4
 mpd-notification 0.9.1-1 1
 mpv-full 0.38.0-1 1
-mpv-full-git 0.38.0.r667.g5f768a688b-1 1
 mpv-vapoursynth-git 0.38.0.r641.g6107112b32-1 1
 mugshot 0.4.3-3 4
 multibootusb 9.2.0-5 4
 musikcube 3.0.4-1 1
 mutter-dynamic-buffering 46.3.1-1 1
 mutter-performance 1:46.3.1+r3+g7e0e42801-1 0
-mutter-x11-scaling 46.3.1-1 1
 mysql 8.4.0-1 1
 nasc 0.8.0-2 3
 natron-git 1:1-1 1
@@ -340,7 +335,6 @@ nginx-mainline-mod-dav-ext 3.0.0-21 2
 nginx-mainline-mod-echo 0.61-37 1
 nginx-mainline-mod-fancyindex 0.5.2-3 1
 nginx-mainline-mod-ndk 0.3.2-1 1
-nheko-git 0.12.0.r35.g50f9edfe-1 1
 nm-eduroam-ufscar 20190409-2 1
 nohang 0.2.0-1 5
 noisetorch 0.12.2-3 1
@@ -417,7 +411,6 @@ pokemon-colorscripts-git r112.0483c85b-2 1
 pop-shell-shortcuts-git 1:r30.52cc83f-2 3
 prelockd 0.9-3 1
 prestopalette 0.1.31-1 3
-prismlauncher-git 8.0.r917.gb77dc47c6c-1 1
 proftpd 2:1.3.8b-2 1
 protonplus 0.4.15-1 1
 protonup-git 0.1.5.r4.g4ff9d54-1 1
@@ -655,10 +648,7 @@ vlc-luajit 3.0.21-2 1
 vmware-keymaps 1.0-3 2
 vscodium-marketplace 1.65.0-1 3
 warpgui-bin 2.1-1 1
-wayfire 0.8.1-4 1
-wayfire-plugins-extra 0.8.1-1 1
 waypipe-git 0.9.1.r0.g4b62e79-1 1
-wcm 0.8.0-5 1
 wdisplays-git 1.1.r15.g6233901-1 1
 webkit2gtk-imgpaste 2.44.2-1 1
 webwatcher-git r24.3d3099f-2 2
@@ -704,3 +694,4 @@ zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
 zenstates-git r6.0bc27f4-1 1
 zulucrypt 6.2.0-1 3
+wayland-protocols-git 1.36.r10.g7d5a3a8-1 1
