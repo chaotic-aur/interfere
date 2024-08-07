@@ -334,7 +334,6 @@ nginx-mainline-mod-fancyindex 0.5.2-3 1
 nginx-mainline-mod-ndk 0.3.2-1 1
 nm-eduroam-ufscar 20190409-2 1
 nohang 0.2.0-1 5
-noisetorch 0.12.2-3 1
 non-euclidean-git r37.191fc4c-1 3
 nordpy 1.3.5-1 5
 notes 2.2.1-2 2
@@ -382,7 +381,6 @@ pcsxr 1.9.95-2 4
 pdf2png 0.5.3-1 3
 pdfquirk 0.95-1 3
 pebbles-git r445.5e5e455-1 3
-penguins-eggs 10.0.20-1 1
 perl-file-rename 2.01-1 1
 phonesim 2.0.r0.ga55ada2-1 2
 phoronix-test-suite 10.8.4-1 1
@@ -685,3 +683,4 @@ zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
 zulucrypt 6.2.0-1 3
 64gram-desktop 1:1.1.32-1 1
+droidcam 1:2.1.3-2 1
