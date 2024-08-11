@@ -1,0 +1,9 @@
+license=('GPL-2.0-only')
+
+depends+=('libgtop')
+
+pkgver() {
+  cd OpenRGBHardwareSyncPlugin
+  git describe --long --tags --abbrev=7 \
+    | sed -E 's/^[^0-9]*//;s/([^-]*-g)/r\1/;s/-/./g'
+}
