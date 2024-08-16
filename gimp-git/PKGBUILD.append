@@ -11,7 +11,7 @@ arch=('i686' 'x86_64')
 
 depends=(
   'appstream-glib'
-  'babl'
+  'babl-git'
   'cairo'
   'dbus-glib'
   'desktop-file-utils'
