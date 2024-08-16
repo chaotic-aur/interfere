@@ -1,4 +1,3 @@
-64gram-desktop 1:1.1.32-1 2
 a2ln 1.1.14-4 1
 acestream-launcher 2.1.0-4 1
 acidrip 0.14-10 6
@@ -16,7 +15,6 @@ aqemu 0.9.4-2 4
 archiso-git 79.r0.gfa3aba3-1 1
 ares-emu 139-1 1
 artha 1.0.5-1 1
-asbru-cm-git 6.4.0.r17.gcfa73e1-1 1
 asusctl 6.0.11-0 2
 athenaeum-git 2.3.3.r0.g8e917a5-1 1
 audiorelay 0.27.5-5 1
@@ -45,7 +43,6 @@ bpytop-git 1.0.68.r3.gac0f666-1 4
 brickadia-launcher 1.5-1 4
 brother-hl2280dw 2.1.0_1-2 3
 budgie-network-applet 2.2-1 6
-buttermanager 2.5.1-1 1
 cassowary 0.6-1 5
 catia-git r1062.78b0307-1 3
 catt 0.12.12-1 1
@@ -72,11 +69,9 @@ celestia-addon-ulysses 2.0-1 2
 celestia-addon-vaders_tie_fighter 1-2 2
 celestia-addon-voyagers 2-2 2
 celestia-addon-xwing 1-3 2
-cemu-git 2.0.91.r1.g517e68fe-1 1
 certmonger 0.79.20-2 1
 cfs-zen-tweaks 1.3.0-1 1
 chemtool 1.6.14-4 1
-citra-git r10094.e55e619-1 1
 ckb-next 0.6.0-1 1
 clamav-unofficial-sigs 7.2.5-1 2
 clight 4.11-1 1
@@ -85,7 +80,7 @@ clipit 1.4.5-3 4
 cloudflare-warp-bin 2024.4.133-2 1
 codelite 17.0.0-0 3
 codon-bin 0.16.3-1 1
-compiz-core 0.8.18-3 7
+colloid-gtk-theme-git 2024.06.18.r20.g8889f15-1 1
 connman-gtk 1.1.1-2 4
 consolekit 1.2.6-4 1
 cpupower-gui 1.0.0-5 3
@@ -129,7 +124,6 @@ evopop-gtk-theme-git 2.9.99.r12.g6dce1c5-1 3
 exaile 4.1.3-1 1
 fairy-stockfish 14.0.1-7 2
 ffmpeg-full 2:7.0.1-3 1
-ffmpeg-git 7.1.r116553.gc390234da2-1 1
 ffmpeg-obs 7.0.1-3 1
 ffnvcodec-headers-12-1 12.1.14.0-1 1
 fiddler 4.6.20171.26113-1 3
@@ -146,7 +140,6 @@ fontdownloader 10.0.0-1 3
 fontfinder 1.4.1-1 3
 fonts-tlwg 0.7.3-1 1
 foobillard++ 3.42beta-7 3
-forkgram 5.1.8-3 3
 fotokilof 4.4.8-1 1
 foxitreader 2.4.5.0727-1 3
 freac 1.1.7-1 2
@@ -178,24 +171,19 @@ gis-weather 0.8.4.17-1 1
 gittyup 1.3.0-1 4
 gksu 2.0.2-6 2
 glaxnimate 0.5.4-6 1
-glaxnimate-git 0.5.4.r342.gfd74fa1-1 1
 gmusicbrowser 1.1.16-1 1
 gnome-gesture-improvements r201.f007cac-2 2
 gnome-icon-theme 3.12.0-7 1
 gnome-icon-theme-symbolic 3.12.0-6 1
 gnome-multi-writer-git 3.35.90.r337.1395be2-1 1
-gnome-shell-extension-blur-my-shell 62-1 1
 gnome-shell-extension-compiz-windows-effect-git r35.fb094e0-2 1
-gnome-shell-extension-dash-to-dock 1:92-1 1
 gnome-shell-extension-fly-pie-git 26.r5.ga10b724-1 1
 gnome-shell-extension-gnome-ui-tune-git 1.9.0.r0.g738bb67-1 1
 gnome-shell-extension-gsconnect 2:57-1 1
-gnome-shell-extension-hide-activities-git 46.r0.g8f09198-1 1
 gnome-shell-extension-material-shell 44-1 2
 gnome-shell-extension-rounded-window-corners 11-5 1
 gnome-shell-extension-space-bar-git 27.r0.g14b3ef5-1 1
 gnome-shell-extension-top-bar-organizer 10-3 1
-gnome-shell-extension-ubuntu-dock-git 90ubuntu1.r1.g8004637c-1 1
 gnome-shell-extension-x11gestures 17-1 2
 gnome-terminal-transparency 3.52.2-2 1
 goldendict-webengine-pr-git 22.12.02.r80.5a87a715.718462c5-1 1
@@ -237,7 +225,6 @@ kazam 1.4.5-9 6
 kdocker 5.4-1 3
 kega-fusion 3.63-17 3
 kernel-install-mkinitcpio 1.8-1 1
-keyboard-visualizer-git release_4.00.r26.gb50cc50-1 3
 klassy-git 6.1.breeze6.0.3.r1.g67f0584e-1 1
 komorebi 2.2.1-1 3
 kotatogram-desktop-git 1.4.15.2.r1022.gbc58b5f-1 2
@@ -295,7 +282,6 @@ maxcso-git 1.13.0.r36.961f232c-1 1
 mcmojave-cursors-git r11.7d0bfc1-1 1
 mcomix 3.1.0-1 1
 mcpelauncher-linux-git 0.15.2.r9.g88f7a73-1 1
-mcpelauncher-ui-git 0.15.0.r12.gf3d2d8d-1 1
 mcstatus 9.4.2-1 5
 memavaild 0.6-2 4
 mendeleydesktop 1.19.8-1 4
@@ -310,12 +296,9 @@ moonlight-qt 6.0.1-1 1
 movie-monad 0.0.7.0_0-1 4
 mpd-notification 0.9.1-1 1
 mpv-full 0.38.0-1 2
-mpv-full-git 0.38.0.r682.g88885c0401-1 1
-mpv-vapoursynth-git 0.38.0.r641.g6107112b32-1 1
 mugshot 0.4.3-3 4
 multibootusb 9.2.0-5 4
 musikcube 3.0.4-1 1
-mysql 8.4.0-1 1
 nasc 0.8.0-2 3
 natron-git 1:1-1 1
 natron-plugins-git 2.1.7.r1201.gb0c499f-1 1
@@ -324,7 +307,6 @@ neovim-drop-in 1-1 1
 neovim-gtk 1.0.4-1 1
 neovim-remote 2.5.1-1 4
 nestopia-git 1.52.1.r52.gbceca4a-1 1
-networkmanager-iwd 1.48.6-1 1
 nghttp2 1.62.1-1 1
 nginx-mainline-mod-brotli 1:1.0.0rc-5 1
 nginx-mainline-mod-dav-ext 3.0.0-21 2
@@ -392,7 +374,6 @@ plasma5-applets-latte-separator 0.1.2-1 1
 plasma5-applets-plasma-drawer 1.4-1 1
 plasma6-applets-window-title 0.5-1 1
 plasma6-wallpapers-blurredwallpaper 3.0.1-1 1
-plasma6-wallpapers-wallpaper-engine-git 0.5.4.r82.g1e60410-1 1
 plex-media-player 2.58.1-3 11
 plots 0.8.5-1 1
 pm-utils 1.4.1-8 2
@@ -461,11 +442,9 @@ python-proglog 0.1.10-1 4
 python-proton-client 0.7.1-2 4
 python-py3nvml 0.2.7-1 4
 python-pyfuse3 3.3.0-1 1
-python-pyjson5 1.6.4-1 1
 python-pypresence 4.3.0-2 1
 python-pyro5 5.15-1 1
 python-pysdl2 0.9.16-1 1
-python-pywavelets 1.6.0-1 1
 python-pywhat 5.1.0-4 3
 python-qt-material-git r243.20230206-1 3
 python-rarfile 4.2-1 1
@@ -623,15 +602,11 @@ vim-vimwiki 2023.04.04_1-1 2
 vimiv-qt 0.9.0-1 1
 vital-synth 1.5.5-1 3
 vkbasalt-cli 3.1.1-2 1
-vlc-git 4.0.0.r30165.g0eef00ed53-1 2
-vlc-luajit 3.0.21-2 2
 vmware-keymaps 1.0-3 2
 vscodium-marketplace 1.65.0-1 3
 warpgui-bin 2.1-1 1
-wayland-protocols-git 1.36.r10.g7d5a3a8-1 1
 waypipe-git 0.9.1.r0.g4b62e79-1 1
 wdisplays-git 1.1.r15.g6233901-1 1
-webkit2gtk-imgpaste 2.44.2-1 1
 webwatcher-git r24.3d3099f-2 2
 wf-shell 0.8.1-6 1
 wget2 2.1.0-1 1
@@ -667,7 +642,6 @@ yp-tools 4.2.3-6 3
 yt-dlg-git 1.2.0.r399.g264699b-1 1
 ytmdl 2024.04.14-1 1
 zandronum 3.1-2 3
-zenmap 7.94-2 1
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
 zulucrypt 6.2.0-1 3
