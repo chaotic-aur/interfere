@@ -34,6 +34,7 @@ optdepends=(
 _sodeps=(
   # makedep::sodep
   'hyprlang-git'::'libhyprlang.so'
+  'hyprutils-git'::'libhyprutils.so'
 )
 for i in "${_sodeps[@]}" ; do
   depends+=("${i#*::}")
