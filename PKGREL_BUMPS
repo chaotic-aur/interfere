@@ -57,7 +57,6 @@ clightd 5.9-1 1
 clipit 1.4.5-3 4
 codelite 17.0.0-0 3
 codon-bin 0.16.3-1 1
-colloid-gtk-theme-git 2024.06.18.r21.g482c350-1 1
 connman-gtk 1.1.1-2 4
 consolekit 1.2.6-4 1
 cpupower-gui 1.0.0-5 3
@@ -74,7 +73,6 @@ delft-icon-theme-git 1.15.r0.gdd693fcf-1 2
 densify 0.3.1-3 4
 detwinner 0.4.2-2 2
 digital 0.29-4 1
-diodon 1.13.0-2 3
 discord-screenaudio 1.10.1-1 1
 doomrunner 1.8.2-2 1
 dotfonts-git r64.a768278-1 3
@@ -150,7 +148,6 @@ gnome-icon-theme 3.12.0-7 1
 gnome-icon-theme-symbolic 3.12.0-6 1
 gnome-multi-writer-git 3.35.90.r337.1395be2-1 1
 gnome-shell-extension-compiz-windows-effect-git r35.fb094e0-2 1
-gnome-shell-extension-fly-pie-git 26.r5.ga10b724-1 1
 gnome-shell-extension-gnome-ui-tune-git 1.9.0.r0.g738bb67-1 1
 gnome-shell-extension-gsconnect 2:57-1 1
 gnome-shell-extension-material-shell 44-1 2
@@ -243,7 +240,6 @@ lokinet 0.9.11-5 4
 looking-glass-git 2:B7rc1.r30.gd060e375-1 1
 luckybackup 0.5.0-1 4
 masterpdfeditor-free 4.3.89-1 3
-mastodon 4.2.10-1 1
 mate-hud 22.10.3-1 5
 mate-menu 22.04.2-1 4
 mate-tweak 22.10.0-3 4
@@ -297,7 +293,6 @@ nspawn-git r46.09c5220-1 2
 ntfs2btrfs-git 20240115.r2.g4375a14-1 1
 nvidia-340xx-utils 340.108-1 2
 nvidia-390xx-settings 390.157-1 2
-nwg-hello 0.2.2-1 1
 nwg-launchers 0.7.1-1 3
 obs-backgroundremoval 1.1.13-1 1
 obs-rtspserver 3.1.0-1 1
@@ -374,7 +369,6 @@ python-dacite 1.8.1-2 1
 python-deezer-py 1.3.7-2 1
 python-elgato-streamdeck 0.9.5-1 1
 python-exifread 3.0.0-2 4
-python-fangfrisch 1.9.0-3 1
 python-fasm-git 0.0.2.r100.gffafe82-1 4
 python-ffmpeg-python 0.2.0-6 1
 python-freetype-py 2.4.0-1 1
@@ -476,13 +470,11 @@ revelation 0.5.5-2 1
 riftshare 0.1.9-4 3
 ripcord 0.4.29-1 2
 ripcord-arch-libs 0.4.29-3 2
-riseup-vpn 0.24.5-2 1
 rocketlauncher2-git 0.1.0.2.r11.gbdb48cd-1 3
 rstudio-desktop 2024.04.2.764-1 1
 rsync-reflink 3.3.0-1 1
 rtl-sdr-git 2.0.2.0.g619ac31-1 1
 runescape-launcher 2.2.11-1 2
-sakura 3.8.7-1 1
 scid 5.0.2-1 3
 scrap_engine-git 1.4.1-1 1
 sddm-git 0.21.0.22.g4ec29a8b-1 1
@@ -527,7 +519,6 @@ systemd-manager-git 1.0.0.r12.g4efeb47-1 2
 systemd-oomd-defaults 253.5-1 1
 tartube 2.5.0-1 1
 teams 1.5.00.23861-1 4
-termusic 0.9.0-1 1
 themix-full-git 1.15.1-1 3
 themix-icons-archdroid-git 1.0.3.r0.gb90779de4-1 1
 themix-icons-gnome-colors-git 5.5.6.r0.gd2cb7eb-2 3
@@ -586,6 +577,7 @@ whoogle 0.8.4-1 1
 whoogle-git 0.8.4.r20.g9bfdd88-1 1
 windscribe-cli 1.4_51-1 2
 wine-installer 5.0.3-2 4
+wine-stable 9.0-15 1
 wireplumber-git 0.5.5.r4.g0a86653-1 1
 wl-gammactl 1:r1.e238595-1 1
 wld-git r173.8990a83-1 1
@@ -613,4 +605,3 @@ yt-dlg-git 1.2.0.r399.g264699b-1 1
 zandronum 3.1-2 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
-zulucrypt 6.2.0-1 3
