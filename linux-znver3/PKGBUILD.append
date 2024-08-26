@@ -11,10 +11,12 @@ eval _orig_"$(declare -f build)"
 build() {
   _prep_v3
   _orig_build
+  pkgdesc+=" - amd znver3"
 }
 
 eval _orig_"$(declare -f prepare)"
 prepare() {
   _prep_v3
   _orig_prepare
+  pkgdesc+=" - amd znver3"
 }
