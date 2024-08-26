@@ -16,5 +16,5 @@ sed -E \
 
 # fix pkgver
 sed -E \
-  -e 's&pkgver&_pkgver&' \
+  -e 's&pkgver&_pkgver&g' \
   -i PKGBUILD
