@@ -18,3 +18,8 @@ sed -E \
 sed -E \
   -e 's&pkgver&_pkgver&g' \
   -i PKGBUILD
+
+# update pkgdesc
+sed -E \
+  -e 's&^(\s+)(_package\$\{_p#\$pkgbase\})$&\1\2\n\1pkgdesc+=" - amd znver2"&' \
+  -i PKGBUILD
