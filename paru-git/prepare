@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+$CAUR_PUSH 'pacman -S pacman-git --noconfirm'
+$CAUR_PUSH 'mv /etc/pacman.conf.pacsave /etc/pacman.conf'
