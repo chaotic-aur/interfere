@@ -12,7 +12,6 @@ ananicy-cpp 1.1.1-1 1
 ananicy-cpp-git 1.1.1.r5.g097d79f-1 1
 android-sdk 26.1.1-2 2
 aqemu 0.9.4-2 4
-ares-emu 139-1 1
 artha 1.0.5-1 1
 asusctl 6.0.11-0 2
 athenaeum-git 2.3.3.r0.g8e917a5-1 1
@@ -47,6 +46,7 @@ catia-git r1062.78b0307-1 3
 catt 0.12.12-1 1
 cava 0.10.2-2 1
 cecilia-git 5.4.1.r15.gc592f8e-1 3
+cemu-git 2.1.r2.g9a53b194-1 1
 certmonger 0.79.20-2 1
 cfs-zen-tweaks 1.3.0-1 1
 chemtool 1.6.14-4 1
@@ -154,13 +154,13 @@ gnome-shell-extension-x11gestures 17-1 2
 gnome-terminal-transparency 3.52.2-2 1
 goldendict-webengine-pr-git 22.12.02.r80.5a87a715.718462c5-1 1
 googlemaps 20220503-1 2
-gr-foo-git r173.7c154d9-1 4
 gr-ieee802-11-git r367.ce70973-1 2
 gr-limesdr-git 3.0.1.r69.gd0fac85-2 2
 graphite-cursor-theme-git 2021.11.26.r9.g8773e95-1 2
 grass 8.4.0-1 1
 green-recorder 3.2.10-1 5
 green-recorder-git 3.2.10.r9.g01203e1-1 1
+grimblast-git r106.9d67858-1 1
 grub2-signing-extension 0.1.7-2 1
 gstreamer0.10-base 0.10.36-13 1
 gtkglarea 2.1.0-6 3
@@ -314,7 +314,6 @@ paper-icon-theme-git 832.aa3e8af7-1 3
 passbook 0.8-1 5
 passbook-git 0.8.r36.g750825d-1 5
 pcem 17-4 2
-pcsxr 1.9.95-2 4
 pdf2png 0.5.3-1 3
 pdfquirk 0.95-1 3
 pebbles-git r445.5e5e455-1 3
@@ -564,7 +563,6 @@ whoogle 0.8.4-1 1
 whoogle-git 0.8.4.r20.g9bfdd88-1 1
 windscribe-cli 1.4_51-1 2
 wine-installer 5.0.3-2 4
-wine-stable 9.0-15 1
 wl-gammactl 1:r1.e238595-1 1
 wld-git r173.8990a83-1 1
 wluma 4.4.0-1 1
@@ -591,4 +589,3 @@ yt-dlg-git 1.2.0.r399.g264699b-1 1
 zandronum 3.1-2 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
-grimblast-git r106.9d67858-1 1
