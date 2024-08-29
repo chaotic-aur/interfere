@@ -198,10 +198,6 @@ prepare() {
   }
 
   _prepare_obs_studio
-
-  sed -E \
-    -e 's&(\s*find_package\(FFnvcodec)\b.*\b(REQUIRED\))&\1 12 \2&' \
-    -i "$_pkgsrc/plugins/obs-ffmpeg/cmake/dependencies.cmake"
 }
 
 _build_obs_studio() {
