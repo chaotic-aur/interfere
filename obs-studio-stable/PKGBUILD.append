@@ -16,7 +16,7 @@
 ## basic info
 _pkgname="obs-studio"
 pkgname="$_pkgname-stable"
-pkgver=30.2.2
+pkgver=30.2.3
 pkgrel=1
 pkgdesc="Free, open source software for live streaming and recording - Browser enabled"
 url="https://github.com/obsproject/obs-studio"
@@ -61,8 +61,6 @@ makedepends=(
   xdg-desktop-portal
 )
 optdepends=(
-  'chaotic-interfere: chaotic-aur interference tracking'
-
   'libfdk-aac: FDK AAC codec support'
   'libva-intel-driver: hardware encoding'
   'libva-mesa-driver: hardware encoding'
@@ -223,8 +221,7 @@ prepare() {
 
   sed -E \
     -e 's&(\s*find_package\(FFnvcodec)\b.*\b(REQUIRED\))&\1 12 \2&' \
-    -i "$_pkgsrc/plugins/obs-ffmpeg/cmake/dependencies.cmake" \
-    -i "$_pkgsrc/plugins/obs-ffmpeg/cmake/legacy.cmake"
+    -i "$_pkgsrc/plugins/obs-ffmpeg/cmake/dependencies.cmake"
 }
 
 _build_obs_studio() {
