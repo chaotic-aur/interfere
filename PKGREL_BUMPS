@@ -44,10 +44,8 @@ catia-git r1062.78b0307-1 3
 catt 0.12.12-1 1
 cava 0.10.2-2 1
 cecilia-git 5.4.1.r15.gc592f8e-1 3
-cemu-git 2.1.r2.g9a53b194-1 1
 cfs-zen-tweaks 1.3.0-1 1
 chemtool 1.6.14-4 1
-citra-git r10104.2f0b2f9-1 1
 ckb-next 0.6.0-1 1
 clamav-unofficial-sigs 7.2.5-1 2
 clight 4.11-1 1
@@ -216,7 +214,6 @@ libinput-gestures 2.76-1 2
 libinput-gestures-qt 0.4-1 1
 liblogging 1.0.6-3 1
 libopenglrecorder 0.1.0-1 4
-libpamac-aur 11.6.4-1 1
 libpamac-flatpak 1:11.6.4-1 1
 libpqmarble 1.3.0+12+gf240b2e-4 1
 libreswan 5.0-1 1
@@ -284,7 +281,6 @@ nwg-launchers 0.7.1-1 3
 obs-backgroundremoval 1.1.13-1 1
 obs-rtspserver 3.1.0-1 1
 obs-streamfx-unstable 0.12.0b299-3 3
-obs-studio-git 30.2.3.r182.g34735be-1 2
 obs-studio-stable 30.2.3-1 1
 obs-studio-tytan652 30.2.3-1 1
 obsidian-icon-theme-git 4.15.r1.g4cccdd3f-1 1
@@ -293,7 +289,6 @@ odr-dabmod-git 2.6.0.r0.g451a7fa-1 5
 ofono 1.34-1 2
 openbangla-keyboard 2.0.0-7 3
 openctm-tools 2:1.0.3-1 3
-openrgb-git 0.9.r960.g406350f-1 1
 openswan 3.0.0-1 1
 opentimelineio0.14 0.14.1-3 1
 orage 4.18.0-1 3
@@ -580,3 +575,4 @@ yt-dlg-git 1.2.0.r399.g264699b-1 1
 zandronum 3.1-2 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
+syncthingtray-qt6 1.6.0-1 1
