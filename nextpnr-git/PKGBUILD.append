@@ -1,0 +1,4 @@
+[[ "$pkgver" = "0.12" ]] && pkgrel="0"
+[[ "$pkgver" = "0.12" ]] && sha256sums[0]='317cc5fe7a898fe96c36397760b1474ea44b055c4168a398f8655ba13e8f7388'
+[[ "$pkgver" = "0.12" ]] && pkgver="0.13"
+
