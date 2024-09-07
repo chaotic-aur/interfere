@@ -214,7 +214,6 @@ libinput-gestures-qt 0.4-1 1
 liblogging 1.0.6-3 1
 libopenglrecorder 0.1.0-1 4
 libpamac-flatpak 1:11.6.4-1 1
-libpqmarble 1.3.0+12+gf240b2e-4 1
 libreswan 5.0-1 1
 librewolf-extension-gnome-shell-integration 11.1-2 1
 librewolf-extension-plasma-integration 1.9-1 1
@@ -280,7 +279,6 @@ nwg-launchers 0.7.1-1 3
 obs-backgroundremoval 1.1.13-1 1
 obs-rtspserver 3.1.0-1 1
 obs-streamfx-unstable 0.12.0b299-3 3
-obs-studio-stable 30.2.3-1 1
 obs-studio-tytan652 30.2.3-1 1
 obsidian-icon-theme-git 4.15.r1.g4cccdd3f-1 1
 ocs-url 3.1.0-7 3
@@ -321,7 +319,6 @@ plasma5-applets-control-centre 0.1.0-1 1
 plasma5-applets-corner-menu 5.94d91bd-1 1
 plasma5-applets-latte-separator 0.1.2-1 1
 plasma5-applets-plasma-drawer 1.4-1 1
-plasma6-applets-window-title 0.5-1 1
 plasma6-wallpapers-blurredwallpaper 3.0.1-1 1
 plex-media-player 2.58.1-3 11
 plots 0.8.5-1 1
@@ -357,7 +354,6 @@ python-gevent-eventemitter 2.1-3 4
 python-gpxpy 1.6.2-1 1
 python-hdf5storage 0.1.19-2 1
 python-hwdata 2.4.1-1 1
-python-iniparse-git 0.5.r21.gdbfd717-1 1
 python-injector 0.21.0-1 1
 python-inputs 0.5-4 1
 python-inquirerpy 0.3.4-6 1
@@ -479,7 +475,7 @@ srb2kart 1.6-1 2
 ssacli 4.21.7.0-1 1
 steamtinkerlaunch 12.12-1 2
 stylepak-git 18.0c4b0c1-1 3
-sunshine 0.23.1-4 1
+sunshine 0.23.1-4 2
 supergfxctl 5.2.1-1 1
 suyu-dev-qt6-git r27440.4eb41467f8-1 1
 swayfx 0.4-2 1
@@ -573,6 +569,5 @@ zandronum 3.1-2 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
 syncthingtray-qt6 1.6.0-1 1
-nextpnr-git 0.7.r59.gfa55e938-1 1
 cpu-x 5.0.4-1 1
 reshade-shaders-git r82.6724bd5-1 1
