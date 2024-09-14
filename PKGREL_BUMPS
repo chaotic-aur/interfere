@@ -1,3 +1,4 @@
+64gram-desktop 1:1.1.38-1 1
 a2ln 1.1.14-4 1
 acestream-launcher 2.1.0-4 1
 acidrip 0.14-10 6
@@ -43,15 +44,16 @@ catia-git r1062.78b0307-1 3
 catt 0.12.12-1 1
 cava 0.10.2-2 1
 cecilia-git 5.4.1.r15.gc592f8e-1 3
+cemu-git 2.2.r0.g1a4d9660-1 1
 cfs-zen-tweaks 1.3.0-1 1
 chemtool 1.6.14-4 1
 ckb-next 0.6.0-1 1
 clamav-unofficial-sigs 7.2.5-1 2
 clight 4.11-1 1
 clightd 5.9-1 1
-clipit 1.4.5-3 4
 codelite 17.0.0-0 3
 connman-gtk 1.1.1-2 4
+cpu-x 5.0.4-1 1
 cpupower-gui 1.0.0-5 3
 crazydiskinfo 1.1.0-2 2
 criterion 2.4.2-2 1
@@ -87,7 +89,6 @@ evdev-right-click-emulation 20190313.350939-1 1
 evopop-gtk-theme-git 2.9.99.r12.g6dce1c5-1 3
 exaile 4.1.3-1 1
 fairy-stockfish 14.0.1-7 2
-ffnvcodec-headers-12-1 12.1.14.0-1 1
 fiddler 4.6.20171.26113-1 3
 find-the-command 2.0.1-1 2
 find-the-command-git 2.0.1.r0.gfecba1a-1 1
@@ -102,9 +103,7 @@ fontdownloader 10.0.0-1 3
 fontfinder 1.4.1-1 3
 fonts-tlwg 0.7.3-1 1
 foobillard++ 3.42beta-7 3
-foxitreader 2.4.5.0727-1 3
 freac 1.1.7-1 2
-fsv2 1:0.9.1-3 3
 fujprog 4.8-1 1
 fuse-emulator 1.6.0-3 2
 fuse-ext2-git v0.0.11.r2.ge8f1063-1 1
@@ -114,12 +113,10 @@ gamehub 0.16.3.2-2 2
 gcdemu 3.2.6-1 3
 gconf 3.2.6+11+g07808097-10 4
 gdcm 3.0.23-1 1
-gdm-plymouth-prime 43.0-1 4
 gdm-prime 46.2-1 1
 gdm-settings 4.4-2 1
 gdm-settings-git 4.3+17+g4949544-1 0
 giada 1.0.0-1 1
-gifcurry 6.0.1.0_0-1 4
 gigolo 0.5.2-1 3
 gimp-elsamuko-git r90.ac9a756-1 2
 gimp-extras 2.0.4-1 4
@@ -151,7 +148,6 @@ green-recorder 3.2.10-1 5
 green-recorder-git 3.2.10.r9.g01203e1-1 1
 grub2-signing-extension 0.1.7-2 1
 gstreamer0.10-base 0.10.36-13 1
-gtkglarea 2.1.0-6 3
 hardcode-tray 4.3-3 5
 hfsprogs 540.1.linux3-4 3
 hsphfpd-git r29.d294d06-1 1
@@ -199,7 +195,6 @@ lib32-rtmpdump 1:2.4.r99.f1b83c1-1 1
 lib32-sratom 0.6.14-1 1
 libavresample 4.4.1-1 4
 libcotp 3.0.0-1 1
-libgaminggear 0.15.1-8 4
 libgksu 2.0.12-9 3
 libinput-gestures-qt 0.4-1 1
 liblogging 1.0.6-3 1
@@ -236,13 +231,10 @@ minq-ananicy-git 2.2.1.r331.g1568890-1 1
 mkinitcpio-openswap 0.1.0-3 1
 mmsd-git r648.f4b8b32-1 1
 moonlight-qt 6.0.1-1 1
-movie-monad 0.0.7.0_0-1 4
 mpd-notification 0.9.1-1 1
 mpv-full 0.38.0-1 2
 mugshot 0.4.3-3 4
-multibootusb 9.2.0-5 4
 musikcube 3.0.4-1 1
-nasc 0.8.0-2 3
 natron-git 1:1-1 1
 natron-plugins-git 2.1.7.r1201.gb0c499f-1 1
 neovim-drop-in 1-1 1
@@ -275,8 +267,6 @@ odr-dabmod-git 2.6.0.r0.g451a7fa-1 5
 ofono 1.34-1 2
 openbangla-keyboard 2.0.0-7 3
 openctm-tools 2:1.0.3-1 3
-openswan 3.0.0-1 1
-opentimelineio0.14 0.14.1-3 1
 orage 4.18.0-1 3
 orjail 1.1-2 1
 os-prober-btrfs 1.79-5 1
@@ -290,9 +280,10 @@ pacui 1.14-1 1
 pacvis-git 0.2.7.r12.g34f7494-1 6
 pakka 0.0.2-1 1
 paper-icon-theme-git 832.aa3e8af7-1 3
+paru 2.0.3-1 2
+paru-git 2.0.3.r2.g90656a9-1 1
 passbook 0.8-1 5
 passbook-git 0.8.r36.g750825d-1 5
-pcem 17-4 2
 pdf2png 0.5.3-1 3
 pdfquirk 0.95-1 3
 pebbles-git r445.5e5e455-1 3
@@ -322,7 +313,6 @@ pulseaudio-module-xrdp 0.7-1 2
 pulseeffects-legacy 4.8.7-1 5
 pure-ftpd 1.0.51-1 2
 python-acestream 0.2.0-2 1
-python-altgraph 0.17.4-1 1
 python-asyncio-dgram 1.2.0-1 4
 python-backoff 2.2.1-2 1
 python-caldav 1.3.9-2 1
@@ -338,7 +328,6 @@ python-exifread 3.0.0-2 4
 python-fasm-git 0.0.2.r100.gffafe82-1 4
 python-ffmpeg-python 0.2.0-6 1
 python-gevent-eventemitter 2.1-3 4
-python-gpxpy 1.6.2-1 1
 python-hdf5storage 0.1.19-2 1
 python-hwdata 2.4.1-1 1
 python-injector 0.21.0-1 1
@@ -354,19 +343,15 @@ python-manimpango 0.5.0-2 1
 python-moviepy 1.0.3-4 6
 python-musdb 0.3.1-1 1
 python-nanoid 2.0.0-3 1
-python-node-semver 0.8.1-2 3
 python-nototools 0.2.13-1 4
 python-openrgb-git v0.2.15.r16.g43c8bda-1 1
 python-palettable 3.3.3-2 1
-python-patch-ng 1.17.4-3 4
 python-pfzy 0.3.4-3 1
 python-pgzero 1.2.1-2 1
 python-pid 3.0.4-1 4
 python-playsound 1.3.0-2 4
-python-pluginbase 1.0.1-0 1
 python-posthog 3.5.0-1 1
 python-proglog 0.1.10-1 4
-python-proton-client 0.7.1-2 4
 python-py3nvml 0.2.7-1 4
 python-pyfuse3 3.3.0-1 1
 python-pypresence 4.3.0-2 1
@@ -382,9 +367,7 @@ python-simber 0.2.6-0 3
 python-simplediff 1.1-1 4
 python-simplematch 1.3-1 5
 python-single-version 1.6.0-1 1
-python-sphinx-intl 2.1.0-1 1
 python-sphinx-paramlinks 0.6.0-1 1
-python-sphinxcontrib-svg2pdfconverter 1.2.2-1 1
 python-srt 3.5.3-1 1
 python-steamgriddb 1.0.5-2 1
 python-stempeg 0.1.8-1 1
@@ -419,7 +402,6 @@ rclone-browser 1.8.0-3 3
 reaver-wps-fork-t6x-git 1.6.6.r21.bd0f382-1 1
 refind-btrfs 0.6.2-1 1
 relevation 1.3.1-4 1
-remmina-git 1.4.35.r51.gc4bcfc3fa-1 1
 remmina-plugin-anydesk-git 20200414-1 2
 remmina-plugin-teamviewer 1.3.0.0-4 1
 resp-app 2022.5-1 4
@@ -435,11 +417,8 @@ runescape-launcher 2.2.11-1 2
 scid 5.0.2-1 3
 scrap_engine-git 1.4.1-1 1
 sddm-git 0.21.0.22.g4ec29a8b-1 1
-sddm-theme-astronaut 1.0-1 3
 shadowsocks-gtk-rs 0.4.1-1 3
 shortwave 1:3.2.0-1 3
-silo-netflix 0.6-1 4
-silo-primevideo 0.5-1 4
 simple-mtpfs 0.4.0-1 1
 simpleitk 2.3.1-1 1
 simutrans-extended-git r22958.2e76934b3-1 1
@@ -450,10 +429,7 @@ snapper-tools 1.1.3-1 2
 snkrx-drmfree-git r118.6b93a64-1 3
 soapysdr-git 3:0.8.1.r94.g8c6cb7c-1 2
 solvespace 3.1-1 3
-soundcloud-nativefier 20230310-1 1
-soundux 0.2.7-3 2
 soundwire 3.0.0-4 4
-spectral-matrix-git 218.r648.g30028a2-1 5
 spleeter-git 2.4.0.r36.g13c771b-1 3
 split2flac 20200508-1 1
 srb2 2.2.13-1 1
@@ -467,7 +443,6 @@ swayfx 0.4-2 1
 swayhide 0.2.1-1 1
 swayidle-git 1.8.0.r12.g49d200e-1 1
 syncthing-gtk 0.9.4.5-1 2
-synfigstudio-dev 1.5.1-1 4
 systemd-boot-pacman-hook 3-1 3
 systemd-bootchart 235-1 1
 systemd-guest-user 33.2-1 2
@@ -485,7 +460,6 @@ timelineproject-hg 2.9.0.r7910-1 1
 timeshift-autosnap 0.9-1 3
 tlpui 2:1.6.5-1 1
 tor-router 1.5.3-1 1
-tpm2-pkcs11-git 1.9.0.r11.3f8d6e4-1 1
 tracktion-waveform 13.1.2-1 1
 trimage-git 1.0.6.r16.gad74684-1 5
 trizen 1:1.68-1 1
@@ -550,8 +524,3 @@ yt-dlg-git 1.2.0.r399.g264699b-1 1
 zandronum 3.1-2 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
-cpu-x 5.0.4-1 1
-cemu-git 2.2.r0.g1a4d9660-1 1
-paru 2.0.3-1 1
-paru-git 2.0.3.r2.g90656a9-1 1
-64gram-desktop 1:1.1.38-1 1
