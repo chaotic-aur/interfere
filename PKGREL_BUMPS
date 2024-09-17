@@ -2,6 +2,7 @@
 a2ln 1.1.14-4 1
 acestream-launcher 2.1.0-4 1
 acidrip 0.14-10 6
+across 0.1.3-3 1
 adbmanager 3.1-1 2
 agenda 1.1.2-1 4
 agg-2.6-git r153.c4f36b4-1 1
@@ -114,7 +115,7 @@ gconf 3.2.6+11+g07808097-10 4
 gdm-prime 46.2-1 1
 gdm-settings 4.4-2 1
 gdm-settings-git 4.3+17+g4949544-1 0
-giada 1.0.0-1 1
+giada 1.0.0-1 2
 gigolo 0.5.2-1 3
 gimp-elsamuko-git r90.ac9a756-1 2
 gimp-extras 2.0.4-1 4
@@ -138,7 +139,7 @@ gnome-terminal-transparency 3.52.2-2 1
 goldendict-webengine-pr-git 22.12.02.r80.5a87a715.718462c5-1 1
 googlemaps 20220503-1 2
 gr-ieee802-11-git r367.ce70973-1 2
-gr-limesdr-git 3.0.1.r69.gd0fac85-2 2
+gr-limesdr-git 3.0.1.r69.gd0fac85-2 3
 graphite-cursor-theme-git 2021.11.26.r9.g8773e95-1 2
 grass 8.4.0-1 1
 green-recorder 3.2.10-1 5
@@ -163,7 +164,7 @@ jamesdsp-pulse 2.7.0-4 1
 jdanimatedimageeditor 1.4-1 2
 jdminecraftlauncher 6.0-1 1
 jdownloader2 latest-19 1
-jellyfin-media-player 1.11.1-2 1
+jellyfin-media-player 1.11.1-2 2
 jitsi 2.11.5633-1 1
 jmencode 0.64-6 5
 kazam 1.4.5-9 6
@@ -171,7 +172,7 @@ kdocker 5.4-1 3
 kega-fusion 3.63-17 3
 kernel-install-mkinitcpio 1.8-1 1
 komorebi 2.2.1-1 3
-kotatogram-desktop-git 1.4.15.2.r1022.gbc58b5f-1 2
+kotatogram-desktop-git 1.4.15.2.r1022.gbc58b5f-1 3
 kvantum-theme-matcha-git r11.a3b247b-1 3
 kvantum-theme-vimix-git 2021.09.05.r15.g29c4316-1 2
 kwin-effects-kinetic 2.0-1 1
@@ -208,6 +209,7 @@ logstalgia 1.1.2-1 5
 lokinet 0.9.11-5 4
 luckybackup 0.5.0-1 4
 masterpdfeditor-free 4.3.89-1 3
+mastodon 4.2.12-1 1
 mate-hud 22.10.3-1 5
 mate-menu 22.04.2-1 4
 mate-tweak 22.10.0-3 4
@@ -218,11 +220,13 @@ maxcso-git 1.13.0.r36.961f232c-1 1
 mcmojave-cursors-git r11.7d0bfc1-1 1
 mcomix 3.1.0-1 1
 mcpelauncher-linux-git 0.15.2.r9.g88f7a73-1 1
+mcpelauncher-ui-git 1.0.1.r0.g992bc7b-1 1
 mcstatus 9.4.2-1 5
 memavaild 0.6-2 4
 mendeleydesktop 1.19.8-1 4
 menulibre 1:2.4.0-1 1
 meowsql 0.4.18-1 3
+micromamba 1.5.8-2 1
 minq-ananicy-git 2.2.1.r331.g1568890-1 1
 mkinitcpio-openswap 0.1.0-3 1
 mmsd-git r648.f4b8b32-1 1
@@ -269,6 +273,7 @@ orjail 1.1-2 1
 os-prober-btrfs 1.79-5 1
 osdlyrics-git 0.5.15.r1.g33dc42a-1 2
 otf-firamath 0.4_beta_3-1 2
+otpclient 4.0.2-1 1
 overdue 1.1.1-1 3
 pa-applet-git r19.3b4f8b3-8 3
 pace 1.4.2-1 3
@@ -297,7 +302,7 @@ plasma5-applets-corner-menu 5.94d91bd-1 1
 plasma5-applets-latte-separator 0.1.2-1 1
 plasma5-applets-plasma-drawer 1.4-1 1
 plasma6-wallpapers-blurredwallpaper 3.0.1-1 1
-plex-media-player 2.58.1-3 11
+plex-media-player 2.58.1-3 12
 plots 0.8.5-1 1
 pm-utils 1.4.1-8 2
 pokemon-colorscripts-git r112.0483c85b-2 1
@@ -352,7 +357,6 @@ python-posthog 3.5.0-1 1
 python-proglog 0.1.10-1 4
 python-py3nvml 0.2.7-1 4
 python-pyfuse3 3.3.0-1 1
-python-pypresence 4.3.0-2 1
 python-pyro5 5.15-1 1
 python-pysdl2 0.9.16-1 1
 python-pywhat 5.1.0-4 3
@@ -434,7 +438,6 @@ ssacli 4.21.7.0-1 1
 steamtinkerlaunch 12.12-1 2
 stylepak-git 18.0c4b0c1-1 3
 supergfxctl 5.2.1-1 1
-suyu-dev-qt6-git r27440.4eb41467f8-1 1
 swayfx 0.4-2 1
 swayhide 0.2.1-1 1
 swayidle-git 1.8.0.r12.g49d200e-1 1
