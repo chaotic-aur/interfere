@@ -1,4 +1,0 @@
-
-unset makedepends_aarch64
-unset checkdepends
-unset -f check
