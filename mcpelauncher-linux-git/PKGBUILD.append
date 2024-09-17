@@ -1,5 +1,0 @@
-# https://github.com/minecraft-linux/libc-shim/issues/33
-
-export CFLAGS CXXFLAGS
-CFLAGS="${CFLAGS//*FORTIFY_SOURCE*/}"
-CXXFLAGS="${CXXFLAGS//*FORTIFY_SOURCE*/}"
