@@ -1,27 +1,136 @@
+# Maintainer:
+
+_pkgname="cemu"
+pkgname="$_pkgname-git"
+pkgver=2.2.r3.g8508c62
+pkgrel=1
+pkgdesc="Nintendo Wii U emulator"
 url="https://github.com/cemu-project/Cemu"
+license=('MPL-2.0')
+arch=('x86_64')
 
-depends=(${depends[@]//hicolor-icon-theme/})
-depends=(${depends[@]//discord-rpc/})
+depends=(
+  'glslang'
+  'libx11'
+  'pugixml'
+  'sdl2'
+  'wxwidgets-gtk3'
+)
+makedepends=(
+  'boost'
+  'cmake'
+  'cubeb'
+  'curl'
+  'git'
+  'glib2'
+  'glm'
+  'glu'
+  'gtk3'
+  'hidapi'
+  'libgl'
+  'libpng'
+  'libusb'
+  'libzip'
+  'nasm'
+  'ninja'
+  'openssl'
+  'rapidjson'
+  'vulkan-headers'
+  'wayland'
+  'wayland-protocols'
+  'zarchive'
+  'zlib'
+  'zstd'
+)
 
-makedepends+=('ninja')
+provides=("$_pkgname=${pkgver%%.r*}")
+conflicts=("$_pkgname")
 
-build() {
+_source_main() {
+  _pkgsrc="$_pkgname"
+  source=(
+    "$_pkgsrc"::"git+$url.git"
+    "imgui"::"git+https://github.com/ocornut/imgui.git"
+  )
+  sha256sums=(
+    'SKIP'
+    'SKIP'
+  )
+}
+
+_source_fmt() {
+  #_commit_fmt='a33701196adfad74917046096bf5a2aa0ab0bb50' # 9.1.0
+  _commit_fmt='e69e5f977d458f2650bb346dadf2ad30c5320281' # 10.2.1
+
+  source+=("fmtlib.fmt"::"git+https://github.com/fmtlib/fmt.git#commit=$_commit_fmt")
+  sha256sums+=('SKIP')
+}
+
+_source_main
+_source_fmt
+
+prepare() {
+  cd "$_pkgsrc"
+  git config submodule.dependencies/imgui.url ../imgui
+  git -c protocol.file.allow=always submodule update
+  sed -i '/CMAKE_INTERPROCEDURAL_OPTIMIZATION/d' CMakeLists.txt
+  sed -i '/discord-rpc/d' CMakeLists.txt
+  sed -i '/FMT_HEADER_ONLY/d' src/Common/precompiled.h
+}
+
+pkgver() {
+  cd "$_pkgsrc"
+  git describe --long --tags --abbrev=7 --exclude='*[a-zA-Z][a-zA-Z]*' \
+    | sed -E 's/^[^0-9]*//;s/([^-]*-g)/r\1/;s/-/./g'
+}
+
+_build_fmt() {
+  echo "Building fmt..."
+
+  local _cmake_options=(
+    -B build_fmt
+    -S "fmtlib.fmt"
+    -G Ninja
+    -DCMAKE_BUILD_TYPE=None
+    -DCMAKE_INSTALL_PREFIX='/usr'
+    -DFMT_CMAKE_DIR='lib/cmake/fmt'
+    -DFMT_DOC=OFF
+    -DFMT_INC_DIR='include/fmt'
+    -DFMT_PKGCONFIG_DIR='lib/fmt/pkgconfig'
+    -DBUILD_SHARED_LIBS=OFF
+    -Wno-dev
+  )
+
+  cmake "${_cmake_options[@]}"
+  cmake --build build_fmt
+  DESTDIR="$srcdir/deps" cmake --install build_fmt
+}
+
+_build_main() {
+  echo "Building cemu..."
+
   export CFLAGS CXXFLAGS
   CFLAGS+=' -DNDEBUG'
   CXXFLAGS+=' -DNDEBUG'
 
   local _cmake_options=(
     -B build
-    -S "$_pkgname"
+    -S "$_pkgsrc"
     -G Ninja
     -DCMAKE_BUILD_TYPE=None
     -DENABLE_DISCORD_RPC=OFF
     -DENABLE_VCPKG=OFF
+    -Dfmt_DIR="$srcdir/deps/usr/lib/cmake/fmt"
     -Wno-dev
   )
 
   cmake "${_cmake_options[@]}"
   cmake --build build
+}
+
+build() {
+  (_build_fmt)
+  (_build_main)
 }
 
 package() {
@@ -30,7 +139,6 @@ package() {
     'libcrypto.so'
     'libcubeb.so'
     'libcurl.so'
-    'libfmt.so'
     'libgdk-3.so'
     'libgobject-2.0.so'
     'libgtk-3.so'
@@ -44,7 +152,7 @@ package() {
     'libzstd.so'
   )
 
-  cd "$_pkgname"
+  cd "$_pkgsrc"
 
   install -dm755 "$pkgdir"/usr/{bin,share/Cemu}
   mv bin/Cemu_none "$pkgdir"/usr/bin/Cemu
