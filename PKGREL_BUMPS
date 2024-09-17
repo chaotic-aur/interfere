@@ -1,4 +1,4 @@
-64gram-desktop 1:1.1.38-1 1
+64gram-desktop 1:1.1.38-1 2
 a2ln 1.1.14-4 1
 acestream-launcher 2.1.0-4 1
 acidrip 0.14-10 6
@@ -45,7 +45,6 @@ catia-git r1062.78b0307-1 3
 catt 0.12.12-1 1
 cava 0.10.2-2 1
 cecilia-git 5.4.1.r15.gc592f8e-1 3
-cemu-git 2.2.r0.g1a4d9660-1 1
 cfs-zen-tweaks 1.3.0-1 1
 chemtool 1.6.14-4 1
 ckb-next 0.6.0-1 1
@@ -112,7 +111,6 @@ fvs 0.3.4-2 2
 gamehub 0.16.3.2-2 2
 gcdemu 3.2.6-1 3
 gconf 3.2.6+11+g07808097-10 4
-gdcm 3.0.23-1 1
 gdm-prime 46.2-1 1
 gdm-settings 4.4-2 1
 gdm-settings-git 4.3+17+g4949544-1 0
@@ -420,7 +418,6 @@ sddm-git 0.21.0.22.g4ec29a8b-1 1
 shadowsocks-gtk-rs 0.4.1-1 3
 shortwave 1:3.2.0-1 3
 simple-mtpfs 0.4.0-1 1
-simpleitk 2.3.1-1 1
 sirula-git r68.b15efe8-1 1
 smooth 0.9.10-1 2
 snapper-gui-git 0.1+8.r132.20220626.1915750-1 0
