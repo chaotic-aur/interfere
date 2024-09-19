@@ -127,7 +127,6 @@ gmusicbrowser 1.1.16-1 1
 gnome-gesture-improvements r201.f007cac-2 2
 gnome-icon-theme 3.12.0-7 1
 gnome-icon-theme-symbolic 3.12.0-6 1
-gnome-shell-extension-compiz-windows-effect-git r35.fb094e0-2 1
 gnome-shell-extension-gnome-ui-tune-git 1.9.0.r0.g738bb67-1 1
 gnome-shell-extension-gsconnect 2:57-1 1
 gnome-shell-extension-material-shell 44-1 2
@@ -135,11 +134,9 @@ gnome-shell-extension-rounded-window-corners 11-5 1
 gnome-shell-extension-space-bar-git 27.r0.g14b3ef5-1 1
 gnome-shell-extension-top-bar-organizer 10-3 1
 gnome-shell-extension-x11gestures 17-1 2
-gnome-terminal-transparency 3.52.2-2 1
 goldendict-webengine-pr-git 22.12.02.r80.5a87a715.718462c5-1 1
 googlemaps 20220503-1 2
 gr-ieee802-11-git r367.ce70973-1 2
-gr-limesdr-git 3.0.1.r69.gd0fac85-2 3
 graphite-cursor-theme-git 2021.11.26.r9.g8773e95-1 2
 grass 8.4.0-1 1
 green-recorder 3.2.10-1 5
@@ -172,7 +169,6 @@ kdocker 5.4-1 3
 kega-fusion 3.63-17 3
 kernel-install-mkinitcpio 1.8-1 1
 komorebi 2.2.1-1 3
-kotatogram-desktop-git 1.4.15.2.r1022.gbc58b5f-1 3
 kvantum-theme-matcha-git r11.a3b247b-1 3
 kvantum-theme-vimix-git 2021.09.05.r15.g29c4316-1 2
 kwin-effects-kinetic 2.0-1 1
@@ -219,18 +215,15 @@ matrix-registration 0.9.1-2 6
 maxcso-git 1.13.0.r36.961f232c-1 1
 mcmojave-cursors-git r11.7d0bfc1-1 1
 mcomix 3.1.0-1 1
-mcpelauncher-linux-git 0.15.2.r9.g88f7a73-1 1
 mcpelauncher-ui-git 1.0.1.r0.g992bc7b-1 1
 mcstatus 9.4.2-1 5
 memavaild 0.6-2 4
 mendeleydesktop 1.19.8-1 4
 menulibre 1:2.4.0-1 1
 meowsql 0.4.18-1 3
-micromamba 1.5.8-2 1
 minq-ananicy-git 2.2.1.r331.g1568890-1 1
 mkinitcpio-openswap 0.1.0-3 1
 mmsd-git r648.f4b8b32-1 1
-moonlight-qt 6.0.1-1 1
 mpd-notification 0.9.1-1 1
 mpv-full 0.38.0-1 2
 mugshot 0.4.3-3 4
@@ -284,7 +277,6 @@ pacvis-git 0.2.7.r12.g34f7494-1 6
 pakka 0.0.2-1 1
 paper-icon-theme-git 832.aa3e8af7-1 3
 paru 2.0.3-1 2
-paru-git 2.0.3.r2.g90656a9-1 2
 passbook 0.8-1 5
 passbook-git 0.8.r36.g750825d-1 5
 pdf2png 0.5.3-1 3
@@ -314,7 +306,6 @@ protonup-git 0.1.5.r4.g4ff9d54-1 1
 pspp 2.0.1-2 1
 pulseaudio-module-xrdp 0.7-1 2
 pulseeffects-legacy 4.8.7-1 5
-pure-ftpd 1.0.51-1 2
 python-acestream 0.2.0-2 1
 python-asyncio-dgram 1.2.0-1 4
 python-backoff 2.2.1-2 1
@@ -389,7 +380,6 @@ python39 3.9.19-1 1
 pyzbar 0.1.9-1 5
 q4wine-git 1.3.13.4.g82ced8e-1 3
 qadwaitadecorations 0.1.5-1 1
-qflipper 1.3.3-1 1
 qoob-git 0.2.1.r0.g2e3ed22-1 8
 qpdftools 2.0.4-0 3
 qt-jdenticon 0.3.0-1 4
@@ -523,3 +513,4 @@ yt-dlg-git 1.2.0.r399.g264699b-1 1
 zandronum 3.1-2 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
+waybar-git r3666.ac1a4229-1 1
