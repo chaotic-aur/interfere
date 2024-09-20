@@ -1,4 +1,3 @@
-64gram-desktop 1:1.1.38-1 2
 a2ln 1.1.14-4 1
 acestream-launcher 2.1.0-4 1
 acidrip 0.14-10 6
@@ -131,12 +130,11 @@ gnome-shell-extension-gnome-ui-tune-git 1.9.0.r0.g738bb67-1 1
 gnome-shell-extension-gsconnect 2:57-1 1
 gnome-shell-extension-material-shell 44-1 2
 gnome-shell-extension-rounded-window-corners 11-5 1
-gnome-shell-extension-space-bar-git 27.r0.g14b3ef5-1 1
 gnome-shell-extension-top-bar-organizer 10-3 1
 gnome-shell-extension-x11gestures 17-1 2
 goldendict-webengine-pr-git 22.12.02.r80.5a87a715.718462c5-1 1
 googlemaps 20220503-1 2
-gr-ieee802-11-git r367.ce70973-1 2
+gr-ieee802-11-git r367.ce70973-1 3
 graphite-cursor-theme-git 2021.11.26.r9.g8773e95-1 2
 grass 8.4.0-1 1
 green-recorder 3.2.10-1 5
@@ -276,7 +274,6 @@ pacui 1.14-1 1
 pacvis-git 0.2.7.r12.g34f7494-1 6
 pakka 0.0.2-1 1
 paper-icon-theme-git 832.aa3e8af7-1 3
-paru 2.0.3-1 2
 passbook 0.8-1 5
 passbook-git 0.8.r36.g750825d-1 5
 pdf2png 0.5.3-1 3
@@ -513,4 +510,3 @@ yt-dlg-git 1.2.0.r399.g264699b-1 1
 zandronum 3.1-2 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
-waybar-git r3666.ac1a4229-1 1
