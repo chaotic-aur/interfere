@@ -127,7 +127,6 @@ gmusicbrowser 1.1.16-1 1
 gnome-gesture-improvements r201.f007cac-2 2
 gnome-icon-theme 3.12.0-7 1
 gnome-icon-theme-symbolic 3.12.0-6 1
-gnome-shell-extension-gnome-ui-tune-git 1.9.0.r0.g738bb67-1 1
 gnome-shell-extension-gsconnect 2:57-1 1
 gnome-shell-extension-material-shell 44-1 2
 gnome-shell-extension-rounded-window-corners 11-5 1
@@ -515,3 +514,4 @@ yt-dlg-git 1.2.0.r399.g264699b-1 1
 zandronum 3.1-2 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
+ffmpeg-full 2:7.0.2-1 1
