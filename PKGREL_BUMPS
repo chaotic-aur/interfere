@@ -27,7 +27,6 @@ bauh 0.10.7-1 1
 bcache-tools 1.1-1 2
 betterdiscordctl-git 2.0.1.r2.g49a26fe-1 1
 blackbox-terminal 0.14.0-2 1
-blockbench-git 4.2.5-1 6
 blockout2 2.5-2 4
 bluetooth-autoconnect 1.3-1 5
 boca 1:1.0.7-1 3
@@ -130,7 +129,6 @@ gnome-icon-theme-symbolic 3.12.0-6 1
 gnome-shell-extension-gsconnect 2:57-1 1
 gnome-shell-extension-material-shell 44-1 2
 gnome-shell-extension-rounded-window-corners 11-5 1
-gnome-shell-extension-top-bar-organizer 10-3 1
 gnome-shell-extension-x11gestures 17-1 2
 goldendict-webengine-pr-git 22.12.02.r80.5a87a715.718462c5-1 1
 googlemaps 20220503-1 2
@@ -190,7 +188,7 @@ libgksu 2.0.12-9 3
 libinput-gestures-qt 0.4-1 1
 liblogging 1.0.6-3 1
 libopenglrecorder 0.1.0-1 4
-libpamac-flatpak 1:11.6.4-1 1
+libpamac-flatpak 1:11.6.4-1 2
 libreswan 5.0-1 1
 librewolf-extension-gnome-shell-integration 11.1-2 1
 librewolf-extension-plasma-integration 1.9-1 1
@@ -223,7 +221,6 @@ minq-ananicy-git 2.2.1.r331.g1568890-1 1
 mkinitcpio-openswap 0.1.0-3 1
 mmsd-git r648.f4b8b32-1 1
 mpd-notification 0.9.1-1 1
-mpv-full 0.38.0-1 2
 mugshot 0.4.3-3 4
 musikcube 3.0.4-1 1
 natron-git 1:1-1 1
@@ -282,7 +279,6 @@ pebbles-git r445.5e5e455-1 3
 perl-file-rename 2.01-1 1
 phonesim 2.0.r0.ga55ada2-1 2
 phoronix-test-suite 10.8.4-1 1
-pika-backup 1:0.7.2-2 1
 pip-tools 7.4.1-1 1
 pjproject 2.14.1-2 1
 plasma-applets-weather-widget-2 3.0.4-1 1
@@ -481,7 +477,6 @@ vital-synth 1.5.5-1 3
 vkbasalt-cli 3.1.1-2 1
 vmware-keymaps 1.0-3 2
 vscodium-marketplace 1.65.0-1 3
-waybar-git r3678.21af48fd-1 1
 waypipe-git 0.9.1.r0.g4b62e79-1 1
 wdisplays-git 1.1.r15.g6233901-1 1
 webwatcher-git r24.3d3099f-2 2
@@ -515,3 +510,4 @@ zandronum 3.1-2 3
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
 ffmpeg-full 2:7.0.2-1 1
+pamac-flatpak 11.7.1-1 1
