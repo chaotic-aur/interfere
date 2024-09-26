@@ -1,13 +1,13 @@
+64gram-desktop 1:1.1.39-1 1
 a2ln 1.1.14-4 1
 acestream-launcher 2.1.0-4 1
 acidrip 0.14-10 6
-across 0.1.3-3 1
+across 0.1.3-3 2
 adbmanager 3.1-1 2
 agenda 1.1.2-1 4
 agg-2.6-git r153.c4f36b4-1 1
 akira 0.0.16-1 5
 alpm_octopi_utils 1.0.2-7 1
-amberol 0.10.3-1 1
 ananicy 2.2.1-1 5
 ananicy-cpp-git 1.1.1.r5.g097d79f-1 1
 android-sdk 26.1.1-2 2
@@ -55,7 +55,6 @@ connman-gtk 1.1.1-2 4
 cpu-x 5.0.4-1 1
 cpupower-gui 1.0.0-5 3
 crazydiskinfo 1.1.0-2 2
-criterion 2.4.2-2 1
 crossover 24.0.4-1 1
 crudini 0.9.5-2 1
 curlew 0.2.5-4 1
@@ -103,6 +102,7 @@ fontdownloader 10.0.0-1 3
 fontfinder 1.4.1-1 3
 fonts-tlwg 0.7.3-1 1
 foobillard++ 3.42beta-7 3
+forkgram 5.5.5-1 1
 freac 1.1.7-1 2
 fujprog 4.8-1 1
 fuse-emulator 1.6.0-3 2
@@ -115,7 +115,6 @@ gdm-prime 46.2-1 1
 gdm-settings 4.4-2 1
 gdm-settings-git 4.3+17+g4949544-1 0
 giada 1.0.0-1 2
-gigolo 0.5.2-1 3
 gimp-elsamuko-git r90.ac9a756-1 2
 gimp-extras 2.0.4-1 4
 gimp-plugin-normalmap 1.2.3-2 4
@@ -130,7 +129,6 @@ gnome-shell-extension-gsconnect 2:57-1 1
 gnome-shell-extension-material-shell 44-1 2
 gnome-shell-extension-rounded-window-corners 11-5 1
 gnome-shell-extension-x11gestures 17-1 2
-goldendict-webengine-pr-git 22.12.02.r80.5a87a715.718462c5-1 1
 googlemaps 20220503-1 2
 gr-foo-git r175.0a34f68-1 1
 gr-ieee802-11-git r367.ce70973-1 3
@@ -158,12 +156,13 @@ jamesdsp-pulse 2.7.0-4 1
 jdanimatedimageeditor 1.4-1 2
 jdminecraftlauncher 6.0-1 1
 jdownloader2 latest-19 1
-jellyfin-media-player 1.11.1-2 2
+jellyfin-media-player 1.11.1-2 3
 jitsi 2.11.5633-1 1
 jmencode 0.64-6 5
 kazam 1.4.5-9 6
 kega-fusion 3.63-17 3
 kernel-install-mkinitcpio 1.8-1 1
+kicad-git 8.99.0.r1933.g91ad3d2a08-1 1
 komorebi 2.2.1-1 3
 kvantum-theme-matcha-git r11.a3b247b-1 3
 kvantum-theme-vimix-git 2021.09.05.r15.g29c4316-1 2
@@ -201,7 +200,7 @@ logstalgia 1.1.2-1 5
 lokinet 0.9.11-5 4
 luckybackup 0.5.0-1 4
 masterpdfeditor-free 4.3.89-1 3
-mastodon 4.2.12-1 1
+mastodon 4.2.12-1 2
 mate-hud 22.10.3-1 5
 mate-menu 22.04.2-1 4
 mate-tweak 22.10.0-3 4
@@ -211,12 +210,11 @@ matrix-registration 0.9.1-2 6
 maxcso-git 1.13.0.r36.961f232c-1 1
 mcmojave-cursors-git r11.7d0bfc1-1 1
 mcomix 3.1.0-1 1
-mcpelauncher-ui-git 1.0.1.r0.g992bc7b-1 1
+mcpelauncher-ui-git 1.0.1.r0.g992bc7b-1 2
 mcstatus 9.4.2-1 5
 memavaild 0.6-2 4
 mendeleydesktop 1.19.8-1 4
 menulibre 1:2.4.0-1 1
-minetest-git 1:5.9.0.r155.g4ac86db8e3-1 1
 minq-ananicy-git 2.2.1.r331.g1568890-1 1
 mkinitcpio-openswap 0.1.0-3 1
 mmsd-git r648.f4b8b32-1 1
@@ -225,6 +223,7 @@ mugshot 0.4.3-3 4
 musikcube 3.0.4-1 1
 natron-git 1:1-1 1
 natron-plugins-git 2.1.7.r1201.gb0c499f-1 1
+nekoray 4.0.beta3-5 1
 neovim-drop-in 1-1 1
 neovim-gtk 1.0.4-1 1
 neovim-remote 2.5.1-1 4
@@ -256,12 +255,11 @@ odr-dabmod-git 2.6.0.r0.g451a7fa-1 5
 ofono 1.34-1 2
 openbangla-keyboard 2.0.0-7 3
 openctm-tools 2:1.0.3-1 3
-orage 4.18.0-1 3
 orjail 1.1-2 1
 os-prober-btrfs 1.79-5 1
 osdlyrics-git 0.5.15.r1.g33dc42a-1 2
 otf-firamath 0.4_beta_3-1 2
-otpclient 4.0.2-1 1
+otpclient 4.0.2-1 2
 overdue 1.1.1-1 3
 pa-applet-git r19.3b4f8b3-8 3
 pace 1.4.2-1 3
@@ -287,10 +285,11 @@ plasma5-applets-corner-menu 5.94d91bd-1 1
 plasma5-applets-latte-separator 0.1.2-1 1
 plasma5-applets-plasma-drawer 1.4-1 1
 plasma6-wallpapers-blurredwallpaper 3.0.1-1 1
-plex-media-player 2.58.1-3 12
+plex-media-player 2.58.1-3 13
 plots 0.8.5-1 1
 pm-utils 1.4.1-8 2
 pokemon-colorscripts-git r112.0483c85b-2 1
+pokerth 1.1.2-44 1
 polybar-git 3.7.2.r20.ga66c5fd9-1 1
 pop-shell-shortcuts-git 1:r30.52cc83f-2 3
 prelockd 0.9-3 1
@@ -327,7 +326,6 @@ python-itunespy 1.6-2 4
 python-kiss-headers 2.4.3-1 1
 python-landlock 1.0.0.dev4-1 1
 python-liblarch 3.2.0-2 1
-python-manimpango 0.5.0-2 1
 python-moviepy 1.0.3-4 6
 python-musdb 0.3.1-1 1
 python-nanoid 2.0.0-3 1
@@ -355,7 +353,6 @@ python-simplediff 1.1-1 4
 python-simplematch 1.3-1 5
 python-single-version 1.6.0-1 1
 python-sphinx-paramlinks 0.6.0-1 1
-python-srt 3.5.3-1 1
 python-steamgriddb 1.0.5-2 1
 python-stempeg 0.1.8-1 1
 python-survey 5.3.0-1 1
@@ -404,7 +401,6 @@ scid 5.0.2-1 3
 scrap_engine-git 1.4.1-1 1
 sddm-git 0.21.0.22.g4ec29a8b-1 1
 shadowsocks-gtk-rs 0.4.1-1 3
-shortwave 1:3.2.0-1 3
 simple-mtpfs 0.4.0-1 1
 sirula-git r68.b15efe8-1 1
 smooth 0.9.10-1 2
@@ -421,9 +417,10 @@ srb2 2.2.13-1 1
 srb2kart 1.6-1 2
 ssacli 4.21.7.0-1 1
 steamtinkerlaunch 12.12-1 2
+strawberry-full-git 1.2.0.r31.g517a8bae-1 1
+strawberry-git 1.2.0.r31.g517a8bae-1 1
 stylepak-git 18.0c4b0c1-1 3
 supergfxctl 5.2.1-1 1
-swayfx 0.4-2 1
 swayhide 0.2.1-1 1
 swayidle-git 1.8.0.r12.g49d200e-1 1
 syncthing-gtk 0.9.4.5-1 2
@@ -439,7 +436,6 @@ themix-icons-gnome-colors-git 5.5.6.r0.gd2cb7eb-2 3
 themix-icons-suru-plus-aspromauros-git 3.0.r0.gd43a8ec4-2 2
 themix-icons-suru-plus-git 30.0.r2.g9bd895f32-2 1
 thonny 4.1.4-1 1
-thunar-shares-plugin 1:0.3.2-1 2
 thunarx-python 1:0.5.2-2 4
 timelineproject-hg 2.9.0.r7910-1 1
 timeshift-autosnap 0.9-1 3
@@ -495,9 +491,7 @@ write_stylus 300.r469-1 3
 xbox-generic-controller 0.1.2-1 5
 xcb-proto-git 1.17.0.r0.g77d7fc0-1 1
 xfce-theme-manager 3.8-2 3
-xfce4-panel-profiles 1.0.14-2 2
 xfce4-windowck-plugin-xfwm4-theme-support 1:0.4.5+139+g23d3432-1 3
-xfdashboard 1.0.0-1 3
 xkcdpass 1.19.9-1 1
 xml-security-c 2.0.4-1 3
 xplayer-plparser 1.0.3-2 1
