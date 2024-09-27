@@ -1,5 +1,7 @@
 pkgname="wine-stable"
 
+pkgrel="$(((pkgrel - pkgrel % 5) / 5 + 1))"
+
 provides=("wine=$pkgver")
 conflicts=("wine")
 
