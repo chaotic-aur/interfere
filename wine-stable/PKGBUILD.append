@@ -33,7 +33,7 @@ _check_rebuild() {
     if [ -z "$_response" ]; then
       _new_pkgrel="$_old_pkgrel"
     else
-      _new_pkgrel="$((_old_pkgrel + 1))"
+      _new_pkgrel="$pkgrel"
     fi
   fi
 
