@@ -31,7 +31,6 @@ blackbox-terminal 0.14.0-2 1
 blockout2 2.5-2 4
 bluetooth-autoconnect 1.3-1 5
 boca 1:1.0.7-1 3
-bolt-launcher 0.9.0-1 2
 bookletimposer 1:0.3.1-2 1
 bootiso 4.2.0-1 2
 borg2 2.0.0b9-3 1
@@ -86,7 +85,6 @@ dynamic-wallpaper-editor 2.7-2 4
 easystroke 0.6.0-24 4
 easytether-bin 0.8.9-1 1
 eka2l1-git 5852.e67f84dc6-1 1
-emacs-ng-git 1:r166863.gdbf1cc80538-1 2
 emerald-gtk3 0.8.18-2 7
 emulationstation 2.11.2-1 4
 enve-git continuous.linux.r68.gd919d4d3-1 3
@@ -179,6 +177,7 @@ kotatogram-desktop-git 1.5.0.4.r1005.g0581eb6-1 1
 krathalans-apparmor-profiles-git r710.f392b7f-1 1
 kvantum-theme-matcha-git r11.a3b247b-1 3
 kvantum-theme-vimix-git 2021.09.05.r15.g29c4316-1 2
+kwin-effects-forceblur 1.3.2-1 1
 kwin-effects-kinetic 2.0-1 1
 kwin-polonium 1.0rc-1 1
 kwin-scripts-truely-maximized 1.1.0-1 1
@@ -297,6 +296,7 @@ phonesim 2.0.r0.ga55ada2-1 2
 phoronix-test-suite 10.8.4-1 1
 photoqt 4.6-2 1
 pip-tools 7.4.1-1 1
+pix 3.4.3-1 1
 pjproject 2.14.1-2 1
 plasma-applets-weather-widget-2 3.0.4-1 1
 plasma5-applets-control-centre 0.1.0-1 1
@@ -419,7 +419,6 @@ rtl-sdr-git 2.0.2.0.g619ac31-1 1
 runescape-launcher 2.2.11-1 2
 scid 5.0.2-1 3
 scrap_engine-git 1.4.1-1 1
-sddm-git 0.21.0.22.g4ec29a8b-1 1
 shadowsocks-gtk-rs 0.4.1-1 3
 sigil-git 2.3.1.r13.ge1e72802-1 1
 simple-mtpfs 0.4.0-1 1
@@ -507,7 +506,6 @@ write_stylus 300.r469-1 3
 xbox-generic-controller 0.1.2-1 5
 xfce-theme-manager 3.8-2 3
 xfce4-windowck-plugin-xfwm4-theme-support 1:0.4.5+139+g23d3432-1 3
-xkcdpass 1.19.9-1 1
 xml-security-c 2.0.4-1 3
 xplayer-plparser 1.0.3-2 1
 xviewer-plugins 1.4.1-3 3
@@ -521,4 +519,3 @@ zapzap 5.3.7-1 1
 zenpower-dkms-git 46.5e2f56f-1 2
 zenpower3-dkms 0.2.0-3 2
 zerotier-gui-git 1.4.0.r91.fec2c39-1 1
-kwin-effects-forceblur 1.3.2-1 1
